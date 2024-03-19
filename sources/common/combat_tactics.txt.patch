@@ -1,0 +1,8 @@
+719a720,726
+> 		OR = {
+> 		    is_fighting_in_terrain = urban
+> 		    is_fighting_in_terrain = jungle
+> 		    is_fighting_in_terrain = mountain
+> 		    is_fighting_in_terrain = forest
+> 		    is_fighting_in_terrain = marsh
+> 		}
