@@ -1,0 +1,14 @@
+19c19,29
+< 
+---
+> CAN_canadian_pacific_organization  = {
+> 	name = CAN_canadian_pacific_organization
+> 	include = generic_infantry_tank_organization
+> 	icon = GFX_idea_vickers_armstrong_eng
+> 	allowed = {
+> 		TAG = CAN
+> 	}
+> 	available = {
+> 		FROM = { has_completed_focus = CAN_the_valentine_tank }
+> 	}	
+> }

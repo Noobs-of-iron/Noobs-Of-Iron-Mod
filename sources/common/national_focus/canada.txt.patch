@@ -1,0 +1,41 @@
+2378,2393c2378,2400
+< 		completion_reward = {
+< 			add_tech_bonus = {
+< 				name = CAN_the_valentine_tank
+< 				bonus = 1.0
+< 				uses = 1
+< 				category = armor
+< 			}
+< 			add_tech_bonus = {
+< 				name = CAN_the_valentine_tank
+< 				ahead_reduction = 2
+< 				bonus = 1.0
+< 				uses = 1
+< 				category = cat_light_armor
+< 			}
+< 		}
+< 	}
+---
+>         completion_reward = {
+>             IF = {
+>                 limit = {
+>                     has_dlc = "Arms Against Tyranny"
+>                 }
+>                 custom_effect_tooltip = available_mio_tt
+>                 show_mio_tooltip = CAN_canadian_pacific_organization
+>             }
+>             add_tech_bonus = {
+>                 name = CAN_the_valentine_tank
+>                 bonus = 1.0
+>                 uses = 1
+>                 category = armor
+>             }
+>             add_tech_bonus = {
+>                 name = CAN_the_valentine_tank
+>                 ahead_reduction = 2
+>                 bonus = 1.0
+>                 uses = 1
+>                 category = cat_heavy_armor
+>             }    
+>         }
+>     }
