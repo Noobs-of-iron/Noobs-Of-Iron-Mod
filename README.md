@@ -3,7 +3,7 @@ When the noobs get too much time on their hands, this is the result.
 
 This mod was brought to you by the Linux Gang.
 
-## About the Mod
+## About the mod
 
 The Noobs Of Iron Mod for Hearts of Iron IV initially aimed to enforce game rules. However, it now includes balance changes, additional events, focus tree alterations, and occasional game fixes (we're looking at you, supply in Spain).
 
