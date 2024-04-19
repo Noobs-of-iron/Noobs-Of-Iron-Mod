@@ -2,7 +2,7 @@ ideas = {
     country = {
         #sov spirit of communism
         SOV_NOI_enduring_spirit = {
-            picture = generic_pp_unity_bonus
+            picture = SOV_soviet_hegemony
             modifier = {
                 surrender_limit = 1
             }
