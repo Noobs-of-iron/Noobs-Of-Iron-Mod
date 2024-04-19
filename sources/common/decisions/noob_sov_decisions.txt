@@ -25,7 +25,7 @@ political_actions = {
     noi_ussr_collapse_timer = {
         icon = generic_political_discourse
         is_good = no
-        days_mission_timeout = 60
+        days_mission_timeout = 90
 
         allowed = {
             original_tag = SOV
