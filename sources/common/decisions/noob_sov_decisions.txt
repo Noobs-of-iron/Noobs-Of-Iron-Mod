@@ -20,3 +20,40 @@ foreign_politics = {
 
     }
 }
+
+political_actions = {
+    noi_ussr_collapse_timer = {
+        icon = generic_political_discourse
+        is_good = no
+        days_mission_timeout = 60
+
+        allowed = {
+            original_tag = SOV
+        }
+
+        available = {
+            OR = {
+                controls_state = 219 #Moscow
+                controls_state = 195 #Leningrad
+                controls_state = 217 #Stalingrad
+            }
+        }
+
+        activation = {
+            NOT = {
+                controls_state = 219 #Moscow
+                controls_state = 195 #Leningrad
+                controls_state = 217 #Stalingrad
+            }
+        }
+
+        timeout_effect = {
+            swap_ideas = {
+                remove_idea = SOV_NOI_enduring_spirit
+                add_idea = SOV_NOI_collapse_of_communism
+            }
+        }
+
+
+    }
+}

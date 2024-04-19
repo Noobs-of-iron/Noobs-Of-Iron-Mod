@@ -1,3 +1,6 @@
 ﻿l_english:
   noi_japan_ussr_embargo_decision: "Embargo Japan"
   noi_japan_ussr_embargo_decision_desc: "The beginning of the Pacific war proves that no concession could ever quench the Japanese thirst for conquest. Their allies in Tripartite pact are already fighting us in Europe, and Japan, should she achieve victory in Asia, would no doubt follow them - thus we must do everything in our power to prevent such an outcome. We can't afford to fight an open conflict in the Far East just yet, but stopping the flow of our resources to the Imperial war machine is a good start"
+
+  noi_ussr_collapse_timer: "Impending political collapse"
+  noi_ussr_collapse_timer_desc: ""

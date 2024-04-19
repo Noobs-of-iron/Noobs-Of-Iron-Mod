@@ -1,0 +1,17 @@
+ideas = {
+    country = {
+        #sov spirit of communism
+        SOV_NOI_enduring_spirit = {
+            picture = generic_pp_unity_bonus
+            modifier = {
+                surrender_limit = 1
+            }
+        }
+        SOV_NOI_collapse_of_communism = {
+            picture = SOV_factionalism_modifier
+            modifier = {
+                surrender_limit = -1
+            }
+        }
+    }
+}
