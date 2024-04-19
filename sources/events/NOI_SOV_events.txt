@@ -34,3 +34,70 @@ country_event = {
         }
     }
 }
+# All cities have fallen, parent trigger
+country_event = {
+    id = noi_sov.2
+    hidden = yes
+    mean_time_to_happen = { days = 1 }
+    trigger = {
+    
+        SOV = {
+            NOT = {
+                controls_state = 219 #Moscow
+                controls_state = 195 #Leningrad
+                controls_state = 217 #Stalingrad
+            }
+        }
+    
+    }
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			SOV = {
+				country_event = { id = noi_sov.3 days = 1 }
+			}
+			every_country = {
+                limit = {
+                    has_war_with = SOV
+                }
+
+                country_event = { id = noi_sov.4 days = 1 }
+            }
+		}
+	}
+    
+
+
+    option = {}
+}
+
+# all city have fallen, soviet side
+country_event = {
+    id = noi_sov.3
+    title = noi_sov.3.t
+    desc = noi_sov.3.d
+    picture = GFX_report_event_generic_battle
+    fire_only_once = yes
+    is_triggered_only = yes
+
+
+    option = {
+        name = noi_sov.3.a
+    }
+}
+# any city has fallen, ennemies side
+country_event = {
+    id = noi_sov.4
+    title = noi_sov.4.t
+    desc = noi_sov.4.d
+    picture = GFX_report_event_generic_army
+    fire_only_once = yes
+    is_triggered_only = yes
+
+
+    option = {
+        name = noi_sov.4.a
+    }
+}
