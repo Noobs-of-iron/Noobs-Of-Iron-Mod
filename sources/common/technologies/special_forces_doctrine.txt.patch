@@ -6,11 +6,14 @@
 < 		}
 ---
 > 	
-1078c1074
+1058,1059d1053
+< 
+< 		xor = { paras_combat_drop }
+1078c1072
 < 			position = { x = -1 y = 2 }
 ---
 > 			position = { x = 0 y = 2 }
-1090,1131d1085
+1090,1131d1083
 < 	paras_combat_drop = {
 < 
 < 		xp_research_type = air
