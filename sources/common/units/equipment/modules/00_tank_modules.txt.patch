@@ -36,18 +36,10 @@
 < 			chromium = 1
 ---
 > 			armor_value = 0.2
-852c853
-< 			soft_attack = 20
----
-> 			soft_attack = 25
 858c859
 < 			breakthrough = 2
 ---
 > 			breakthrough = 4
-881c882
-< 			soft_attack = 32
----
-> 			soft_attack = 40
 887c888
 < 			breakthrough = 4
 ---
