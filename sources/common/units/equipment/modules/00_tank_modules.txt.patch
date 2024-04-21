@@ -52,20 +52,27 @@
 < 			breakthrough = 4
 ---
 > 			breakthrough = 7
-910,911c911,912
+906a908,909
+> 		forbid_equipment_type = amphibious
+> 		forbid_equipment_type_exact_match = armor
+910,911c913,914
 < 			hard_attack = 1
 < 			ap_attack = 20
 ---
 > 			hard_attack = 8
 > 			ap_attack = 10
-915d915
+915d917
 < 			breakthrough = -2
-924,925c924
+924,925c926
 < 			tungsten = 1
 < 			steel = 2
 ---
 > 			steel = 3
-936,940c935,939
+933a935,937
+> 		forbid_equipment_type = amphibious
+> 		forbid_equipment_type_exact_match = armor
+> 		
+936,940c940,944
 < 			soft_attack = 45
 < 			hard_attack = 2
 < 			ap_attack = 30
@@ -77,72 +84,75 @@
 > 			ap_attack = 20
 > 			build_cost_ic = 6
 > 			maximum_speed = -0.6
-942c941
+942c946
 < 			breakthrough = -2
 ---
 > 			breakthrough = -1
-948c947
+948c952
 < 			convert_cost_ic = 5.5
 ---
 > 			convert_cost_ic = 6
-951,952c950
+951,952c955
 < 			tungsten = 1
 < 			steel = 3
 ---
 > 			steel = 4
-1047,1048c1045,1046
+1047,1048c1050,1051
 < 			soft_attack = 20
 < 			hard_attack = 35
 ---
 > 			soft_attack = 15
 > 			hard_attack = 32
-1050c1048
+1050c1053
 < 			build_cost_ic = 5
 ---
 > 			build_cost_ic = 7
-1058c1056
+1058c1061
 < 			convert_cost_ic = 5
 ---
 > 			convert_cost_ic = 7
-1061c1059
+1061c1064
 < 			tungsten = 2
 ---
 > 			tungsten = 3
-1073,1074c1071,1072
+1073,1074c1076,1077
 < 			soft_attack = 25
 < 			hard_attack = 45
 ---
 > 			soft_attack = 20
 > 			hard_attack = 60
-1076c1074
+1076c1079
 < 			build_cost_ic = 7
 ---
 > 			build_cost_ic = 9
-1084c1082
+1084c1087
 < 			convert_cost_ic = 7
 ---
 > 			convert_cost_ic = 9
-1087c1085
+1087c1090
 < 			tungsten = 2
 ---
 > 			tungsten = 3
-1100,1101c1098,1099
+1100,1101c1103,1104
 < 			soft_attack = 20
 < 			hard_attack = 20
 ---
 > 			soft_attack = 30
 > 			hard_attack = 22
-1127c1125
+1127c1130
 < 			soft_attack = 25
 ---
 > 			soft_attack = 35
-1154,1155c1152,1153
+1154,1155c1157,1158
 < 			soft_attack = 30
 < 			hard_attack = 40
 ---
 > 			soft_attack = 45
 > 			hard_attack = 50
-1181,1185c1179,1183
+1178a1182,1183
+> 		forbid_equipment_type = amphibious
+> 		forbid_equipment_type_exact_match = armor
+1181,1185c1186,1190
 < 			soft_attack = 55
 < 			hard_attack = 2
 < 			ap_attack = 60
@@ -154,43 +164,43 @@
 > 			ap_attack = 35
 > 			build_cost_ic = 8
 > 			maximum_speed = -1
-1187c1185
+1187c1192
 < 			breakthrough = -4
 ---
 > 			breakthrough = -2
-1193c1191
+1193c1198
 < 			convert_cost_ic = 7
 ---
 > 			convert_cost_ic = 8
-1199c1197
+1199c1204
 < 			steel = 3
 ---
 > 			steel = 4
-1210,1211c1208,1209
+1210,1211c1215,1216
 < 			soft_attack = 35
 < 			hard_attack = 45
 ---
 > 			soft_attack = 60
 > 			hard_attack = 65
-1327a1326,1327
+1327a1333,1334
 > 			build_cost_ic = 0.05
 > 			reliability = -0.05
-1340c1340
+1340c1347
 < 			reliability = -0.1
 ---
 > 			reliability = -0.15
-1344a1345
+1344a1352
 > 			build_cost_ic = 0.15
-1489c1490
+1489c1497
 < 			reliability = 0.1
 ---
 > 			reliability = 0.2
-1492,1495c1493
+1492,1495c1500
 < 		xp_cost = 30
 < 		multiply_stats = {
 < 			build_cost_ic = -0.05
 < 		}
 ---
 > 		xp_cost = 10
-1522d1519
+1522d1526
 < 			maximum_speed = -0.25
