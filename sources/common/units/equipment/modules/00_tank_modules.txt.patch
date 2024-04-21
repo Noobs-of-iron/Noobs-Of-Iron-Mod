@@ -36,6 +36,22 @@
 < 			chromium = 1
 ---
 > 			armor_value = 0.2
+852c853
+< 			soft_attack = 20
+---
+> 			soft_attack = 25
+858c859
+< 			breakthrough = 2
+---
+> 			breakthrough = 4
+881c882
+< 			soft_attack = 32
+---
+> 			soft_attack = 40
+887c888
+< 			breakthrough = 4
+---
+> 			breakthrough = 7
 910,911c911,912
 < 			hard_attack = 1
 < 			ap_attack = 20
@@ -97,7 +113,7 @@
 < 			hard_attack = 45
 ---
 > 			soft_attack = 20
-> 			hard_attack = 43
+> 			hard_attack = 60
 1076c1074
 < 			build_cost_ic = 7
 ---
@@ -114,17 +130,17 @@
 < 			soft_attack = 20
 < 			hard_attack = 20
 ---
-> 			soft_attack = 25
+> 			soft_attack = 30
 > 			hard_attack = 22
 1127c1125
 < 			soft_attack = 25
 ---
-> 			soft_attack = 30
+> 			soft_attack = 35
 1154,1155c1152,1153
 < 			soft_attack = 30
 < 			hard_attack = 40
 ---
-> 			soft_attack = 40
+> 			soft_attack = 45
 > 			hard_attack = 50
 1181,1185c1179,1183
 < 			soft_attack = 55
@@ -154,7 +170,7 @@
 < 			soft_attack = 35
 < 			hard_attack = 45
 ---
-> 			soft_attack = 50
+> 			soft_attack = 60
 > 			hard_attack = 65
 1327a1326,1327
 > 			build_cost_ic = 0.05

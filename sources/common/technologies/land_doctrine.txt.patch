@@ -1,0 +1,30 @@
+1181a1182
+> 				soft_attack = 0.20
+3099c3100,3104
+< 		}	
+---
+> 		}
+> 		
+> 		category_tanks = {
+> 			breakthrough = 0.2
+> 		}
+3220c3225
+< 		resistance_damage_to_garrison_on_our_occupied_states = 0.1 #10% more partisan effects 
+---
+> 		resistance_damage_to_garrison_on_our_occupied_states = 0.2 #20% more partisan effects 
+3296c3301
+< 			default_morale = 0.30
+---
+> 			default_morale = 0.20
+3384c3389
+< 		conscription = 0.05
+---
+> 		conscription = 0.02
+3388c3393,3394
+< 			combat_width = -0.4
+---
+> 			combat_width = -0.3
+> 			max_strength = -5
+3436a3443,3444
+> 		
+> 		pocket_penalty = -0.2
