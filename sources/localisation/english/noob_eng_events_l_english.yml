@@ -2,3 +2,8 @@
   noi_eng.1.t: "The Golden Square coup"
   noi_eng.1.d: "The turn in Iraqi politics has reached its culmination. Today the nationalist clique, known as \"the Golden Square\" has launched a successful coup d'etat, overthrowing the previous pro-British government. The clique is known for sympathies towards the Axis and has already refused multiple concessions, made to Britain by the previous regime"
   noi_eng.1.a: "We have to act quickly"
+
+  noi_eng.2.t: "The Anglo-Polish agreement of [GetYear]"
+  noi_eng.2.d: "ARTICLE 1\nShould one of the Contracting Parties become engaged in hostilities with a European Power in consequence of aggression by the latter against that Contracting Party, the other Contracting Party will at once give the Contracting Party engaged in hostilities all the support and assistance in its power.\n...\nBy the expression \"a European Power\" employed in the Agreement is to be understood Germany."
+  noi_eng.2.a: "Sign the agreement, Kraut aggression must be contained!"
+  noi_eng.2.b: "Eastern Europe is of no concern to us"
