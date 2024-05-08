@@ -76,7 +76,9 @@ operations = {
         }
 
         timeout_effect = {
-
+            effect_tooltip = {
+                    ENG = {add_to_faction = USA}
+                }
         }
     }
 }
