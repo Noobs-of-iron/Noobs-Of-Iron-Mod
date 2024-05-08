@@ -68,6 +68,9 @@ country_event = {
     option = {
         name = noi_usa.3.a
         activate_mission = noi_usa_japan_war_mission
+        JAP = {
+            activate_mission = noi_japan_usa_war_mission
+        }
     }
 }
 

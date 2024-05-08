@@ -61,6 +61,24 @@ operations = {
             set_state_controller = 336
         }
     }
+
+    noi_japan_usa_war_mission = {
+        icon = border_war
+        is_good = no
+        days_mission_timeout = 365
+
+        allowed = {
+            always = no
+        }
+
+        available = {
+            has_war_with = USA
+        }
+
+        timeout_effect = {
+
+        }
+    }
 }
 
 NOI_JAP_tora_tora_tora = {

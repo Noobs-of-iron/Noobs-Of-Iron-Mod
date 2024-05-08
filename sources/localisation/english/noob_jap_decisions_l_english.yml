@@ -7,4 +7,7 @@
 
   NOI_JAP_tora_tora_tora: "Southern offensive"
   NOI_JAP_tora_tora_tora_desc: "Our plan for war against the Western imperialism consists of swiftly occupying key areas and establishing a defense perimeter to protect our conquests. If we move fast enough our enemies won't have time to react\n§RWIP - doesn't do anything yet!§!"
-  NOI_JAP_tora_tora_tora_expansion_targets: "Expansion targets
+  NOI_JAP_tora_tora_tora_expansion_targets: "Expansion targets"
+
+  noi_japan_usa_war_mission: "Inevitable Pacific war"
+  noi_japan_usa_war_mission_desc: "Our assault on European empires has caused a decisive shift in American politics. It's only a matter of time before we'll have to face the full might of USA on the high seas"
