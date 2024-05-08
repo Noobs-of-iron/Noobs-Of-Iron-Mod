@@ -1,0 +1,5 @@
+293c293,294
+< 			controls_state = 16 #Paris
+---
+> 			has_full_control_of_state = 16 #Paris
+> 			has_government = democratic
