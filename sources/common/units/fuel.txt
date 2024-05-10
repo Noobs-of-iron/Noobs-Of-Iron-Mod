@@ -1,0 +1,52 @@
+sub_units = {
+	fuel_company = {
+		abbreviation = "FUL"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 10	
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		can_be_parachuted = yes
+
+		# Important Ability
+		fuel_consumption_factor = -0.05
+		fuel_capacity = 2000
+		
+		essential = {
+			support_equipment
+			motorized_equipment
+		}
+
+		need = {
+			support_equipment = 20
+			motorized_equipment = 20
+		}
+
+	}
+}
