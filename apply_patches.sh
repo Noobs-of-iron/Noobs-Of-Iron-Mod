@@ -244,7 +244,7 @@ apply_patches_and_update_mod() {
                 fi
             fi
             if [ -e "$mod_file" ] && [ "$OVERWRITE_MOD" != "yes" ]; then
-                echo "WARNING : Mod file $mod_file exists and will not be overwritten. Skipping copy."
+                echo_debug "Mod file $mod_file exists and will not be overwritten. Skipping copy."
                 continue
             fi
 

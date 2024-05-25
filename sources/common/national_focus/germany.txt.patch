@@ -152,13 +152,17 @@
 > 		allow_branch = {
 > 			always = no
 > 		}
-5353c5391,5393
+5345c5383
+< 
+---
+> 		
+5370c5408,5410
 < 
 ---
 > 		allow_branch = {
 > 			always = no
 > 		}
-6242,6253c6282
+6259,6270c6299
 < 			has_dlc = "Waking the Tiger"
 < 			if = {
 < 				limit = {
@@ -173,7 +177,7 @@
 < 			}
 ---
 > 			always = no
-6257,6258c6286,6290
+6274,6275c6303,6307
 < 			is_subject = no
 < 			has_government = fascism
 ---
@@ -182,11 +186,11 @@
 > 					is_subject = yes
 > 				}
 > 			
-6300c6332
+6317c6349
 < 			factor = 7
 ---
 > 			factor = 0
-6384,6398c6416
+6401,6415c6433
 < 			has_dlc = "Waking the Tiger"
 < 			if = {
 < 				limit = {
@@ -204,7 +208,7 @@
 < 			}
 ---
 > 			always = no
-6451,6462c6469
+6468,6479c6486
 < 			has_dlc = "Waking the Tiger"
 < 			if = {
 < 				limit = {
@@ -219,11 +223,11 @@
 < 			}
 ---
 > 			always = no
-7799a7807,7809
+7816a7824,7826
 > 		allow_branch = {
 > 			always = no
 > 		}
-8224,8238c8234
+8241,8255c8251
 < 			has_dlc = "Waking the Tiger"
 < 			if = {
 < 				limit = {

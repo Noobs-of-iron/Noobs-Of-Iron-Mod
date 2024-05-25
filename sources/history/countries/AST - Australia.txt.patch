@@ -1,0 +1,9 @@
+86a87,89
+> #NOI
+> recruit_character = AST_john_doctrine
+> 
+464c467
+< }
+\ Pas de fin de ligne à la fin du fichier
+---
+> }

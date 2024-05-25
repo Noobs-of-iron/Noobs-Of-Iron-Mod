@@ -1,0 +1,22 @@
+276a277,297
+> 	AST_john_doctrine={
+> 		name=AST_john_doctrine
+> 		portraits={
+> 			army={
+> 				small="GFX_idea_generic_political_advisor_europe_2"
+> 			}
+> 		}
+> 		advisor={
+> 			cost = 100
+> 			slot = theorist
+> 			idea_token = EST_johan_laidoner
+> 			ledger = army
+> 			allowed = {
+> 				original_tag = AST
+> 			}
+> 			
+> 			traits = {
+> 				military_theorist
+> 			}
+> 		}
+> 	}
