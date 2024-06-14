@@ -9,3 +9,45 @@
   noi_sov.4.t: "Victory Within Reach"
   noi_sov.4.d: "As our valiant forces march through the gates of Stalingrad, Leningrad, and Moscow, the once indomitable Soviet Union reels under our pressure. The red bear is wounded, cornered with dwindling options. We have them where we want them. They now have a mere 90 days to counterattack and attempt to recover any of these strategic cities. Our ultimate triumph is within reach. Let us press forward, for victory is near!"
   noi_sov.4.a: "Press the attack! Glory awaits!"
+  
+  noi_sov.5.t: "Soviet Winter Counter-Offensive Begins"
+  noi_sov.5.d: "As the bitter winter grips the Eastern Front, the Soviet Union launch a decisive counter-offensive against the invading German forces. With grim determination and strategic foresight, our troops stand ready to reclaim lost ground and turn the tide of war."
+  noi_sov.5.a: "Initiate the Offensive"
+  
+  noi_sov.6.t: "Conclusion of the Winter Offensive"
+  noi_sov.6.d: "As the winter offensive draws to a close, our forces have secured significant gains against the enemy. With the bitter cold receding, it is time to consolidate our positions and prepare for the challenges that await us. The Red Army remains vigilant, knowing that the struggle against fascism demands unwavering commitment and readiness."
+  noi_sov.6.a: "Prepare for the Future"
+  
+  noi_sov.7.t: "Operation Uranus Begins"
+  noi_sov.7.d: "With the icy winds of winter sweeping across the vast steppe, the Red Army launches Operation Uranus. Our objective: to crush the German Army. As our armored divisions move swiftly into position and our infantry prepares for the assault, the fate of the soviet union hangs in the balance once more."
+  noi_sov.7.a: "Commence the Operation"
+  
+  noi_sov.8.t: "Conclusion of Operation Uranus"
+  noi_sov.8.d: "As the operation draws to a close, our objectives have been achieved. Our troops have executed their tasks with precision and resolve. Now, we must focus on consolidating our positions and preparing for the next phase of the campaign."
+  noi_sov.8.a: "Consolidate and Prepare"
+  
+  noi_sov.9.t: "1943 Winter offensive"
+  noi_sov.9.d: "Amidst the biting cold and swirling snowstorms, the Red Army initiates its winter offensive of 1943. Our objective: to strike deep into enemy lines and reclaim lost territories. As our troops brave the harsh winter conditions and tanks rumble forward, the fate of the Eastern Front hangs in the balance once more."
+  noi_sov.9.a: "Launch the Winter Offensive"
+  
+  noi_sov.10.t: "Conclusion of the Winter Offensive"
+  noi_sov.10.d: "As the winter offensive draws to a close, our forces have achieved significant gains against the enemy. Despite the bitter cold and formidable obstacles, the Red Army's determination has prevailed. Now, we must consolidate our positions and prepare for the challenges that lie ahead."
+  noi_sov.10.a: "Consolidate and Prepare"
+  
+  noi_news.4.t: "Soviet Winter Counter-Offensive Begins"
+  noi_news.4.d: "As the harsh Russian winter sets in, the Red Army launches a daring counter-offensive against the beleaguered German forces. With temperatures plummeting and supply lines stretched thin, the Soviet troops exploit the frozen terrain to strike back, aiming to drive the invaders from the gates of Moscow.\n\nAmid blizzards and frost, the sound of gunfire echoes across the snow-covered plains, as both sides engage in a desperate battle for survival and victory. The world watches to see if the Red Army can turn the tide of war in this frozen crucible."
+  noi_news.4.a: "The Winter Warrior’s Resurgence"
+  noi_news.4.b: "Push the fascist scum out!"
+  noi_news.4.c: "Drive them back into the snow!"
+  
+  noi_news.5.t: "Operation Uranus Unleashed"
+  noi_news.5.d: "In a masterstroke of strategic brilliance, the Red Army launches Operation Uranus, targeting the German Army during the frozen months in the Soviet Union. \n\nThe world watches with bated breath. This bold counter-offensive could mark a turning point in the Eastern Front, altering the course of the entire conflict."
+  noi_news.5.a: "Winter is indeed cold in the Soviet Union"
+  noi_news.5.b: "Cut them off and encircle them!"
+  noi_news.5.c: "Hold the lines at all costs!"
+  
+  noi_news.6.t: "Operation Kutuzov Launched"
+  noi_news.6.d: "The Soviet Union initiates Operation Kutuzov, targeting the German forces. This ambitious offensive aims to exploit the weakened state of the Wehrmacht after years of fighting in the harsh territory of the Soviet Union. Soviet troops press forward with relentless determination to reclaim their homeland.\n\nAs the Red Army advances and fierce battles rage, the world observes the unfolding drama, recognizing that the outcome of this operation could significantly impact the course of the war on the Eastern Front."
+  noi_news.6.a: "A decisive Soviet strike"
+  noi_news.6.b: "Advance with full force!"
+  noi_news.6.c: "Defend every inch!"

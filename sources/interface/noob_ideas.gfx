@@ -1,6 +1,73 @@
 spriteTypes = {
-	SpriteType = {
-	    name = "GFX_NOI_goal_idea_ger_endsieg"
-	    texturefile = "gfx/interface/ideas/idea_noob_ger_endsieg.dds"	
-	}	 
-}
+
+    spriteType = {
+        name = GFX_goal_GER_NOI_endsieg_i
+        texturefile = gfx/interface/focus/focus_noob_ger_endsieg.dds
+        legacy_lazy_load = no
+    }
+	
+	spriteType = {
+        name = GFX_idea_GER_NOI_summeroffensive_i
+        texturefile = gfx/interface/ideas/idea_noob_ger_sumoff.dds
+        legacy_lazy_load = no
+    }
+	
+	spriteType = {
+        name = GFX_idea_SOV_NOI_winteroffensive_i
+        texturefile = gfx/interface/ideas/idea_noob_sov_winoff.dds
+        legacy_lazy_load = no
+    }
+	
+    spriteType = {
+        name = GFX_idea_GER_NOI_endsieg_i
+        texturefile = gfx/interface/ideas/idea_noob_ger_endsieg.dds
+        legacy_lazy_load = no
+    }
+	
+	spriteType = {
+        name = GFX_event_typhoon_i
+        texturefile = gfx/interface/event_pictures/event_typhoon.dds
+        legacy_lazy_load = no
+    }
+	
+	spriteType = {
+        name = GFX_event_winteroff_i
+        texturefile = gfx/interface/event_pictures/event_winteroff.dds
+        legacy_lazy_load = no
+    }
+	
+	spriteType = {
+        name = GFX_world_event_noob_typhoon_i
+        texturefile = gfx/interface/event_pictures/world_event_noob_typhoon.dds
+        legacy_lazy_load = no
+    }
+	
+	spriteType = {
+        name = GFX_world_event_noob_fallblau_i
+        texturefile = gfx/interface/event_pictures/world_event_noob_fallblau.dds
+        legacy_lazy_load = no
+    }
+	
+	spriteType = {
+        name = GFX_world_event_noob_citadel_i
+        texturefile = gfx/interface/event_pictures/world_event_noob_citadel.dds
+        legacy_lazy_load = no
+    }
+	
+	spriteType = {
+        name = GFX_world_event_noob_winteroff_i
+        texturefile = gfx/interface/event_pictures/world_event_noob_winteroff.dds
+        legacy_lazy_load = no
+    }
+	
+	spriteType = {
+        name = GFX_world_event_noob_uranus_i
+        texturefile = gfx/interface/event_pictures/world_event_noob_uranus.dds
+        legacy_lazy_load = no
+    }
+	
+	spriteType = {
+        name = GFX_world_event_noob_kutuzov_i
+        texturefile = gfx/interface/event_pictures/world_event_noob_kutuzov.dds
+        legacy_lazy_load = no
+    }

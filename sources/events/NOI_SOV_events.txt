@@ -101,3 +101,93 @@ country_event = {
         name = noi_sov.4.a
     }
 }
+
+#Start of the winter offensive41
+country_event = {
+	id = noi_sov.5
+    title = noi_sov.5.t
+    desc = noi_sov.5.d
+	picture = GFX_event_winteroff_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_sov.5.a"
+		add_ideas = SOV_NOI_winteroffensive_i
+	}
+}
+
+#End of the winter offensive41
+country_event = {
+	id = noi_sov.6
+    title = noi_sov.6.t
+    desc = noi_sov.6.d
+	picture = GFX_event_winteroff_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_sov.6.a"
+		remove_ideas = SOV_NOI_winteroffensive_i
+	}
+}
+
+#Start of the winter offensive42
+country_event = {
+	id = noi_sov.7
+    title = noi_sov.7.t
+    desc = noi_sov.7.d
+	picture = GFX_event_winteroff_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_sov.7.a"
+		add_ideas = SOV_NOI_winteroffensive_i
+	}
+}
+
+#End of the winter offensive42
+country_event = {
+	id = noi_sov.8
+    title = noi_sov.8.t
+    desc = noi_sov.8.d
+	picture = GFX_event_winteroff_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_sov.8.a"
+		remove_ideas = SOV_NOI_winteroffensive_i
+	}
+}
+
+#Start of the winter offensive43
+country_event = {
+	id = noi_sov.9
+    title = noi_sov.9.t
+    desc = noi_sov.9.d
+	picture = GFX_event_winteroff_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_sov.9.a"
+		add_ideas = SOV_NOI_winteroffensive_i
+	}
+}
+
+#End of the winter offensive43
+country_event = {
+	id = noi_sov.10
+    title = noi_sov.10.t
+    desc = noi_sov.10.d
+	picture = GFX_event_winteroff_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_sov.10.a"
+		remove_ideas = SOV_NOI_winteroffensive_i
+	}
+}

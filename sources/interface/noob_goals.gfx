@@ -1,6 +1,6 @@
 spriteTypes = {
 	SpriteType = {
-	    name = "GFX_NOI_goal_focus_ger_endsieg"
+	    name = "GFX_focus_noob_ger_endsieg"
 	    texturefile = "gfx/interface/goals/focus_noob_ger_endsieg.dds"	
 	}	 
 }

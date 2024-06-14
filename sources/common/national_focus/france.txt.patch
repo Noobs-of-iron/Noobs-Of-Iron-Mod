@@ -1,8 +1,10 @@
-1889a1890,1892
+1866a1867,1869
 > 		allow_branch = {
 > 			always = no
-> 		}		
-5084,5096c5087
+> 		}
+1889a1893
+> 				
+5096,5108c5100
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -18,7 +20,7 @@
 < 			}
 ---
 > 			always = no
-5152,5163c5143
+5164,5175c5156
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -33,7 +35,7 @@
 < 			}
 ---
 > 			always = no
-6418,6430c6398,6399
+6436,6448c6417,6418
 < 			NOT = { has_dlc = "La Resistance" }
 < 			if = {
 < 				limit = {
@@ -50,7 +52,7 @@
 ---
 > 			always = no
 > 		}
-6874,6885c6843
+6892,6903c6862
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -65,23 +67,23 @@
 < 			}
 ---
 > 			always = no
-8062c8020
+8093c8052
 < 		x = 70
 ---
 > 		x = 50
-8097c8055
+8128c8087
 < 			x = -27
 ---
 > 			x = -3
-8109c8067
+8140c8099
 < 			x = -8
 ---
 > 			x = -12
-8145c8103
+8176c8135
 < 			x = -3
 ---
 > 			x = -5
-8154,8166d8111
+8185,8197d8143
 < 				has_completed_focus = FRA_review_foreign_policy
 < 			}
 < 		}

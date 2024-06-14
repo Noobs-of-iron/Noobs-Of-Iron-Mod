@@ -1,0 +1,101 @@
+# Summer offensive 1941
+Barbarossa = {
+    sumoff41 = {
+	icon = GFX_decision_generic_tank
+	cost = 25
+	name = "Operation Typhoon"
+        available = {
+            tag = GER
+            has_government = fascism
+            has_war_with = SOV
+			date > 1941.5.15
+            date < 1941.8.15
+        }
+        visible = {
+            date > 1940.1.15
+            date < 1942.1.01
+        }
+		
+        complete_effect = {
+            country_event = { id = noi_ger.3 }
+			news_event = { 
+			id = noi_news.1
+			days = 10
+			}
+        }
+	
+        ai_will_do = {
+            factor = 10
+        }
+		days_remove = 90
+		remove_effect = {
+		    country_event = { id = noi_ger.4 } 
+		}
+    }
+	
+	sumoff42 = {
+	name = "Fall Blau"
+	icon = GFX_decision_generic_tank
+	cost = 25
+        available = {
+            tag = GER
+            has_government = fascism
+            has_war_with = SOV
+			date > 1942.5.15
+            date < 1942.8.15
+        }
+        visible = {
+            date > 1942.1.01
+            date < 1943.1.01
+        }
+		
+        complete_effect = {
+            country_event = { id = noi_ger.5 }
+			news_event = { 
+			id = noi_news.2
+			days = 10
+			}
+        }
+	
+        ai_will_do = {
+            factor = 10
+        }
+		days_remove = 90
+		remove_effect = {
+		    country_event = { id = noi_ger.6 } 
+		}
+    }
+	
+	sumoff43 = {
+	name = "Operation Zitadelle"
+	icon = GFX_decision_generic_tank
+	cost = 25
+        available = {
+            tag = GER
+            has_government = fascism
+            has_war_with = SOV
+			date > 1943.5.15
+            date < 1943.8.15
+        }
+        visible = {
+            date > 1943.1.01
+            date < 1944.1.01
+        }
+		
+        complete_effect = {
+            country_event = { id = noi_ger.7 }
+			news_event = { 
+			id = noi_news.3
+			days = 10
+			}
+        }
+	
+        ai_will_do = {
+            factor = 10
+        }
+		days_remove = 90
+		remove_effect = {
+		    country_event = { id = noi_ger.8 } 
+		}
+    }
+}

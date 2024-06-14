@@ -1,0 +1,180 @@
+add_namespace = noi_news
+
+news_event = {
+    id = noi_news.1
+    title = noi_news.1.t
+    desc = noi_news.1.d
+    picture = GFX_world_event_noob_typhoon_i
+
+    is_triggered_only = yes
+
+    major = yes
+
+	option = {
+		name = noi_news.1.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = noi_news.1.b
+		trigger = { TAG = SOV }
+	}
+	option = {
+		name = noi_news.1.c
+		trigger = { TAG = GER }
+	}
+}
+
+#1942 FALLBLAU GERMANY OFFENSIVE
+news_event = {
+    id = noi_news.2
+    title = noi_news.2.t
+    desc = noi_news.2.d
+    picture = GFX_world_event_noob_fallblau_i
+
+    is_triggered_only = yes
+
+    major = yes
+
+	option = {
+		name = noi_news.2.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = noi_news.2.b
+		trigger = { TAG = SOV }
+	}
+	option = {
+		name = noi_news.2.c
+		trigger = { TAG = GER }
+	}
+}
+
+#1943 CITADEL GERMANY OFFENSIVE
+news_event = {
+    id = noi_news.3
+    title = noi_news.3.t
+    desc = noi_news.3.d
+    picture = GFX_world_event_noob_citadel_i
+
+    is_triggered_only = yes
+
+    major = yes
+
+	option = {
+		name = noi_news.3.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = noi_news.3.b
+		trigger = { TAG = SOV }
+	}
+	option = {
+		name = noi_news.3.c
+		trigger = { TAG = GER }
+	}
+}
+
+#1941 SOVIET WINTER COUNTEROFFENSIVE
+news_event = {
+    id = noi_news.4
+    title = noi_news.4.t
+    desc = noi_news.4.d
+    picture = GFX_world_event_noob_winteroff_i
+
+    is_triggered_only = yes
+
+    major = yes
+
+	option = {
+		name = noi_news.4.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = noi_news.4.b
+		trigger = { TAG = SOV }
+	}
+	option = {
+		name = noi_news.4.c
+		trigger = { TAG = GER }
+	}
+}
+
+#1942 URANUS OFFENSIVE
+news_event = {
+    id = noi_news.5
+    title = noi_news.5.t
+    desc = noi_news.5.d
+    picture = GFX_world_event_noob_uranus_i
+
+    is_triggered_only = yes
+
+    major = yes
+
+	option = {
+		name = noi_news.5.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = noi_news.5.b
+		trigger = { TAG = SOV }
+	}
+	option = {
+		name = noi_news.5.c
+		trigger = { TAG = GER }
+	}
+}
+
+#1943 KUTUZOV OFFENSIVE
+news_event = {
+    id = noi_news.6
+    title = noi_news.6.t
+    desc = noi_news.6.d
+    picture = GFX_world_event_noob_kutuzov_i
+
+    is_triggered_only = yes
+
+    major = yes
+
+	option = {
+		name = noi_news.6.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = noi_news.6.b
+		trigger = { TAG = SOV }
+	}
+	option = {
+		name = noi_news.6.c
+		trigger = { TAG = GER }
+	}
+}

@@ -57,3 +57,108 @@ political_actions = {
 
     }
 }
+
+# Winter offensive
+SOV_great_patriotic_war = {
+    winoff41 = {
+	icon = GFX_decision_generic_tank
+	name = "Winter Offensive"
+	cost = 25
+        available = {
+            tag = SOV
+            has_government = communism
+            has_war_with = GER
+			date > 1941.11.01
+            date < 1942.01.30
+        }
+        visible = {
+			date > 1941.1.01
+            date < 1942.4.01
+        }
+		
+        complete_effect = {
+            country_event = { id = noi_sov.5 }
+			news_event = { 
+			id = noi_news.4
+			days = 10
+			}
+        }
+	
+        ai_will_do = {
+            factor = 10
+        }
+		
+		days_remove = 90
+		remove_effect = {
+		    country_event = { id = noi_sov.6 } 
+		}
+    }
+	
+	winoff42 = {
+	name = "Operation Uranus"
+	icon = GFX_decision_generic_tank
+	cost = 25
+        available = {
+            tag = SOV
+            has_government = communism
+            has_war_with = GER
+			date > 1942.11.01
+            date < 1943.1.30
+        }
+        visible = {
+            date > 1942.1.01
+            date < 1943.4.01
+        }
+		
+        complete_effect = {
+            country_event = { id = noi_sov.7 }
+			news_event = { 
+			id = noi_news.5
+			days = 10
+			}
+        }
+	
+        ai_will_do = {
+            factor = 10
+        }
+		
+		days_remove = 90
+		remove_effect = {
+		    country_event = { id = noi_sov.8 } 
+		}
+    }
+	
+	winoff43 = {
+	name = "Operation Zukutov"
+	icon = GFX_decision_generic_tank
+	cost = 25
+        available = {
+            tag = SOV
+            has_government = communism
+            has_war_with = GER
+			date > 1943.11.01
+            date < 1944.1.30
+        }
+        visible = {
+            date > 1943.1.01
+            date < 1944.4.01
+        }
+		
+        complete_effect = {
+            country_event = { id = noi_sov.9 }
+			news_event = { 
+			id = noi_news.6
+			days = 10
+			}
+        }
+	
+        ai_will_do = {
+            factor = 10
+        }
+		
+		days_remove = 90
+		remove_effect = {
+		    country_event = { id = noi_sov.10 } 
+		}
+    }
+}

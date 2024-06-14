@@ -1,3 +1,6 @@
 ﻿l_english:
-  GER_NOI_Endsieg_i: "Endsieg"
-  GER_NOI_Endsieg_i_desc: "Germany will not give up without a fight !"
+  idea_GER_NOI_endsieg_i: "Endsieg"
+  idea_GER_NOI_endsieg_i_desc: "Germany will not give up without a fight !"
+  
+  GER_NOI_summeroffensive_i: "Summer offensive"
+  GER_NOI_summeroffensive_i_desc: "A major Wehrmacht campaign designed to strike deep into Soviet territory, aiming to gain strategic advantages and push the Eastern Front forward."

@@ -1,3 +1,7 @@
+10c10
+< 	id = german_focus
+---
+> 	id = german_focus 
 53c53
 < 		cost = 10
 ---
@@ -112,8 +116,8 @@
 3584a3595,3614
 > 	
 > 	focus = {
-> 		id = GER_NOI_endsieg
-> 		icon = GFX_NOI_goal_focus_ger_endsieg
+> 		id = idea_GER_NOI_endsieg_i
+> 		icon = GFX_goal_GER_NOI_endsieg_i
 > 		prerequisite = { focus = GER_ussr_war_goal }
 > 		relative_position_id = GER_ussr_war_goal
 > 		x = -2
@@ -125,7 +129,7 @@
 > 		}
 > 		
 > 		completion_reward = {
-> 			add_ideas = GER_NOI_Endsieg_i
+> 			add_ideas = idea_GER_NOI_endsieg_i
 > 		}
 > 
 > 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }

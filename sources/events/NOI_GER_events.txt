@@ -49,3 +49,93 @@ country_event = {
         remove_ideas = GER_NOI_Endsieg_i
    }
 }
+
+#Start of the summer offensive41
+country_event = {
+	id = noi_ger.3
+	title = noi_ger.3.t
+	desc = noi_ger.3.d
+	picture = GFX_event_typhoon_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_ger.3.a"
+		add_ideas = GER_NOI_summeroffensive_i
+	}
+}
+
+#End of the summer offensive41
+country_event = {
+	id = noi_ger.4
+	title = noi_ger.4.t
+	desc = noi_ger.4.d
+	picture = GFX_event_typhoon_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_ger.4.a"
+		remove_ideas = GER_NOI_summeroffensive_i
+	}
+}
+
+#Start of the summer offensive42
+country_event = {
+	id = noi_ger.5
+	title = noi_ger.5.t
+	desc = noi_ger.5.d
+	picture = GFX_event_typhoon_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_ger.5.a"
+		add_ideas = GER_NOI_summeroffensive_i
+	}
+}
+
+#End of the summer offensive42
+country_event = {
+	id = noi_ger.6
+	title = noi_ger.6.t
+	desc = noi_ger.6.d
+	picture = GFX_event_typhoon_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_ger.6.a"
+		remove_ideas = GER_NOI_summeroffensive_i
+	}
+}
+
+#Start of the summer offensive43
+country_event = {
+	id = noi_ger.7
+	title = noi_ger.7.t
+	desc = noi_ger.7.d
+	picture = GFX_event_typhoon_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_ger.7.a"
+		add_ideas = GER_NOI_summeroffensive_i
+	}
+}
+
+#End of the summer offensive43
+country_event = {
+	id = noi_ger.8
+	title = noi_ger.8.t
+	desc = noi_ger.8.d
+	picture = GFX_event_typhoon_i
+
+	is_triggered_only = yes
+
+	option = {
+		name = "noi_ger.8.a"
+		remove_ideas = GER_NOI_summeroffensive_i
+	}
+}

@@ -212,3 +212,7 @@
 > 		is_puppet = no 
 > 		date < 1938.1.1 # at least one of the date checks will always be false and the event will never trigger
 > 		}
+4622d4425
+< 			85 = { add_core_of = GER }
+4702d4504
+< 		85 = { add_core_of = GER }

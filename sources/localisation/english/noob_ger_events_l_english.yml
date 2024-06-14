@@ -6,3 +6,47 @@
   noi_ger.2.t: "German Reich downfall"
   noi_ger.2.d: "The German Reich has capitulated. Endiseg has failed. We are defeated."
   noi_ger.2.a: "Kampfgrupp Steiner did not have enough soldiers to attack the Soviets."
+  
+  noi_ger.3.t: "Operation Barbarossa Unleashed"
+  noi_ger.3.d: "As the summer sun illuminates the horizon, the German war machine gears up for its most audacious campaign yet. With meticulous planning and unwavering determination, the time has come to unleash the full might of the Wehrmacht upon our eastern foes."
+  noi_ger.3.a: "Launch the Offensive"
+  
+  noi_ger.4.t: "Operation Barbarossa Conclusion"
+  noi_ger.4.d: "The chill of winter descends upon the Eastern Front. Despite valiant efforts and initial gains, the summer offensive has ended. It is time to consolidate our positions and prepare for the challenges that lie ahead."
+  noi_ger.4.a: "Prepare for Winter"
+  
+  noi_ger.5.t: "Operation Case Blue Launched"
+  noi_ger.5.d: "As the summer heat rises, the German forces embark on another daring offensive. With precision and resolve, we aim to strike deep into the Soviet heartland, capturing vital territories and crippling their war efforts. The Wehrmacht is ready to unleash its power once more."
+  noi_ger.5.a: "Launch the Offensive"
+  
+  noi_ger.6.t: "Operation Case Blue Conclusion"
+  noi_ger.6.d: "Autumn's chill signals the end of our ambitious summer campaign. Despite fierce resistance and harsh conditions, our forces have pushed far into Soviet territory. \n\nNow, as the season turns, we must fortify our gains and prepare for the trials that winter will bring."
+  noi_ger.6.a: "Dig in boys... Winter is coming once more"
+  
+  noi_ger.7.t: "Operation Citadel Commences"
+  noi_ger.7.d: "With the dawn of summer, the German army prepares to launch its most concentrated offensive yet. Known as Operation Citadel, this attack aims to crush Soviet forces, securing a decisive victory on the Eastern Front. The Wehrmacht stands ready to strike with unparalleled ferocity."
+  noi_ger.7.a: "Third time the charm. Launch the attack !"
+  
+  noi_ger.8.t: "Operation Citadel Concludes"
+  noi_ger.8.d: "As summer draws to a close, so does our ambitious operation on the eastern front. Despite fierce combat and intense battles, the offensive has reached its conclusion. We must now reassess our strategies, solidify our positions, and prepare for the coming challenges."
+  noi_ger.8.a: "Hans, get the shovel. You know the drill"
+  
+  noi_news.1.t: "German Summer Offensive Begins"
+  noi_news.1.d: "The world stands witness as the Axis Powers launch a formidable summer offensive, aiming to shift the tides of war in their favor. With lightning speed and overwhelming force, Germany spearheads this onslaught, threatening to engulf Europe in flames.\n\n As the skies darken and the ground trembles under the weight of armored divisions, nations scramble to brace for impact."
+  noi_news.1.a: "Hitler has trully gone mad"
+  noi_news.1.b: "PREPARE THE DEFENSES !"
+  noi_news.1.c: "We just have to kick the door"
+  
+  noi_news.2.t: "Operation Fall Blau Commences"
+  noi_news.2.d: "In a bold and ambitious move, the Wehrmacht launches Operation Fall Blau, thrusting deep into the Soviet Union's territories. Germany seeks to deliver a decisive blow to Soviet war capabilities.\n\nAs Panzer divisions roll forward and Luftwaffe bombers darken the skies, the world watches in anticipation of the outcome of this daring offensive."
+  noi_news.2.a: "The world holds its breath"
+  noi_news.2.b: "WE WILL STOP THEM AGAIN"
+  noi_news.2.c: "Onward to victory!"
+  
+  noi_news.3.t: "Operation Citadel Begins"
+  noi_news.3.d: "The Wehrmacht unleashes Operation Citadel, aiming to encircle and destroy the Soviet forces. Both sides commit massive resources in a desperate struggle for supremacy. The fate of the Eastern Front hangs in the balance.\n\nTanks clash and artillery roars, while soldiers on both sides fight fiercely for every inch of ground. The world watches as this pivotal battle could determine the future course of the war."
+  noi_news.3.a: "A colossal clash of titans"
+  noi_news.3.b: "STAND FIRM COMRADES!"
+  noi_news.3.c: "Break through their lines!"
+  
+  Barbarossa: "Unternehmen Barbarossa"
