@@ -1,0 +1,125 @@
+ideas = {
+	country = {
+	
+		SAF_NOI_union_defense_force_i = {
+			picture = ast_volunteer_defence_corps
+			
+			available = {
+				
+			}
+			
+			# This stays always the same
+			removal_cost = -1
+
+			modifier = {
+				weekly_manpower = 1000
+			}
+		}
+		
+		SAF_NOI_adaptable_tank_force_i = {
+			picture = ETH_conservative_high_command
+			
+			available = {
+				
+			}
+			
+			# please leave the buffs as they are pleaaase
+			removal_cost = -1
+
+			modifier = {
+				terrain_penalty_reduction = 0.05
+				attrition = -0.08
+				out_of_supply_factor = -0.1
+				army_fuel_consumption_factor = -0.1
+			}
+		}
+		
+		SAF_NOI_war_in_the_desert_i = {
+			picture = eng_imperial_conscription
+			
+			available = {
+				
+			}
+			
+			# This stays always the same
+			removal_cost = -1
+
+			modifier = {
+				supply_consumption_factor = -0.1
+				heat_attrition_factor = -0.15
+				max_dig_in_factor = 0.15
+			}
+		}
+		
+		SAF_NOI_south_african_paratroopers_i = {
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			available = {
+				
+			}
+			
+			# This stays always the same
+			removal_cost = -1
+
+			modifier = {
+				special_forces_cap = 0.02
+			}
+		}
+		
+		SAF_NOI_start_production_of_the_olifant_i = {
+			picture = generic_production_bonus
+			
+			available = {
+				
+			}
+			
+			# i know it might seem like a lot but please doping a focus that gives -5% cost is pointless
+			#so if you wanna reduce it then atleast add something to make the path actually viable and good, thank you
+			removal_cost = -1
+			
+			equipment_bonus = {
+				heavy_tank_chassis = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+			modifier = {
+				
+			}
+		}
+		SAF_NOI_operation_husky_i = {
+			picture = SPR_anti_fascist_crusade
+			
+			available = {
+				
+			}
+			
+			modifier = {
+				
+			}
+		}
+		SAF_NOI_take_part_in_dday_i = {
+			picture = SPR_anti_fascist_crusade
+			
+			available = {
+				
+			}
+			
+			modifier = {
+				
+			}
+		}
+		SAF_NOI_final_blow_against_facism_i = {
+			picture = SPR_anti_fascist_crusade
+			
+			available = {
+				
+			}
+			
+			modifier = {
+				
+			}
+		}
+		
+	}
+}
