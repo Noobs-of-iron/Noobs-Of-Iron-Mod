@@ -4,10 +4,6 @@
 < 		reliability = 0.8
 ---
 > 		reliability = 0.7
-41c40
-< 		build_cost_ic = 8
----
-> 		build_cost_ic = 9
 70a70,71
 > 		
 > 		reliability = 0.8
