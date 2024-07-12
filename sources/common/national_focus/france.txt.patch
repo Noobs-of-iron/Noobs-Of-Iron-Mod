@@ -2,9 +2,9 @@
 > 		allow_branch = {
 > 			always = no
 > 		}
-1889a1893
+1901a1893
 > 				
-5096,5108c5100
+5096,5108c5088
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -20,7 +20,7 @@
 < 			}
 ---
 > 			always = no
-5164,5175c5156
+5164,5175c5144
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -35,7 +35,7 @@
 < 			}
 ---
 > 			always = no
-6436,6448c6417,6418
+6436,6448c6405,6406
 < 			NOT = { has_dlc = "La Resistance" }
 < 			if = {
 < 				limit = {
@@ -52,7 +52,7 @@
 ---
 > 			always = no
 > 		}
-6892,6903c6862
+6892,6903c6850
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -67,33 +67,16 @@
 < 			}
 ---
 > 			always = no
-8093c8052
+8093c8040
 < 		x = 70
 ---
 > 		x = 50
-8128c8087
+8128c8075
 < 			x = -27
 ---
 > 			x = -3
-8140c8099
+8140c8087
 < 			x = -8
 ---
 > 			x = -12
-8176c8135
-< 			x = -3
----
-> 			x = -5
-8185,8197d8143
-< 				has_completed_focus = FRA_review_foreign_policy
-< 			}
-< 		}
-< 		offset = {
-< 			x = -20
-< 			y = 0
-< 			trigger = {
-< 				has_dlc = "La Resistance"
-< 				has_game_rule = {
-< 					rule = obsolete_focus_branches_visibility
-< 					option = HIDE
-< 				}
-< 				has_completed_focus = FRA_revive_the_national_bloc
+

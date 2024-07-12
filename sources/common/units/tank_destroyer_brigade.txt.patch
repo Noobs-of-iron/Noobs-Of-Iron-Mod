@@ -1,20 +1,20 @@
 37c37,38
 < 		breakthrough = -0.42
 ---
-> 		soft_attack = -0.1
+> 		soft_attack = -0.25
 > 		breakthrough = -0.55
 104c105,106
 < 		breakthrough = -0.25
 ---
-> 		soft_attack = -0.1
+> 		soft_attack = -0.25
 > 		breakthrough = -0.55
 174c176,177
 < 		breakthrough = -0.25
 ---
-> 		soft_attack = -0.1
+> 		soft_attack = -0.25
 > 		breakthrough = -0.5
 320c323,324
 < 		breakthrough = -0.25
 ---
-> 		soft_attack = -0.1
+> 		soft_attack = -0.25
 > 		breakthrough = -0.55

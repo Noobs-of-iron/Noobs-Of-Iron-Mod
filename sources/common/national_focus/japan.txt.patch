@@ -1,3 +1,7 @@
+16c16
+< 
+---
+> 	
 35,51c35,36
 < 			has_dlc = "Waking the Tiger"
 < 			if = {
@@ -23,7 +27,514 @@
 < 		x = 8
 ---
 > 		x = 0
-2704,2719c2689,2690
+1280a1266,1771
+> 	
+> 	focus = {
+> 		id = JAP_island_fortification
+> 		icon = GFX_focus_generic_coastal_fort
+> 		prerequisite = { focus = JAP_secure_china }
+> 		available = {
+> 		        AND = {
+> 				CHI = { has_capitulated = yes }
+> 				NOT = { country_exists = CHI }
+> 				has_full_control_of_state = 648
+> 				has_full_control_of_state = 645
+> 				has_full_control_of_state = 646
+> 				has_full_control_of_state = 526
+> 				has_full_control_of_state = 524
+> 				has_full_control_of_state = 647
+> 				}
+> 		}
+> 		cancel_if_invalid = yes
+> 		x = -2
+> 		y = 1
+> 		relative_position_id = JAP_secure_china
+> 		cost = 10
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 		
+> 		completion_reward = {
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 648
+> 						}
+> 					}
+> 					648 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 					}
+> 				}
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 645
+> 						}
+> 					}
+> 					645 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 					}
+> 				}
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 646
+> 						}
+> 					}
+> 					646 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 					}
+> 				}
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 526
+> 						}
+> 					}
+> 					526 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 					}
+> 				}
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 524
+> 						}
+> 					}
+> 					524 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 					}
+> 				}
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 647
+> 						}
+> 					}
+> 					647 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 				}
+> 			}
+> 		}
+> 	}
+> 	
+> 	focus = {
+> 		id = JAP_mainland_fortification
+> 		icon = GFX_goal_generic_construct_military
+> 		prerequisite = { focus = JAP_island_fortification }
+> 		available = {
+> 			AND = {
+> 				has_full_control_of_state = 533
+> 				has_full_control_of_state = 282
+> 				has_full_control_of_state = 531
+> 				has_full_control_of_state = 529
+> 				has_full_control_of_state = 528
+> 			}
+> 		}
+> 		cancel_if_invalid = yes
+> 		x = 0
+> 		y = 1
+> 		relative_position_id = JAP_island_fortification
+> 		cost = 10
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 		
+> 		completion_reward = {
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 533
+> 						}
+> 					}
+> 					533 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 					}
+> 				}
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 282
+> 						}
+> 					}
+> 					282 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 					}
+> 				}
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 531
+> 						}
+> 					}
+> 					531 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 					}
+> 				}
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 529
+> 						}
+> 					}
+> 					529 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 					}
+> 				}
+> 				if = {
+> 					limit = {
+> 						any_country = {
+> 							OR = {
+> 								tag = JAP
+> 								is_in_faction_with = JAP
+> 							}
+> 							has_full_control_of_state = 528
+> 						}
+> 					}
+> 					528 = {
+> 						#Fortify naval bases
+> 						add_building_construction = {
+> 							type = coastal_bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 4
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+> 							type = bunker
+> 							province = {
+> 								all_provinces = yes
+> 								limit_to_naval_base = yes
+> 							}
+> 							level = 3
+> 							instant_build = yes
+> 						}
+> 						add_building_construction = {
+>             	    	    type = coastal_bunker
+>             	    	    province = {
+>             	    	        all_provinces = yes
+>             	    	        limit_to_coastal = yes
+>             	    	    }
+>             	    	    level = 1
+>             	    	    instant_build = yes
+>             	    	}
+> 					}
+> 				}
+> 		}
+> 	}
+2704,2719c3195,3196
 < 			if = {
 < 				limit = {
 < 					has_game_rule = {
@@ -43,7 +554,7 @@
 ---
 >             always = no
 >         }
-3588,3604c3559,3560
+3588,3604c4065,4066
 < 			has_dlc = "Waking the Tiger"
 < 			if = {
 < 				limit = {
@@ -64,13 +575,13 @@
 ---
 >             always = no
 >         }
-4373c4329
+4373c4835
 < 		x = 6
 ---
 > 		x = 11
-4375d4330
+4375d4836
 < 		relative_position_id = JAP_strengthen_civilian_government
-4384c4339
+4384c4845
 < 			x = -9
 ---
 > 			x = -8
