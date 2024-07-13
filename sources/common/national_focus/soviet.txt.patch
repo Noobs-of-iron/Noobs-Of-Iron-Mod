@@ -1,0 +1,6 @@
+480d479
+< 				add_to_variable = { SOV_fyp_production_factory_efficiency_gain_factor = 0.05 }
+4118c4117
+< 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
+---
+> 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.1 }

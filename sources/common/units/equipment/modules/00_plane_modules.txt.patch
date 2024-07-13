@@ -1,0 +1,40 @@
+411c411
+< 			air_range = -0.4
+---
+> 			air_range = -0.1
+413c413
+< 			air_agility = 0.05
+---
+> 			air_agility = 0.1
+439c439
+< 			air_range = -0.4
+---
+> 			air_range = -0.1
+441c441
+< 			air_agility = 0.05
+---
+> 			air_agility = 0.1
+467c467
+< 			air_range = -0.4
+---
+> 			air_range = -0.1
+469c469
+< 			air_agility = 0.05
+---
+> 			air_agility = 0.1
+495c495
+< 			air_range = -0.4
+---
+> 			air_range = -0.1
+497c497
+< 			air_agility = 0.05
+---
+> 			air_agility = 0.1
+522c522
+< 			air_range = -0.4
+---
+> 			air_range = -0.1
+524c524
+< 			air_agility = 0.05
+---
+> 			air_agility = 0.1
