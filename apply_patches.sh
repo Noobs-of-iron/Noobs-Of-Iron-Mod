@@ -225,9 +225,18 @@ apply_patches_and_update_mod() {
             # Apply the patch using the temporary converted original file
             patch -o "$mod_file" "$temp_original_file" "$sources_file" > /dev/null
             echo_debug "Applied patch to create: $mod_file"
+            # Paradox must have a custom csv parser that doesnt like unix format even on linux @#!
             if [[ "$mod_file" == *.csv ]]; then
                 unix2dos -q "$mod_file"
                 echo_debug "Converted $mod_file to DOS format."
+            fi
+            #Patch seems to generate non-bom uft-8 loc files and hoi doesn't like that
+            if [[ "$mod_file" == *.yml ]]; then
+                mv "$mod_file" "$mod_file.tmp"
+                printf '\xEF\xBB\xBF' > "$mod_file"
+                cat "$mod_file.tmp" >> "$mod_file"
+                rm "$mod_file.tmp"
+                echo_debug "Converted $mod_file to UTF-8 BOM format."
             fi
 
             rm "$temp_original_file"  # Clean up the temporary file
