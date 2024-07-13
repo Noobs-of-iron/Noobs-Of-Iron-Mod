@@ -10,6 +10,7 @@
 - HW are better but cant be put on turrets anymore
 - SPGs are 2w now
 - TDs got nerfed to hell and back (reduced breakthrough and soft attack)
+- Armor types have been balanced
 #### Planes
 - Jet engines range penalty has been massively reduced, and the agilty buffs is doubled
 #### Doctrines

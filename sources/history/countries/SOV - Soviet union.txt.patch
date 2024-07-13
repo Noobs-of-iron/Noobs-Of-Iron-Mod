@@ -1,2 +1,6 @@
+557c557
+< set_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
+---
+> set_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.1 }
 841a842
 > 	SOV_NOI_enduring_spirit
