@@ -2,9 +2,9 @@
 > 		allow_branch = {
 > 			always = no
 > 		}
-1901a1893
+1901a1905
 > 				
-5096,5108c5088
+5096,5108c5100
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -20,7 +20,7 @@
 < 			}
 ---
 > 			always = no
-5164,5175c5144
+5164,5175c5156
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -35,7 +35,7 @@
 < 			}
 ---
 > 			always = no
-6436,6448c6405,6406
+6436,6448c6417,6418
 < 			NOT = { has_dlc = "La Resistance" }
 < 			if = {
 < 				limit = {
@@ -52,7 +52,7 @@
 ---
 > 			always = no
 > 		}
-6892,6903c6850
+6892,6903c6862
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -67,16 +67,15 @@
 < 			}
 ---
 > 			always = no
-8093c8040
+8093c8052
 < 		x = 70
 ---
 > 		x = 50
-8128c8075
+8128c8087
 < 			x = -27
 ---
 > 			x = -3
-8140c8087
+8140c8099
 < 			x = -8
 ---
 > 			x = -12
-

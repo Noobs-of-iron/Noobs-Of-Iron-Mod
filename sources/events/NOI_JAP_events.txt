@@ -44,3 +44,95 @@ country_event = {
         }
     }
 }
+
+# Japan demands Indochina, NOI Version
+country_event = {
+	id = noi_jap.3
+	title = noi_jap.3.t
+	desc = noi_jap.3.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = noi_jap.3.a
+		USA = { set_country_flag = { flag = USA_indochina_window days = 60 value = 1 } }
+		hidden_effect = {
+			news_event = { days = 5 id = news.5 }
+		}
+		JAP = {
+			if = {
+				limit = {
+					286 = {
+						CONTROLLER = {
+							OR = {
+								original_tag = FRA
+								is_subject_of = FRA
+								is_subject_of = VIC
+							}
+						}
+					}
+				}
+				transfer_state = 286
+			}
+			if = {
+				limit = {
+					670 = {
+						CONTROLLER = {
+							OR = {
+								original_tag = FRA
+								is_subject_of = FRA
+								is_subject_of = VIC
+							}
+						}
+					}
+				}
+				transfer_state = 670
+			}
+			if = {
+				limit = {
+					671 = {
+						CONTROLLER = {
+							OR = {
+								original_tag = FRA
+								is_subject_of = FRA
+								is_subject_of = VIC
+							}
+						}
+					}
+				}
+				transfer_state = 671
+			}
+			if = {
+				limit = {
+					741 = {
+						CONTROLLER = {
+							OR = {
+								original_tag = FRA
+								is_subject_of = FRA
+								is_subject_of = VIC
+							}
+						}
+					}
+				}
+				transfer_state = 741
+			}
+			if = {
+				limit = {
+					728 = {
+						CONTROLLER = {
+							OR = {
+								original_tag = FRA
+								is_subject_of = FRA
+								is_subject_of = VIC
+							}
+						}
+					}
+				}
+				transfer_state = 728
+			}
+			add_named_threat = { threat = 3 name = noi_jap.3.t }
+		}
+	}
+
+}

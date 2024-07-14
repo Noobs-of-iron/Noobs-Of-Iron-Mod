@@ -1,0 +1,8 @@
+1016c1016
+< 				FRA = { country_event = { id = france.1 } }
+---
+> 				FRA = { country_event = { id = noi_jap.3 } }
+1031c1031
+< 				VIC = { country_event = { id = france.1 } }
+---
+> 				VIC = { country_event = { id = noi_jap.3 } }
