@@ -1,0 +1,10 @@
+11c11,17
+< 
+---
+> SPR_real_fabrica_trubia = {
+> 	include = generic_infantry_tank_organization
+> 	icon = GFX_idea_noob_SPR_inf_tank
+> 	allowed = {
+> 		TAG = SPR
+> 	}	
+> }
