@@ -1,0 +1,6 @@
+2764a2765,2769
+>      name = "GFX_tankround_medium"
+>      textureFile = "gfx/interface/technologies/tank_round.dds"
+>    }
+> 	
+> 	SpriteType = {

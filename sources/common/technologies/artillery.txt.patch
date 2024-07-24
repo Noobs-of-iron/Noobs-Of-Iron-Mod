@@ -1,5 +1,5 @@
-2a3,141
-> tankrounds1 = {
+2a3,139
+> tankround = {
 > 	
 > 		enable_equipment_modules = {
 > 			aphe_round
@@ -66,8 +66,6 @@
 > 		enable_equipment_modules = {
 > 			tank_heavy_cannon_2
 > 			tank_buster_2
-> 			aphe_round
-> 			apcr_round
 > 		}
 > 		path = {
 > 			leads_to_tech = antitank3
@@ -75,7 +73,7 @@
 > 		}
 > 		
 > 		path = {
-> 			leads_to_tech = tankrounds1
+> 			leads_to_tech = tankround
 > 			research_cost_coeff = 1
 > 		}
 > 
@@ -138,7 +136,39 @@
 > 		}
 > 	}
 > 
-1138,1216d1276
+1048c1185
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1052c1189
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1056c1193
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1060c1197
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1064c1201
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1068c1205
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1072c1209
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1076c1213
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1138,1216d1274
 < 	antitank2 = {
 < 
 < 		mot_anti_tank_brigade = {
@@ -218,7 +248,19 @@
 < 			mio_cat_all_artillery_equipment
 < 		}
 < 	}
-1521c1581
+1224c1282
+< 			ap_attack = 0.1
+---
+> 			ap_attack = 0.05
+1228c1286
+< 			ap_attack = 0.1
+---
+> 			ap_attack = 0.05
+1232c1290
+< 			ap_attack = 0.1
+---
+> 			ap_attack = 0.05
+1521c1579
 < }
 ---
 > }

@@ -1,0 +1,64 @@
+142a143,152
+> 		
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+378a389,397
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+628a648,656
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+837c865,874
+< 		}	
+---
+> 		}
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+1059a1097,1105
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+1227a1274,1282
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
