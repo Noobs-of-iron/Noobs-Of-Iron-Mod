@@ -534,6 +534,14 @@
 > 				}
 > 		}
 > 	}
+1769c2260
+< 		cost = 10
+---
+> 		cost = 5
+1790c2281
+< 			SIA = { country_event = generic.5 }
+---
+> 			add_to_faction = SIA
 2704,2719c3195,3196
 < 			if = {
 < 				limit = {
