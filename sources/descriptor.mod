@@ -5,7 +5,7 @@ tags={
 	"Map"
 	"Fixes"
 }
-picture = "thumbnail.png"
+picture="thumbnail.png"
 name="NOIM"
 supported_version="1.14.*"
 remote_file_id="3167289368"

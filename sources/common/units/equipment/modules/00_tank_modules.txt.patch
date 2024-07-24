@@ -18,7 +18,7 @@
 100c102
 < 			hardness = 0.02	
 ---
-> 			hardness = 0.03	
+> 			hardness = 0.06	
 105,106c107,111
 < 			build_cost_ic = 0.2
 < 			armor_value = 0.3
@@ -36,35 +36,42 @@
 < 			chromium = 1
 ---
 > 			armor_value = 0.2
-858c859
+175a177,182
+> 			reliability = 0.05
+> 			hardness = -0.02
+> 		}
+> 		
+> 		build_cost_resources = {
+> 			rubber = 1
+858c865
 < 			breakthrough = 2
 ---
 > 			breakthrough = 4
-887c888
+887c894
 < 			breakthrough = 4
 ---
 > 			breakthrough = 7
-906a908,909
+906a914,915
 > 		forbid_equipment_type = amphibious
 > 		forbid_equipment_type_exact_match = armor
-910,911c913,914
+910,911c919,920
 < 			hard_attack = 1
 < 			ap_attack = 20
 ---
 > 			hard_attack = 8
 > 			ap_attack = 10
-915d917
+915d923
 < 			breakthrough = -2
-924,925c926
+924,925c932
 < 			tungsten = 1
 < 			steel = 2
 ---
 > 			steel = 3
-933a935,937
+933a941,943
 > 		forbid_equipment_type = amphibious
 > 		forbid_equipment_type_exact_match = armor
 > 		
-936,940c940,944
+936,940c946,950
 < 			soft_attack = 45
 < 			hard_attack = 2
 < 			ap_attack = 30
@@ -76,75 +83,75 @@
 > 			ap_attack = 20
 > 			build_cost_ic = 6
 > 			maximum_speed = -0.6
-942c946
+942c952
 < 			breakthrough = -2
 ---
 > 			breakthrough = -1
-948c952
+948c958
 < 			convert_cost_ic = 5.5
 ---
 > 			convert_cost_ic = 6
-951,952c955
+951,952c961
 < 			tungsten = 1
 < 			steel = 3
 ---
 > 			steel = 4
-1047,1048c1050,1051
+1047,1048c1056,1057
 < 			soft_attack = 20
 < 			hard_attack = 35
 ---
 > 			soft_attack = 15
 > 			hard_attack = 32
-1050c1053
+1050c1059
 < 			build_cost_ic = 5
 ---
 > 			build_cost_ic = 7
-1058c1061
+1058c1067
 < 			convert_cost_ic = 5
 ---
 > 			convert_cost_ic = 7
-1061c1064
+1061c1070
 < 			tungsten = 2
 ---
 > 			tungsten = 3
-1073,1074c1076,1077
+1073,1074c1082,1083
 < 			soft_attack = 25
 < 			hard_attack = 45
 ---
 > 			soft_attack = 20
 > 			hard_attack = 60
-1076c1079
+1076c1085
 < 			build_cost_ic = 7
 ---
 > 			build_cost_ic = 9
-1084c1087
+1084c1093
 < 			convert_cost_ic = 7
 ---
 > 			convert_cost_ic = 9
-1087c1090
+1087c1096
 < 			tungsten = 2
 ---
 > 			tungsten = 3
-1100,1101c1103,1104
+1100,1101c1109,1110
 < 			soft_attack = 20
 < 			hard_attack = 20
 ---
 > 			soft_attack = 30
 > 			hard_attack = 22
-1127c1130
+1127c1136
 < 			soft_attack = 25
 ---
 > 			soft_attack = 35
-1154,1155c1157,1158
+1154,1155c1163,1164
 < 			soft_attack = 30
 < 			hard_attack = 40
 ---
 > 			soft_attack = 45
 > 			hard_attack = 50
-1178a1182,1183
+1178a1188,1189
 > 		forbid_equipment_type = amphibious
 > 		forbid_equipment_type_exact_match = armor
-1181,1185c1186,1190
+1181,1185c1192,1196
 < 			soft_attack = 55
 < 			hard_attack = 2
 < 			ap_attack = 60
@@ -156,43 +163,78 @@
 > 			ap_attack = 35
 > 			build_cost_ic = 8
 > 			maximum_speed = -1
-1187c1192
+1187c1198
 < 			breakthrough = -4
 ---
 > 			breakthrough = -2
-1193c1198
+1193c1204
 < 			convert_cost_ic = 7
 ---
 > 			convert_cost_ic = 8
-1199c1204
+1199c1210
 < 			steel = 3
 ---
 > 			steel = 4
-1210,1211c1215,1216
+1210,1211c1221,1222
 < 			soft_attack = 35
 < 			hard_attack = 45
 ---
 > 			soft_attack = 60
 > 			hard_attack = 65
-1327a1333,1334
+1327a1339,1340
 > 			build_cost_ic = 0.05
 > 			reliability = -0.05
-1340c1347
+1340c1353
 < 			reliability = -0.1
 ---
 > 			reliability = -0.15
-1344a1352
+1344a1358
 > 			build_cost_ic = 0.15
-1489c1497
+1436a1451,1484
+> 	
+> 	aphe_round = {
+> 		abbreviation = "aphe"
+> 		category = tank_special_module
+> 		sfx = GFX_EMI_aphe_round
+> 		xp_cost = 1
+> 
+> 		multiply_stats = {
+> 			hard_attack = 0.15
+> 			ap_attack = -0.3
+> 		}
+>         
+> 		build_cost_resources = {
+> 			steel = 1
+> 		}
+> 		
+> 	}
+> 	
+> 		apcr_round = {
+> 		abbreviation = "apcr"
+> 		category = tank_special_module
+> 		sfx = GFX_EMI_apcr_round
+> 		xp_cost = 1
+> 
+> 		multiply_stats = {
+> 			hard_attack = -0.15
+> 			ap_attack = 0.3
+> 		}
+>         
+> 		build_cost_resources = {
+> 			tungsten = 1
+> 		}
+> 		
+> 	}
+1489c1537
 < 			reliability = 0.1
 ---
 > 			reliability = 0.2
-1492,1495c1500
+1492,1495c1540
 < 		xp_cost = 30
 < 		multiply_stats = {
 < 			build_cost_ic = -0.05
 < 		}
 ---
 > 		xp_cost = 10
-1522d1526
+1522d1566
 < 			maximum_speed = -0.25

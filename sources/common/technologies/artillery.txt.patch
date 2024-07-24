@@ -1,0 +1,225 @@
+2a3,141
+> tankrounds1 = {
+> 	
+> 		enable_equipment_modules = {
+> 			aphe_round
+> 			apcr_round
+> 		}
+> 		
+> 		research_cost = 0.7
+> 
+> 		start_year = 1940
+> 
+> 		folder = {
+> 			name = artillery_folder
+> 			position = { x = 10 y = 6 }
+> 		}
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 
+> 			modifier = {
+> 				factor = 2
+> 				date > "1939.1.9"
+> 			}
+> 			
+> 			modifier = {
+> 				factor = 2
+> 				date > "1940.1.1"
+> 			}
+> 
+> 			modifier = {
+> 				factor = 5
+> 				date > "1940.1.6"
+> 			}
+> 			
+> 			modifier = {
+> 				factor = 10
+> 				any_enemy_country = {
+> 					ROOT = {
+> 						estimated_intel_max_armor = {
+> 							tag = PREV
+> 							value > 32
+> 						}
+> 					}
+> 				}
+> 			}
+> 		}
+> 
+> 		categories = {
+> 			artillery
+> 			cat_anti_tank
+> 			mio_cat_all_artillery_equipment
+> 		}
+> 	}
+> 	
+> 	antitank2 = {
+> 
+> 		mot_anti_tank_brigade = {
+> 			hard_attack = 0.1
+> 			ap_attack = 0.1
+> 		}
+> 
+> 		enable_equipments = {
+> 			anti_tank_equipment_2
+> 		}
+> 		enable_equipment_modules = {
+> 			tank_heavy_cannon_2
+> 			tank_buster_2
+> 			aphe_round
+> 			apcr_round
+> 		}
+> 		path = {
+> 			leads_to_tech = antitank3
+> 			research_cost_coeff = 1
+> 		}
+> 		
+> 		path = {
+> 			leads_to_tech = tankrounds1
+> 			research_cost_coeff = 1
+> 		}
+> 
+> 		research_cost = 1
+> 
+> 		start_year = 1940
+> 
+> 		folder = {
+> 			name = artillery_folder
+> 			position = { x = 7 y = 6 }
+> 		}
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 
+> 			modifier = {
+> 				factor = 2
+> 				date > "1939.1.9"
+> 			}
+> 			modifier = {
+> 				tag = JAP
+> 				not = {
+> 					OR = {
+> 						has_War_with = SOV
+> 						has_war_with = USA
+> 					}
+> 				}
+> 				factor = 0.5
+> 			}
+> 			modifier = {
+> 				factor = 2
+> 				date > "1940.1.1"
+> 			}
+> 			modifier = {
+> 				tag = USA
+> 				has_War = no
+> 				factor = 0.5 #this tank nonsense will never catch on
+> 			}
+> 			modifier = {
+> 				factor = 5
+> 				date > "1940.1.6"
+> 			}
+> 			modifier = {
+> 				factor = 10
+> 				any_enemy_country = {
+> 					ROOT = {
+> 						estimated_intel_max_armor = {
+> 							tag = PREV
+> 							value > 32
+> 						}
+> 					}
+> 				}
+> 			}
+> 		}
+> 
+> 		categories = {
+> 			artillery
+> 			cat_anti_tank
+> 			mio_cat_all_artillery_equipment
+> 		}
+> 	}
+> 
+1138,1216d1276
+< 	antitank2 = {
+< 
+< 		mot_anti_tank_brigade = {
+< 			hard_attack = 0.1
+< 			ap_attack = 0.1
+< 		}
+< 
+< 		enable_equipments = {
+< 			anti_tank_equipment_2
+< 		}
+< 		enable_equipment_modules = {
+< 			tank_heavy_cannon_2
+< 			tank_buster_2
+< 			aphe_round
+< 			apcr_round
+< 		}
+< 		path = {
+< 			leads_to_tech = antitank3
+< 			research_cost_coeff = 1
+< 		}
+< 
+< 		research_cost = 1
+< 
+< 		start_year = 1940
+< 
+< 		folder = {
+< 			name = artillery_folder
+< 			position = { x = 7 y = 6 }
+< 		}
+< 
+< 		ai_will_do = {
+< 			factor = 1
+< 
+< 			modifier = {
+< 				factor = 2
+< 				date > "1939.1.9"
+< 			}
+< 			modifier = {
+< 				tag = JAP
+< 				not = {
+< 					OR = {
+< 						has_War_with = SOV
+< 						has_war_with = USA
+< 					}
+< 				}
+< 				factor = 0.5
+< 			}
+< 			modifier = {
+< 				factor = 2
+< 				date > "1940.1.1"
+< 			}
+< 			modifier = {
+< 				tag = USA
+< 				has_War = no
+< 				factor = 0.5 #this tank nonsense will never catch on
+< 			}
+< 			modifier = {
+< 				factor = 5
+< 				date > "1940.1.6"
+< 			}
+< 			modifier = {
+< 				factor = 10
+< 				any_enemy_country = {
+< 					ROOT = {
+< 						estimated_intel_max_armor = {
+< 							tag = PREV
+< 							value > 32
+< 						}
+< 					}
+< 				}
+< 			}
+< 		}
+< 
+< 		categories = {
+< 			artillery
+< 			cat_anti_tank
+< 			mio_cat_all_artillery_equipment
+< 		}
+< 	}
+1521c1581
+< }
+---
+> }
+\ No newline at end of file

@@ -1,0 +1,18 @@
+203c203
+< 			category = category_artillery
+---
+> 			category = category_all_armor
+308,313c308,313
+< 		# Support nerfs to combat abilities
+< 		defense = -0.6
+< 		breakthrough = -0.6
+< 		soft_attack = -0.6
+< 		hard_attack = -0.6
+< 		armor_value = -0.6
+---
+> 		defense = -0.5
+> 		breakthrough = -0.50
+> 		soft_attack = -0.50
+> 		hard_attack = -0.50
+> 		armor_value = -0.5
+> 		can_be_parachuted = yes

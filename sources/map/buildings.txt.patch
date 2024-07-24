@@ -33,7 +33,7 @@
 < 645;floating_harbor;5020.00;9.50;1038.00;-3.07;13025
 47909c47882,47919
 < 969;bunker;1847.00;10.03;930.00;0.23;0
-\ Pas de fin de ligne à la fin du fichier
+\ No newline at end of file
 ---
 > 969;bunker;1847.00;10.03;930.00;0.23;0
 > 645;arms_factory;5021.00;10.50;1057.00;0.06;0
@@ -73,4 +73,4 @@
 > 645;floating_harbor;5027.92;9.50;1077.73;-0.28;13025
 > 645;floating_harbor;5039.95;9.50;1066.95;-0.79;13364
 > 645;floating_harbor;5012.05;9.50;1045.05;-3.93;13363
-\ Pas de fin de ligne à la fin du fichier
+\ No newline at end of file

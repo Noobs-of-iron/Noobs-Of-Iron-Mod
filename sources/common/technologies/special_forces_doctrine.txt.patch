@@ -1,3 +1,39 @@
+25c25
+< 		xp_unlock_cost = 60
+---
+> 		xp_unlock_cost = 40
+81c81
+< 		xp_unlock_cost = 60
+---
+> 		xp_unlock_cost = 40
+127c127
+< 		xp_unlock_cost = 60
+---
+> 		xp_unlock_cost = 40
+172c172
+< 		xp_unlock_cost = 60
+---
+> 		xp_unlock_cost = 40
+218c218
+< 		xp_unlock_cost = 60
+---
+> 		xp_unlock_cost = 40
+262c262
+< 		xp_unlock_cost = 60
+---
+> 		xp_unlock_cost = 40
+313c313
+< 		xp_unlock_cost = 60
+---
+> 		xp_unlock_cost = 40
+357c357
+< 		xp_unlock_cost = 60
+---
+> 		xp_unlock_cost = 40
+396c396
+< 		xp_unlock_cost = 60
+---
+> 		xp_unlock_cost = 40
 1012,1016c1012
 < 		
 < 		path = {

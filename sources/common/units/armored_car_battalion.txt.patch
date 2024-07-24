@@ -1,0 +1,24 @@
+41,42c41,42
+< 		    attack = -0.2
+< 			movement = -0.4
+---
+> 		    attack = -0.1
+> 			movement = -0.3
+49c49
+< 		    attack = -0.3
+---
+> 		    attack = -0.2
+53d52
+< 		    attack = -0.1 
+60c59
+< 			attack = -0.3
+---
+> 			attack = -0.1
+63c62
+< 			attack = -0.2 
+---
+> 			attack = -0.1 
+67c66
+< 			attack = -0.4
+---
+> 			attack = -0.2
