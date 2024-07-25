@@ -11,11 +11,15 @@
 - SPGs are 2w now
 - TDs got nerfed to hell and back (reduced breakthrough and soft attack)
 - Armor types have been balanced
+- New apcr and aphe rounds
 #### Planes
 - Jet engines range penalty has been massively reduced, and the agilty buffs is doubled
 #### Doctrines
 - Human wave offensive brings less recrutable pop and reduced infantry health
 - Sprinkles here and there
+
+## Germany
+- Brand new Army focus tree
 
 ## USA
 - USA starts with "Enforced Neutrality" spirit, **preventing it from joining alliances or declaring wars**(but not from answering call to arms from allies or guaranteed nations). The spirit will be removed after June 1st 1941 or if US finds itself at war

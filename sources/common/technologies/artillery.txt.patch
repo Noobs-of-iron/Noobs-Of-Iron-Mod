@@ -1,5 +1,5 @@
-2a3,139
-> tankround = {
+1a2,55
+> 	tankround = {
 > 	
 > 		enable_equipment_modules = {
 > 			aphe_round
@@ -53,215 +53,54 @@
 > 		}
 > 	}
 > 	
-> 	antitank2 = {
-> 
-> 		mot_anti_tank_brigade = {
-> 			hard_attack = 0.1
+1048c1102
+< 			ap_attack = 0.2
+---
 > 			ap_attack = 0.1
-> 		}
-> 
-> 		enable_equipments = {
-> 			anti_tank_equipment_2
-> 		}
-> 		enable_equipment_modules = {
-> 			tank_heavy_cannon_2
-> 			tank_buster_2
-> 		}
-> 		path = {
-> 			leads_to_tech = antitank3
-> 			research_cost_coeff = 1
-> 		}
+1052c1106
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1056c1110
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1060c1114
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1064c1118
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1068c1122
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1072c1126
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1076c1130
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1086a1141
 > 		
+1155a1211,1214
 > 		path = {
-> 			leads_to_tech = tankround
-> 			research_cost_coeff = 1
-> 		}
-> 
-> 		research_cost = 1
-> 
-> 		start_year = 1940
-> 
-> 		folder = {
-> 			name = artillery_folder
-> 			position = { x = 7 y = 6 }
-> 		}
-> 
-> 		ai_will_do = {
-> 			factor = 1
-> 
-> 			modifier = {
-> 				factor = 2
-> 				date > "1939.1.9"
-> 			}
-> 			modifier = {
-> 				tag = JAP
-> 				not = {
-> 					OR = {
-> 						has_War_with = SOV
-> 						has_war_with = USA
-> 					}
-> 				}
-> 				factor = 0.5
-> 			}
-> 			modifier = {
-> 				factor = 2
-> 				date > "1940.1.1"
-> 			}
-> 			modifier = {
-> 				tag = USA
-> 				has_War = no
-> 				factor = 0.5 #this tank nonsense will never catch on
-> 			}
-> 			modifier = {
-> 				factor = 5
-> 				date > "1940.1.6"
-> 			}
-> 			modifier = {
-> 				factor = 10
-> 				any_enemy_country = {
-> 					ROOT = {
-> 						estimated_intel_max_armor = {
-> 							tag = PREV
-> 							value > 32
-> 						}
-> 					}
-> 				}
-> 			}
-> 		}
-> 
-> 		categories = {
-> 			artillery
-> 			cat_anti_tank
-> 			mio_cat_all_artillery_equipment
-> 		}
-> 	}
-> 
-1048c1185
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1052c1189
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1056c1193
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1060c1197
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1064c1201
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1068c1205
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1072c1209
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1076c1213
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1138,1216d1274
-< 	antitank2 = {
-< 
-< 		mot_anti_tank_brigade = {
-< 			hard_attack = 0.1
-< 			ap_attack = 0.1
-< 		}
-< 
-< 		enable_equipments = {
-< 			anti_tank_equipment_2
-< 		}
-< 		enable_equipment_modules = {
-< 			tank_heavy_cannon_2
-< 			tank_buster_2
-< 			aphe_round
-< 			apcr_round
-< 		}
-< 		path = {
-< 			leads_to_tech = antitank3
-< 			research_cost_coeff = 1
-< 		}
-< 
-< 		research_cost = 1
-< 
-< 		start_year = 1940
-< 
-< 		folder = {
-< 			name = artillery_folder
-< 			position = { x = 7 y = 6 }
-< 		}
-< 
-< 		ai_will_do = {
-< 			factor = 1
-< 
-< 			modifier = {
-< 				factor = 2
-< 				date > "1939.1.9"
-< 			}
-< 			modifier = {
-< 				tag = JAP
-< 				not = {
-< 					OR = {
-< 						has_War_with = SOV
-< 						has_war_with = USA
-< 					}
-< 				}
-< 				factor = 0.5
-< 			}
-< 			modifier = {
-< 				factor = 2
-< 				date > "1940.1.1"
-< 			}
-< 			modifier = {
-< 				tag = USA
-< 				has_War = no
-< 				factor = 0.5 #this tank nonsense will never catch on
-< 			}
-< 			modifier = {
-< 				factor = 5
-< 				date > "1940.1.6"
-< 			}
-< 			modifier = {
-< 				factor = 10
-< 				any_enemy_country = {
-< 					ROOT = {
-< 						estimated_intel_max_armor = {
-< 							tag = PREV
-< 							value > 32
-< 						}
-< 					}
-< 				}
-< 			}
-< 		}
-< 
-< 		categories = {
-< 			artillery
-< 			cat_anti_tank
-< 			mio_cat_all_artillery_equipment
-< 		}
-< 	}
-1224c1282
+>  			leads_to_tech = tankround
+>  			research_cost_coeff = 1
+>  		}
+1226c1285
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1228c1286
+1230c1289
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1232c1290
+1319c1378
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1521c1579
-< }
----
-> }
-\ No newline at end of file

@@ -838,7 +838,7 @@
 < 			}
 ---
 > 			always = no
-9611a9413,12140
+9611a9413,12137
 > 	
 > 	################################################################################################################################################################################################################################################################################################
 > 	################################################################################################################################################################################################################################################################################################
@@ -3261,7 +3261,6 @@
 > 		completion_reward = { #IMPORTANT FOR MY DEAR FRENCHMANS!!!!!!! the divs are only 25% equiped and untrained, the number of them is historically accurate in terms of manpower and number of divisions, atleast according to wikipedia, if u have some better sources for that it would be great
 > 			division_template = {
 > 				name = "Luftwaffen-Feld-Divisionen"
-> 				division_names_group = GER_spawnin_1
 > 				is_locked = yes
 > 
 > 				regiments = {
@@ -3379,7 +3378,6 @@
 > 		completion_reward = {
 > 			division_template = {
 > 				name = "Volksgrenadier"
-> 				division_names_group = GER_spawnin_1
 > 				is_locked = yes
 > 
 > 				regiments = {
@@ -3406,7 +3404,6 @@
 > 			}
 > 			division_template = {
 > 				name = "Volkssturm"
-> 				division_names_group = GER_spawnin_2
 > 				is_locked = yes
 > 
 > 				regiments = {
