@@ -1,0 +1,223 @@
+49512a49513,49515
+> 	###########
+> 	### NOI ###
+> 	###########
+49513a49517,49734
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_porsche_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_porsche.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_krupp_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_krupp.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_ig_farben_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_ig_farben.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_man_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_man.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_henschel_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_henschel.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_daimler_benz_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_daimler_benz.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}
+> 	
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_align_hungary_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_align_hungary.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}

@@ -2,7 +2,7 @@ ideas = {
 
     country = {
     #Steiner will win the war for sure
-    idea_GER_NOI_endsieg_i = {
+		idea_GER_NOI_endsieg_i = {
             picture = GFX_idea_GER_NOI_endsieg_i
             allowed = { 
 			tag = GER
@@ -24,29 +24,217 @@ ideas = {
 			}
 			
         }
-        
-    }
 	
-	country = {
 	#Operation "Summer party in Ukraine" Barbarossa
-	GER_NOI_summeroffensive_i = {
+		GER_NOI_summeroffensive_i = {
 		picture = GFX_idea_GER_NOI_summeroffensive_i
 		
-		allowed = { 
-			tag = GER
-		}
+			allowed = { 
+				tag = GER
+			}
 		
-		available = { }
+			available = { }
 	
-		cancel = { }
+			cancel = { }
 		
-		allowed_civil_war = {
-			always = yes
-		}
+			allowed_civil_war = {
+				always = yes
+			}
 		
-		targeted_modifier = {
+			targeted_modifier = {
 				tag = SOV
 				attack_bonus_against = 0.30
+			}
+	    }
+		
+		GER_NOI_switch_production_on_capital_ships_i = {
+		picture = generic_navy_bonus
+		
+			allowed = { 
+				tag = GER
+			}
+		
+			available = { }
+	
+			cancel = { }
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_expected_value = 0.03
+			}
+			equipment_bonus = { 
+				capital_ship = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				screen_ship = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				submarine = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+			}
+	    }
+		
+		GER_NOI_deutsche_arbeitsfront_i = {
+		picture = generic_production_bonus
+		
+			allowed = { 
+				tag = GER
+			}
+		
+			available = { }
+	
+			cancel = { }
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				industrial_capacity_factory = 0.05
+				stability_factor = -0.05
+			}
+			
+	    }
+		
+		GER_NOI_rearment_plan_finished_i = {
+		picture = SOV_third_five_year_plan_military
+		
+			allowed = { 
+				tag = GER
+			}
+		
+			available = { }
+	
+			cancel = { }
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}	
+	    }
+		
+		GER_NOI_sturmgeschutz3_i = {
+		picture = man_five_year_plan_tank
+		
+			allowed = { 
+				tag = GER
+			}
+		
+			available = { }
+	
+			cancel = { }
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			equipment_bonus = {
+				medium_tank_destroyer_chassis = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+			
+	    }
+		GER_NOI_uralbomber_i = {
+		picture = strategic_bombing_focus
+		
+			allowed = { 
+				tag = GER
+			}
+		
+			available = { }
+	
+			cancel = { }
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			equipment_bonus = {
+				strategic_bomber = {
+					instant = yes
+					air_range = 1
+					reliability = -0.1
+				}
+				
+			}
+	    }
+		
+		GER_NOI_totalen_krieg_i = {
+		picture = SWE_varnplikt
+		
+			allowed = { 
+				tag = GER
+			}
+		
+			available = { }
+	
+			cancel = { }
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				war_support_factor = 0.2
+				political_power_gain = 0.5
+				surrender_limit = 0.1
+			}
+	    }
+		
+		GER_NOI_volkssturmgewehr_i = {
+		picture = MEX_politicised_army_2
+		
+			allowed = { 
+				tag = GER
+			}
+		
+			available = { }
+	
+			cancel = { }
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			equipment_bonus = {
+				infantry_equipment_0 = {
+					instant = yes
+					build_cost_ic = -0.25
+					defense = -0.2
+					soft_attack = -0.2
+					hard_attack = -0.2
+					breakthrough = -0.2
+					reliability = -0.4
+				}
+				
+			}
+	    }
+		
+		GER_NOI_expand_conscription_i = {
+		picture = SWE_varnplikt
+		
+			allowed = { 
+				tag = GER
+			}
+		
+			available = { }
+	
+			cancel = { }
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				recruitable_population_factor = 0.15
+				mobilization_speed = 0.5
 			}
 	    }
     }

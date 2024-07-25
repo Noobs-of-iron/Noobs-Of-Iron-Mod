@@ -1,0 +1,34 @@
+7090a7091,7123
+> 	
+> 	###########
+> 	### NOI ###
+> 	###########
+> 	
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_porsche"
+> 		texturefile = "gfx/interface/goals/noim_goal_porsche.dds"			
+> 	}	
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_ig_farben"
+> 		texturefile = "gfx/interface/goals/noim_goal_ig_farben.dds"			
+> 	}	
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_krupp"
+> 		texturefile = "gfx/interface/goals/noim_goal_krupp.dds"			
+> 	}	
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_man"
+> 		texturefile = "gfx/interface/goals/noim_goal_man.dds"			
+> 	}	
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_henschel"
+> 		texturefile = "gfx/interface/goals/noim_goal_henschel.dds"			
+> 	}	
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_daimler_benz"
+> 		texturefile = "gfx/interface/goals/noim_goal_daimler_benz.dds"			
+> 	}	
+> 	SpriteType = {
+> 		name = "GFX_noim_goal_align_hungary"
+> 		texturefile = "gfx/interface/goals/noim_goal_align_hungary.dds"			
+> 	}	
