@@ -1,162 +1,244 @@
 ﻿l_english:
-GER_NOI_confiscate_romanian_oil_fields: "Confiscate Romanian Oil Fields"
-GER_NOI_confiscate_romanian_oil_fields_desc: "Romanians are not willing to cooperate with us and provide us the oil to fuel our war effort. We have to put an end to this and confiscate romanian oil fields, we cannot rely on our "allies" no more."
+ GER_NOI_confiscate_romanian_oil_fields: "Confiscate Romanian Oil Fields"
+ GER_NOI_confiscate_romanian_oil_fields_desc: "The Romanians are not willing to cooperate with us and provide us the oil to fuel our war effort. We have to put an end to this and confiscate Romanian oil fields; we cannot rely on our 'allies' any longer."
+ 
  GER_NOI_start_cooperation_with_krupp: "Start Cooperation With Krupp"
- GER_NOI_start_cooperation_with_krupp_desc: "Krupp AG was always a great supporter of our new regime. We need to make use of their great industrial capabilities and expand our partnership with them."
+ GER_NOI_start_cooperation_with_krupp_desc: "Krupp AG has always been a great supporter of our new regime. We need to make use of their industrial capabilities and expand our partnership with them."
+
  GER_NOI_open_new_steel_works: "Open New Steel Works"
- GER_NOI_open_new_steel_works_desc: "Krupp steel was always known for its hardness and high quality, we have to expand their steel works to meet the demands of our military industry"
+ GER_NOI_open_new_steel_works_desc: "Krupp steel is known for its hardness and high quality. We need to expand their steel works to meet the demands of our military industry."
+
  GER_NOI_expand_essen_weapon_factory: "Expand Essen Weapon Factory"
- GER_NOI_expand_essen_weapon_factory_desc: "Krupp's factories in Essen area were always the greatest show of German industrial power and supremacy. We have to renew weapon production, and expand the old industrial comples for glory of the Reich!"
+ GER_NOI_expand_essen_weapon_factory_desc: "Krupp's factories in the Essen area are a great show of German industrial power and supremacy. We must renew weapon production and expand the old industrial complex for the glory of the Reich!"
+
  GER_NOI_follow_armys_demands: "Follow Army's Demands"
- GER_NOI_follow_armys_demands_desc: "Following our rapid rearment, the army's need for new weapons, machines, and automobiles have increased. We need to expand our existing weapon manufactories to continue fueling our ultimate goal."
+ GER_NOI_follow_armys_demands_desc: "Following our rapid rearmament, the army's need for new weapons, machines, and automobiles has increased. We need to expand our existing weapon manufactories to continue fueling our ultimate goal."
+
  GER_NOI_support_ig_farben: "Support IG Farben"
- GER_NOI_support_ig_farben_desc: "IG Farben is a chemical and pharmaceutical conglomerate, responsible for great scientific inventions and in possesion of great industrial capabilities. We need to use their knowledge and capital to prepare production of synthetic resources for our upcoming war effort"
+ GER_NOI_support_ig_farben_desc: "IG Farben is a chemical and pharmaceutical conglomerate, responsible for great scientific inventions and possessing great industrial capabilities. We need to use their knowledge and capital to prepare production of synthetic resources for our upcoming war effort."
+
  GER_NOI_fund_new_coal_liquidization_plants: "Fund New Coal Liquidization Plants"
- GER_NOI_fund_new_coal_liquidization_plants_desc: "The scientists at IG Farben are now capable of producing fuel from coal! This process will be crucial to producing our fuel intensive war effort. We have to fund new liquidization plants in preparation to cover army's, navy's and airforce demands."
+ GER_NOI_fund_new_coal_liquidization_plants_desc: "The scientists at IG Farben can now produce fuel from coal! This process will be crucial to our fuel-intensive war effort. We must fund new liquidization plants to prepare to cover the demands of the army, navy, and air force."
+
  GER_NOI_deutsche_arbeitsfront: "Deutsche Arbeitsfront"
- GER_NOI_deutsche_arbeitsfront_desc: "Deutsche Arbeitsfront is a national labour organisation, that we created to replace all the trade unions in Germany. We can exploit this and move workers towards tasks that are deemed more important for the war effort. While it might upset some parts of the population, it can benefit us in the long run."
+ GER_NOI_deutsche_arbeitsfront_desc: "Deutsche Arbeitsfront is a national labor organization we created to replace all the trade unions in Germany. We can exploit this and move workers towards tasks that are deemed more important for the war effort. While it might upset some parts of the population, it can benefit us in the long run."
+
  GER_NOI_expand_synthetic_rubber_production: "Expand Synthetic Rubber Production"
- GER_NOI_expand_synthetic_rubber_production_desc: "With our incoming conflict with the allies, all sources of natural rubber our cut from us. To counter this we need to expand our synthetic rubber production to keep up our aircraft and automobile production."
- GER_NOI_rapid_rearment_plan: "Rapid Rearment Plan"
- GER_NOI_rapid_rearment_plan_desc: "We need a rapid rearment plan, that will allow us to quickly builid up our armed forces and fight the allies while they are unprepared"
- GER_NOI_gradual_rearment_strategy: "Gradual Rearment Strategy"
- GER_NOI_gradual_rearment_strategy_desc: "Our top economist are proposing a gradual rearment strategy, that will allow us to builid up our industrial capacities steadily. Wars are not won with rapid strikes but with patience and economical advantages."
+ GER_NOI_expand_synthetic_rubber_production_desc: "With our incoming conflict with the Allies, all sources of natural rubber are cut off from us. To counter this, we need to expand our synthetic rubber production to keep up our aircraft and automobile production."
+
+ GER_NOI_rapid_rearment_plan: "Rapid Rearmament Plan"
+ GER_NOI_rapid_rearment_plan_desc: "We need a rapid rearmament plan that will allow us to quickly build up our armed forces and fight the Allies while they are unprepared."
+
+ GER_NOI_gradual_rearment_strategy: "Gradual Rearmament Strategy"
+ GER_NOI_gradual_rearment_strategy_desc: "Our top economists are proposing a gradual rearmament strategy that will allow us to build up our industrial capacities steadily. Wars are not won with rapid strikes but with patience and economic advantages."
+
  GER_NOI_cooperate_with_domestic_entrepreneurs: "Cooperate With Domestic Entrepreneurs"
- GER_NOI_cooperate_with_domestic_entrepreneurs_desc: "Germany is home for great numbers of small and medium sized enterpreneurs. To boost our economic growth we need to support them and let them grow their bussineses at their own pace."
+ GER_NOI_cooperate_with_domestic_entrepreneurs_desc: "Germany is home to many small and medium-sized entrepreneurs. To boost our economic growth, we need to support them and let them grow their businesses at their own pace."
+
  GER_NOI_increase_international_trade: "Increase International Trade"
- GER_NOI_increase_international_trade_desc: "While autarky sounds like an interesting idea, it is no0t sustainable in a long run and will slow our economic growth down. We need to increase reliance on trade for now, to let our industries expand at faster pace."
- GER_NOI_increase_military_spendings: "Increase Military Spendings"
- GER_NOI_increase_military_spendings_desc: "The sole goal of our nation is to rule over Europe. To achieve that we need a capable military, capable of subjugating everyone that will oppose us. We can expand our military budget to help achieve it."
+ GER_NOI_increase_international_trade_desc: "While autarky sounds like an interesting idea, it is not sustainable in the long run. We need to increase reliance on trade for now to let our industry expand at a faster pace."
+
+ GER_NOI_increase_military_spendings: "Increase Military Spending"
+ GER_NOI_increase_military_spendings_desc: "We need a capable military, capable of subjugating everyone that opposes us. We can expand our military budget to help achieve this."
+
  GER_NOI_nationalize_key_industries: "Nationalize Key Industries"
- GER_NOI_nationalize_key_industries_desc: "If we want to be able to lead a continous war effort, we need to nationalize key industries and use them to fulfill state's needs."
- GER_NOI_complete_the_rearment_plan: "Complete the Rearment Plan"
- GER_NOI_complete_the_rearment_plan_desc: "We completed our rearment plan succesfully! Our economic genius is finally paying itself off. Now it's time to reap the benefits of our hard work."
+ GER_NOI_nationalize_key_industries_desc: "If we want to be able to lead a continuous war effort, we need to nationalize key industries and use them to fulfill our needs."
+
+ GER_NOI_complete_the_rearment_plan: "Complete the Rearmament Plan"
+ GER_NOI_complete_the_rearment_plan_desc: "We completed our rearmament plan successfully! Our economic genius is finally paying off. Now it's time to reap the benefits of our hard work."
+
  GER_NOI_gothic_line: "Gothic Line"
- GER_NOI_gothic_line_desc: "Our Italian allies cannot be trusted. With the allied threat incoming from the south, we need to fortify a good defensive position in mainland Italy, to not let allies advance into france or Austria."
- GER_NOI_supremacy_of_the_battlefleet: "Supremacy of the battlefleet"
- GER_NOI_supremacy_of_the_battlefleet_desc: "Only a strong fleet can provide security for germany!"
- GER_NOI_switch_production_on_capital_ships: "Switch Production On Capital Ships"
- GER_NOI_switch_production_on_capital_ships_desc: "We need to focus all our shipbuiliding capabilities on producing the mightist surface fleet the world have ever seen!"
+ GER_NOI_gothic_line_desc: "Our Italian allies cannot be trusted. With the Allied threat coming from the south, we need to fortify a good defensive position in northern Italy to stop their advances."
+
+ GER_NOI_supremacy_of_the_battlefleet: "Supremacy of the Battlefleet"
+ GER_NOI_supremacy_of_the_battlefleet_desc: "Only a strong fleet can provide security."
+
+ GER_NOI_switch_production_on_capital_ships: "Switch Production to Capital Ships"
+ GER_NOI_switch_production_on_capital_ships_desc: "We need to focus all our shipbuilding capabilities on producing the mightiest surface fleet the world has ever seen!"
+
  GER_NOI_the_graf_zeppelin: "Graf Zeppelin"
- GER_NOI_the_graf_zeppelin_desc: "To combat the british naval dominance we need to take advantage of our domination in the skies. Naval aviation will be key to achieve victory over the Royal Navy."
+ GER_NOI_the_graf_zeppelin_desc: "To combat the British naval dominance, we must take advantage of our domination in the skies. Naval aviation will be key to achieving victory over the Royal Navy."
+
  GER_NOI_expand_naval_bases: "Expand Naval Bases"
- GER_NOI_expand_naval_bases_desc: "If we want to seriously fight the british on the high seas, we have to prepare proper infrastracture and bases for our navy to reapeir, refuel and resupply in."
+ GER_NOI_expand_naval_bases_desc: "If we want to seriously fight the British on the high seas, we must prepare infrastructures and bases for our navy to repair and resupply."
+
  GER_NOI_prepare_mine_blockades: "Prepare Mine Blockades"
- GER_NOI_prepare_mine_blockades_desc: "The English Channel is our way into the British Isles. If we want to protect ourselves from british navy we have to prepare mine blockades to deny the royal navy access to our naval routes trough which we will commence Unternehmen Seelöwe!"
+ GER_NOI_prepare_mine_blockades_desc: "If we want to protect ourselves from the British navy, we have to prepare mine blockades to deny the Royal Navy access to our naval routes."
+
  GER_NOI_expand_the_luftwaffe: "Expand the Luftwaffe"
- GER_NOI_expand_the_luftwaffe_desc: "A modern airforce will be the way we win this war! We have to expand our airforce to outclass any other in the world. Germany will be king of the skies!"
+ GER_NOI_expand_the_luftwaffe_desc: "A modern air force will be the way we win this war! We have to expand our air force to outclass any other in the world. Germany will be king of the skies!"
+
  GER_NOI_expand_airbases: "Expand Airbases"
- GER_NOI_expand_airbases_desc: "If we want to commence war in the skies, we have to think about whats on the ground. Our new airforce will need infrastracture and new bases to operate properly."
+ GER_NOI_expand_airbases_desc: "If we want to commence war in the skies, we have to think about what's on the ground. Our new air force will need infrastructure and new bases to operate properly."
+
  GER_NOI_support_deutsche_verkehrsfliegerschule: "Support Deutsche Verkehrsfliegerschule"
- GER_NOI_support_deutsche_verkehrsfliegerschule_desc: "We need to expand our flying schools in Germany, to provide our airforce best pilots we can get."
+ GER_NOI_support_deutsche_verkehrsfliegerschule_desc: "We need to expand our flying schools in Germany to provide our air force the best pilots we can get."
+
  GER_NOI_establish_the_national_socialists_flyer_corps: "Establish the National Socialists Flyer Corps"
- GER_NOI_establish_the_national_socialists_flyer_corps_desc: "National Socialists Flyer Corps will help us gather more aviation enthusiasts and incorporate them into our newly created Luftwaffe."
+ GER_NOI_establish_the_national_socialists_flyer_corps_desc: "The National Socialists Flyer Corps will help us gather more aviation enthusiasts and incorporate them into our newly created Luftwaffe."
+
  GER_NOI_promote_fighter_aces: "Promote Fighter Aces"
- GER_NOI_promote_fighter_aces_desc: "Thanks to our previous efforts, our airforce managed to produce many formidable fighter aces. We can use them for propaganda purpose, and to encourage similiar bravery from our other pilots."
+ GER_NOI_promote_fighter_aces_desc: "Thanks to our previous efforts, our air force has produced many formidable fighter aces. We can use them for propaganda purposes and to encourage similar bravery from our other pilots."
+
  GER_NOI_improve_radio_technology: "Improve Radio Technology"
  GER_NOI_improve_radio_technology_desc: ""
+
  GER_NOI_follow_weavers_legacy: "Follow Weaver's Legacy"
  GER_NOI_follow_weavers_legacy_desc: ""
+
  GER_NOI_develop_dive_bombing: "Develop Dive Bombing"
  GER_NOI_develop_dive_bombing_desc: ""
+
  GER_NOI_fighter_development: "Fighter Development"
  GER_NOI_fighter_development_desc: ""
- GER_NOI_flexible_bomber_design: "Flexible Bomber Desings"
+
+ GER_NOI_flexible_bomber_design: "Flexible Bomber Designs"
  GER_NOI_flexible_bomber_design_desc: ""
+
  GER_NOI_naval_air_effort: "Naval Air Effort"
  GER_NOI_naval_air_effort_desc: ""
+
  GER_NOI_continue_work_on_the_uralbomber: "Continue Work on the Uralbomber"
  GER_NOI_continue_work_on_the_uralbomber_desc: ""
+
  GER_NOI_long_range_escorts: "Long Range Escorts"
  GER_NOI_long_range_escorts_desc: ""
- GER_NOI_if_they_will_attack_our_cities...: "If They Will Attack Our Cities..."
+
+ GER_NOI_if_they_will_attack_our_cities...: "If They Attack Our Cities..."
  GER_NOI_if_they_will_attack_our_cities..._desc: ""
+
  GER_NOI_we_will_wipe_theirs_out: "... We Will Wipe Theirs Out"
  GER_NOI_we_will_wipe_theirs_out_desc: ""
+
  GER_NOI_aerial_innovations: "Aerial Innovations"
  GER_NOI_aerial_innovations_desc: ""
+
  GER_NOI_enter_the_jet_age: "Enter the Jet Age"
- GER_NOI_enter_the_jet_age_desc: ""
+ GER_NOI_enter_the_jet_age_desc: "To maintain our technological edge in aerial warfare, we must pioneer the development of jet aircraft. This new era of aviation will provide our Luftwaffe with faster and more advanced planes, ensuring dominance in the skies."
+
  GER_NOI_improve_bombing_technologies: "Improve Bombing Technologies"
- GER_NOI_improve_bombing_technologies_desc: ""
+ GER_NOI_improve_bombing_technologies_desc: "Enhancing our bombing capabilities is crucial for our strategic operations. We will focus on developing more precise and powerful bombing technologies to maximize the effectiveness of our air raids."
+
  GER_NOI_combined_arms_warfare: "Combined Arms Warfare"
- GER_NOI_combined_arms_warfare_desc: ""
+ GER_NOI_combined_arms_warfare_desc: "To achieve superior battlefield performance, we must integrate our infantry, armor, and air forces into a cohesive and effective fighting force. This doctrine will allow us to exploit the strengths of each arm to its fullest potential."
+
  GER_NOI_heer: "Heer"
- GER_NOI_heer_desc: ""
+ GER_NOI_heer_desc: "Our ground forces, the Heer, form the backbone of our military might. We must continue to invest in their training, equipment, and overall combat readiness to ensure our dominance on the battlefield."
+
  GER_NOI_desert_warfare: "Desert Warfare"
- GER_NOI_desert_warfare_desc: ""
+ GER_NOI_desert_warfare_desc: "Fighting in the harsh conditions of the desert requires specialized training and equipment. We will prepare our troops to effectively operate in desert environments, ensuring our campaigns in these regions are successful."
+
  GER_NOI_prepare_for_harsh_winters: "Prepare for Harsh Winters"
- GER_NOI_prepare_for_harsh_winters_desc: ""
+ GER_NOI_prepare_for_harsh_winters_desc: "Winter warfare poses unique challenges. By equipping our soldiers with winter gear and training them for cold weather operations, we can maintain our effectiveness even in the most severe conditions."
+
  GER_NOI_fallschirmjagers: "Fallschirmjägers"
- GER_NOI_fallschirmjagers_desc: "i love ned flanders"
+ GER_NOI_fallschirmjagers_desc: "Our elite paratroopers, the Fallschirmjägers, are capable of rapid deployment behind enemy lines. Enhancing their capabilities will give us the ability to strike decisively and unexpectedly."
+
  GER_NOI_achtung-panzer: "Achtung - Panzer!"
- GER_NOI_achtung-panzer_desc: ""
+ GER_NOI_achtung-panzer_desc: "Our tanks are a critical component of our blitzkrieg strategy. By focusing on the development and deployment of advanced armored vehicles, we can ensure our armored divisions are unmatched on the battlefield."
+
  GER_NOI_modernise_army_equipment: "Modernise Army Equipment"
- GER_NOI_modernise_army_equipment_desc: ""
+ GER_NOI_modernise_army_equipment_desc: "Keeping our military equipment up to date is essential for maintaining combat effectiveness. We will invest in modernizing our weapons, vehicles, and gear to give our soldiers the best tools available."
+
  GER_NOI_large_caliber_artillery: "Large Caliber Artillery"
- GER_NOI_large_caliber_artillery_desc: ""
+ GER_NOI_large_caliber_artillery_desc: "Powerful artillery can turn the tide of battle. We will develop and deploy large caliber artillery pieces to provide devastating firepower in support of our ground operations."
+
  GER_NOI_modern_infantry_equipment: "Modern Infantry Equipment"
- GER_NOI_modern_infantry_equipment_desc: ""
+ GER_NOI_modern_infantry_equipment_desc: "Our infantry must be equipped with the latest weapons and gear to maintain their edge in combat. We will focus on providing them with modern rifles, machine guns, and protective equipment."
+
  GER_NOI_counter_allied_air_attacks: "Counter Allied Air Attacks"
- GER_NOI_counter_allied_air_attacks_desc: ""
+ GER_NOI_counter_allied_air_attacks_desc: "The threat of Allied air attacks requires effective countermeasures. We will improve our anti-aircraft defenses and develop strategies to protect our key installations and troop formations from enemy air raids."
+
  GER_NOI_develop_anti_tank_guns: "Develop Anti Tank Guns"
- GER_NOI_develop_anti_tank_guns_desc: ""
+ GER_NOI_develop_anti_tank_guns_desc: "Enemy armor poses a significant threat to our ground forces. We will invest in the development of powerful anti-tank guns to neutralize enemy tanks and protect our troops."
+
  GER_NOI_shwerer_gustav: "Shwerer Gustav"
- GER_NOI_shwerer_gustav_desc: ""
+ GER_NOI_shwerer_gustav_desc: "The Shwerer Gustav is a colossal railway gun capable of immense destruction. Deploying this weapon will give us the ability to obliterate enemy fortifications and infrastructure from a great distance."
+
  GER_NOI_mechanised_army: "Mechanised Army"
- GER_NOI_mechanised_army_desc: ""
+ GER_NOI_mechanised_army_desc: "Mobility and speed are key to our warfare strategy. By mechanizing our infantry and support units, we can ensure rapid movement and flexibility on the battlefield."
+
  GER_NOI_new_tank_designs: "New Tank Designs"
- GER_NOI_new_tank_designs_desc: ""
+ GER_NOI_new_tank_designs_desc: "Continual innovation in tank design is essential for maintaining our armored superiority. We will prioritize the development of new and improved tank models to stay ahead of our enemies."
+
  GER_NOI_start_work_on_heavier_designs: "Start Work on Heavier Designs"
- GER_NOI_start_work_on_heavier_designs_desc: ""
+ GER_NOI_start_work_on_heavier_designs_desc: "Heavier tanks with more armor and firepower can dominate the battlefield. We will begin development on these formidable machines to ensure our armored forces remain unmatched."
+
  GER_NOI_approve_porsche_design: "Approve Porsche's Design"
- GER_NOI_approve_porsche_design_desc: ""
+ GER_NOI_approve_porsche_design_desc: "Porsche has submitted innovative designs for new tanks. By approving and funding their projects, we can benefit from cutting-edge technology and superior engineering."
+
  GER_NOI_repurpose_tiger_chassis: "Repurpose Tiger(P) Chassis"
- GER_NOI_repurpose_tiger_chassis_desc: ""
+ GER_NOI_repurpose_tiger_chassis_desc: "The chassis of the Tiger(P) tanks can be repurposed for various roles. We will adapt these chassis to create new, specialized armored vehicles to support our operations."
+
  GER_NOI_approve_henschel_design: "Approve Henschel's Design"
- GER_NOI_approve_henschel_design_desc: ""
+ GER_NOI_approve_henschel_design_desc: "Henschel has proposed advanced tank designs that promise improved performance and durability. We will approve their plans and integrate these tanks into our armored divisions."
+
  GER_NOI_terror_of_the_battlefield: "Terror of the Battlefield"
- GER_NOI_terror_of_the_battlefield_desc: ""
+ GER_NOI_terror_of_the_battlefield_desc: "Our heavy tanks are designed to instill fear in our enemies. By deploying these powerful machines, we can dominate the battlefield and break enemy morale."
+
  GER_NOI_continue_working_on_medium_tanks: "Continue Working on Medium Tanks"
- GER_NOI_continue_working_on_medium_tanks_desc: ""
- GER_NOI_sturmgeschutz3: "Sturmgeschüutz III"
- GER_NOI_sturmgeschutz3_desc: ""
+ GER_NOI_continue_working_on_medium_tanks_desc: "Medium tanks offer a balance of speed, armor, and firepower. We will continue to develop and improve these versatile vehicles to maintain our operational flexibility."
+
+ GER_NOI_sturmgeschutz3: "Sturmgeschütz III"
+ GER_NOI_sturmgeschutz3_desc: "The Sturmgeschütz III is a highly effective assault gun. We will increase production and deployment of these vehicles to provide essential fire support to our infantry."
+
  GER_NOI_support_man_designs: "Support Man's Design"
- GER_NOI_support_man_designs_desc: ""
+ GER_NOI_support_man_designs_desc: "MAN has proposed innovative designs for new military vehicles. By supporting their projects, we can enhance our armored and mechanized capabilities."
+
  GER_NOI_quality_medium_tanks: "Quality Medium Tanks"
- GER_NOI_quality_medium_tanks_desc: ""
+ GER_NOI_quality_medium_tanks_desc: "Focusing on the production of high-quality medium tanks will ensure our armored forces remain effective and reliable. These tanks will be crucial in our blitzkrieg tactics."
+
  GER_NOI_support_daimler_benz_designs: "Support Daimler Benz's Design"
- GER_NOI_support_daimler_benz_designs_desc: ""
+ GER_NOI_support_daimler_benz_designs_desc: "Daimler Benz has a reputation for engineering excellence. By backing their designs, we can incorporate advanced technology and superior craftsmanship into our military vehicles."
+
  GER_NOI_expand_cheaper_designs_production: "Expand Cheaper Designs Production"
+ GER_NOI_expand_cheaper_designs_production_desc: "Producing more affordable military vehicles in larger quantities will allow us to equip our forces more effectively. We will expand production of these designs to maximize our resources."
+
  entwicklungsserie_project: "Entwicklung Series"
- entwicklungsserie_project_desc: ""
+ entwicklungsserie_project_desc: "The Entwicklung Series focuses on the development of standardized, advanced tank designs. By investing in this project, we can streamline production and field superior armored vehicles."
+
  panzerkampfwagen_7_maus: "Panzerkampfwagen VIII Maus"
- panzerkampfwagen_7_maus_desc: ""
+ panzerkampfwagen_7_maus_desc: "The Panzerkampfwagen VIII Maus is a super-heavy tank with unparalleled armor and firepower. Deploying this behemoth will give us an unstoppable force on the battlefield."
+
  GER_NOI_war_measures: "War Measures"
- GER_NOI_war_measures_desc: ""
- GER_NOI_reuse_captured_weapons: "Reuse Caputred Weapons"
- GER_NOI_reuse_captured_weapons_desc: ""
+ GER_NOI_war_measures_desc: "In times of total war, extraordinary measures are necessary. We will implement comprehensive war measures to mobilize all available resources for our war effort."
+
+ GER_NOI_reuse_captured_weapons: "Re-use Captured Weapons"
+ GER_NOI_reuse_captured_weapons_desc: "Captured enemy weapons can be repurposed to bolster our own arsenal. We will refurbish and redeploy these weapons to maximize our combat capabilities."
+
  GER_NOI_collect_scrap_metals: "Collect Scrap Metals"
- GER_NOI_collect_scrap_metals_desc: ""
- GER_NOI_prioritise_production_on_army: "Prioritise Production on the Army"
- GER_NOI_builid_flakturms: "Builid Flakturms"
- GER_NOI_builid_flakturms_desc: ""
+ GER_NOI_collect_scrap_metals_desc: "To support our war production, we must gather every available resource. Collecting scrap metals from across the nation will provide the raw materials necessary for our military manufacturing."
+
+ GER_NOI_prioritise_production_on_army: "Industry For The Army"
+ GER_NOI_prioritise_production_on_army_desc: "Redirecting our industrial capacity to prioritize military production is crucial for sustaining our war efforts. This focus ensures that our army is continuously supplied with the equipment and weapons it needs."
+
+ GER_NOI_builid_flakturms: "Build Flakturms"
+ GER_NOI_builid_flakturms_desc: "Flakturms, or flak towers, provide critical air defense for our cities and military installations. Constructing these fortified anti-aircraft positions will enhance our ability to counter enemy bombing raids."
+
  GER_NOI_frontline_hospitals: "Frontline Hospitals"
- GER_NOI_frontline_hospitals_desc: ""
+ GER_NOI_frontline_hospitals_desc: "Establishing hospitals close to the front lines will ensure our wounded soldiers receive prompt medical care. This initiative aims to improve recovery rates and maintain troop morale."
+
  GER_NOI_prepare_defenses_of_germany: "Prepare Defenses of Germany"
- GER_NOI_prepare_defenses_of_germany_desc: ""
+ GER_NOI_prepare_defenses_of_germany_desc: "With the threat of invasion looming, it is essential to fortify our homeland. We will build defensive structures and organize our forces to protect Germany from enemy attacks."
+
  GER_NOI_create_luftwaffe_field_divisions: "Create Luftwaffe Field Divisions"
- GER_NOI_create_luftwaffe_field_divisions_desc: ""
+ GER_NOI_create_luftwaffe_field_divisions_desc: "In response to the growing need for ground forces, we will form field divisions from our Luftwaffe personnel. These units will provide additional manpower and support to our army in critical operations."
+
  GER_NOI_totalenkrieg: "Totalen Krieg"
- GER_NOI_totalenkrieg_desc: ""
+ GER_NOI_totalenkrieg_desc: "Total war requires the full mobilization of our nation's resources and population. We will implement policies to maximize our war effort, involving every citizen in the fight for our survival."
+
  GER_NOI_expand_conscription: "Expand Conscription"
- GER_NOI_expand_conscription_desc: ""
+ GER_NOI_expand_conscription_desc: "To meet the demands of our expanding military operations, we must broaden our conscription efforts. This will ensure a steady flow of new recruits to reinforce our ranks."
+
  GER_NOI_volkssturmgewehr: "Volkssturmgewehr"
- GER_NOI_volkssturmgewehr_desc: ""
+ GER_NOI_volkssturmgewehr_desc: "The Volkssturmgewehr is a rifle designed for ease of production and use by the Volkssturm, our national militia. Equipping these citizen soldiers with effective weapons will bolster our defensive capabilities."
+
  GER_NOI_volkssturm: "Volkssturm"
- GER_NOI_volkssturm_desc: ""
+ GER_NOI_volkssturm_desc: "The Volkssturm, a national militia composed of older men and youths, will be mobilized to defend our homeland. This people's army will play a crucial role in our defensive strategy."
+
  GER_NOI_fuhrerbunker: "Führerbunker"
- GER_NOI_fuhrerbunker_desc: ""
+ GER_NOI_fuhrerbunker_desc: "The Führerbunker serves as the fortified command center for our leadership. Ensuring its security and functionality is vital for maintaining control and coordination of our war efforts."
+
  GER_NOI_endsieg: "Endsieg"
  GER_NOI_endsieg_desc: "Der Krieg ist noch nicht verloren. We need to keep on fighting until the very end ! Kampfgrupp Steiner will save Berlin !"
  ###############################################################################################################################################################################################################
@@ -213,4 +295,4 @@ GER_NOI_confiscate_romanian_oil_fields_desc: "Romanians are not willing to coope
  GER_bomb_allies_tt: "Modify §YLuftwaffe§! by\nStrategic Bombing §G+20.00%§!\n "
  GER_air_inno_tt: "Modify §YLuftwaffe§! by\nAgility §G+5.00%§!\nMax Air Speed §G+5.00%§!\n "
  GER_improve_cas_tt: "Modify §YLuftwaffe§! by\nGround Attack §G+5.00%§!\n "
- #IM FREEEEEE!!!!!!!!!!!
+ #IM FREEEEEE!!!!!!!!!!! (he then realised that he was in fact... Not free)

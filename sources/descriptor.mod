@@ -6,6 +6,6 @@ tags={
 	"Fixes"
 }
 picture="thumbnail.png"
-name="NOIM"
+name="NOIM_staging"
 supported_version="1.14.*"
-remote_file_id="3167289368"
+remote_file_id="3168840337"

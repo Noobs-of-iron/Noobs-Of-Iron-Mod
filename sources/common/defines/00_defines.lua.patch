@@ -1,0 +1,46 @@
+133c133
+< 	VOLUNTEERS_DIVISIONS_REQUIRED = 30,				-- This many divisons are required for the country to be able to send volunteers.
+---
+> 	VOLUNTEERS_DIVISIONS_REQUIRED = 15,				-- This many divisons are required for the country to be able to send volunteers.
+416c416
+< 	SPECIAL_FORCES_CAP_BASE = 0.05,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
+---
+> 	SPECIAL_FORCES_CAP_BASE = 0.02,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
+427c427
+< 	SCORCHED_EARTH_STATE_COST = 5,					-- pp cost to scorch a state
+---
+> 	SCORCHED_EARTH_STATE_COST = 3,					-- pp cost to scorch a state
+581c581
+< 	MAX_EQUIPMENT_RESOURCES_NEED = 3, 	-- Max number of different strategic resources an equipment can be dependent on.
+---
+> 	MAX_EQUIPMENT_RESOURCES_NEED = 4, 	-- Max number of different strategic resources an equipment can be dependent on.
+627,628c627,628
+< 	EQUIPMENT_MODULE_ADD_XP_COST = 5.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
+< 	EQUIPMENT_MODULE_REPLACE_XP_COST = 6.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
+---
+> 	EQUIPMENT_MODULE_ADD_XP_COST = 3.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
+> 	EQUIPMENT_MODULE_REPLACE_XP_COST = 5.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
+818,820c818,820
+< 	MAX_ARMY_EXPERIENCE = 500,			--Max army experience a country can store
+< 	MAX_NAVY_EXPERIENCE = 500,			--Max navy experience a country can store
+< 	MAX_AIR_EXPERIENCE = 500,				--Max air experience a country can store
+---
+> 	MAX_ARMY_EXPERIENCE = 999,			--Max army experience a country can store
+> 	MAX_NAVY_EXPERIENCE = 999,			--Max navy experience a country can store
+> 	MAX_AIR_EXPERIENCE = 999,				--Max air experience a country can store
+886c886
+< 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0001,
+---
+> 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0002,
+1022c1022
+< 	PARADROP_HOURS = 48,							-- time paratroopers suffer penalties in combat
+---
+> 	PARADROP_HOURS = 72,							-- time paratroopers suffer penalties in combat
+1155c1155
+< 	ARMY_FUEL_COST_MULT = 0.5,						-- fuel cost multiplier for all army related stuff
+---
+> 	ARMY_FUEL_COST_MULT = 0.70,						-- fuel cost multiplier for all army related stuff
+3606c3606
+< 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
+---
+> 	RECON_PLANE_INTEL_BASE = 0.05, 				-- intel base amount for a strategic area per plane

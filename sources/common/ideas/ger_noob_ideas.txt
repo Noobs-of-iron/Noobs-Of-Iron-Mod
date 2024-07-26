@@ -233,8 +233,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				recruitable_population_factor = 0.15
-				mobilization_speed = 0.5
+				conscription_factor = 0.10
+				mobilization_speed = 0.75
 			}
 	    }
     }

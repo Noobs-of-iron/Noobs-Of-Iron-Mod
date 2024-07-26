@@ -6,10 +6,6 @@
 < 		x = 6
 ---
 > 		x = 2
-28c28
-< 		cost = 10
----
-> 		cost = 5
 34,39d33
 < 			add_tech_bonus = {
 < 				name = GER_four_year_plan
@@ -305,6 +301,10 @@
 < 		x = 0
 ---
 > 		x = -1
+1582c1428
+< 		cost = 10
+---
+> 		cost = 5
 1595c1441
 < 		icon = GFX_goal_generic_positive_trade_relations
 ---
@@ -838,7 +838,7 @@
 < 			}
 ---
 > 			always = no
-9611a9413,12137
+9611a9413,12141
 > 	
 > 	################################################################################################################################################################################################################################################################################################
 > 	################################################################################################################################################################################################################################################################################################
@@ -2242,6 +2242,10 @@
 > 		search_filters = { FOCUS_FILTER_INDUSTRY }
 > 		completion_reward = {
 > 			custom_effect_tooltip = GER_combined_arms_warfare_tt
+> 			custom_effect_tooltip = available_chief_of_army
+> 			show_ideas_tooltip = walther_von_brauchitsch
+> 			custom_effect_tooltip = available_military_high_command
+> 			show_ideas_tooltip = erwin_rommel 
 > 			add_to_variable = { GER_CAW1_dm = 0.02 }
 > 			add_to_variable = { GER_CAW2_dm = 0.05 } #might want to move to 10% (equal to 1 lvl of radio company) do what u want
 > 			add_to_variable = { GER_CAW3_dm = 0.03 }
@@ -2907,7 +2911,7 @@
 > 		available = {
 > 			has_war = yes
 > 			OR = {
-> 				casualties > 400000 #i dont really know how much man should be lost to unlock this tree, so feel free to change that, for reference jahef lost 500k by august 42 but it was due to him forgetting to turn off the battleplan sometimes so idk
+> 				casualties > 500000 #i dont really know how much man should be lost to unlock this tree, so feel free to change that, for reference jahef lost 500k by august 42 but it was due to him forgetting to turn off the battleplan sometimes so idk
 > 				surrender_progress > 0.0
 > 			}
 > 		}
@@ -2943,7 +2947,7 @@
 > 		available_if_capitulated = yes
 > 		completion_reward = {
 > 			custom_effect_tooltip = GER_conversion_tt
-> 			add_to_variable = { GER_conversion1_dm = 0.03 } #might want to move it up to 5%
+> 			add_to_variable = { GER_conversion1_dm = 0.04 } #might want to move it up to 5%
 > 			add_to_variable = { GER_conversion2_dm = 0.1 }
 > 		}
 > 	}
@@ -2984,7 +2988,7 @@
 > 		available_if_capitulated = yes
 > 		completion_reward = {
 > 			custom_effect_tooltip = GER_mils_over_docks_tt
-> 			add_to_variable = { GER_factory_dm = 0.15 } #might want to turn it down to 10% tho idk really up to you
+> 			add_to_variable = { GER_factory_dm = 0.10 } #might want to turn it down to 10% tho idk really up to you
 > 			add_to_variable = { GER_dockyard_dm = -0.5}
 > 		}
 > 	}
