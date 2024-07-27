@@ -279,7 +279,7 @@
  GER_flakturm_tt: "Modify §YWar Measures§! by\n§YAnti Air§! construction speed §G+10.00%§!\n "
  GER_conversion_tt: "Modify §YWar Measures§! by\nEquipment Capture Ratio Gain §G+3.00%§!\nEquipment Conversion Speed §G+10.00%§!\n "
  GER_scraps_tt: "Modify §YWar Measures§! by\nLack of Resources Penalty §G-15.00%§!\n "
- GER_mils_over_docks_tt: "Modify §YWar Measures§! by\nFactory Output §G+15.00%§!\nDockyard Output §R-50.00%§!\n "
+ GER_mils_over_docks_tt: "Modify §YWar Measures§! by\nFactory Output §G+10.00%§!\nDockyard Output §R-50.00%§!\n "
  GER_modernise_equipment_tt: "Modify §YHeer§! by\nLand Equipment Upgrade XP Cost §G-25.00%§!\n "
  GER_dora_tt: "Modify §YHeer§! by\nRailway Gun Bombardment §G+15.00%§!\n "
  GER_paratroopers_tt: "Modify §YHeer§! by\nParatroopers Special Forces Contribution Factor §G-10.00%§!\nParatrooper Organization §G+3.00%§!\n "

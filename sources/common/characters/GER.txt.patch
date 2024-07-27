@@ -1,0 +1,8 @@
+172c172
+< 				has_completed_focus = GER_army_innovation
+---
+> 				has_completed_focus = GER_NOI_combined_arms_warfare
+1139c1139
+< 				has_completed_focus = GER_army_innovation
+---
+> 				has_completed_focus = GER_NOI_combined_arms_warfare

@@ -87,23 +87,20 @@
 > 			ap_attack = 0.1
 1086a1141
 > 		
-1151,1152d1205
-< 			aphe_round
-< 			apcr_round
-1157a1211,1214
+1157a1213,1216
 > 		path = {
 >  			leads_to_tech = tankround
 >  			research_cost_coeff = 1
 >  		}
-1228c1285
+1230c1289
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1232c1289
+1319c1378
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1321c1378
+1481c1540
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
