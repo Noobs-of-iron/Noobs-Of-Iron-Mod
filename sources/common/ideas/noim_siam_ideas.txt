@@ -1,0 +1,381 @@
+ideas = {
+	country = {
+
+		SIA_bowring_treaty = {
+			picture = HUN_treaty_of_triannon
+		
+			allowed = {
+				always = no
+				tag = SIA
+			}
+			available = {
+		
+			}
+
+			cancel = {
+				
+			}
+			
+			allowed_civil_war = {
+				always = yes			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1
+				consumer_goods_factor = 0.1
+				join_faction_tension = 0.2
+			}
+		}
+		SIA_strengthen_fascists = {
+			allowed = {
+				tag = SIA
+			}
+			picture = generic_fascism_drift_2
+			
+			modifier = {
+				fascism_drift = 0.03
+			}
+		}
+
+		SIA_royal_opposition = {
+			picture = noim_royal_opposition
+		
+			allowed = {
+				always = no
+				tag = SIA
+			}
+			available = {
+		
+			}
+
+			cancel = {
+				
+			}
+			
+			allowed_civil_war = {
+				always = yes			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.5
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		SIA_factionalism_1 = {
+			picture = noim_factionalism
+		
+			allowed = {
+				always = no
+				tag = SIA
+			}
+			available = {
+		
+			}
+
+			cancel = {
+				
+			}
+			
+			allowed_civil_war = {
+				always = yes			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+			}
+		}
+
+		SIA_factionalism_2 = {
+			picture = noim_factionalism
+		
+			allowed = {
+				always = no
+				tag = SIA
+			}
+			available = {
+		
+			}
+
+			cancel = {
+				
+			}
+			
+			allowed_civil_war = {
+				always = yes			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+
+		SIA_militarism = {
+			picture = generic_manpower_bonus
+		
+			allowed = {
+				always = no
+				tag = SIA
+			}
+			available = {
+		
+			}
+
+			cancel = {
+				
+			}
+			
+			allowed_civil_war = {
+				always = yes			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.01
+				mobilization_speed = 0.15
+			}
+		}
+		
+		SIA_Lueat_suphan = {
+			picture = noim_Lueat_suphan
+			allowed = {
+				original_tag = SIA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+
+		SIA_rama_viii = {
+			picture = noim_rama_viii	
+			allowed = {
+				original_tag = SIA
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+
+			traits = { popular_figurehead2 }	
+
+			modifier = { 
+				consumer_goods_factor = 0.05 
+			}
+		}
+
+		SIA_monarchy_abolished = {
+			picture = noim_monarchy_abolished		
+			allowed = {
+				original_tag = SIA
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = { 
+				stability_factor = -0.1
+				consumer_goods_factor = -0.05 
+			}
+		}
+
+		SIA_rice_exports_1 = {
+			removal_cost = -1
+
+			picture = can_wartime_prices_and_trade_board
+				
+			allowed = {
+				original_tag = SIA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_factor = 0.1
+			}
+		}		
+
+		SIA_rice_exports_2 = {
+			removal_cost = -1
+
+			picture = can_wartime_prices_and_trade_board
+				
+			allowed = {
+				original_tag = SIA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_factor = 0.1
+				monthly_population = 0.1				
+			}
+		}
+
+		SIA_nor_yor = {
+			removal_cost = -1
+
+			picture = noim_nor_yor
+				
+			allowed = {
+				original_tag = SIA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				special_forces_cap = 0.05
+				out_of_supply_factor = -0.1		
+			}
+		}
+
+		SIA_guards = {
+			removal_cost = -1
+
+			picture = noim_guards
+				
+			allowed = {
+				original_tag = SIA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+					
+			modifier = {
+				special_forces_cap = 0.05
+				special_forces_defence_factor = 0.05	
+			}
+		}	
+
+		SIA_old_officers = {
+
+			picture = noim_officers
+
+			allowed = {
+				original_tag = RAJ
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				military_leader_cost_factor = -0.25
+				army_leader_start_planning_level = 1
+				army_leader_start_logistics_level = 1
+			}
+		}
+
+		SIA_new_officers = {
+
+			picture = noim_officers
+
+			allowed = {
+				original_tag = RAJ
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				military_leader_cost_factor = -0.25
+				army_leader_start_level = 1
+				army_leader_start_attack_level = 1
+			}
+		}
+
+		SIA_acquire_licenses = {
+
+			picture = generic_license_production
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = SIA
+			}
+
+			allowed_civil_war = {
+
+			}
+			
+			modifier = {
+				license_air_purchase_cost = -0.5
+				license_tech_difference_speed = 0.2
+			}
+		}	
+
+		SIA_local_production = {
+			picture = generic_air_bonus
+			allowed = {
+				original_tag = SIA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				small_plane_cas_airframe = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}										
+	}
+}
+

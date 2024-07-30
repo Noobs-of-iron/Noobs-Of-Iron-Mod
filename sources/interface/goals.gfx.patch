@@ -1,4 +1,4 @@
-7090a7091,7123
+7090a7091,7184
 > 	
 > 	###########
 > 	### NOI ###
@@ -32,3 +32,64 @@
 > 		name = "GFX_noim_goal_align_hungary"
 > 		texturefile = "gfx/interface/goals/noim_goal_align_hungary.dds"			
 > 	}	
+> 	## SIAM ##
+> 	
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_royal_plot"
+> 		texturefile = "gfx/interface/goals/noim_goal_royal_plot.dds"			
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_fate_of_the_monarchy"
+> 		texturefile = "gfx/interface/goals/noim_goal_fate_of_the_monarchy.dds"			
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_songsuradet_rebellion"
+> 		texturefile = "gfx/interface/goals/noim_goal_songsuradet_rebellion.dds"			
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_ratthaniyom"
+> 		texturefile = "gfx/interface/goals/noim_goal_ratthaniyom.dds"			
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_golden_peninsula"
+> 		texturefile = "gfx/interface/goals/noim_goal_golden_peninsula.dds"			
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_the_leader"
+> 		texturefile = "gfx/interface/goals/noim_goal_the_leader.dds"			
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_the_marshal"
+> 		texturefile = "gfx/interface/goals/noim_goal_the_marshal.dds"			
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_empire_of_great_thailand"
+> 		texturefile = "gfx/interface/goals/noim_goal_empire_of_great_thailand.dds"			
+> 	}
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_army"
+> 		texturefile = "gfx/interface/goals/noim_goal_sia_army.dds"			
+> 	}
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_navy"
+> 		texturefile = "gfx/interface/goals/noim_goal_sia_navy.dds"			
+> 	}
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_air"
+> 		texturefile = "gfx/interface/goals/noim_goal_sia_air.dds"			
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_mountain"
+> 		texturefile = "gfx/interface/goals/noim_goal_sia_mountain.dds"			
+> 	}		

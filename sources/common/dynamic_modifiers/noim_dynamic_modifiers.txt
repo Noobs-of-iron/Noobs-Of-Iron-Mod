@@ -1,0 +1,81 @@
+#	Example:
+#
+#	example_dynamic_modifier = {
+#		icon = "GFX_idea_unknown" # optional, will show up in guis if icon is specified
+#		enable = { always = yes } #optional, the modifier won't apply if not enabled
+#		remove_trigger = { always = no } #optional, will remove the modifier if true
+#       attacker_modifier = no  # if yes this modifier will also be read in combat for
+#                               # people engaging in the combat even if not in the state
+#
+#		# list of modifiers
+#		fuel_cost = 321
+#		max_fuel = var_max_fuel # will be taken from a variable
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		add_dynamic_modifier = {
+#			modifier = example_dynamic_modifier
+#			scope = GER # optional, if you specify this your dynamic modifier scoped to this scope (root is the effect scope)
+#			days = 14 # optional, will be removed after this many days passes
+#		}
+#	}
+#
+#	can be added to countries, states or unit leaders
+#	will only updated daily, unless forced by force_update_dynamic_modifier effect
+
+############
+### SIAM ###
+############
+
+
+###### COUNTRY MODIFIERS (NATIONAL SPIRITS) #####
+
+# National Economic Plan
+SIA_autarky_dynamic_modifier = { 
+
+	enable = { always = yes }
+
+	icon = GFX_idea_SOV_third_five_year_plan_civilian
+
+	#INITIAL
+	production_speed_infrastructure_factor = SIA_autarky_production_speed_infrastructure_factor
+
+	#FUTURE
+	economy_cost_factor = SIA_autarky_economy_cost_factor
+	production_speed_industrial_complex_factor = SIA_autarky_production_speed_industrial_complex_factor 
+	consumer_goods_factor = SIA_autarky_consumer_goods_factor
+	trade_laws_cost_factor = SIA_autarky_trade_laws_cost_factor
+	min_export = SIA_autarky_min_export
+	production_factory_max_efficiency_factor = SIA_autarky_production_factory_max_efficiency_factor	
+	global_building_slots_factor = SIA_autarky_global_building_slots_factor
+	production_factory_efficiency_gain_factor = SIA_autarky_production_factory_efficiency_gain_factor
+	production_speed_arms_factory_factor = SIA_autarky_production_speed_arms_factory_factor
+	political_power_factor = SIA_autarky_political_power_factor
+}
+
+# Thai Army
+SIA_thorbor_dynamic_modifier = { 
+
+	enable = { always = yes }
+
+	icon = GFX_idea_chi_army_corruption3
+
+	#INITIAL
+	army_org_factor = SIA_thorbor_army_org_factor
+	army_morale_factor = SIA_thorbor_army_morale_factor
+	max_planning = SIA_thorbor_max_planning
+	planning_speed = SIA_thorbor_planning_speed
+	heat_attrition_factor = SIA_thorbor_heat_attrition_factor
+
+	#FUTURE
+	army_artillery_attack_factor = SIA_thorbor_army_artillery_attack
+	modifier_army_sub_unit_infantry_attack_factor = SIA_thorbor_modifier_army_sub_unit_infantry_attack_factor
+	extra_marine_supply_grace = SIA_thorbor_extra_marine_supply_grace
+	naval_invasion_capacity = SIA_thorbor_naval_invasion_capacity
+	modifier_army_sub_unit_mountaineers_attack_factor = SIA_thorbor_modifier_army_sub_unit_mountaineers_attack_factor
+	modifier_army_sub_unit_mountaineers_max_org_factor = SIA_thorbor_modifier_army_sub_unit_mountaineers_max_org_factor
+	special_forces_cap = SIA_thorbor_special_forces
+}

@@ -1,0 +1,12 @@
+13c13
+< 			10438 1 
+---
+> 			10438 5 
+14a15,17
+> 		victory_points = {
+> 			10425 5 
+> 		}		
+18c21
+< 	state_category = rural
+---
+> 	state_category = large_town

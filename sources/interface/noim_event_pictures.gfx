@@ -1,0 +1,10 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_noim_report_siam_news_event_siam1"
+		texturefile = "gfx/event_pictures/noim_report_siam_news_event_siam1.dds"
+	}
+}
+
+
+

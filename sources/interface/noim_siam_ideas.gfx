@@ -1,0 +1,46 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_noim_royal_opposition"
+		texturefile = "gfx/interface/ideas/noim_royal_opposition.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_noim_factionalism"
+		texturefile = "gfx/interface/ideas/noim_factionalism.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_noim_Lueat_suphan"
+		texturefile = "gfx/interface/ideas/noim_Lueat_suphan.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_noim_rama_viii"
+		texturefile = "gfx/interface/ideas/noim_rama_viii.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_noim_monarchy_abolished"
+		texturefile = "gfx/interface/ideas/noim_monarchy_abolished.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_noim_nor_yor"
+		texturefile = "gfx/interface/ideas/noim_nor_yor.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_idea_noim_guards"
+		texturefile = "gfx/interface/ideas/noim_guards.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_idea_noim_officers"
+		texturefile = "gfx/interface/ideas/noim_officers.dds"
+	}			
+}

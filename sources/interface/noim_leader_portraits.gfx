@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = GFX_portrait_Plaek_Phibunsongkhram
+		texturefile = "gfx/leaders/SIA/Portrait_noim_Plaek_Phibunsongkhram.dds"
+	}
+}

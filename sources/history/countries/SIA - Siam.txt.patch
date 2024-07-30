@@ -1,0 +1,36 @@
+44a45,47
+> #######################
+> ###DYNAMIC MODIFIERS###
+> #######################
+45a49,72
+> #Economic Nationalism
+> set_variable = { SIA_autarky_production_speed_infrastructure_factor = 0.1 }
+> 
+> set_variable = { SIA_autarky_economy_cost_factor = 0 }
+> set_variable = { SIA_autarky_consumer_goods_factor = 0 }
+> set_variable = { SIA_autarky_production_speed_industrial_complex_factor = 0 }
+> set_variable = { SIA_autarky_trade_laws_cost_factor = 0 }
+> set_variable = { SIA_autarky_production_factory_max_efficiency_factor = 0 }
+> set_variable = { SIA_autarky_global_building_slots_factor = 0 }
+> set_variable = { SIA_autarky_production_factory_efficiency_gain_factor = 0 }
+> set_variable = { SIA_autarky_production_speed_arms_factory_factor = 0 }
+> set_variable = { SIA_autarky_political_power_factor= 0 }
+> 
+> #Thai Army
+> set_variable = { SIA_thorbor_army_org_factor = -0.1 }
+> set_variable = { SIA_thorbor_army_morale_factor = -0.1 }
+> set_variable = { SIA_thorbor_max_planning = 0.1 }
+> set_variable = { SIA_thorbor_planning_speed = -0.1 }
+> set_variable = { SIA_thorbor_heat_attrition_factor = -0.05 }
+> 
+> set_variable = { SIA_thorbor_army_artillery_soft_attack = 0 }
+> set_variable = { SIA_thorbor_modifier_army_sub_unit_infantry_attack_factor = 0 }
+> 
+> add_dynamic_modifier = { modifier = SIA_thorbor_dynamic_modifier }
+174a202,207
+> }
+> 
+> add_ideas = {
+> 	SIA_bowring_treaty
+> 	SIA_royal_opposition
+> 	SIA_factionalism_1

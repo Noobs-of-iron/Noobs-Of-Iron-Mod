@@ -2,7 +2,7 @@
 > 	###########
 > 	### NOI ###
 > 	###########
-49513a49517,49734
+49513a49517,50119
 > 	SpriteType = {
 > 		name = "GFX_noim_goal_porsche_shine"
 > 		texturefile = "gfx/interface/goals/noim_goal_porsche.dds"		
@@ -221,3 +221,388 @@
 > 		}
 > 		legacy_lazy_load = no
 > 	}
+> 	## SIAM ##
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_royal_plot_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_royal_plot.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_royal_plot.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_royal_plot.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_fate_of_the_monarchy_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_fate_of_the_monarchy.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_fate_of_the_monarchy.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_fate_of_the_monarchy.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}	
+> 	
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_songsuradet_rebellion_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_songsuradet_rebellion.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_songsuradet_rebellion.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_songsuradet_rebellion.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_ratthaniyom_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_ratthaniyom.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_ratthaniyom.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_ratthaniyom.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_golden_peninsula_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_golden_peninsula.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_golden_peninsula.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_golden_peninsula.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_the_leader_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_the_leader.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_the_leader.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_the_leader.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_the_marshal_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_the_marshal.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_the_marshal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_the_marshal.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_empire_of_great_thailand_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_empire_of_great_thailand.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_empire_of_great_thailand.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_empire_of_great_thailand.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_army_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_sia_army.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_sia_army.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_sia_army.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_navy_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_sia_navy.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_sia_navy.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_sia_navy.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_air_shine_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_sia_air.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_sia_air.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_sia_air.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}	
+> 
+> 	SpriteType = {
+> 		name = "GFX_goal_SIA_mountain_shine"
+> 		texturefile = "gfx/interface/goals/noim_goal_sia_mountain.dds"		
+> 		effectFile = "gfx/FX/buttonstate.lua"
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_sia_mountain.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 
+> 		animation = {
+> 			animationmaskfile = "gfx/interface/goals/noim_goal_sia_mountain.dds"		
+> 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+> 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+> 			animationlooping = no			# yes or no ;)
+> 			animationtime = 0.75				# in seconds
+> 			animationdelay = 0			# in seconds
+> 			animationblendmode = "add"       #add, multiply, overlay
+> 			animationtype = "scrolling"      #scrolling, rotating, pulsing
+> 			animationrotationoffset = { x = 0.0 y = 0.0 }
+> 			animationtexturescale = { x = 1.0 y = 1.0 } 
+> 		}
+> 		legacy_lazy_load = no
+> 	}			

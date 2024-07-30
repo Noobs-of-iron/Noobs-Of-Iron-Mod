@@ -1,0 +1,21 @@
+768c768,785
+< 	}
+---
+> 		"SIA"={
+> 			minor = yes
+> 			history = "SIA_GATHERING_STORM_DESC"
+> 			ideology = neutrality
+> 			ideas = {
+> 				SIA_bowring_treaty
+> 				SIA_royal_opposition
+> 				SIA_factionalism_1
+> 			}
+> 			focuses = {
+> 				SIA_end_the_unequal_treaties
+> 			}
+> 		}
+> 		effect = {
+> 			randomize_weather = 22345 # <- Obligatory in every bookmark !
+> 			#123 = { rain_light = yes }
+> 		}
+> 	}		

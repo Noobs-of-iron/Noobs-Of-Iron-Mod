@@ -1,0 +1,142 @@
+﻿###############
+# Siam Events #
+###############
+
+add_namespace = siam
+
+# Fate of the Monarchy
+country_event = {
+	id = siam.1
+	title = siam.1.t
+	desc = siam.1.d
+	picture = GFX_noim_report_siam_news_event_siam1
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Keep the Monarchy
+		name = "Keep the Monarchy"
+		ai_chance = { factor = 80 }
+		add_ideas = { SIA_rama_viii }
+	}
+
+	option = { # Abolish the Monarchy
+		name = "Abolish the Monarchy"
+		ai_chance = { factor = 20 }
+		add_ideas = { SIA_monarchy_abolished }	
+	}
+}
+
+# Cambodia and Laos
+country_event = {
+	id = siam.2
+	title = siam.2.t
+	desc = siam.2.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Return the Territories
+	option = {
+		name = siam.2.a
+		ai_chance = {
+			base = 10
+			# We like them!
+			modifier = {
+				factor = 2
+				has_opinion = {
+					target = FROM
+					value > 50
+				}
+			}
+		}
+		effect_tooltip = {
+			SIA = { transfer_state = 670 }
+			SIA = { transfer_state = 741 }
+		}
+		FROM = {
+			country_event = {
+				id = siam.3
+				hours = 4 
+				random_hours = 12
+			}
+		}
+	}
+	# You're trying to kidnap what I've rightfully stolen!
+	option = {
+		name = siam.2.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0.5
+				has_war = yes
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					has_government = democratic
+					has_government = communism
+				}
+			}
+		}
+		FROM = {
+			country_event = {
+				id = siam.4
+				hours = 4 
+				random_hours = 12
+			}
+		}
+	}
+}
+
+# We got Cambodia and Laos back!
+
+country_event = {
+	id = siam.3
+	title = siam.3.t
+	desc = siam.3.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	picture = GFX_report_event_generic_sign_treaty1
+	option = {
+		name = siam.3.a
+		ai_chance = {
+			base = 10
+		}
+		IF = {
+			limit = {
+				670 = { is_fully_controlled_by = FROM }
+			}
+			ROOT = { 
+				transfer_state = 670 
+				transfer_state = 741 
+			}
+		}
+		ELSE = {
+			670 = { set_state_owner_to = ROOT }
+			741 = { set_state_owner_to = ROOT }
+		}
+	}
+}
+
+# They Refuse
+
+country_event = {
+	id = siam.4
+	title = siam.4.t
+	desc = siam.4.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	picture = GFX_report_event_generic_sign_treaty1
+	option = {
+		name = siam.4.a
+		ai_chance = {
+			base = 10
+		}
+	}
+}
