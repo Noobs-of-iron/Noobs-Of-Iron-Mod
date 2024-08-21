@@ -1,8 +1,11 @@
-172c172
+172c172,175
 < 				has_completed_focus = GER_army_innovation
 ---
-> 				has_completed_focus = GER_NOI_combined_arms_warfare
-1139c1139
+> 				OR = {
+> 					has_completed_focus = GER_NOI_combined_arms_warfare
+> 					has_completed_focus = GER_NOI_achtung-panzer
+> 				}
+1139c1142
 < 				has_completed_focus = GER_army_innovation
 ---
 > 				has_completed_focus = GER_NOI_combined_arms_warfare
