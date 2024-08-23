@@ -27,7 +27,7 @@
 < 		x = 8
 ---
 > 		x = 0
-1280a1266,1771
+1280a1266,1770
 > 	
 > 	focus = {
 > 		id = JAP_island_fortification
@@ -35,7 +35,6 @@
 > 		prerequisite = { focus = JAP_secure_china }
 > 		available = {
 > 		        AND = {
-> 				CHI = { has_capitulated = yes }
 > 				NOT = { country_exists = CHI }
 > 				has_full_control_of_state = 648
 > 				has_full_control_of_state = 645
@@ -534,15 +533,15 @@
 > 				}
 > 		}
 > 	}
-1769c2260
+1769c2259
 < 		cost = 10
 ---
 > 		cost = 5
-1790c2281
+1790c2280
 < 			SIA = { country_event = generic.5 }
 ---
 > 			add_to_faction = SIA
-2704,2719c3195,3196
+2704,2719c3194,3195
 < 			if = {
 < 				limit = {
 < 					has_game_rule = {
@@ -562,7 +561,7 @@
 ---
 >             always = no
 >         }
-3588,3604c4065,4066
+3588,3604c4064,4065
 < 			has_dlc = "Waking the Tiger"
 < 			if = {
 < 				limit = {
@@ -583,13 +582,33 @@
 ---
 >             always = no
 >         }
-4373c4835
+4373c4834
 < 		x = 6
 ---
 > 		x = 11
-4375d4836
+4375d4835
 < 		relative_position_id = JAP_strengthen_civilian_government
-4384c4845
+4384c4844
 < 			x = -9
 ---
 > 			x = -8
+4830c5290
+< 		cost = 10
+---
+> 		cost = 5
+5050c5510
+< 		cost = 10
+---
+> 		cost = 5
+5596c6056
+< 		cost = 10
+---
+> 		cost = 5
+5637c6097
+< 		cost = 10
+---
+> 		cost = 5
+5767c6227
+< 		cost = 10
+---
+> 		cost = 5

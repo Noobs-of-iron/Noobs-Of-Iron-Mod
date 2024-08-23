@@ -573,7 +573,6 @@
 
 		completion_reward = {
 			add_to_variable = { SIA_thorbor_army_org_factor = 0.1 }
-			add_to_variable = { SIA_thorbor_army_morale_factor = 0.1 }
 			add_to_variable = { SIA_thorbor_planning_speed = 0.1 }
 			
 			custom_effect_tooltip = SIA_thorbor_loyalty_tt			
@@ -2307,7 +2306,7 @@
 			add_tech_bonus = {
 				name = SIA_cruiser_modernization
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = mio_cat_tech_all_submarine_and_modules	
 			}						
 		}

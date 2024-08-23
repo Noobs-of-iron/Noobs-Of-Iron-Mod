@@ -197,7 +197,7 @@
  SIA_autarky_modernization_tt: "$SIA_modify_autarky_dynamic_modifier_ns_intro$ \n$modifier_production_speed_arms_factory_factor$: §G+10%§! \nPolitical Power Gain: §G+5%§!"
 
  SIA_modify_thorbor_dynamic_modifier_ns_intro: "Modify §Y$SIA_thorbor_dynamic_modifier$§! by"
- SIA_thorbor_loyalty_tt: "$SIA_modify_thorbor_dynamic_modifier_ns_intro$ \nDivision Organization: §G+10%§! \nDivision Recovery Rate: §G+10%§! \nPlanning Speed: §G+10%§!"
+ SIA_thorbor_loyalty_tt: "$SIA_modify_thorbor_dynamic_modifier_ns_intro$ \nDivision Organization: §G+10%§! \nPlanning Speed: §G+10%§!"
  SIA_thorbor_infantry_tt: "$SIA_modify_thorbor_dynamic_modifier_ns_intro$ \nInfantry Attack: §G+10%§!"
  SIA_thorbor_artillery_tt: "$SIA_modify_thorbor_dynamic_modifier_ns_intro$ \nArtillery Attack: §G+10%§!"
  SIA_thorbor_mountaineers_tt: "$SIA_modify_thorbor_dynamic_modifier_ns_intro$ \n$modifier_army_sub_unit_mountaineers_attack_factor$: §G+3%§! \n$modifier_army_sub_unit_mountaineers_max_org_factor$: §G+5%§!"

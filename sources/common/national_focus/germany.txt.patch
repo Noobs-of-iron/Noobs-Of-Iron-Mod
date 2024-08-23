@@ -203,10 +203,12 @@
 ---
 > 		prerequisite = { focus = GER_four_year_plan}
 > 		x = 11
-1424c1356
+1424,1425c1356,1357
 < 		relative_position_id = GER_autarky
+< 		cost = 10
 ---
 > 		relative_position_id = GER_four_year_plan
+> 		cost = 5
 1487,1573c1419
 < 	focus = {
 < 		id = GER_german_war_economy
@@ -377,12 +379,14 @@
 ---
 > 		icon = GFX_focus_ARG_fascist_researchers
 > 		prerequisite = { focus = GER_NOI_achtung-panzer }
-2408,2409c2259,2260
+2408,2410c2259,2261
 < 		y = 2
 < 		relative_position_id = GER_army_innovation
+< 		cost = 10
 ---
 > 		y = 1
 > 		relative_position_id = GER_NOI_achtung-panzer
+> 		cost = 2
 2501c2352
 < 		prerequisite = { focus = GER_strategic_air_effort focus = GER_tactical_air_effort focus = GER_soviet_treaty }
 ---
@@ -459,6 +463,10 @@
 < 		x = -2
 ---
 > 		x = 4
+2970c2820
+< 		cost = 10
+---
+> 		cost = 5
 3016,3017c2866,2867
 < 		prerequisite = { focus = GER_rhineland  }
 < 		x = -3
@@ -503,6 +511,10 @@
 < 		x = 1
 ---
 > 		x = -3
+3551c3405
+< 		cost = 10
+---
+> 		cost = 5
 3584a3439
 > 	
 3589a3445
@@ -511,6 +523,10 @@
 < 		y = 3
 ---
 > 		y = 1
+3647c3503
+< 		cost = 10
+---
+> 		cost = 5
 3738c3594
 < 		icon = GFX_goal_generic_more_territorial_claims
 ---
@@ -838,7 +854,7 @@
 < 			}
 ---
 > 			always = no
-9611a9413,12141
+9611a9413,12138
 > 	
 > 	################################################################################################################################################################################################################################################################################################
 > 	################################################################################################################################################################################################################################################################################################
@@ -1081,7 +1097,7 @@
 > 		x = 1
 > 		y = 1
 > 		relative_position_id = GER_NOI_support_ig_farben
-> 		cost = 10
+> 		cost = 5
 > 		ai_will_do = {
 > 			factor = 4
 > 		}
@@ -1160,7 +1176,7 @@
 > 		x = -9
 > 		y = 0
 > 		relative_position_id = GER_autobahn
-> 		cost = 10
+> 		cost = 5
 > 		ai_will_do = {
 > 			factor = 4
 > 		}
@@ -2206,7 +2222,7 @@
 > 		x = 1
 > 		y = 1
 > 		relative_position_id = GER_NOI_develop_dive_bombing
-> 		cost = 10
+> 		cost = 2
 > 		ai_will_do = {
 > 			factor = 1
 > 		}
@@ -2909,11 +2925,8 @@
 > 		relative_position_id = GER_NOI_combined_arms_warfare
 > 		cost = 5
 > 		available = {
-> 			has_war = yes
-> 			OR = {
-> 				casualties > 500000 #i dont really know how much man should be lost to unlock this tree, so feel free to change that, for reference jahef lost 500k by august 42 but it was due to him forgetting to turn off the battleplan sometimes so idk
-> 				surrender_progress > 0.0
-> 			}
+> 			has_war_with = SOV
+> 			
 > 		}
 > 		
 > 		ai_will_do = {
