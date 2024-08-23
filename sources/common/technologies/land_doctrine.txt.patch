@@ -1,5 +1,9 @@
 1181a1182
 > 				soft_attack = 0.20
+2927c2928
+< 		land_reinforce_rate = 0.05
+---
+> 		
 3099c3100,3104
 < 		}	
 ---
@@ -8,10 +12,18 @@
 > 		category_tanks = {
 > 			breakthrough = 0.2
 > 		}
+3169c3174
+< 		land_reinforce_rate = 0.05
+---
+> 		land_reinforce_rate = 0.10
 3220c3225
 < 		resistance_damage_to_garrison_on_our_occupied_states = 0.1 #10% more partisan effects 
 ---
 > 		resistance_damage_to_garrison_on_our_occupied_states = 0.2 #20% more partisan effects 
+3223c3228
+< 
+---
+> 		land_reinforce_rate = 0.05
 3296c3301
 < 			default_morale = 0.30
 ---
