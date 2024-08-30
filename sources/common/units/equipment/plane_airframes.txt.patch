@@ -1,0 +1,112 @@
+47,50c47,50
+< 		lend_lease_cost = 8
+< 		manpower = 20
+< 		fuel_consumption = 0.05
+< 		build_cost_ic = 4
+---
+> 		lend_lease_cost = 16
+> 		manpower = 40
+> 		fuel_consumption = 0.10
+> 		build_cost_ic = 8
+245c245
+< 		build_cost_ic = 5
+---
+> 		build_cost_ic = 10
+322c322
+< 		build_cost_ic = 6
+---
+> 		build_cost_ic = 12
+426c426
+< 		build_cost_ic = 7
+---
+> 		build_cost_ic = 14
+549c549
+< 		build_cost_ic = 10
+---
+> 		build_cost_ic = 20
+705,708c705,708
+< 		lend_lease_cost = 8
+< 		manpower = 20
+< 		fuel_consumption = 0.05
+< 		build_cost_ic = 6
+---
+> 		lend_lease_cost = 16
+> 		manpower = 40
+> 		fuel_consumption = 0.10
+> 		build_cost_ic = 12
+885c885
+< 		lend_lease_cost = 8
+---
+> 		lend_lease_cost = 16
+904c904
+< 		build_cost_ic = 8.5
+---
+> 		build_cost_ic = 17
+980c980
+< 		build_cost_ic = 9.5
+---
+> 		build_cost_ic = 19
+1083c1083
+< 		build_cost_ic = 11
+---
+> 		build_cost_ic = 22
+1192c1192
+< 		build_cost_ic = 14.5
+---
+> 		build_cost_ic = 29
+1330,1331c1330,1331
+< 		lend_lease_cost = 10
+< 		manpower = 40
+---
+> 		lend_lease_cost = 20
+> 		manpower = 80
+1333c1333
+< 		build_cost_ic = 6
+---
+> 		build_cost_ic = 12
+1560c1560
+< 		lend_lease_cost = 10
+---
+> 		lend_lease_cost = 20
+1579c1579
+< 		build_cost_ic = 8
+---
+> 		build_cost_ic = 16
+1710c1710
+< 		build_cost_ic = 10
+---
+> 		build_cost_ic = 20
+1858c1858
+< 		build_cost_ic = 13
+---
+> 		build_cost_ic = 26
+2018c2018
+< 		build_cost_ic = 14
+---
+> 		build_cost_ic = 28
+2202,2205c2202,2205
+< 		lend_lease_cost = 10
+< 		manpower = 80
+< 		fuel_consumption = 0.16
+< 		build_cost_ic = 16
+---
+> 		lend_lease_cost = 20
+> 		manpower = 160
+> 		fuel_consumption = 0.32
+> 		build_cost_ic = 32
+2447c2447
+< 		build_cost_ic = 18
+---
+> 		build_cost_ic = 36
+2587c2587
+< 		build_cost_ic = 20
+---
+> 		build_cost_ic = 40
+2753c2753
+< 		build_cost_ic = 22
+---
+> 		build_cost_ic = 44
+2919c2919
+< 		build_cost_ic = 23
+---
+> 		build_cost_ic = 36

@@ -1,4 +1,46 @@
-516,527d515
+357c357,360
+< 				white_peace = FIN
+---
+> 				white_peace = {
+> 					tag = FIN 
+> 					message = FIN_agree_peace 
+> 				} 
+362d364
+< 
+369a372,387
+> 			#PETSAMO
+> 			if = {
+> 				limit = {
+> 					owns_state = 722
+> 				}
+> 				transfer_state = 722
+> 			}
+> 			#TODO_Manu: Old content removed claim on Petsamo. Pending removal
+> 			#if = {
+> 			#	limit = {
+> 			#		722 = {
+> 			#			is_claimed_by = SOV
+> 			#		}
+> 			#	}
+> 			#	SOV = { remove_state_claim = 722 }
+> 			#}
+406d423
+< 
+420a438,446
+> 		# JA - MM: Brought back petsamo included in the deal since this was missing custom tooltip loc rework in the previous event. Will fix properly at a later date.
+> 		##PETSAMO
+> 		if = {
+> 			limit = {
+> 				FROM = { owns_state = 722 }
+> 			}
+> 			transfer_state = 722
+> 		}
+> 
+458c484
+< 					not = { is_in_faction_with = SOV }
+---
+> 					not = { is_in_faction_with = SOV}
+490,501d515
 < 	#Take it all
 < 	option = {
 < 		name = finland.8.b
@@ -11,8 +53,8 @@
 < 		}
 < 		FIN = { country_event = { id = finland.9 } }
 < 	}
-560c548
+534c548
 < }
-\ No newline at end of file
+\ Pas de fin de ligne à la fin du fichier
 ---
 > }

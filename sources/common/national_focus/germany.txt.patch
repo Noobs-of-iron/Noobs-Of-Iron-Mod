@@ -203,12 +203,10 @@
 ---
 > 		prerequisite = { focus = GER_four_year_plan}
 > 		x = 11
-1424,1425c1356,1357
+1424c1356
 < 		relative_position_id = GER_autarky
-< 		cost = 10
 ---
 > 		relative_position_id = GER_four_year_plan
-> 		cost = 5
 1487,1573c1419
 < 	focus = {
 < 		id = GER_german_war_economy
@@ -854,7 +852,7 @@
 < 			}
 ---
 > 			always = no
-9611a9413,12138
+9611a9413,12133
 > 	
 > 	################################################################################################################################################################################################################################################################################################
 > 	################################################################################################################################################################################################################################################################################################
@@ -1176,7 +1174,7 @@
 > 		x = -9
 > 		y = 0
 > 		relative_position_id = GER_autobahn
-> 		cost = 5
+> 		cost = 10
 > 		ai_will_do = {
 > 			factor = 4
 > 		}
@@ -3319,11 +3317,7 @@
 > 		relative_position_id = GER_NOI_war_measures
 > 		cost = 5
 > 		available = {
-> 			has_war = yes
-> 			OR = {
-> 				casualties > 2000000
-> 				surrender_progress > 0.05
-> 			}
+> 			date > 1943.2.17
 > 		}
 > 		
 > 		ai_will_do = {
@@ -3380,11 +3374,10 @@
 > 	focus = {
 > 		id = GER_NOI_volkssturm
 > 		icon = GFX_focus_ETH_freedom_at_gunpoint
-> 		prerequisite = { focus = GER_NOI_expand_conscription }
 > 		prerequisite = { focus = GER_NOI_volkssturmgewehr }
 > 		x = 0
-> 		y = 2
-> 		relative_position_id = GER_NOI_totalenkrieg
+> 		y = 1
+> 		relative_position_id = GER_NOI_volkssturmgewehr
 > 		cost = 2
 > 
 > 		
@@ -3451,10 +3444,10 @@
 > 	focus = {
 > 		id = GER_NOI_fuhrerbunker
 > 		icon = GFX_goal_generic_fortify_city
-> 		prerequisite = { focus = GER_NOI_volkssturm }
-> 		relative_position_id = GER_NOI_totalenkrieg
+> 		prerequisite = { focus = GER_NOI_expand_conscription }
+> 		relative_position_id =  GER_NOI_expand_conscription
 > 		x = 0
-> 		y = 3
+> 		y = 1
 > 		cost = 2
 > 		
 > 		completion_reward = {
@@ -3503,10 +3496,10 @@
 > 	focus = {
 > 		id = GER_NOI_endsieg
 > 		icon = GFX_goal_GER_NOI_endsieg_i
-> 		prerequisite = { focus = GER_NOI_fuhrerbunker }
+> 		prerequisite = { focus = GER_NOI_totalenkrieg }
 > 		relative_position_id = GER_NOI_totalenkrieg
 > 		x = 0
-> 		y = 4
+> 		y = 3
 > 		cost = 1
 > 		available = {
 > 			is_subject = no

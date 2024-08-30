@@ -537,7 +537,7 @@
 > 		completion_reward = {
 > 			army_experience = 20
 > 			add_tech_bonus = {
-> 				bonus = 2.0
+> 				bonus = 1.0
 > 				uses = 1
 > 				name = SAF_6th_armoured_division
 > 				category = cat_heavy_armor
@@ -721,7 +721,7 @@
 > 		}
 > 
 > 		completion_reward = {
-> #this focus should do the same as the husky one, but add bonuses against germany and vichy france, also 10% also 60 days
+>         add_ideas = SAF_NOI_take_part_in_dday_i
 > 		}
 > 	}
 > 	

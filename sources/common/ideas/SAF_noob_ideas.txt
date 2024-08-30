@@ -98,17 +98,19 @@ ideas = {
 				
 			}
 		}
+		
 		SAF_NOI_take_part_in_dday_i = {
 			picture = SPR_anti_fascist_crusade
 			
-			available = {
-				
-			}
+			available = { }
 			
-			modifier = {
-				
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.30
 			}
-		}
+	}
+
+		
 		SAF_NOI_final_blow_against_facism_i = {
 			picture = SPR_anti_fascist_crusade
 			

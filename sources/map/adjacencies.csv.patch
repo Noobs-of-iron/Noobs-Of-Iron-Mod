@@ -1,8 +1,31 @@
-220c220,223
+220c220,246
 < -1;-1;;-1;-1;-1;-1;-1;-1 
-\ No newline at end of file
+\ Pas de fin de ligne à la fin du fichier
 ---
 > 4135;7153;impassable;-1;-1;-1;-1;-1;;Gibraltar
 > 4135;10094;impassable;-1;-1;-1;-1;-1;;Gibraltar
 > 4135;13228;impassable;-1;-1;-1;-1;-1;;Gibraltar
+> 2047;1335;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2047;12243;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2047;7415;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2047;1404;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2047;4236;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2047;10269;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2047;8091;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2047;2117;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 5226;2117;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 5226;4236;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 5226;7299;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 5226;5176;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 7424;2117;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 7424;7443;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 7424;2222;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 7424;5176;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 7424;2184;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2170;8221;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2170;12955;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2170;4335;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2170;1230;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2170;2222;impassable;-1;-1;-1;-1;-1;;Kalimenta
+> 2170;2184;impassable;-1;-1;-1;-1;-1;;Kalimenta
 > -1;-1;;-1;-1;-1;-1;-1;-1 
