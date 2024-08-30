@@ -1,8 +1,8 @@
-49512a49513,49515
+49512a49513,49959
 > 	###########
 > 	### NOI ###
 > 	###########
-49513a49517,50119
+> 
 > 	SpriteType = {
 > 		name = "GFX_noim_goal_porsche_shine"
 > 		texturefile = "gfx/interface/goals/noim_goal_porsche.dds"		
@@ -446,7 +446,7 @@
 > 		}
 > 		legacy_lazy_load = no
 > 	}	
-> 
+49513a49961,50119
 > 	SpriteType = {
 > 		name = "GFX_goal_SIA_empire_of_great_thailand_shine"
 > 		texturefile = "gfx/interface/goals/noim_goal_empire_of_great_thailand.dds"		

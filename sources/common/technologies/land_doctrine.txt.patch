@@ -1,10 +1,10 @@
 1181a1182
 > 				soft_attack = 0.20
-2927c2928
+2948c2949
 < 		land_reinforce_rate = 0.05
 ---
 > 		
-3099c3100,3104
+3120c3121,3125
 < 		}	
 ---
 > 		}
@@ -12,47 +12,47 @@
 > 		category_tanks = {
 > 			breakthrough = 0.2
 > 		}
-3169c3174
+3190c3195
 < 		land_reinforce_rate = 0.05
 ---
 > 		land_reinforce_rate = 0.10
-3220c3225
+3241c3246
 < 		resistance_damage_to_garrison_on_our_occupied_states = 0.1 #10% more partisan effects 
 ---
 > 		resistance_damage_to_garrison_on_our_occupied_states = 0.2 #20% more partisan effects 
-3223c3228
+3244c3249
 < 
 ---
 > 		land_reinforce_rate = 0.05
-3296c3301
+3317c3322
 < 			default_morale = 0.30
 ---
 > 			default_morale = 0.10
-3338c3343
+3359c3364
 < 			max_organisation = 10
 ---
 > 			max_organisation = 5
-3341c3346
+3362c3367
 < 			max_organisation = 2
 ---
 > 			max_organisation = 4
-3384c3389
+3405c3410
 < 		conscription = 0.05
 ---
 > 		conscription = 0.02
-3388c3393,3394
+3409c3414,3415
 < 			combat_width = -0.4
 ---
 > 			combat_width = -0.3
 > 			max_strength = -10
-3391c3397
+3412c3418
 < 		land_reinforce_rate = 0.15		
 ---
 > 		land_reinforce_rate = 0.05		
-3431c3437
+3452c3458
 < 		out_of_supply_factor = -0.30
 ---
 > 		out_of_supply_factor = -0.10
-3436a3443,3444
+3457a3464,3465
 > 		
 > 		pocket_penalty = -0.2
