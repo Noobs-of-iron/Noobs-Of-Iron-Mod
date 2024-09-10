@@ -1,0 +1,6 @@
+6,7c6,7
+< 		chromium=20.000
+< 		aluminium=70.000
+---
+> 		chromium=200.000
+> 		aluminium=700.000

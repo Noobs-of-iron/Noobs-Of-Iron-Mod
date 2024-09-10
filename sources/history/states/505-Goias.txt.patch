@@ -1,0 +1,6 @@
+10,11c10,11
+< 		aluminium = 3
+< 		chromium = 3
+---
+> 		aluminium = 30
+> 		chromium = 30

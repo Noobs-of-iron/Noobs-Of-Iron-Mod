@@ -1,0 +1,6 @@
+7,8c7,8
+< 		steel = 20 
+< 		aluminium = 5
+---
+> 		steel = 200
+> 		aluminium = 50

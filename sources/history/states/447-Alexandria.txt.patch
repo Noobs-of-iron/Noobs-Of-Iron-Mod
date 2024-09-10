@@ -1,0 +1,6 @@
+8,9c8,9
+< 		tungsten = 3 #maganese
+< 		steel = 3 #Maganese
+---
+> 		tungsten = 30 #maganese
+> 		steel = 30 #Maganese

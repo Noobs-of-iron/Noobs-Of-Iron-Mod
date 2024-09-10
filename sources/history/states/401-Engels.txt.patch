@@ -1,0 +1,6 @@
+10,11c10,11
+< 		steel = 10 # was: 40, then 24 but split
+< 		tungsten = 10 # was: 34, then 16 but split
+---
+> 		steel = 100 # was: 40, then 24 but split
+> 		tungsten = 100 # was: 34, then 16 but split

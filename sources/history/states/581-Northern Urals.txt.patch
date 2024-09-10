@@ -1,0 +1,6 @@
+10,11c10,11
+< 		chromium = 40 # was: 44
+< 		aluminium = 27 # was: 30
+---
+> 		chromium = 400 # was: 44
+> 		aluminium = 270 # was: 30

@@ -1,0 +1,4 @@
+7c7
+< 		rubber=40 # was: 72
+---
+> 		rubber=400 # was: 72

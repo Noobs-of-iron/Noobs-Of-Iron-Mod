@@ -1,0 +1,8 @@
+10,12c10,12
+< 		steel=25 # was: 44
+< 		chromium=20 # was: 36
+< 		aluminium=1 # was: 2
+---
+> 		steel=250 # was: 44
+> 		chromium=200 # was: 36
+> 		aluminium=10 # was: 2

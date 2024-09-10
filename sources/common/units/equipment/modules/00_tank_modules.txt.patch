@@ -27,7 +27,7 @@
 > 			armor_value = 0.35
 > 		}
 > 		build_cost_resources = {
-> 			steel = 1
+> 			steel = 10
 123,127c128
 < 			armor_value = 0.3
 < 		}
@@ -43,7 +43,7 @@
 > 		}
 > 		
 > 		build_cost_resources = {
-> 			rubber = 1
+> 			rubber = 10
 184a192
 > 		reliability = 0.03
 186a195,198
@@ -67,12 +67,28 @@
 207a223,226
 > 		
 > 		build_cost_resources = {
-> 			steel = 1
+> 			steel = 10
 > 		}
 238c257
 < 			hardness = -0.3
 ---
 > 			hardness = -0.2
+747,748c766,767
+< 			steel = 2
+< 			tungsten = 1
+---
+> 			steel = 20
+> 			tungsten = 10
+774,775c793,794
+< 			steel = 3
+< 			tungsten = 1
+---
+> 			steel = 30
+> 			tungsten = 10
+841c860
+< 			steel = 1
+---
+> 			steel = 10
 854c873
 < 			ap_attack = 60
 ---
@@ -81,6 +97,12 @@
 < 			breakthrough = 2
 ---
 > 			breakthrough = 4
+868,869c887,888
+< 			tungsten = 1
+< 			steel = 1
+---
+> 			tungsten = 10
+> 			steel = 10
 883c902
 < 			ap_attack = 90
 ---
@@ -89,6 +111,14 @@
 < 			breakthrough = 4
 ---
 > 			breakthrough = 7
+896,898c915,917
+< 			tungsten = 1
+< 			steel = 2
+< 			chromium = 1
+---
+> 			tungsten = 10
+> 			steel = 20
+> 			chromium = 10
 906a926,927
 > 		forbid_equipment_type = amphibious
 > 		forbid_equipment_type_exact_match = armor
@@ -104,7 +134,7 @@
 < 			tungsten = 1
 < 			steel = 2
 ---
-> 			steel = 3
+> 			steel = 30
 933a953,955
 > 		forbid_equipment_type = amphibious
 > 		forbid_equipment_type_exact_match = armor
@@ -129,15 +159,35 @@
 < 			convert_cost_ic = 5.5
 ---
 > 			convert_cost_ic = 6
-951,952c973
+951,953c973,974
 < 			tungsten = 1
 < 			steel = 3
+< 			chromium = 1
 ---
-> 			steel = 4
+> 			steel = 40
+> 			chromium = 10
+981,982c1002,1003
+< 			tungsten = 2
+< 			steel = 1
+---
+> 			tungsten = 20
+> 			steel = 10
+1009,1010c1030,1031
+< 			tungsten = 2
+< 			steel = 1
+---
+> 			tungsten = 20
+> 			steel = 10
 1023c1044
 < 			ap_attack = 68
 ---
 > 			ap_attack = 65
+1035,1036c1056,1057
+< 			tungsten = 2
+< 			steel = 2
+---
+> 			tungsten = 20
+> 			steel = 20
 1047,1050c1068,1071
 < 			soft_attack = 20
 < 			hard_attack = 35
@@ -152,10 +202,14 @@
 < 			convert_cost_ic = 5
 ---
 > 			convert_cost_ic = 7
-1061c1082
+1061,1063c1082,1084
 < 			tungsten = 2
+< 			chromium = 1
+< 			steel = 2
 ---
-> 			tungsten = 3
+> 			tungsten = 30
+> 			chromium = 10
+> 			steel = 20
 1073,1076c1094,1097
 < 			soft_attack = 25
 < 			hard_attack = 45
@@ -170,16 +224,28 @@
 < 			convert_cost_ic = 7
 ---
 > 			convert_cost_ic = 9
-1087c1108
+1087,1089c1108,1110
 < 			tungsten = 2
+< 			chromium = 1
+< 			steel = 3
 ---
-> 			tungsten = 3
+> 			tungsten = 30
+> 			chromium = 10
+> 			steel = 30
 1100,1101c1121,1122
 < 			soft_attack = 20
 < 			hard_attack = 20
 ---
 > 			soft_attack = 30
 > 			hard_attack = 22
+1114,1116c1135,1137
+< 			tungsten = 1
+< 			chromium = 1
+< 			steel = 2
+---
+> 			tungsten = 10
+> 			chromium = 10
+> 			steel = 20
 1127c1148
 < 			soft_attack = 25
 ---
@@ -188,6 +254,14 @@
 < 			ap_attack = 125
 ---
 > 			ap_attack = 120
+1141,1143c1162,1164
+< 			tungsten = 2
+< 			chromium = 1
+< 			steel = 2
+---
+> 			tungsten = 20
+> 			chromium = 10
+> 			steel = 20
 1154,1156c1175,1177
 < 			soft_attack = 30
 < 			hard_attack = 40
@@ -196,6 +270,14 @@
 > 			soft_attack = 45
 > 			hard_attack = 50
 > 			ap_attack = 160
+1168,1170c1189,1191
+< 			tungsten = 3
+< 			chromium = 1
+< 			steel = 3
+---
+> 			tungsten = 30
+> 			chromium = 10
+> 			steel = 30
 1178a1200,1201
 > 		forbid_equipment_type = amphibious
 > 		forbid_equipment_type_exact_match = armor
@@ -219,16 +301,26 @@
 < 			convert_cost_ic = 7
 ---
 > 			convert_cost_ic = 8
-1199c1222
+1197,1199c1220,1222
+< 			tungsten = 1
+< 			chromium = 1
 < 			steel = 3
 ---
-> 			steel = 4
+> 			tungsten = 10
+> 			chromium = 10
+> 			steel = 40
 1210,1211c1233,1234
 < 			soft_attack = 35
 < 			hard_attack = 45
 ---
 > 			soft_attack = 60
 > 			hard_attack = 65
+1220,1221c1243,1244
+< 			tungsten = 5
+< 			chromium = 2
+---
+> 			tungsten = 50
+> 			chromium = 20
 1327a1351,1352
 > 			build_cost_ic = 0.05
 > 			reliability = -0.05
@@ -238,7 +330,12 @@
 > 			reliability = -0.15
 1344a1370
 > 			build_cost_ic = 0.15
-1436a1463,1496
+1434c1460,1472
+< 			tungsten = 1
+---
+> 			tungsten = 10
+> 		}
+> 	}
 > 	
 > 	aphe_round = {
 > 		abbreviation = "aphe"
@@ -249,10 +346,10 @@
 > 		multiply_stats = {
 > 			hard_attack = 0.15
 > 			ap_attack = -0.3
-> 		}
+1435a1474,1495
 >         
 > 		build_cost_resources = {
-> 			steel = 1
+> 			steel = 10
 > 		}
 > 		
 > 	}
@@ -269,10 +366,9 @@
 > 		}
 >         
 > 		build_cost_resources = {
-> 			tungsten = 1
+> 			tungsten = 10
 > 		}
 > 		
-> 	}
 1489c1549
 < 			reliability = 0.1
 ---

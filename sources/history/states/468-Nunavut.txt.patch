@@ -1,0 +1,4 @@
+9c9
+< 		aluminium = 3 # was: 4
+---
+> 		aluminium = 30 # was: 4

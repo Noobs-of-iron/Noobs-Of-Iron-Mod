@@ -1,0 +1,4 @@
+7c7
+< 		aluminium=18 # was: 30
+---
+> 		aluminium=180 # was: 30

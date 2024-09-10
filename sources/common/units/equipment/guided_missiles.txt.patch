@@ -1,0 +1,6 @@
+47,48c47,48
+< 			aluminium = 3
+< 			tungsten = 3
+---
+> 			aluminium = 30
+> 			tungsten = 30

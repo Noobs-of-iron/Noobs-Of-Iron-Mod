@@ -1,0 +1,4 @@
+6c6
+< 	resources = { chromium = 32 }
+---
+> 	resources = { chromium = 320 }

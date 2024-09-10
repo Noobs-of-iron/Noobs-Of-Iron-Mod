@@ -1,0 +1,322 @@
+208,210c208,210
+< 			#oil = 1
+< 			aluminium = 2
+< 			rubber = 1
+---
+> 
+> 			aluminium = 20
+> 			rubber = 10
+234,236c234,236
+< 			#oil = 1
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+266,268c266,268
+< 			#oil = 2
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+298,300c298,300
+< 			#oil = 2
+< 			aluminium = 4
+< 			rubber = 1
+---
+> 
+> 			aluminium = 40
+> 			rubber = 10
+347,349c347,349
+< 			aluminium = 2
+< 			tungsten = 3
+< 			rubber = 1
+---
+> 			aluminium = 20
+> 			tungsten = 30
+> 			rubber = 10
+378,380c378,380
+< 			aluminium = 3
+< 			tungsten = 3
+< 			rubber = 1
+---
+> 			aluminium = 30
+> 			tungsten = 30
+> 			rubber = 10
+431,433c431,433
+< 			#oil = 1
+< 			aluminium = 2
+< 			rubber = 1
+---
+> 
+> 			aluminium = 20
+> 			rubber = 10
+460,462c460,462
+< 			#oil = 1
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+493,495c493,495
+< 			#oil = 2
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+525,527c525,527
+< 			#oil = 2
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+581,583c581,583
+< 			#oil = 1
+< 			aluminium = 2
+< 			rubber = 1
+---
+> 
+> 			aluminium = 20
+> 			rubber = 10
+609,611c609,611
+< 			#oil = 1
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+641,643c641,643
+< 			#oil = 2
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+696,698c696,698
+< 			#oil = 1
+< 			aluminium = 2
+< 			rubber = 1
+---
+> 
+> 			aluminium = 20
+> 			rubber = 10
+728,730c728,730
+< 			#oil = 1
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+761,763c761,763
+< 			#oil = 2
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+817,819c817,819
+< 			#oil = 1
+< 			aluminium = 2
+< 			rubber = 1
+---
+> 
+> 			aluminium = 20
+> 			rubber = 10
+848,850c848,850
+< 			#oil = 1
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+879,881c879,881
+< 			#oil = 2
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+934,936c934,936
+< 			#oil = 1
+< 			aluminium = 2
+< 			rubber = 1
+---
+> 
+> 			aluminium = 20
+> 			rubber = 10
+965,967c965,967
+< 			#oil = 1
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+995,997c995,997
+< 			#oil = 2
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+1037,1039c1037,1039
+< 			aluminium = 3
+< 			tungsten = 2
+< 			rubber = 1
+---
+> 			aluminium = 30
+> 			tungsten = 20
+> 			rubber = 10
+1064,1066c1064,1066
+< 			aluminium = 3
+< 			tungsten = 3
+< 			rubber = 1
+---
+> 			aluminium = 30
+> 			tungsten = 30
+> 			rubber = 10
+1091,1093c1091,1093
+< 			aluminium = 3
+< 			tungsten = 3
+< 			rubber = 1
+---
+> 			aluminium = 30
+> 			tungsten = 30
+> 			rubber = 10
+1135,1137c1135,1137
+< 			aluminium = 2
+< 			tungsten = 2
+< 			rubber = 1
+---
+> 			aluminium = 20
+> 			tungsten = 20
+> 			rubber = 10
+1184,1186c1184,1186
+< 			#oil = 1
+< 			aluminium = 2
+< 			rubber = 1
+---
+> 
+> 			aluminium = 20
+> 			rubber = 10
+1217,1219c1217,1219
+< 			#oil = 1
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+1250,1252c1250,1252
+< 			#oil = 1
+< 			aluminium = 4
+< 			rubber = 1
+---
+> 
+> 			aluminium = 40
+> 			rubber = 10
+1283,1285c1283,1285
+< 			#oil = 1
+< 			aluminium = 5
+< 			rubber = 1
+---
+> 
+> 			aluminium = 50
+> 			rubber = 10
+1338,1340c1338,1340
+< 			aluminium = 2
+< 			tungsten = 3
+< 			rubber = 1
+---
+> 			aluminium = 20
+> 			tungsten = 30
+> 			rubber = 10
+1371,1373c1371,1373
+< 			aluminium = 3
+< 			tungsten = 3
+< 			rubber = 1
+---
+> 			aluminium = 30
+> 			tungsten = 30
+> 			rubber = 10
+1419,1421c1419,1421
+< 			#oil = 1
+< 			aluminium = 2
+< 			rubber = 1
+---
+> 
+> 			aluminium = 20
+> 			rubber = 10
+1445,1447c1445,1447
+< 			#oil = 1
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 
+> 			aluminium = 30
+> 			rubber = 10
+1474,1476c1474,1476
+< 			#oil = 1
+< 			aluminium = 4
+< 			rubber = 1
+---
+> 
+> 			aluminium = 40
+> 			rubber = 10
+1518,1519c1518,1519
+< 			aluminium = 2
+< 			rubber = 1
+---
+> 			aluminium = 20
+> 			rubber = 10
+1542,1543c1542,1543
+< 			aluminium = 3
+< 			rubber = 1
+---
+> 			aluminium = 30
+> 			rubber = 10
+1596,1597c1596,1597
+< 			aluminium = 3
+< 			rubber = 2
+---
+> 			aluminium = 30
+> 			rubber = 20
+1623,1625c1623,1625
+< 			#oil = 1
+< 			aluminium = 4
+< 			rubber = 2
+---
+> 
+> 			aluminium = 40
+> 			rubber = 20
+1654,1656c1654,1656
+< 			#oil = 1
+< 			aluminium = 5
+< 			rubber = 2
+---
+> 
+> 			aluminium = 50
+> 			rubber = 20
+1705,1707c1705,1707
+< 			aluminium = 3
+< 			tungsten = 3
+< 			rubber = 1
+---
+> 			aluminium = 30
+> 			tungsten = 30
+> 			rubber = 10

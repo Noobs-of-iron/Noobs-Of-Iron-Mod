@@ -1,0 +1,150 @@
+107c107
+< 			steel = 1
+---
+> 			steel = 10
+143c143
+< 			steel = 1
+---
+> 			steel = 10
+171c171
+< 			steel = 1
+---
+> 			steel = 10
+204c204
+< 			steel = 1
+---
+> 			steel = 10
+237c237
+< 			steel = 1
+---
+> 			steel = 10
+283c283
+< 			steel = 1
+---
+> 			steel = 10
+310c310
+< 			steel = 1
+---
+> 			steel = 10
+342c342
+< 			steel = 1
+---
+> 			steel = 10
+376,377c376,377
+< 			steel = 1
+< 			chromium = 1
+---
+> 			steel = 10
+> 			chromium = 10
+403,404c403,404
+< 			steel = 1
+< 			chromium = 1
+---
+> 			steel = 10
+> 			chromium = 10
+440c440
+< 			steel = 1
+---
+> 			steel = 10
+478c478
+< 			steel = 1
+---
+> 			steel = 10
+516c516
+< 			steel = 2
+---
+> 			steel = 20
+529c529
+< 				steel = 2
+---
+> 				steel = 20
+536c536
+< 				steel = 1
+---
+> 				steel = 10
+560c560
+< 			steel = 2
+---
+> 			steel = 20
+573c573
+< 				steel = 2
+---
+> 				steel = 20
+638c638
+< 				steel = 1
+---
+> 				steel = 10
+667c667
+< 			steel = 1
+---
+> 			steel = 10
+678c678
+< 				steel = 1
+---
+> 				steel = 10
+707c707
+< 			steel = 1
+---
+> 			steel = 10
+718c718
+< 				steel = 1
+---
+> 				steel = 10
+757c757
+< 				steel = 1
+---
+> 				steel = 10
+2271c2271
+< 			steel = 1
+---
+> 			steel = 10
+2347c2347
+< 			steel = 1
+---
+> 			steel = 10
+2392c2392
+< 			steel = 1
+---
+> 			steel = 10
+2416c2416
+< 			steel = 1
+---
+> 			steel = 10
+2439,2440c2439,2440
+< 			steel = 2
+< 			chromium = 1
+---
+> 			steel = 20
+> 			chromium = 10
+2465,2466c2465,2466
+< 			steel = 1
+< 			chromium = 1
+---
+> 			steel = 10
+> 			chromium = 10
+2491,2492c2491,2492
+< 			steel = 2
+< 			chromium = 1
+---
+> 			steel = 20
+> 			chromium = 10
+2537c2537
+< 			steel = 1
+---
+> 			steel = 10
+2556,2557c2556,2557
+< 			steel = 1
+< 			chromium = 1
+---
+> 			steel = 10
+> 			chromium = 10
+2576,2577c2576,2577
+< 			steel = 2
+< 			chromium = 1
+---
+> 			steel = 20
+> 			chromium = 10
+2589c2589
+< 			steel = 1
+---
+> 			steel = 10

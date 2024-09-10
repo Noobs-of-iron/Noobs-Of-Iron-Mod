@@ -1,0 +1,4 @@
+6c6
+< 		chromium=12.000 #added due to portugal setup
+---
+> 		chromium=120.000 #added due to portugal setup

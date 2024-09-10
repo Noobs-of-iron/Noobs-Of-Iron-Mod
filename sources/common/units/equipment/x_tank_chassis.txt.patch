@@ -1,0 +1,350 @@
+267,268c267,268
+< 			#oil = 1
+< 			steel = 2
+---
+> 
+> 			steel = 20
+299,300c299,300
+< 			#oil = 1
+< 			steel = 3
+---
+> 
+> 			steel = 30
+329,330c329,330
+< 			#oil = 2
+< 			steel = 4
+---
+> 
+> 			steel = 40
+370,372c370,372
+< 			#oil = 1
+< 			steel = 2
+< 			tungsten= 1
+---
+> 
+> 			steel = 20
+> 			tungsten= 10
+404,406c404,406
+< 			steel = 3
+< 			#oil = 1
+< 			tungsten= 1
+---
+> 			steel = 30
+> 
+> 			tungsten= 10
+437,439c437,439
+< 			steel = 4
+< 			#oil = 2
+< 			tungsten = 1
+---
+> 			steel = 40
+> 
+> 			tungsten = 10
+477,479c477,479
+< 			#oil = 1
+< 			steel = 2
+< 			tungsten = 2
+---
+> 
+> 			steel = 20
+> 			tungsten = 20
+513,515c513,515
+< 			#oil = 1
+< 			steel = 3
+< 			tungsten = 2
+---
+> 
+> 			steel = 30
+> 			tungsten = 20
+547,549c547,549
+< 			#oil = 2
+< 			steel = 4
+< 			tungsten = 2
+---
+> 
+> 			steel = 40
+> 			tungsten = 20
+587,588c587,588
+< 			#oil = 1
+< 			steel = 2
+---
+> 
+> 			steel = 20
+622,623c622,623
+< 			#oil = 1
+< 			steel = 3
+---
+> 
+> 			steel = 30
+656,657c656,657
+< 			#oil = 2
+< 			steel = 4
+---
+> 
+> 			steel = 40
+695,697c695,697
+< 			#oil = 1
+< 			tungsten = 2
+< 			steel = 2
+---
+> 
+> 			tungsten = 20
+> 			steel = 20
+729,731c729,731
+< 			#oil = 1
+< 			tungsten = 2
+< 			steel = 3
+---
+> 
+> 			tungsten = 20
+> 			steel = 30
+761,763c761,763
+< 			#oil = 2
+< 			tungsten = 2
+< 			steel = 4
+---
+> 
+> 			tungsten = 20
+> 			steel = 40
+802,804c802,804
+< 			#oil = 1
+< 			tungsten = 3
+< 			steel = 2
+---
+> 
+> 			tungsten = 30
+> 			steel = 20
+837,839c837,839
+< 			steel = 3
+< 			tungsten = 3
+< 			#oil = 1
+---
+> 			steel = 30
+> 			tungsten = 30
+> 
+871,873c871,873
+< 			steel = 4
+< 			tungsten = 3
+< 			#oil = 2
+---
+> 			steel = 40
+> 			tungsten = 30
+> 
+912,914c912,914
+< 			#oil = 1
+< 			tungsten = 4
+< 			steel = 2
+---
+> 
+> 			tungsten = 40
+> 			steel = 20
+949,951c949,951
+< 			#oil = 1
+< 			tungsten = 4
+< 			steel = 3
+---
+> 
+> 			tungsten = 40
+> 			steel = 30
+985,987c985,987
+< 			#oil = 2
+< 			tungsten = 4
+< 			steel = 4
+---
+> 
+> 			tungsten = 40
+> 			steel = 40
+1026,1028c1026,1028
+< 			#oil = 1
+< 			tungsten = 2
+< 			steel = 2
+---
+> 
+> 			tungsten = 20
+> 			steel = 20
+1063,1065c1063,1065
+< 			#oil = 1
+< 			tungsten = 2
+< 			steel = 3
+---
+> 
+> 			tungsten = 20
+> 			steel = 30
+1099,1101c1099,1101
+< 			#oil = 2
+< 			tungsten = 2
+< 			steel = 4
+---
+> 
+> 			tungsten = 20
+> 			steel = 40
+1135,1137c1135,1137
+< 			#oil = 1
+< 			steel = 3
+< 			chromium = 3
+---
+> 
+> 			steel = 30
+> 			chromium = 30
+1175,1177c1175,1177
+< #			oil = 1
+< 			steel = 3
+< 			chromium = 3
+---
+> 
+> 			steel = 30
+> 			chromium = 30
+1206,1208c1206,1208
+< 			#oil = 1
+< 			steel = 4
+< 			chromium = 3
+---
+> 
+> 			steel = 40
+> 			chromium = 30
+1246,1248c1246,1248
+< 			#oil = 1
+< 			steel = 3
+< 			chromium = 3
+---
+> 
+> 			steel = 30
+> 			chromium = 30
+1280,1282c1280,1282
+< 			#oil = 1
+< 			steel = 4
+< 			chromium = 3
+---
+> 
+> 			steel = 40
+> 			chromium = 30
+1313,1315c1313,1315
+< 			#oil = 1
+< 			steel = 5
+< 			chromium = 3
+---
+> 
+> 			steel = 50
+> 			chromium = 30
+1352,1354c1352,1354
+< 			#oil = 1
+< 			steel = 3
+< 			chromium = 3
+---
+> 
+> 			steel = 30
+> 			chromium = 30
+1388,1390c1388,1390
+< 			#oil = 1
+< 			steel = 4
+< 			chromium = 3
+---
+> 
+> 			steel = 40
+> 			chromium = 30
+1423,1425c1423,1425
+< 			#oil = 2
+< 			steel = 4
+< 			chromium = 4
+---
+> 
+> 			steel = 40
+> 			chromium = 40
+1463,1465c1463,1465
+< 			#oil = 1
+< 			steel = 3
+< 			chromium = 3
+---
+> 
+> 			steel = 30
+> 			chromium = 30
+1499,1501c1499,1501
+< 			#oil = 1
+< 			steel = 3
+< 			chromium = 3
+---
+> 
+> 			steel = 30
+> 			chromium = 30
+1536,1538c1536,1538
+< 			#oil = 1
+< 			steel = 4
+< 			chromium = 3
+---
+> 
+> 			steel = 40
+> 			chromium = 30
+1577,1579c1577,1579
+< 			#oil = 1
+< 			steel = 3
+< 			chromium = 4
+---
+> 
+> 			steel = 30
+> 			chromium = 40
+1619,1621c1619,1621
+< 			#oil = 1
+< 			steel = 3
+< 			chromium = 4
+---
+> 
+> 			steel = 30
+> 			chromium = 40
+1661,1663c1661,1663
+< 			#oil = 1
+< 			steel = 3
+< 			chromium = 4
+---
+> 
+> 			steel = 30
+> 			chromium = 40
+1702,1704c1702,1704
+< 			#oil = 1
+< 			steel = 3
+< 			chromium = 4
+---
+> 
+> 			steel = 30
+> 			chromium = 40
+1743,1745c1743,1745
+< 			#oil = 2
+< 			steel = 3
+< 			chromium = 4
+---
+> 
+> 			steel = 30
+> 			chromium = 40
+1784,1786c1784,1786
+< 			#oil = 2
+< 			steel = 3
+< 			chromium = 4
+---
+> 
+> 			steel = 30
+> 			chromium = 40
+1824,1826c1824,1826
+< 			#oil = 2
+< 			steel = 3
+< 			chromium = 4
+---
+> 
+> 			steel = 30
+> 			chromium = 40
+1864,1866c1864,1866
+< 			#oil = 2
+< 			steel = 3
+< 			chromium = 4
+---
+> 
+> 			steel = 30
+> 			chromium = 40
+1910c1910
+< 			steel = 2
+---
+> 			steel = 20
+1945,1946c1945,1946
+< 			steel = 2
+< 			tungsten = 2
+---
+> 			steel = 20
+> 			tungsten = 20

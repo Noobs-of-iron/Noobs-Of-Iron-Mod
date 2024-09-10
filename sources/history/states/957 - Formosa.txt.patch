@@ -1,0 +1,6 @@
+9,10c9,10
+< 		tungsten = 5
+< 		steel = 2
+---
+> 		tungsten = 50
+> 		steel = 20

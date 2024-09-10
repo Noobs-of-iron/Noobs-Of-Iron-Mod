@@ -1,0 +1,8 @@
+5,7c5,7
+< 		steel=8 
+< 		tungsten=8 
+< 		chromium=4
+---
+> 		steel=80
+> 		tungsten=80
+> 		chromium=40

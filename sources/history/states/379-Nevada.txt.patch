@@ -1,0 +1,8 @@
+10,12c10,12
+< 		steel=70 # was: 136
+< 		tungsten=32 # was: 62
+< 		aluminium=25 # was: 44
+---
+> 		steel=700 # was: 136
+> 		tungsten=320 # was: 62
+> 		aluminium=250 # was: 44

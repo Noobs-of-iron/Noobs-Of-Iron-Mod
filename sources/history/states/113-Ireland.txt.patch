@@ -1,0 +1,5 @@
+7,8c7
+< 		aluminium=0 # was: 2
+< 		steel=2 # was: 3
+---
+> 		steel=20 # was: 3

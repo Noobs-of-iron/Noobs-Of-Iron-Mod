@@ -1,0 +1,4 @@
+7c7
+< 		steel=25 # was: 48
+---
+> 		steel=250 # was: 48

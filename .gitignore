@@ -4,4 +4,4 @@ mod/**/*.txt
 original/**/*
 **/*.lua
 **/*.json
-.idea
+**/.idea

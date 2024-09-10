@@ -4,6 +4,14 @@
 < 		reliability = 0.8
 ---
 > 		reliability = 0.7
+43,45c42,44
+< 			steel = 2
+< 			#oil = 1
+< 			rubber = 1
+---
+> 			steel = 20
+> 
+> 			rubber = 10
 70a70,71
 > 		
 > 		reliability = 0.8
@@ -21,6 +29,14 @@
 < 		ap_attack = 16
 ---
 > 		ap_attack = 18
+83,85c84,86
+< 			steel = 3
+< 			rubber = 1
+< 			#oil = 1
+---
+> 			steel = 30
+> 			rubber = 10
+> 
 98a100,101
 > 		
 > 		reliability = 0.9
@@ -38,7 +54,11 @@
 < 		ap_attack = 21
 ---
 > 		ap_attack = 22
-111c114
+111,113c114,116
 < 			steel = 4
+< 			rubber = 1
+< 			#oil = 2
 ---
-> 			steel = 3
+> 			steel = 30
+> 			rubber = 10
+> 

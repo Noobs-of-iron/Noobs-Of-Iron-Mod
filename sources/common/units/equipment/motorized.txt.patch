@@ -1,0 +1,8 @@
+28,30c28,30
+< 			#oil = 1
+< 			rubber = 1
+< 			steel = 1
+---
+> 
+> 			rubber = 10
+> 			steel = 10

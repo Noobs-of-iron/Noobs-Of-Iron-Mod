@@ -1,0 +1,6 @@
+10,11c10,11
+< 		steel = 14 # was: 40
+< 		tungsten = 6 # was: 34
+---
+> 		steel = 140 # was: 40
+> 		tungsten = 60 # was: 34

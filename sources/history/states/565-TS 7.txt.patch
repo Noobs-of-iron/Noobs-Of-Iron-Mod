@@ -1,0 +1,6 @@
+8,9c8,9
+< 		steel=10 # was: 32
+< 		chromium=5 # was: 12
+---
+> 		steel=100 # was: 32
+> 		chromium=50 # was: 12

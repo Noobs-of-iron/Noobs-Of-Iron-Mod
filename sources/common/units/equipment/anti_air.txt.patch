@@ -1,0 +1,12 @@
+36c36
+< 			steel = 2
+---
+> 			steel = 20
+65c65
+< 			steel = 2
+---
+> 			steel = 20
+84c84
+< 			steel = 3
+---
+> 			steel = 30

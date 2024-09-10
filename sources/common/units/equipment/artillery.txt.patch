@@ -1,0 +1,40 @@
+37,38c37,38
+< 			tungsten = 1
+< 			steel = 2
+---
+> 			tungsten = 10
+> 			steel = 20
+64,65c64,65
+< 			tungsten = 1
+< 			steel = 2
+---
+> 			tungsten = 10
+> 			steel = 20
+83,84c83,84
+< 			tungsten = 1
+< 			steel = 3
+---
+> 			tungsten = 10
+> 			steel = 30
+120,121c120,121
+< 			tungsten = 2
+< 			steel = 1
+---
+> 			tungsten = 20
+> 			steel = 10
+147,148c147,148
+< 			tungsten = 2
+< 			steel = 1
+---
+> 			tungsten = 20
+> 			steel = 10
+184,187c184,187
+< 			#oil = 1
+< 			rubber = 1
+< 			tungsten = 2
+< 			steel = 1
+---
+> 
+> 			rubber = 10
+> 			tungsten = 20
+> 			steel = 10

@@ -9,6 +9,18 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
+176c186
+< 			steel = 1
+---
+> 			steel = 10
+229c239
+< 			steel = 1
+---
+> 			steel = 10
+247c257
+< 			steel = 2
+---
+> 			steel = 20
 378a389,397
 > 		module_count_limit = {
 > 			module = apcr_round
@@ -19,6 +31,22 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
+417c436
+< 			steel = 1
+---
+> 			steel = 10
+442c461
+< 			steel = 1
+---
+> 			steel = 10
+474c493
+< 			steel = 1
+---
+> 			steel = 10
+491c510
+< 			steel = 2
+---
+> 			steel = 20
 628a648,656
 > 		module_count_limit = {
 > 			module = apcr_round
@@ -29,6 +57,22 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
+657c685
+< 			steel = 1
+---
+> 			steel = 10
+712,713c740,741
+< 			steel = 1
+< 			chromium = 1
+---
+> 			steel = 10
+> 			chromium = 10
+731,732c759,760
+< 			steel = 2
+< 			chromium = 1
+---
+> 			steel = 20
+> 			chromium = 10
 837c865,874
 < 		}	
 ---
@@ -42,6 +86,12 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
+896,897c933,934
+< 			steel = 2
+< 			chromium = 1
+---
+> 			steel = 20
+> 			chromium = 10
 1059a1097,1105
 > 			module = apcr_round
 > 			count < 2
@@ -52,9 +102,13 @@
 > 			count < 2
 > 		}
 > 		module_count_limit = {
-1227a1274,1282
-> 			count < 2
-> 		}
+1079,1080c1125,1126
+< 			steel = 3
+< 			chromium = 2
+---
+> 			steel = 30
+> 			chromium = 20
+1229a1276,1284
 > 		module_count_limit = {
 > 			module = apcr_round
 > 			count < 2
@@ -62,3 +116,9 @@
 > 
 > 		module_count_limit = {
 > 			module = aphe_round
+> 			count < 2
+> 		}
+1260c1315
+< 			steel = 1
+---
+> 			steel = 10

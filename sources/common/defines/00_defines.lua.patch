@@ -1,3 +1,11 @@
+9,11c9,11
+< 	LAG_DAYS_FOR_LOWER_SPEED = 10,					-- Days of client lag for decrease of gamespeed
+< 	LAG_DAYS_FOR_PAUSE = 25,						-- Days of client lag for pause of gamespeed.
+< 	GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
+---
+> 	LAG_DAYS_FOR_LOWER_SPEED = 20,					-- Days of client lag for decrease of gamespeed
+> 	LAG_DAYS_FOR_PAUSE = 35,						-- Days of client lag for pause of gamespeed.
+> 	GAME_SPEED_SECONDS = { 2.0, 0.5, 0.3, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
 133c133
 < 	VOLUNTEERS_DIVISIONS_REQUIRED = 30,				-- This many divisons are required for the country to be able to send volunteers.
 ---
@@ -20,6 +28,10 @@
 ---
 > 	EQUIPMENT_MODULE_ADD_XP_COST = 3.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 > 	EQUIPMENT_MODULE_REPLACE_XP_COST = 5.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
+666c666
+< 	BASE_RESEARCH_POINTS_SAVED = 30.0,		-- Base amount of research points a country can save per slot.
+---
+> 	BASE_RESEARCH_POINTS_SAVED = 50.0,		-- Base amount of research points a country can save per slot.
 818,820c818,820
 < 	MAX_ARMY_EXPERIENCE = 500,			--Max army experience a country can store
 < 	MAX_NAVY_EXPERIENCE = 500,			--Max navy experience a country can store
@@ -40,6 +52,12 @@
 < 	ARMY_FUEL_COST_MULT = 0.5,						-- fuel cost multiplier for all army related stuff
 ---
 > 	ARMY_FUEL_COST_MULT = 0.70,						-- fuel cost multiplier for all army related stuff
+2044,2045c2044,2045
+< 	BASE_TRADE_FACTOR = 150,					-- This is the base trade factor
+< 	PUPPET_MASTER_TRADE_FACTOR = 400,			-- This is priority for puppet master
+---
+> 	BASE_TRADE_FACTOR = 1500,					-- This is the base trade factor
+> 	PUPPET_MASTER_TRADE_FACTOR = 4000,			-- This is priority for puppet master
 3606c3606
 < 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 ---

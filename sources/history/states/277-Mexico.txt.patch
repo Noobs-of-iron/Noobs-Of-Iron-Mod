@@ -1,0 +1,4 @@
+10c10
+< 		steel=6 #was 2 before Mexican steel production was centralized to allow oil concessions
+---
+> 		steel=60 #was 2 before Mexican steel production was centralized to allow oil concessions

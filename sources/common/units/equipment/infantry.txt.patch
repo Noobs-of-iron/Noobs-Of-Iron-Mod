@@ -1,0 +1,12 @@
+39c39
+< 			steel = 2
+---
+> 			steel = 20
+98c98
+< 			steel = 3
+---
+> 			steel = 30
+125c125
+< 			steel = 4
+---
+> 			steel = 40

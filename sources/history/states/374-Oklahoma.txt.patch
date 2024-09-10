@@ -1,0 +1,4 @@
+11c11
+< 		aluminium=20 # was: 32
+---
+> 		aluminium=200 # was: 32

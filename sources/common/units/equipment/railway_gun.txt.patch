@@ -1,0 +1,8 @@
+37,39c37,39
+< 			steel = 4
+< 			tungsten = 2
+< 			chromium = 2
+---
+> 			steel = 40
+> 			tungsten = 20
+> 			chromium = 20

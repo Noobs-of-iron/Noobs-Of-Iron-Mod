@@ -1,0 +1,4 @@
+10c10
+< 		tungsten=95 #was 150 # was: 300
+---
+> 		tungsten=950 #was 150 # was: 300

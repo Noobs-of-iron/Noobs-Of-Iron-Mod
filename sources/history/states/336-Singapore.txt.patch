@@ -1,0 +1,10 @@
+10,13c10,13
+< 		rubber = 342 # was: 848
+< 		steel = 20 # was: 32
+< 		tungsten = 189 # was: 308
+< 		aluminium = 15 # was: 25
+---
+> 		rubber = 3420 # was: 848
+> 		steel = 200 # was: 32
+> 		tungsten = 1890 # was: 308
+> 		aluminium = 150 # was: 25

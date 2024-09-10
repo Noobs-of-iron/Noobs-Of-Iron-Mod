@@ -1,0 +1,6 @@
+25,26c25,26
+< 			aluminium = 1
+< 			steel = 2
+---
+> 			aluminium = 10
+> 			steel = 20

@@ -1,0 +1,4 @@
+9c9
+< 		rubber=1 # was: 2
+---
+> 		rubber=10 # was: 2

@@ -2,3 +2,7 @@
 < 	name = "STATE_282" # Kanto
 ---
 > 	name = "Kanto"
+10c10
+< 		aluminium = 1 # was: 2
+---
+> 		aluminium = 10 # was: 2

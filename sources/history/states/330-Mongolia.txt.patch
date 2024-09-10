@@ -1,0 +1,6 @@
+6,7c6,7
+< 		steel=2.000
+< 		chromium=3.000
+---
+> 		steel=20.000
+> 		chromium=30.000

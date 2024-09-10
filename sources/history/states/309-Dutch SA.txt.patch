@@ -1,0 +1,4 @@
+8c8
+< 		aluminium=60 # was: 104
+---
+> 		aluminium=600 # was: 104

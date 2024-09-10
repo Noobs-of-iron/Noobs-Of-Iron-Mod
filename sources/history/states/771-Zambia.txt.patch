@@ -1,0 +1,6 @@
+8,9c8,9
+< 		chromium=35 # was: 64.000
+< 		tungsten=8 # was: 16.000
+---
+> 		chromium=350 # was: 64.000
+> 		tungsten=80 # was: 16.000

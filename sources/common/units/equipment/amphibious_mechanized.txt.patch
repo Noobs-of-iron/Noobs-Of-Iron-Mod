@@ -1,0 +1,12 @@
+36,37c36,37
+< 			steel = 2
+< 			rubber = 1
+---
+> 			steel = 20
+> 			rubber = 10
+74,75c74,75
+< 			steel = 3
+< 			rubber = 1
+---
+> 			steel = 30
+> 			rubber = 10

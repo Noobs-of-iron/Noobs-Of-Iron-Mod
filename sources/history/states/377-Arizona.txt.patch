@@ -1,0 +1,8 @@
+10c10
+< 		steel=20 # was: 40
+---
+> 		steel=200 # was: 40
+12c12
+< 		aluminium=8 # was: 16
+---
+> 		aluminium=80 # was: 16

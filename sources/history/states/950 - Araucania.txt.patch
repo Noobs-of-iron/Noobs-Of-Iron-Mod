@@ -1,0 +1,4 @@
+9c9
+< 		steel = 24 # Steel + replacement of copper
+---
+> 		steel = 240 # Steel + replacement of copper

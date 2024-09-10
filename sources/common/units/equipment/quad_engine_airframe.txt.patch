@@ -1,0 +1,40 @@
+47,49c47,49
+< #			#oil = 1
+< #			aluminium = 3
+< #			rubber = 2
+---
+> 
+> 
+> 
+97,99c97,99
+< #			aluminium = 3
+< #			tungsten = 3
+< #			rubber = 1
+---
+> 
+> 
+> 
+141,143c141,143
+< #			#oil = 1
+< #			aluminium = 4
+< #			rubber = 2
+---
+> 
+> 
+> 
+164,166c164,166
+< #			#oil = 1
+< #			aluminium = 5
+< #			rubber = 2
+---
+> 
+> 
+> 
+217,219c217,219
+< 			#oil = 1
+< 			aluminium = 3
+< 			rubber = 2
+---
+> 
+> 			aluminium = 30
+> 			rubber = 20

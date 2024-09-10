@@ -1,0 +1,8 @@
+8,10c8,10
+< 		tungsten = 44
+< 		steel = 50
+< 		chromium = 25
+---
+> 		tungsten = 440
+> 		steel = 500
+> 		chromium = 250

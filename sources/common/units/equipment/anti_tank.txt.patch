@@ -1,0 +1,22 @@
+36,37c36,37
+< 			tungsten = 2
+< 			steel = 2
+---
+> 			tungsten = 20
+> 			steel = 20
+62,64c62,64
+< 			tungsten = 2
+< 			chromium = 1
+< 			steel = 2
+---
+> 			tungsten = 20
+> 			chromium = 10
+> 			steel = 20
+81,83c81,83
+< 			tungsten = 2
+< 			chromium = 1
+< 			steel = 3
+---
+> 			tungsten = 20
+> 			chromium = 10
+> 			steel = 30

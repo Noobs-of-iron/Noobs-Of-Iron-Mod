@@ -1,0 +1,4 @@
+5c5
+< 		rubber=12 # was: 16
+---
+> 		rubber=120 # was: 16

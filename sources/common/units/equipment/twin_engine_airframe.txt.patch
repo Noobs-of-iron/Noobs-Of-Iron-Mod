@@ -1,0 +1,84 @@
+50,52c50,52
+< #			#oil = 1
+< #			aluminium = 2
+< #			rubber = 1
+---
+> 
+> 
+> 
+96,98c96,98
+< #			#oil = 1
+< #			aluminium = 3
+< #			rubber = 1
+---
+> 
+> 
+> 
+124,126c124,126
+< #			#oil = 1
+< #			aluminium = 4
+< #			rubber = 1
+---
+> 
+> 
+> 
+152,154c152,154
+< #			#oil = 1
+< #			aluminium = 5
+< #			rubber = 1
+---
+> 
+> 
+> 
+203,205c203,205
+< #			aluminium = 2
+< #			tungsten = 3
+< #			rubber = 1
+---
+> 
+> 
+> 
+250,252c250,252
+< #			aluminium = 3
+< #			tungsten = 3
+< #			rubber = 1
+---
+> 
+> 
+> 
+297,299c297,299
+< #			#oil = 1			
+< #			aluminium = 2
+< #			rubber = 1
+---
+> 
+> 
+> 
+338,340c338,340
+< #			#oil = 1			
+< #			aluminium = 3
+< #			rubber = 1
+---
+> 
+> 
+> 
+363,365c363,365
+< #			#oil = 1			
+< #			aluminium = 4
+< #			rubber = 1
+---
+> 
+> 
+> 
+407,408c407,408
+< #			aluminium = 2
+< #			rubber = 1
+---
+> 
+> 
+447,448c447,448
+< #			aluminium = 3
+< #			rubber = 1
+---
+> 
+> 

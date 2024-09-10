@@ -852,7 +852,7 @@
 < 			}
 ---
 > 			always = no
-9611a9413,12133
+9611a9413,12132
 > 	
 > 	################################################################################################################################################################################################################################################################################################
 > 	################################################################################################################################################################################################################################################################################################
@@ -2575,7 +2575,7 @@
 > 				name = GER_mechanised_army
 > 			}
 > 			mio:GER_opel_organization = {
-> 				add_mio_funds = 800 #add mio trait here giving -10% mechanised cost
+> 				add_mio_size = 2
 > 			}
 > 		}
 > 	}
@@ -2652,7 +2652,7 @@
 > 		x = -1
 > 		y = 1
 > 		relative_position_id = GER_NOI_start_work_on_heavier_designs
-> 		cost = 10
+> 		cost = 5
 > 		ai_will_do = {
 > 			factor = 1
 > 		}
@@ -2660,7 +2660,7 @@
 > 		completion_reward = {
 > 			mark_focus_tree_layout_dirty = yes
 > 			mio:GER_porsche_organization = {
-> 				add_mio_funds = 800 #thats one level of mio
+> 				add_mio_size = 1
 > 			}
 > 		}
 > 	}
@@ -2679,8 +2679,7 @@
 > 		available_if_capitulated = yes
 > 		completion_reward = {
 > 			mio:GER_porsche_organization = {
-> 				add_mio_funds = 400 
-> 				#if possible add heavy tank destroyer and spg armor, attack, reliability buffs or just some of them, you do you, if td spg exclusive buffs are not possible, go for piercing and attack buffs for heavies, simulate the tiger(p) chassis being used for ferdinand, elefant and sturmtiger
+> 				add_mio_size = 2
 > 			}
 > 		}
 > 	}
@@ -2693,14 +2692,14 @@
 > 		x = 1
 > 		y = 1
 > 		relative_position_id = GER_NOI_start_work_on_heavier_designs
-> 		cost = 10
+> 		cost = 5
 > 		ai_will_do = {
 > 			factor = 1
 > 		}
 > 		available_if_capitulated = yes
 > 		completion_reward = {
 > 			mio:GER_henschel_organization = {
-> 				add_mio_funds = 800 #thats one level of mio
+> 				add_mio_size = 1
 > 			}
 > 		}
 > 	}
@@ -2719,7 +2718,7 @@
 > 		available_if_capitulated = yes
 > 		completion_reward = {
 > 			mio:GER_henschel_organization = {
-> 				add_mio_funds = 400 
+> 				add_mio_size = 2
 > 			}
 > 			#add mio trait for armor and reliab id say, the other branch is less reliab more attack, this one is more armor and more reliable tank, but weaker in terms of attack, thats my idea as i say feel free to do something else, the trait just needs to be a buff matching historical tiger(h) and its myth of being super broken even tho it really isnt
 > 		}
@@ -2786,7 +2785,7 @@
 > 		x = -2
 > 		y = 1
 > 		relative_position_id = GER_NOI_continue_working_on_medium_tanks
-> 		cost = 10
+> 		cost = 5
 > 		ai_will_do = {
 > 			factor = 1
 > 		}
@@ -2794,7 +2793,7 @@
 > 		completion_reward = {
 > 			
 > 			mio:GER_man_organization = {
-> 				add_mio_funds = 800 
+> 				add_mio_size = 1
 > 			}
 > 		}
 > 	}
@@ -2814,7 +2813,7 @@
 > 		available_if_capitulated = yes
 > 		completion_reward = {
 > 			mio:GER_man_organization = {
-> 				add_mio_funds = 400 #thats one level of mio
+> 				add_mio_size = 2
 > 			}
 > 			#okay so this branch is historical panthers, in mio trait slap some reliab debuff but add armor and speed/attack id say, just keep the fact its about historical panther and making high quality tanks
 > 		}
@@ -2828,14 +2827,14 @@
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = GER_NOI_continue_working_on_medium_tanks
-> 		cost = 10
+> 		cost = 5
 > 		ai_will_do = {
 > 			factor = 1
 > 		}
 > 		available_if_capitulated = yes
 > 		completion_reward = {
 > 			mio:GER_daimler_benz_organization = {
-> 				add_mio_funds = 800 #thats one level of mio
+> 				add_mio_size = 1
 > 			}
 > 		}
 > 	}
@@ -2855,7 +2854,7 @@
 > 		available_if_capitulated = yes
 > 		completion_reward = {
 > 			mio:GER_daimler_benz_organization = {
-> 				add_mio_funds = 400 
+> 				add_mio_size = 2
 > 			}
 > 			#okay so here in mio trait add cheaper medium and lights and no combat buffs at all, if u feel like anti fun police u can grant some debuff to stats but overall something in line of standarising production and mass producing tanks
 > 		}
@@ -2966,10 +2965,10 @@
 > 	focus = {
 > 		id = GER_NOI_collect_scrap_metals
 > 		icon = GFX_focus_generic_steel
-> 		prerequisite = { focus = GER_NOI_war_measures }
-> 		x = -2
+> 		prerequisite = { focus = GER_NOI_totalenkrieg }
+> 		x = -3
 > 		y = 1
-> 		relative_position_id = GER_NOI_war_measures
+> 		relative_position_id = GER_NOI_totalenkrieg
 > 		cost = 5
 > 
 > 		
@@ -2986,10 +2985,10 @@
 > 	focus = {
 > 		id = GER_NOI_prioritise_production_on_army
 > 		icon = GFX_focus_generic_reorient_production
-> 		prerequisite = { focus = GER_NOI_collect_scrap_metals }
-> 		x = 0
+> 		prerequisite = { focus = GER_NOI_totalenkrieg }
+> 		x = 3
 > 		y = 1
-> 		relative_position_id = GER_NOI_collect_scrap_metals
+> 		relative_position_id = GER_NOI_totalenkrieg
 > 		cost = 10
 > 
 > 		
@@ -3008,7 +3007,7 @@
 > 		id = GER_NOI_builid_flakturms
 > 		icon = GFX_focus_generic_air_defense
 > 		prerequisite = { focus = GER_NOI_war_measures }
-> 		x = 2
+> 		x = 6
 > 		y = 1
 > 		relative_position_id = GER_NOI_war_measures
 > 		cost = 10

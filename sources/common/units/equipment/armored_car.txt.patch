@@ -1,0 +1,22 @@
+46,47c46,47
+< 			#oil 		= 1
+< 			steel 		= 2
+---
+> 
+> 			steel 		= 20
+122,124c122,124
+< 			#oil = 1
+< 			steel = 2
+< 			tungsten = 1
+---
+> 
+> 			steel = 20
+> 			tungsten = 10
+157,159c157,159
+< 			#oil 		= 1
+< 			steel 		= 2
+< 			tungsten 	= 1
+---
+> 
+> 			steel 		= 20
+> 			tungsten 	= 10
