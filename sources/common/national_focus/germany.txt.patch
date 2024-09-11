@@ -1110,7 +1110,7 @@
 >         	modify_building_resources = {
 >         	   building = synthetic_refinery
 >         	   resource = rubber
->         	   amount = 4
+>         	   amount = 40
 >         	}
 > 		}
 > 	}
