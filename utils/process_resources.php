@@ -47,12 +47,6 @@ function processFile($file) {
                 $resourceValue = $resourceMatches[3];
                 $comment = $resourceMatches[4] ?? '';
 
-                // Translate comments
-                $comment = str_replace(
-                    ['# was:', '# était:'], 
-                    '# was:', 
-                    $comment
-                );
 
                 // Multiply the value if it's not `oil`
                 if ($resourceName === 'oil') {
