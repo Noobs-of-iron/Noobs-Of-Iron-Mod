@@ -1,0 +1,8 @@
+2576c2576
+< 					amount = 10
+---
+> 					amount = 100
+2655c2655
+< 					amount = 2
+---
+> 					amount = 20

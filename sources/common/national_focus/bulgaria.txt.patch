@@ -1,0 +1,8 @@
+561c561
+< 					amount = 8 #At least one factory's worth
+---
+> 					amount = 80 #At least one factory's worth
+593c593
+< 					amount = 6
+---
+> 					amount = 60

@@ -1,0 +1,12 @@
+2160c2160
+< 							amount = 10
+---
+> 							amount = 100
+2168c2168
+< 							amount = 6
+---
+> 							amount = 60
+2176c2176
+< 							amount = 6
+---
+> 							amount = 60

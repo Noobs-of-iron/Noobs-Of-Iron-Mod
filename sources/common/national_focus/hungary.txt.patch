@@ -1,0 +1,16 @@
+1743c1743
+< 					amount = 16
+---
+> 					amount = 160
+3144c3144
+< 					amount = 8
+---
+> 					amount = 80
+3169c3169
+< 					amount = 12
+---
+> 					amount = 120
+3206c3206
+< 					amount = 16
+---
+> 					amount = 160

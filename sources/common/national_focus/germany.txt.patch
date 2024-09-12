@@ -991,7 +991,7 @@
 > 				}
 > 				add_resource = {
 > 					type = steel
-> 					amount = 18
+> 					amount = 180
 > 				}
 > 			}
 > 		}

@@ -55,6 +55,10 @@
 < 					level = 1
 ---
 > 					level = 2
+2290c2310
+< 					amount = 16
+---
+> 					amount = 160
 2430c2450
 < 		cost = 10
 ---

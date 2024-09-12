@@ -1,3 +1,15 @@
+890c890
+< 					amount = 2
+---
+> 					amount = 20
+900c900
+< 					amount = 2
+---
+> 					amount = 20
+910c910
+< 					amount = 3
+---
+> 					amount = 30
 2386,2401c2386,2408
 < 		completion_reward = {
 < 			add_tech_bonus = {
@@ -39,3 +51,15 @@
 >             }    
 >         }
 >     }
+2778c2785
+< 					amount = 20
+---
+> 					amount = 200
+2784c2791
+< 					amount = 8
+---
+> 					amount = 80
+2790c2797
+< 					amount = 8
+---
+> 					amount = 80

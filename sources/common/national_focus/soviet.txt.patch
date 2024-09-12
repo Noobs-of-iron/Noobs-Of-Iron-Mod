@@ -1,5 +1,13 @@
 480d479
 < 				add_to_variable = { SOV_fyp_production_factory_efficiency_gain_factor = 0.05 }
+862c861
+< 					amount = 5
+---
+> 					amount = 50
+902c901
+< 						amount = 5
+---
+> 						amount = 50
 4118c4117
 < 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
 ---

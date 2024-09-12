@@ -631,13 +631,13 @@
 > 					type = dockyard
 > 					level = 3
 > 					instant_build = yes
-2830a3091,3105
+2830a3091,3095
 > 	
 > 	focus = {
 > 		id = AST_NOI_royal_australian_marines
 > 		icon = GFX_goal_generic_amphibious_assault
 > 		prerequisite = { focus = AST_NOI_ANZAC }
-> 
+2831a3097,3149
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = AST_NOI_ANZAC
@@ -647,7 +647,7 @@
 > 		ai_will_do = {
 > 			factor = 10
 > 		}
-2831a3107,3149
+> 
 > 		available = {
 > 
 > 		}
@@ -756,7 +756,7 @@
 > 				if = {
 > 					limit = { is_owned_by = NZL }
 > 					add_core_of = AST
-2881a3203,3221
+2881a3203,3237
 > 	
 > 	focus = {
 > 		id = AST_NOI_bob_semple
@@ -776,7 +776,7 @@
 > 		ai_will_do = {
 > 			factor = 20
 > 		}
-2882a3223,3250
+> 
 > 		available = {
 > 
 > 		}
@@ -792,7 +792,7 @@
 > 		complete_tooltip = {
 > 
 > 		}
-> 
+2882a3239,3250
 > 		completion_reward = {
 > 			add_ideas = NZL_bob_semple_tank
 > 			add_tech_bonus = {
@@ -807,10 +807,18 @@
 > ##########################################################################################################################################################################################
 2899d3266
 < 			is_subject = no
+2992c3359
+< 					amount = 24
+---
+> 					amount = 240
 2999c3366
 < 					amount = 12
 ---
 > 					amount = 24
+3012c3379
+< 					amount = 24
+---
+> 					amount = 240
 3023c3390
 < 					amount = 12
 ---
@@ -823,7 +831,7 @@
 > 				}
 > 				add_resource = {
 > 					type = steel
-> 					amount = 24
+> 					amount = 240
 > 				}
 > 			}
 3038c3415

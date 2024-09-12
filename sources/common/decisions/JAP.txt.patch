@@ -6,3 +6,43 @@
 < 				VIC = { country_event = { id = france.1 } }
 ---
 > 				VIC = { country_event = { id = noi_jap.3 } }
+2235c2235
+< 					amount = 12
+---
+> 					amount = 120
+2286c2286
+< 					amount = 8
+---
+> 					amount = 80
+2337c2337
+< 					amount = 6
+---
+> 					amount = 60
+2388c2388
+< 					amount = 4
+---
+> 					amount = 40
+2432c2432
+< 					amount = 6
+---
+> 					amount = 60
+2476c2476
+< 					amount = 12
+---
+> 					amount = 120
+2538c2538
+< 					amount = 12
+---
+> 					amount = 120
+2590c2590
+< 					amount = 8
+---
+> 					amount = 80
+2636c2636
+< 					amount = 12
+---
+> 					amount = 120
+2681c2681
+< 					amount = 12
+---
+> 					amount = 120

@@ -1,0 +1,8 @@
+97c97
+< 					amount = 10
+---
+> 					amount = 100
+101c101
+< 					amount = 6
+---
+> 					amount = 60
