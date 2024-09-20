@@ -3,28 +3,28 @@
 < 		convoys = 0.1
 ---
 > 		cic = 0.0129
-> 		convoys = 0.02
+> 		convoys = 0.01
 17,18c17,18
 < 		cic = 0.125
 < 		convoys = 0.1
 ---
 > 		cic = 0.0129
-> 		convoys = 0.02
+> 		convoys = 0.01
 23,24c23,24
 < 		cic = 0.125
 < 		convoys = 0.1
 ---
 > 		cic = 0.0129
-> 		convoys = 0.02
+> 		convoys = 0.01
 29,30c29,30
 < 		cic = 0.125
 < 		convoys = 0.1
 ---
 > 		cic = 0.0129
-> 		convoys = 0.02
+> 		convoys = 0.01
 35,36c35,36
 < 		cic = 0.125
 < 		convoys = 0.1
 ---
 > 		cic = 0.0129
-> 		convoys = 0.02
+> 		convoys = 0.01

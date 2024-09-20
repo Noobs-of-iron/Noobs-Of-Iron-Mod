@@ -74,6 +74,10 @@
 < 			rubber = 1
 ---
 > 			rubber = 10
+1434c1434
+< 			aluminium = -2
+---
+> 			aluminium = -20
 1438c1438
 < 			aluminium = 2
 ---
