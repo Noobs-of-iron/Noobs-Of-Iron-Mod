@@ -5,11 +5,23 @@
 ---
 > 	LAG_DAYS_FOR_LOWER_SPEED = 20,					-- Days of client lag for decrease of gamespeed
 > 	LAG_DAYS_FOR_PAUSE = 35,						-- Days of client lag for pause of gamespeed.
-> 	GAME_SPEED_SECONDS = { 2.0, 0.5, 0.3, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
+> 	GAME_SPEED_SECONDS = { 2.0, 0.5, 0.4, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
+25c25
+< 	ALERT_SFX_COOLDOWN_DAYS = 14,					-- After playing an alert sound, don't play the same sound for XXX days, even if it fires again.
+---
+> 	ALERT_SFX_COOLDOWN_DAYS = 10,					-- After playing an alert sound, don't play the same sound for XXX days, even if it fires again.
 133c133
 < 	VOLUNTEERS_DIVISIONS_REQUIRED = 30,				-- This many divisons are required for the country to be able to send volunteers.
 ---
 > 	VOLUNTEERS_DIVISIONS_REQUIRED = 15,				-- This many divisons are required for the country to be able to send volunteers.
+200c200
+< 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.005,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
+---
+> 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.0005,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
+346c346
+< 	POLITICAL_POWER_UPPER_CAP = 2000.0,				-- Max amount of political power country should have
+---
+> 	POLITICAL_POWER_UPPER_CAP = 20000.0				-- Max amount of political power country should have
 416c416
 < 	SPECIAL_FORCES_CAP_BASE = 0.05,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
 ---
@@ -32,6 +44,10 @@
 ---
 > 	EQUIPMENT_MODULE_ADD_XP_COST = 3.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 > 	EQUIPMENT_MODULE_REPLACE_XP_COST = 5.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
+645c645
+< 	MAX_CIV_FACTORIES_PER_CONTRACT = 15,							-- Max number of factories that can be assigned for paying single contract.
+---
+> 	MAX_CIV_FACTORIES_PER_CONTRACT = 150,							-- Max number of factories that can be assigned for paying single contract.
 666c666
 < 	BASE_RESEARCH_POINTS_SAVED = 30.0,		-- Base amount of research points a country can save per slot.
 ---
@@ -48,6 +64,10 @@
 < 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0001,
 ---
 > 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0002,
+945c945
+< 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.2,       -- percentage of manpower returned when an encircled unit is disbanded
+---
+> 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0,       -- percentage of manpower returned when an encircled unit is disbanded
 1022c1022
 < 	PARADROP_HOURS = 48,							-- time paratroopers suffer penalties in combat
 ---
@@ -56,6 +76,10 @@
 < 	ARMY_FUEL_COST_MULT = 0.5,						-- fuel cost multiplier for all army related stuff
 ---
 > 	ARMY_FUEL_COST_MULT = 0.70,						-- fuel cost multiplier for all army related stuff
+2016c2016
+< 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.2,		-- The percentage of manpower returned when an encircled unit is disbanded
+---
+> 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0,		-- The percentage of manpower returned when an encircled unit is disbanded
 2044,2045c2044,2045
 < 	BASE_TRADE_FACTOR = 150,					-- This is the base trade factor
 < 	PUPPET_MASTER_TRADE_FACTOR = 400,			-- This is priority for puppet master
