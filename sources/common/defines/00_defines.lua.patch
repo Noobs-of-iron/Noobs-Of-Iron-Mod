@@ -5,7 +5,7 @@
 ---
 > 	LAG_DAYS_FOR_LOWER_SPEED = 20,					-- Days of client lag for decrease of gamespeed
 > 	LAG_DAYS_FOR_PAUSE = 35,						-- Days of client lag for pause of gamespeed.
-> 	GAME_SPEED_SECONDS = { 2.0, 0.5, 0.4, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
+> 	GAME_SPEED_SECONDS = { 0.4, 0.25, 0.15, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
 25c25
 < 	ALERT_SFX_COOLDOWN_DAYS = 14,					-- After playing an alert sound, don't play the same sound for XXX days, even if it fires again.
 ---
