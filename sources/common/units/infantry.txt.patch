@@ -6,3 +6,7 @@
 > 			support_equipment = 10
 336a340
 > 		    support_equipment = 20
+381c385
+< 			motorized_equipment = 35
+---
+> 			motorized_equipment = 80

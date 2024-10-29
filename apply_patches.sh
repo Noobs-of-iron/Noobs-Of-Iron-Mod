@@ -155,11 +155,11 @@ create_patches_and_sources() {
                 
                 rm "$temp_original_file" "$temp_mod_file"
             else
-                handle_non_existing_or_different_original "$mod_file" "$relative_path"
+                handle_non_existing_or_different_original "$mod_file" "$relative_path" 0 
             fi
         else
             # Handle binary files (copying if different)
-            handle_non_existing_or_different_original "$mod_file" "$relative_path"
+            handle_non_existing_or_different_original "$mod_file" "$relative_path" 1
         fi
     done
 }
@@ -167,6 +167,7 @@ create_patches_and_sources() {
 handle_non_existing_or_different_original() {
     mod_file=$1
     relative_path=$2
+    is_binary=$3
     original_file="${ORIGINAL_FOLDER}${relative_path}"
     new_sources_file_path="${SOURCES_FOLDER}${relative_path}"
 
@@ -175,7 +176,11 @@ handle_non_existing_or_different_original() {
         if [ "$OVERWRITE_SOURCES" = "yes" ] || [ ! -e "$new_sources_file_path" ]; then
             mkdir -p "$(dirname "$new_sources_file_path")"
             cp "$mod_file" "$new_sources_file_path"
-            echo_debug "File copied to sources (binary or no original file): $relative_path"
+            if [ $is_binary -eq 1 ]; then
+                echo_debug "Binary file override for: $relative_path"
+            else
+                echo_debug "New original file copied to sources: $relative_path"
+            fi
         else
             echo_debug "Skipping copying file to sources due to no overwrite setting: $relative_path"
         fi
@@ -244,12 +249,13 @@ apply_patches_and_update_mod() {
             # It's a direct copy file
             if [ -e "${ORIGINAL_FOLDER}${relative_path}" ]; then
                 # Check if the original file is a text file
-                isfile=$(file "$original_file" | grep -q 'text')
-                if [ $isfile ]; then
+                fileStatus=$(file "${ORIGINAL_FOLDER}${relative_path}")
+                isfile=$(echo "$fileStatus" | grep 'text')
+                if [ "${isfile}" ]; then
                     echo "ERROR: A file with the same name as the non-patch file $relative_path exists in the original folder. Use a patch file instead of a whole file."
                     exit 1
                 else
-                    echo_debug "Overriding binary file $relative_path from sources"
+                    echo_debug "Overriding $fileStatus from sources"
                 fi
             fi
             if [ -e "$mod_file" ] && [ "$OVERWRITE_MOD" != "yes" ]; then

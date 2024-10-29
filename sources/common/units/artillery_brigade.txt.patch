@@ -1,4 +1,6 @@
-325c325
+84a85
+> 		maximum_speed = -0.5
+325c326
 < 		combat_width = 3
 ---
 > 		combat_width = 2
