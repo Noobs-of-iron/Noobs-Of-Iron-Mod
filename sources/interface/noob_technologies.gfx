@@ -1,8 +1,0 @@
-spriteTypes = {
-
-   spriteType = {
-     name = "GFX_tankrounds1"
-     textureFile = "gfx/technology/tank_round.dds"
-     noOfFrames = 1
-   }
-}

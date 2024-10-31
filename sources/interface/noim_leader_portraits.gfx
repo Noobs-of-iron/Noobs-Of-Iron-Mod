@@ -4,4 +4,19 @@ spriteTypes = {
 		name = GFX_portrait_Plaek_Phibunsongkhram
 		texturefile = "gfx/leaders/SIA/Portrait_noim_Plaek_Phibunsongkhram.dds"
 	}
+	
+	spriteType = {
+		name = GFX_portrait_ITA_italo_balbo_small_go
+		texturefile = "gfx/leaders/ITA/Portrait_noim_GIGAGORG.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_ITA_italo_balbo_go
+		texturefile = "gfx/leaders/ITA/Portrait_noim_GIGAGORG.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_ITA_italo_balbo_civilian_go
+		texturefile = "gfx/leaders/ITA/Portrait_noim_GIGAGORG.dds"
+	}
 }

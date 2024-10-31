@@ -1,6 +1,46 @@
+36c36
+< 		supply_consumption = 0.21
+---
+> 		supply_consumption = 0.30
 84a85
 > 		maximum_speed = -0.5
-325c326
+117c117
+< 		supply_consumption = 0.25
+---
+> 		supply_consumption = 0.36
+190c190
+< 		supply_consumption = 0.22
+---
+> 		supply_consumption = 0.25
+193c193
+< 			attack = -0.2
+---
+> 			attack = -0.1
+206c206
+< 			attack = -0.25
+---
+> 			attack = -0.20
+264c264
+< 		supply_consumption = 0.25
+---
+> 		supply_consumption = 0.30
+267c267
+< 			attack = -0.2
+---
+> 			attack = -0.1
+280c280
+< 			attack = -0.25
+---
+> 			attack = -0.20
+325c325
 < 		combat_width = 3
 ---
 > 		combat_width = 2
+340c340
+< 		supply_consumption = 0.25
+---
+> 		supply_consumption = 0.30
+356c356
+< 			attack = -0.25
+---
+> 			attack = -0.20

@@ -1,11 +1,55 @@
+20c20
+< 		maximum_speed = 4
+---
+> 		maximum_speed = 3
+23,24c23,24
+< 		defense = 20
+< 		breakthrough = 2
+---
+> 		defense = 22
+> 		breakthrough = 1
+32c32
+< 		air_attack = 0
+---
+> 		air_attack = 0.2
 39c39
 < 			steel = 2
 ---
 > 			steel = 20
+65,66c65,66
+< 		defense = 22
+< 		breakthrough = 3
+---
+> 		defense = 28
+> 		breakthrough = 2
+72c72
+< 		air_attack = 0
+---
+> 		air_attack = 0.2
+87,88c87,88
+< 		defense = 28
+< 		breakthrough = 4
+---
+> 		defense = 33
+> 		breakthrough = 3
+94c94
+< 		air_attack = 0
+---
+> 		air_attack = 0.2
 98c98
 < 			steel = 3
 ---
 > 			steel = 30
+113,114c113,114
+< 		defense = 34
+< 		breakthrough = 5
+---
+> 		defense = 38
+> 		breakthrough = 4
+120c120
+< 		air_attack = 0
+---
+> 		air_attack = 0.2
 125c125
 < 			steel = 4
 ---

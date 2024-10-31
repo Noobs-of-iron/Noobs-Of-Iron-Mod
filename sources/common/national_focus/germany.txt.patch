@@ -2114,7 +2114,7 @@
 > 		x = -1
 > 		y = 2
 > 		relative_position_id = GER_NOI_follow_weavers_legacy
-> 		cost = 10
+> 		cost = 5
 > 		ai_will_do = {
 > 			factor = 1
 > 		}
@@ -2137,7 +2137,7 @@
 > 		x = -2
 > 		y = 3
 > 		relative_position_id = GER_NOI_follow_weavers_legacy
-> 		cost = 10
+> 		cost = 5
 > 		ai_will_do = {
 > 			factor = 1
 > 		}
@@ -2562,7 +2562,7 @@
 > 		x = -1
 > 		y = 1
 > 		relative_position_id = GER_NOI_modernise_army_equipment
-> 		cost = 10
+> 		cost = 5
 > 		ai_will_do = {
 > 			factor = 1
 > 		}

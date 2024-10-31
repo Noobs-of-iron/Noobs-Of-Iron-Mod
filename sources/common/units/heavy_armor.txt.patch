@@ -1,2 +1,9 @@
-62a63
+62c62,63
+< 			heavy_tank_chassis = 40
+---
+> 			heavy_tank_chassis = 45
 > 			motorized_equipment = 40
+65c66
+< 		manpower = 500
+---
+> 		manpower = 550

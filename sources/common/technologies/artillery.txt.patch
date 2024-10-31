@@ -53,54 +53,59 @@
 > 		}
 > 	}
 > 	
-1048c1102
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1052c1106
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1056c1110
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1060c1114
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1064c1118
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1068c1122
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1072c1126
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1076c1130
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1086a1141
+324a379,382
+>     mot_artillery_brigade = {
+> 			breakthrough = 0.2
+> 		}
 > 		
-1157a1213,1216
+1048c1106
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1052c1110
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1056c1114
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1060c1118
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1064c1122
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1068c1126
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1072c1130
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1076c1134
+< 			ap_attack = 0.2
+---
+> 			ap_attack = 0.1
+1086a1145
+> 		
+1157a1217,1220
 > 		path = {
 >  			leads_to_tech = tankround
 >  			research_cost_coeff = 1
 >  		}
-1230c1289
+1230c1293
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1319c1378
+1319c1382
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1481c1540
+1481c1544
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05

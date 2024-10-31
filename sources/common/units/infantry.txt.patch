@@ -1,12 +1,55 @@
+38c38
+< 		manpower = 1000
+---
+> 		manpower = 1500
+45c45
+< 		supply_consumption = 0.06
+---
+> 		supply_consumption = 0.12
+48c48
+< 			infantry_equipment = 100
+---
+> 			infantry_equipment = 125
+88c88
+< 		supply_consumption = 0.06
+---
+> 		supply_consumption = 0.10
+91c91
+< 			infantry_equipment = 100
+---
+> 			infantry_equipment = 125
 165a166
 > 		    support_equipment = 20
 222a224
 > 		    support_equipment = 20
 280a283
 > 			support_equipment = 10
-336a340
+337c340,341
+< 			infantry_equipment = 130
+---
 > 		    support_equipment = 20
-381c385
+> 			infantry_equipment = 150
+374c378
+< 		supply_consumption = 0.065
+---
+> 		supply_consumption = 0.09
+380,381c384,386
+< 			infantry_equipment = 100
 < 			motorized_equipment = 35
 ---
+> 			infantry_equipment = 125
 > 			motorized_equipment = 80
+> 
+449c454
+< 		supply_consumption = 0.14
+---
+> 		supply_consumption = 0.18
+462c467
+< 			infantry_equipment = 100
+---
+> 			infantry_equipment = 125
+685c690
+< }
+\ Pas de fin de ligne à la fin du fichier
+---
+> }
