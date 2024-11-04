@@ -90,3 +90,7 @@
 < 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 ---
 > 	RECON_PLANE_INTEL_BASE = 0.05, 				-- intel base amount for a strategic area per plane
+3941c3941
+< 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 60.0,
+---
+> 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 400.0,
