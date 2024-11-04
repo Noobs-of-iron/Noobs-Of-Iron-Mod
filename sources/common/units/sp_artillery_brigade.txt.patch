@@ -2,45 +2,67 @@
 < 		combat_width = 3
 ---
 > 		combat_width = 2
-36c36,38
+26a27
+> 			motorized_equipment = 30
+36c37,41
 < 		breakthrough = -0.42
 ---
+> 		transport = light_tank_artillery_chassis
+> 
 > 		soft_attack = 0.30
 > 		hard_attack = -0.25
 > 		breakthrough = -0.70
-87c89
+87c92
 < 		combat_width = 3
 ---
 > 		combat_width = 2
-100c102,104
+90a96
+> 			motorized_equipment = 30
+100c106,110
 < 		breakthrough = -0.25
 ---
+> 		transport = medium_tank_artillery_chassis
+> 
 > 		soft_attack = 0.30
 > 		hard_attack = -0.25
 > 		breakthrough = -0.70
-156c160
+156c166
 < 		combat_width = 3
 ---
 > 		combat_width = 2
-168c172,174
+159a170
+> 			motorized_equipment = 30
+168c179,183
 < 		breakthrough = -0.25
 ---
+> 		transport = heavy_tank_artillery_chassis
+> 
 > 		soft_attack = 0.30
 > 		hard_attack = -0.25
 > 		breakthrough = -0.70
-293c299
+228a244
+> 			motorized_equipment = 30
+237a254,255
+> 		transport = super_heavy_tank_artillery_chassis
+> 
+293c311
 < 		combat_width = 3
 ---
 > 		combat_width = 2
-362c368
+296a315
+> 			motorized_equipment = 30
+304a324,325
+> 
+> 		transport = modern_tank_artillery_chassis
+362c383
 < #	#	combat_width = 3
 ---
 > #	#	combat_width = 2
-423c429
+423c444
 < #		combat_width = 3
 ---
 > #		combat_width = 2
-489c495
+489c510
 < #		combat_width = 3
 ---
 > #		combat_width = 2

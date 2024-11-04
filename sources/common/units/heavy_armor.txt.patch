@@ -7,3 +7,6 @@
 < 		manpower = 500
 ---
 > 		manpower = 550
+71a73,74
+> 
+> 		transport = heavy_tank_chassis

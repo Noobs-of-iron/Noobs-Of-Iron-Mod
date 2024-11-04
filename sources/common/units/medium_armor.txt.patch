@@ -11,7 +11,10 @@
 < 		max_strength = 2
 ---
 > 		max_strength = 2.5
-63c64
+36a38,39
+> 		transport = medium_tank_chassis
+> 
+63c66
 < 			attack = -0.4
 ---
 > 			attack = -0.5
