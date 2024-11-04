@@ -5,17 +5,36 @@ spriteTypes = {
      textureFile = "gfx/interface/counters/divisions_large/support_unit_fuel_company_icon.dds"
      noOfFrames = 2
    }
-   
-spriteType = {
-     name = "GFX_EMI_aphe_round"
-     textureFile = "gfx/interface/equipementdesigner/tanks/modules/aphe_round.dds"
-     noOfFrames = 1
-}
 
-spriteType = {
-     name = "GFX_EMI_apcr_round"
-     textureFile = "gfx/interface/equipementdesigner/tanks/modules/apcr_round.dds"
-     noOfFrames = 1
-}
+   spriteType = {
+     name = "GFX_unit_semi_motorized_icon_medium"
+     textureFile = "gfx/interface/counters/divisions_large/unit_semi_motorized_icon.dds"
+     noOfFrames = 2
+   }
+
+    spriteType = {
+        name = "GFX_unit_semi_motorized_icon_medium_white"
+        textureFile = "gfx/interface/counters/divisions_small/onmap_unit_semi_motorized_icon.dds"
+        noOfFrames = 2
+    }
+
+    spriteType = {
+         name = "GFX_unit_semi_motorized_icon_small"
+         textureFile = "gfx/texticons/unit_semi_motorized_icon_small.dds"
+         legacy_lazy_load = no
+         noOfFrames = 2
+       }
+   
+    spriteType = {
+         name = "GFX_EMI_aphe_round"
+         textureFile = "gfx/interface/equipementdesigner/tanks/modules/aphe_round.dds"
+         noOfFrames = 1
+    }
+
+    spriteType = {
+         name = "GFX_EMI_apcr_round"
+         textureFile = "gfx/interface/equipementdesigner/tanks/modules/apcr_round.dds"
+         noOfFrames = 1
+    }
 
 }
