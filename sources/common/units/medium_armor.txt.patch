@@ -1,7 +1,7 @@
 27c27,28
 < 			medium_tank_chassis = 50
 ---
-> 			motorized_equipment = 40
+> 			motorized_equipment = 30
 > 			medium_tank_chassis = 60
 29c30
 < 		manpower = 500
