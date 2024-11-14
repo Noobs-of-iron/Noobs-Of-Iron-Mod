@@ -1,65 +1,32 @@
-890c890
+888c888
 < 					amount = 2
 ---
 > 					amount = 20
-900c900
+898c898
 < 					amount = 2
 ---
 > 					amount = 20
-910c910
+908c908
 < 					amount = 3
 ---
 > 					amount = 30
-2386,2401c2386,2408
-< 		completion_reward = {
-< 			add_tech_bonus = {
-< 				name = CAN_the_valentine_tank
-< 				bonus = 1.0
-< 				uses = 1
-< 				category = armor
-< 			}
-< 			add_tech_bonus = {
-< 				name = CAN_the_valentine_tank
-< 				ahead_reduction = 2
-< 				bonus = 1.0
-< 				uses = 1
-< 				category = cat_light_armor
-< 			}
-< 		}
-< 	}
----
->         completion_reward = {
->             IF = {
->                 limit = {
->                     has_dlc = "Arms Against Tyranny"
->                 }
->                 custom_effect_tooltip = available_mio_tt
->                 show_mio_tooltip = CAN_canadian_pacific_organization
->             }
->             add_tech_bonus = {
->                 name = CAN_the_valentine_tank
->                 bonus = 1.0
->                 uses = 1
->                 category = armor
->             }
->             add_tech_bonus = {
->                 name = CAN_the_valentine_tank
->                 ahead_reduction = 2
->                 bonus = 1.0
->                 uses = 1
->                 category = cat_heavy_armor
->             }    
->         }
->     }
-2778c2785
+2405a2406,2412
+> 			IF = {
+> 					limit = {
+> 						has_dlc = "Arms Against Tyranny"
+> 					}
+> 				custom_effect_tooltip = available_mio_tt
+> 				show_mio_tooltip = CAN_canadian_pacific_organization
+> 			}
+2804c2811
 < 					amount = 20
 ---
 > 					amount = 200
-2784c2791
+2810c2817
 < 					amount = 8
 ---
 > 					amount = 80
-2790c2797
+2816c2823
 < 					amount = 8
 ---
 > 					amount = 80

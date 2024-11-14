@@ -1,9 +1,10 @@
-340,343d339
+388,391d387
 < set_autonomy = {
 < 	target = PHI
 < 	autonomous_state =  autonomy_puppet
 < }
-1303a1300,1305
+1358a1355,1361
+> 
 > #Noobs of Iron stuff
 > add_ideas = {
 >     USA_NOI_enforced_neutrality

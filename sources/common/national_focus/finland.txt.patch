@@ -14,23 +14,23 @@
 < 						amount = 6
 ---
 > 						amount = 60
-9821c9821
+9820c9820
 < 					amount = 8
 ---
 > 					amount = 80
-10216c10216
+10215c10215
 < 					amount = 4
 ---
 > 					amount = 40
-10288c10288
+10287c10287
 < 					amount = 4
 ---
 > 					amount = 40
-10327c10327
+10326c10326
 < 					amount = 4
 ---
 > 					amount = 40
-10331c10331
+10330c10330
 < 					amount = 2
 ---
 > 					amount = 20

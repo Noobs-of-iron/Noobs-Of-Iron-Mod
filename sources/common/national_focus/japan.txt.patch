@@ -23,16 +23,129 @@
 ---
 >             always = no
 >         }
-974c959
+980c965
 < 					amount = 12
 ---
 > 					amount = 120
-984c969
+990c975
 < 		x = 8
 ---
 > 		x = 0
-1280a1266,1770
+1286a1272,1273
 > 	
+> 
+1323c1310
+< 					amount = 8
+---
+> 					amount = 80
+1329c1316
+< 					amount = 12
+---
+> 					amount = 120
+1778c1765
+< 		cost = 10
+---
+> 		cost = 5
+1803,1805c1790
+< 			SIA = { 
+< 				country_event = generic.5 
+< 			}
+---
+> 			add_to_faction = SIA
+1853c1838
+< 					amount = 12
+---
+> 					amount = 120
+1894c1879
+< 					amount = 6
+---
+> 					amount = 60
+2722,2737c2707,2708
+< 			if = {
+< 				limit = {
+< 					has_game_rule = {
+< 						rule = obsolete_focus_branches_visibility
+< 						option = HIDE
+< 					}
+< 				}
+< 				NOT = {
+< 					OR = {
+< 						has_completed_focus = JAP_purge_the_kodoha_faction
+< 						has_completed_focus = JAP_the_unthinkable_option
+< 						has_completed_focus = JAP_strengthen_civilian_government
+< 					}
+< 				}
+< 			}
+< 		}
+---
+>             always = no
+>         }
+3513c3484
+< 					amount = 8
+---
+> 					amount = 80
+3612,3628c3583,3584
+< 			has_dlc = "Waking the Tiger"
+< 			if = {
+< 				limit = {
+< 					has_game_rule = {
+< 						rule = obsolete_focus_branches_visibility
+< 						option = HIDE
+< 					}
+< 				}
+< 				NOT = {
+< 					OR = {
+< 						has_completed_focus = JAP_purge_the_kodoha_faction
+< 						has_completed_focus = JAP_support_the_kodoha_faction
+< 						has_completed_focus = JAP_the_unthinkable_option
+< 					}
+< 				}
+< 			}
+< 		}
+---
+>             always = no
+>         }
+4402c4358
+< 		x = 6
+---
+> 		x = 11
+4404d4359
+< 		relative_position_id = JAP_strengthen_civilian_government
+4413c4368
+< 			x = -9
+---
+> 			x = -8
+4547c4502
+< 						amount = 16
+---
+> 						amount = 160
+4600c4555
+< 						amount = 12
+---
+> 						amount = 120
+4860c4815
+< 		cost = 10
+---
+> 		cost = 5
+5080c5035
+< 		cost = 10
+---
+> 		cost = 5
+5642c5597
+< 		cost = 10
+---
+> 		cost = 5
+5683c5638
+< 		cost = 10
+---
+> 		cost = 5
+5813c5768
+< 		cost = 10
+---
+> 		cost = 5
+6095a6051,6554
+> 		}
+> 	}
 > 	focus = {
 > 		id = JAP_island_fortification
 > 		icon = GFX_focus_generic_coastal_fort
@@ -56,7 +169,7 @@
 > 		ai_will_do = {
 > 			factor = 1
 > 		}
-> 		
+> 
 > 		completion_reward = {
 > 				if = {
 > 					limit = {
@@ -306,7 +419,7 @@
 > 			}
 > 		}
 > 	}
-> 	
+> 
 > 	focus = {
 > 		id = JAP_mainland_fortification
 > 		icon = GFX_goal_generic_construct_military
@@ -328,7 +441,7 @@
 > 		ai_will_do = {
 > 			factor = 1
 > 		}
-> 		
+> 
 > 		completion_reward = {
 > 				if = {
 > 					limit = {
@@ -535,112 +648,3 @@
 >             	    	}
 > 					}
 > 				}
-> 		}
-> 	}
-1314c1804
-< 					amount = 8
----
-> 					amount = 80
-1320c1810
-< 					amount = 12
----
-> 					amount = 120
-1769c2259
-< 		cost = 10
----
-> 		cost = 5
-1790c2280
-< 			SIA = { country_event = generic.5 }
----
-> 			add_to_faction = SIA
-1838c2328
-< 					amount = 12
----
-> 					amount = 120
-1879c2369
-< 					amount = 6
----
-> 					amount = 60
-2704,2719c3194,3195
-< 			if = {
-< 				limit = {
-< 					has_game_rule = {
-< 						rule = obsolete_focus_branches_visibility
-< 						option = HIDE
-< 					}
-< 				}
-< 				NOT = {
-< 					OR = {
-< 						has_completed_focus = JAP_purge_the_kodoha_faction
-< 						has_completed_focus = JAP_the_unthinkable_option
-< 						has_completed_focus = JAP_strengthen_civilian_government
-< 					}
-< 				}
-< 			}
-< 		}
----
->             always = no
->         }
-3489c3965
-< 					amount = 8
----
-> 					amount = 80
-3588,3604c4064,4065
-< 			has_dlc = "Waking the Tiger"
-< 			if = {
-< 				limit = {
-< 					has_game_rule = {
-< 						rule = obsolete_focus_branches_visibility
-< 						option = HIDE
-< 					}
-< 				}
-< 				NOT = {
-< 					OR = {
-< 						has_completed_focus = JAP_purge_the_kodoha_faction
-< 						has_completed_focus = JAP_support_the_kodoha_faction
-< 						has_completed_focus = JAP_the_unthinkable_option
-< 					}
-< 				}
-< 			}
-< 		}
----
->             always = no
->         }
-4373c4834
-< 		x = 6
----
-> 		x = 11
-4375d4835
-< 		relative_position_id = JAP_strengthen_civilian_government
-4384c4844
-< 			x = -9
----
-> 			x = -8
-4518c4978
-< 						amount = 16
----
-> 						amount = 160
-4571c5031
-< 						amount = 12
----
-> 						amount = 120
-4830c5290
-< 		cost = 10
----
-> 		cost = 5
-5050c5510
-< 		cost = 10
----
-> 		cost = 5
-5596c6056
-< 		cost = 10
----
-> 		cost = 5
-5637c6097
-< 		cost = 10
----
-> 		cost = 5
-5767c6227
-< 		cost = 10
----
-> 		cost = 5

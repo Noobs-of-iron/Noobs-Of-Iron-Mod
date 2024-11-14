@@ -1,4 +1,6 @@
-7c7
+8,9c8,9
+< 	resources = {
 < 		tungsten = 3
 ---
+> 	resources={
 > 		tungsten = 30

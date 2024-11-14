@@ -34,95 +34,95 @@
 < 		cost = 10
 ---
 > 		cost = 5
-456c451
+460c455
 < 				uses = 2
 ---
 > 				uses = 1
-471c466
+475c470
 < 		cost = 10
 ---
 > 		cost = 5
-575c570
+579c574
 < 		cost = 10
 ---
 > 		cost = 5
-737c732
+741c736
 < 			air_experience = 25
 ---
 > 			air_experience = 50
-757c752
+765c760
 < 			air_experience = 25
 ---
 > 			air_experience = 50
-871c866
+883c878
 < 			air_experience = 25
 ---
 > 			air_experience = 50
-891c886
+903c898
 < 			air_experience = 25
 ---
 > 			air_experience = 50
-925c920
+937c932
 < 		cost = 10
 ---
 > 		cost = 5
-1254c1249
+1266c1261
 < 		cost = 10
 ---
 > 		cost = 5
-1324c1319
+1336c1331
 < 			air_experience = 25
 ---
 > 			air_experience = 50
-1461c1456
+1473c1468
 < 			air_experience = 25
 ---
 > 			air_experience = 50
-1663c1658
+1675c1670
 < 		cost = 10
 ---
 > 		cost = 5
-1702c1697
+1714c1709
 < 		cost = 10
 ---
 > 		cost = 5
-1927c1922
+1939c1934
 < 		cost = 10
 ---
 > 		cost = 5
-1958c1953
+1973c1968
 < 		cost = 10
 ---
 > 		cost = 5
-1981c1976
+1996c1991
 < 				uses = 1
 ---
 > 				uses = 2
-1996c1991
+2011c2006
 < 		cost = 10
 ---
 > 		cost = 5
-2053c2048
+2066c2061
 < 					level = 1
 ---
 > 					level = 2
-2158c2153
+2171c2166
 < 					level = 1
 ---
 > 					level = 2
-2175c2170
+2188c2183
 < 				add_extra_state_shared_building_slots = 1
 ---
 > 				add_extra_state_shared_building_slots = 2
-2178c2173
+2191c2186
 < 					level = 1
 ---
 > 					level = 2
-2221c2216
+2234c2229
 < 					level = 1
 ---
 > 					level = 2
-2407a2403,2432
+2420a2416,2445
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					free_building_slots = {
@@ -153,9 +153,9 @@
 > 					instant_build = yes
 > 				}
 > 			}
-2412a2438
+2425a2451
 > 
-2449a2476,2505
+2462a2489,2518
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					free_building_slots = {
@@ -186,25 +186,25 @@
 > 					instant_build = yes
 > 				}
 > 			}
-2451c2507
+2481c2537
 < 				category = excavation_tech
 ---
 > 				category = nuclear
-2466c2522
+2496c2552
 < 		cost = 10
 ---
 > 		cost = 5
-2536c2592
+2566c2622
 < 		cost = 10
 ---
 > 		cost = 5
-2666c2722
+2696c2752
 < 		cost = 10
 ---
 > 		cost = 5
-2688a2745
+2718a2775
 > 
-2689a2747,2797
+2719a2777,2827
 > 		id = AST_fight_work_or_perish
 > 		icon = GFX_goal_generic_propaganda
 > 		prerequisite = { focus = AST_civil_construction_corps }
@@ -256,11 +256,11 @@
 > 	}
 > 
 > 		focus = {
-2693a2802,2804
+2723a2832,2834
 > 		allow_branch = {
 > 			always = no
 > 		}
-2697a2809,2906
+2727a2839,2936
 > 
 > 		cancel_if_invalid = yes
 > 		continue_if_invalid = no
@@ -359,7 +359,7 @@
 > 		y = 1
 > 		relative_position_id = AST_NOI_in_service_of_the_commonwealth
 > 
-2705,2709c2914,3011
+2735,2739c2944,3041
 < 			OR = {
 < 				is_subject_of = ENG
 < 				AND = {
@@ -464,7 +464,7 @@
 > 						size > 1
 > 						include_locked = yes
 > 					}
-2711,2717c3013,3017
+2741,2747c3043,3047
 < 			}
 < 			#Requires UK at war in Africa
 < 			any_country = {
@@ -478,7 +478,7 @@
 > 					type = arms_factory
 > 					level = 2
 > 					instant_build = yes
-2720a3021,3040
+2750a3051,3070
 > 	}
 > 	
 > 	focus = {
@@ -499,14 +499,14 @@
 > 		available = {
 > 
 > 		}
-2729c3049,3052
+2759c3079,3082
 < 		search_filters = {  }
 ---
 > 
 > 		complete_tooltip = {
 > 
 > 		}
-2732,2781c3055,3061
+2762,2811c3085,3091
 < 			#Starts with recon and engineers
 < 			hidden_effect = {
 < 				if = {
@@ -565,9 +565,9 @@
 > 						building = dockyard
 > 						size > 0
 > 						include_locked = yes
-2782a3063
+2812a3093
 > 					is_core_of = ROOT
-2784,2805c3065,3069
+2814,2835c3095,3099
 < 
 < 				#Spawn unit in Africa
 < 				if = {
@@ -596,11 +596,11 @@
 > 					type = dockyard
 > 					level = 3
 > 					instant_build = yes
-2808c3072
+2838c3102
 < 			if = {
 ---
 > 			random_owned_controlled_state = {
-2810,2816c3074,3078
+2840,2846c3104,3108
 < 					any_country = {
 < 						is_in_faction_with = AST
 < 						controls_state = 273
@@ -614,9 +614,9 @@
 > 						building = dockyard
 > 						size > 0
 > 						include_locked = yes
-2817a3080
+2847a3110
 > 					is_core_of = ROOT
-2819,2826c3082,3086
+2849,2856c3112,3116
 < 				custom_effect_tooltip = AST_rats_of_tobruk_effect_1
 < 				else = {
 < 					if = {
@@ -631,13 +631,13 @@
 > 					type = dockyard
 > 					level = 3
 > 					instant_build = yes
-2830a3091,3095
+2860a3121,3125
 > 	
 > 	focus = {
 > 		id = AST_NOI_royal_australian_marines
 > 		icon = GFX_goal_generic_amphibious_assault
 > 		prerequisite = { focus = AST_NOI_ANZAC }
-2831a3097,3149
+2861a3127,3179
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = AST_NOI_ANZAC
@@ -691,7 +691,7 @@
 > 		}
 > 	}
 > 	
-2833,2839c3151,3157
+2863,2869c3181,3187
 < 		id = AST_fight_work_or_perish
 < 		icon = GFX_goal_generic_propaganda
 < 		prerequisite = { focus = AST_civil_construction_corps }
@@ -707,11 +707,11 @@
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = AST_NOI_dockyard_expansion
-2844c3162
+2874c3192
 < 			factor = 15
 ---
 > 			factor = 20
-2857,2858c3175,3179
+2887,2888c3205,3209
 < 		available_if_capitulated = yes
 < 		search_filters = { FOCUS_FILTER_INDUSTRY }
 ---
@@ -720,7 +720,7 @@
 > 		complete_tooltip = {
 > 
 > 		}
-2861,2865c3182,3187
+2891,2895c3212,3217
 < 			#if effect is there for the tooltips sake
 < 			if = {
 < 				limit = { has_idea = AST_great_depression_1 }
@@ -733,7 +733,7 @@
 > 				every_unit_leader = {
 > 					set_nationality = AST
 > 				}
-2867,2871c3189,3193
+2897,2901c3219,3223
 < 			if = {
 < 				limit = { has_idea = AST_great_depression_2 }
 < 				remove_ideas = AST_great_depression_2
@@ -745,7 +745,7 @@
 > 					limit = { is_owned_by = NZL }
 > 					add_core_of = AST
 > 				}
-2873,2877c3195,3198
+2903,2907c3225,3228
 < 			if = {
 < 				limit = { has_idea = AST_great_depression_3 }
 < 				swap_ideas = {
@@ -756,7 +756,7 @@
 > 				if = {
 > 					limit = { is_owned_by = NZL }
 > 					add_core_of = AST
-2881a3203,3237
+2911a3233,3267
 > 	
 > 	focus = {
 > 		id = AST_NOI_bob_semple
@@ -792,7 +792,7 @@
 > 		complete_tooltip = {
 > 
 > 		}
-2882a3239,3250
+2912a3269,3280
 > 		completion_reward = {
 > 			add_ideas = NZL_bob_semple_tank
 > 			add_tech_bonus = {
@@ -805,25 +805,25 @@
 > 	}
 > ##########################################################################################################################################################################################
 > ##########################################################################################################################################################################################
-2899d3266
+2929d3296
 < 			is_subject = no
-2992c3359
+3022c3389
 < 					amount = 24
 ---
 > 					amount = 240
-2999c3366
+3029c3396
 < 					amount = 12
 ---
 > 					amount = 24
-3012c3379
+3042c3409
 < 					amount = 24
 ---
 > 					amount = 240
-3023c3390
+3053c3420
 < 					amount = 12
 ---
 > 					amount = 24
-3026a3394,3403
+3056a3424,3433
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					is_in_home_area = yes
@@ -834,27 +834,27 @@
 > 					amount = 240
 > 				}
 > 			}
-3038c3415
+3068c3445
 < 		cost = 10
 ---
 > 		cost = 5
-3144c3521
+3174c3551
 < 		cost = 10
 ---
 > 		cost = 5
-3204c3581
+3234c3611
 < 		cost = 10
 ---
 > 		cost = 5
-3348c3725
+3378c3755
 < 				value = 0.1
 ---
 > 				value = 0.3
-3364c3741
+3394c3771
 < 		cost = 10
 ---
 > 		cost = 5
-3549,3551c3926,3928
+3579,3581c3956,3958
 < 		x = -1
 < 		y = 4
 < 		relative_position_id = AST_support_the_policy_of_appeasement
@@ -862,7 +862,7 @@
 > 		x = 0
 > 		y = 2
 > 		relative_position_id = AST_adopt_westminster
-3586,3589c3963,3966
+3616,3619c3993,3996
 < 		prerequisite = { focus = AST_CSIR focus = AST_swpa_protector }
 < 		x = 1
 < 		y = 4
@@ -872,7 +872,7 @@
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = AST_empire_air_training_scheme
-3591c3968
+3621c3998
 < 		cost = 10
 ---
 > 		cost = 5

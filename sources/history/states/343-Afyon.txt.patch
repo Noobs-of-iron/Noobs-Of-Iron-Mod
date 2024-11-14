@@ -1,4 +1,4 @@
 7c7
 < 		chromium=25 # was: 32
 ---
-> 		chromium=250 # was: 32
+> 		chromium = 250 # was: 32

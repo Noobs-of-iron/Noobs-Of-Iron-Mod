@@ -1,4 +1,6 @@
-9c9
-< 		rubber=1 # was: 1
+8,9c8,9
+< 	resources = {
+< 		rubber = 2
 ---
-> 		rubber=10 # was: 1
+> 	resources={
+> 		rubber = 20

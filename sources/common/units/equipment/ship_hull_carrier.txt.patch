@@ -16,17 +16,17 @@
 ---
 > 			steel = 40
 > 			chromium = 20
-341,342c341,342
+502,503c502,503
 < 			steel = 4
 < 			chromium = 1
 ---
 > 			steel = 40
 > 			chromium = 10
-383c383
+544c544
 < 			steel = 3
 ---
 > 			steel = 30
-476,478c476,478
+637,639c637,639
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 1
@@ -34,7 +34,7 @@
 > 
 > 			steel = 30
 > 			chromium = 10
-566,568c566,568
+727,729c727,729
 < 			#oil = 1
 < 			steel = 4
 < 			chromium = 1
@@ -42,7 +42,7 @@
 > 
 > 			steel = 40
 > 			chromium = 10
-613,615c613,615
+774,776c774,776
 < 			#oil = 2
 < 			steel = 4
 < 			chromium = 2
@@ -50,7 +50,7 @@
 > 
 > 			steel = 40
 > 			chromium = 20
-660,662c660,662
+821,823c821,823
 < 			#oil = 2
 < 			steel = 5
 < 			chromium = 2

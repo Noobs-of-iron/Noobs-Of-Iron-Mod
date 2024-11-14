@@ -26,43 +26,43 @@
 < 				value = 0.1
 ---
 > 				value = 0.15
-1126c1120
+1130c1124
 < 		cost = 10
 ---
 > 		cost = 5
-1163c1157
+1167c1161
 < 				value =	0.05
 ---
 > 				value =	0.1
-1289a1284,1286
+1293a1288,1290
 > 			add_autonomy_ratio = {
 > 				value =	-0.05
 > 			}
-1294,1297d1290
+1298,1301d1294
 < 			add_autonomy_ratio = {
 < 				value = -0.05
 < 				localization = RAJ_imperial_service_troops
 < 			}
-1309c1302
+1313c1306
 < 		cost = 10
 ---
 > 		cost = 5
-1508a1502,1507
+1512a1506,1511
 > 			add_doctrine_cost_reduction = {
 > 				name = land_doc_bonus
 > 				cost_reduction = 0.25
 > 				uses = 1
 > 				category = land_doctrine
 > 			}
-1526c1525
+1530c1529
 < 		cost = 10
 ---
 > 		cost = 5
-1547c1546
+1551c1550
 < 		army_experience = 50
 ---
 > 		army_experience = 25
-1627,1636c1626,1637
+1631,1640c1630,1641
 < 		custom_effect_tooltip = RAJ_orde_wingate_tt
 < 		hidden_effect = {
 < 			IF = {
@@ -86,7 +86,7 @@
 > 							id = BBA_ethiopia_exile_events.05
 > 							hours = 1
 > 						}
-1639,1648c1640,1649
+1643,1652c1644,1653
 < 			}
 < 			ELSE = {
 < 				add_corps_commander_role = {
@@ -108,7 +108,7 @@
 > 						planning_skill = 2
 > 						logistics_skill = 5
 > 						}
-1651,1658c1652,1658
+1655,1662c1656,1662
 < 			}
 < 			add_tech_bonus = {
 < 				name = RAJ_chindits
@@ -125,62 +125,66 @@
 > 					category = para_tech
 > 					category = mountaineers_tech
 > 				}
-1671c1671
+1675c1675
 < 		cost = 10
 ---
 > 		cost = 5
-1782c1782
+1786c1786
 < 		cost = 10
 ---
 > 		cost = 5
-1929c1929
+1933c1933
 < 			army_experience = 30
 ---
 > 			army_experience = 25
-1972c1972
+1976c1976
 < 		cost = 10
 ---
 > 		cost = 5
-2034a2035
+2038a2039
 > 			add_ideas = RAJ_NOI_bangalore_torpedo_i
-2038c2039
+2042c2043
 < 				uses = 2
 ---
 > 				uses = 1
-2071a2073
+2075a2077
 > 			army_experience = 10
-2127c2129
+2131c2133
 < 		cost = 10
 ---
 > 		cost = 5
-2186a2189,2194
+2190a2193,2198
 > 			add_tech_bonus = {
 > 				name = RAJ_royal_indian_artillery
 > 				bonus = 1.0
 > 				uses = 1
 > 				category = artillery
 > 			}
-2242c2250
+2250c2258
 < 		cost = 10
 ---
 > 		cost = 5
-2287d2294
+2295d2302
 < 			is_subject = no
-2288a2296
+2296a2304
 > 			is_subject = no
-2347c2355
+2355c2363
 < 				uses = 1
 ---
 > 				uses = 2
-2414c2422
+2422c2430
 < 					level = 1
 ---
 > 					level = 2
-2429c2437
+2437c2445
 < 					level = 1
 ---
 > 					level = 2
-2639a2648,2677
+2648a2657
+> 
+2657a2667
+> 		
+2670a2681,2710
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					free_building_slots = {
@@ -211,91 +215,89 @@
 > 					instant_build = yes
 > 				}
 > 			}
-2649a2688
-> 		
-2749c2788
+2780c2820
 < 					amount = 24
 ---
 > 					amount = 240
-2791c2830
+2822c2862
 < 					amount = 3
 ---
 > 					amount = 8
-2926c2965
+2978c3018
 < 		cost = 10
 ---
 > 		cost = 5
-2969c3008
+3021c3061
 < 			navy_experience = 5
 ---
 > 			navy_experience = 15
-2991c3030
+3043c3083
 < 						level = 1
 ---
 > 						level = 2
-3009c3048
+3061c3101
 < 		cost = 10
 ---
 > 		cost = 5
-3052c3091
+3104c3144
 < 			navy_experience = 5
 ---
 > 			navy_experience = 15
-3071c3110
+3123c3163
 < 					limit = { state = 426 }
 ---
 > 					limit = { state = 431 }
-3074c3113
+3126c3166
 < 						level = 1
 ---
 > 						level = 2
-3076c3115
+3128c3168
 < 						province = 10255
 ---
 > 						province = 4245
-3113c3152
+3165c3205
 < 			navy_experience = 10
 ---
 > 			navy_experience = 25
-3117c3156
+3169c3209
 < 				uses = 1
 ---
 > 				uses = 2
-3126c3165
+3178c3218
 < 		prerequisite = { focus = RAJ_royal_indian_navy }
 ---
 > 		prerequisite = { focus = RAJ_submarine_effort focus = RAJ_cruiser_effort }
-3128c3167
+3180c3220
 < 		y = 2
 ---
 > 		y = 3
-3191c3230
+3243c3283
 < 				bonus = 1.5
 ---
 > 				bonus = 2
-3202c3241
+3254c3294
 < 		prerequisite = { focus = RAJ_screening_effort focus = RAJ_cruiser_effort }
 ---
 > 		prerequisite = { focus = RAJ_royal_indian_navy }
-3204c3243
+3256c3296
 < 		y = 3
 ---
 > 		y = 2
-3239c3278
+3291c3331
 < 		prerequisite = { focus = RAJ_screening_effort focus = RAJ_cruiser_effort }
 ---
 > 		prerequisite = { focus = RAJ_submarine_effort focus = RAJ_cruiser_effort }
-3305c3344
+3357c3397
 < 				uses = 1
 ---
 > 				uses = 2
-3351a3391,3395
+3403a3444,3448
 > 			build_railway = {
 > 					path = { 
 > 						12238 10389 7565 7662 4644 7593 7537 4544 4516
 > 					}
 > 				}
-3405a3450,3530
+3457a3503,3583
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					free_building_slots = {
@@ -377,49 +379,49 @@
 > 					instant_build = yes
 > 				}
 > 			}
-3483c3608
+3535c3661
 < 				add_extra_state_shared_building_slots = 1
 ---
 > 				add_extra_state_shared_building_slots = 2
-3486c3611
+3538c3664
 < 					level = 1
 ---
 > 					level = 2
-3662d3786
+3714d3839
 < 					compare_autonomy_progress_ratio > 0.4
-3691c3815
+3743c3868
 < 				add_extra_state_shared_building_slots = 1
 ---
 > 				add_extra_state_shared_building_slots = 2
-3694c3818
+3746c3871
 < 					level = 1
 ---
 > 					level = 2
-3742c3866
+3794c3919
 < 				add_extra_state_shared_building_slots = 1
 ---
 > 				add_extra_state_shared_building_slots = 2
-3745c3869
+3797c3922
 < 					level = 1
 ---
 > 					level = 2
-3768d3891
+3820d3944
 < 			compare_autonomy_progress_ratio > 0.4
-3814c3937
+3866c3990
 < 				value = -0.25
 ---
 > 				value = -0.15
-3870d3992
+3922d4045
 < 			compare_autonomy_progress_ratio > 0.4
-3944c4066
+3996c4119
 < 				add_extra_state_shared_building_slots = 1
 ---
 > 				add_extra_state_shared_building_slots = 2
-3947c4069
+3999c4122
 < 					level = 1
 ---
 > 					level = 2
-3953a4076,4479
+4005a4129,4532
 > ###############################################################################################################################################################################################################
 > ###NOI FOCUSES###
 > ##############################################################################################################################################################################################################################################################################################################################################################################################################################

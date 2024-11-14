@@ -1,4 +1,6 @@
-10c10
+10,11c10,11
 < 		rubber=140 # was: 242
+< 		oil=10 # was: 16
 ---
-> 		rubber=1400 # was: 242
+> 		rubber = 1400 # was: 242
+> 		oil = 10 # was: 16

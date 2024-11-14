@@ -1,4 +1,4 @@
-10c10
-< 		#steel=4 sent to Mexico City
+8c8
+< 	resources = {
 ---
-> 		#steel=40 sent to Mexico City
+> 	resources={

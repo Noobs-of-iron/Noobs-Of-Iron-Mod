@@ -1,4 +1,4 @@
-161c161
+258c258
 < 		local_resources_rubber = 1 # May use local_resources_ + any resource name
 ---
 > 		local_resources_rubber = 10 # May use local_resources_ + any resource name

@@ -1,4 +1,4 @@
 10c10
 < 		chromium=2 # was: 3
 ---
-> 		chromium=20 # was: 3
+> 		chromium = 20 # was: 3

@@ -1,0 +1,8 @@
+8c8
+< 	resources = {
+---
+> 	resources={
+10c10
+< 		aluminium = 20
+---
+> 		aluminium = 200

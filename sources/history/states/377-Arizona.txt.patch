@@ -1,8 +1,8 @@
-10c10
+10,12c10,12
 < 		steel=20 # was: 40
----
-> 		steel=200 # was: 40
-12c12
+< 		oil=5 # was: 10
 < 		aluminium=8 # was: 16
 ---
-> 		aluminium=80 # was: 16
+> 		steel = 200 # was: 40
+> 		oil = 5 # was: 10
+> 		aluminium = 80 # was: 16

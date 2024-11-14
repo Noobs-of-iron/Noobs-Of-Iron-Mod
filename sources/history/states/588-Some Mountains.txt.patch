@@ -1,4 +1,6 @@
-8c8
+7,8c7,8
+< 	resources = {
 < 		chromium = 10 
 ---
+> 	resources={
 > 		chromium = 100 

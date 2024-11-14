@@ -4,21 +4,25 @@
 > 		transport = light_tank_aa_chassis
 > 
 91a95
+> 
+93a98
 > 			motorized_equipment = 30
-100a105,106
+100a106,107
 > 		transport = medium_tank_aa_chassis
 > 
-160a167
+162a170
 > 			motorized_equipment = 30
-168a176,177
+168a177,178
 > 		transport = heavy_tank_aa_chassis
 > 
-227a237
+227d236
+< 
+231a241
 > 			motorized_equipment = 30
 236a247,248
 > 		transport = super_heavy_tank_aa_chassis
 > 
-295a308
+299a312
 > 			motorized_equipment = 30
 303a317,318
 > 

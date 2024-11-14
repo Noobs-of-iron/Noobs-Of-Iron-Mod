@@ -1,4 +1,4 @@
-371,431c371
+417,487c417
 < 	option = { # Refuse
 < 		name = baltic.4.b		
 < 		ai_chance = { 
@@ -56,9 +56,19 @@
 < 				country_event = { days = 1 id = germany.23 }
 < 			}
 < 			hidden_effect = {
-< 				country_event = { days = 3 id = news.20 }
+< 				every_country = {
+< 					limit = {
+< 						capital_scope = {
+< 							is_on_continent = europe
+< 						}
+< 					}
+< 					news_event = { 
+< 						id = news.20
+< 						days = 1 
+< 					}	
+< 				}
 < 			}
 < 		}		
 < 	}
 ---
-> 	
+> 

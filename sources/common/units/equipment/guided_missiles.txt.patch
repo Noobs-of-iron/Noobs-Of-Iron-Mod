@@ -1,6 +1,16 @@
-47,48c47,48
-< 			aluminium = 3
-< 			tungsten = 3
+46,48c46,48
+< 		resources = {
+< 			aluminium = 2
+< 			tungsten = 2
 ---
+> 		resources={
+> 			aluminium = 20
+> 			tungsten = 20
+94,96c94,96
+< 		resources = {
+< 			aluminium = 3
+< 			tungsten = 2
+---
+> 		resources={
 > 			aluminium = 30
-> 			tungsten = 30
+> 			tungsten = 20

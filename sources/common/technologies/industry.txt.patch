@@ -80,19 +80,19 @@
 < 			position = { x = 6 y = 10 }
 ---
 > 			position = { x = 7 y = 10 }
-1397c1402
+1402c1407
 < 				amount = 1
 ---
 > 				amount = 10
-1457c1462
+1467c1472
 < 				amount = 1
 ---
 > 				amount = 10
-1517c1522
+1527c1532
 < 				amount = 1
 ---
 > 				amount = 10
-1577c1582
+1587c1592
 < 				amount = 1
 ---
 > 				amount = 10

@@ -1,24 +1,24 @@
-231c231
+192c192
 < 		cost = 10
 ---
 > 		cost = 5
-241c241
+283c283
 < 				bonus = 1.0
 ---
 > 				bonus = 2.0
-254c254
+297c297
 < 		cost = 10
 ---
 > 		cost = 5
-264c264
+307c307
 < 				bonus = 1.0
 ---
 > 				bonus = 2.0
-8321c8321
+8379c8379
 < 		cost = 10
 ---
 > 		cost = 5
-8913,8924c8913
+9517,9528c9517
 < 			has_dlc = "Man the Guns"
 < 			if = {
 < 				limit = {
@@ -33,7 +33,7 @@
 < 			}
 ---
 > 			always = no
-9161,9176c9150
+9765,9780c9754
 < 			has_dlc = "Man the Guns"
 < 			if = {
 < 				limit = {
@@ -52,7 +52,7 @@
 < 			}
 ---
 > 			always = no
-9453,9468c9427
+10066,10081c10040
 < 			has_dlc = "Man the Guns"
 < 			if = {
 < 				limit = {
@@ -71,7 +71,7 @@
 < 			}
 ---
 > 			always = no
-10691,10706c10650
+11306,11321c11265
 < 			has_dlc = "Man the Guns"
 < 			if = {
 < 				limit = {

@@ -1,4 +1,6 @@
-9c9
+8,9c8,9
+< 	resources = {
 < 		tungsten = 14 # In replacement of Nitrate
 ---
+> 	resources={
 > 		tungsten = 140 # In replacement of Nitrate

@@ -1,8 +1,10 @@
-7,9c7,9
-< 		steel=9 # was 5 was: 13 was: 20
+5,8c5,8
+< 	resources = {
+< 		steel = 9 # was 5 was: 13 was: 20
 < 		chromium = 3 # was: 4
 < 		tungsten = 3 # was: 4
 ---
-> 		steel=90 # was 5 was: 13 was: 20
+> 	resources={
+> 		steel = 90 # was 5 was: 13 was: 20
 > 		chromium = 30 # was: 4
 > 		tungsten = 30 # was: 4

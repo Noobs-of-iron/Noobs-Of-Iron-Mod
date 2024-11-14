@@ -1,8 +1,10 @@
-9,11c9,11
+8,11c8,11
+< 	resources = {
 < 		steel = 14 # was: 24, then 16
 < 		tungsten = 8 # In replacement of nitrate
 < 		chromium = 4 # in replacement of nitrate
 ---
+> 	resources={
 > 		steel = 140 # was: 24, then 16
 > 		tungsten = 80 # In replacement of nitrate
 > 		chromium = 40 # in replacement of nitrate

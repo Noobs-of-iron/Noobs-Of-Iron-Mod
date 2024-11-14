@@ -1,6 +1,8 @@
-10,11c10,11
+9,11c9,11
+< 	resources = {
 < 		chromium = 40 # was: 44
 < 		aluminium = 27 # was: 30
 ---
+> 	resources={
 > 		chromium = 400 # was: 44
 > 		aluminium = 270 # was: 30

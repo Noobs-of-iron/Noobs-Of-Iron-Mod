@@ -1,4 +1,6 @@
-7c7
+6,7c6,7
+< 	resources = {
 < 		aluminium = 14 # was: 20
 ---
+> 	resources={
 > 		aluminium = 140 # was: 20

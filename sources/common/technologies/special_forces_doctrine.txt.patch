@@ -49,9 +49,9 @@
 < 			position = { x = -1 y = 2 }
 ---
 > 			position = { x = 0 y = 2 }
-1090,1131d1083
+1090d1083
 < 	paras_combat_drop = {
-< 
+1092,1131d1084
 < 		xp_research_type = air
 < 		xp_unlock_cost = 60
 < 		
@@ -75,7 +75,7 @@
 < 		
 < 		categories = {
 < 			special_forces_doctrine
-< 			para_tech
+< 			#para_tech
 < 			cat_paratroopers_doctrine
 < 		}
 < 		

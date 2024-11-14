@@ -106,56 +106,49 @@
 < 			soft_attack = 8
 ---
 > 			soft_attack = 10
-647c667
-< 			soft_attack = 5
----
-> 			soft_attack = 20
-649a670,671
-> 			hardness = -0.2
-> 			armor_value = -10
-667c689
+688c708
 < 			hard_attack = 5
 ---
 > 			hard_attack = 8
-687c709
+708c728
 < 			soft_attack = 20
 ---
 > 			soft_attack = 28
-747,748c769,770
+768,769c788,789
 < 			steel = 2
 < 			tungsten = 1
 ---
 > 			steel = 20
 > 			tungsten = 10
-774,775c796,797
+795,796c815,816
 < 			steel = 3
 < 			tungsten = 1
 ---
 > 			steel = 30
 > 			tungsten = 10
-841c863
+862c882
 < 			steel = 1
 ---
 > 			steel = 10
-852,854c874,876
+873,875c893,895
 < 			soft_attack = 20
 < 			hard_attack = 15
 < 			ap_attack = 60
 ---
-> 			soft_attack = 25
-> 			hard_attack = 18
-> 			ap_attack = 50
-858c880
+>  			soft_attack = 25
+>  			hard_attack = 18
+>  			ap_attack = 50
+879c899
 < 			breakthrough = 2
 ---
 > 			breakthrough = 4
-868,869c890,891
+889,890c909,910
 < 			tungsten = 1
 < 			steel = 1
 ---
 > 			tungsten = 10
 > 			steel = 10
-881,884c903,906
+902,905c922,925
 < 			soft_attack = 32
 < 			hard_attack = 20
 < 			ap_attack = 90
@@ -165,11 +158,15 @@
 > 			hard_attack = 25
 > 			ap_attack = 75
 > 			build_cost_ic = 5
-887c909
+908c928
 < 			breakthrough = 4
 ---
 > 			breakthrough = 7
-896,898c918,920
+914c934
+< 			convert_cost_ic = 4
+---
+> 			convert_cost_ic = 5
+917,919c937,939
 < 			tungsten = 1
 < 			steel = 2
 < 			chromium = 1
@@ -177,27 +174,26 @@
 > 			tungsten = 10
 > 			steel = 20
 > 			chromium = 10
-906a929,930
+927a948,949
 > 		forbid_equipment_type = amphibious
 > 		forbid_equipment_type_exact_match = armor
-910,911c934,935
+931,932c953,954
 < 			hard_attack = 1
 < 			ap_attack = 20
 ---
 > 			hard_attack = 8
 > 			ap_attack = 10
-915d938
+936d957
 < 			breakthrough = -2
-924,925c947
+945,946c966
 < 			tungsten = 1
 < 			steel = 2
 ---
 > 			steel = 30
-933a956,958
+954a975,976
 > 		forbid_equipment_type = amphibious
 > 		forbid_equipment_type_exact_match = armor
-> 		
-936,940c961,965
+957,961c979,983
 < 			soft_attack = 45
 < 			hard_attack = 2
 < 			ap_attack = 30
@@ -209,52 +205,52 @@
 > 			ap_attack = 20
 > 			build_cost_ic = 6
 > 			maximum_speed = -0.6
-942c967
+963c985
 < 			breakthrough = -2
 ---
 > 			breakthrough = -1
-948c973
+969c991
 < 			convert_cost_ic = 5.5
 ---
 > 			convert_cost_ic = 6
-951,953c976,977
+972,974c994,995
 < 			tungsten = 1
 < 			steel = 3
 < 			chromium = 1
 ---
 > 			steel = 40
 > 			chromium = 10
-965c989
+986c1007
 < 			soft_attack = 25
 ---
 > 			soft_attack = 35
-981,982c1005,1006
+1002,1003c1023,1024
 < 			tungsten = 2
 < 			steel = 1
 ---
 > 			tungsten = 20
 > 			steel = 10
-994c1018
+1015c1036
 < 			soft_attack = 35
 ---
 > 			soft_attack = 45
-1009,1010c1033,1034
+1030,1031c1051,1052
 < 			tungsten = 2
 < 			steel = 1
 ---
 > 			tungsten = 20
 > 			steel = 10
-1023c1047
+1044c1065
 < 			ap_attack = 68
 ---
 > 			ap_attack = 65
-1035,1036c1059,1060
+1056,1057c1077,1078
 < 			tungsten = 2
 < 			steel = 2
 ---
 > 			tungsten = 20
 > 			steel = 20
-1047,1050c1071,1074
+1068,1071c1089,1092
 < 			soft_attack = 20
 < 			hard_attack = 35
 < 			ap_attack = 125
@@ -264,11 +260,11 @@
 > 			hard_attack = 32
 > 			ap_attack = 120
 > 			build_cost_ic = 7
-1058c1082
+1079c1100
 < 			convert_cost_ic = 5
 ---
 > 			convert_cost_ic = 7
-1061,1063c1085,1087
+1082,1084c1103,1105
 < 			tungsten = 2
 < 			chromium = 1
 < 			steel = 2
@@ -276,7 +272,7 @@
 > 			tungsten = 30
 > 			chromium = 10
 > 			steel = 20
-1073,1076c1097,1100
+1094,1097c1115,1118
 < 			soft_attack = 25
 < 			hard_attack = 45
 < 			ap_attack = 200
@@ -286,11 +282,11 @@
 > 			hard_attack = 60
 > 			ap_attack = 180
 > 			build_cost_ic = 9
-1084c1108
+1105c1126
 < 			convert_cost_ic = 7
 ---
 > 			convert_cost_ic = 9
-1087,1089c1111,1113
+1108,1110c1129,1131
 < 			tungsten = 2
 < 			chromium = 1
 < 			steel = 3
@@ -298,13 +294,13 @@
 > 			tungsten = 30
 > 			chromium = 10
 > 			steel = 30
-1100,1101c1124,1125
+1121,1122c1142,1143
 < 			soft_attack = 20
 < 			hard_attack = 20
 ---
 > 			soft_attack = 32
 > 			hard_attack = 24
-1114,1116c1138,1140
+1135,1137c1156,1158
 < 			tungsten = 1
 < 			chromium = 1
 < 			steel = 2
@@ -312,15 +308,15 @@
 > 			tungsten = 10
 > 			chromium = 10
 > 			steel = 20
-1127c1151
+1148c1169
 < 			soft_attack = 25
 ---
 > 			soft_attack = 37
-1129c1153
+1150c1171
 < 			ap_attack = 125
 ---
 > 			ap_attack = 120
-1141,1143c1165,1167
+1162,1164c1183,1185
 < 			tungsten = 2
 < 			chromium = 1
 < 			steel = 2
@@ -328,7 +324,7 @@
 > 			tungsten = 20
 > 			chromium = 10
 > 			steel = 20
-1154,1156c1178,1180
+1175,1177c1196,1198
 < 			soft_attack = 30
 < 			hard_attack = 40
 < 			ap_attack = 170
@@ -336,7 +332,7 @@
 > 			soft_attack = 45
 > 			hard_attack = 50
 > 			ap_attack = 160
-1168,1170c1192,1194
+1189,1191c1210,1212
 < 			tungsten = 3
 < 			chromium = 1
 < 			steel = 3
@@ -344,10 +340,10 @@
 > 			tungsten = 30
 > 			chromium = 10
 > 			steel = 30
-1178a1203,1204
+1199a1221,1222
 > 		forbid_equipment_type = amphibious
 > 		forbid_equipment_type_exact_match = armor
-1181,1185c1207,1211
+1202,1206c1225,1229
 < 			soft_attack = 55
 < 			hard_attack = 2
 < 			ap_attack = 60
@@ -359,15 +355,15 @@
 > 			ap_attack = 30
 > 			build_cost_ic = 8
 > 			maximum_speed = -1
-1187c1213
+1208c1231
 < 			breakthrough = -4
 ---
 > 			breakthrough = -2
-1193c1219
+1214c1237
 < 			convert_cost_ic = 7
 ---
 > 			convert_cost_ic = 8
-1197,1199c1223,1225
+1218,1220c1241,1243
 < 			tungsten = 1
 < 			chromium = 1
 < 			steel = 3
@@ -375,37 +371,173 @@
 > 			tungsten = 10
 > 			chromium = 10
 > 			steel = 40
-1210,1211c1236,1237
+1231,1232c1254,1255
 < 			soft_attack = 35
 < 			hard_attack = 45
 ---
 > 			soft_attack = 60
 > 			hard_attack = 65
-1213c1239
+1234c1257
 < 			build_cost_ic = 12.5
 ---
 > 			build_cost_ic = 14
-1220,1221c1246,1247
+1241,1242c1264,1265
 < 			tungsten = 5
 < 			chromium = 2
 ---
 > 			tungsten = 50
 > 			chromium = 20
-1327a1354,1355
-> 			build_cost_ic = 0.05
-> 			reliability = -0.05
-1340c1368
+1358c1381
+< 			soft_attack = 5
+---
+> 			soft_attack = 20
+1361c1384,1386
 < 			reliability = -0.1
 ---
+> 			hardness = -0.2
+> 			armor_value = -10
 > 			reliability = -0.15
-1344a1373
-> 			build_cost_ic = 0.15
-1434c1463
+1420c1445
+< 			breakthrough = 2
+---
+> 			breakthrough = 4
+1455c1480
 < 			tungsten = 1
 ---
 > 			tungsten = 10
-1436a1466,1499
-> 	
+1497c1522
+< 			breakthrough = 4
+---
+> 			breakthrough = 7
+1510c1535
+< 			reliability = 0.1
+---
+> 			reliability = 0.2
+1513,1516c1538,1540
+< 		xp_cost = 30
+< 		multiply_stats = {
+< 			build_cost_ic = -0.05
+< 		}
+---
+> 		xp_cost = 10
+> 		forbid_equipment_type = amphibious
+> 		forbid_equipment_type_exact_match = armor
+1538a1563,1564
+> 		forbid_equipment_type = amphibious
+> 		forbid_equipment_type_exact_match = armor
+1543c1569
+< 			maximum_speed = -0.25
+---
+> 
+1593c1619
+< 			chromium = 4 #SH Cannon: 2
+---
+> 			chromium = 40 #SH Cannon: 2
+1620,1622c1646,1648
+< 			tungsten = 5 #Heavy Howitzer: 1
+< 			chromium = 3 #Heavy Howitzer: 1
+< 			steel = 5 #Heavy Howitzer: 3
+---
+> 			tungsten = 50 #Heavy Howitzer: 1
+> 			chromium = 30 #Heavy Howitzer: 1
+> 			steel = 50 #Heavy Howitzer: 3
+1649,1650c1675,1676
+< 			chromium = 3 #Advanced AT Cannon: 1
+< 			steel = 4 #Advanced AT Cannon: 3
+---
+> 			chromium = 30 #Advanced AT Cannon: 1
+> 			steel = 40 #Advanced AT Cannon: 3
+1677,1678c1703,1704
+< 			tungsten = 3 #Advanced AA Cannon: 1
+< 			steel = 5 #Advanced AA Cannon: 3
+---
+> 			tungsten = 30 #Advanced AA Cannon: 1
+> 			steel = 50 #Advanced AA Cannon: 3
+1710c1736
+< 			chromium = 3 #SH Cannon: 2
+---
+> 			chromium = 30 #SH Cannon: 2
+1737,1739c1763,1765
+< 			tungsten = 3 #Heavy Howitzer: 1
+< 			chromium = 2 #Heavy Howitzer: 1
+< 			steel = 4 #Heavy Howitzer: 3
+---
+> 			tungsten = 30 #Heavy Howitzer: 1
+> 			chromium = 20 #Heavy Howitzer: 1
+> 			steel = 40 #Heavy Howitzer: 3
+1768,1770c1794,1796
+< 			tungsten = 3 #Heavy Howitzer: 1
+< 			chromium = 2 #Heavy Howitzer: 1
+< 			steel = 4 #Heavy Howitzer: 3
+---
+> 			tungsten = 30 #Heavy Howitzer: 1
+> 			chromium = 20 #Heavy Howitzer: 1
+> 			steel = 40 #Heavy Howitzer: 3
+1788a1815,1816
+> 		forbid_equipment_type = amphibious
+> 		forbid_equipment_type_exact_match = armor
+1796,1798c1824,1826
+< 			tungsten = 4 #Advanced AT Cannon: 2
+< 			chromium = 2 #Advanced AT Cannon: 1
+< 			steel = 4 #Advanced AT Cannon: 3
+---
+> 			tungsten = 40 #Advanced AT Cannon: 2
+> 			chromium = 20 #Advanced AT Cannon: 1
+> 			steel = 40 #Advanced AT Cannon: 3
+1824,1825c1852,1853
+< 			tungsten = 2 #Advanced AA Cannon: 1
+< 			steel = 4 #Advanced AA Cannon: 3
+---
+> 			tungsten = 20 #Advanced AA Cannon: 1
+> 			steel = 40 #Advanced AA Cannon: 3
+1856,1858c1884,1886
+< 			tungsten = 1 #Improved Medium Cannon: 1
+< 			chromium = 1 #Improved Medium Cannon: 1
+< 			steel = 2 #Improved Medium Cannon: 2
+---
+> 			tungsten = 10 #Improved Medium Cannon: 1
+> 			chromium = 10 #Improved Medium Cannon: 1
+> 			steel = 20 #Improved Medium Cannon: 2
+1886,1888c1914,1916
+< 			tungsten = 1 #Heavy Howitzer: 1
+< 			chromium = 1 #Heavy Howitzer: 1
+< 			steel = 3 #Heavy Howitzer: 3
+---
+> 			tungsten = 10 #Heavy Howitzer: 1
+> 			chromium = 10 #Heavy Howitzer: 1
+> 			steel = 30 #Heavy Howitzer: 3
+1914,1916c1942,1944
+< 			tungsten = 2 #Advanced AT Cannon: 2
+< 			chromium = 1 #Advanced AT Cannon: 1
+< 			steel = 3 #Advanced AT Cannon: 3
+---
+> 			tungsten = 20 #Advanced AT Cannon: 2
+> 			chromium = 10 #Advanced AT Cannon: 1
+> 			steel = 30 #Advanced AT Cannon: 3
+1941,1942c1969,1970
+< 			tungsten = 1 #Advanced AA Cannon: 1
+< 			steel = 3 #Advanced AA Cannon: 3
+---
+> 			tungsten = 10 #Advanced AA Cannon: 1
+> 			steel = 30 #Advanced AA Cannon: 3
+1954a1983
+> 			build_cost_ic = 0.15
+1965c1994
+< 			steel = 1 #Flamethrower: 0 
+---
+> 			steel = 10 #Flamethrower: 0
+1991,1992c2020,2021
+< 			steel = 1 #Improved Rocket Launcher: 1
+< 			tungsten = 2 #Improved Rocket Launcher: 2
+---
+> 			steel = 10 #Improved Rocket Launcher: 1
+> 			tungsten = 20 #Improved Rocket Launcher: 2
+2046a2076,2093
+> 
+> 
+> 		}
+> 	}
+> 
 > 	aphe_round = {
 > 		abbreviation = "aphe"
 > 		category = tank_special_module
@@ -416,13 +548,12 @@
 > 			hard_attack = 0.15
 > 			ap_attack = -0.3
 > 		}
->         
+> 
 > 		build_cost_resources = {
 > 			steel = 10
-> 		}
-> 		
-> 	}
-> 	
+2047a2095
+> 
+2049a2098,2113
 > 		apcr_round = {
 > 		abbreviation = "apcr"
 > 		category = tank_special_module
@@ -433,22 +564,9 @@
 > 			hard_attack = -0.15
 > 			ap_attack = 0.3
 > 		}
->         
+> 
 > 		build_cost_resources = {
 > 			tungsten = 10
 > 		}
-> 		
+> 
 > 	}
-1489c1552
-< 			reliability = 0.1
----
-> 			reliability = 0.2
-1492,1495c1555
-< 		xp_cost = 30
-< 		multiply_stats = {
-< 			build_cost_ic = -0.05
-< 		}
----
-> 		xp_cost = 10
-1522d1581
-< 			maximum_speed = -0.25

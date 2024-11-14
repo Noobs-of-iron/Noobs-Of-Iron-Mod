@@ -4,7 +4,7 @@
 < 		aluminium=30 # was: 58
 < 		tungsten = 10 # was: 20
 ---
-> 		steel=30 # was: 4
-> 		chromium=120 # was: 22
-> 		aluminium=300 # was: 58
+> 		steel = 30 # was: 4
+> 		chromium = 120 # was: 22
+> 		aluminium = 300 # was: 58
 > 		tungsten = 100 # was: 20

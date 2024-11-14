@@ -1,4 +1,6 @@
-8c8
-< 		tungsten=2.000
+7,8c7,8
+< 	resources = {
+< 		tungsten = 2.000
 ---
-> 		tungsten=20.000
+> 	resources={
+> 		tungsten = 20.000

@@ -1,4 +1,4 @@
 6c6
 < 		steel=5 # was: 8
 ---
-> 		steel=50 # was: 8
+> 		steel = 50 # was: 8

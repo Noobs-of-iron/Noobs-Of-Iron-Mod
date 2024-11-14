@@ -1,24 +1,24 @@
-1316c1316
+1339c1339
 < 						amount = 10
 ---
 > 						amount = 100
-1364c1364
+1387c1387
 < 						amount = 12
 ---
 > 						amount = 120
-1368c1368
+1391c1391
 < 						amount = 6
 ---
 > 						amount = 60
-1372c1372
+1395c1395
 < 						amount = 6
 ---
 > 						amount = 60
-1552c1552
-< 						amount = 12
----
-> 						amount = 120
 1575c1575
+< 						amount = 12
+---
+> 						amount = 120
+1598c1598
 < 						amount = 4
 ---
 > 						amount = 40

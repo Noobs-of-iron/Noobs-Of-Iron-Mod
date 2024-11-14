@@ -1,6 +1,8 @@
-7,8c7,8
-< 		steel=8 #was 11 #was: 11 was 19 # was: 60
-< 		aluminium=6 # was: 20
+5,7c5,7
+< 	resources = {
+< 		steel = 8 #was 11 #was: 11 was 19 # was: 60
+< 		aluminium = 6 # was: 20
 ---
-> 		steel=80 #was 11 #was: 11 was 19 # was: 60
-> 		aluminium=60 # was: 20
+> 	resources={
+> 		steel = 80 #was 11 #was: 11 was 19 # was: 60
+> 		aluminium = 60 # was: 20

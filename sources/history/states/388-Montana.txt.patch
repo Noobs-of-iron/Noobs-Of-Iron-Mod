@@ -1,4 +1,6 @@
-8c8
-< 		tungsten=11 # was: 16
+7,8c7,8
+< 	resources = {
+< 		tungsten = 11 # was: 16
 ---
-> 		tungsten=110 # was: 16
+> 	resources={
+> 		tungsten = 110 # was: 16

@@ -1,4 +1,6 @@
-8c8
-< 		chromium=52 # was: 88
+8,9c8,9
+< 	resources = {
+< 		chromium = 52 # was: 88
 ---
-> 		chromium=520 # was: 88
+> 	resources={
+> 		chromium = 520 # was: 88

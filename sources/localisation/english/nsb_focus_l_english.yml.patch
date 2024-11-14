@@ -1,8 +1,4 @@
-1391c1391
-<  SOV_third_five_year_plan_ns_tt:0 "$SOV_modify_fyp_ns_intro$ \n£prod_eff Production Efficiency growth: §G+5.00%§! \nIndustrial Concern Cost: §G-15%§! \nConsumer Goods Factories: §Y+5.0%§!\n\n"
----
->  SOV_third_five_year_plan_ns_tt:0 "$SOV_modify_fyp_ns_intro$ \nIndustrial Concern Cost: §G-15%§! \nConsumer Goods Factories: §Y+5.0%§!\n\n"
-1471,1472c1471,1472
+1473,1474c1473,1474
 <  SOV_found_the_pcdi_ns_tt:0 "Add §Y$SOV_defense_industry_dynamic_modifier$§!, which grants (Civilian to Military Factory conversion cost: §G-20.00%§!, Production Efficiency Retention: §R-10.00%§!, £prod_eff_cap Production Efficiency Cap: §G+5.00%§!, £prod_eff Production Efficiency growth: §R-5.00%§!) \n\n"
 <  SOV_pc_of_mechanical_engineering_ns_tt:0 "$SOV_modify_defense_industry_ns_intro$ \n £prod_eff_cap Production Efficiency Cap: §G+5.00%§! \n £prod_eff Production Efficiency growth: §R-5.00%§! \n\n"
 ---

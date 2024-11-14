@@ -1,4 +1,6 @@
-6c6
+6,7c6,7
 < 		steel=14 #was 25
+< 		aluminium=11
 ---
-> 		steel=140 #was 25
+> 		steel = 140 #was 25
+> 		aluminium = 110

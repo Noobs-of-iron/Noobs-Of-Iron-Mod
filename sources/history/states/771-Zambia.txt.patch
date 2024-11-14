@@ -1,6 +1,8 @@
-8,9c8,9
-< 		chromium=35 # was: 64.000
-< 		tungsten=8 # was: 16.000
+8,10c8,10
+< 	resources = {
+< 		chromium = 18 # was: 64.000, then 35
+< 		tungsten = 4 # was: 16.000, then 8
 ---
-> 		chromium=350 # was: 64.000
-> 		tungsten=80 # was: 16.000
+> 	resources={
+> 		chromium = 180 # was: 64.000, then 35
+> 		tungsten = 40 # was: 16.000, then 8
