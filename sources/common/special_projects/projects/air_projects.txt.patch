@@ -1,0 +1,72 @@
+46,49c46,49
+< 		resources = {
+< 			steel = 4
+< 			aluminium = 4
+< 			rubber = 2
+---
+> 		resources={
+> 			steel = 40
+> 			aluminium = 40
+> 			rubber = 20
+222,224c222,224
+< 		resources = {
+< 			steel = 4
+< 			tungsten = 8
+---
+> 		resources={
+> 			steel = 40
+> 			tungsten = 80
+416,418c416,418
+< 		resources = {
+< 			aluminium = 24
+< 			rubber = 12
+---
+> 		resources={
+> 			aluminium = 240
+> 			rubber = 120
+636,638c636,638
+< 		resources = {
+< 			aluminium = 18
+< 			rubber = 8
+---
+> 		resources={
+> 			aluminium = 180
+> 			rubber = 80
+826,829c826,829
+< 		resources = {
+< 			chromium = 12
+< 			aluminium = 4
+< 			steel = 2
+---
+> 		resources={
+> 			chromium = 120
+> 			aluminium = 40
+> 			steel = 20
+1106,1109c1106,1109
+< 		resources = {
+< 			chromium = 18
+< 			aluminium = 10
+< 			steel = 4
+---
+> 		resources={
+> 			chromium = 180
+> 			aluminium = 100
+> 			steel = 40
+1381,1384c1381,1384
+< 		resources = {
+< 			aluminium = 24
+< 			chromium = 16
+< 			rubber = 8
+---
+> 		resources={
+> 			aluminium = 240
+> 			chromium = 160
+> 			rubber = 80
+1586,1588c1586,1588
+< 		resources = {
+< 			aluminium = 12
+< 			steel = 8
+---
+> 		resources={
+> 			aluminium = 120
+> 			steel = 80

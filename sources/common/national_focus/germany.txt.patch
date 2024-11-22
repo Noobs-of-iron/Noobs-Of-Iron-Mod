@@ -38,15 +38,73 @@
 <         	   amount = 2
 ---
 >         	   amount = 20
-11291c11291
+8148c8148
+< 		x = 17
+---
+> 		x = 15
+8217a8218,8220
+> 		allow_branch = {
+> 			always = no 
+> 		}
+8367,8381c8370
+< 			has_dlc = "La Resistance"
+< 			if = {
+< 				limit = {
+< 					has_game_rule = {
+< 						rule = obsolete_focus_branches_visibility
+< 						option = HIDE
+< 					}
+< 				}
+< 				NOT = {
+< 					OR = {
+< 						has_completed_focus = GER_oppose_hitler
+< 						has_completed_focus = GER_oppose_hitler_ww
+< 					}
+< 				}
+< 			}
+---
+> 			always = no 
+9081c9070
+< 		x = -14
+---
+> 		x = -10
+9478,9479c9467,9468
+< 		x = 17
+< 		y = 1
+---
+> 		x = 18
+> 		y = 5
+10660,10661c10649,10650
+< 		x = 2
+< 		y = 4
+---
+> 		x = 1
+> 		y = 10
+11291c11280
 < 		prerequisite = { focus = GER_reassert_eastern_claims }
 ---
 > 		prerequisite = { focus = GER_reassert_eastern_claims focus = GER_molotov_ribbentrop_pact}
-18617c18617
+13932c13921
+< 		x = 20
+---
+> 		x = 10
+14033c14022
+< 		x = 2
+---
+> 		x = 15
+14107a14097,14099
+> 		allow_branch = {
+> 			always = no 
+> 		}
+14335c14327
+< 		x = -1
+---
+> 		x = 11
+18617c18609
 < 						amount = 6
 ---
 > 						amount = 60
-20845,20856c20845
+20845,20856c20837
 < 			has_dlc = "Gotterdammerung" 
 < 			if = {
 < 				limit = {
@@ -61,7 +119,7 @@
 < 			}
 ---
 > 			always = no
-21173,21185c21162
+21173,21185c21154
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -77,31 +135,35 @@
 < 			}
 ---
 > 			always = no
-23533c23510
+21559c21528
+< 			has_dlc = "La Resistance" 
+---
+> 			always = no 
+23533c23502
 < 						amount = 6
 ---
 > 						amount = 60
-23537c23514
+23537c23506
 < 						amount = 3
 ---
 > 						amount = 30
-23541c23518
+23541c23510
 < 						amount = 3
 ---
 > 						amount = 30
-23558c23535
+23558c23527
 < 						amount = 6
 ---
 > 						amount = 60
-23562c23539
+23562c23531
 < 						amount = 3
 ---
 > 						amount = 30
-23566c23543
+23566c23535
 < 						amount = 3
 ---
 > 						amount = 30
-24957,24969c24934
+24957,24969c24926
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -117,7 +179,7 @@
 < 			}
 ---
 > 			always = no
-25093,25108c25058
+25093,25108c25050
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -136,7 +198,7 @@
 < 			}
 ---
 > 			always = no
-28384,28402c28334
+28384,28402c28326
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -158,7 +220,7 @@
 < 			}
 ---
 > 			always = no
-33868,33880c33800
+33868,33880c33792
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 
 < 			if = {
@@ -174,7 +236,7 @@
 < 			}
 ---
 > 			always = no
-34031,34045c33951
+34031,34045c33943
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -192,7 +254,7 @@
 < 			}
 ---
 > 			always = no
-34098,34109c34004
+34098,34109c33996
 < 			NOT = { has_dlc = "Gotterdammerung" }
 < 			if = {
 < 				limit = {
@@ -207,7 +269,7 @@
 < 			}
 ---
 > 			always = no
-35781,35795c35676
+35781,35795c35668
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -225,7 +287,7 @@
 < 			}
 ---
 > 			always = no
-37258c37139
+37258c37131
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

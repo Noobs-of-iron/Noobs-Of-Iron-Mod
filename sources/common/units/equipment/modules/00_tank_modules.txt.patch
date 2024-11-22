@@ -429,9 +429,11 @@
 < 			maximum_speed = -0.25
 ---
 > 
-1593c1619
+1592,1593c1618,1619
+< 			tungsten = 7 #SH Cannon: 5
 < 			chromium = 4 #SH Cannon: 2
 ---
+> 			tungsten = 70 #SH Cannon: 5
 > 			chromium = 40 #SH Cannon: 2
 1620,1622c1646,1648
 < 			tungsten = 5 #Heavy Howitzer: 1
@@ -441,10 +443,12 @@
 > 			tungsten = 50 #Heavy Howitzer: 1
 > 			chromium = 30 #Heavy Howitzer: 1
 > 			steel = 50 #Heavy Howitzer: 3
-1649,1650c1675,1676
+1648,1650c1674,1676
+< 			tungsten = 7 #Advanced AT Cannon: 2
 < 			chromium = 3 #Advanced AT Cannon: 1
 < 			steel = 4 #Advanced AT Cannon: 3
 ---
+> 			tungsten = 70 #Advanced AT Cannon: 2
 > 			chromium = 30 #Advanced AT Cannon: 1
 > 			steel = 40 #Advanced AT Cannon: 3
 1677,1678c1703,1704
@@ -453,9 +457,11 @@
 ---
 > 			tungsten = 30 #Advanced AA Cannon: 1
 > 			steel = 50 #Advanced AA Cannon: 3
-1710c1736
+1709,1710c1735,1736
+< 			tungsten = 6 #SH Cannon: 5
 < 			chromium = 3 #SH Cannon: 2
 ---
+> 			tungsten = 60 #SH Cannon: 5
 > 			chromium = 30 #SH Cannon: 2
 1737,1739c1763,1765
 < 			tungsten = 3 #Heavy Howitzer: 1
@@ -532,12 +538,10 @@
 ---
 > 			steel = 10 #Improved Rocket Launcher: 1
 > 			tungsten = 20 #Improved Rocket Launcher: 2
-2046a2076,2093
+2046a2076,2077
 > 
 > 
-> 		}
-> 	}
-> 
+2049a2081,2113
 > 	aphe_round = {
 > 		abbreviation = "aphe"
 > 		category = tank_special_module
@@ -551,9 +555,10 @@
 > 
 > 		build_cost_resources = {
 > 			steel = 10
-2047a2095
+> 		}
 > 
-2049a2098,2113
+> 	}
+> 
 > 		apcr_round = {
 > 		abbreviation = "apcr"
 > 		category = tank_special_module

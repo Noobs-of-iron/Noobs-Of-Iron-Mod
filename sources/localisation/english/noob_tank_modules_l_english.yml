@@ -1,3 +1,7 @@
 ﻿l_english:
+ aphe_round: "APHE rack"
+ aphe_round_desc: "A tank round that explodes after penetrating the hull deals devastating damage but reduces overall penetration power"
+ apcr_round: "APCR rack"
+ apcr_round_desc: "A tank round designed to penetrate armor with high impact and accuracy, delivering damage upon impact while maintaining strong penetration capabilities, though it deals less damage after penetration compared to other rounds due to the lack of explosive filler and shrapnel"
  expanded_fuel_tank:0 "Fuel Drum"
  expanded_fuel_tank_desc:0 "An externally mounted fuel drum designed to extend the operational range of an armored vehicle."

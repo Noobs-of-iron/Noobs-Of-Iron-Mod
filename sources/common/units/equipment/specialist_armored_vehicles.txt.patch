@@ -1,0 +1,8 @@
+60,62c60,62
+< 		resources = {
+< 			tungsten = 2
+< 			steel = 3
+---
+> 		resources={
+> 			tungsten = 20
+> 			steel = 30
