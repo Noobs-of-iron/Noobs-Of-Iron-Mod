@@ -4,3 +4,7 @@
 ---
 > 	resources={
 > 		chromium = 520 # was: 88
+22c22
+< 			industrial_complex = 2
+---
+> 			industrial_complex = 3
