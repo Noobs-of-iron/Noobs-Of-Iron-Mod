@@ -30,6 +30,78 @@
 < 					amount = 6
 ---
 > 					amount = 60
+1853,1857c1853,1857
+< 					steel > 24
+< 					aluminium > 19
+< 					oil > 14
+< 					tungsten > 9
+< 					chromium > 9
+---
+> 					steel > 240
+> 					aluminium > 190
+> 					oil > 140
+> 					tungsten > 90
+> 					chromium > 90
+1867,1871c1867,1871
+< 						steel > 25
+< 						aluminium > 20
+< 						oil > 15
+< 						tungsten > 10
+< 						chromium > 10
+---
+> 						steel > 250
+> 						aluminium > 200
+> 						oil > 150
+> 						tungsten > 100
+> 						chromium > 100
+1881c1881
+< 					amount > 799
+---
+> 					amount > 7999
+1887c1887
+< 						amount > 799
+---
+> 						amount > 7999
+1895c1895
+< 					amount > 499
+---
+> 					amount > 4999
+1901c1901
+< 						amount > 499
+---
+> 						amount > 4999
+1909c1909
+< 					amount > 99
+---
+> 					amount > 999
+1915c1915
+< 						amount > 99
+---
+> 						amount > 999
+1923c1923
+< 					amount > 99
+---
+> 					amount > 999
+1929c1929
+< 						amount > 99
+---
+> 						amount > 999
+2162c2162
+< 					amount > 149
+---
+> 					amount > 1499
+2168c2168
+< 						amount > 149
+---
+> 						amount > 1499
+2257c2257
+< 					amount > 99
+---
+> 					amount > 999
+2263c2263
+< 						amount > 99
+---
+> 						amount > 999
 2293c2293
 < 			modify_building_resources = {
 ---
@@ -38,6 +110,54 @@
 <         	   amount = 2
 ---
 >         	   amount = 20
+2345c2345
+< 					amount > 799 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 					amount > 7999 #This needs to correspond to the Bypass values in the previous focuses
+2351c2351
+< 						amount > 799 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 						amount > 7999 #This needs to correspond to the Bypass values in the previous focuses
+2359c2359
+< 					amount > 199 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 					amount > 1999 #This needs to correspond to the Bypass values in the previous focuses
+2365c2365
+< 						amount > 199 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 						amount > 1999 #This needs to correspond to the Bypass values in the previous focuses
+2373c2373
+< 					amount > 149 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 					amount > 1499 #This needs to correspond to the Bypass values in the previous focuses
+2379c2379
+< 						amount > 149 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 						amount > 1499 #This needs to correspond to the Bypass values in the previous focuses
+2387c2387
+< 					amount > 99 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 					amount > 999 #This needs to correspond to the Bypass values in the previous focuses
+2393c2393
+< 						amount > 99 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 						amount > 999 #This needs to correspond to the Bypass values in the previous focuses
+2401c2401
+< 					amount > 99 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 					amount > 999 #This needs to correspond to the Bypass values in the previous focuses
+2407c2407
+< 						amount > 99 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 						amount > 999 #This needs to correspond to the Bypass values in the previous focuses
+2415c2415
+< 					amount > 49 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 					amount > 499 #This needs to correspond to the Bypass values in the previous focuses
+2421c2421
+< 						amount > 49 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 						amount > 499 #This needs to correspond to the Bypass values in the previous focuses
 8148c8148
 < 		x = 17
 ---

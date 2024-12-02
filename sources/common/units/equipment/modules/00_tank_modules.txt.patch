@@ -413,29 +413,24 @@
 < 			reliability = 0.1
 ---
 > 			reliability = 0.2
-1513,1516c1538,1540
+1513,1516c1538
 < 		xp_cost = 30
 < 		multiply_stats = {
 < 			build_cost_ic = -0.05
 < 		}
 ---
 > 		xp_cost = 10
-> 		forbid_equipment_type = amphibious
-> 		forbid_equipment_type_exact_match = armor
-1538a1563,1564
-> 		forbid_equipment_type = amphibious
-> 		forbid_equipment_type_exact_match = armor
-1543c1569
+1543c1565
 < 			maximum_speed = -0.25
 ---
 > 
-1592,1593c1618,1619
+1592,1593c1614,1615
 < 			tungsten = 7 #SH Cannon: 5
 < 			chromium = 4 #SH Cannon: 2
 ---
 > 			tungsten = 70 #SH Cannon: 5
 > 			chromium = 40 #SH Cannon: 2
-1620,1622c1646,1648
+1620,1622c1642,1644
 < 			tungsten = 5 #Heavy Howitzer: 1
 < 			chromium = 3 #Heavy Howitzer: 1
 < 			steel = 5 #Heavy Howitzer: 3
@@ -443,7 +438,7 @@
 > 			tungsten = 50 #Heavy Howitzer: 1
 > 			chromium = 30 #Heavy Howitzer: 1
 > 			steel = 50 #Heavy Howitzer: 3
-1648,1650c1674,1676
+1648,1650c1670,1672
 < 			tungsten = 7 #Advanced AT Cannon: 2
 < 			chromium = 3 #Advanced AT Cannon: 1
 < 			steel = 4 #Advanced AT Cannon: 3
@@ -451,19 +446,19 @@
 > 			tungsten = 70 #Advanced AT Cannon: 2
 > 			chromium = 30 #Advanced AT Cannon: 1
 > 			steel = 40 #Advanced AT Cannon: 3
-1677,1678c1703,1704
+1677,1678c1699,1700
 < 			tungsten = 3 #Advanced AA Cannon: 1
 < 			steel = 5 #Advanced AA Cannon: 3
 ---
 > 			tungsten = 30 #Advanced AA Cannon: 1
 > 			steel = 50 #Advanced AA Cannon: 3
-1709,1710c1735,1736
+1709,1710c1731,1732
 < 			tungsten = 6 #SH Cannon: 5
 < 			chromium = 3 #SH Cannon: 2
 ---
 > 			tungsten = 60 #SH Cannon: 5
 > 			chromium = 30 #SH Cannon: 2
-1737,1739c1763,1765
+1737,1739c1759,1761
 < 			tungsten = 3 #Heavy Howitzer: 1
 < 			chromium = 2 #Heavy Howitzer: 1
 < 			steel = 4 #Heavy Howitzer: 3
@@ -471,7 +466,7 @@
 > 			tungsten = 30 #Heavy Howitzer: 1
 > 			chromium = 20 #Heavy Howitzer: 1
 > 			steel = 40 #Heavy Howitzer: 3
-1768,1770c1794,1796
+1768,1770c1790,1792
 < 			tungsten = 3 #Heavy Howitzer: 1
 < 			chromium = 2 #Heavy Howitzer: 1
 < 			steel = 4 #Heavy Howitzer: 3
@@ -479,10 +474,10 @@
 > 			tungsten = 30 #Heavy Howitzer: 1
 > 			chromium = 20 #Heavy Howitzer: 1
 > 			steel = 40 #Heavy Howitzer: 3
-1788a1815,1816
+1788a1811,1812
 > 		forbid_equipment_type = amphibious
 > 		forbid_equipment_type_exact_match = armor
-1796,1798c1824,1826
+1796,1798c1820,1822
 < 			tungsten = 4 #Advanced AT Cannon: 2
 < 			chromium = 2 #Advanced AT Cannon: 1
 < 			steel = 4 #Advanced AT Cannon: 3
@@ -490,13 +485,13 @@
 > 			tungsten = 40 #Advanced AT Cannon: 2
 > 			chromium = 20 #Advanced AT Cannon: 1
 > 			steel = 40 #Advanced AT Cannon: 3
-1824,1825c1852,1853
+1824,1825c1848,1849
 < 			tungsten = 2 #Advanced AA Cannon: 1
 < 			steel = 4 #Advanced AA Cannon: 3
 ---
 > 			tungsten = 20 #Advanced AA Cannon: 1
 > 			steel = 40 #Advanced AA Cannon: 3
-1856,1858c1884,1886
+1856,1858c1880,1882
 < 			tungsten = 1 #Improved Medium Cannon: 1
 < 			chromium = 1 #Improved Medium Cannon: 1
 < 			steel = 2 #Improved Medium Cannon: 2
@@ -504,7 +499,7 @@
 > 			tungsten = 10 #Improved Medium Cannon: 1
 > 			chromium = 10 #Improved Medium Cannon: 1
 > 			steel = 20 #Improved Medium Cannon: 2
-1886,1888c1914,1916
+1886,1888c1910,1912
 < 			tungsten = 1 #Heavy Howitzer: 1
 < 			chromium = 1 #Heavy Howitzer: 1
 < 			steel = 3 #Heavy Howitzer: 3
@@ -512,7 +507,7 @@
 > 			tungsten = 10 #Heavy Howitzer: 1
 > 			chromium = 10 #Heavy Howitzer: 1
 > 			steel = 30 #Heavy Howitzer: 3
-1914,1916c1942,1944
+1914,1916c1938,1940
 < 			tungsten = 2 #Advanced AT Cannon: 2
 < 			chromium = 1 #Advanced AT Cannon: 1
 < 			steel = 3 #Advanced AT Cannon: 3
@@ -520,28 +515,30 @@
 > 			tungsten = 20 #Advanced AT Cannon: 2
 > 			chromium = 10 #Advanced AT Cannon: 1
 > 			steel = 30 #Advanced AT Cannon: 3
-1941,1942c1969,1970
+1941,1942c1965,1966
 < 			tungsten = 1 #Advanced AA Cannon: 1
 < 			steel = 3 #Advanced AA Cannon: 3
 ---
 > 			tungsten = 10 #Advanced AA Cannon: 1
 > 			steel = 30 #Advanced AA Cannon: 3
-1954a1983
+1954a1979
 > 			build_cost_ic = 0.15
-1965c1994
+1965c1990
 < 			steel = 1 #Flamethrower: 0 
 ---
 > 			steel = 10 #Flamethrower: 0
-1991,1992c2020,2021
+1991,1992c2016,2017
 < 			steel = 1 #Improved Rocket Launcher: 1
 < 			tungsten = 2 #Improved Rocket Launcher: 2
 ---
 > 			steel = 10 #Improved Rocket Launcher: 1
 > 			tungsten = 20 #Improved Rocket Launcher: 2
-2046a2076,2077
+2046a2072,2089
 > 
 > 
-2049a2081,2113
+> 		}
+> 	}
+> 
 > 	aphe_round = {
 > 		abbreviation = "aphe"
 > 		category = tank_special_module
@@ -555,10 +552,9 @@
 > 
 > 		build_cost_resources = {
 > 			steel = 10
-> 		}
+2047a2091
 > 
-> 	}
-> 
+2049a2094,2109
 > 		apcr_round = {
 > 		abbreviation = "apcr"
 > 		category = tank_special_module
