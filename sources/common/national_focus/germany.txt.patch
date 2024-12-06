@@ -1,36 +1,36 @@
-526c526
+529c529
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-529c529
+532c532
 <         	   amount = 1
 ---
->         	   amount = 10
-623c623
+>         	   amount = 20
+626c626
 < 					amount = 8
 ---
 > 					amount = 80
-627c627
+630c630
 < 					amount = 2
 ---
 > 					amount = 20
-631c631
+634c634
 < 					amount = 2
 ---
 > 					amount = 20
-1563c1563
+1566c1566
 < 					amount = 2
 ---
 > 					amount = 20
-1567c1567
+1570c1570
 < 					amount = 2
 ---
 > 					amount = 20
-1790c1790
+1793c1793
 < 					amount = 6
 ---
 > 					amount = 60
-1853,1857c1853,1857
+1856,1860c1856,1860
 < 					steel > 24
 < 					aluminium > 19
 < 					oil > 14
@@ -42,131 +42,127 @@
 > 					oil > 140
 > 					tungsten > 90
 > 					chromium > 90
-1867,1871c1867,1871
+1870,1871c1870,1871
 < 						steel > 25
 < 						aluminium > 20
-< 						oil > 15
-< 						tungsten > 10
-< 						chromium > 10
 ---
 > 						steel > 250
 > 						aluminium > 200
-> 						oil > 150
+1873,1874c1873,1874
+< 						tungsten > 10
+< 						chromium > 10
+---
 > 						tungsten > 100
 > 						chromium > 100
-1881c1881
+1884c1884
 < 					amount > 799
 ---
 > 					amount > 7999
-1887c1887
+1890c1890
 < 						amount > 799
 ---
 > 						amount > 7999
-1895c1895
+1898c1898
 < 					amount > 499
 ---
 > 					amount > 4999
-1901c1901
+1904c1904
 < 						amount > 499
 ---
 > 						amount > 4999
-1909c1909
+1912c1912
 < 					amount > 99
 ---
 > 					amount > 999
-1915c1915
+1918c1918
 < 						amount > 99
 ---
 > 						amount > 999
-1923c1923
+1926c1926
 < 					amount > 99
 ---
 > 					amount > 999
-1929c1929
+1932c1932
 < 						amount > 99
 ---
 > 						amount > 999
-2162c2162
-< 					amount > 149
+1989,1990c1989,1990
+< 						steel > 19
+< 						aluminium > 10
 ---
-> 					amount > 1499
-2168c2168
-< 						amount > 149
+> 						steel > 190
+> 						aluminium > 100
+1992,1993c1992,1993
+< 						tungsten > 9
+< 						chromium > 9
 ---
-> 						amount > 1499
-2257c2257
+> 						tungsten > 90
+> 						chromium > 90
+2260c2260
 < 					amount > 99
 ---
 > 					amount > 999
-2263c2263
+2266c2266
 < 						amount > 99
 ---
 > 						amount > 999
-2293c2293
+2296c2296
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-2296c2296
+2299c2299
 <         	   amount = 2
 ---
->         	   amount = 20
-2345c2345
+>         	   amount = 40
+2348c2348
 < 					amount > 799 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 					amount > 7999 #This needs to correspond to the Bypass values in the previous focuses
-2351c2351
+2354c2354
 < 						amount > 799 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 						amount > 7999 #This needs to correspond to the Bypass values in the previous focuses
-2359c2359
+2362c2362
 < 					amount > 199 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 					amount > 1999 #This needs to correspond to the Bypass values in the previous focuses
-2365c2365
+2368c2368
 < 						amount > 199 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 						amount > 1999 #This needs to correspond to the Bypass values in the previous focuses
-2373c2373
-< 					amount > 149 #This needs to correspond to the Bypass values in the previous focuses
----
-> 					amount > 1499 #This needs to correspond to the Bypass values in the previous focuses
-2379c2379
-< 						amount > 149 #This needs to correspond to the Bypass values in the previous focuses
----
-> 						amount > 1499 #This needs to correspond to the Bypass values in the previous focuses
-2387c2387
+2390c2390
 < 					amount > 99 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 					amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2393c2393
+2396c2396
 < 						amount > 99 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 						amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2401c2401
+2404c2404
 < 					amount > 99 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 					amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2407c2407
+2410c2410
 < 						amount > 99 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 						amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2415c2415
+2418c2418
 < 					amount > 49 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 					amount > 499 #This needs to correspond to the Bypass values in the previous focuses
-2421c2421
+2424c2424
 < 						amount > 49 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 						amount > 499 #This needs to correspond to the Bypass values in the previous focuses
-8148c8148
+8151c8151
 < 		x = 17
 ---
 > 		x = 15
-8217a8218,8220
+8220a8221,8223
 > 		allow_branch = {
 > 			always = no 
 > 		}
-8367,8381c8370
+8370,8384c8373
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -183,48 +179,88 @@
 < 				}
 < 			}
 ---
-> 			always = no 
-9081c9070
+> 			always = no
+9091c9080
 < 		x = -14
 ---
 > 		x = -10
-9478,9479c9467,9468
+9488,9489c9477,9478
 < 		x = 17
 < 		y = 1
 ---
 > 		x = 18
 > 		y = 5
-10660,10661c10649,10650
+10763,10764c10752,10753
 < 		x = 2
 < 		y = 4
 ---
 > 		x = 1
 > 		y = 10
-11291c11280
+11394c11383
 < 		prerequisite = { focus = GER_reassert_eastern_claims }
 ---
 > 		prerequisite = { focus = GER_reassert_eastern_claims focus = GER_molotov_ribbentrop_pact}
-13932c13921
+14035c14024
 < 		x = 20
 ---
 > 		x = 10
-14033c14022
+14136c14125
 < 		x = 2
 ---
 > 		x = 15
-14107a14097,14099
+14210a14200,14202
 > 		allow_branch = {
 > 			always = no 
 > 		}
-14335c14327
+14438c14430
 < 		x = -1
 ---
 > 		x = 11
-18617c18609
+18720c18712
 < 						amount = 6
 ---
 > 						amount = 60
-20845,20856c20837
+18741c18733
+< 								amount > 19
+---
+> 								amount > 190
+18746c18738
+< 								amount > 19
+---
+> 								amount > 190
+18751c18743
+< 								amount > 19
+---
+> 								amount > 190
+18756c18748
+< 								amount > 19
+---
+> 								amount > 190
+18761c18753
+< 								amount > 19
+---
+> 								amount > 190
+18784c18776
+< 								amount > 19
+---
+> 								amount > 190
+18789c18781
+< 								amount > 19
+---
+> 								amount > 190
+18794c18786
+< 								amount > 19
+---
+> 								amount > 190
+18799c18791
+< 								amount > 19
+---
+> 								amount > 190
+18804c18796
+< 								amount > 19
+---
+> 								amount > 190
+20948,20959c20940
 < 			has_dlc = "Gotterdammerung" 
 < 			if = {
 < 				limit = {
@@ -239,7 +275,7 @@
 < 			}
 ---
 > 			always = no
-21173,21185c21154
+21276,21288c21257
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -255,35 +291,36 @@
 < 			}
 ---
 > 			always = no
-21559c21528
-< 			has_dlc = "La Resistance" 
----
+21660a21630,21633
+> 		allow_branch = {
 > 			always = no 
-23533c23502
+> 		}
+> 
+23632c23605
 < 						amount = 6
 ---
 > 						amount = 60
-23537c23506
+23636c23609
 < 						amount = 3
 ---
 > 						amount = 30
-23541c23510
+23640c23613
 < 						amount = 3
 ---
 > 						amount = 30
-23558c23527
+23657c23630
 < 						amount = 6
 ---
 > 						amount = 60
-23562c23531
+23661c23634
 < 						amount = 3
 ---
 > 						amount = 30
-23566c23535
+23665c23638
 < 						amount = 3
 ---
 > 						amount = 30
-24957,24969c24926
+25056,25068c25029
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -299,7 +336,7 @@
 < 			}
 ---
 > 			always = no
-25093,25108c25050
+25192,25207c25153
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -318,7 +355,7 @@
 < 			}
 ---
 > 			always = no
-28384,28402c28326
+28483,28501c28429
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -340,7 +377,7 @@
 < 			}
 ---
 > 			always = no
-33868,33880c33792
+33967,33979c33895
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 
 < 			if = {
@@ -356,7 +393,7 @@
 < 			}
 ---
 > 			always = no
-34031,34045c33943
+34130,34144c34046
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -374,7 +411,7 @@
 < 			}
 ---
 > 			always = no
-34098,34109c33996
+34197,34208c34099
 < 			NOT = { has_dlc = "Gotterdammerung" }
 < 			if = {
 < 				limit = {
@@ -389,7 +426,7 @@
 < 			}
 ---
 > 			always = no
-35781,35795c35668
+35880,35894c35771
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -407,7 +444,7 @@
 < 			}
 ---
 > 			always = no
-37258c37131
+37357c37234
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---
