@@ -10,49 +10,49 @@
 < 	ALERT_SFX_COOLDOWN_DAYS = 14,					-- After playing an alert sound, don't play the same sound for XXX days, even if it fires again.
 ---
 > 	ALERT_SFX_COOLDOWN_DAYS = 10,					-- After playing an alert sound, don't play the same sound for XXX days, even if it fires again.
-137c137
+133c133
 < 	VOLUNTEERS_DIVISIONS_REQUIRED = 30,				-- This many divisons are required for the country to be able to send volunteers.
 ---
 > 	VOLUNTEERS_DIVISIONS_REQUIRED = 15,				-- This many divisons are required for the country to be able to send volunteers.
-204c204
+200c200
 < 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.005,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
 ---
 > 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.0005,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
-351c351
+347c347
 < 	POLITICAL_POWER_UPPER_CAP = 2000.0,				-- Max amount of political power country should have
 ---
 > 	POLITICAL_POWER_UPPER_CAP = 20000.0,			-- Max amount of political power country should have
-422c422
+418c418
 < 	SPECIAL_FORCES_CAP_BASE = 0.05,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
 ---
 > 	SPECIAL_FORCES_CAP_BASE = 0.02,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
-433c433
+429c429
 < 	SCORCHED_EARTH_STATE_COST = 5,					-- pp cost to scorch a state
 ---
 > 	SCORCHED_EARTH_STATE_COST = 3,					-- pp cost to scorch a state
-587c587
+583c583
 < 	MAX_EQUIPMENT_RESOURCES_NEED = 3, 	-- Max number of different strategic resources an equipment can be dependent on.
 ---
 > 	MAX_EQUIPMENT_RESOURCES_NEED = 4, 	-- Max number of different strategic resources an equipment can be dependent on.
-622c622
+618c618
 < 	PRODUCTION_RESOURCE_LACK_PENALTY = -0.05,			-- Penalty decrease while lack of resource per factory
 ---
 > 	PRODUCTION_RESOURCE_LACK_PENALTY = -0.005,			-- Penalty decrease while lack of resource per factory
-634,635c634,635
+630,631c630,631
 < 	EQUIPMENT_MODULE_ADD_XP_COST = 5.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 < 	EQUIPMENT_MODULE_REPLACE_XP_COST = 6.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
 ---
 > 	EQUIPMENT_MODULE_ADD_XP_COST = 3.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 > 	EQUIPMENT_MODULE_REPLACE_XP_COST = 5.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
-652c652
+648c648
 < 	MAX_CIV_FACTORIES_PER_CONTRACT = 15,							-- Max number of factories that can be assigned for paying single contract.
 ---
 > 	MAX_CIV_FACTORIES_PER_CONTRACT = 150,							-- Max number of factories that can be assigned for paying single contract.
-673c673
+669c669
 < 	BASE_RESEARCH_POINTS_SAVED = 30.0,		-- Base amount of research points a country can save per slot.
 ---
 > 	BASE_RESEARCH_POINTS_SAVED = 50.0,		-- Base amount of research points a country can save per slot.
-826,828c826,828
+822,824c822,824
 < 	MAX_ARMY_EXPERIENCE = 500,			--Max army experience a country can store
 < 	MAX_NAVY_EXPERIENCE = 500,			--Max navy experience a country can store
 < 	MAX_AIR_EXPERIENCE = 500,				--Max air experience a country can store
@@ -60,37 +60,37 @@
 > 	MAX_ARMY_EXPERIENCE = 999,			--Max army experience a country can store
 > 	MAX_NAVY_EXPERIENCE = 999,			--Max navy experience a country can store
 > 	MAX_AIR_EXPERIENCE = 999,				--Max air experience a country can store
-894c894
+890c890
 < 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0001,
 ---
 > 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0002,
-953c953
+949c949
 < 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.2,       -- percentage of manpower returned when an encircled unit is disbanded
 ---
 > 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0,       -- percentage of manpower returned when an encircled unit is disbanded
-1032c1032
+1028c1028
 < 	PARADROP_HOURS = 48,							-- time paratroopers suffer penalties in combat
 ---
 > 	PARADROP_HOURS = 72,							-- time paratroopers suffer penalties in combat
-1165c1165
+1161c1161
 < 	ARMY_FUEL_COST_MULT = 0.5,						-- fuel cost multiplier for all army related stuff
 ---
 > 	ARMY_FUEL_COST_MULT = 0.70,						-- fuel cost multiplier for all army related stuff
-2040c2040
+2036c2036
 < 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.2,		-- The percentage of manpower returned when an encircled unit is disbanded
 ---
 > 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0,		-- The percentage of manpower returned when an encircled unit is disbanded
-2066,2067c2066,2067
+2062,2063c2062,2063
 < 	BASE_TRADE_FACTOR = 150,					-- This is the base trade factor
 < 	PUPPET_MASTER_TRADE_FACTOR = 400,			-- This is priority for puppet master
 ---
 > 	BASE_TRADE_FACTOR = 1500,					-- This is the base trade factor
 > 	PUPPET_MASTER_TRADE_FACTOR = 4000,			-- This is priority for puppet master
-3638c3638
+3629c3629
 < 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 ---
 > 	RECON_PLANE_INTEL_BASE = 0.05, 				-- intel base amount for a strategic area per plane
-3981c3981
+3972c3972
 < 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 60.0,
 ---
 > 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 400.0,
