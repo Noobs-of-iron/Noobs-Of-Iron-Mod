@@ -1,36 +1,36 @@
-520c520
+529c529
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-523c523
+532c532
 <         	   amount = 1
 ---
 >         	   amount = 20
-617c617
+626c626
 < 					amount = 8
 ---
 > 					amount = 80
-621c621
+630c630
 < 					amount = 2
 ---
 > 					amount = 20
-625c625
+634c634
 < 					amount = 2
 ---
 > 					amount = 20
-1557c1557
+1566c1566
 < 					amount = 2
 ---
 > 					amount = 20
-1561c1561
+1570c1570
 < 					amount = 2
 ---
 > 					amount = 20
-1784c1784
+1793c1793
 < 					amount = 6
 ---
 > 					amount = 60
-1847,1851c1847,1851
+1856,1860c1856,1860
 < 					steel > 24
 < 					aluminium > 19
 < 					oil > 14
@@ -42,127 +42,127 @@
 > 					oil > 140
 > 					tungsten > 90
 > 					chromium > 90
-1861,1862c1861,1862
+1870,1871c1870,1871
 < 						steel > 25
 < 						aluminium > 20
 ---
 > 						steel > 250
 > 						aluminium > 200
-1864,1865c1864,1865
+1873,1874c1873,1874
 < 						tungsten > 10
 < 						chromium > 10
 ---
 > 						tungsten > 100
 > 						chromium > 100
-1875c1875
+1884c1884
 < 					amount > 799
 ---
 > 					amount > 7999
-1881c1881
+1890c1890
 < 						amount > 799
 ---
 > 						amount > 7999
-1889c1889
+1898c1898
 < 					amount > 499
 ---
 > 					amount > 4999
-1895c1895
+1904c1904
 < 						amount > 499
 ---
 > 						amount > 4999
-1903c1903
+1912c1912
 < 					amount > 99
 ---
 > 					amount > 999
-1909c1909
+1918c1918
 < 						amount > 99
 ---
 > 						amount > 999
-1917c1917
+1926c1926
 < 					amount > 99
 ---
 > 					amount > 999
-1923c1923
+1932c1932
 < 						amount > 99
 ---
 > 						amount > 999
-1980,1981c1980,1981
+1989,1990c1989,1990
 < 						steel > 19
 < 						aluminium > 10
 ---
 > 						steel > 190
 > 						aluminium > 100
-1983,1984c1983,1984
+1992,1993c1992,1993
 < 						tungsten > 9
 < 						chromium > 9
 ---
 > 						tungsten > 90
 > 						chromium > 90
-2251c2251
+2260c2260
 < 					amount > 99
 ---
 > 					amount > 999
-2257c2257
+2266c2266
 < 						amount > 99
 ---
 > 						amount > 999
-2287c2287
+2296c2296
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-2290c2290
+2299c2299
 <         	   amount = 2
 ---
 >         	   amount = 40
-2339c2339
+2348c2348
 < 					amount > 799 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 					amount > 7999 #This needs to correspond to the Bypass values in the previous focuses
-2345c2345
+2354c2354
 < 						amount > 799 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 						amount > 7999 #This needs to correspond to the Bypass values in the previous focuses
-2353c2353
+2362c2362
 < 					amount > 199 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 					amount > 1999 #This needs to correspond to the Bypass values in the previous focuses
-2359c2359
+2368c2368
 < 						amount > 199 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 						amount > 1999 #This needs to correspond to the Bypass values in the previous focuses
-2381c2381
+2390c2390
 < 					amount > 99 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 					amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2387c2387
+2396c2396
 < 						amount > 99 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 						amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2395c2395
+2404c2404
 < 					amount > 99 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 					amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2401c2401
+2410c2410
 < 						amount > 99 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 						amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2409c2409
+2418c2418
 < 					amount > 49 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 					amount > 499 #This needs to correspond to the Bypass values in the previous focuses
-2415c2415
+2424c2424
 < 						amount > 49 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 						amount > 499 #This needs to correspond to the Bypass values in the previous focuses
-8142c8142
+8151c8151
 < 		x = 17
 ---
 > 		x = 15
-8211a8212,8214
+8220a8221,8223
 > 		allow_branch = {
 > 			always = no 
 > 		}
-8361,8375c8364
+8370,8384c8373
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -180,87 +180,93 @@
 < 			}
 ---
 > 			always = no
-9075c9064
+9091c9080
 < 		x = -14
 ---
 > 		x = -10
-9472,9473c9461,9462
+9488,9489c9477,9478
 < 		x = 17
 < 		y = 1
 ---
 > 		x = 18
 > 		y = 5
-10654,10655c10643,10644
+10542a10532,10533
+> 		allow_branch = { always = no }
+> 
+10763,10764c10754,10755
 < 		x = 2
 < 		y = 4
 ---
 > 		x = 1
 > 		y = 10
-11281c11270
+11332a11324,11325
+> 		allow_branch = { always = no }
+> 
+11394c11387
 < 		prerequisite = { focus = GER_reassert_eastern_claims }
 ---
 > 		prerequisite = { focus = GER_reassert_eastern_claims focus = GER_molotov_ribbentrop_pact}
-13889c13878
+14035c14028
 < 		x = 20
 ---
 > 		x = 10
-13990c13979
+14136c14129
 < 		x = 2
 ---
 > 		x = 15
-14064a14054,14056
+14210a14204,14206
 > 		allow_branch = {
 > 			always = no 
 > 		}
-14292c14284
+14438c14434
 < 		x = -1
 ---
 > 		x = 11
-18559c18551
+18720c18716
 < 						amount = 6
 ---
 > 						amount = 60
-18580c18572
+18741c18737
 < 								amount > 19
 ---
 > 								amount > 190
-18585c18577
+18746c18742
 < 								amount > 19
 ---
 > 								amount > 190
-18590c18582
+18751c18747
 < 								amount > 19
 ---
 > 								amount > 190
-18595c18587
+18756c18752
 < 								amount > 19
 ---
 > 								amount > 190
-18600c18592
+18761c18757
 < 								amount > 19
 ---
 > 								amount > 190
-18623c18615
+18784c18780
 < 								amount > 19
 ---
 > 								amount > 190
-18628c18620
+18789c18785
 < 								amount > 19
 ---
 > 								amount > 190
-18633c18625
+18794c18790
 < 								amount > 19
 ---
 > 								amount > 190
-18638c18630
+18799c18795
 < 								amount > 19
 ---
 > 								amount > 190
-18643c18635
+18804c18800
 < 								amount > 19
 ---
 > 								amount > 190
-20787,20798c20779
+20948,20959c20944
 < 			has_dlc = "Gotterdammerung" 
 < 			if = {
 < 				limit = {
@@ -275,7 +281,7 @@
 < 			}
 ---
 > 			always = no
-21104,21116c21085
+21276,21288c21261
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -291,36 +297,36 @@
 < 			}
 ---
 > 			always = no
-21488a21458,21461
+21660a21634,21637
 > 		allow_branch = {
 > 			always = no 
 > 		}
 > 
-23435c23408
+23632c23609
 < 						amount = 6
 ---
 > 						amount = 60
-23439c23412
+23636c23613
 < 						amount = 3
 ---
 > 						amount = 30
-23443c23416
+23640c23617
 < 						amount = 3
 ---
 > 						amount = 30
-23460c23433
+23657c23634
 < 						amount = 6
 ---
 > 						amount = 60
-23464c23437
+23661c23638
 < 						amount = 3
 ---
 > 						amount = 30
-23468c23441
+23665c23642
 < 						amount = 3
 ---
 > 						amount = 30
-24853,24865c24826
+25056,25068c25033
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -336,7 +342,7 @@
 < 			}
 ---
 > 			always = no
-24979,24994c24940
+25192,25207c25157
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -355,7 +361,7 @@
 < 			}
 ---
 > 			always = no
-28259,28277c28205
+28483,28501c28433
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -377,7 +383,7 @@
 < 			}
 ---
 > 			always = no
-33743,33755c33671
+33967,33979c33899
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 
 < 			if = {
@@ -393,7 +399,7 @@
 < 			}
 ---
 > 			always = no
-33906,33920c33822
+34130,34144c34050
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -411,7 +417,7 @@
 < 			}
 ---
 > 			always = no
-33973,33984c33875
+34197,34208c34103
 < 			NOT = { has_dlc = "Gotterdammerung" }
 < 			if = {
 < 				limit = {
@@ -426,7 +432,7 @@
 < 			}
 ---
 > 			always = no
-35653,35667c35544
+35880,35894c35775
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -444,7 +450,7 @@
 < 			}
 ---
 > 			always = no
-37111c36988
+37357c37238
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---
