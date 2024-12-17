@@ -7,4 +7,8 @@
 20c20
 < 			industrial_complex = 4
 ---
-> 			industrial_complex = 6
+> 			industrial_complex = 7
+22c22
+< 			dockyard = 4
+---
+> 			dockyard = 3

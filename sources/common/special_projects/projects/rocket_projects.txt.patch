@@ -8,7 +8,7 @@
 > 			steel = 80
 > 			aluminium = 80
 > 			tungsten = 20
-333,336c333,336
+348,351c348,351
 < 		resources = {
 < 			steel = 9 
 < 			aluminium = 9
@@ -18,7 +18,7 @@
 > 			steel = 90 
 > 			aluminium = 90
 > 			chromium = 90
-538,541c538,541
+571,574c571,574
 < 		resources = {
 < 			steel = 12 
 < 			aluminium = 9
@@ -28,7 +28,7 @@
 > 			steel = 120 
 > 			aluminium = 90
 > 			chromium = 90
-674,677c674,677
+724,727c724,727
 < 		resources = {
 < 			steel = 12 
 < 			aluminium = 12
@@ -38,7 +38,7 @@
 > 			steel = 120 
 > 			aluminium = 120
 > 			chromium = 120
-839,842c839,842
+895,898c895,898
 < 		resources = {
 < 			steel = 6 
 < 			aluminium = 9
@@ -48,7 +48,7 @@
 > 			steel = 60 
 > 			aluminium = 90
 > 			tungsten = 60
-1031,1034c1031,1034
+1095,1098c1095,1098
 < 		resources = {
 < 			tungsten = 6 
 < 			aluminium = 12
