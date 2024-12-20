@@ -1,6 +1,11 @@
-4970a4971,4975
+4970a4971,4980
 > 					if = {
-> 						limit = { has_war = no }
+> 						limit = { 
+> 							AND = {
+> 								has_war = no
+> 								has_dynamic_modifier = { modifier = GER_economy_of_conquest_modifier }
+> 								}
+> 							}
 > 						add_to_variable = { GER_industrial_consumer_goods_factor = GER_monthly_consumer_goods_increase }
 > 
 > 					}
