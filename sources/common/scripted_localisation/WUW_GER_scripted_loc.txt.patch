@@ -1,0 +1,15 @@
+15,18c15
+< 			OR = {
+< 				has_dynamic_modifier = { modifier = GER_mefo_bills_modifier }
+< 				has_dynamic_modifier = { modifier = GER_economy_of_conquest_modifier }
+< 			}
+---
+> 			has_dynamic_modifier = { modifier = GER_mefo_bills_modifier }
+21a19,25
+> 	}
+> 	text = {
+> 		trigger = {
+> 			has_dynamic_modifier = { modifier = GER_economy_of_conquest_modifier }			
+> 			check_variable = { GER_industrial_consumer_goods_factor < 1 }
+> 		}
+> 		localization_key = GER_increasing_cg_tt_conquest 
