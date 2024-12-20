@@ -1,3 +1,6 @@
 ﻿l_english:
   fuel_company: "Fuel Logistics Company"
   fuel_company_desc: "Handles transportation and distribution of fuel, providing greater efficiency and autonomy"
+
+  semi_motorized: "Semi-Motorized Infantry"
+  semi_motorized_desc: "Semi-motorized infantry has enough vehicles to transport its supplies and heavy equipment, but a regular grunt still has to march on foot"

@@ -1,4 +1,45 @@
-16c16
+1,3c1,4
+< state = {
+< 	id = 530
+< 	name = "STATE_530" # Shikoku
+---
+> state=
+> {
+> 	id=530
+> 	name="STATE_530" # Shikoku
+5d5
+< 
+7,9c7,8
+< 
+< 	history = {
+< 
+---
+> 	history=
+> 	{
+12d10
+< 
+15a14
+> 			
+17c16,17
 < 			industrial_complex = 2
 ---
 > 			industrial_complex = 3
+> 
+21,25c21
+< 			7197 8 # Kochi
+< 		}
+< 
+< 		victory_points = {
+< 			4179 10 # Matsuyama
+---
+> 			7197 10
+27d22
+< 
+29c24
+< 	provinces = {
+---
+> 	provinces={
+33c28
+< 	local_supplies = 0.0 
+---
+> 	local_supplies=0.0 

@@ -2,5 +2,5 @@
 < 		steel=6 #was 3 was: 4
 < 		aluminium=40 # was: 194
 ---
-> 		steel=60 #was 3 was: 4
-> 		aluminium=400 # was: 194
+> 		steel = 60 #was 3 was: 4
+> 		aluminium = 400 # was: 194

@@ -1,4 +1,6 @@
-11c11
+10,11c10,11
+< 		oil=180 # was: 350
 < 		aluminium=8 # was: 14
 ---
-> 		aluminium=80 # was: 14
+> 		oil = 180 # was: 350
+> 		aluminium = 80 # was: 14

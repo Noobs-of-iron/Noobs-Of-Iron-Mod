@@ -2,5 +2,9 @@
 < 		steel=27 # was: 35
 < 		tungsten=8 # was: 10
 ---
-> 		steel=270 # was: 35
-> 		tungsten=80 # was: 10
+> 		steel = 270 # was: 35
+> 		tungsten = 80 # was: 10
+19c19
+< 			industrial_complex = 2
+---
+> 			industrial_complex = 3

@@ -2,7 +2,10 @@
 < 			category = category_artillery
 ---
 > 			category = category_all_armor
-308,313c308,313
+221a222,223
+> 		transport = armored_car_equipment
+> 
+308,313c310,315
 < 		# Support nerfs to combat abilities
 < 		defense = -0.6
 < 		breakthrough = -0.6

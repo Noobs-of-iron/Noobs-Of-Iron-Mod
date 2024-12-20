@@ -1,4 +1,10 @@
-9c9
+8,9c8,9
+< 	resources = {
 < 		aluminium = 1
 ---
+> 	resources={
 > 		aluminium = 10
+11c11
+< 	resources = {
+---
+> 	resources={

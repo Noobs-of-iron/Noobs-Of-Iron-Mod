@@ -1,4 +1,4 @@
 10c10
 < 		steel=21 # was: 36
 ---
-> 		steel=210 # was: 36
+> 		steel = 210 # was: 36

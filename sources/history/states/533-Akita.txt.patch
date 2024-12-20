@@ -1,7 +1,7 @@
 8c8
 < 		steel=27 # was: 35
 ---
-> 		steel=780 # was: 102
+> 		steel = 1070 # was: 35
 17c17
 < 			industrial_complex = 2
 ---

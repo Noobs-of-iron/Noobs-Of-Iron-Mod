@@ -1,4 +1,6 @@
-10c10
+9,10c9,10
+< 	resources = {
 < 		aluminium=9 # was: 16
 ---
-> 		aluminium=90 # was: 16
+> 	resources={
+> 		aluminium = 90 # was: 16

@@ -1,0 +1,10 @@
+72c72
+< 		resources = {
+---
+> 		resources={
+74,75c74,75
+< 			aluminium = 8
+< 			rubber = 4
+---
+> 			aluminium = 80
+> 			rubber = 40

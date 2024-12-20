@@ -1,16 +1,98 @@
-1397c1397
+1c1
+< technologies = {
+---
+>   technologies = {
+27c27
+< 			position = { x = 0 y = 0 }
+---
+> 			position = { x = 1 y = 0 }
+48a49,53
+> 		
+> 		path = {
+> 			leads_to_tech = heavy_industrial_crane
+> 			research_cost_coeff = 1
+> 		}
+60c65
+< 			position = { x = 0 y = 4 }
+---
+> 			position = { x = 1 y = 4 }
+92c97
+< 			position = { x = 0 y = 6 }
+---
+> 			position = { x = 1 y = 6 }
+135c140
+< 			position = { x = 0 y = 8 }
+---
+> 			position = { x = 1 y = 8 }
+167c172
+< 			position = { x = -1 y = 10 }
+---
+> 			position = { x = 0 y = 10 }
+199c204
+< 			position = { x = 1 y = 10 }
+---
+> 			position = { x = 2 y = 10 }
+237c242
+< 			position = { x = 2 y = 4 }
+---
+> 			position = { x = 3 y = 4 }
+269c274
+< 			position = { x = 2 y = 6 }
+---
+> 			position = { x = 3 y = 6 }
+312c317
+< 			position = { x = 4 y = 2 }
+---
+> 			position = { x = 5 y = 2 }
+380c385
+< 			position = { x = 4 y = 4 }
+---
+> 			position = { x = 5 y = 4 }
+419c424
+< 			position = { x = 4 y = 6 }
+---
+> 			position = { x = 5 y = 6 }
+457c462
+< 			position = { x = 4 y = 8 }
+---
+> 			position = { x = 5 y = 8 }
+490c495
+< 			position = { x = 4 y = 10 }
+---
+> 			position = { x = 5 y = 10 }
+539c544
+< 			position = { x = 6 y = 2 }
+---
+> 			position = { x = 7 y = 2 }
+610c615
+< 			position = { x = 6 y = 4 }
+---
+> 			position = { x = 7 y = 4 }
+651c656
+< 			position = { x = 6 y = 6 }
+---
+> 			position = { x = 7 y = 6 }
+692c697
+< 			position = { x = 6 y = 8 }
+---
+> 			position = { x = 7 y = 8 }
+729c734
+< 			position = { x = 6 y = 10 }
+---
+> 			position = { x = 7 y = 10 }
+1402c1407
 < 				amount = 1
 ---
 > 				amount = 10
-1457c1457
+1467c1472
 < 				amount = 1
 ---
 > 				amount = 10
-1517c1517
+1527c1532
 < 				amount = 1
 ---
 > 				amount = 10
-1577c1577
+1587c1592
 < 				amount = 1
 ---
 > 				amount = 10

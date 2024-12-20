@@ -1,4 +1,4 @@
 9c9
 < 		steel=8 # was: 12
 ---
-> 		steel=80 # was: 12
+> 		steel = 80 # was: 12

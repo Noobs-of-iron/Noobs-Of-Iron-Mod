@@ -1,4 +1,9 @@
-49512a49513,49959
+49512c49512,50092
+< 		texturefile = "gfx/interface/goals/goal_generic_major_war.dds"		
+---
+> 		texturefile = "gfx/interface/goals/goal_generic_major_war.dds"
+> 		legacy_lazy_load = no
+> 	}
 > 	###########
 > 	### NOI ###
 > 	###########
@@ -446,7 +451,6 @@
 > 		}
 > 		legacy_lazy_load = no
 > 	}	
-49513a49961,50119
 > 	SpriteType = {
 > 		name = "GFX_goal_SIA_empire_of_great_thailand_shine"
 > 		texturefile = "gfx/interface/goals/noim_goal_empire_of_great_thailand.dds"		
@@ -578,7 +582,7 @@
 > 	SpriteType = {
 > 		name = "GFX_goal_SIA_mountain_shine"
 > 		texturefile = "gfx/interface/goals/noim_goal_sia_mountain.dds"		
-> 		effectFile = "gfx/FX/buttonstate.lua"
+49513a50094,50119
 > 		animation = {
 > 			animationmaskfile = "gfx/interface/goals/noim_goal_sia_mountain.dds"		
 > 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
@@ -604,5 +608,4 @@
 > 			animationrotationoffset = { x = 0.0 y = 0.0 }
 > 			animationtexturescale = { x = 1.0 y = 1.0 } 
 > 		}
-> 		legacy_lazy_load = no
-> 	}			
+> 

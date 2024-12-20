@@ -1,4 +1,4 @@
 10c10
 < 		tungsten=8 # was: 10
 ---
-> 		tungsten=80 # was: 10
+> 		tungsten = 80 # was: 10

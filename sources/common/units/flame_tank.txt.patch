@@ -1,0 +1,21 @@
+39a40,41
+> 		transport = light_tank_flame_chassis
+> 
+53a56
+> 			motorized_equipment = 15
+55a59
+> 
+131a136,137
+> 		transport = medium_tank_flame_chassis
+> 
+139a146
+> 			motorized_equipment = 15
+141a149
+> 
+218a227,228
+> 		transport = heavy_tank_flame_chassis
+> 
+226a237
+> 			motorized_equipment = 15
+227a239
+> 

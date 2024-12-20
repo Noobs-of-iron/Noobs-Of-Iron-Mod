@@ -10,11 +10,11 @@
 < 					amount = 4
 ---
 > 					amount = 40
-519c519
+468c468
 < 					amount = 12
 ---
 > 					amount = 120
-3922c3922
+3947c3947
 < 				    amount = 50
 ---
 > 				    amount = 500

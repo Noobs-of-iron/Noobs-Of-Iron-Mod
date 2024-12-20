@@ -27,10 +27,15 @@
 > set_variable = { SIA_thorbor_modifier_army_sub_unit_infantry_attack_factor = 0 }
 > 
 > add_dynamic_modifier = { modifier = SIA_thorbor_dynamic_modifier }
-174a202,207
-> }
-> 
+182a210,215
 > add_ideas = {
 > 	SIA_bowring_treaty
 > 	SIA_royal_opposition
 > 	SIA_factionalism_1
+> }
+> 
+265c298
+< }
+\ Pas de fin de ligne à la fin du fichier
+---
+> }

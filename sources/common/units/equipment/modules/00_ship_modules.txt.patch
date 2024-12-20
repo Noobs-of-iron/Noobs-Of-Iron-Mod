@@ -94,57 +94,57 @@
 < 				steel = 1
 ---
 > 				steel = 10
-2271c2271
+2501c2501
 < 			steel = 1
 ---
 > 			steel = 10
-2347c2347
+2634c2634
 < 			steel = 1
 ---
 > 			steel = 10
-2392c2392
+2679c2679
 < 			steel = 1
 ---
 > 			steel = 10
-2416c2416
+2703c2703
 < 			steel = 1
 ---
 > 			steel = 10
-2439,2440c2439,2440
+2726,2727c2726,2727
 < 			steel = 2
 < 			chromium = 1
 ---
 > 			steel = 20
 > 			chromium = 10
-2465,2466c2465,2466
+2752,2753c2752,2753
 < 			steel = 1
 < 			chromium = 1
 ---
 > 			steel = 10
 > 			chromium = 10
-2491,2492c2491,2492
+2778,2779c2778,2779
 < 			steel = 2
 < 			chromium = 1
 ---
 > 			steel = 20
 > 			chromium = 10
-2537c2537
+2824c2824
 < 			steel = 1
 ---
 > 			steel = 10
-2556,2557c2556,2557
+2843,2844c2843,2844
 < 			steel = 1
 < 			chromium = 1
 ---
 > 			steel = 10
 > 			chromium = 10
-2576,2577c2576,2577
+2863,2864c2863,2864
 < 			steel = 2
 < 			chromium = 1
 ---
 > 			steel = 20
 > 			chromium = 10
-2589c2589
+2876c2876
 < 			steel = 1
 ---
 > 			steel = 10

@@ -1,6 +1,8 @@
-9c9
+8,9c8,9
+< 	resources = {
 < 		rubber = 150 # was: 268
 ---
+> 	resources={
 > 		rubber = 1500 # was: 268
 11c11
 < 		aluminium = 28 # was: 50

@@ -3,6 +3,6 @@
 < 		steel= 15 # was: 20
 < 		chromium = 3 # was: 4
 ---
-> 		tungsten=150 # was: 20
-> 		steel= 150 # was: 20
+> 		tungsten = 150 # was: 20
+> 		steel = 150 # was: 20
 > 		chromium = 30 # was: 4

@@ -1,0 +1,10 @@
+476c476
+<  STATE_336:0 "Singapore"
+---
+>  STATE_336:0 "Malay Peninsula"
+1176,1177c1176,1177
+< 
+< 
+---
+>  STATE_982:0 "Singapore City"
+>  STATE_983:0 "Tamal"

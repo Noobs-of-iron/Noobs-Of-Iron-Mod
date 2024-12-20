@@ -1,6 +1,8 @@
-9,10c9,10
+8,10c8,10
+< 	resources = {
 < 		tungsten = 5
 < 		steel = 2
 ---
+> 	resources={
 > 		tungsten = 50
 > 		steel = 20

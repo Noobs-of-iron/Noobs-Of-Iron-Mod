@@ -1,33 +1,63 @@
+21,22c21,22
+< 		defense = 10
+< 		breakthrough = 6
+---
+> 		defense = 3
+> 		breakthrough = 12
 37,38c37,38
 < 			tungsten = 1
 < 			steel = 2
 ---
 > 			tungsten = 10
 > 			steel = 20
+58,59c58,59
+< 		defense = 15
+< 		breakthrough = 7
+---
+> 		defense = 6
+> 		breakthrough = 16
 64,65c64,65
 < 			tungsten = 1
 < 			steel = 2
 ---
 > 			tungsten = 10
 > 			steel = 20
+77,78c77,78
+< 		defense = 18
+< 		breakthrough = 8
+---
+> 		defense = 9
+> 		breakthrough = 20
 83,84c83,84
 < 			tungsten = 1
 < 			steel = 3
 ---
 > 			tungsten = 10
 > 			steel = 30
+108c108
+< 		breakthrough = 9
+---
+> 		breakthrough = 20
 120,121c120,121
 < 			tungsten = 2
 < 			steel = 1
 ---
 > 			tungsten = 20
 > 			steel = 10
+142c142
+< 		breakthrough = 12
+---
+> 		breakthrough = 30
 147,148c147,148
 < 			tungsten = 2
 < 			steel = 1
 ---
 > 			tungsten = 20
 > 			steel = 10
+172c172
+< 		breakthrough = 12
+---
+> 		breakthrough = 27
 184,187c184,187
 < 			#oil = 1
 < 			rubber = 1

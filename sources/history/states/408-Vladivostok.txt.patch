@@ -1,4 +1,6 @@
-7c7
+6,7c6,7
+< 	resources = {
 < 		chromium=20 # was: 28
 ---
-> 		chromium=200 # was: 28
+> 	resources={
+> 		chromium = 200 # was: 28

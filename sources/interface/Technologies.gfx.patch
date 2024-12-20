@@ -1,6 +1,18 @@
-2764a2765,2769
->      name = "GFX_tankround_medium"
->      textureFile = "gfx/interface/technologies/tank_round.dds"
->    }
-> 	
+8420a8421,8437
 > 	SpriteType = {
+> 		name = "GFX_tankround_medium"
+> 		textureFile = "gfx/interface/technologies/tank_round.dds"
+> 	}
+> 	SpriteType = {
+> 		name = "GFX_heavy_industrial_crane_medium"
+> 		textureFile = "gfx/interface/technologies/HGC1.dds"
+> 		noOfFrames = 1
+> 	}
+> 	SpriteType = {
+> 		name = "GFX_HGC2"
+> 		textureFile = "gfx/interface/technologies/HGC2.dds"
+> 	}
+> 	SpriteType = {
+> 		name = "GFX_HGC3"
+> 		textureFile = "gfx/interface/technologies/HGC3.dds"
+> 	 }

@@ -1,10 +1,40 @@
-10,13c10,13
+5c5
+< 	manpower = 2893200
+---
+> 	manpower = 2243200
+7c7
+< 	state_category = large_town
+---
+> 	state_category = rural
+9,13c9,13
+< 	resources = {
 < 		rubber = 342 # was: 848
 < 		steel = 20 # was: 32
 < 		tungsten = 189 # was: 308
 < 		aluminium = 15 # was: 25
 ---
+> 	resources={
 > 		rubber = 3420 # was: 848
 > 		steel = 200 # was: 32
 > 		tungsten = 1890 # was: 308
 > 		aluminium = 150 # was: 25
+22,24d21
+< 			12299 10
+< 		}
+< 		victory_points = {
+28c25
+< 			10297 1 
+---
+> 			10297 2 
+34,38c31
+< 			air_base = 6
+< 			12299 = {
+< 				naval_base = 8
+< 				coastal_bunker = 3
+< 			}
+---
+> 			air_base = 2
+50c43
+< 		1291 1348 1364 1376 1392 4310 4355 4367 4384 4412 4424 7329 7342 7399 7427 10227 10297 10313 12144 12199 12215 12255 12271 12299 
+---
+> 		1291 1348 1364 1376 1392 4310 4355 4367 4384 4412 4424 7329 7342 7399 7427 10227 10297 10313 12144 12199 12215 12255 12271

@@ -62,219 +62,219 @@
 < 					amount = 8
 ---
 > 					amount = 80
-1772c1772
+1858c1858
 < 					amount = 10
 ---
 > 					amount = 100
-2130c2130
+2216c2216
 < 					amount = 23
 ---
 > 					amount = 230
-2222c2222
-< 					amount = 12
----
-> 					amount = 120
 2308c2308
 < 					amount = 12
 ---
 > 					amount = 120
-2393c2393
+2394c2394
+< 					amount = 12
+---
+> 					amount = 120
+2479c2479
 < 					amount = 6
 ---
 > 					amount = 60
-2465c2465
+2551c2551
 < 					amount = 12
 ---
 > 					amount = 120
-2601c2601
+2687c2687
 < 					amount = 12
 ---
 > 					amount = 120
-2710c2710
+2796c2796
 < 					amount = 12
 ---
 > 					amount = 120
-2819c2819
+2905c2905
 < 					amount = 12
 ---
 > 					amount = 120
-2928c2928
+3014c3014
 < 					amount = 6
 ---
 > 					amount = 60
-3037c3037
+3123c3123
 < 					amount = 6
 ---
 > 					amount = 60
-3146c3146
+3232c3232
 < 					amount = 12
 ---
 > 					amount = 120
-3255c3255
+3341c3341
 < 					amount = 12
 ---
 > 					amount = 120
-3365c3365
+3451c3451
 < 					amount = 12
 ---
 > 					amount = 120
-3474c3474
+3560c3560
 < 					amount = 12
 ---
 > 					amount = 120
-3585c3585
+3671c3671
 < 					amount = 6
 ---
 > 					amount = 60
-3696c3696
+3964c3964
 < 					amount = 6
 ---
 > 					amount = 60
-3807c3807
+4075c4075
 < 					amount = 26
 ---
 > 					amount = 260
-3918c3918
+4186c4186
 < 					amount = 26
 ---
 > 					amount = 260
-4080c4080
+4348c4348
 < 					amount = 12
 ---
 > 					amount = 120
-4171c4171
+4439c4439
 < 					amount = 4
 ---
 > 					amount = 40
-4254c4254
+4522c4522
 < 					amount = 6
 ---
 > 					amount = 60
-4329c4329
+4597c4597
 < 					amount = 12
 ---
 > 					amount = 120
-4405c4405
+4673c4673
 < 					amount = 12
 ---
 > 					amount = 120
-4484c4484
+4752c4752
 < 					amount = 12
 ---
 > 					amount = 120
-4570c4570
+4838c4838
 < 					amount = 6
 ---
 > 					amount = 60
-4656c4656
+4924c4924
 < 					amount = 10
 ---
 > 					amount = 100
-4742c4742
+5010c5010
 < 					amount = 8
 ---
 > 					amount = 80
-4850c4850
+5118c5118
 < 					amount = 20
 ---
 > 					amount = 200
-4935c4935
+5203c5203
 < 					amount = 10
 ---
 > 					amount = 100
-5021c5021
+5289c5289
 < 					amount = 20
 ---
 > 					amount = 200
-5126c5126
+5394c5394
 < 					amount = 12
 ---
 > 					amount = 120
-5244c5244
+5512c5512
 < 					amount = 12
 ---
 > 					amount = 120
-5362c5362
+5630c5630
 < 					amount = 12
 ---
 > 					amount = 120
-5476c5476
+5744c5744
 < 					amount = 12
 ---
 > 					amount = 120
-5594c5594
+5862c5862
 < 					amount = 12
 ---
 > 					amount = 120
-5712c5712
+5980c5980
 < 					amount = 12
 ---
 > 					amount = 120
-5806c5806
+6074c6074
 < 					amount = 10
 ---
 > 					amount = 100
-5892c5892
+6160c6160
 < 					amount = 15
 ---
 > 					amount = 150
-5943c5943
+6211c6211
 < 					amount = 16
 ---
 > 					amount = 160
-6078c6078
+6346c6346
 < 					amount = 6
 ---
 > 					amount = 60
-7007c7007
+7275c7275
 < 					amount = 15
 ---
 > 					amount = 150
-7089c7089
+7357c7357
 < 					amount = 34
 ---
 > 					amount = 340
-7171c7171
+7439c7439
 < 					amount = 36
 ---
 > 					amount = 360
-7259c7259
+7527c7527
 < 					amount = 12
 ---
 > 					amount = 120
-7348c7348
+7616c7616
 < 					amount = 28
 ---
 > 					amount = 280
-7810c7810
+8078c8078
 < 					amount = 8
 ---
 > 					amount = 80
-7892c7892
+8160c8160
 < 					amount = 24
 ---
 > 					amount = 240
-8000c8000
+8295c8295
 < 					amount = 24
 ---
 > 					amount = 240
-8007c8007
+8473c8473
 < 					amount = 12
 ---
 > 					amount = 120
-8014c8014
+8480c8480
 < 					amount = 5
 ---
 > 					amount = 50
-8108c8108
+8574c8574
 < 					amount = 8
 ---
 > 					amount = 80
-8112c8112
+8578c8578
 < 					amount = 4
 ---
 > 					amount = 40
-8116c8116
+8582c8582
 < 					amount = 4
 ---
 > 					amount = 40

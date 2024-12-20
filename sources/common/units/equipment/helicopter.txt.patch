@@ -1,0 +1,8 @@
+36,38c36,38
+< 		resources = {
+< 			aluminium = 2
+< 			steel = 1
+---
+> 		resources={
+> 			aluminium = 20
+> 			steel = 10

@@ -1,4 +1,6 @@
-7c7
+6,7c6,7
+< 	resources = {
 < 		steel = 4
 ---
+> 	resources={
 > 		steel = 40

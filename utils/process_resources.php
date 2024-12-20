@@ -57,7 +57,7 @@ function processFile($file) {
             $resourcesBlock
         );
         
-        return 'resources = {' . $resourcesBlock . '}';
+        return 'resources={' . $resourcesBlock . '}';
     };
     $content = preg_replace_callback($patternResources, $callbackResources, $content);
 

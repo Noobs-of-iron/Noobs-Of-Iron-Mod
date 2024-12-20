@@ -1,4 +1,4 @@
 9c9
 < 		rubber=3 # was: 4
 ---
-> 		rubber=30 # was: 4
+> 		rubber = 30 # was: 4

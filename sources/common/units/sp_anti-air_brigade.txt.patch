@@ -1,0 +1,29 @@
+26a27
+> 			motorized_equipment = 30
+35a37,38
+> 		transport = light_tank_aa_chassis
+> 
+91a95
+> 
+93a98
+> 			motorized_equipment = 30
+100a106,107
+> 		transport = medium_tank_aa_chassis
+> 
+162a170
+> 			motorized_equipment = 30
+168a177,178
+> 		transport = heavy_tank_aa_chassis
+> 
+227d236
+< 
+231a241
+> 			motorized_equipment = 30
+236a247,248
+> 		transport = super_heavy_tank_aa_chassis
+> 
+299a312
+> 			motorized_equipment = 30
+303a317,318
+> 
+> 		transport = modern_tank_aa_chassis

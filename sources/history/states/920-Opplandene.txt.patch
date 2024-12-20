@@ -1,4 +1,6 @@
-7c7
+6,7c6,7
+< 	resources = {
 < 		aluminium = 5.000
 ---
+> 	resources={
 > 		aluminium = 50.000

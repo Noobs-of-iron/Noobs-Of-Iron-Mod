@@ -1,4 +1,6 @@
-7c7
+6,7c6,7
+< 	resources = {
 < 		# rubber=2 # was: 2
 ---
-> 		# rubber=20 # was: 2
+> 	resources={
+> 		# rubber = 20 # was: 2

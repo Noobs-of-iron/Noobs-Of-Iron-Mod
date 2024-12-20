@@ -1,4 +1,6 @@
-10c10
+9,10c9,10
+< 	resources = {
 < 		steel = 1
 ---
+> 	resources={
 > 		steel = 10

@@ -1,4 +1,6 @@
-5c5
+4,5c4,5
+< 	resources = {
 < 		chromium = 8 # was: 18 before split off from Caucasus mountains (233)
 ---
+> 	resources={
 > 		chromium = 80 # was: 18 before split off from Caucasus mountains (233)

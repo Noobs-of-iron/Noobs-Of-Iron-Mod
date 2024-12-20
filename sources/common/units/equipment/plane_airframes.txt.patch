@@ -1,4 +1,4 @@
-47,50c47,50
+48,51c48,51
 < 		lend_lease_cost = 8
 < 		manpower = 20
 < 		fuel_consumption = 0.05
@@ -8,53 +8,53 @@
 > 		manpower = 40
 > 		fuel_consumption = 0.10
 > 		build_cost_ic = 8
-52,53c52,53
+53,54c53,54
 < 			aluminium = 2
 < 			rubber = 1
 ---
 > 			aluminium = 20
 > 			rubber = 10
-245c245
+246c246
 < 		build_cost_ic = 5
 ---
 > 		build_cost_ic = 10
-247,248c247,248
+248,249c248,249
 < 			aluminium = 3
 < 			rubber = 1
 ---
 > 			aluminium = 30
 > 			rubber = 10
-322c322
+323c323
 < 		build_cost_ic = 6
 ---
 > 		build_cost_ic = 12
-324,325c324,325
+325,326c325,326
 < 			aluminium = 3
 < 			rubber = 1
 ---
 > 			aluminium = 30
 > 			rubber = 10
-426c426
+427c427
 < 		build_cost_ic = 7
 ---
 > 		build_cost_ic = 14
-428,429c428,429
+429,430c429,430
 < 			aluminium = 4
 < 			rubber = 1
 ---
 > 			aluminium = 40
 > 			rubber = 10
-549c549
+550c550
 < 		build_cost_ic = 10
 ---
 > 		build_cost_ic = 20
-551,552c551,552
+552,553c552,553
 < 			aluminium = 4
 < 			rubber = 1
 ---
 > 			aluminium = 40
 > 			rubber = 10
-705,708c705,708
+850,853c850,853
 < 		lend_lease_cost = 8
 < 		manpower = 20
 < 		fuel_consumption = 0.05
@@ -64,117 +64,117 @@
 > 		manpower = 40
 > 		fuel_consumption = 0.10
 > 		build_cost_ic = 12
-710,711c710,711
+855,856c855,856
 < 			aluminium = 2
 < 			rubber = 1
 ---
 > 			aluminium = 20
 > 			rubber = 10
-885c885
+1030c1030
 < 		lend_lease_cost = 8
 ---
 > 		lend_lease_cost = 16
-904c904
+1049c1049
 < 		build_cost_ic = 8.5
 ---
 > 		build_cost_ic = 17
-906,907c906,907
+1051,1052c1051,1052
 < 			aluminium = 3
 < 			rubber = 1
 ---
 > 			aluminium = 30
 > 			rubber = 10
-980c980
+1125c1125
 < 		build_cost_ic = 9.5
 ---
 > 		build_cost_ic = 19
-982,983c982,983
+1127,1128c1127,1128
 < 			aluminium = 3
 < 			rubber = 1
 ---
 > 			aluminium = 30
 > 			rubber = 10
-1083c1083
+1228c1228
 < 		build_cost_ic = 11
 ---
 > 		build_cost_ic = 22
-1085,1086c1085,1086
+1230,1231c1230,1231
 < 			aluminium = 4
 < 			rubber = 1
 ---
 > 			aluminium = 40
 > 			rubber = 10
-1192c1192
+1337c1337
 < 		build_cost_ic = 14.5
 ---
 > 		build_cost_ic = 29
-1194,1195c1194,1195
+1339,1340c1339,1340
 < 			aluminium = 4
 < 			rubber = 1
 ---
 > 			aluminium = 40
 > 			rubber = 10
-1330,1331c1330,1331
+1475,1476c1475,1476
 < 		lend_lease_cost = 10
 < 		manpower = 40
 ---
 > 		lend_lease_cost = 20
 > 		manpower = 80
-1333c1333
+1478c1478
 < 		build_cost_ic = 6
 ---
 > 		build_cost_ic = 12
-1335,1336c1335,1336
+1480,1481c1480,1481
 < 			aluminium = 2
 < 			rubber = 1
 ---
 > 			aluminium = 20
 > 			rubber = 10
-1560c1560
+1705c1705
 < 		lend_lease_cost = 10
 ---
 > 		lend_lease_cost = 20
-1579c1579
+1724c1724
 < 		build_cost_ic = 8
 ---
 > 		build_cost_ic = 16
-1581,1582c1581,1582
+1726,1727c1726,1727
 < 			aluminium = 3
 < 			rubber = 1
 ---
 > 			aluminium = 30
 > 			rubber = 10
-1710c1710
+1855c1855
 < 		build_cost_ic = 10
 ---
 > 		build_cost_ic = 20
-1712,1713c1712,1713
+1857,1858c1857,1858
 < 			aluminium = 4
 < 			rubber = 1
 ---
 > 			aluminium = 40
 > 			rubber = 10
-1858c1858
+2003c2003
 < 		build_cost_ic = 13
 ---
 > 		build_cost_ic = 26
-1860,1861c1860,1861
+2005,2006c2005,2006
 < 			aluminium = 5
 < 			rubber = 1
 ---
 > 			aluminium = 50
 > 			rubber = 10
-2018c2018
+2163c2163
 < 		build_cost_ic = 14
 ---
 > 		build_cost_ic = 28
-2020,2021c2020,2021
+2165,2166c2165,2166
 < 			aluminium = 5
 < 			rubber = 1
 ---
 > 			aluminium = 50
 > 			rubber = 10
-2202,2205c2202,2205
+2347,2350c2347,2350
 < 		lend_lease_cost = 10
 < 		manpower = 80
 < 		fuel_consumption = 0.16
@@ -184,47 +184,47 @@
 > 		manpower = 160
 > 		fuel_consumption = 0.32
 > 		build_cost_ic = 32
-2207,2208c2207,2208
+2352,2353c2352,2353
 < 			aluminium = 3
 < 			rubber = 2
 ---
 > 			aluminium = 30
 > 			rubber = 20
-2447c2447
+2592c2592
 < 		build_cost_ic = 18
 ---
 > 		build_cost_ic = 36
-2449,2450c2449,2450
+2594,2595c2594,2595
 < 			aluminium = 3
 < 			rubber = 2
 ---
 > 			aluminium = 30
 > 			rubber = 20
-2587c2587
+2732c2732
 < 		build_cost_ic = 20
 ---
 > 		build_cost_ic = 40
-2589,2590c2589,2590
+2734,2735c2734,2735
 < 			aluminium = 4
 < 			rubber = 2
 ---
 > 			aluminium = 40
 > 			rubber = 20
-2753c2753
+2898c2898
 < 		build_cost_ic = 22
 ---
 > 		build_cost_ic = 44
-2755,2756c2755,2756
+2900,2901c2900,2901
 < 			aluminium = 5
 < 			rubber = 2
 ---
 > 			aluminium = 50
 > 			rubber = 20
-2919c2919
+3064c3064
 < 		build_cost_ic = 23
 ---
 > 		build_cost_ic = 36
-2921,2922c2921,2922
+3066,3067c3066,3067
 < 			aluminium = 6
 < 			rubber = 2
 ---

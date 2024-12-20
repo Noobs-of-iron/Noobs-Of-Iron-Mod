@@ -1,0 +1,10 @@
+266,267c266,267
+< 				small = GFX_portrait_ITA_italo_balbo_small
+< 				large = GFX_portrait_ITA_italo_balbo
+---
+> 				small = GFX_portrait_ITA_italo_balbo_small_go
+> 				large = GFX_portrait_ITA_italo_balbo_go
+270c270
+< 				large = GFX_portrait_ITA_italo_balbo_civilian
+---
+> 				large = GFX_portrait_ITA_italo_balbo_civilian_go

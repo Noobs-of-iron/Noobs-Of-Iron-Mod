@@ -1,4 +1,46 @@
-15c15
+1,3c1,4
+< state = {
+< 	id = 532
+< 	name = "STATE_532" # Tokai
+---
+> 
+> state={
+> 	id=532
+> 	name="STATE_532" # Tokai
+7,8c8
+< 	history = {
+< 
+---
+> 	history={
+11d10
+< 
+16,20c15
 < 			industrial_complex = 2
+< 
+< 			# Ōi Dam
+< 			4069 = { dam = 1 }
+< 
 ---
 > 			industrial_complex = 4
+24c19
+< 			7087 3 # Shizuoka
+---
+> 			7087 3 
+28c23
+< 			10125 25 # Nagoya
+---
+> 			10125 25
+30d24
+< 
+35,37d28
+< 				10125 = {
+< 					air_facility = 1 # Mitsubishi Arnsenals 
+< 				}
+43c34
+< 	provinces = {
+---
+> 	provinces={
+47c38
+< 	local_supplies = 0.0 
+---
+> 	local_supplies=0.0 

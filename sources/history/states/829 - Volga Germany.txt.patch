@@ -1,6 +1,8 @@
-10,11c10,11
+9,11c9,11
+< 	resources = {
 < 		steel = 14 # was: 40
 < 		tungsten = 6 # was: 34
 ---
+> 	resources={
 > 		steel = 140 # was: 40
 > 		tungsten = 60 # was: 34

@@ -3,64 +3,16 @@
 ---
 > 	
 > 		
-1454c1455
+1567c1568
 < 			ship_hull_submarine_4
 ---
 > 			ship_hull_submarine_4fixed
-1455a1457
+1568a1570
 > 		
-1494,1497c1496
+1609,1612c1611
 < 		path = {
 < 			leads_to_tech = improved_submarine_snorkel
 < 			research_cost_coeff = 1
 < 		}
 ---
 > 
-1537,1581c1536
-< 	improved_submarine_snorkel = {
-< 
-< 		enable_equipment_modules = {
-< 			ship_sub_snorkel_2
-< 		}
-< 
-< 		on_research_complete = {
-< 			custom_effect_tooltip = snorkel_advice_tt
-< 		}
-< 		path = {
-< 			leads_to_tech = improved_submarine_snorkel
-< 			research_cost_coeff = 1
-< 		}
-< 
-< 		xp_research_type = navy
-< 		xp_boost_cost = 50
-< 		xp_research_bonus = 1.50
-< 		research_cost = 2
-< 
-< 		start_year = 1944
-< 
-< 		folder = {
-< 			name = mtgnavalfolder
-< 			position = {  x = -1 y = 19 }
-< 		}
-< 
-< 		ai_will_do = {
-< 			factor = 1
-< 
-< 			modifier = {
-< 				factor = 7
-< 				OR = {
-< 					tag = GER
-< 					tag = HOL
-< 				}
-< 			}
-< 		}
-< 
-< 		categories = {
-< 			naval_equipment
-< 			ss_tech
-< 			ship_modules_tech
-< 			mio_cat_tech_all_submarine_and_modules
-< 		}
-< 	}
----
-> 	

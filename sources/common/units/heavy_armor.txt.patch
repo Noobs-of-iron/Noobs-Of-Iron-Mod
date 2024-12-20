@@ -1,0 +1,12 @@
+62c62,63
+< 			heavy_tank_chassis = 40
+---
+> 			heavy_tank_chassis = 45
+> 			motorized_equipment = 30
+65c66
+< 		manpower = 500
+---
+> 		manpower = 550
+71a73,74
+> 
+> 		transport = heavy_tank_chassis

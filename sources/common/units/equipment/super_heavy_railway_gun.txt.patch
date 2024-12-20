@@ -1,0 +1,10 @@
+40,43c40,43
+< 		resources = {
+< 			steel = 8
+< 			tungsten = 4
+< 			chromium = 4
+---
+> 		resources={
+> 			steel = 80
+> 			tungsten = 40
+> 			chromium = 40

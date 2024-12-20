@@ -1,4 +1,6 @@
-8c8
+8,9c8,9
 < 		steel=17 # was: 24
+< 		oil=7 # was: 10
 ---
-> 		steel=170 # was: 24
+> 		steel = 170 # was: 24
+> 		oil = 7 # was: 10

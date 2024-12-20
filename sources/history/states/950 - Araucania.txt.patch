@@ -1,4 +1,6 @@
-9c9
+8,9c8,9
+< 	resources = {
 < 		steel = 24 # Steel + replacement of copper
 ---
+> 	resources={
 > 		steel = 240 # Steel + replacement of copper

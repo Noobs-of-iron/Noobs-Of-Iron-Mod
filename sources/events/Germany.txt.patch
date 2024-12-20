@@ -1,218 +1,331 @@
-730,931d729
-< 	option = {
-< 		name = germany.14.b
+2302,2448d2301
+< 	option = { # Support the Czechs
+< 		name = germany.40.b
+< 		
 < 		ai_chance = {
-< 			base = 1
+< 			base = 10
 < 			modifier = {
-< 				add = -1
-< 				is_historical_focus_on = yes
-< 				NOT = {
+< 				factor = 3
+< 				has_government = communism
+< 				CZE = { has_government = communism }
+< 			}
+< 			modifier = {
+< 				factor = 0
+< 				OR = {
+< 					is_in_faction_with = GER
 < 					AND = {
-< 						POL = {
-< 							is_ai = no
-< 							has_civil_war = no
+< 						tag = ENG
+< 						OR = {
+< 							ENG_is_on_historical_plan_trigger = yes
+< 							has_game_rule = {
+< 								rule = ENG_ai_behavior
+< 								option = NEUTRALITY
+< 							}
+< 							has_game_rule = {
+< 								rule = ENG_ai_behavior
+< 								option = COMMUNIST
+< 							}
 < 						}
-< 						is_in_faction_with = POL
+< 						NOT = {
+< 							is_in_faction_with = CZE
+< 							has_war_with = GER
+< 						}
 < 					}
 < 				}
 < 			}
 < 		}
-< 		SOU = { country_event = germany.16 }
-< 		clr_global_flag = sov_yes_pact
-< 		diplomatic_relation = {
-< 			country = SOV
-< 			relation = non_aggression_pact
-< 			active = no
+< 
+< 		#Handle factions
+< 		if = {
+< 			limit = {
+< 				is_in_faction_with = GER
+< 			}
+< 			if = {
+< 				limit = {
+< 					is_faction_leader = yes
+< 				}
+< 				remove_from_faction = GER
+< 			}
+< 			else_if = {
+< 				limit = {
+< 					GER = { is_faction_leader = yes }
+< 				}
+< 				GER = { remove_from_faction = ROOT }
+< 			}
+< 			else = { #Someone else is the leader - If ROOT is not fascist and faction leader is, expell ROOT. Otherwise expell GER
+< 				if = {
+< 					limit = {
+< 						NOT = { has_government = fascism }
+< 						any_allied_country = {
+< 							is_faction_leader = yes
+< 							has_government = fascism
+< 						}
+< 					}
+< 					random_other_country = {
+< 						limit = {
+< 							is_in_faction_with = ROOT
+< 							is_faction_leader = yes
+< 						}
+< 						remove_from_faction = ROOT
+< 					}
+< 				}
+< 				else = {
+< 					random_other_country = {
+< 						limit = {
+< 							is_in_faction_with = ROOT
+< 							is_faction_leader = yes
+< 						}
+< 						remove_from_faction = GER
+< 					}
+< 				}
+< 			}
 < 		}
-< 		SOU = {
-< 			if = { #TODO_Manu: Possibly remove this too, Soviets have means to get this claim in FT
-< 				limit = {
-< 					NOT = { owns_state = 146 }
+< 
+< 		if = {
+< 			limit = {
+< 				is_in_faction = yes
+< 				CZE = {
+< 					is_in_faction = no
+< 					is_subject = no
 < 				}
-< 				add_state_claim = 146 #KARELIA (FIN)
 < 			}
-< 			#if = { #Removed with AAT (Makes no sense really)
-< 			#	limit = {
-< 			#		NOT = { owns_state = 147 }
-< 			#	}
-< 			#	add_state_claim = 147 #SALLA (FIN)
-< 			#}
-< 			#if = {
-< 			#	limit = {
-< 			#		NOT = { owns_state = 722 }
-< 			#	}
-< 			#	add_state_claim = 722 #PETSAMO (FIN)
-< 			#}
-< 			if = {
+< 			random_country = {
 < 				limit = {
-< 					NOT = { owns_state = 13 }
+< 					is_faction_leader = yes
+< 					is_in_faction_with = ROOT #this may in fact be ROOT, since countries are in a faction with themselves!
 < 				}
-< 				add_state_claim = 13 #PÄRNU (EST)
+< 				add_to_faction = CZE
 < 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 191 }
-< 				}
-< 				add_state_claim = 191 #TARTU (EST)
+< 		}
+< 
+< 		#Opinions and relations
+< 		add_opinion_modifier = { target = GER modifier = condemn_aggression }
+< 
+< 		CZE = {
+< 			add_opinion_modifier = { target = ROOT modifier = offered_support }
+< 
+< 			add_ai_strategy = {
+< 				type = alliance
+< 				id = ROOT
+< 				value = 200
 < 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 811 }
-< 				}
-< 				add_state_claim = 811 #SAAREMAA (EST)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 813 }
-< 				}
-< 				add_state_claim = 813 #VIRUMAA (EST)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 812 }
-< 				}
-< 				add_state_claim = 812 #TALLIN (EST)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 12 }
-< 				}
-< 				add_state_claim = 12 #VIDZEME (LAT)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 190 }
-< 				}
-< 				add_state_claim = 190 #KURZEME (LAT)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 808 }
-< 				}
-< 				add_state_claim = 808 #RIGA (LAT)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 809 }
-< 				}
-< 				add_state_claim = 809 #ZEMGALE (LAT)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 810 }
-< 				}
-< 				add_state_claim = 810 #LATGALE (LAT)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 11 }
-< 				}
-< 				add_state_claim = 11 #KAUNAS (LIT)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 784 }
-< 				}
-< 				add_state_claim = 784 #WILNO (LIT)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 189 }
-< 				}
-< 				add_state_claim = 189 #ZEMAITIJA (LIT)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 814 }
-< 				}
-< 				add_state_claim = 814 #SUDUVA (LIT)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 815 }
-< 				}
-< 				add_state_claim = 815 #AUKSTAITIJA (LIT)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 89 }
-< 				}
-< 				add_state_claim = 89 #STANISLAWOW (POL)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 91 }
-< 				}
-< 				add_state_claim = 91 #LWOW (POL)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 93 }
-< 				}
-< 				add_state_claim = 93 #WOLYN (POL)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 94 }
-< 				}
-< 				add_state_claim = 94 #POLESIE (POL)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 95 }
-< 				}
-< 				add_state_claim = 95 #NOWOGRODEK (POL)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 96 }
-< 				}
-< 				add_state_claim = 96 #WILEJKA (POL)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 97 }
-< 				}
-< 				add_state_claim = 97 #BIALYSTOK (POL)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 78 }
-< 				}
-< 				add_state_claim = 78 #BESSARABIA (ROM)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 80 }
-< 				}
-< 				add_state_claim = 80 #BUCOVINA (ROM)
-< 			}
-< 			if = {
-< 				limit = {
-< 					NOT = { owns_state = 766 }
-< 				}
-< 				add_state_claim = 766 #SOUTHERN BESSARABIA (ROM)
-< 			}
-< 			effect_tooltip = {
+< 		}
+< 
+< 		effect_tooltip = {
+< 			GER = {
 < 				create_wargoal = {
-< 					type = annex_everything
-< 					target = GER
+< 					type = take_state_focus
+< 					target = CZE
+< 					generator = { 69 } #Doesn't matter the exact state, CZE is guaranteed to control at least 1 Sudetenland state, and the generators don't show up in tooltips.
+< 				}
+< 			}
+< 		}
+< 
+< 		if = {
+< 			limit = {
+< 				tag = ENG
+< 			}
+< 			if = {
+< 				limit = {
+< 					NOT = { has_completed_focus = ENG_no_further_appeasement }
+< 				}
+< 				add_political_power = -200
+< 			}
+< 			if = {
+< 				limit = {
+< 					FRA = {
+< 						NOT = { has_war_with = CZE }
+< 					}
+< 				}
+< 				FRA = { 
+< 					country_event = {
+< 						id = germany.42
+< 						hours = 2
+< 					}
 < 				}
 < 			}
 < 		}
 < 	}
-2016a1815,1817
-> 		trigger = {
-> 			date < 1938.1.1 # at least one of the date checks will always be false and the event will never trigger
-> 		}
-2243c2044,2047
-< 		trigger = { is_puppet = no }
----
-> 		trigger = { 
-> 		is_puppet = no 
-> 		date < 1938.1.1 # at least one of the date checks will always be false and the event will never trigger
-> 		}
-4622d4425
-< 			85 = { add_core_of = GER }
-4702d4504
-< 		85 = { add_core_of = GER }
+2584,2644d2436
+< 	option = { # Support the Czechs alone
+< 		name = germany.41.b
+< 
+< 		trigger = {
+< 			is_subject = no
+< 		}
+< 
+< 		ai_chance = {
+< 			base = 5
+< 			modifier = {
+< 				factor = 6
+< 				has_government = communism
+< 				CZE = { has_government = communism }
+< 			}
+< 			modifier = {
+< 				factor = 0
+< 				OR = {
+< 					is_in_faction_with = GER
+< 					AND = {
+< 						is_historical_focus_on = yes
+< 						NOT = {	is_in_faction_with = CZE }
+< 					}
+< 				}
+< 			}
+< 		}
+< 
+< 		#PP and notify CZE (they are happy with us)
+< 		if = {
+< 			limit = {
+< 				is_in_faction_with = CZE
+< 				has_completed_focus = FRA_strengthen_the_little_entente
+< 			}
+< 			add_political_power = -100
+< 		}
+< 		else = {
+< 			add_political_power = -200
+< 		}
+< 
+< 		CZE = {
+< 			country_event = {
+< 				id = germany.45
+< 				hours = 2
+< 			}
+< 			add_opinion_modifier = { target = ROOT modifier = offered_support }
+< 		}
+< 
+< 		add_opinion_modifier = { target = GER modifier = condemn_aggression }
+< 		
+< 		GER = {
+< 			country_event = {
+< 				id = germany.48
+< 				hours = 2
+< 			}
+< 			effect_tooltip = {
+< 				create_wargoal = {
+< 					type = take_state_focus
+< 					target = CZE
+< 					generator = { 69 } #Doesn't matter the exact state, CZE is guaranteed to control at least 1 Sudetenland state, and the generators don't show up in tooltips.
+< 				}
+< 			}
+< 		}
+2646,2765d2437
+< 		#Deal with faction relations FRA-ENG / FRA-GER / FRA-CZE
+< 		if = {
+< 			limit = {
+< 				is_in_faction_with = ENG
+< 			}
+< 			ENG = {
+< 				country_event = {
+< 					id = germany.43
+< 					hours = 2
+< 				}
+< 				if = {
+< 					limit = {
+< 						is_faction_leader = yes
+< 					}
+< 					remove_from_faction = ROOT
+< 					else_if = {
+< 						limit = {
+< 							ROOT = { is_faction_leader = yes }
+< 						}
+< 						ROOT = { remove_from_faction = ENG }
+< 					}
+< 					else = { #Another country is faction leader -> Kick FRA tack
+< 						random_other_country = {
+< 							limit = {
+< 								is_in_faction_with = ROOT
+< 								is_faction_leader = yes
+< 							}
+< 							remove_from_faction = ROOT
+< 						}
+< 					}
+< 				}
+< 			}
+< 		}
+< 		else_if = {
+< 			limit = {
+< 				is_in_faction_with = GER
+< 			}
+< 			if = {
+< 				limit = { GER = { is_faction_leader = yes } }
+< 				GER = {
+< 					if = {
+< 						limit = {
+< 							is_faction_leader = yes
+< 						}
+< 						remove_from_faction = ROOT
+< 						else_if = {
+< 							limit = {
+< 								ROOT = { is_faction_leader = yes }
+< 							}
+< 							ROOT = { remove_from_faction = GER }
+< 						}
+< 						else = { #Another country is faction leader -> Kick FRA tack
+< 							random_other_country = {
+< 								limit = {
+< 									is_in_faction_with = ROOT
+< 									is_faction_leader = yes
+< 								}
+< 								remove_from_faction = ROOT
+< 							}
+< 						}
+< 					}
+< 				}
+< 			}
+< 		}
+< 		
+< 		if = {
+< 			limit = {
+< 				is_in_faction = yes
+< 				is_faction_leader = yes
+< 				CZE = { is_in_faction = no }
+< 			}
+< 			add_to_faction = CZE
+< 			CZE = {
+< 				add_ai_strategy = {
+< 					type = alliance
+< 					id = ROOT
+< 					value = 200
+< 				}
+< 			}
+< 		}
+< 		else_if = {
+< 			limit = {
+< 				is_in_faction = no
+< 			}
+< 			if = {
+< 				limit = {
+< 					CZE = { is_in_faction = no }
+< 				}
+< 				create_faction = french_alliance
+< 				set_rule = { can_create_factions = yes }
+< 				add_to_faction = CZE
+< 				CZE = {
+< 					add_ai_strategy = {
+< 						type = alliance
+< 						id = ROOT
+< 						value = 200
+< 					}
+< 				}
+< 			}
+< 			else_if = {
+< 				limit = {
+< 					CZE = {
+< 						is_faction_leader = yes
+< 						has_completed_focus = CZE_an_entente_of_our_own
+< 					}
+< 				}
+< 				CZE = { add_to_faction = ROOT }
+< 				add_ai_strategy = {
+< 					type = alliance
+< 					id = CZE
+< 					value = 200
+< 				}
+< 			}
+< 		}
+< 		
+< 		if = {
+< 			limit = { NOT = { has_completed_focus = FRA_strengthen_the_little_entente } }
+< 			add_stability = 0.05
+< 		}
+< 	}

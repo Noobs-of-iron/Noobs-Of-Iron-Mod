@@ -1,0 +1,20 @@
+46,49c46,49
+< 		resources = {
+< 			aluminium = 3
+< 			tungsten = 3
+< 			chromium = 1
+---
+> 		resources={
+> 			aluminium = 30
+> 			tungsten = 30
+> 			chromium = 10
+77,80c77,80
+< 		resources = {
+< 			aluminium = 4
+< 			tungsten = 3
+< 			chromium = 2
+---
+> 		resources={
+> 			aluminium = 40
+> 			tungsten = 30
+> 			chromium = 20
