@@ -7,6 +7,7 @@ REBUILD="no"
 MOD_FOLDER="mod/"
 SOURCES_FOLDER="sources/"
 DEBUG_SCRIPT="no"
+MAX_THREADS=16 #good enough
 I_KNOW_WHAT_IM_DOING="no" #Not documented because if you are here you probably know what you're doing
 RUNNING_ON_PURE_UNIX="no" # may be useful for later? idk do some unix2dos
 RUNNING_ON_POSIX="no" # may be useful too?! maybe git bash sheneinigans on windows?!
@@ -113,56 +114,6 @@ else
     echo_debug "Running on a non-posix system."
 fi
 
-create_patches_and_sources() {
-    if [ "$REBUILD" = "yes" ]; then
-        if [ "$I_KNOW_WHAT_IM_DOING" = "yes" ]; then
-            echo "WARNING WARNING WARNING : Rebuilding: clearing sources folder..."
-            find "${SOURCES_FOLDER}" -type f -not -name '.ignoreme' -delete
-        else
-            echo "Don't do rebuild on create sources unless you know what to do..."
-            exit 1
-        fi
-    fi
-    echo "Creating patches and updating sources..."
-    find "${MOD_FOLDER}" -type f -not -name ".*" | while read -r mod_file; do
-        relative_path="${mod_file#${MOD_FOLDER}}"
-        original_file="${ORIGINAL_FOLDER}${relative_path}"
-        sources_file="${SOURCES_FOLDER}${relative_path}.patch"
-        
-        if file "$mod_file" | grep -iq 'text'; then
-            # Handle text files (potentially creating patch files)
-            if [ -e "$original_file" ]; then
-                mkdir -p "$(dirname "$sources_file")"
-                temp_original_file=$(mktemp)
-                cp "$original_file" "$temp_original_file"
-                temp_mod_file=$(mktemp)
-                cp "$mod_file" "$temp_mod_file"
-                dos2unix "$temp_original_file" &>/dev/null
-                dos2unix "$temp_mod_file" &>/dev/null
-                echo_debug "Treating file to build patch : $relative_path"
-                patch_content=$(diff --minimal "$temp_original_file" "$temp_mod_file")
-                
-                if [ -n "$patch_content" ]; then
-                    if [ "$OVERWRITE_SOURCES" = "yes" ] || [ ! -e "$sources_file" ]; then
-                        echo "$patch_content" > "$sources_file"
-                        echo_debug "Patch created for: $relative_path"
-                    else
-                        echo_debug "Skipping existing patch file due to no overwrite setting: $sources_file"
-                    fi
-                else
-                    echo_debug "No differences found, skipping patch creation for: $relative_path"
-                fi
-                
-                rm "$temp_original_file" "$temp_mod_file"
-            else
-                handle_non_existing_or_different_original "$mod_file" "$relative_path" 0 
-            fi
-        else
-            # Handle binary files (copying if different)
-            handle_non_existing_or_different_original "$mod_file" "$relative_path" 1
-        fi
-    done
-}
 
 handle_non_existing_or_different_original() {
     mod_file=$1
@@ -188,6 +139,73 @@ handle_non_existing_or_different_original() {
         echo_debug "File unchanged, not copying to sources: $relative_path"
     fi
 }
+
+
+
+# Fonction pour limiter les threads actifs
+function thread_limiter {
+    while true; do
+        active_threads=$(jobs -p | wc -l)
+        if (( active_threads < MAX_THREADS )); then
+            break
+        fi
+        sleep 0.1
+    done
+}
+
+create_patches_and_sources() {
+    if [ "$REBUILD" = "yes" ]; then
+        if [ "$I_KNOW_WHAT_IM_DOING" = "yes" ]; then
+            echo "WARNING WARNING WARNING : Rebuilding: clearing sources folder..."
+            find "${SOURCES_FOLDER}" -type f -not -name '.ignoreme' -delete
+        else
+            echo "Don't do rebuild on create sources unless you know what to do..."
+            exit 1
+        fi
+    fi
+    echo "Creating patches and updating sources..."
+    find "${MOD_FOLDER}" -type f -not -name ".*" | while read -r mod_file; do
+        thread_limiter  # Assure la limite des threads
+        {
+            relative_path="${mod_file#${MOD_FOLDER}}"
+            original_file="${ORIGINAL_FOLDER}${relative_path}"
+            sources_file="${SOURCES_FOLDER}${relative_path}.patch"
+
+            if file "$mod_file" | grep -iq 'text'; then
+                if [ -e "$original_file" ]; then
+                    mkdir -p "$(dirname "$sources_file")"
+                    temp_original_file=$(mktemp)
+                    cp "$original_file" "$temp_original_file"
+                    temp_mod_file=$(mktemp)
+                    cp "$mod_file" "$temp_mod_file"
+                    dos2unix "$temp_original_file" &>/dev/null
+                    dos2unix "$temp_mod_file" &>/dev/null
+                    echo_debug "Treating file to build patch : $relative_path"
+                    patch_content=$(diff --minimal "$temp_original_file" "$temp_mod_file")
+
+                    if [ -n "$patch_content" ]; then
+                        if [ "$OVERWRITE_SOURCES" = "yes" ] || [ ! -e "$sources_file" ]; then
+                            echo "$patch_content" > "$sources_file"
+                            echo_debug "Patch created for: $relative_path"
+                        else
+                            echo_debug "Skipping existing patch file due to no overwrite setting: $sources_file"
+                        fi
+                    else
+                      echo_debug "No differences found, skipping patch creation for: $relative_path"
+                  fi
+
+                    rm "$temp_original_file" "$temp_mod_file"
+                else
+                    handle_non_existing_or_different_original "$mod_file" "$relative_path" 0
+                fi
+            else
+                handle_non_existing_or_different_original "$mod_file" "$relative_path" 1
+            fi
+        } &
+    done
+    wait  # Attendre la fin de toutes les tâches
+}
+
 apply_patches_and_update_mod() {
     if [ "$REBUILD" = "yes" ]; then
         if [ "$OVERWRITE_MOD" = "yes" ]; then
@@ -200,76 +218,72 @@ apply_patches_and_update_mod() {
     fi
     echo "Applying patches and updating mod from sources..."
     find "${SOURCES_FOLDER}" -type f -not -name ".*" | while read -r sources_file; do
-        relative_path="${sources_file#${SOURCES_FOLDER}}"
-        relative_path_no_patch="${relative_path%.patch}"
-        mod_file="${MOD_FOLDER}/${relative_path_no_patch}"
+        thread_limiter  # Assure la limite des threads
+        {
+            relative_path="${sources_file#${SOURCES_FOLDER}}"
+            relative_path_no_patch="${relative_path%.patch}"
+            mod_file="${MOD_FOLDER}/${relative_path_no_patch}"
 
-        # Determine if the current file is a patch or a direct copy
-        if [[ "$sources_file" == *.patch ]]; then
-            # It's a patch file, prepare to apply it
-            original_file="${ORIGINAL_FOLDER}/${relative_path_no_patch}"
+            if [[ "$sources_file" == *.patch ]]; then
+                original_file="${ORIGINAL_FOLDER}/${relative_path_no_patch}"
 
-            # Check if the original file exists
-            if [ ! -e "$original_file" ]; then
-                echo "WARNING : Original file missing for patch, cannot apply: ${relative_path_no_patch}"
-                continue
-            fi
-
-            # Make a temporary copy of the original file for dos2unix conversion
-            temp_original_file=$(mktemp)
-            cp "$original_file" "$temp_original_file"
-            dos2unix "$temp_original_file" &>/dev/null
-
-            if [ -e "$mod_file" ] && [ "$OVERWRITE_MOD" != "yes" ]; then
-                echo_debug "Mod file $mod_file exists and will not be overwritten. Skipping patch application."
-                rm "$temp_original_file"  # Clean up the temporary file
-                continue
-            fi
-
-            mkdir -p "$(dirname "$mod_file")"
-            # Apply the patch using the temporary converted original file
-            patch -o "$mod_file" "$temp_original_file" "$sources_file" > /dev/null
-            echo_debug "Applied patch to create: $mod_file"
-            # Paradox must have a custom csv parser that doesnt like unix format even on linux @#!
-            if [[ "$mod_file" == *.csv ]]; then
-                unix2dos -q "$mod_file"
-                echo_debug "Converted $mod_file to DOS format."
-            fi
-            #Patch seems to generate non-bom uft-8 loc files and hoi doesn't like that
-            if [[ "$mod_file" == *.yml ]]; then
-                mv "$mod_file" "$mod_file.tmp"
-                printf '\xEF\xBB\xBF' > "$mod_file"
-                cat "$mod_file.tmp" >> "$mod_file"
-                rm "$mod_file.tmp"
-                echo_debug "Converted $mod_file to UTF-8 BOM format."
-            fi
-
-            rm "$temp_original_file"  # Clean up the temporary file
-        else
-            # It's a direct copy file
-            if [ -e "${ORIGINAL_FOLDER}${relative_path}" ]; then
-                # Check if the original file is a text file
-                fileStatus=$(file "${ORIGINAL_FOLDER}${relative_path}")
-                isfile=$(echo "$fileStatus" | grep 'text')
-                if [ "${isfile}" ]; then
-                    echo "ERROR: A file with the same name as the non-patch file $relative_path exists in the original folder. Use a patch file instead of a whole file."
-                    exit 1
-                else
-                    echo_debug "Overriding $fileStatus from sources"
+                if [ ! -e "$original_file" ]; then
+                    echo "WARNING : Original file missing for patch, cannot apply: ${relative_path_no_patch}"
+                    continue
                 fi
-            fi
-            if [ -e "$mod_file" ] && [ "$OVERWRITE_MOD" != "yes" ]; then
-                echo_debug "Mod file $mod_file exists and will not be overwritten. Skipping copy."
-                continue
-            fi
 
-            mkdir -p "$(dirname "$mod_file")"
-            cp "$sources_file" "$mod_file"
-            echo_debug "Copied file to mod: $mod_file"
-        fi
+                temp_original_file=$(mktemp)
+                cp "$original_file" "$temp_original_file"
+                dos2unix "$temp_original_file" &>/dev/null
+
+                if [ -e "$mod_file" ] && [ "$OVERWRITE_MOD" != "yes" ]; then
+                    echo_debug "Mod file $mod_file exists and will not be overwritten. Skipping patch application."
+                    rm "$temp_original_file"
+                    continue
+                fi
+
+                mkdir -p "$(dirname "$mod_file")"
+                patch -o "$mod_file" "$temp_original_file" "$sources_file" > /dev/null
+                echo_debug "Applied patch to create: $mod_file"
+                if [[ "$mod_file" == *.csv ]]; then
+                    unix2dos -q "$mod_file"
+                    echo_debug "Converted $mod_file to DOS format."
+                fi
+
+                if [[ "$mod_file" == *.yml ]]; then
+                    mv "$mod_file" "$mod_file.tmp"
+                    printf '\xEF\xBB\xBF' > "$mod_file"
+                    cat "$mod_file.tmp" >> "$mod_file"
+                    rm "$mod_file.tmp"
+                    echo_debug "Converted $mod_file to UTF-8 BOM format."
+                fi
+
+                rm "$temp_original_file"
+            else
+                if [ -e "${ORIGINAL_FOLDER}${relative_path}" ]; then
+                    fileStatus=$(file "${ORIGINAL_FOLDER}${relative_path}")
+                    isfile=$(echo "$fileStatus" | grep 'text')
+                    if [ "${isfile}" ]; then
+                        echo "ERROR: A file with the same name as the non-patch file $relative_path exists in the original folder. Use a patch file instead of a whole file."
+                        exit 1
+                    else
+                        echo_debug "Overriding $fileStatus from sources"
+                    fi
+                fi
+
+                if [ -e "$mod_file" ] && [ "$OVERWRITE_MOD" != "yes" ]; then
+                    continue
+                fi
+
+                mkdir -p "$(dirname "$mod_file")"
+                cp "$sources_file" "$mod_file"
+                echo_debug "Copied file to mod: $mod_file"
+
+            fi
+        } &
     done
+    wait  # Attendre la fin de toutes les tâches
 }
-
 
 clear_mod_folder() {
     if [ "$MOD_FOLDER" != "mod/" ];then
