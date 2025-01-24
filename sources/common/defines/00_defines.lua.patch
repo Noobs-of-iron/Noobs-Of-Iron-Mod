@@ -80,7 +80,7 @@
 < 	ARMY_FUEL_COST_MULT = 0.5,						-- fuel cost multiplier for all army related stuff
 ---
 > 	ARMY_FUEL_COST_MULT = 0.70,						-- fuel cost multiplier for all army related stuff
-1842,1844c1842,1844
+1844,1846c1844,1846
 < 	HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR					= 0.25, -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has
 < 	MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO					= 0.75,  -- maximum penalty to get from larger fleets
 < 	MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY                         = 0,    -- the minimum fleet size in ships that a fleet must be before having the large fleet penalty applied to them
@@ -88,35 +88,35 @@
 > 	HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR					= 0.50, -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has
 > 	MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO					= 1.00,  -- maximum penalty to get from larger fleets
 > 	MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY                         = 36,    -- the minimum fleet size in ships that a fleet must be before having the large fleet penalty applied to them
-1846,1847c1846,1847
+1848,1849c1848,1849
 < 	HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR					= 0.2;  -- penalty if other side has stronger carrier air force
 < 	MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR 					= 0.2;  -- max penalty from stronger carrier air force
 ---
 > 	HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR					= 0.4;  -- penalty if other side has stronger carrier air force
 > 	MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR 					= 0.4;  -- max penalty from stronger carrier air force
-1853c1853
+1855c1855
 < 	DAMAGE_PENALTY_ON_MINIMUM_POSITIONING 							= 0.5,	-- damage penalty at 0% positioning
 ---
 > 	DAMAGE_PENALTY_ON_MINIMUM_POSITIONING 							= 0.75,	-- damage penalty at 0% positioning
-1855c1855
+1857c1857
 < 	AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 0.7,  -- AA penalty at 0% positioning
 ---
 > 	AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 0.5,  -- AA penalty at 0% positioning
-2040c2040
+2042c2042
 < 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.2,		-- The percentage of manpower returned when an encircled unit is disbanded
 ---
 > 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0,		-- The percentage of manpower returned when an encircled unit is disbanded
-2066,2067c2066,2067
+2068,2069c2068,2069
 < 	BASE_TRADE_FACTOR = 150,					-- This is the base trade factor
 < 	PUPPET_MASTER_TRADE_FACTOR = 400,			-- This is priority for puppet master
 ---
 > 	BASE_TRADE_FACTOR = 1500,					-- This is the base trade factor
 > 	PUPPET_MASTER_TRADE_FACTOR = 4000,			-- This is priority for puppet master
-3638c3638
+3640c3640
 < 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 ---
 > 	RECON_PLANE_INTEL_BASE = 0.05, 				-- intel base amount for a strategic area per plane
-3981c3981
+3983c3983
 < 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 60.0,
 ---
 > 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 400.0,

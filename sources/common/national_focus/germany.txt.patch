@@ -211,67 +211,67 @@
 < 		prerequisite = { focus = GER_reassert_eastern_claims }
 ---
 > 		prerequisite = { focus = GER_reassert_eastern_claims focus = GER_molotov_ribbentrop_pact}
-14035c14029
+14039c14033
 < 		x = 20
 ---
 > 		x = 10
-14136c14130
+14140c14134
 < 		x = 2
 ---
 > 		x = 15
-14210a14205,14207
+14214a14209,14211
 > 		allow_branch = {
 > 			always = no 
 > 		}
-14438c14435
+14442c14439
 < 		x = -1
 ---
 > 		x = 11
-18720c18717
+18724c18721
 < 						amount = 6
 ---
 > 						amount = 60
-18741c18738
+18745c18742
 < 								amount > 19
 ---
 > 								amount > 190
-18746c18743
+18750c18747
 < 								amount > 19
 ---
 > 								amount > 190
-18751c18748
+18755c18752
 < 								amount > 19
 ---
 > 								amount > 190
-18756c18753
+18760c18757
 < 								amount > 19
 ---
 > 								amount > 190
-18761c18758
+18765c18762
 < 								amount > 19
 ---
 > 								amount > 190
-18784c18781
+18788c18785
 < 								amount > 19
 ---
 > 								amount > 190
-18789c18786
+18793c18790
 < 								amount > 19
 ---
 > 								amount > 190
-18794c18791
+18798c18795
 < 								amount > 19
 ---
 > 								amount > 190
-18799c18796
+18803c18800
 < 								amount > 19
 ---
 > 								amount > 190
-18804c18801
+18808c18805
 < 								amount > 19
 ---
 > 								amount > 190
-20948,20959c20945
+20952,20963c20949
 < 			has_dlc = "Gotterdammerung" 
 < 			if = {
 < 				limit = {
@@ -286,7 +286,7 @@
 < 			}
 ---
 > 			always = no
-21276,21288c21262
+21284,21296c21270
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -302,36 +302,36 @@
 < 			}
 ---
 > 			always = no
-21660a21635,21638
+21668a21643,21646
 > 		allow_branch = {
 > 			always = no 
 > 		}
 > 
-23632c23610
-< 						amount = 6
----
-> 						amount = 60
-23636c23614
-< 						amount = 3
----
-> 						amount = 30
 23640c23618
-< 						amount = 3
----
-> 						amount = 30
-23657c23635
 < 						amount = 6
 ---
 > 						amount = 60
-23661c23639
+23644c23622
+< 						amount = 3
+---
+> 						amount = 30
+23648c23626
 < 						amount = 3
 ---
 > 						amount = 30
 23665c23643
+< 						amount = 6
+---
+> 						amount = 60
+23669c23647
 < 						amount = 3
 ---
 > 						amount = 30
-25056,25068c25034
+23673c23651
+< 						amount = 3
+---
+> 						amount = 30
+25064,25076c25042
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -347,7 +347,7 @@
 < 			}
 ---
 > 			always = no
-25192,25207c25158
+25201,25216c25167
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -366,7 +366,7 @@
 < 			}
 ---
 > 			always = no
-28483,28501c28434
+28957,28975c28908
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -388,7 +388,7 @@
 < 			}
 ---
 > 			always = no
-33967,33979c33900
+34860,34872c34793
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 
 < 			if = {
@@ -404,7 +404,7 @@
 < 			}
 ---
 > 			always = no
-34130,34144c34051
+35023,35037c34944
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -422,7 +422,7 @@
 < 			}
 ---
 > 			always = no
-34197,34208c34104
+35090,35101c34997
 < 			NOT = { has_dlc = "Gotterdammerung" }
 < 			if = {
 < 				limit = {
@@ -437,7 +437,7 @@
 < 			}
 ---
 > 			always = no
-35880,35894c35776
+36773,36787c36669
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -455,7 +455,7 @@
 < 			}
 ---
 > 			always = no
-37357c37239
+38250c38132
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---
