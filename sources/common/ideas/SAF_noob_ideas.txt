@@ -81,47 +81,10 @@ ideas = {
 				heavy_tank_chassis = {
 					instant = yes
 					build_cost_ic = -0.1
-				}
 			}
 			modifier = {
 				
 			}
 		}
-		SAF_NOI_operation_husky_i = {
-			picture = SPR_anti_fascist_crusade
-			
-			available = {
-				
-			}
-			
-			modifier = {
-				
-			}
-		}
-		
-		SAF_NOI_take_part_in_dday_i = {
-			picture = SPR_anti_fascist_crusade
-			
-			available = { }
-			
-			targeted_modifier = {
-				tag = GER
-				attack_bonus_against = 0.30
-			}
-	}
-
-		
-		SAF_NOI_final_blow_against_facism_i = {
-			picture = SPR_anti_fascist_crusade
-			
-			available = {
-				
-			}
-			
-			modifier = {
-				
-			}
-		}
-		
 	}
 }
