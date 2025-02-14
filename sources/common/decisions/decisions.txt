@@ -1,0 +1,38 @@
+convoy_category = {
+    convoy_decision = {
+        icon = GFX_decision_category_generic_political_actions
+        name = "Convoy"
+        cost = 1
+        days_remove = 30
+
+        available = {
+            always = yes
+        }
+        
+        visible = {
+            always = yes
+        }
+
+        complete_effect = {
+            add_equipment_to_stockpile = { 
+            type = convoy 
+            amount = 1 
+            }
+            add_equipment_to_stockpile = { 
+            type = convoy 
+            amount = -1 
+            }
+        }
+
+        remove_effect = {
+		    add_equipment_to_stockpile = { 
+            type = convoy 
+            amount = -1 
+            }
+		}
+
+        ai_will_do = {
+            factor = 10
+        }
+    }
+}

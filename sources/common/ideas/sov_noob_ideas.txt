@@ -15,6 +15,65 @@ ideas = {
         }
     }
 
+    country = {
+        amphibious_craft_in_bad_condition = {
+
+			picture = SOV_purged_junior_navy_officers
+
+			removal_cost = -1
+
+			allowed = {
+				always = no # Added via focus
+			}
+
+			modifier = {
+				naval_invasion_capacity = -8
+			}
+		}
+    }
+	
+	country = {
+        #sov man this is ass
+        leningrad_exposed_idea = {
+            picture = smersh
+            modifier = {
+				stability_factor = -0.20
+            }
+        }
+    }
+
+    country = {
+        #sov man this is bussin'
+        leningrad_secured_idea = {
+            picture = FIN_opposition_to_winter_war
+            modifier = {
+				stability_factor = 0.10
+            }
+        }
+    }
+
+    country = {
+    winter_war_debuff = {
+        picture = officers_purged
+
+        targeted_modifier = {
+				army_attack_factor = -0.20
+                army_org_factor = -0.20
+			}
+    }
+}
+
+country = {
+    soviet_offensive = {
+        picture = strategic_bombing_focus
+
+        targeted_modifier = {
+            tag = FIN
+				army_attack_factor = 0.10
+			}
+    }
+}
+
 	country = {
 	#Winter "Stalin bikini night in the snow" Offensive
 	SOV_NOI_winteroffensive_i = {

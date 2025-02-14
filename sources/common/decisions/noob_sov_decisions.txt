@@ -53,10 +53,139 @@ political_actions = {
                 add_idea = SOV_NOI_collapse_of_communism
             }
         }
-
-
     }
 }
+
+NOI_leningrad_situation_category = {
+
+    prepare_the_terrain = {
+	icon = GFX_decision_generic_construction
+	cost = 25
+        available = {
+            tag = SOV
+        }
+
+        modifier = {
+			civilian_factory_use = 2
+		}
+
+        visible = { 
+			NOT = {
+				has_country_flag = SOV_fin_war_flag
+			}
+		}
+
+        days_remove = 30
+		
+        complete_effect = {
+            208 = {
+            IF = {
+					limit = {
+						208 = {
+							free_building_slots = {
+								building = air_base
+								size > 3
+								
+							}
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 3
+						instant_build = yes
+					}
+				}
+            }
+        }
+	
+        ai_will_do = {
+            factor = 10
+        }
+
+        remove_effect = {
+			hidden_effect = {
+				set_country_flag = SOV_fin_war_flag
+			}
+
+		} 
+    }
+
+    leningrad_exposed = {
+    icon = GFX_decision_revolt
+    #custom_effect_tooltip = leningrad_exposed_tooltip
+
+    available = {
+    controls_state = 146
+    }
+
+    activation = {
+			has_completed_focus = SOV_the_centre
+		}
+
+    visible = {
+    has_completed_focus = SOV_the_centre
+    }
+    
+    highlight_states = {
+		highlight_state_targets = {
+		state = 146 #Karelia
+	    }
+    }
+
+    days_mission_timeout = 1480
+
+    is_good = no
+    fire_only_once = yes
+
+    timeout_effect = {
+        add_timed_idea = { 
+            idea = leningrad_exposed_idea
+            days = 365
+        }
+        remove_decision = leningrad_exposed
+        remove_decision = prepare_the_terrain
+        remove_decision = soviet_offensive
+        add_political_power = -150
+        country_event = { id = noi_sov.11 }
+        }
+
+        
+    }
+
+ soviet_offensive = {
+	icon = GFX_decision_generic_tank
+	cost = 25
+        available = {
+            tag = SOV
+            has_war_with = FIN
+            date > 1939.10.01
+            date < 1940.01.01
+        }
+	
+        ai_will_do = {
+            factor = 10
+        }
+
+        visible = {
+        tag = SOV
+            has_war_with = FIN
+        }
+
+        complete_effect = {
+            country_event = { id = noi_sov.13 }
+			news_event = { 
+			id = noi_news.10
+			days = 3
+			}
+        }
+	
+        ai_will_do = {
+            factor = 10
+        }
+		
+		days_remove = 30
+    }
+    }
 
 # Winter offensive
 SOV_great_patriotic_war = {
@@ -162,3 +291,4 @@ SOV_great_patriotic_war = {
 		}
     }
 }
+	

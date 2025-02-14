@@ -28,8 +28,20 @@
  SAF_NOI_adaptable_tank_force_i: "Adaptable Tank Force"
  SAF_NOI_war_in_the_desert_i: "War in the Desert"
  SAF_NOI_start_production_of_the_olifant_i: "Production of the Olifant"
+ SAF_NOI_request_indian_soldiers: "Request Indians soldiers"
+ SAF_NOI_request_indian_soldiers_desc: "Because of our policies manpower is very thin. We could ask our partener in the commonwhealth for manpower to fullfill a capable army. Better this than what we have here"
+ SAF_NOI_pacific_campaign: "Pacific campaign"
+ SAF_NOI_pacific_campaign_desc: "We need to provide assistance to the United Kingdoms in the pacific to defend the rubber supply and to protect India"
 
  noi_saf_invite_rhodesia: "Invite Rhodesia into the Union"
  noi_saf_invite_rhodesia_desc: "The 1922 Rhodesian referendum has only barely rejected joining South Africa. Now that the country is officially under our administration we can restart the integration process"
+
+ noi.saf.1.t: "India answered the call for help"
+ noi.saf.1.d: "India has accepted to send 100,000 Indian soldiers to support our war efforts."
+ noi.saf.1.a: "Nice, better than the alternative we had"
+
+ noi.saf.2.t: "Request for Indian Soldiers"
+ noi.saf.2.d: "India has refused our requested for troops"
+ noi.saf.2.a: "How are we supposed to fight without man ?!"
  
  

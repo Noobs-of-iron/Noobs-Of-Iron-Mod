@@ -178,3 +178,28 @@ news_event = {
 		trigger = { TAG = GER }
 	}
 }
+
+#no winter war ?
+news_event = {
+    id = noi_news.10
+    title = noi_news.10.t
+    desc = noi_news.10.d
+    picture = GFX_news_event_FIN_karelian_forest_guerillas
+
+    is_triggered_only = yes
+
+    major = yes
+
+	option = {
+		name = noi_news.10.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = noi_news.10.b
+		trigger = { TAG = SOV }
+	}
+}

@@ -1,0 +1,4 @@
+﻿l_english:
+  noi_leningrad_success_tooltip: "§GSuccess!§! Karelia has been secured, and stability is ensured."
+  noi_leningrad_fail_tooltip: "§RFailure!§! Karelia remains exposed. Inhabitants of Leningrad is abandonned. Lose 200 political power."
+  leningrad_exposed_tooltip: "We must fully control Karelia (State 146) for this decision!"

@@ -51,3 +51,32 @@
   noi_news.6.a: "A decisive Soviet strike"
   noi_news.6.b: "Advance with full force!"
   noi_news.6.c: "Defend every inch!"
+
+  noi_sov.11.t: "Leningrad exposed"
+  noi_sov.11.d: "With Karelia left unsecured, the people of Leningrad live in constant fear invasion eroding morale and shaking confidence in the government’s ability to defend the motherland. The heart of Leningrad stands exposed—an open gateway for a potential Axis advance, where the bitter winds of war threaten to sweep through its historic streets."
+  noi_sov.11.a: "This cannot be good"
+
+  noi_sov.12.t: "Leningrad is secured at last"
+  noi_sov.12.d: "With the successful securing of the border, Leningrad is now shielded by a vital buffer zone, significantly strengthening its defenses against potential invasions. The newly controlled territory not only provides a strategic depth that will slow down any advancing enemy forces but also grants the Soviet Union greater operational flexibility in the region. This achievement marks a crucial step in ensuring the long-term security of one of the Soviet Union's most important cities, preventing a siege and reinforcing its position as an impenetrable stronghold."
+  noi_sov.12.a: "The regime indeed knew best"
+
+  noi_sov.13.t: "The Red Army Advances into Finland"
+  noi_sov.13.d: "The Finnish resistance, though determined, cannot withstand the overwhelming firepower and numbers we bring to the battlefield. As we push forward, our soldiers must remain steadfast, for securing Karelia is essential to the defense of Leningrad and the future stability of the Soviet Union."
+  noi_sov.13.a: "Crush the Finnish resistance!"
+
+  noi_sov.14.t: "Struggling to Rebuild the Red Army"
+  noi_sov.14.d: "The purges have decimated the Red Army's officer corps, leaving the Soviet forces severely lacking in competent leadership. The soldiers are now under the command of inexperienced and untested officers, resulting in a loss of coordination and diminished fighting effectiveness. Until the new leadership adapts, our divisions will suffer from a lack of organization and weakened offensive capabilities, especially on the front lines with Finland."
+  noi_sov.14.a: "We must adapt quickly."
+
+  noi_news.10.t: "The Soviet Horde march on"
+  noi_news.10.d: "The war in the north takes a grim turn as Soviet forces press deeper into Finnish territory. Outmatched in firepower and numbers, the defenders fight with relentless determination, yet the Red Army’s advance seems inevitable. With Karelia on the brink of falling, the fate of Finland—and the balance of power in the region—hangs in the balance."
+  noi_news.10.a: "Let's see how it goes from here"
+  noi_news.10.b: "FORWARD !"
+
+  noi_sov.15.t: "The Siege Looms"
+  noi_sov.15.d: "The Axis forces, aided by the Finnish advance, have breached the line and are pressing on Leningrad. The city, which had been a symbol of Soviet resolve, now finds itself at the mercy of foreign invaders. Once again, Leningrad is on the front lines, with no certainty that it will hold. The very existence of the city—and the morale of the Soviet people—hangs in the balance."
+  noi_sov.15.a: "Prepare for the Worst..."
+
+  noi_sov.16.t: "Stalin want to secure Leningrad"
+  noi_sov.16.d: "The Soviet leadership sees the region of Karelia as a critical buffer zone to protect Leningrad from potential threats. As tensions rise, discussions begin on how best to secure the area—through diplomacy, subversion, or outright military action."
+  noi_sov.16.a: "We will do what is necessary."

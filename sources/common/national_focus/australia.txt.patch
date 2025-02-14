@@ -631,47 +631,65 @@
 > 					type = dockyard
 > 					level = 3
 > 					instant_build = yes
-2860a3121,3125
+2861c3121
+< 
+---
 > 	
-> 	focus = {
+2863,2869c3123,3129
+< 		id = AST_fight_work_or_perish
+< 		icon = GFX_goal_generic_propaganda
+< 		prerequisite = { focus = AST_civil_construction_corps }
+< 		prerequisite = { focus = AST_squash_the_squanderbugs }
+< 		x = -3
+< 		y = 4
+< 		relative_position_id = AST_establish_advisory_war_council
+---
 > 		id = AST_NOI_royal_australian_marines
 > 		icon = GFX_goal_generic_amphibious_assault
 > 		prerequisite = { focus = AST_NOI_ANZAC }
-2861a3127,3179
+> 
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = AST_NOI_ANZAC
-> 
-> 		cost = 10
-> 
-> 		ai_will_do = {
+2874c3134
+< 			factor = 15
+---
 > 			factor = 10
-> 		}
-> 
-> 		available = {
-> 
-> 		}
-> 		
-> 		bypass = {
-> 
-> 		}
-> 
-> 		cancel_if_invalid = yes
-> 		continue_if_invalid = no
+2887,2888c3147,3151
+< 		available_if_capitulated = yes
+< 		search_filters = { FOCUS_FILTER_INDUSTRY }
+---
 > 		available_if_capitulated = no
 > 
 > 		complete_tooltip = {
 > 
 > 		}
-> 
-> 		completion_reward = {
+2891,2901c3154,3159
+< 			#if effect is there for the tooltips sake
+< 			if = {
+< 				limit = { has_idea = AST_great_depression_1 }
+< 				remove_ideas = AST_great_depression_1
+< 				add_ideas = AST_all_in
+< 			}
+< 			if = {
+< 				limit = { has_idea = AST_great_depression_2 }
+< 				remove_ideas = AST_great_depression_2
+< 				add_ideas = AST_all_in
+< 				
+---
 > 			add_ideas = AST_NOI_royal_australian_marines_i
 > 			add_tech_bonus = {
 > 				name = AST_royal_marines
 > 				bonus = 3.0
 > 				uses = 1
 > 				category = marine_tech
-> 			}
+2903,2907c3161,3174
+< 			if = {
+< 				limit = { has_idea = AST_great_depression_3 }
+< 				swap_ideas = {
+< 					remove_idea = AST_great_depression_3
+< 					add_idea = AST_all_in
+---
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					is_in_home_area = yes
@@ -686,77 +704,81 @@
 > 					type = arms_factory
 > 					level = 2
 > 					instant_build = yes
-> 				}
-> 			}
-> 		}
-> 	}
+2911a3179,3220
 > 	
-2863,2869c3181,3187
-< 		id = AST_fight_work_or_perish
-< 		icon = GFX_goal_generic_propaganda
-< 		prerequisite = { focus = AST_civil_construction_corps }
-< 		prerequisite = { focus = AST_squash_the_squanderbugs }
-< 		x = -3
-< 		y = 4
-< 		relative_position_id = AST_establish_advisory_war_council
----
-> 		id = AST_NOI_integrate_new_zealand
-> 		icon = GFX_goal_generic_national_unity
-> 		prerequisite = { focus = AST_NOI_dockyard_expansion focus = AST_NOI_defense_of_the_mainland focus = AST_NOI_royal_australian_marines }
+> 	focus = {
+>     id = AST_NOI_integrate_new_zealand
+>     icon = GFX_goal_generic_national_unity
+>     prerequisite = { focus = AST_NOI_dockyard_expansion }
+>     
+>     x = 0
+>     y = 1
+>     relative_position_id = AST_NOI_dockyard_expansion
+>     
+>     cost = 10
 > 
-> 		x = 0
-> 		y = 1
-> 		relative_position_id = AST_NOI_dockyard_expansion
-2874c3192
-< 			factor = 15
----
-> 			factor = 20
-2887,2888c3205,3209
-< 		available_if_capitulated = yes
-< 		search_filters = { FOCUS_FILTER_INDUSTRY }
----
-> 		available_if_capitulated = no
+>     ai_will_do = {
+>         factor = 20
+>     }
 > 
-> 		complete_tooltip = {
+>     available = {
+>         has_war = no  # Ensures Australia is not at war
+>         NZL = {
+>             exists = yes
+>             has_war = no  # Ensures New Zealand is not at war
+>             OR = {
+>                 is_puppet_of = AST
+>                 is_in_faction_with = AST
+>             }
+>         }
+>     }
+>     
+>     bypass = {
+>         OR = {
+>             NZL = {
+>                 NOT = { exists = yes }
+>                 NOT = { is_puppet_of = AST }
+>                 NOT = { is_in_faction_with = AST }
+>                 has_capitulated = yes
+>             }
+>             AST = {
+>                 owns_state = 723
+>                 owns_state = 284
+>             }
+>         }
+>     }
+2912a3222,3300
+>     continue_if_invalid = yes
+>     available_if_capitulated = no
+>     
+>     completion_reward = {
+>         annex_country = { target = NZL transfer_troops = yes }
+>         
+>         NZL = {
+>             every_unit_leader = {
+>                 set_nationality = AST
+>             }
+>         }
 > 
-> 		}
-2891,2895c3212,3217
-< 			#if effect is there for the tooltips sake
-< 			if = {
-< 				limit = { has_idea = AST_great_depression_1 }
-< 				remove_ideas = AST_great_depression_1
-< 				add_ideas = AST_all_in
----
-> 			mark_focus_tree_layout_dirty = yes
-> 			annex_country = { target = NZL transfer_troops = yes }
-> 			NZL = {
-> 				every_unit_leader = {
-> 					set_nationality = AST
-> 				}
-2897,2901c3219,3223
-< 			if = {
-< 				limit = { has_idea = AST_great_depression_2 }
-< 				remove_ideas = AST_great_depression_2
-< 				add_ideas = AST_all_in
-< 				
----
-> 			723 = {
-> 				if = {
-> 					limit = { is_owned_by = NZL }
-> 					add_core_of = AST
-> 				}
-2903,2907c3225,3228
-< 			if = {
-< 				limit = { has_idea = AST_great_depression_3 }
-< 				swap_ideas = {
-< 					remove_idea = AST_great_depression_3
-< 					add_idea = AST_all_in
----
-> 			284 = {
-> 				if = {
-> 					limit = { is_owned_by = NZL }
-> 					add_core_of = AST
-2911a3233,3267
+>         # Add cores only if Australia owns the states
+>         if = {
+>             limit = {
+>                 723 = {
+>                     owner = AST
+>                 }
+>             }
+>             add_state_core = 723
+>         }
+>         if = {
+>             limit = {
+>                 284 = {
+>                     owner = AST
+>                 }
+>             }
+>             add_state_core = 284
+>         }
+>     }
+> }
 > 	
 > 	focus = {
 > 		id = AST_NOI_bob_semple
@@ -792,7 +814,7 @@
 > 		complete_tooltip = {
 > 
 > 		}
-2912a3269,3280
+> 
 > 		completion_reward = {
 > 			add_ideas = NZL_bob_semple_tank
 > 			add_tech_bonus = {
@@ -805,25 +827,25 @@
 > 	}
 > ##########################################################################################################################################################################################
 > ##########################################################################################################################################################################################
-2929d3296
+2929d3316
 < 			is_subject = no
-3022c3389
+3022c3409
 < 					amount = 24
 ---
 > 					amount = 240
-3029c3396
+3029c3416
 < 					amount = 12
 ---
 > 					amount = 24
-3042c3409
+3042c3429
 < 					amount = 24
 ---
 > 					amount = 240
-3053c3420
+3053c3440
 < 					amount = 12
 ---
 > 					amount = 24
-3056a3424,3433
+3056a3444,3453
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					is_in_home_area = yes
@@ -834,27 +856,27 @@
 > 					amount = 240
 > 				}
 > 			}
-3068c3445
+3068c3465
 < 		cost = 10
 ---
 > 		cost = 5
-3174c3551
+3174c3571
 < 		cost = 10
 ---
 > 		cost = 5
-3234c3611
+3234c3631
 < 		cost = 10
 ---
 > 		cost = 5
-3378c3755
+3378c3775
 < 				value = 0.1
 ---
 > 				value = 0.3
-3394c3771
+3394c3791
 < 		cost = 10
 ---
 > 		cost = 5
-3579,3581c3956,3958
+3579,3581c3976,3978
 < 		x = -1
 < 		y = 4
 < 		relative_position_id = AST_support_the_policy_of_appeasement
@@ -862,7 +884,7 @@
 > 		x = 0
 > 		y = 2
 > 		relative_position_id = AST_adopt_westminster
-3616,3619c3993,3996
+3616,3619c4013,4016
 < 		prerequisite = { focus = AST_CSIR focus = AST_swpa_protector }
 < 		x = 1
 < 		y = 4
@@ -872,7 +894,33 @@
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = AST_empire_air_training_scheme
-3621c3998
+3621c4018
 < 		cost = 10
 ---
 > 		cost = 5
+3987a4385,4393
+> 		cancel_if_invalid = yes
+> 		continue_if_invalid = no
+> 		available_if_capitulated = no
+> 
+> 		completion_reward = {
+> 			HOL = {
+> 				country_event = { id = tfv_australia.10 }
+> 			}
+> 		}
+4003,4011c4409,4413
+< 		}
+< 
+< 		cancel_if_invalid = yes
+< 		continue_if_invalid = no
+< 		available_if_capitulated = no
+< 
+< 		completion_reward = {
+< 			HOL = {
+< 				country_event = { id = tfv_australia.10 }
+---
+> 			any_state = {
+> 				owner = INS
+> 				NOT = { 
+> 				is_controlled_by = INS # If any Indonesian state is occupied, bypass
+> 				}

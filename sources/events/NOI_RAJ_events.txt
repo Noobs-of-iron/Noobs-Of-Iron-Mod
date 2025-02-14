@@ -1,0 +1,38 @@
+﻿add_namespace = noi.raj
+
+country_event = {
+    id = noi.raj.1
+    title = noi.raj.1.t
+    desc = noi.raj.1.d
+    picture = GFX_report_event_british_inspect_troops
+
+    is_triggered_only = yes
+
+    trigger = {
+        tag = RAJ
+    }
+
+    option = {
+        name = noi.raj.1.a
+        ai_chance = { factor = 90 } 
+        add_manpower = -100000  
+        SAF = { 
+            country_event = {
+                 id = noi.saf.1 
+                 days = 1 
+                 }
+         }
+    }
+
+    option = {
+        name = noi.raj.1.b
+        ai_chance = { factor = 10 } 
+
+        SAF = { 
+            country_event = {
+                 id = noi.saf.2 
+                 days = 1 
+                 }
+         }
+    }
+}

@@ -1,0 +1,6 @@
+6c6
+< color = { 255 191 191 }
+\ Pas de fin de ligne à la fin du fichier
+---
+> color = { 255 238 223 }
+\ Pas de fin de ligne à la fin du fichier

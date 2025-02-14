@@ -1,0 +1,128 @@
+10c10,30
+< 			amount = 94
+---
+> 			amount = 100
+> 			version_name = "I-15"
+> 		}
+> 		small_plane_airframe_0 = {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "I-15"
+> 		}
+> 		small_plane_airframe_0 = {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "I-16"
+> 		}
+> 		small_plane_airframe_0 = {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "I-15"
+> 		}
+> 		small_plane_airframe_0 = {
+> 			owner = "SOV" 
+> 			amount = 100
+16c36,46
+< 			amount = 60
+---
+> 			amount = 100
+> 			version_name = "DB-3"
+> 		}
+> 		medium_plane_airframe_0 =  {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "DB-3"
+> 		}
+> 		medium_plane_airframe_0 =  {
+> 			owner = "SOV" 
+> 			amount = 100
+26c56,76
+< 			amount = 94
+---
+> 			amount = 100
+> 			version_name = "I-15"
+> 		}
+> 		small_plane_airframe_0 = {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "I-15"
+> 		}
+> 		small_plane_airframe_0 = {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "I-16"
+> 		}
+> 		small_plane_airframe_0 = {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "I-16"
+> 		}
+> 		small_plane_airframe_0 = {
+> 			owner = "SOV" 
+> 			amount = 100
+33c83
+< 			amount = 48
+---
+> 			amount = 80
+44c94,114
+< 			amount = 94
+---
+> 			amount = 100
+> 			version_name = "I-16"
+> 		}
+> 		small_plane_airframe_1 = {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "I-15"
+> 		}
+> 		small_plane_airframe_1 = {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "I-15"
+> 		}
+> 		small_plane_airframe_1 = {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "I-15"
+> 		}
+> 		small_plane_airframe_1 = {
+> 			owner = "SOV" 
+> 			amount = 100
+50c120
+< 			amount = 94
+---
+> 			amount = 100
+66c136,146
+< 			amount = 94
+---
+> 			amount = 100
+> 			version_name = "I-15"
+> 		}
+> 		small_plane_airframe_1 = {
+> 			owner = "SOV" 
+> 			amount = 100
+> 			version_name = "I-15"
+> 		}
+> 		small_plane_airframe_1 = {
+> 			owner = "SOV" 
+> 			amount = 100
+73c153
+< 			amount = 60
+---
+> 			amount = 100
+89c169
+< 			amount = 94
+---
+> 			amount = 100
+94c174
+< 			amount = 94
+---
+> 			amount = 100
+110c190
+< 			amount = 54
+---
+> 			amount = 100
+119c199
+< 			amount = 54
+---
+> 			amount = 100

@@ -1,3 +1,7 @@
+22c22
+< #		mutually_exclusive = { focus =  }
+---
+> #		
 318c318,322
 < 		add_political_power = 120
 ---
@@ -37,6 +41,18 @@
 < 
 < 			custom_effect_tooltip = generic_skip_one_line_tt
 < 
+2058c2044
+< 				add_extra_state_shared_building_slots = 2
+---
+> 				add_extra_state_shared_building_slots = 3
+2061c2047
+< 					level = 2
+---
+> 					level = 3
+2079c2065
+< 					level = 2
+---
+> 					level = 3
 2087c2073
 < 				uses = 1
 ---
@@ -56,7 +72,7 @@
 > 				add_extra_state_shared_building_slots = 1
 > 				add_building_construction = {
 > 					type = industrial_complex
-> 					level = 1
+> 					level = 3
 > 					instant_build = yes
 > 				}
 > 			}
@@ -120,6 +136,10 @@
 < 					}
 < 					set_state_flag = SAF_infrastructure_effort_Inf4
 < 				}
+2359c2310
+< 					amount = 16
+---
+> 					amount = 160
 2499c2450
 < 		cost = 10
 ---
@@ -408,7 +428,7 @@
 < 		x = 32
 ---
 > 		x = 41
-3725a3625,4100
+3725a3625,4173
 > 	
 > #######################################################################################################################################################################################
 > ### NOI FOCUSES ###
@@ -418,7 +438,7 @@
 > 		id = SAF_NOI_enforce_coastal_defences
 > 		icon = GFX_goal_generic_construct_military
 > 		prerequisite = { focus = SAF_special_service_battalion }
-> 		mutually_exclusive = { focus =  }
+> 		
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = SAF_special_service_battalion
@@ -469,7 +489,7 @@
 > 		id = SAF_NOI_union_defence_force
 > 		icon = GFX_focus_generic_little_entente
 > 		prerequisite = { focus = SAF_special_service_battalion }
-> 		mutually_exclusive = { focus =  }
+> 		
 > 		x = 3
 > 		y = 1
 > 		relative_position_id = SAF_special_service_battalion
@@ -633,7 +653,7 @@
 > 		id = SAF_NOI_adaptable_tank_force
 > 		icon = GFX_goal_generic_position_armies
 > 		prerequisite = { focus = SAF_NOI_6th_armoured_division }
-> 		mutually_exclusive = { focus =  }
+> 		
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = SAF_NOI_6th_armoured_division
@@ -669,7 +689,7 @@
 > 		id = SAF_NOI_war_in_the_desert
 > 		icon = GFX_focus_AST_rats_tobruk
 > 		prerequisite = { focus = SAF_NOI_expand_infantry_divisions }
-> 		mutually_exclusive = { focus =  }
+> 		
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = SAF_NOI_expand_infantry_divisions
@@ -705,7 +725,7 @@
 > 		id = SAF_NOI_start_production_of_the_olifant
 > 		icon = GFX_focus_generic_tank_production
 > 		prerequisite = { focus = SAF_NOI_our_own_tank_design }
-> 		mutually_exclusive = { focus =  }
+> 		
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = SAF_NOI_our_own_tank_design
@@ -741,8 +761,8 @@
 > 		id = SAF_NOI_operation_husky
 > 		icon = GFX_focus_attack_italy
 > 		prerequisite = { focus = SAF_NOI_start_production_of_the_olifant focus =SAF_NOI_war_in_the_desert focus = SAF_NOI_adaptable_tank_force }
-> 		mutually_exclusive = { focus =  }
-> 		x = -1.5
+> 		
+> 		x = 0
 > 		y = 2
 > 		relative_position_id = SAF_NOI_our_own_tank_design
 > 
@@ -769,7 +789,7 @@
 > 		}
 > 
 > 		completion_reward = {
-> #this focus should unlock a decision that can be taken only once, and gives 10% attack and defense bonuses against italy for i would say 60 days
+> 			add_ideas = SAF_NOI_operation_husky
 > 		}
 > 	}
 > 	
@@ -777,8 +797,8 @@
 > 		id = SAF_NOI_take_part_in_dday
 > 		icon = GFX_focus_attack_germany
 > 		prerequisite = { focus = SAF_NOI_start_production_of_the_olifant focus =SAF_NOI_war_in_the_desert focus = SAF_NOI_adaptable_tank_force }
-> 		mutually_exclusive = { focus =  }
-> 		x = -3.5
+> 		
+> 		x = -2
 > 		y = 2
 > 		relative_position_id = SAF_NOI_our_own_tank_design
 > 
@@ -796,6 +816,46 @@
 > 
 > 		}
 > 
+> 		completion_reward = {
+> 			add_ideas = SAF_NOI_take_part_in_dday
+> 		}
+> 
+> 		cancel_if_invalid = yes
+> 		continue_if_invalid = no
+> 		available_if_capitulated = no
+> 
+> 		complete_tooltip = {
+> 
+> 		}
+> 	}
+> 
+> 	focus = {
+> 		id = SAF_NOI_pacific_campaign
+> 		icon = GFX_focus_attack_japan
+> 		prerequisite = { focus = SAF_NOI_start_production_of_the_olifant focus =SAF_NOI_war_in_the_desert focus = SAF_NOI_adaptable_tank_force }
+> 		
+> 		x = -4.5
+> 		y = 2
+> 		relative_position_id = SAF_NOI_our_own_tank_design
+> 
+> 		cost = 10
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 
+> 		available = {
+> 			date > 1941.06.01
+> 		}
+> 		
+> 		bypass = {
+> 
+> 		}
+> 
+> 		completion_reward = {
+> 			add_ideas = SAF_NOI_pacific_campaign
+> 		}
+> 
 > 		cancel_if_invalid = yes
 > 		continue_if_invalid = no
 > 		available_if_capitulated = no
@@ -804,16 +864,14 @@
 > 
 > 		}
 > 
-> 		completion_reward = {
-> #this focus should do the same as the husky one, but add bonuses against germany and vichy france, also 10% also 60 days
-> 		}
+> 
 > 	}
 > 	
 > 	focus = {
 > 		id = SAF_NOI_final_blow_against_facism
 > 		icon = GFX_goal_generic_major_war
-> 		prerequisite = { focus = SAF_NOI_take_part_in_dday focus = SAF_NOI_operation_husky}
-> 		mutually_exclusive = { focus =  }
+> 		prerequisite = { focus = SAF_NOI_take_part_in_dday focus = SAF_NOI_operation_husky focus = SAF_NOI_pacific_campaign }
+> 		
 > 		x = -2
 > 		y = 3
 > 		relative_position_id = SAF_NOI_our_own_tank_design
@@ -832,17 +890,19 @@
 > 
 > 		}
 > 
+> 		completion_reward = {
+> 			add_timed_idea = { 
+> 				idea = SAF_NOI_final_blow_against_facism 
+> 				days = 365 
+> 			}
+> 		}
+> 
 > 		cancel_if_invalid = yes
 > 		continue_if_invalid = no
 > 		available_if_capitulated = no
 > 
 > 		complete_tooltip = {
 > 
-> 		}
-> 
-> 		completion_reward = {
-> #this focus should give bigger buffs to attack overall for shorter amount of time,
-> #id say 15% or 20% attack and breaktrough for 30 days, also as a decision that is ulocked by the focus and can be taken only once
 > 		}
 > 	}
 > 	
@@ -883,5 +943,38 @@
 > 			}
 > 		}
 > 	}
-> 	
-> 	
+> 
+> 	focus = {
+> 		id = SAF_NOI_request_indian_soldiers
+> 		icon = GFX_focus_RAJ_indianisation_of_army
+> 		prerequisite = { focus = SAF_reconstitute_the_cape_corps }
+> 		relative_position_id = SAF_reconstitute_the_cape_corps
+> 		x = 0
+> 		y = 2
+> 
+> 		cost = 10
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 
+> 		available = {
+>         SAF = { has_war = yes }
+> 		}
+> 		
+> 		bypass = {
+> 
+> 		}
+> 
+> 		cancel_if_invalid = yes
+> 		continue_if_invalid = no
+> 		available_if_capitulated = yes
+> 		search_filters = { FOCUS_FILTER_MANPOWER }
+> 		completion_reward = {
+> 		RAJ = {
+> 				country_event = { 
+> 				id = noi.raj.1
+> 				days = 1 
+> 				}
+> 			}
+> 		}

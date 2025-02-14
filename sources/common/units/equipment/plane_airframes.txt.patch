@@ -7,7 +7,7 @@
 > 		lend_lease_cost = 16
 > 		manpower = 40
 > 		fuel_consumption = 0.10
-> 		build_cost_ic = 8
+> 		build_cost_ic = 10
 53,54c53,54
 < 			aluminium = 2
 < 			rubber = 1
@@ -17,7 +17,7 @@
 246c246
 < 		build_cost_ic = 5
 ---
-> 		build_cost_ic = 10
+> 		build_cost_ic = 13
 248,249c248,249
 < 			aluminium = 3
 < 			rubber = 1
@@ -27,7 +27,7 @@
 323c323
 < 		build_cost_ic = 6
 ---
-> 		build_cost_ic = 12
+> 		build_cost_ic = 16
 325,326c325,326
 < 			aluminium = 3
 < 			rubber = 1
@@ -37,7 +37,7 @@
 427c427
 < 		build_cost_ic = 7
 ---
-> 		build_cost_ic = 14
+> 		build_cost_ic = 18
 429,430c429,430
 < 			aluminium = 4
 < 			rubber = 1
@@ -47,13 +47,17 @@
 550c550
 < 		build_cost_ic = 10
 ---
-> 		build_cost_ic = 20
+> 		build_cost_ic = 26
 552,553c552,553
 < 			aluminium = 4
 < 			rubber = 1
 ---
 > 			aluminium = 40
 > 			rubber = 10
+676c676
+< 		build_cost_ic = 14
+---
+> 		build_cost_ic = 18
 850,853c850,853
 < 		lend_lease_cost = 8
 < 		manpower = 20
@@ -63,7 +67,7 @@
 > 		lend_lease_cost = 16
 > 		manpower = 40
 > 		fuel_consumption = 0.10
-> 		build_cost_ic = 12
+> 		build_cost_ic = 15
 855,856c855,856
 < 			aluminium = 2
 < 			rubber = 1
@@ -77,7 +81,7 @@
 1049c1049
 < 		build_cost_ic = 8.5
 ---
-> 		build_cost_ic = 17
+> 		build_cost_ic = 20
 1051,1052c1051,1052
 < 			aluminium = 3
 < 			rubber = 1
@@ -87,7 +91,7 @@
 1125c1125
 < 		build_cost_ic = 9.5
 ---
-> 		build_cost_ic = 19
+> 		build_cost_ic = 23
 1127,1128c1127,1128
 < 			aluminium = 3
 < 			rubber = 1
@@ -97,7 +101,7 @@
 1228c1228
 < 		build_cost_ic = 11
 ---
-> 		build_cost_ic = 22
+> 		build_cost_ic = 26
 1230,1231c1230,1231
 < 			aluminium = 4
 < 			rubber = 1
@@ -107,7 +111,7 @@
 1337c1337
 < 		build_cost_ic = 14.5
 ---
-> 		build_cost_ic = 29
+> 		build_cost_ic = 35
 1339,1340c1339,1340
 < 			aluminium = 4
 < 			rubber = 1
@@ -123,7 +127,7 @@
 1478c1478
 < 		build_cost_ic = 6
 ---
-> 		build_cost_ic = 12
+> 		build_cost_ic = 14
 1480,1481c1480,1481
 < 			aluminium = 2
 < 			rubber = 1
@@ -137,7 +141,7 @@
 1724c1724
 < 		build_cost_ic = 8
 ---
-> 		build_cost_ic = 16
+> 		build_cost_ic = 18
 1726,1727c1726,1727
 < 			aluminium = 3
 < 			rubber = 1
@@ -147,7 +151,7 @@
 1855c1855
 < 		build_cost_ic = 10
 ---
-> 		build_cost_ic = 20
+> 		build_cost_ic = 22
 1857,1858c1857,1858
 < 			aluminium = 4
 < 			rubber = 1
@@ -157,7 +161,7 @@
 2003c2003
 < 		build_cost_ic = 13
 ---
-> 		build_cost_ic = 26
+> 		build_cost_ic = 29
 2005,2006c2005,2006
 < 			aluminium = 5
 < 			rubber = 1
@@ -167,7 +171,7 @@
 2163c2163
 < 		build_cost_ic = 14
 ---
-> 		build_cost_ic = 28
+> 		build_cost_ic = 31
 2165,2166c2165,2166
 < 			aluminium = 5
 < 			rubber = 1
@@ -183,7 +187,7 @@
 > 		lend_lease_cost = 20
 > 		manpower = 160
 > 		fuel_consumption = 0.32
-> 		build_cost_ic = 32
+> 		build_cost_ic = 35
 2352,2353c2352,2353
 < 			aluminium = 3
 < 			rubber = 2
@@ -193,7 +197,7 @@
 2592c2592
 < 		build_cost_ic = 18
 ---
-> 		build_cost_ic = 36
+> 		build_cost_ic = 40
 2594,2595c2594,2595
 < 			aluminium = 3
 < 			rubber = 2
@@ -203,7 +207,7 @@
 2732c2732
 < 		build_cost_ic = 20
 ---
-> 		build_cost_ic = 40
+> 		build_cost_ic = 44
 2734,2735c2734,2735
 < 			aluminium = 4
 < 			rubber = 2
@@ -213,7 +217,7 @@
 2898c2898
 < 		build_cost_ic = 22
 ---
-> 		build_cost_ic = 44
+> 		build_cost_ic = 48
 2900,2901c2900,2901
 < 			aluminium = 5
 < 			rubber = 2
@@ -223,7 +227,7 @@
 3064c3064
 < 		build_cost_ic = 23
 ---
-> 		build_cost_ic = 36
+> 		build_cost_ic = 40
 3066,3067c3066,3067
 < 			aluminium = 6
 < 			rubber = 2

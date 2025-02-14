@@ -1,0 +1,19 @@
+NOI_leningrad_situation_category = {
+
+    icon = GFX_decision_category_infiltration
+
+    picture = GFX_decision_cat_picture_FIN_karelian_forest_guerillas
+
+    priority = 100
+
+    visible = {
+        tag = SOV  # Only SOV can see it
+        has_completed_focus = SOV_the_centre  # Only after this focus
+        is_puppet = no
+    }
+
+    allowed = {
+        original_tag = SOV  # Ensures only SOV can take decisions in this category
+    }
+
+}

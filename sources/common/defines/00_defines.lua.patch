@@ -56,6 +56,14 @@
 < 	BASE_RESEARCH_POINTS_SAVED = 30.0,		-- Base amount of research points a country can save per slot.
 ---
 > 	BASE_RESEARCH_POINTS_SAVED = 50.0,		-- Base amount of research points a country can save per slot.
+705c705
+< 	ANTI_AIR_SUPERIORITY_MULT = 5.0,	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
+---
+> 	ANTI_AIR_SUPERIORITY_MULT = 7.5,	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
+708c708
+< 	AIRBASE_CAPACITY_MULT = 200,		-- Each level of airbase building multiplied by this, gives capacity (max operational value). Value is int. 1 for each airplane.
+---
+> 	AIRBASE_CAPACITY_MULT = 100,		-- Each level of airbase building multiplied by this, gives capacity (max operational value). Value is int. 1 for each airplane.
 826,828c826,828
 < 	MAX_ARMY_EXPERIENCE = 500,			--Max army experience a country can store
 < 	MAX_NAVY_EXPERIENCE = 500,			--Max navy experience a country can store
@@ -64,6 +72,10 @@
 > 	MAX_ARMY_EXPERIENCE = 999,			--Max army experience a country can store
 > 	MAX_NAVY_EXPERIENCE = 999,			--Max navy experience a country can store
 > 	MAX_AIR_EXPERIENCE = 999,				--Max air experience a country can store
+840c840
+< 	LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.032,    -- air global damage modifier
+---
+> 	LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.016,    -- air global damage modifier
 894c894
 < 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0001,
 ---
@@ -80,6 +92,24 @@
 < 	ARMY_FUEL_COST_MULT = 0.5,						-- fuel cost multiplier for all army related stuff
 ---
 > 	ARMY_FUEL_COST_MULT = 0.70,						-- fuel cost multiplier for all army related stuff
+1195c1195
+< 	AIR_WING_MAX_STATS_ATTACK = 100,					-- Max stats
+---
+> 	AIR_WING_MAX_STATS_ATTACK = 50,					-- Max stats
+1216c1216
+< 	COMBAT_DAMAGE_SCALE = 1,							-- Higher value = more shot down planes
+---
+> 	COMBAT_DAMAGE_SCALE = 0.4,							-- Higher value = more shot down planes
+1286,1287c1286,1287
+< 	ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.8,					-- Anti Air Gun Damage factor
+< 	ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.1,					-- Anti Air Gun hit chance
+---
+> 	ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.9,					-- Anti Air Gun Damage factor
+> 	ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.2,					-- Anti Air Gun hit chance
+1353c1353
+< 	AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0.3, -- max trucks we can destroy in one instance of a logistics strike
+---
+> 	AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0.15, -- max trucks we can destroy in one instance of a logistics strike
 1844,1846c1844,1846
 < 	HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR					= 0.25, -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has
 < 	MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO					= 0.75,  -- maximum penalty to get from larger fleets

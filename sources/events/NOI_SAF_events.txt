@@ -1,0 +1,38 @@
+add_namespace = noi.saf
+
+country_event = {
+    id = noi.saf.1
+    title = noi.saf.1.t
+    desc = noi.saf.1.d
+    picture = GFX_report_event_british_inspect_troops
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+         tag = SAF
+     }
+
+    option = {
+        name = noi.saf.1.a
+        SAF = { 
+            add_manpower = 100000  
+        }  
+    }
+}
+
+country_event = {
+    id = noi.saf.2
+    title = noi.saf.2.t
+    desc = noi.saf.2.d
+    picture = GFX_report_event_british_inspect_troops
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+         tag = SAF
+     }
+
+    option = {
+        name = noi.saf.2.a
+    }
+}

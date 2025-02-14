@@ -1,3 +1,7 @@
+341c341
+< 	mean_time_to_happen = { days = 20 }
+---
+> 	mean_time_to_happen = { days = 1 }
 357c357,360
 < 				white_peace = FIN
 ---
