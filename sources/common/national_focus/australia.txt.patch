@@ -704,7 +704,7 @@
 > 					type = arms_factory
 > 					level = 2
 > 					instant_build = yes
-2911a3179,3220
+2911a3179,3276
 > 	
 > 	focus = {
 >     id = AST_NOI_integrate_new_zealand
@@ -747,11 +747,16 @@
 >             }
 >         }
 >     }
-2912a3222,3300
+>    
+> 
 >     continue_if_invalid = yes
 >     available_if_capitulated = no
 >     
 >     completion_reward = {
+> 		 hidden_effect = {
+> 			mark_focus_tree_layout_dirty = yes
+> 		}
+> 		
 >         annex_country = { target = NZL transfer_troops = yes }
 >         
 >         NZL = {
@@ -798,7 +803,7 @@
 > 		ai_will_do = {
 > 			factor = 20
 > 		}
-> 
+2912a3278,3305
 > 		available = {
 > 
 > 		}
@@ -827,25 +832,25 @@
 > 	}
 > ##########################################################################################################################################################################################
 > ##########################################################################################################################################################################################
-2929d3316
+2929d3321
 < 			is_subject = no
-3022c3409
+3022c3414
 < 					amount = 24
 ---
 > 					amount = 240
-3029c3416
+3029c3421
 < 					amount = 12
 ---
 > 					amount = 24
-3042c3429
+3042c3434
 < 					amount = 24
 ---
 > 					amount = 240
-3053c3440
+3053c3445
 < 					amount = 12
 ---
 > 					amount = 24
-3056a3444,3453
+3056a3449,3458
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					is_in_home_area = yes
@@ -856,27 +861,27 @@
 > 					amount = 240
 > 				}
 > 			}
-3068c3465
+3068c3470
 < 		cost = 10
 ---
 > 		cost = 5
-3174c3571
+3174c3576
 < 		cost = 10
 ---
 > 		cost = 5
-3234c3631
+3234c3636
 < 		cost = 10
 ---
 > 		cost = 5
-3378c3775
+3378c3780
 < 				value = 0.1
 ---
 > 				value = 0.3
-3394c3791
+3394c3796
 < 		cost = 10
 ---
 > 		cost = 5
-3579,3581c3976,3978
+3579,3581c3981,3983
 < 		x = -1
 < 		y = 4
 < 		relative_position_id = AST_support_the_policy_of_appeasement
@@ -884,7 +889,7 @@
 > 		x = 0
 > 		y = 2
 > 		relative_position_id = AST_adopt_westminster
-3616,3619c4013,4016
+3616,3619c4018,4021
 < 		prerequisite = { focus = AST_CSIR focus = AST_swpa_protector }
 < 		x = 1
 < 		y = 4
@@ -894,11 +899,11 @@
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = AST_empire_air_training_scheme
-3621c4018
+3621c4023
 < 		cost = 10
 ---
 > 		cost = 5
-3987a4385,4393
+3987a4390,4398
 > 		cancel_if_invalid = yes
 > 		continue_if_invalid = no
 > 		available_if_capitulated = no
@@ -908,7 +913,7 @@
 > 				country_event = { id = tfv_australia.10 }
 > 			}
 > 		}
-4003,4011c4409,4413
+4003,4011c4414,4418
 < 		}
 < 
 < 		cancel_if_invalid = yes

@@ -299,7 +299,7 @@ country_event = {
 
     option = {
         Name = "yeeeh"
-        remove_idea = leningrad_secured_idea
+        remove_ideas = leningrad_secured_idea
     }
 }
 
