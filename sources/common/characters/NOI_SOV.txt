@@ -1,0 +1,17 @@
+characters = {
+    SOV_NOI_Elusivsky_Erodditch = {
+		name = SOV_NOI_ero
+		portraits = {
+			army = {
+				large = GFX_portrait_SOV_arkady_nazarov
+			}
+		}
+
+		scientist = {
+			traits = { scientist_trait_armored_specialist scientist_trait_brilliant_theorist }
+			skills = {
+				specialization_land = 2
+			}
+		}
+	}
+}
