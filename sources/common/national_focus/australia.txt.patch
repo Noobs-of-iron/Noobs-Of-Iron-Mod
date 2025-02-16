@@ -709,7 +709,7 @@
 > 	focus = {
 >     id = AST_NOI_integrate_new_zealand
 >     icon = GFX_goal_generic_national_unity
->     prerequisite = { focus = AST_NOI_dockyard_expansion }
+>     prerequisite = { focus = AST_NOI_dockyard_expansion focus = AST_NOI_defense_of_the_mainland focus = AST_NOI_royal_australian_marines }
 >     
 >     x = 0
 >     y = 1
