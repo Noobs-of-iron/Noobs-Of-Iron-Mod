@@ -1,4 +1,17 @@
-4980a4981,4990
+4851,4862d4850
+< 			if = {
+< 				limit = { 
+< 					FROM = { has_tech = paras_combat_drop } 
+< 					NOT = { 
+< 						has_state_flag = {
+< 						    flag = para_drop_effect
+< 						    value = 0
+< 						}
+< 					}
+< 				}
+< 				SF_PARA_combat_effect = yes
+< 			}
+4980a4969,4978
 > 					if = {
 > 						limit = { 
 > 							AND = {
