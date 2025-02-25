@@ -99,7 +99,7 @@
 1216c1216
 < 	COMBAT_DAMAGE_SCALE = 1,							-- Higher value = more shot down planes
 ---
-> 	COMBAT_DAMAGE_SCALE = 0.4,							-- Higher value = more shot down planes
+> 	COMBAT_DAMAGE_SCALE = 0.6,							-- Higher value = more shot down planes
 1286,1287c1286,1287
 < 	ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.8,					-- Anti Air Gun Damage factor
 < 	ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.1,					-- Anti Air Gun hit chance
@@ -132,6 +132,10 @@
 < 	AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 0.7,  -- AA penalty at 0% positioning
 ---
 > 	AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 0.5,  -- AA penalty at 0% positioning
+1936c1936
+< 	SUBMARINE_REVEAL_BASE_CHANCE 									= 11,		-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
+---
+> 	SUBMARINE_REVEAL_BASE_CHANCE 									= 13,		-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
 2042c2042
 < 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.2,		-- The percentage of manpower returned when an encircled unit is disbanded
 ---

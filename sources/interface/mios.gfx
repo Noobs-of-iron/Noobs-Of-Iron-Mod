@@ -2,6 +2,6 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_noob_SPR_inf_tank"
-		texturefile = "gfx\interface\ideas\idea_noob_SPR_inf_tank.dds"
+		texturefile = "gfx/interface/ideas/idea_noob_SPR_inf_tank.dds"
 	}
 }

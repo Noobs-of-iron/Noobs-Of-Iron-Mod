@@ -1,0 +1,16 @@
+9537c9537
+< 		country_resource_aluminium = 10 
+---
+> 		country_resource_aluminium = 100 
+9547c9547
+< 		country_resource_aluminium = 20 
+---
+> 		country_resource_aluminium = 200 
+9641c9641
+< 		country_resource_steel = 10 
+---
+> 		country_resource_steel = 100 
+10014c10014
+< 		country_resource_steel = 12
+---
+> 		country_resource_steel = 120

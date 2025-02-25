@@ -704,7 +704,7 @@
 > 					type = arms_factory
 > 					level = 2
 > 					instant_build = yes
-2911a3179,3276
+2911a3179,3273
 > 	
 > 	focus = {
 >     id = AST_NOI_integrate_new_zealand
@@ -722,14 +722,14 @@
 >     }
 > 
 >     available = {
->         has_war = no  # Ensures Australia is not at war
+>         
 >         NZL = {
 >             exists = yes
->             has_war = no  # Ensures New Zealand is not at war
 >             OR = {
 >                 is_puppet_of = AST
 >                 is_in_faction_with = AST
 >             }
+>             has_capitulated = no
 >         }
 >     }
 >     
@@ -737,9 +737,6 @@
 >         OR = {
 >             NZL = {
 >                 NOT = { exists = yes }
->                 NOT = { is_puppet_of = AST }
->                 NOT = { is_in_faction_with = AST }
->                 has_capitulated = yes
 >             }
 >             AST = {
 >                 owns_state = 723
@@ -769,7 +766,7 @@
 >         if = {
 >             limit = {
 >                 723 = {
->                     owner = AST
+>                     is_owned_by = AST
 >                 }
 >             }
 >             add_state_core = 723
@@ -777,7 +774,7 @@
 >         if = {
 >             limit = {
 >                 284 = {
->                     owner = AST
+>                     is_owned_by = AST
 >                 }
 >             }
 >             add_state_core = 284
@@ -803,7 +800,7 @@
 > 		ai_will_do = {
 > 			factor = 20
 > 		}
-2912a3278,3305
+2912a3275,3302
 > 		available = {
 > 
 > 		}
@@ -832,25 +829,25 @@
 > 	}
 > ##########################################################################################################################################################################################
 > ##########################################################################################################################################################################################
-2929d3321
+2929d3318
 < 			is_subject = no
-3022c3414
+3022c3411
 < 					amount = 24
 ---
 > 					amount = 240
-3029c3421
+3029c3418
 < 					amount = 12
 ---
 > 					amount = 24
-3042c3434
+3042c3431
 < 					amount = 24
 ---
 > 					amount = 240
-3053c3445
+3053c3442
 < 					amount = 12
 ---
 > 					amount = 24
-3056a3449,3458
+3056a3446,3455
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					is_in_home_area = yes
@@ -861,27 +858,27 @@
 > 					amount = 240
 > 				}
 > 			}
-3068c3470
+3068c3467
 < 		cost = 10
 ---
 > 		cost = 5
-3174c3576
+3174c3573
 < 		cost = 10
 ---
 > 		cost = 5
-3234c3636
+3234c3633
 < 		cost = 10
 ---
 > 		cost = 5
-3378c3780
+3378c3777
 < 				value = 0.1
 ---
 > 				value = 0.3
-3394c3796
+3394c3793
 < 		cost = 10
 ---
 > 		cost = 5
-3579,3581c3981,3983
+3579,3581c3978,3980
 < 		x = -1
 < 		y = 4
 < 		relative_position_id = AST_support_the_policy_of_appeasement
@@ -889,7 +886,7 @@
 > 		x = 0
 > 		y = 2
 > 		relative_position_id = AST_adopt_westminster
-3616,3619c4018,4021
+3616,3619c4015,4018
 < 		prerequisite = { focus = AST_CSIR focus = AST_swpa_protector }
 < 		x = 1
 < 		y = 4
@@ -899,11 +896,11 @@
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = AST_empire_air_training_scheme
-3621c4023
+3621c4020
 < 		cost = 10
 ---
 > 		cost = 5
-3987a4390,4398
+3987a4387,4395
 > 		cancel_if_invalid = yes
 > 		continue_if_invalid = no
 > 		available_if_capitulated = no
@@ -913,7 +910,7 @@
 > 				country_event = { id = tfv_australia.10 }
 > 			}
 > 		}
-4003,4011c4414,4418
+4003,4011c4411,4415
 < 		}
 < 
 < 		cancel_if_invalid = yes
@@ -925,7 +922,7 @@
 < 				country_event = { id = tfv_australia.10 }
 ---
 > 			any_state = {
-> 				owner = INS
+> 				is_owned_by = INS
 > 				NOT = { 
 > 				is_controlled_by = INS # If any Indonesian state is occupied, bypass
 > 				}
