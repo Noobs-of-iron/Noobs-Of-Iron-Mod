@@ -2,15 +2,3 @@
 < 13025;255;16;40;land;true;plains;6
 ---
 > 13025;255;16;40;land;true;hills;6
-13366c13366,13372
-< 13365;41;86;71;land;false;forest;5
-\ Pas de fin de ligne à la fin du fichier
----
-> 13365;41;86;71;land;false;forest;5
-> 13366;187;163;91;land;true;plains;3
-> 13367;97;253;230;land;true;plains;3
-> 13368;84;37;150;land;true;plains;3
-> 13369;180;130;135;land;true;plains;3
-> 13370;158;19;181;land;true;plains;3
-> 13371;117;248;13;land;true;plains;3
-\ Pas de fin de ligne à la fin du fichier

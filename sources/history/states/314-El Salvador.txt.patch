@@ -1,16 +1,4 @@
-5c5
-< 	manpower = 1437611
----
-> 	manpower = 5
 7c7
 < 		chromium=1 # was: 1
 ---
 > 		chromium = 10 # was: 1
-16,18c16,18
-< 			infrastructure = 2
-< 			arms_factory = 1
-< 			industrial_complex = 2 
----
-> 			infrastructure = 1
-> 			arms_factory = 0
-> 			industrial_complex = 0 

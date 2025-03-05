@@ -62,40 +62,40 @@
 < 				factor = 5
 < 				date > "1942.1.1"
 < 			}
-1072c1122
+1074c1124
 < 			ap_attack = 0.2
 ---
 > 			ap_attack = 0.1
-1077c1127
+1079c1129
 < 			ap_attack = 0.2
 ---
 > 			ap_attack = 0.1
-1081c1131
+1083c1133
 < 			ap_attack = 0.2
 ---
 > 			ap_attack = 0.1
-1085c1135
+1087c1137
 < 			ap_attack = 0.2
 ---
 > 			ap_attack = 0.1
-1111a1162
+1113a1164
 > 		
-1174a1226,1229
+1176a1228,1231
 > 		path = {
 >  			leads_to_tech = tankround
 >  			research_cost_coeff = 1
 >  		}
-1182a1238
+1184a1240
 > 
-1241c1297
+1243c1299
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1324c1380
+1326c1382
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1487c1543
+1489c1545
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05

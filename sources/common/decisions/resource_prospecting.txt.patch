@@ -1,3 +1,7 @@
+1c1
+< prospect_for_resources = {
+---
+> prospect_for_resources={
 78c78
 < 					amount = 12
 ---
@@ -62,6 +66,10 @@
 < 					amount = 8
 ---
 > 					amount = 80
+1765c1765
+< 					amount = 6
+---
+> 					amount = 60
 1858c1858
 < 					amount = 10
 ---
@@ -126,6 +134,14 @@
 < 					amount = 6
 ---
 > 					amount = 60
+3771c3771
+< 					amount = 10
+---
+> 					amount = 100
+3862c3862
+< 					amount = 12
+---
+> 					amount = 120
 3964c3964
 < 					amount = 6
 ---
@@ -226,51 +242,63 @@
 < 					amount = 6
 ---
 > 					amount = 60
-7275c7275
+7363c7363
 < 					amount = 15
 ---
 > 					amount = 150
-7357c7357
+7445c7445
 < 					amount = 34
 ---
 > 					amount = 340
-7439c7439
+7527c7527
 < 					amount = 36
 ---
 > 					amount = 360
-7527c7527
+7615c7615
 < 					amount = 12
 ---
 > 					amount = 120
-7616c7616
+7704c7704
 < 					amount = 28
 ---
 > 					amount = 280
-8078c8078
+8166c8166
 < 					amount = 8
 ---
 > 					amount = 80
-8160c8160
+8248c8248
 < 					amount = 24
 ---
 > 					amount = 240
-8473c8473
+8330c8330
+< 					amount = 14
+---
+> 					amount = 140
+8554c8554
+< 					amount = 24
+---
+> 					amount = 240
+8561c8561
 < 					amount = 12
 ---
 > 					amount = 120
-8480c8480
+8568c8568
 < 					amount = 5
 ---
 > 					amount = 50
-8574c8574
+8662c8662
 < 					amount = 8
 ---
 > 					amount = 80
-8578c8578
+8666c8666
 < 					amount = 4
 ---
 > 					amount = 40
-8582c8582
+8670c8670
 < 					amount = 4
 ---
 > 					amount = 40
+8906c8906
+< 					amount = 8
+---
+> 					amount = 80

@@ -1,6 +1,0 @@
-10,11c10,11
-< 		rubber=3 # was: 4
-< 		tungsten = 92
----
-> 		rubber = 30 # was: 4
-> 		tungsten = 920

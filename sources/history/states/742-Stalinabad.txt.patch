@@ -1,0 +1,6 @@
+5,6c5,6
+< 	resources = {
+< 		steel = 3.000
+---
+> 	resources={
+> 		steel = 30.000

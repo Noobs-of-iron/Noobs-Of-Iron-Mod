@@ -14,8 +14,7 @@
 < 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
 ---
 > 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.1 }
-4905a4906,4924
-> 
+4904a4905,4921
 > 			219 = {
 > 						add_building_construction = {
 > 							type = land_facility
@@ -24,7 +23,6 @@
 > 							province = 3391 # Kubinka
 > 						}
 > 					}
-> 
 > 			hidden_effect = {
 > 				IF = {
 > 					limit = { 
@@ -34,17 +32,22 @@
 > 					}
 > 				}
 > 			}
-7033a7053
+4905a4923,4926
+> 
+> 			
+> 
+> 			
+7033a7055
 > 				country_event = { id = noi_sov.16 }
-13665c13685
+13664c13686
 < 		cost = 10
 ---
 > 		cost = 0.2
-14143c14163
+14142c14164
 < 		cost = 10
 ---
 > 		cost = 0.2
-17821c17841
+17826c17848
 < 		cost = 10
 ---
 > 		cost = 1

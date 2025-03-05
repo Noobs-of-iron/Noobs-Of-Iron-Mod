@@ -1,8 +1,8 @@
-44a45,47
+44a45,60
 > #######################
 > ###DYNAMIC MODIFIERS###
 > #######################
-45a49,72
+> 
 > #Economic Nationalism
 > set_variable = { SIA_autarky_production_speed_infrastructure_factor = 0.1 }
 > 
@@ -15,7 +15,7 @@
 > set_variable = { SIA_autarky_production_factory_efficiency_gain_factor = 0 }
 > set_variable = { SIA_autarky_production_speed_arms_factory_factor = 0 }
 > set_variable = { SIA_autarky_political_power_factor= 0 }
-> 
+45a62,72
 > #Thai Army
 > set_variable = { SIA_thorbor_army_org_factor = -0.1 }
 > set_variable = { SIA_thorbor_army_morale_factor = -0.1 }

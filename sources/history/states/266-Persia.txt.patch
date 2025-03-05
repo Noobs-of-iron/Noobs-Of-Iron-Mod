@@ -1,0 +1,8 @@
+6,8c6,8
+< 	resources = {
+< 		aluminium = 2
+< 		tungsten = 2
+---
+> 	resources={
+> 		aluminium = 20
+> 		tungsten = 20

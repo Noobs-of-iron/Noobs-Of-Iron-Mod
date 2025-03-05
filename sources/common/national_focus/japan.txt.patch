@@ -42,16 +42,16 @@
 < 					amount = 12
 ---
 > 					amount = 120
-1778c1765
-< 		cost = 10
----
-> 		cost = 5
 1803,1805c1790
 < 			SIA = { 
-< 				country_event = generic.5 
+< 				country_event = { id = generic.5 hours = 2 }
 < 			}
 ---
 > 			add_to_faction = SIA
+1823c1808
+< 		cost = 10
+---
+> 		cost = 5
 1853c1838
 < 					amount = 12
 ---

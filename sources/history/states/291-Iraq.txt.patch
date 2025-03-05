@@ -1,4 +1,4 @@
-10c10
-< 		oil=15 # was: 22
+8c8
+< 	resources = {
 ---
-> 		oil = 15 # was: 22
+> 	resources={

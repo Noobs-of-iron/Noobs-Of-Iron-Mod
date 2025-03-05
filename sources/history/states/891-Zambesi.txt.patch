@@ -1,4 +1,6 @@
-8c8
-< 		rubber=1.000
+7,8c7,8
+< 	resources = {
+< 		rubber = 1.000
 ---
+> 	resources={
 > 		rubber = 10.000

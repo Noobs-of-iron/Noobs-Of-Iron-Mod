@@ -1,0 +1,6 @@
+4,5c4,5
+< 	resources = {
+< 		tungsten = 120.000
+---
+> 	resources={
+> 		tungsten = 1200.000
