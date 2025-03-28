@@ -146,11 +146,11 @@
 ---
 > 	BASE_TRADE_FACTOR = 1500,					-- This is the base trade factor
 > 	PUPPET_MASTER_TRADE_FACTOR = 4000,			-- This is priority for puppet master
-3640c3640
+3645c3645
 < 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 ---
 > 	RECON_PLANE_INTEL_BASE = 0.05, 				-- intel base amount for a strategic area per plane
-3983c3983
+3988c3988
 < 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 60.0,
 ---
 > 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 400.0,

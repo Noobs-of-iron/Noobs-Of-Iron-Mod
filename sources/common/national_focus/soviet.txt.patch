@@ -38,16 +38,18 @@
 > 
 > 			
 7033a7055
-> 				country_event = { id = noi_sov.16 }
-13664c13686
+> 				
+7039a7062
+> 			country_event = { id = noi_sov.16 }
+13676c13699
 < 		cost = 10
 ---
 > 		cost = 0.2
-14142c14164
+14154c14177
 < 		cost = 10
 ---
 > 		cost = 0.2
-17826c17848
+17839c17862
 < 		cost = 10
 ---
 > 		cost = 1

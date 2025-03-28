@@ -86,7 +86,7 @@
 < 			hardness = -0.3
 ---
 > 			hardness = -0.2
-292c312
+324c344
 < 			build_cost_ic = 1
 ---
 > 			build_cost_ic = 1.2
