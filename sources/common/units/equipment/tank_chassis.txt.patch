@@ -13,10 +13,22 @@
 < 			steel = 1
 ---
 > 			steel = 10
+210c220
+< 		build_cost_ic = 2.35
+---
+> 		build_cost_ic = 2
+224c234
+< 		build_cost_ic = 2.7
+---
+> 		build_cost_ic = 2.5
 229c239
 < 			steel = 1
 ---
 > 			steel = 10
+242c252
+< 		build_cost_ic = 3
+---
+> 		build_cost_ic = 6
 247c257
 < 			steel = 2
 ---
@@ -39,10 +51,22 @@
 < 			steel = 1
 ---
 > 			steel = 10
+456c475
+< 		build_cost_ic = 3.75
+---
+> 		build_cost_ic = 5
+470c489
+< 		build_cost_ic = 4
+---
+> 		build_cost_ic = 7
 474c493
 < 			steel = 1
 ---
 > 			steel = 10
+487c506
+< 		build_cost_ic = 4.25
+---
+> 		build_cost_ic = 9
 491c510
 < 			steel = 2
 ---
@@ -65,6 +89,10 @@
 < 			steel = 1
 ---
 > 			steel = 10
+707c735
+< 		build_cost_ic = 11
+---
+> 		build_cost_ic = 16
 712,713c740,741
 < 			steel = 1
 < 			chromium = 1
@@ -74,7 +102,7 @@
 726c754
 < 		build_cost_ic = 12
 ---
-> 		build_cost_ic = 19
+> 		build_cost_ic = 16
 731,732c759,760
 < 			steel = 2
 < 			chromium = 1
