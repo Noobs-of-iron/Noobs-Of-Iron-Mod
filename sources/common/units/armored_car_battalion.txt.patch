@@ -1,24 +1,26 @@
-42,43c42,43
+39a40
+> 		armor_value = -0.9
+42,43c43,44
 < 		    attack = -0.2
 < 			movement = -0.4
 ---
 > 		    attack = -0.1
 > 			movement = -0.3
-50c50
+50c51
 < 		    attack = -0.3
 ---
 > 		    attack = -0.2
-54d53
+54d54
 < 		    attack = -0.1 
-61c60
+61c61
 < 			attack = -0.3
 ---
 > 			attack = -0.1
-64c63
+64c64
 < 			attack = -0.2 
 ---
 > 			attack = -0.1 
-68c67
+68c68
 < 			attack = -0.4
 ---
 > 			attack = -0.2

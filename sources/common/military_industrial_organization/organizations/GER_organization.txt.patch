@@ -1,0 +1,26 @@
+338,339c338,339
+< 		relative_position_id = GER_mio_trait_technical_superiority
+< 		any_parent = { GER_mio_trait_technical_superiority }
+---
+> 		relative_position_id = generic_mio_trait_adaptable_chassis
+> 		any_parent = { generic_mio_trait_adaptable_chassis }
+346,347c346,347
+< 		relative_position_id = GER_mio_trait_technical_superiority
+< 		any_parent = { GER_mio_trait_technical_superiority }
+---
+> 		relative_position_id = generic_mio_trait_adaptable_chassis
+> 		any_parent = { generic_mio_trait_adaptable_chassis }
+354,355c354,355
+< 		relative_position_id = GER_mio_trait_technical_superiority
+< 		any_parent = { GER_mio_trait_technical_superiority }
+---
+> 		relative_position_id = generic_mio_trait_adaptable_chassis
+> 		any_parent = { generic_mio_trait_adaptable_chassis }
+487c487
+< 		relative_position_id = generic_mio_trait_adaptable_chassis
+---
+> 		relative_position_id = GER_mio_trait_steel_wheel_design
+489c489
+< 		any_parent = { generic_mio_trait_adaptable_chassis }
+---
+> 		any_parent = { GER_mio_trait_steel_wheel_design }

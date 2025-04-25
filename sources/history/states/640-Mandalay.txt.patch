@@ -4,3 +4,7 @@
 ---
 > 	resources={
 > 		tungsten = 1200.000
+12c12
+< 		owner = BRM
+---
+> 		owner = RAJ

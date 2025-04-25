@@ -13,27 +13,91 @@
 < 			steel = 1
 ---
 > 			steel = 10
-210c220
-< 		build_cost_ic = 2.35
----
-> 		build_cost_ic = 2
-224c234
-< 		build_cost_ic = 2.7
----
-> 		build_cost_ic = 2.5
-229c239
-< 			steel = 1
----
-> 			steel = 10
-242c252
-< 		build_cost_ic = 3
----
-> 		build_cost_ic = 6
-247c257
-< 			steel = 2
----
-> 			steel = 20
-378a389,397
+192d201
+< 		module_slots = inherit
+197a207,322
+> 
+> 		module_slots = {			
+> 
+> 			turret_type_slot = { #Turrets must go at the top
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 			
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 					tank_non_tracked_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 			
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			category = tank_secondary_turret
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 		
 > 		module_count_limit = {
 > 			module = apcr_round
 > 			count < 2
@@ -43,35 +107,125 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
-417c436
-< 			steel = 1
----
-> 			steel = 10
-442c461
-< 			steel = 1
----
-> 			steel = 10
-456c475
-< 		build_cost_ic = 3.75
----
-> 		build_cost_ic = 5
-470c489
-< 		build_cost_ic = 4
----
-> 		build_cost_ic = 7
-474c493
-< 			steel = 1
----
-> 			steel = 10
-487c506
-< 		build_cost_ic = 4.25
----
-> 		build_cost_ic = 9
-491c510
-< 			steel = 2
----
-> 			steel = 20
-628a648,656
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_light_one_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+> 		}
+208d332
+< 		module_slots = inherit
+212a337,461
+> 
+> 				module_slots = {			
+> 
+> 			turret_type_slot = { #Turrets must go at the top
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 			
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 					tank_non_tracked_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_2 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 			
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			category = tank_secondary_turret
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 		
 > 		module_count_limit = {
 > 			module = apcr_round
 > 			count < 2
@@ -81,35 +235,1413 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
-652c680
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_light_one_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+> 		}
+223d471
+< 		module_slots = inherit
+229c477,611
+< 			steel = 1
+---
+> 			steel = 10
+> 		}
+> 
+> 				module_slots = {			
+> 
+> 			turret_type_slot = { #Turrets must go at the top
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 			
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 					tank_non_tracked_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_2 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_3 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 			
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			category = tank_secondary_turret
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 		
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_light_one_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+241d622
+< 		module_slots = inherit
+247c628,771
+< 			steel = 2
+---
+> 			steel = 20
+> 		}
+> 
+> 				module_slots = {			
+> 
+> 			turret_type_slot = { #Turrets must go at the top
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 			
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 					tank_non_tracked_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_2 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_3 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_4 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 			
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			category = tank_secondary_turret
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 		
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_light_one_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+378a903,911
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+417c950
+< 			steel = 1
+---
+> 			steel = 10
+432d964
+< 		module_slots = inherit
+442c974,1023
+< 			steel = 1
+---
+> 			steel = 10
+> 		}
+> module_slots = {
+> 
+> 			turret_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 					tank_medium_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_radio_module
+> 					tank_special_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 			
+443a1025,1089
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			category = tank_secondary_turret
+> 			count < 3 #two secondary turrets only
+> 		}
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_medium_one_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+> 		}
+> 
+454d1099
+< 		module_slots = inherit
+458a1104,1226
+> 
+> 		module_slots = {
+> 
+> 			turret_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 					tank_medium_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_radio_module
+> 					tank_special_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_2 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 			
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			category = tank_secondary_turret
+> 			count < 3 #two secondary turrets only
+> 		}
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_medium_one_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+> 		}
+468d1235
+< 		module_slots = inherit
+474c1241,1373
+< 			steel = 1
+---
+> 			steel = 10
+> 		}
+> 
+> 		module_slots = {
+> 
+> 			turret_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 					tank_medium_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_radio_module
+> 					tank_special_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_2 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 
+> 			special_type_slot_3 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 			
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			category = tank_secondary_turret
+> 			count < 3 #two secondary turrets only
+> 		}
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_medium_one_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+485d1383
+< 		module_slots = inherit
+491c1389,1530
+< 			steel = 2
+---
+> 			steel = 20
+> 		}
+> 
+> 		module_slots = {
+> 
+> 			turret_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 					tank_medium_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_radio_module
+> 					tank_special_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_2 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 
+> 			special_type_slot_3 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 
+> 			special_type_slot_4 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 			
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			category = tank_secondary_turret
+> 			count < 3 #two secondary turrets only
+> 		}
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_medium_one_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+628a1668,1676
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+652c1700
 < 		build_cost_ic = 10
 ---
 > 		build_cost_ic = 15
-657c685
+657c1705
 < 			steel = 1
 ---
 > 			steel = 10
-707c735
-< 		build_cost_ic = 11
----
-> 		build_cost_ic = 16
-712,713c740,741
+673d1720
+< 		module_slots = inherit
+681a1729,1841
+> 
+> 		
+> 		module_slots = {
+> 
+> 			turret_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 					tank_medium_turret_type
+> 					tank_heavy_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_heavy_two_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+> 		}
+692d1851
+< 		module_slots = inherit
+695a1855,1975
+> 
+> 		module_slots = {
+> 
+> 			turret_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 					tank_medium_turret_type
+> 					tank_heavy_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_2 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_heavy_two_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+> 		}
+706d1985
+< 		module_slots = inherit
+712,713c1991,2122
 < 			steel = 1
 < 			chromium = 1
 ---
 > 			steel = 10
 > 			chromium = 10
-726c754
+> 		}
+> 
+> 		module_slots = {
+> 
+> 			turret_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 					tank_medium_turret_type
+> 					tank_heavy_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_2 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 
+> 			special_type_slot_3 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_heavy_two_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+725,726c2134
+< 		module_slots = inherit
 < 		build_cost_ic = 12
 ---
-> 		build_cost_ic = 16
-731,732c759,760
+> 		build_cost_ic = 19
+731,732c2139,2279
 < 			steel = 2
 < 			chromium = 1
 ---
 > 			steel = 20
 > 			chromium = 10
-837c865,874
+> 		}
+> 
+> 		module_slots = {
+> 
+> 			turret_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_light_turret_type
+> 					tank_medium_turret_type
+> 					tank_heavy_turret_type
+> 				}
+> 			}
+> 			
+> 			main_armament_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_small_main_armament
+> 					tank_flamethrower
+> 				}
+> 			}
+> 
+> 			suspension_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_suspension_type
+> 				}
+> 			}
+> 
+> 			armor_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_armor_type
+> 				}
+> 			}
+> 
+> 			engine_type_slot = {
+> 				required = yes
+> 				allowed_module_categories = {
+> 					tank_engine_type
+> 				}
+> 			}
+> 
+> 			special_type_slot_1 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_radio_module
+> 					tank_secondary_turret
+> 				}
+> 			}
+> 
+> 			special_type_slot_2 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 
+> 			special_type_slot_3 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 
+> 			special_type_slot_4 = {
+> 				required = no
+> 				allowed_module_categories = {
+> 					tank_special_module
+> 					tank_secondary_turret
+> 					tank_radio_module
+> 				}
+> 			}
+> 
+> 		}
+> 		module_count_limit = {
+> 			module = sloped_armor
+> 			count < 2
+> 		}	
+> 		module_count_limit = {
+> 			category = tank_radio_module
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = amphibious_drive
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = wet_ammo_storage
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = squeezebore_adaptor
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = armor_skirts
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = dozer_blade
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = apcr_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = aphe_round
+> 			count < 2
+> 		}
+> 
+> 		module_count_limit = {
+> 			module = easy_maintenance
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = auto_loader
+> 			count < 2
+> 		}
+> 		module_count_limit = {
+> 			module = stabilizer
+> 			count < 2
+> 		}
+> 		default_modules = {
+> 			main_armament_slot = empty
+> 			turret_type_slot = tank_heavy_two_man_tank_turret
+> 			suspension_type_slot = tank_bogie_suspension
+> 			armor_type_slot = tank_riveted_armor
+> 			engine_type_slot = tank_gasoline_engine
+837c2384,2393
 < 		}	
 ---
 > 		}
@@ -122,13 +1654,13 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
-896,897c933,934
+896,897c2452,2453
 < 			steel = 2
 < 			chromium = 1
 ---
 > 			steel = 20
 > 			chromium = 10
-1059a1097,1105
+1059a2616,2624
 > 			module = apcr_round
 > 			count < 2
 > 		}
@@ -138,13 +1670,13 @@
 > 			count < 2
 > 		}
 > 		module_count_limit = {
-1079,1080c1125,1126
+1079,1080c2644,2645
 < 			steel = 3
 < 			chromium = 2
 ---
 > 			steel = 30
 > 			chromium = 20
-1229a1276,1284
+1229a2795,2803
 > 		module_count_limit = {
 > 			module = apcr_round
 > 			count < 2
@@ -154,7 +1686,7 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
-1260c1315
+1260c2834
 < 			steel = 1
 ---
 > 			steel = 10

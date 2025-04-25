@@ -1,20 +1,52 @@
 39a40,41
 > 		transport = light_tank_flame_chassis
 > 
+46,48c48,50
+< 		soft_attack = -0.5 #Was -0.75
+< 		breakthrough = -0.5 #Was -0.75
+< 		hard_attack = -0.75
+---
+> 		soft_attack = -0.1 #Was -0.75
+> 		breakthrough = -0.1 #Was -0.75
+> 		hard_attack = -0.1
+50c52
+< 		armor_value = -0.75
+---
+> 		armor_value = -0.95
 53a56
 > 			motorized_equipment = 15
 55a59
 > 
-131a136,137
+132,134c136,140
+< 		soft_attack = -0.45 #Was -0.7
+< 		breakthrough = -0.45 #Was -0.7
+< 		hard_attack = -0.7
+---
 > 		transport = medium_tank_flame_chassis
 > 
+> 		soft_attack = -0.1 #Was -0.7
+> 		breakthrough = -0.1 #Was -0.7
+> 		hard_attack = -0.1
+136c142
+< 		armor_value = -0.7
+---
+> 		armor_value = -0.95
 139a146
 > 			motorized_equipment = 15
 141a149
 > 
-218a227,228
+219,220c227,230
+< 		soft_attack = -0.4 #Was -0.625
+< 		hard_attack = -0.625
+---
 > 		transport = heavy_tank_flame_chassis
 > 
+> 		soft_attack = -0.1 #Was -0.625
+> 		hard_attack = -0.125
+222c232
+< 		armor_value = -0.625
+---
+> 		armor_value = -0.95
 226a237
 > 			motorized_equipment = 15
 227a239
