@@ -7,6 +7,9 @@ ideas = {
                 can_join_factions = no
                 can_not_declare_war = yes
             }
+            modifier = {
+                guarantee_cost = 50
+                }
         }
         # PHI on our own
         PHI_NOI_on_our_own = {
