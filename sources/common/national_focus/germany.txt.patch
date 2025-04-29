@@ -381,7 +381,7 @@
 < 			}
 ---
 > 			always = no
-28992,29010c28953
+28994,29012c28955
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -403,7 +403,7 @@
 < 			}
 ---
 > 			always = no
-34920,34932c34863
+34964,34976c34907
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 
 < 			if = {
@@ -419,7 +419,7 @@
 < 			}
 ---
 > 			always = no
-35083,35097c35014
+35127,35141c35058
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -437,7 +437,7 @@
 < 			}
 ---
 > 			always = no
-35150,35161c35067
+35194,35205c35111
 < 			NOT = { has_dlc = "Gotterdammerung" }
 < 			if = {
 < 				limit = {
@@ -452,7 +452,7 @@
 < 			}
 ---
 > 			always = no
-36833,36847c36739
+36877,36891c36783
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -470,7 +470,7 @@
 < 			}
 ---
 > 			always = no
-38224c38116
+38268c38160
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

@@ -24,11 +24,13 @@
 < 336;special_project_facility_spawn;4423.00;9.70;671.00;2.20;0
 ---
 > 1017;special_project_facility_spawn;4423.00;9.70;671.00;2.20;0
-60248c60244,60287
+60248d60243
 < 266;landmark_spawn;3610.40;12.80;1247.31;-0.09;0
+60254c60249,60292
+< 430;dam_spawn;4211.04;9.90;1033.40;1.16;0
 \ Pas de fin de ligne à la fin du fichier
 ---
-> 266;landmark_spawn;3610.40;12.80;1247.31;-0.09;0
+> 430;dam_spawn;4211.04;9.90;1033.40;1.16;0
 > 4;supply_node;3061.00;10.12;1479.00;0.79;0
 > 428;floating_harbor;3901.00;9.50;974.00;-3.93;7207
 > 428;floating_harbor;3901.00;9.50;974.00;-3.95;9975
@@ -72,4 +74,3 @@
 > 1017;radar_station;4424.00;9.70;671.00;2.21;0
 > 1017;nuclear_reactor_spawn;4421.00;9.57;670.00;1.64;0
 > 1017;rocket_site_spawn;4420.00;9.57;671.00;1.97;0
-\ Pas de fin de ligne à la fin du fichier

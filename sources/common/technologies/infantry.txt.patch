@@ -19,24 +19,24 @@
 > 			defense = 0.05
 > 			breakthrough = 0.05
 > 		}
-1372a1387,1390
+1501a1516,1519
 > 		semi_motorized = {
 > 			defense = 0.05
 > 			breakthrough = 0.05
 > 		}
-1450c1468,1471
+1579c1597,1600
 < 
 ---
 > 		semi_motorized = {
 > 			defense = 0.05
 > 			breakthrough = 0.05
 > 		}
-1514c1535,1538
+1643c1664,1667
 < 
 ---
 > 		semi_motorized = {
 > 			defense = 0.05
 > 			breakthrough = 0.05
 > 		}
-1622a1647
+1751a1776
 > 			semi_motorized

@@ -1,4 +1,8 @@
-7c7
+7,9c7,9
 < 		oil=12 # was: 14
+< 		chromium=7
+< 		steel=2
 ---
 > 		oil = 12 # was: 14
+>  		chromium = 70
+>  		steel = 20
