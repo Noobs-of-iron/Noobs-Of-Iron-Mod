@@ -1,0 +1,7 @@
+referenced in equipment graphic database does not exist
+mentions module slot
+which is not present on type
+does not have any equipment variant for type
+has locked equipment requirements
+invalid focus for ai
+common/ai_strategy_plans
