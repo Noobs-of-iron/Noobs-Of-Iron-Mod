@@ -5,3 +5,4 @@ does not have any equipment variant for type
 has locked equipment requirements
 invalid focus for ai
 common/ai_strategy_plans
+Could not set pool equipment 'version_name'
