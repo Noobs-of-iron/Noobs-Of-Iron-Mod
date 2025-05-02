@@ -1,0 +1,3021 @@
+ENG_NOI_chiefs_of_staff_comitee = {
+	ENG_NOI_operation_torch = {
+		icon = hol_draw_up_staff_plans
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 462
+				state = 461
+				state = 459
+				state = 460
+				state = 513
+				
+			}
+		}
+		
+		available = {
+			has_completed_focus = ENG_NOI_mediterranean_operations
+			command_power > 50
+
+			OR = {
+				461 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				462 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				459 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				460 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				513 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_mediterranean_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+		
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_torch_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				461 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				461 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				461 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				461 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				461 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				459 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				459 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				459 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				459 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				459 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				460 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				460 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				460 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				460 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				460 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				513 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				513 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				513 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				513 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				513 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				462 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				462 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				462 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				462 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				462 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	ENG_NOI_operation_dragoon = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 22
+				state = 21
+				state = 851
+				state = 735
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_mediterranean_operations
+			command_power > 50
+
+			OR = {
+				21 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				22 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				851 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				735 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_mediterranean_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_dragoon_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				21 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				21 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				21 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				21 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				21 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				22 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				22 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				22 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				22 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				22 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				851 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				851 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				851 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				851 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				851 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				735 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				735 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				735 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				735 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				735 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_husky = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 115
+				state = 156
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_mediterranean_operations
+			command_power > 50
+
+			OR = {
+				115 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				156 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_mediterranean_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_husky_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				115 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+				115 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				115 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				115 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				115 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+
+				156 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+				156 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				156 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				156 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				156 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_compass = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 663
+				state = 451
+				state = 450
+				state = 452
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_mediterranean_operations
+			command_power > 50
+
+			OR = {
+				663 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				451 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				450 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				452 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_mediterranean_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_compass_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				663 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				663 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				663 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				663 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				663 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				451 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				451 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				451 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				451 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				451 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				450 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				450 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				450 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				450 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				450 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				452 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				452 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				452 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				452 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				452 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_animals = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 186
+				state = 47
+				state = 185
+				state = 731
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_mediterranean_operations
+			command_power > 50
+
+			OR = {
+				186 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				47 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				185 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				731 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_mediterranean_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_animals_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				186 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				186 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				186 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				186 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				186 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				47 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				47 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				47 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				47 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				47 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				185 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				185 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				185 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				185 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				185 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				731 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				731 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				731 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				731 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				731 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_zipper = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 336
+				state = 724
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_asian_operations
+			command_power > 50
+
+			OR = {
+				336 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				724 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_asian_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_zipper_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				336 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				336 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				336 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				336 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				336 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				724 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				724 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				724 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				724 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				724 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_dracula = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 995
+				state = 996
+				state = 994
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_asian_operations
+			command_power > 50
+
+			OR = {
+				995 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				996 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				994 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_asian_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_dracula_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				995 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				995 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				995 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				995 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				995 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				996 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				996 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				996 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				996 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				996 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				994 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				994 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				994 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				994 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				994 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_oboe = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 333
+				state = 334
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_asian_operations
+			command_power > 50
+
+			OR = {
+				333 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				334 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_asian_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_oboe_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				333 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				333 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				333 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				333 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				333 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				334 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				334 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				334 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				334 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				334 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_capital = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 640
+				state = 288
+				state = 998
+				state = 999
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_asian_operations
+			command_power > 50
+
+			OR = {
+				640 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				288 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				998 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				999 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_asian_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_capital_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				640 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				640 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				640 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				640 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				640 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				288 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				288 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				288 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				288 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				288 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				998 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				998 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				998 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				998 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				998 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				999 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				999 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				999 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				999 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				999 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_cobalt_caesar = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 335
+				state = 667
+				state = 672
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_asian_operations
+			command_power > 50
+
+			OR = {
+				335 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				667 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				672 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_asian_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_cobalt_caesar_tt
+			hidden_effect = {
+				add_command_power > -50
+				
+				335 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				335 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				335 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				335 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				335 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				667 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				667 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				667 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				667 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				667 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				672 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				672 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				672 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				672 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				672 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_overlord = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 15
+				state = 14
+				state = 30
+				state = 16
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_european_operations
+			command_power > 50
+			date > 1944.01.01
+
+			OR = {
+				15 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				14 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				30 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				16 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_european_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+		custom_effect_tooltip = ENG_NOI_operation_overlord_tt
+			hidden_effect = {
+				add_command_power > -50
+				
+				15 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				15 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				15 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				15 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				15 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				14 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				14 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				14 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				14 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				14 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				30 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				30 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				30 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				30 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				30 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				16 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				16 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				16 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				16 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				16 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_market_garden = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35
+				state = 36
+				state = 7
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_european_operations
+			command_power > 50
+
+			OR = {
+				35 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				36 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				7 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_european_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_market_garden_tt
+			hidden_effect = {
+				add_command_power > -50
+				
+				35 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = ENG
+					}
+				}
+				35 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = RAJ
+					}
+				}
+				35 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = CAN
+					}
+				}
+				35 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = AST
+					}
+				}
+				35 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = SAF
+					}
+				}
+
+				36 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = ENG
+					}
+				}
+				36 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = RAJ
+					}
+				}
+				36 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = CAN
+					}
+				}
+				36 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = AST
+					}
+				}
+				36 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = SAF
+					}
+				}
+
+				7 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = ENG
+					}
+				}
+				7 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = RAJ
+					}
+				}
+				7 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = CAN
+					}
+				}
+				7 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = AST
+					}
+				}
+				7 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_market_garden
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_plunder = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 51
+				state = 55
+				state = 978
+				state = 42
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_european_operations
+			command_power > 50
+
+			OR = {
+				51 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				55 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				978 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				42 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_european_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_plunder_tt
+			hidden_effect = {
+				add_command_power > -50
+				
+				51 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				51 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				51 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				51 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				51 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				55 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				55 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				55 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				55 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				55 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				978 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				978 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				978 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				978 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				978 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				42 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				42 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				42 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				42 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				42 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_operation_jupiter = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 922
+				state = 143
+				state = 142
+				state = 923
+				state = 144
+				state = 924
+				state = 925
+				state = 920
+				state = 921
+				state = 110
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_european_operations
+			command_power > 50
+
+			OR = {
+				922 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				143 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				142 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				923 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				144 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				924 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				925 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				920 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				921 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				110 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_european_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_jupiter_tt
+			hidden_effect = {
+				add_command_power > -50
+				
+				922 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				922 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				922 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				922 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				922 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				143 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				143 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				143 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				143 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				143 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				142 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				142 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				142 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				142 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				142 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				923 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				923 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				923 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				923 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				923 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				144 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				144 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				144 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				144 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				144 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				924 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				924 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				924 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				924 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				924 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				925 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				925 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				925 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				925 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				925 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				920 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				920 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				920 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				920 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				920 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				921 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				921 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				921 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				921 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				921 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				110 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+				}
+				110 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+				}
+				110 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+				}
+				110 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+				}
+				110 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+	ENG_NOI_operation_sledgehammer = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 15
+				state = 14
+				state = 30
+				state = 16
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_european_operations
+			command_power > 50
+
+			OR = {
+				15 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				14 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				30 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				16 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_european_operations
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_operation_sledgehammer_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				15 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				14 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				30 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+
+				16 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = ENG
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = RAJ
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = CAN
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = AST
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_offensive_plans
+						days = 45
+						scope = SAF
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	ENG_NOI_assemble_commonwealth_corps = {
+		icon = hol_draw_up_staff_plans
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 282
+				state = 528
+			}
+		}
+
+		available = {
+			has_completed_focus = ENG_NOI_commonwealth_corps
+			command_power > 50
+
+			OR = {
+				282 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+				528 = {
+					NOT = { is_controlled_by = ENG }
+					controller = { has_war_with = ENG }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ENG_NOI_commonwealth_corps
+		}
+
+		fire_only_once = no
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = decision_cost_CP_50
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_NOI_assemble_commonwealth_corps_tt
+			hidden_effect = {
+				add_command_power > -50
+
+				282 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_commonwealth_corp
+						days = 90
+						scope = ENG
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_commonwealth_corp
+						days = 90
+						scope = RAJ
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_commonwealth_corp
+						days = 90
+						scope = CAN
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_commonwealth_corp
+						days = 90
+						scope = AST
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_commonwealth_corp
+						days = 90
+						scope = SAF
+					}
+				}
+
+				528 = {
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_commonwealth_corp
+						days = 90
+						scope = ENG
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_commonwealth_corp
+						days = 90
+						scope = RAJ
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_commonwealth_corp
+						days = 90
+						scope = CAN
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_commonwealth_corp
+						days = 90
+						scope = AST
+					}
+					add_dynamic_modifier = {
+						modifier = ENG_NOI_commonwealth_corp
+						days = 90
+						scope = SAF
+					}
+				}
+			}
+		}
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}

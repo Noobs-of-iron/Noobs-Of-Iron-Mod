@@ -1,0 +1,287 @@
+ideas = {
+# I MADE SO MANY IDEAS COZ I HATE DYNAMIC MODIFIERS FIGHT ME I DONT WANNA TOUCH THEM (I WILL TOUCH THEM COZ OF THE FUCKING DECISIONS FOR OFFENSIVES :NEEEEEE:
+	country = {
+		ENG_NOI_royal_engineers_i = {
+			picture = ast_naval_auxiliary_patrol
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				production_speed_coastal_bunker_factor = 0.1
+				production_speed_bunker_factor = 0.1 #this is vanilla values not crazy powercreepbua type of shit please dont kill me
+				sp_land_stronghold_network_speed_factor = 0.25
+			}
+		}
+		ENG_NOI_garrison_the_empire_i = {
+			picture = SWE_varnplikt
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = 0.1 #this gives barely anything, it jumps from having 0.2% of the manpower from non core state to 0.3% so it literally is 0.1 recruitable pop —\_(Z)_/—
+				required_garrison_factor = -0.1	#overall it gives uk like a bit less than 100k manpower so 10 divs, not the end of the world, u also have to consider this manpower comes from reduced garrisons, when uk ussually just requests morbillion man from puppets for garrison
+				army_defence_factor = 0.05	
+			}
+		}
+		ENG_NOI_victory_at_all_cost_i = {
+			picture = MEX_politicised_army_2
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				mobilization_speed = 0.15
+				conscription_factor = 0.1
+				army_morale_factor = 0.1
+				army_defence_factor = 0.05 # u can delet it if needed
+				stability_factor = -0.05 #u can throw this negative stab out who cares
+			}
+		}
+		ENG_NOI_casualty_avoidance_i = {
+			picture = ETH_conservative_high_command
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				mobilization_speed = -0.1
+				conscription_factor = -0.15
+				mechanized_attack_factor = 0.05
+				mechanized_defence_factor = 0.05
+				army_armor_attack_factor = 0.05
+				army_armor_defence_factor = 0.05
+			}
+		}
+		ENG_NOI_british_gurkhas_i = {
+			picture = generic_infantry_bonus
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				special_forces_cap = 0.02
+				terrain_penalty_reduction = 0.03 #IT IS NOTHING IT IS JUST GREEN NUMBER DOPAMINE GO BRR PLS DONT HANG ME
+			}
+		}
+		ENG_NOI_royal_marines_i = {
+			picture = generic_naval_invasion
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				special_forces_cap = 0.02
+				shore_bombardment_bonus = 0.05
+				extra_marine_supply_grace = 12
+			}
+		}
+		ENG_NOI_parachute_regiment_i = {
+			picture = eng_special_air_service
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				special_forces_cap = 0.02
+				extra_paratrooper_supply_grace = 12
+				paradrop_organization_factor = 0.25 #it might seem insane batshit stuff but the ability from para general gives 200% and 50% AA defense factor so its not too much, reduce to 10% if deemed too op, remove if feeling unfun
+			}
+		}
+		#MIGHT WANT TO UP THE CAP BONUSES TO 3% FOR FUNNIES, VANILLA UK GETS 5 RN THEY GET 6 SO NON ISSUE BUT IT TAKES LONGER SO U KNOW, MAYBE A SMALL BUFF HI HI
+		ENG_NOI_commandos_i = {
+			picture = PER_special_units_division_idea
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				special_forces_training_time_factor = -0.10
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.05 #AGAIN IF FEELING ANTIFUN POLICE JUST REMOVE ATTACK AND DEF BONUSES OR PUT THEM AT 0.025
+			}
+		}
+		ENG_NOI_night_fighting_i = {
+			picture = SWE_radiotjanst
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				air_night_penalty = -0.15
+				air_detection = 0.05
+				air_strategic_bomber_night_penalty = -0.1 #can nerf those a bit but from experience those buffs besides detection mean practically nothing, they come late and its 70 day focus
+			}
+		}
+		ENG_NOI_bomber_command_i = {
+			picture = SWE_marauder_bombers
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				air_strategic_bomber_bombing_factor = 0.1
+				air_strategic_bomber_defence_factor = 0.05 #idk i dont think this one is gamebreaking considering no uk does strat bombing anyway but you do you
+			}
+		}
+		ENG_NOI_means_to_win_the_war_i = {
+			picture = raj_heavy_vehicles_factory_avadi
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				equipment_upgrade_xp_cost =	-0.1
+				license_purchase_cost = -0.5 #lore is idk uk buys design from usa very cool based british shermans and mustangs dont hang me thank you very much
+			}
+		}
+		ENG_NOI_technological_supremacy_i = {
+			picture = jap_supremacy_of_technology
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.03
+				research_sharing_per_country_bonus = 0.05
+			}
+		}
+		ENG_NOI_habakkuk_i = {
+			picture = generic_navy_carrier_bonus
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				sp_naval_ice_carrier_speed_factor = 0.75
+			}
+		}
+		ENG_NOI_modern_battleships_i = {
+			picture = generic_coastal_defense_ships
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				sp_naval_modern_battleship_speed_factor = 0.75 #i believe it is absolutely necessary for uk to develop 1944+ battleship
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+			}
+		}
+		ENG_NOI_rationing_i = {
+			picture = SOV_rebuild_the_nation_ccp_sov_compatibility
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.20
+				stability_factor = -0.15
+			}
+		}	
+		ENG_NOI_british_home_front_i = {
+			picture = eng_the_sun_never_sets
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.1
+				consumer_goods_factor = -0.025
+				army_core_defence_factor = 0.05
+			}
+		}
+		ENG_NOI_womens_land_army_i = {
+			picture = LIT_invested_in_farms
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.05
+				consumer_goods_factor = -0.05
+				conscription_factor = 0.15
+			}
+		}
+		ENG_NOI_trade_unions_representation = {
+			picture = SOV_rebuild_the_savior_cathedral_ccp_sov_compatibility
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.1 #fuck it we ball germany gets like 20% cap cmon now and it costs u some civies
+			}
+		}
+		ENG_NOI_concessions_to_trade_unions_i = {
+			picture = FIN_finnish_federation_of_trade_unions_light
+			
+			available = {
+				
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				civilian_factory_use = 5
+			}
+		}
+
+	}
+}
