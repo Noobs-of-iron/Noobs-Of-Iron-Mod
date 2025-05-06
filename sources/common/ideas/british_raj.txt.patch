@@ -1,0 +1,10 @@
+505,508c505,508
+< 				naval_invasion_planning_bonus_speed = 0.25
+< 				naval_coordination = 0.25
+< 				naval_damage_factor = 0.15
+< 				naval_defense_factor = 0.15
+---
+> 				naval_invasion_planning_bonus_speed = 0.15
+> 				naval_coordination = 0.05
+> 				naval_damage_factor = 0.1
+> 				naval_defense_factor = 0.1
