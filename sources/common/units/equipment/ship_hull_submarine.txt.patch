@@ -24,6 +24,18 @@
 < 			steel = 2
 ---
 > 			steel = 20
+363c363
+< 		sub_visibility = 18
+---
+> 		sub_visibility = 22
+367c367
+< 		naval_range = 6500
+---
+> 		naval_range = 5500
+373c373
+< 		build_cost_ic = 650
+---
+> 		build_cost_ic = 750
 408c408
 < 			steel = 1
 ---

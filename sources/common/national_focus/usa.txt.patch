@@ -53,6 +53,22 @@
 > 				allow_branch = {
 >             always = no
 >         }
+2106c2109
+< 			democratic > 0.95
+---
+> 			democratic > 0.80
+2345c2348
+< 			democratic > 0.95
+---
+> 			democratic > 0.80
+2471c2474
+< 			democratic > 0.95
+---
+> 			democratic > 0.80
+2523c2526
+< 			democratic > 0.95
+---
+> 			democratic > 0.80
 2946c2949
 < 		x = 18
 ---

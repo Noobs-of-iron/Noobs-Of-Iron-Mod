@@ -30,31 +30,38 @@
 > 
 284a290
 > 			support_equipment = 10
-343c349,350
+339a346,351
+> 		urban = {
+> 			attack = 0.30
+> 			defence = 0.2
+> 			movement = 0.2
+> 		}
+> 
+343c355,356
 < 			infantry_equipment = 130
 ---
 > 		    support_equipment = 20
 > 			infantry_equipment = 150
-382c389
+382c395
 < 		supply_consumption = 0.065
 ---
 > 		supply_consumption = 0.09
-388,389c395,397
+388,389c401,403
 < 			infantry_equipment = 100
 < 			motorized_equipment = 35
 ---
 > 			infantry_equipment = 125
 > 			motorized_equipment = 80
 > 
-459c467
+459c473
 < 		supply_consumption = 0.14
 ---
 > 		supply_consumption = 0.18
-472c480
+472c486
 < 			infantry_equipment = 100
 ---
 > 			infantry_equipment = 125
-695c703
+695c709
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---
