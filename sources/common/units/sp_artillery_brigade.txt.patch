@@ -56,15 +56,3 @@
 314a335,336
 > 
 > 		transport = modern_tank_artillery_chassis
-372c394
-< #	#	combat_width = 3
----
-> #	#	combat_width = 2
-433c455
-< #		combat_width = 3
----
-> #		combat_width = 2
-499c521
-< #		combat_width = 3
----
-> #		combat_width = 2

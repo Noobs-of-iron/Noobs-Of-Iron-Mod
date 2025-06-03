@@ -14,67 +14,67 @@
 < 						amount = 6
 ---
 > 						amount = 60
-9816c9816
+9814c9814
 < 					amount = 8
 ---
 > 					amount = 80
-10211c10211
+10209c10209
 < 					amount = 4
 ---
 > 					amount = 40
-10283c10283
+10281c10281
 < 					amount = 4
 ---
 > 					amount = 40
-10322c10322
+10320c10320
 < 					amount = 4
 ---
 > 					amount = 40
-10326c10326
+10324c10324
 < 					amount = 2
 ---
 > 					amount = 20
-10608c10608
+10606c10606
 < 					amount = 4
 ---
 > 					amount = 40
-10612c10612
+10610c10610
 < 					amount = 4
 ---
 > 					amount = 40
-10646c10646
+10644c10644
 < 					amount = 2 #WARNING No vars supported here so if this changes the custom tooltip above needs to be updated. Tack
 ---
 > 					amount = 20 #WARNING No vars supported here so if this changes the custom tooltip above needs to be updated. Tack
-10658c10658
+10656c10656
 < 						amount = 2
 ---
 > 						amount = 20
-10671c10671
+10669c10669
 < 						amount = 2
 ---
 > 						amount = 20
-10684c10684
+10682c10682
 < 						amount = 2
 ---
 > 						amount = 20
-10717c10717
+10715c10715
 < 					amount = 4
 ---
 > 					amount = 40
-10721c10721
+10719c10719
 < 					amount = 2
 ---
 > 					amount = 20
-10757c10757
+10755c10755
 < 					amount = 6
 ---
 > 					amount = 60
-10761c10761
+10759c10759
 < 					amount = 4
 ---
 > 					amount = 40
-10797c10797
+10795c10795
 < 					amount = 6
 ---
 > 					amount = 60

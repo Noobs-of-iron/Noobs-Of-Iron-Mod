@@ -90,7 +90,7 @@
 > 
 > 			tungsten = 20
 > 			steel = 20
-729,731c729,731
+730,732c730,732
 < 			#oil = 1
 < 			tungsten = 2
 < 			steel = 3
@@ -98,7 +98,7 @@
 > 
 > 			tungsten = 20
 > 			steel = 30
-761,763c761,763
+763,765c763,765
 < 			#oil = 2
 < 			tungsten = 2
 < 			steel = 4
@@ -106,7 +106,7 @@
 > 
 > 			tungsten = 20
 > 			steel = 40
-802,804c802,804
+804,806c804,806
 < 			#oil = 1
 < 			tungsten = 3
 < 			steel = 2
@@ -114,7 +114,7 @@
 > 
 > 			tungsten = 30
 > 			steel = 20
-837,839c837,839
+839,841c839,841
 < 			steel = 3
 < 			tungsten = 3
 < 			#oil = 1
@@ -122,7 +122,7 @@
 > 			steel = 30
 > 			tungsten = 30
 > 
-871,873c871,873
+873,875c873,875
 < 			steel = 4
 < 			tungsten = 3
 < 			#oil = 2
@@ -130,7 +130,7 @@
 > 			steel = 40
 > 			tungsten = 30
 > 
-912,914c912,914
+914,916c914,916
 < 			#oil = 1
 < 			tungsten = 4
 < 			steel = 2
@@ -138,7 +138,7 @@
 > 
 > 			tungsten = 40
 > 			steel = 20
-949,951c949,951
+952,954c952,954
 < 			#oil = 1
 < 			tungsten = 4
 < 			steel = 3
@@ -146,7 +146,7 @@
 > 
 > 			tungsten = 40
 > 			steel = 30
-985,987c985,987
+989,991c989,991
 < 			#oil = 2
 < 			tungsten = 4
 < 			steel = 4
@@ -154,7 +154,7 @@
 > 
 > 			tungsten = 40
 > 			steel = 40
-1026,1028c1026,1028
+1030,1032c1030,1032
 < 			#oil = 1
 < 			tungsten = 2
 < 			steel = 2
@@ -162,7 +162,7 @@
 > 
 > 			tungsten = 20
 > 			steel = 20
-1063,1065c1063,1065
+1067,1069c1067,1069
 < 			#oil = 1
 < 			tungsten = 2
 < 			steel = 3
@@ -170,7 +170,7 @@
 > 
 > 			tungsten = 20
 > 			steel = 30
-1099,1101c1099,1101
+1103,1105c1103,1105
 < 			#oil = 2
 < 			tungsten = 2
 < 			steel = 4
@@ -178,7 +178,7 @@
 > 
 > 			tungsten = 20
 > 			steel = 40
-1135,1137c1135,1137
+1139,1141c1139,1141
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 3
@@ -186,7 +186,7 @@
 > 
 > 			steel = 30
 > 			chromium = 30
-1175,1177c1175,1177
+1179,1181c1179,1181
 < #			oil = 1
 < 			steel = 3
 < 			chromium = 3
@@ -194,7 +194,7 @@
 > 
 > 			steel = 30
 > 			chromium = 30
-1206,1208c1206,1208
+1210,1212c1210,1212
 < 			#oil = 1
 < 			steel = 4
 < 			chromium = 3
@@ -202,7 +202,7 @@
 > 
 > 			steel = 40
 > 			chromium = 30
-1246,1248c1246,1248
+1250,1252c1250,1252
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 3
@@ -210,7 +210,7 @@
 > 
 > 			steel = 30
 > 			chromium = 30
-1280,1282c1280,1282
+1284,1286c1284,1286
 < 			#oil = 1
 < 			steel = 4
 < 			chromium = 3
@@ -218,7 +218,7 @@
 > 
 > 			steel = 40
 > 			chromium = 30
-1313,1315c1313,1315
+1317,1319c1317,1319
 < 			#oil = 1
 < 			steel = 5
 < 			chromium = 3
@@ -226,7 +226,7 @@
 > 
 > 			steel = 50
 > 			chromium = 30
-1352,1354c1352,1354
+1356,1358c1356,1358
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 3
@@ -234,7 +234,7 @@
 > 
 > 			steel = 30
 > 			chromium = 30
-1388,1390c1388,1390
+1392,1394c1392,1394
 < 			#oil = 1
 < 			steel = 4
 < 			chromium = 3
@@ -242,7 +242,7 @@
 > 
 > 			steel = 40
 > 			chromium = 30
-1423,1425c1423,1425
+1427,1429c1427,1429
 < 			#oil = 2
 < 			steel = 4
 < 			chromium = 4
@@ -250,7 +250,7 @@
 > 
 > 			steel = 40
 > 			chromium = 40
-1463,1465c1463,1465
+1467,1469c1467,1469
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 3
@@ -258,7 +258,7 @@
 > 
 > 			steel = 30
 > 			chromium = 30
-1499,1501c1499,1501
+1503,1505c1503,1505
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 3
@@ -266,7 +266,7 @@
 > 
 > 			steel = 30
 > 			chromium = 30
-1536,1538c1536,1538
+1540,1542c1540,1542
 < 			#oil = 1
 < 			steel = 4
 < 			chromium = 3
@@ -274,7 +274,7 @@
 > 
 > 			steel = 40
 > 			chromium = 30
-1577,1579c1577,1579
+1581,1583c1581,1583
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 4
@@ -282,7 +282,7 @@
 > 
 > 			steel = 30
 > 			chromium = 40
-1619,1621c1619,1621
+1623,1625c1623,1625
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 4
@@ -290,7 +290,7 @@
 > 
 > 			steel = 30
 > 			chromium = 40
-1661,1663c1661,1663
+1665,1667c1665,1667
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 4
@@ -298,7 +298,7 @@
 > 
 > 			steel = 30
 > 			chromium = 40
-1702,1704c1702,1704
+1706,1708c1706,1708
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 4
@@ -306,7 +306,7 @@
 > 
 > 			steel = 30
 > 			chromium = 40
-1743,1745c1743,1745
+1747,1749c1747,1749
 < 			#oil = 2
 < 			steel = 3
 < 			chromium = 4
@@ -314,7 +314,7 @@
 > 
 > 			steel = 30
 > 			chromium = 40
-1784,1786c1784,1786
+1788,1790c1788,1790
 < 			#oil = 2
 < 			steel = 3
 < 			chromium = 4
@@ -322,7 +322,7 @@
 > 
 > 			steel = 30
 > 			chromium = 40
-1824,1826c1824,1826
+1828,1830c1828,1830
 < 			#oil = 2
 < 			steel = 3
 < 			chromium = 4
@@ -330,7 +330,7 @@
 > 
 > 			steel = 30
 > 			chromium = 40
-1864,1866c1864,1866
+1868,1870c1868,1870
 < 			#oil = 2
 < 			steel = 3
 < 			chromium = 4
@@ -338,11 +338,11 @@
 > 
 > 			steel = 30
 > 			chromium = 40
-1910c1910
+1914c1914
 < 			steel = 2
 ---
 > 			steel = 20
-1945,1946c1945,1946
+1949,1950c1949,1950
 < 			steel = 2
 < 			tungsten = 2
 ---

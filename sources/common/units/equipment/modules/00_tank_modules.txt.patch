@@ -415,7 +415,7 @@
 1513,1516c1539
 < 		xp_cost = 30
 < 		multiply_stats = {
-< 			build_cost_ic = -0.05
+< 			build_cost_ic = -0.075
 < 		}
 ---
 > 		xp_cost = 10

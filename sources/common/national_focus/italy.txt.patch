@@ -6,11 +6,11 @@
 < 						amount = 12
 ---
 > 						amount = 120
-11468c11468
+11476c11476
 < 				    amount = 16
 ---
 > 				    amount = 160
-12447c12447
+12455c12455
 < 						amount = 8
 ---
 > 						amount = 80
