@@ -1,0 +1,16 @@
+1372a1348
+> 	    custom_effect_tooltip = refusing_vichy_tt
+1400a1377,1389
+>         set_global_flag = vichy_refused_armistice
+> 
+>         country_event = {
+>             id = noi.fra.1
+>             days = 5
+>         }
+> 
+>         GER = {
+>             country_event = {
+>                 id = noi.fra.3
+>                 days = 10
+>             }
+>         }

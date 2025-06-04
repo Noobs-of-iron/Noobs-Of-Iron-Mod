@@ -1,0 +1,148 @@
+add_namespace = noi.fra
+
+#Tranfer Marine Nationale to the UK
+country_event = {
+	id = noi.fra.1
+	title = noi.fra.1.t
+	desc = noi.fra.1.d
+	picture = GFX_report_event_ast_navy
+
+	is_triggered_only = yes
+
+    #accept
+	option = {
+		name = noi.fra.1.a
+        transfer_units_fraction= {
+        	target = ENG
+        	size = 0
+        	navy_ratio = 1
+        }
+        ENG = {
+            country_event = {
+                id = noi.fra.2
+                days = 1
+            }
+        }
+
+	}
+
+	#refuse
+	option = {
+	    name = noi.fra.1.b
+
+        # AI will never refuse
+	    ai_chance = {
+	        base = 0
+	    }
+	}
+}
+
+#Transfer Marine Nationale to the UK - Eng side
+country_event = {
+    id = noi.fra.2
+    title = noi.fra.2.t
+    desc = noi.fra.2.d
+    picture = GFX_report_event_ast_navy
+
+    is_triggered_only = yes
+
+    option = {
+            name = noi.fra.2.a
+    }
+}
+
+#The rise of the resistance
+country_event = {
+    id = noi.fra.3
+    title = noi.fra.3.t
+    desc = noi.fra.3.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    immediate = {
+        custom_effect_tooltip = halving_compliance_tt
+
+        # Halve the compliance in all French cores
+        every_state = {
+            limit = {
+                is_core_of = FRA
+                is_owned_by = FRA
+                NOT = {is_controlled_by = FRA}
+            }
+
+            set_temp_variable = { new_compliance = compliance }
+            divide_temp_variable = { new_compliance = 2 }
+            set_compliance = new_compliance
+        }
+
+        FRA = {
+            add_ideas = FRA_NOI_rise_of_resistance
+        }
+    }
+
+    option = {
+        name = noi.fra.3.a
+    }
+}
+
+#Exiles land in Africa
+country_event = {
+    id = noi.fra.4
+    title = noi.fra.4.t
+    desc = noi.fra.4.d
+    picture = GFX_report_event_french_liberation
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = FRA
+        controls_state = 461
+        has_global_flag = vichy_refused_armistice
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = noi.fra.4.a
+
+        load_oob = "FRA_African_Exiles_OOB"
+
+        # AI will always give exiles to ENG
+        ai_chance = {
+            base = 0
+        }
+    }
+
+    option = {
+        trigger = {
+            is_ai = yes
+        }
+
+        name = noi.fra.4.b
+
+        ENG = {
+            country_event = {
+                id = noi.fra.5
+            }
+        }
+    }
+}
+
+#Exiles land in Africa - Eng version
+country_event = {
+    id = noi.fra.5
+    title = noi.fra.5.t
+    desc = noi.fra.5.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = noi.fra.5.a
+
+        load_oob = "FRA_African_Exiles_OOB"
+    }
+
+}

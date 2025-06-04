@@ -1,0 +1,27 @@
+﻿l_english:
+
+  noi.fra.1.t: "Joint Anglo-French naval command?"
+  noi.fra.1.d: "With la Métropole lost to the damned Boches, our navy is increasingly struggling to sustain independent operations. As a solution, the British have proposed establishing a joint naval command, which would oversee all Allied naval operations for the duration of the war. Of course, in practice it'd mean subordinating our fleet to the Royal Navy."
+  noi.fra.1.a: "Looks like we have no choice"
+  noi.fra.1.b: "La Royale will remain in French hands!"
+
+  noi.fra.2.t: "Anglo-French naval command established"
+  noi.fra.2.d: "Tonight, [ENG.GetLeader] and [FRA.GetLeader] have agreed to establish a joint Anglo-French command, to oversee all future naval operations. In practice, this makes the French fleet subordinate to the Royal Navy, and the arrangements have already been made to integrate French squadrons into our military. Our admirals will, no doubt, make good use of what used to be the 4th biggest navy in the world."
+  noi.fra.2.a: "Call the yanks, we're gonna need more fuel..."
+
+  noi.fra.3.t: "French resistance on the rise"
+  noi.fra.3.d: "Ever since we refused an armistice with France, occupational authorities have struggled with administering the country. Our policy of zero negotiations or concessions seems to have alienated even those French leaders who have been warming up to the idea of an armistice, and made it increasingly harder to find high-ranking collaborators. With the French government having no choice but to continue the war from exile, it seems like our only option to maintain control in France is through force alone."
+  noi.fra.3.a: "So be it!"
+
+  noi.fra.4.t: "Our troops land in Africa!"
+  noi.fra.4.d: "Following in the footsteps of our government, the forces that we had to hurriedly evacuate from Southern France have landed in Casablanca. Though they're but a fraction of our formerly glorious army, they are experienced and battle-hardened. With the war only seeming to flare up, we shouldn't struggle with finding a use for them."
+  noi.fra.4.a: "La France a perdu une bataille! Mais la France n'a pas perdu la guerre!"
+  noi.fra.4.b: "U R NOT SUPPOSED TO SEE THIS, THIS IS AN AI-ONLY OPTION"
+
+  noi.fra.5.t: "French troops land in Africa!"
+  noi.fra.5.d: "The French forces that managed to evacuate from Southern France have landed in Casablanca. With Mediterranean war in full swing and our resources stretched to the limit, these troops may very well prove crucial to maintaining our position in Western Med."
+  noi.fra.5.a: "Splendid!"
+
+  refusing_vichy_tt: "This will make occupying France §Ymore difficult§!\n§YMarine nationale§! will join the Royal Navy, considerably boosting Allied naval power"
+
+  halving_compliance_tt: "Compliance in all occupied core French states will be §Yhalved§!"

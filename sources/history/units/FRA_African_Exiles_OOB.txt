@@ -1,0 +1,156 @@
+#25 width mountaineers
+division_template = {
+	name = "Division Alpine Française Libre"
+	division_cap = 3
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
+        artillery_brigade = { x = 2 y = 1 }
+        artillery_brigade = { x = 2 y = 2 }
+	}
+
+	support = {
+	    artillery = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+        engineer = { x = 0 y = 2 }
+        anti_tank = { x = 0 y = 3}
+	}
+}
+
+#Regular 18 width inf
+division_template = {
+	name = "Division d'Infanterie Française Libre"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+    # Inf 11 divs
+    division= {
+        name = "31e Division d'Infanterie"
+        location = 7069 # Casablanca
+        division_template = "Division d'Infanterie Française Libre"
+        start_experience_factor = 0.8
+        start_equipment_factor = 1
+    }
+
+    division= {
+            name = "36e Division d'Infanterie"
+            location = 7069 # Casablanca
+            division_template = "Division d'Infanterie Française Libre"
+            start_experience_factor = 0.8
+            start_equipment_factor = 1
+    }
+
+    division= {
+            name = "63e Division d'Infanterie"
+            location = 7069 # Casablanca
+            division_template = "Division d'Infanterie Française Libre"
+            start_experience_factor = 0.8
+            start_equipment_factor = 1
+    }
+    division= {
+            name = "67e Division d'Infanterie"
+            location = 7069 # Casablanca
+            division_template = "Division d'Infanterie Française Libre"
+            start_experience_factor = 0.8
+            start_equipment_factor = 1
+    }
+    division= {
+            name = "75e Division d'Infanterie"
+            location = 7069 # Casablanca
+            division_template = "Division d'Infanterie Française Libre"
+            start_experience_factor = 0.8
+            start_equipment_factor = 1
+    }
+    division= {
+            name = "23e Division d'Infanterie"
+            location = 7069 # Casablanca
+            division_template = "Division d'Infanterie Française Libre"
+            start_experience_factor = 0.8
+            start_equipment_factor = 1
+    }
+    division= {
+            name = "24e Division d'Infanterie"
+            location = 7069 # Casablanca
+            division_template = "Division d'Infanterie Française Libre"
+            start_experience_factor = 0.8
+            start_equipment_factor = 1
+    }
+    division= {
+            name = "32e Division d'Infanterie"
+            location = 7069 # Casablanca
+            division_template = "Division d'Infanterie Française Libre"
+            start_experience_factor = 0.8
+            start_equipment_factor = 1
+    }
+    division= {
+            name = "1re Division d'Infanterie Marocaine"
+            location = 7069 # Casablanca
+            division_template = "Division d'Infanterie Française Libre"
+            start_experience_factor = 0.8
+            start_equipment_factor = 1
+    }
+    division= {
+            name = "3e Division d'Infanterie Algérienne"
+            location = 7069 # Casablanca
+            division_template = "Division d'Infanterie Française Libre"
+            start_experience_factor = 0.8
+            start_equipment_factor = 1
+    }
+    division= {
+            name = "87e Division d'Infanterie Africaine"
+            location = 7069 # Casablanca
+            division_template = "Division d'Infanterie Française Libre"
+            start_experience_factor = 0.8
+            start_equipment_factor = 1
+    }
+
+
+    # Mountaineers 3 divs
+    division= {
+            name = "29e Division Alpine"
+            location = 7069 # Casablanca
+            division_template = "Division Alpine Française Libre"
+            start_experience_factor = 1
+            start_equipment_factor = 1
+    }
+    division= {
+            name = "30e Division Alpine"
+            location = 7069 # Casablanca
+            division_template = "Division Alpine Française Libre"
+            start_experience_factor = 1
+            start_equipment_factor = 1
+    }
+    division= {
+            name = "31e Division Alpine"
+            location = 7069 # Casablanca
+            division_template = "Division Alpine Française Libre"
+            start_experience_factor = 1
+            start_equipment_factor = 1
+    }
+
+}
+
