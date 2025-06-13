@@ -13,8 +13,11 @@
 < 		armor_value = -0.75
 ---
 > 		armor_value = -0.95
-53a56
-> 			motorized_equipment = 15
+53c55,56
+< 			light_tank_flame_chassis = 15
+---
+> 			light_tank_flame_chassis = 70
+> 			motorized_equipment = 30
 55a59
 > 
 132,134c136,140
@@ -31,8 +34,11 @@
 < 		armor_value = -0.7
 ---
 > 		armor_value = -0.95
-139a146
-> 			motorized_equipment = 15
+139c145,146
+< 			medium_tank_flame_chassis = 15
+---
+> 			medium_tank_flame_chassis = 60
+> 			motorized_equipment = 30
 141a149
 > 
 219,220c227,230
@@ -47,7 +53,10 @@
 < 		armor_value = -0.625
 ---
 > 		armor_value = -0.95
-226a237
-> 			motorized_equipment = 15
+226c236,237
+< 			heavy_tank_flame_chassis = 15
+---
+> 			heavy_tank_flame_chassis = 45
+> 			motorized_equipment = 30
 227a239
 > 
