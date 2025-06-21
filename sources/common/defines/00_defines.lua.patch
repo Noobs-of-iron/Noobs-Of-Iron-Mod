@@ -18,53 +18,53 @@
 < 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.005,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
 ---
 > 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.0005,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
-252c252
+253c253
 < 	EMBARGO_THREAT_THRESHOLD = 30,						-- Target-generated threat threshold to allow embargo (affected by modifiers)
 ---
 > 	EMBARGO_THREAT_THRESHOLD = 0,						-- Target-generated threat threshold to allow embargo (affected by modifiers)
-351c351
+352c352
 < 	POLITICAL_POWER_UPPER_CAP = 2000.0,				-- Max amount of political power country should have
 ---
 > 	POLITICAL_POWER_UPPER_CAP = 20000.0,			-- Max amount of political power country should have
-422c422
+423c423
 < 	SPECIAL_FORCES_CAP_BASE = 0.05,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
 ---
 > 	SPECIAL_FORCES_CAP_BASE = 0.02,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
-433c433
+434c434
 < 	SCORCHED_EARTH_STATE_COST = 5,					-- pp cost to scorch a state
 ---
 > 	SCORCHED_EARTH_STATE_COST = 3,					-- pp cost to scorch a state
-587c587
+588c588
 < 	MAX_EQUIPMENT_RESOURCES_NEED = 3, 	-- Max number of different strategic resources an equipment can be dependent on.
 ---
 > 	MAX_EQUIPMENT_RESOURCES_NEED = 4, 	-- Max number of different strategic resources an equipment can be dependent on.
-622c622
+623c623
 < 	PRODUCTION_RESOURCE_LACK_PENALTY = -0.05,			-- Penalty decrease while lack of resource per factory
 ---
 > 	PRODUCTION_RESOURCE_LACK_PENALTY = -0.005,			-- Penalty decrease while lack of resource per factory
-634,635c634,635
+635,636c635,636
 < 	EQUIPMENT_MODULE_ADD_XP_COST = 5.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 < 	EQUIPMENT_MODULE_REPLACE_XP_COST = 6.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
 ---
 > 	EQUIPMENT_MODULE_ADD_XP_COST = 3.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 > 	EQUIPMENT_MODULE_REPLACE_XP_COST = 5.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
-652c652
+653c653
 < 	MAX_CIV_FACTORIES_PER_CONTRACT = 15,							-- Max number of factories that can be assigned for paying single contract.
 ---
 > 	MAX_CIV_FACTORIES_PER_CONTRACT = 150,							-- Max number of factories that can be assigned for paying single contract.
-673c673
+674c674
 < 	BASE_RESEARCH_POINTS_SAVED = 30.0,		-- Base amount of research points a country can save per slot.
 ---
 > 	BASE_RESEARCH_POINTS_SAVED = 50.0,		-- Base amount of research points a country can save per slot.
-705c705
+706c706
 < 	ANTI_AIR_SUPERIORITY_MULT = 5.0,	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 ---
 > 	ANTI_AIR_SUPERIORITY_MULT = 7.5,	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
-708c708
+709c709
 < 	AIRBASE_CAPACITY_MULT = 200,		-- Each level of airbase building multiplied by this, gives capacity (max operational value). Value is int. 1 for each airplane.
 ---
 > 	AIRBASE_CAPACITY_MULT = 100,		-- Each level of airbase building multiplied by this, gives capacity (max operational value). Value is int. 1 for each airplane.
-826,828c826,828
+827,829c827,829
 < 	MAX_ARMY_EXPERIENCE = 500,			--Max army experience a country can store
 < 	MAX_NAVY_EXPERIENCE = 500,			--Max navy experience a country can store
 < 	MAX_AIR_EXPERIENCE = 500,				--Max air experience a country can store
@@ -72,49 +72,49 @@
 > 	MAX_ARMY_EXPERIENCE = 999,			--Max army experience a country can store
 > 	MAX_NAVY_EXPERIENCE = 999,			--Max navy experience a country can store
 > 	MAX_AIR_EXPERIENCE = 999,				--Max air experience a country can store
-840c840
+841c841
 < 	LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.032,    -- air global damage modifier
 ---
 > 	LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.016,    -- air global damage modifier
-894c894
+895c895
 < 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0001,
 ---
 > 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0002,
-953c953
+954c954
 < 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.2,       -- percentage of manpower returned when an encircled unit is disbanded
 ---
 > 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0,       -- percentage of manpower returned when an encircled unit is disbanded
-1032c1032
+1033c1033
 < 	PARADROP_HOURS = 48,							-- time paratroopers suffer penalties in combat
 ---
 > 	PARADROP_HOURS = 72,							-- time paratroopers suffer penalties in combat
-1165c1165
+1166c1166
 < 	ARMY_FUEL_COST_MULT = 0.5,						-- fuel cost multiplier for all army related stuff
 ---
 > 	ARMY_FUEL_COST_MULT = 0.70,						-- fuel cost multiplier for all army related stuff
-1195c1195
+1196c1196
 < 	AIR_WING_MAX_STATS_ATTACK = 100,					-- Max stats
 ---
 > 	AIR_WING_MAX_STATS_ATTACK = 50,					-- Max stats
-1216c1216
+1217c1217
 < 	COMBAT_DAMAGE_SCALE = 1,							-- Higher value = more shot down planes
 ---
 > 	COMBAT_DAMAGE_SCALE = 0.6,							-- Higher value = more shot down planes
-1286,1287c1286,1287
+1287,1288c1287,1288
 < 	ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.8,					-- Anti Air Gun Damage factor
 < 	ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.1,					-- Anti Air Gun hit chance
 ---
 > 	ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.9,					-- Anti Air Gun Damage factor
 > 	ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.2,					-- Anti Air Gun hit chance
-1306c1306
+1307c1307
 < 	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.072,	-- How much efficiency to regain per day. Gain applied hourly.
 ---
 > 	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.020,	-- How much efficiency to regain per day. Gain applied hourly.
-1353c1353
+1354c1354
 < 	AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0.3, -- max trucks we can destroy in one instance of a logistics strike
 ---
 > 	AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0.15, -- max trucks we can destroy in one instance of a logistics strike
-1844,1846c1844,1846
+1845,1847c1845,1847
 < 	HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR					= 0.25, -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has
 < 	MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO					= 0.75,  -- maximum penalty to get from larger fleets
 < 	MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY                         = 0,    -- the minimum fleet size in ships that a fleet must be before having the large fleet penalty applied to them
@@ -122,39 +122,39 @@
 > 	HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR					= 0.50, -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has
 > 	MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO					= 1.00,  -- maximum penalty to get from larger fleets
 > 	MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY                         = 36,    -- the minimum fleet size in ships that a fleet must be before having the large fleet penalty applied to them
-1848,1849c1848,1849
+1849,1850c1849,1850
 < 	HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR					= 0.2;  -- penalty if other side has stronger carrier air force
 < 	MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR 					= 0.2;  -- max penalty from stronger carrier air force
 ---
 > 	HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR					= 0.4;  -- penalty if other side has stronger carrier air force
 > 	MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR 					= 0.4;  -- max penalty from stronger carrier air force
-1855c1855
+1856c1856
 < 	DAMAGE_PENALTY_ON_MINIMUM_POSITIONING 							= 0.5,	-- damage penalty at 0% positioning
 ---
 > 	DAMAGE_PENALTY_ON_MINIMUM_POSITIONING 							= 0.75,	-- damage penalty at 0% positioning
-1857c1857
+1858c1858
 < 	AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 0.7,  -- AA penalty at 0% positioning
 ---
 > 	AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 0.5,  -- AA penalty at 0% positioning
-1936c1936
+1937c1937
 < 	SUBMARINE_REVEAL_BASE_CHANCE 									= 11,		-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
 ---
 > 	SUBMARINE_REVEAL_BASE_CHANCE 									= 13,		-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
-2042c2042
+2043c2043
 < 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.2,		-- The percentage of manpower returned when an encircled unit is disbanded
 ---
 > 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0,		-- The percentage of manpower returned when an encircled unit is disbanded
-2068,2069c2068,2069
+2069,2070c2069,2070
 < 	BASE_TRADE_FACTOR = 150,					-- This is the base trade factor
 < 	PUPPET_MASTER_TRADE_FACTOR = 400,			-- This is priority for puppet master
 ---
 > 	BASE_TRADE_FACTOR = 1500,					-- This is the base trade factor
 > 	PUPPET_MASTER_TRADE_FACTOR = 4000,			-- This is priority for puppet master
-3645c3645
+3646c3646
 < 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 ---
 > 	RECON_PLANE_INTEL_BASE = 0.05, 				-- intel base amount for a strategic area per plane
-3988c3988
+3989c3989
 < 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 60.0,
 ---
 > 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 400.0,
