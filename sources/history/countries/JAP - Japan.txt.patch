@@ -6,6 +6,13 @@
 >     }
 > }
 > 
-593a601,602
+267,272d273
+< create_import = {
+< 	resource = oil
+< 	factories = 2
+< 	exporter = USA
+< }
+< 
+593a595,596
 > 
 > 	

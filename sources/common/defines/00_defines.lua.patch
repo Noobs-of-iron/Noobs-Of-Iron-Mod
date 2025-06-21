@@ -26,10 +26,12 @@
 < 	POLITICAL_POWER_UPPER_CAP = 2000.0,				-- Max amount of political power country should have
 ---
 > 	POLITICAL_POWER_UPPER_CAP = 20000.0,			-- Max amount of political power country should have
-423c423
+423,424c423,424
 < 	SPECIAL_FORCES_CAP_BASE = 0.05,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
+< 	SPECIAL_FORCES_CAP_MIN = 24,					-- You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier
 ---
-> 	SPECIAL_FORCES_CAP_BASE = 0.02,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
+> 	SPECIAL_FORCES_CAP_BASE = 0.015,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
+> 	SPECIAL_FORCES_CAP_MIN = 20,					-- You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier
 434c434
 < 	SCORCHED_EARTH_STATE_COST = 5,					-- pp cost to scorch a state
 ---

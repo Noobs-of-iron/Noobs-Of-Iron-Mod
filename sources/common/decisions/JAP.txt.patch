@@ -1,53 +1,48 @@
-991a992,995
-> 
-> 			NOT = {
-> 			    has_global_flag = vichy_refused_armistice
-> 			}
-1035c1039
+1035c1035
 < 				FRA = { country_event = { id = france.1 } }
 ---
 > 				FRA = { country_event = { id = noi_jap.3 } }
-1050c1054
+1050c1050
 < 				VIC = { country_event = { id = france.1 } }
 ---
 > 				VIC = { country_event = { id = noi_jap.3 } }
-2254c2258
+2254c2254
 < 					amount = 12
 ---
 > 					amount = 120
-2305c2309
+2305c2305
 < 					amount = 8
 ---
 > 					amount = 80
-2356c2360
+2356c2356
 < 					amount = 6
 ---
 > 					amount = 60
-2407c2411
+2407c2407
 < 					amount = 4
 ---
 > 					amount = 40
-2451c2455
+2451c2451
 < 					amount = 6
 ---
 > 					amount = 60
-2495c2499
+2495c2495
 < 					amount = 12
 ---
 > 					amount = 120
-2557c2561
+2557c2557
 < 					amount = 12
 ---
 > 					amount = 120
-2609c2613
+2609c2609
 < 					amount = 8
 ---
 > 					amount = 80
-2655c2659
+2655c2655
 < 					amount = 12
 ---
 > 					amount = 120
-2700c2704
+2700c2700
 < 					amount = 12
 ---
 > 					amount = 120

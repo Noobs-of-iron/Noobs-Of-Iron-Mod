@@ -1,25 +1,49 @@
+80c80
+< 		surface_detection = 20
+---
+> 		surface_detection = 10
+94c94
+< 		build_cost_ic = 320
+---
+> 		build_cost_ic = 520
 96,97c96,97
 < 			#oil = 1
 < 			steel = 1
 ---
 > 
 > 			steel = 10
+152c152
+< 		build_cost_ic = 350
+---
+> 		build_cost_ic = 550
 154,155c154,155
 < 			#oil = 1
 < 			steel = 2
 ---
 > 
 > 			steel = 20
+203c203
+< 		build_cost_ic = 420
+---
+> 		build_cost_ic = 610
 205c205
 < 			steel = 2
 ---
 > 			steel = 20
+252c252
+< 		build_cost_ic = 550
+---
+> 		build_cost_ic = 680
 254,255c254,255
 < 			steel = 3
 < 			chromium = 1
 ---
 > 			steel = 30
 > 			chromium = 10
+313c313
+< 		build_cost_ic = 490
+---
+> 		build_cost_ic = 600
 315c315
 < 			steel = 2
 ---
@@ -35,29 +59,65 @@
 373c373
 < 		build_cost_ic = 650
 ---
-> 		build_cost_ic = 750
+> 		build_cost_ic = 900
+406c406
+< 		build_cost_ic = 150
+---
+> 		build_cost_ic = 300
 408c408
 < 			steel = 1
 ---
 > 			steel = 10
+507c507
+< 		surface_detection = 30
+---
+> 		surface_detection = 20
+521c521
+< 		build_cost_ic = 250
+---
+> 		build_cost_ic = 400
 523,524c523,524
 < 			#oil = 1
 < 			steel = 1
 ---
 > 
 > 			steel = 10
+553c553
+< 		surface_detection = 40
+---
+> 		surface_detection = 30
+566c566
+< 		build_cost_ic = 250
+---
+> 		build_cost_ic = 400
 568,569c568,569
 < 			#oil = 1
 < 			steel = 2
 ---
 > 
 > 			steel = 20
+595c595
+< 		surface_detection = 50
+---
+> 		surface_detection = 40
+608c608
+< 		build_cost_ic = 350
+---
+> 		build_cost_ic = 500
 610,611c610,611
 < 			#oil = 2
 < 			steel = 2
 ---
 > 
 > 			steel = 20
+637c637
+< 		surface_detection = 70
+---
+> 		surface_detection = 50
+650c650
+< 		build_cost_ic = 400
+---
+> 		build_cost_ic = 550
 652,654c652,654
 < 			#oil = 2
 < 			steel = 3
@@ -66,3 +126,43 @@
 > 
 > 			steel = 30
 > 			chromium = 10
+734c734
+< 		surface_detection = 20
+---
+> 		surface_detection = 30
+751c751
+< 		build_cost_ic = 490
+---
+> 		build_cost_ic = 570
+832c832
+< 		surface_detection = 60
+---
+> 		surface_detection = 30
+905c905
+< 		build_cost_ic = 150
+---
+> 		build_cost_ic = 300
+989c989
+< 		surface_detection = 55
+---
+> 		surface_detection = 60
+1006c1006
+< 		build_cost_ic = 1150
+---
+> 		build_cost_ic = 1300
+1091c1091
+< 		surface_detection = 65
+---
+> 		surface_detection = 60
+1108c1108
+< 		build_cost_ic = 900
+---
+> 		build_cost_ic = 1050
+1193c1193
+< 		surface_detection = 60
+---
+> 		surface_detection = 70
+1210c1210
+< 		build_cost_ic = 1450
+---
+> 		build_cost_ic = 1600
