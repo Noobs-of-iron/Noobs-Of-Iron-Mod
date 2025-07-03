@@ -4,14 +4,16 @@
 < 		reliability = 0.8
 ---
 > 		reliability = 0.7
-43,45c42,44
+42,45c41,44
+< 		resources = {
 < 			steel = 2
 < 			#oil = 1
 < 			rubber = 1
 ---
-> 			steel = 20
+> 		resources={
+> 			steel = 24
 > 
-> 			rubber = 10
+> 			rubber = 12
 70a70,71
 > 		
 > 		reliability = 0.8
@@ -29,13 +31,15 @@
 < 		ap_attack = 16
 ---
 > 		ap_attack = 18
-83,85c84,86
+82,85c83,86
+< 		resources = {
 < 			steel = 3
 < 			rubber = 1
 < 			#oil = 1
 ---
-> 			steel = 30
-> 			rubber = 10
+> 		resources={
+> 			steel = 36
+> 			rubber = 12
 > 
 98a100,101
 > 		
@@ -54,11 +58,13 @@
 < 		ap_attack = 21
 ---
 > 		ap_attack = 22
-111,113c114,116
+110,113c113,116
+< 		resources = {
 < 			steel = 4
 < 			rubber = 1
 < 			#oil = 2
 ---
-> 			steel = 30
-> 			rubber = 10
+> 		resources={
+> 			steel = 36
+> 			rubber = 12
 > 

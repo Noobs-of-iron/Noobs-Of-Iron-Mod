@@ -4,13 +4,13 @@
 < 			tungsten = 2
 ---
 > 		resources={
-> 			aluminium = 20
-> 			tungsten = 20
+> 			aluminium = 24
+> 			tungsten = 24
 94,96c94,96
 < 		resources = {
 < 			aluminium = 3
 < 			tungsten = 2
 ---
 > 		resources={
-> 			aluminium = 30
-> 			tungsten = 20
+> 			aluminium = 36
+> 			tungsten = 24

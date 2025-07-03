@@ -834,7 +834,7 @@
 3022c3411
 < 					amount = 24
 ---
-> 					amount = 240
+> 					amount = 288
 3029c3418
 < 					amount = 12
 ---
@@ -842,7 +842,7 @@
 3042c3431
 < 					amount = 24
 ---
-> 					amount = 240
+> 					amount = 288
 3053c3442
 < 					amount = 12
 ---
@@ -855,7 +855,7 @@
 > 				}
 > 				add_resource = {
 > 					type = steel
-> 					amount = 240
+> 					amount = 288
 > 				}
 > 			}
 3068c3467

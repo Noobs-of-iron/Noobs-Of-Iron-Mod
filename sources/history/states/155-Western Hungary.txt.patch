@@ -3,4 +3,4 @@
 < 		aluminium = 40 # moved from Northern Hungary, then was 60
 ---
 > 	resources={
-> 		aluminium = 400 # moved from Northern Hungary, then was 60
+> 		aluminium = 480 # moved from Northern Hungary, then was 60

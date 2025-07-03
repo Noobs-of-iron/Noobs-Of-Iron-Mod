@@ -1,16 +1,16 @@
 2762c2762
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 3223c3223
 < 						amount = 12
 ---
-> 						amount = 120
+> 						amount = 144
 11476c11476
 < 				    amount = 16
 ---
-> 				    amount = 160
+> 				    amount = 192
 12455c12455
 < 						amount = 8
 ---
-> 						amount = 80
+> 						amount = 96

@@ -1,236 +1,242 @@
-48,51c48,51
+48,54c48,54
 < 		lend_lease_cost = 8
 < 		manpower = 20
 < 		fuel_consumption = 0.05
 < 		build_cost_ic = 4
+< 		resources = {
+< 			aluminium = 2
+< 			rubber = 1
 ---
 > 		lend_lease_cost = 16
 > 		manpower = 40
 > 		fuel_consumption = 0.10
 > 		build_cost_ic = 10
-53,54c53,54
-< 			aluminium = 2
-< 			rubber = 1
----
-> 			aluminium = 20
-> 			rubber = 10
-246c246
+> 		resources={
+> 			aluminium = 24
+> 			rubber = 12
+246,249c246,249
 < 		build_cost_ic = 5
+< 		resources = {
+< 			aluminium = 3
+< 			rubber = 1
 ---
 > 		build_cost_ic = 13
-248,249c248,249
+> 		resources={
+> 			aluminium = 36
+> 			rubber = 12
+323,326c323,326
+< 		build_cost_ic = 6
+< 		resources = {
 < 			aluminium = 3
 < 			rubber = 1
----
-> 			aluminium = 30
-> 			rubber = 10
-323c323
-< 		build_cost_ic = 6
 ---
 > 		build_cost_ic = 16
-325,326c325,326
-< 			aluminium = 3
-< 			rubber = 1
----
-> 			aluminium = 30
-> 			rubber = 10
-427c427
+> 		resources={
+> 			aluminium = 36
+> 			rubber = 12
+427,430c427,430
 < 		build_cost_ic = 7
----
-> 		build_cost_ic = 18
-429,430c429,430
+< 		resources = {
 < 			aluminium = 4
 < 			rubber = 1
 ---
-> 			aluminium = 40
-> 			rubber = 10
-550c550
+> 		build_cost_ic = 18
+> 		resources={
+> 			aluminium = 48
+> 			rubber = 12
+550,553c550,553
 < 		build_cost_ic = 10
+< 		resources = {
+< 			aluminium = 4
+< 			rubber = 1
 ---
 > 		build_cost_ic = 26
-552,553c552,553
-< 			aluminium = 4
-< 			rubber = 1
----
-> 			aluminium = 40
-> 			rubber = 10
-676c676
+> 		resources={
+> 			aluminium = 48
+> 			rubber = 12
+676,679c676,679
 < 		build_cost_ic = 14
+< 		resources = {
+< 			aluminium = 4
+< 			chromium = 4
 ---
 > 		build_cost_ic = 18
-850,853c850,853
+> 		resources={
+> 			aluminium = 4.8
+> 			chromium = 4.8
+850,856c850,856
 < 		lend_lease_cost = 8
 < 		manpower = 20
 < 		fuel_consumption = 0.05
 < 		build_cost_ic = 6
+< 		resources = {
+< 			aluminium = 2
+< 			rubber = 1
 ---
 > 		lend_lease_cost = 16
 > 		manpower = 40
 > 		fuel_consumption = 0.10
 > 		build_cost_ic = 15
-855,856c855,856
-< 			aluminium = 2
-< 			rubber = 1
----
-> 			aluminium = 20
-> 			rubber = 10
+> 		resources={
+> 			aluminium = 24
+> 			rubber = 12
 1030c1030
 < 		lend_lease_cost = 8
 ---
 > 		lend_lease_cost = 16
-1049c1049
+1049,1052c1049,1052
 < 		build_cost_ic = 8.5
+< 		resources = {
+< 			aluminium = 3
+< 			rubber = 1
 ---
 > 		build_cost_ic = 20
-1051,1052c1051,1052
+> 		resources={
+> 			aluminium = 36
+> 			rubber = 12
+1125,1128c1125,1128
+< 		build_cost_ic = 9.5
+< 		resources = {
 < 			aluminium = 3
 < 			rubber = 1
----
-> 			aluminium = 30
-> 			rubber = 10
-1125c1125
-< 		build_cost_ic = 9.5
 ---
 > 		build_cost_ic = 23
-1127,1128c1127,1128
-< 			aluminium = 3
-< 			rubber = 1
----
-> 			aluminium = 30
-> 			rubber = 10
-1228c1228
+> 		resources={
+> 			aluminium = 36
+> 			rubber = 12
+1228,1231c1228,1231
 < 		build_cost_ic = 11
+< 		resources = {
+< 			aluminium = 4
+< 			rubber = 1
 ---
 > 		build_cost_ic = 26
-1230,1231c1230,1231
+> 		resources={
+> 			aluminium = 48
+> 			rubber = 12
+1337,1340c1337,1340
+< 		build_cost_ic = 14.5
+< 		resources = {
 < 			aluminium = 4
 < 			rubber = 1
----
-> 			aluminium = 40
-> 			rubber = 10
-1337c1337
-< 		build_cost_ic = 14.5
 ---
 > 		build_cost_ic = 35
-1339,1340c1339,1340
-< 			aluminium = 4
-< 			rubber = 1
----
-> 			aluminium = 40
-> 			rubber = 10
+> 		resources={
+> 			aluminium = 48
+> 			rubber = 12
 1475,1476c1475,1476
 < 		lend_lease_cost = 10
 < 		manpower = 40
 ---
 > 		lend_lease_cost = 20
 > 		manpower = 80
-1478c1478
+1478,1481c1478,1481
 < 		build_cost_ic = 6
----
-> 		build_cost_ic = 14
-1480,1481c1480,1481
+< 		resources = {
 < 			aluminium = 2
 < 			rubber = 1
 ---
-> 			aluminium = 20
-> 			rubber = 10
+> 		build_cost_ic = 14
+> 		resources={
+> 			aluminium = 24
+> 			rubber = 12
 1705c1705
 < 		lend_lease_cost = 10
 ---
 > 		lend_lease_cost = 20
-1724c1724
+1724,1727c1724,1727
 < 		build_cost_ic = 8
----
-> 		build_cost_ic = 18
-1726,1727c1726,1727
+< 		resources = {
 < 			aluminium = 3
 < 			rubber = 1
 ---
-> 			aluminium = 30
-> 			rubber = 10
-1855c1855
+> 		build_cost_ic = 18
+> 		resources={
+> 			aluminium = 36
+> 			rubber = 12
+1855,1858c1855,1858
 < 		build_cost_ic = 10
----
-> 		build_cost_ic = 22
-1857,1858c1857,1858
+< 		resources = {
 < 			aluminium = 4
 < 			rubber = 1
 ---
-> 			aluminium = 40
-> 			rubber = 10
-2003c2003
+> 		build_cost_ic = 22
+> 		resources={
+> 			aluminium = 48
+> 			rubber = 12
+2003,2006c2003,2006
 < 		build_cost_ic = 13
+< 		resources = {
+< 			aluminium = 5
+< 			rubber = 1
 ---
 > 		build_cost_ic = 29
-2005,2006c2005,2006
+> 		resources={
+> 			aluminium = 60
+> 			rubber = 12
+2163,2166c2163,2166
+< 		build_cost_ic = 14
+< 		resources = {
 < 			aluminium = 5
 < 			rubber = 1
----
-> 			aluminium = 50
-> 			rubber = 10
-2163c2163
-< 		build_cost_ic = 14
 ---
 > 		build_cost_ic = 31
-2165,2166c2165,2166
-< 			aluminium = 5
-< 			rubber = 1
----
-> 			aluminium = 50
-> 			rubber = 10
-2347,2350c2347,2350
+> 		resources={
+> 			aluminium = 60
+> 			rubber = 12
+2347,2353c2347,2353
 < 		lend_lease_cost = 10
 < 		manpower = 80
 < 		fuel_consumption = 0.16
 < 		build_cost_ic = 16
+< 		resources = {
+< 			aluminium = 3
+< 			rubber = 2
 ---
 > 		lend_lease_cost = 20
 > 		manpower = 160
 > 		fuel_consumption = 0.32
 > 		build_cost_ic = 35
-2352,2353c2352,2353
+> 		resources={
+> 			aluminium = 36
+> 			rubber = 24
+2592,2595c2592,2595
+< 		build_cost_ic = 18
+< 		resources = {
 < 			aluminium = 3
 < 			rubber = 2
----
-> 			aluminium = 30
-> 			rubber = 20
-2592c2592
-< 		build_cost_ic = 18
 ---
 > 		build_cost_ic = 40
-2594,2595c2594,2595
-< 			aluminium = 3
-< 			rubber = 2
----
-> 			aluminium = 30
-> 			rubber = 20
-2732c2732
+> 		resources={
+> 			aluminium = 36
+> 			rubber = 24
+2732,2735c2732,2735
 < 		build_cost_ic = 20
----
-> 		build_cost_ic = 44
-2734,2735c2734,2735
+< 		resources = {
 < 			aluminium = 4
 < 			rubber = 2
 ---
-> 			aluminium = 40
-> 			rubber = 20
-2898c2898
+> 		build_cost_ic = 44
+> 		resources={
+> 			aluminium = 48
+> 			rubber = 24
+2898,2901c2898,2901
 < 		build_cost_ic = 22
----
-> 		build_cost_ic = 48
-2900,2901c2900,2901
+< 		resources = {
 < 			aluminium = 5
 < 			rubber = 2
 ---
-> 			aluminium = 50
-> 			rubber = 20
-3064c3064
+> 		build_cost_ic = 48
+> 		resources={
+> 			aluminium = 60
+> 			rubber = 24
+3064,3067c3064,3067
 < 		build_cost_ic = 23
----
-> 		build_cost_ic = 40
-3066,3067c3066,3067
+< 		resources = {
 < 			aluminium = 6
 < 			rubber = 2
 ---
-> 			aluminium = 60
-> 			rubber = 20
+> 		build_cost_ic = 40
+> 		resources={
+> 			aluminium = 72
+> 			rubber = 24

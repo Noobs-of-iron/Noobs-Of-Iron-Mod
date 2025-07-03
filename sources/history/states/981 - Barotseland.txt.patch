@@ -4,5 +4,5 @@
 < 		tungsten = 4
 ---
 > 	resources={
-> 		chromium = 160
-> 		tungsten = 40
+> 		chromium = 192
+> 		tungsten = 48

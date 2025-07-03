@@ -4,5 +4,5 @@
 < 		chromium=8 # was: 10
 ---
 > 	resources={
-> 		steel = 90 # was: 12
-> 		chromium = 80 # was: 10
+> 		steel = 108 # was: 12
+> 		chromium = 96 # was: 10

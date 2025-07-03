@@ -3,4 +3,4 @@
 < 		tungsten = 42 # In replacement of Nitrate
 ---
 > 	resources={
-> 		tungsten = 420 # In replacement of Nitrate
+> 		tungsten = 504 # In replacement of Nitrate

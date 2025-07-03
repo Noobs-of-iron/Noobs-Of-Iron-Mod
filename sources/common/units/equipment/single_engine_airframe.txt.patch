@@ -1,216 +1,270 @@
-47,49c47,49
+46,49c46,49
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 2
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-90,92c90,92
+89,92c89,92
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-118,120c118,120
+117,120c117,120
+< #		resources = {
 < #			#oil = 2
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-146,148c146,148
+145,148c145,148
+< #		resources = {
 < #			#oil = 2
 < #			aluminium = 4
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-198,200c198,200
+197,200c197,200
+< #		resources = {
 < #			aluminium = 2
 < #			tungsten = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-241,243c241,243
+240,243c240,243
+< #		resources = {
 < #			aluminium = 3
 < #			tungsten = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-293,295c293,295
+292,295c292,295
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 2
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-339,341c339,341
+338,341c338,341
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-366,368c366,368
+365,368c365,368
+< #		resources = {
 < #			#oil = 2
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-392,394c392,394
+391,394c391,394
+< #		resources = {
 < #			#oil = 2
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-447,449c447,449
+446,449c446,449
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 2
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-491,493c491,493
+490,493c490,493
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-519,521c519,521
+518,521c518,521
+< #		resources = {
 < #			#oil = 2
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-575,577c575,577
+574,577c574,577
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 2
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-624,626c624,626
+623,626c623,626
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-652,654c652,654
+651,654c651,654
+< #		resources = {
 < #			#oil = 2
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-703,705c703,705
+702,705c702,705
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 2
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-745,747c745,747
+744,747c744,747
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-771,773c771,773
+770,773c770,773
+< #		resources = {
 < #			#oil = 2
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-820,822c820,822
+819,822c819,822
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 2
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-865,867c865,867
+864,867c864,867
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-890,892c890,892
+889,892c889,892
+< #		resources = {
 < #			#oil = 2
 < #			aluminium = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-928,930c928,930
+927,930c927,930
+< #		resources = {
 < #			aluminium = 2
 < #			tungsten = 2
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-955,957c955,957
+954,957c954,957
+< #		resources = {
 < #			aluminium = 3
 < #			tungsten = 2
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-977,979c977,979
+976,979c976,979
+< #		resources = {
 < #			aluminium = 3
 < #			tungsten = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-999,1001c999,1001
+998,1001c998,1001
+< #		resources = {
 < #			aluminium = 3
 < #			tungsten = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-1028,1030c1028,1030
+1027,1030c1027,1030
+< #		resources = {
 < #			aluminium = 2
 < #			tungsten = 2
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 

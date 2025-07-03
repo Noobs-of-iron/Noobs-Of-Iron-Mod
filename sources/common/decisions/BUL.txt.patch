@@ -1,4 +1,8 @@
+7855c7855
+< prospect_for_resources = {
+---
+> prospect_for_resources={
 7924c7924
 < 					amount = 3
 ---
-> 					amount = 30
+> 					amount = 36

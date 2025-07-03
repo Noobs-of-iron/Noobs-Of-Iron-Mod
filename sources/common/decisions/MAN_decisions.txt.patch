@@ -1,8 +1,12 @@
+1152c1152
+< prospect_for_resources = {
+---
+> prospect_for_resources={
 1198c1198
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 1247c1247
 < 					amount = 16
 ---
-> 					amount = 160
+> 					amount = 192

@@ -2,5 +2,5 @@
 < 		chromium=10 # was: 20
 < 		steel = 12
 ---
-> 		chromium = 100 # was: 20
-> 		steel = 120
+> 		chromium = 120 # was: 20
+> 		steel = 144

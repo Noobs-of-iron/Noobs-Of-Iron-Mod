@@ -4,5 +4,5 @@
 < 			aluminium = 6
 ---
 > 		resources={ 
-> 			steel = 60
-> 			aluminium = 60
+> 			steel = 72
+> 			aluminium = 72

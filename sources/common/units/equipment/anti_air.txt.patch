@@ -1,12 +1,18 @@
-36c36
+35,36c35,36
+< 		resources = {
 < 			steel = 2
 ---
-> 			steel = 20
-65c65
+> 		resources={
+> 			steel = 24
+64,65c64,65
+< 		resources = {
 < 			steel = 2
 ---
-> 			steel = 20
-84c84
+> 		resources={
+> 			steel = 24
+83,84c83,84
+< 		resources = {
 < 			steel = 3
 ---
-> 			steel = 30
+> 		resources={
+> 			steel = 36

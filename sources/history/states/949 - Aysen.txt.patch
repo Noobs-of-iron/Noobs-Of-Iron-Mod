@@ -3,7 +3,7 @@
 < 		aluminium = 1
 ---
 > 	resources={
-> 		aluminium = 10
+> 		aluminium = 12
 11c11
 < 	resources = {
 ---

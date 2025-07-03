@@ -4,5 +4,5 @@
 < 		steel=2
 ---
 > 		oil = 12 # was: 14
->  		chromium = 70
->  		steel = 20
+>  		chromium = 84
+>  		steel = 24

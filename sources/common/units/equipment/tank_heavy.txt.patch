@@ -1,96 +1,120 @@
-50,52c50,52
+49,52c49,52
+< #		resources = {
 < #			#oil = 1
 < #			steel = 3
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 
-93,95c93,95
+92,95c92,95
+< #		resources = {
 < ##			oil = 1
 < #			steel = 3
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 
-124,126c124,126
+123,126c123,126
+< #		resources = {
 < #			#oil = 1
 < #			steel = 4
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 
-177,179c177,179
+176,179c176,179
+< #		resources = {
 < #			#oil = 1
 < #			steel = 3
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 
-223,225c223,225
+222,225c222,225
+< #		resources = {
 < #			#oil = 1
 < #			steel = 4
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 
-256,258c256,258
+255,258c255,258
+< #		resources = {
 < #			#oil = 1
 < #			steel = 5
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 
-309,311c309,311
+308,311c308,311
+< #		resources = {
 < #			#oil = 1
 < #			steel = 3
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 
-357,359c357,359
+356,359c356,359
+< #		resources = {
 < #			#oil = 1
 < #			steel = 4
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 
-392,394c392,394
+391,394c391,394
+< #		resources = {
 < #			#oil = 2
 < #			steel = 4
 < #			chromium = 4
 ---
+> #		resources={
 > 
 > 
 > 
-445,447c445,447
+444,447c444,447
+< #		resources = {
 < #			#oil = 1
 < #			steel = 3
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 
-493,495c493,495
+492,495c492,495
+< #		resources = {
 < #			#oil = 1
 < #			steel = 3
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 
-530,532c530,532
+529,532c529,532
+< #		resources = {
 < #			#oil = 1
 < #			steel = 4
 < #			chromium = 3
 ---
+> #		resources={
 > 
 > 
 > 

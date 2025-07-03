@@ -80,19 +80,35 @@
 < 			position = { x = 6 y = 10 }
 ---
 > 			position = { x = 7 y = 10 }
+1399c1404
+< 			modify_building_resources = {
+---
+> 			modify_building_resources={
 1402c1407
 < 				amount = 1
 ---
-> 				amount = 10
+> 				amount = 12
+1464c1469
+< 			modify_building_resources = {
+---
+> 			modify_building_resources={
 1467c1472
 < 				amount = 1
 ---
-> 				amount = 10
+> 				amount = 12
+1524c1529
+< 			modify_building_resources = {
+---
+> 			modify_building_resources={
 1527c1532
 < 				amount = 1
 ---
-> 				amount = 10
+> 				amount = 12
+1584c1589
+< 			modify_building_resources = {
+---
+> 			modify_building_resources={
 1587c1592
 < 				amount = 1
 ---
-> 				amount = 10
+> 				amount = 12

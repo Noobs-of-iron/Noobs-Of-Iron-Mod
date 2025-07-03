@@ -4,5 +4,5 @@
 < 		tungsten = 10 # was: 34, then 16 but split
 ---
 > 	resources={
-> 		steel = 100 # was: 40, then 24 but split
-> 		tungsten = 100 # was: 34, then 16 but split
+> 		steel = 120 # was: 40, then 24 but split
+> 		tungsten = 120 # was: 34, then 16 but split

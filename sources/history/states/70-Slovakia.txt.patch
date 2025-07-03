@@ -3,4 +3,4 @@
 < 		tungsten = 1 # was: 2
 ---
 > 	resources={
-> 		tungsten = 10 # was: 2
+> 		tungsten = 12 # was: 2

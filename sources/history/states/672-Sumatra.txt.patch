@@ -3,8 +3,8 @@
 < 		rubber = 150 # was: 268
 ---
 > 	resources={
-> 		rubber = 1500 # was: 268
+> 		rubber = 1800 # was: 268
 11c11
 < 		aluminium = 28 # was: 50
 ---
-> 		aluminium = 280 # was: 50
+> 		aluminium = 336 # was: 50

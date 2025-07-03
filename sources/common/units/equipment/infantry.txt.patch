@@ -10,10 +10,12 @@
 < 		air_attack = 0
 ---
 > 		air_attack = 0.2
-39c39
+38,39c38,39
+< 		resources = {
 < 			steel = 2
 ---
-> 			steel = 20
+> 		resources={
+> 			steel = 24
 65,66c65,66
 < 		defense = 22
 < 		breakthrough = 3
@@ -34,10 +36,12 @@
 < 		air_attack = 0
 ---
 > 		air_attack = 0.2
-98c98
+97,98c97,98
+< 		resources = {
 < 			steel = 3
 ---
-> 			steel = 30
+> 		resources={
+> 			steel = 36
 114c114
 < 		breakthrough = 5
 ---
@@ -46,7 +50,9 @@
 < 		air_attack = 0
 ---
 > 		air_attack = 0.2
-125c125
+124,125c124,125
+< 		resources = {
 < 			steel = 4
 ---
-> 			steel = 40
+> 		resources={
+> 			steel = 48

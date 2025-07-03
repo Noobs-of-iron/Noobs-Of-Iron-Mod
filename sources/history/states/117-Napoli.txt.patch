@@ -4,5 +4,5 @@
 < 		steel = 15 # was: 24 (MM: This WAS before my time)
 ---
 > 	resources={
-> 		aluminium = 100 # was: 16 (MM: This WAS before my time)
-> 		steel = 150 # was: 24 (MM: This WAS before my time)
+> 		aluminium = 120 # was: 16 (MM: This WAS before my time)
+> 		steel = 180 # was: 24 (MM: This WAS before my time)

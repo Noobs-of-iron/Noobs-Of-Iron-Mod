@@ -1,7 +1,7 @@
 <?php
 
 // Define the multiplier constant
-define('MULTIPLIER', 10);
+define('MULTIPLIER', 1.2);
 
 // Check command-line arguments
 if ($argc < 2) {

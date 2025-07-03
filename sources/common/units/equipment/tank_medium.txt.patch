@@ -1,96 +1,120 @@
-51,53c51,53
+50,53c50,53
+< #		resources = {
 < #			#oil = 1
 < #			tungsten = 2
 < #			steel = 2
 ---
+> #		resources={
 > 
 > 
 > 
-95,97c95,97
+94,97c94,97
+< #		resources = {
 < #			#oil = 1
 < #			tungsten = 2
 < #			steel = 3
 ---
+> #		resources={
 > 
 > 
 > 
-127,129c127,129
+126,129c126,129
+< #		resources = {
 < #			#oil = 2
 < #			tungsten = 2
 < #			steel = 4
 ---
+> #		resources={
 > 
 > 
 > 
-181,183c181,183
+180,183c180,183
+< #		resources = {
 < #			#oil = 1
 < #			tungsten = 3
 < #			steel = 2
 ---
+> #		resources={
 > 
 > 
 > 
-228,230c228,230
+227,230c227,230
+< #		resources = {
 < #			steel = 3
 < #			tungsten = 3
 < #			#oil = 1
 ---
+> #		resources={
 > 
 > 
 > 
-262,264c262,264
+261,264c261,264
+< #		resources = {
 < #			steel = 4
 < #			tungsten = 3
 < #			#oil = 2
 ---
+> #		resources={
 > 
 > 
 > 
-316,318c316,318
+315,318c315,318
+< #		resources = {
 < #			#oil = 1
 < #			tungsten = 4
 < #			steel = 2
 ---
+> #		resources={
 > 
 > 
 > 
-366,368c366,368
+365,368c365,368
+< #		resources = {
 < #			#oil = 1
 < #			tungsten = 4
 < #			steel = 3
 ---
+> #		resources={
 > 
 > 
 > 
-402,404c402,404
+401,404c401,404
+< #		resources = {
 < #			#oil = 2
 < #			tungsten = 4
 < #			steel = 4
 ---
+> #		resources={
 > 
 > 
 > 
-457,459c457,459
+456,459c456,459
+< #		resources = {
 < #			#oil = 1
 < #			tungsten = 2
 < #			steel = 2
 ---
+> #		resources={
 > 
 > 
 > 
-507,509c507,509
+506,509c506,509
+< #		resources = {
 < #			#oil = 1
 < #			tungsten = 2
 < #			steel = 3
 ---
+> #		resources={
 > 
 > 
 > 
-543,545c543,545
+542,545c542,545
+< #		resources = {
 < #			#oil = 2
 < #			tungsten = 2
 < #			steel = 4
 ---
+> #		resources={
 > 
 > 
 > 

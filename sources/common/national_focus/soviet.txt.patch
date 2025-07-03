@@ -3,11 +3,11 @@
 864c863
 < 					amount = 5
 ---
-> 					amount = 50
+> 					amount = 60
 904c903
 < 						amount = 5
 ---
-> 						amount = 50
+> 						amount = 60
 3796a3796
 > 			remove_ideas = amphibious_craft_in_bad_condition
 4198c4198

@@ -26,7 +26,7 @@
 980c965
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 990c975
 < 		x = 8
 ---
@@ -37,11 +37,11 @@
 1323c1310
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 1329c1316
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 1803,1805c1790
 < 			SIA = { 
 < 				country_event = { id = generic.5 hours = 2 }
@@ -55,11 +55,11 @@
 1853c1838
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 1894c1879
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 2722,2737c2707,2708
 < 			if = {
 < 				limit = {
@@ -83,7 +83,7 @@
 3513c3484
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 3612,3628c3583,3584
 < 			has_dlc = "Waking the Tiger"
 < 			if = {
@@ -118,11 +118,11 @@
 4547c4502
 < 						amount = 16
 ---
-> 						amount = 160
+> 						amount = 192
 4600c4555
 < 						amount = 12
 ---
-> 						amount = 120
+> 						amount = 144
 4860c4815
 < 		cost = 10
 ---

@@ -5,31 +5,31 @@
 532c532
 <         	   amount = 1
 ---
->         	   amount = 20
+>         	   amount = 24
 626c626
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 630c630
 < 					amount = 2
 ---
-> 					amount = 20
+> 					amount = 24
 634c634
 < 					amount = 2
 ---
-> 					amount = 20
+> 					amount = 24
 1566c1566
 < 					amount = 2
 ---
-> 					amount = 20
+> 					amount = 24
 1570c1570
 < 					amount = 2
 ---
-> 					amount = 20
+> 					amount = 24
 1793c1793
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 1856,1860c1856,1860
 < 					steel > 24
 < 					aluminium > 19
@@ -113,7 +113,7 @@
 2299c2299
 <         	   amount = 2
 ---
->         	   amount = 40
+>         	   amount = 48
 2348c2348
 < 					amount > 799 #This needs to correspond to the Bypass values in the previous focuses
 ---
@@ -245,7 +245,7 @@
 18748c18755
 < 						amount = 6
 ---
-> 						amount = 60
+> 						amount = 72
 18769c18776
 < 								amount > 19
 ---
@@ -325,27 +325,27 @@
 23665c23653
 < 						amount = 6
 ---
-> 						amount = 60
+> 						amount = 72
 23669c23657
 < 						amount = 3
 ---
-> 						amount = 30
+> 						amount = 36
 23673c23661
 < 						amount = 3
 ---
-> 						amount = 30
+> 						amount = 36
 23690c23678
 < 						amount = 6
 ---
-> 						amount = 60
+> 						amount = 72
 23694c23682
 < 						amount = 3
 ---
-> 						amount = 30
+> 						amount = 36
 23698c23686
 < 						amount = 3
 ---
-> 						amount = 30
+> 						amount = 36
 25089,25101c25077
 < 			has_dlc = "Gotterdammerung"
 < 			if = {

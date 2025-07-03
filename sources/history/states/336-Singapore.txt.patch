@@ -10,10 +10,10 @@
 < 		aluminium = 15 # was: 25
 ---
 > 	resources={
-> 		rubber = 3420 # was: 848
-> 		steel = 200 # was: 32
-> 		tungsten = 1890 # was: 308
-> 		aluminium = 150 # was: 25
+> 		rubber = 4104 # was: 848
+> 		steel = 240 # was: 32
+> 		tungsten = 2268 # was: 308
+> 		aluminium = 180 # was: 25
 20,23c20
 < 
 < 		victory_points = {

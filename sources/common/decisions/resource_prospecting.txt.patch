@@ -5,300 +5,300 @@
 78c78
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 158c158
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 408c408
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 488c488
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 568c568
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 658c658
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 740c740
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 823c823
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 910c910
 < 					amount = 4
 ---
-> 					amount = 40
+> 					amount = 48
 992c992
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 1074c1074
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 1339c1339
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 1423c1423
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 1511c1511
 < 					amount = 4
 ---
-> 					amount = 40
+> 					amount = 48
 1594c1594
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 1680c1680
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 1765c1765
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 1858c1858
 < 					amount = 10
 ---
-> 					amount = 100
+> 					amount = 120
 2216c2216
 < 					amount = 23
 ---
-> 					amount = 230
+> 					amount = 276
 2308c2308
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 2394c2394
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 2479c2479
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 2551c2551
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 2687c2687
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 2796c2796
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 2905c2905
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 3014c3014
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 3123c3123
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 3232c3232
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 3341c3341
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 3451c3451
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 3560c3560
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 3671c3671
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 3771c3771
 < 					amount = 10
 ---
-> 					amount = 100
+> 					amount = 120
 3862c3862
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 3964c3964
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 4075c4075
 < 					amount = 26
 ---
-> 					amount = 260
+> 					amount = 312
 4186c4186
 < 					amount = 26
 ---
-> 					amount = 260
+> 					amount = 312
 4348c4348
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 4439c4439
 < 					amount = 4
 ---
-> 					amount = 40
+> 					amount = 48
 4522c4522
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 4597c4597
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 4673c4673
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 4752c4752
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 4838c4838
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 4924c4924
 < 					amount = 10
 ---
-> 					amount = 100
+> 					amount = 120
 5010c5010
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 5118c5118
 < 					amount = 20
 ---
-> 					amount = 200
+> 					amount = 240
 5203c5203
 < 					amount = 10
 ---
-> 					amount = 100
+> 					amount = 120
 5289c5289
 < 					amount = 20
 ---
-> 					amount = 200
+> 					amount = 240
 5394c5394
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 5512c5512
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 5630c5630
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 5744c5744
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 5862c5862
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 5980c5980
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 6074c6074
 < 					amount = 10
 ---
-> 					amount = 100
+> 					amount = 120
 6160c6160
 < 					amount = 15
 ---
-> 					amount = 150
+> 					amount = 180
 6211c6211
 < 					amount = 16
 ---
-> 					amount = 160
+> 					amount = 192
 6346c6346
 < 					amount = 6
 ---
-> 					amount = 60
+> 					amount = 72
 7363c7363
 < 					amount = 15
 ---
-> 					amount = 150
+> 					amount = 180
 7445c7445
 < 					amount = 34
 ---
-> 					amount = 340
+> 					amount = 408
 7527c7527
 < 					amount = 36
 ---
-> 					amount = 360
+> 					amount = 432
 7615c7615
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 7704c7704
 < 					amount = 28
 ---
-> 					amount = 280
+> 					amount = 336
 8166c8166
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 8248c8248
 < 					amount = 24
 ---
-> 					amount = 240
+> 					amount = 288
 8330c8330
 < 					amount = 14
 ---
-> 					amount = 140
+> 					amount = 168
 8554c8554
 < 					amount = 24
 ---
-> 					amount = 240
+> 					amount = 288
 8561c8561
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 8568c8568
 < 					amount = 5
 ---
-> 					amount = 50
+> 					amount = 60
 8662c8662
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 8666c8666
 < 					amount = 4
 ---
-> 					amount = 40
+> 					amount = 48
 8670c8670
 < 					amount = 4
 ---
-> 					amount = 40
+> 					amount = 48
 8906c8906
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96

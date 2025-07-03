@@ -1,16 +1,24 @@
 379c379
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 431c431
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 436c436
 < 					amount = 4
 ---
-> 					amount = 40
+> 					amount = 48
+511c511
+< 					amount = 6
+---
+> 					amount = 72
+524c524
+< 					amount = 6
+---
+> 					amount = 72
 3947c3947
 < 				    amount = 50
 ---
-> 				    amount = 500
+> 				    amount = 600

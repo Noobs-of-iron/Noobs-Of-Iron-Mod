@@ -43,4 +43,4 @@
 259c231
 < 		local_resources_rubber = 1 # May use local_resources_ + any resource name
 ---
-> 		local_resources_rubber = 10 # May use local_resources_ + any resource name
+> 		local_resources_rubber = 12 # May use local_resources_ + any resource name

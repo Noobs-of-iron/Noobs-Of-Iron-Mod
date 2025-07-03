@@ -1,8 +1,8 @@
 716c716
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 1162c1162
 < 					amount = 16
 ---
-> 					amount = 160
+> 					amount = 192

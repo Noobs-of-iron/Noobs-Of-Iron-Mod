@@ -4,5 +4,5 @@
 < 		aluminium = 14 # was: 24
 ---
 > 	resources={
-> 		steel = 500 #was 21 #was 35 was 59 # was: 100
-> 		aluminium = 140 # was: 24
+> 		steel = 600 #was 21 #was 35 was 59 # was: 100
+> 		aluminium = 168 # was: 24

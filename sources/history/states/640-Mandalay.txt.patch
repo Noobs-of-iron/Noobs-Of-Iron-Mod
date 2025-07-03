@@ -3,7 +3,7 @@
 < 		tungsten = 120.000
 ---
 > 	resources={
-> 		tungsten = 1200.000
+> 		tungsten = 1440.000
 12c12
 < 		owner = BRM
 ---

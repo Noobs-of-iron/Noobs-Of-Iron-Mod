@@ -3,4 +3,4 @@
 < 		chromium = 17 # was: 35 in the caucasus, but was split
 ---
 > 	resources={
-> 		chromium = 170 # was: 35 in the caucasus, but was split
+> 		chromium = 204 # was: 35 in the caucasus, but was split

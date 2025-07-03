@@ -3,4 +3,4 @@
 < 		chromium = 18 # was: 24
 ---
 > 	resources={
-> 		chromium = 180 # was: 24
+> 		chromium = 216 # was: 24

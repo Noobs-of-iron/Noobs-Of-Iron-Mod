@@ -3,4 +3,4 @@
 < 		steel=2 # was: 3
 ---
 > 		aluminium = 0 # was: 2
-> 		steel = 20 # was: 3
+> 		steel = 24 # was: 3

@@ -6,7 +6,7 @@
 < 		tungsten = 1 # was: 2
 ---
 > 	resources={
-> 		steel = 240 # was: 40
-> 		aluminium = 160 # was: 28
-> 		chromium = 20 # was: 4
-> 		tungsten = 10 # was: 2
+> 		steel = 288 # was: 40
+> 		aluminium = 192 # was: 28
+> 		chromium = 24 # was: 4
+> 		tungsten = 12 # was: 2

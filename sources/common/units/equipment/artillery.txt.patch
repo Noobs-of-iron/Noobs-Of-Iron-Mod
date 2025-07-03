@@ -4,67 +4,97 @@
 ---
 > 		defense = 3
 > 		breakthrough = 12
-37,38c37,38
+36,38c36,38
+< 		resources = {
 < 			tungsten = 1
 < 			steel = 2
 ---
-> 			tungsten = 10
-> 			steel = 20
+> 		resources={
+> 			tungsten = 12
+> 			steel = 24
 58,59c58,59
 < 		defense = 15
 < 		breakthrough = 7
 ---
 > 		defense = 6
 > 		breakthrough = 16
-64,65c64,65
+63,65c63,65
+< 		resources = {
 < 			tungsten = 1
 < 			steel = 2
 ---
-> 			tungsten = 10
-> 			steel = 20
+> 		resources={
+> 			tungsten = 12
+> 			steel = 24
 77,78c77,78
 < 		defense = 18
 < 		breakthrough = 8
 ---
 > 		defense = 9
 > 		breakthrough = 20
-83,84c83,84
+82,84c82,84
+< 		resources = {
 < 			tungsten = 1
 < 			steel = 3
 ---
-> 			tungsten = 10
-> 			steel = 30
+> 		resources={
+> 			tungsten = 12
+> 			steel = 36
 108c108
 < 		breakthrough = 9
 ---
 > 		breakthrough = 20
-120,121c120,121
+119,121c119,121
+< 		resources = {
 < 			tungsten = 2
 < 			steel = 1
 ---
-> 			tungsten = 20
-> 			steel = 10
+> 		resources={
+> 			tungsten = 24
+> 			steel = 12
 142c142
 < 		breakthrough = 12
 ---
 > 		breakthrough = 30
-147,148c147,148
+146,148c146,148
+< 		resources = {
 < 			tungsten = 2
 < 			steel = 1
 ---
-> 			tungsten = 20
-> 			steel = 10
+> 		resources={
+> 			tungsten = 24
+> 			steel = 12
 172c172
 < 		breakthrough = 12
 ---
 > 		breakthrough = 27
-184,187c184,187
+183,187c183,187
+< 		resources = {
 < 			#oil = 1
 < 			rubber = 1
 < 			tungsten = 2
 < 			steel = 1
 ---
+> 		resources={
 > 
-> 			rubber = 10
-> 			tungsten = 20
-> 			steel = 10
+> 			rubber = 12
+> 			tungsten = 24
+> 			steel = 12
+245,247c245,247
+< 		resources = {
+< 			steel = 4
+< 			tungsten = 2
+---
+> 		resources={
+> 			steel = 4.8
+> 			tungsten = 2.4
+300,303c300,303
+< 		resources = {
+< 			tungsten = 3
+< 			steel = 4
+< 			chromium = 1
+---
+> 		resources={
+> 			tungsten = 3.6
+> 			steel = 4.8
+> 			chromium = 1.2

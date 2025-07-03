@@ -9,10 +9,12 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
-176c186
+175,176c185,186
+< 		resources = {
 < 			steel = 1
 ---
-> 			steel = 10
+> 		resources={
+> 			steel = 12
 192d201
 < 		module_slots = inherit
 197a207,322
@@ -262,10 +264,12 @@
 > 		}
 223d471
 < 		module_slots = inherit
-229c477,611
+228,229c476,611
+< 		resources = {
 < 			steel = 1
 ---
-> 			steel = 10
+> 		resources={
+> 			steel = 12
 > 		}
 > 
 > 				module_slots = {			
@@ -402,10 +406,12 @@
 > 			engine_type_slot = tank_gasoline_engine
 241d622
 < 		module_slots = inherit
-247c628,771
+246,247c627,771
+< 		resources = {
 < 			steel = 2
 ---
-> 			steel = 20
+> 		resources={
+> 			steel = 24
 > 		}
 > 
 > 				module_slots = {			
@@ -559,16 +565,20 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
-417c950
+416,417c949,950
+< 		resources = {
 < 			steel = 1
 ---
-> 			steel = 10
+> 		resources={
+> 			steel = 12
 432d964
 < 		module_slots = inherit
-442c974,1023
+441,442c973,1039
+< 		resources = {
 < 			steel = 1
 ---
-> 			steel = 10
+> 		resources={
+> 			steel = 12
 > 		}
 > module_slots = {
 > 
@@ -618,7 +628,7 @@
 > 				}
 > 			}
 > 			
-443a1025,1089
+> 		}
 > 		module_count_limit = {
 > 			module = sloped_armor
 > 			count < 2
@@ -634,7 +644,7 @@
 > 		module_count_limit = {
 > 			module = amphibious_drive
 > 			count < 2
-> 		}
+443a1041,1089
 > 		module_count_limit = {
 > 			module = wet_ammo_storage
 > 			count < 2
@@ -812,10 +822,12 @@
 > 		}
 468d1235
 < 		module_slots = inherit
-474c1241,1373
+473,474c1240,1373
+< 		resources = {
 < 			steel = 1
 ---
-> 			steel = 10
+> 		resources={
+> 			steel = 12
 > 		}
 > 
 > 		module_slots = {
@@ -950,10 +962,12 @@
 > 			engine_type_slot = tank_gasoline_engine
 485d1383
 < 		module_slots = inherit
-491c1389,1530
+490,491c1388,1530
+< 		resources = {
 < 			steel = 2
 ---
-> 			steel = 20
+> 		resources={
+> 			steel = 24
 > 		}
 > 
 > 		module_slots = {
@@ -1109,10 +1123,12 @@
 < 		build_cost_ic = 10
 ---
 > 		build_cost_ic = 15
-657c1705
+656,657c1704,1705
+< 		resources = {
 < 			steel = 1
 ---
-> 			steel = 10
+> 		resources={
+> 			steel = 12
 673d1720
 < 		module_slots = inherit
 681a1729,1841
@@ -1355,12 +1371,14 @@
 > 		}
 706d1985
 < 		module_slots = inherit
-712,713c1991,2122
+711,713c1990,2122
+< 		resources = {
 < 			steel = 1
 < 			chromium = 1
 ---
-> 			steel = 10
-> 			chromium = 10
+> 		resources={
+> 			steel = 12
+> 			chromium = 12
 > 		}
 > 
 > 		module_slots = {
@@ -1496,12 +1514,14 @@
 < 		build_cost_ic = 12
 ---
 > 		build_cost_ic = 19
-731,732c2139,2279
+730,732c2138,2279
+< 		resources = {
 < 			steel = 2
 < 			chromium = 1
 ---
-> 			steel = 20
-> 			chromium = 10
+> 		resources={
+> 			steel = 24
+> 			chromium = 12
 > 		}
 > 
 > 		module_slots = {
@@ -1654,12 +1674,14 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
-896,897c2452,2453
+895,897c2451,2453
+< 		resources = {
 < 			steel = 2
 < 			chromium = 1
 ---
-> 			steel = 20
-> 			chromium = 10
+> 		resources={
+> 			steel = 24
+> 			chromium = 12
 1059a2616,2624
 > 			module = apcr_round
 > 			count < 2
@@ -1670,12 +1692,14 @@
 > 			count < 2
 > 		}
 > 		module_count_limit = {
-1079,1080c2644,2645
+1078,1080c2643,2645
+< 		resources = {
 < 			steel = 3
 < 			chromium = 2
 ---
-> 			steel = 30
-> 			chromium = 20
+> 		resources={
+> 			steel = 36
+> 			chromium = 24
 1229a2795,2803
 > 		module_count_limit = {
 > 			module = apcr_round
@@ -1686,7 +1710,17 @@
 > 			module = aphe_round
 > 			count < 2
 > 		}
-1260c2834
+1259,1260c2833,2834
+< 		resources = {
 < 			steel = 1
 ---
-> 			steel = 10
+> 		resources={
+> 			steel = 12
+1464,1466c3038,3040
+< 		resources = {
+< 			steel = 8
+< 			chromium = 4
+---
+> 		resources={
+> 			steel = 9.6
+> 			chromium = 4.8

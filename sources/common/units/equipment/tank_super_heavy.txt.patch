@@ -1,32 +1,40 @@
-50,52c50,52
+49,52c49,52
+< #		resources = {
 < #			#oil = 2
 < #			steel = 3
 < #			chromium = 4
 ---
+> #		resources={
 > 
 > 
 > 
-114,116c114,116
+113,116c113,116
+< #		resources = {
 < #			#oil = 2
 < #			steel = 3
 < #			chromium = 4
 ---
+> #		resources={
 > 
 > 
 > 
-180,182c180,182
+179,182c179,182
+< #		resources = {
 < #			#oil = 2
 < #			steel = 3
 < #			chromium = 4
 ---
+> #		resources={
 > 
 > 
 > 
-246,248c246,248
+245,248c245,248
+< #		resources = {
 < #			#oil = 2
 < #			steel = 3
 < #			chromium = 4
 ---
+> #		resources={
 > 
 > 
 > 

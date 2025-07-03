@@ -1,15 +1,15 @@
 888c888
 < 					amount = 2
 ---
-> 					amount = 20
+> 					amount = 24
 898c898
 < 					amount = 2
 ---
-> 					amount = 20
+> 					amount = 24
 908c908
 < 					amount = 3
 ---
-> 					amount = 30
+> 					amount = 36
 2405a2406,2412
 > 			IF = {
 > 					limit = {
@@ -24,12 +24,12 @@
 2804c2813
 < 					amount = 20
 ---
-> 					amount = 200
+> 					amount = 240
 2810c2819
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 2816c2825
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96

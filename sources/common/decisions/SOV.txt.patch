@@ -1,56 +1,68 @@
 6925c6925
 < 					amount = 3
 ---
-> 					amount = 30
+> 					amount = 36
 6929c6929
 < 					amount = 3
 ---
-> 					amount = 30
+> 					amount = 36
 7084c7084
 < 					amount = 3
 ---
-> 					amount = 30
+> 					amount = 36
 7088c7088
 < 					amount = 3
 ---
-> 					amount = 30
+> 					amount = 36
 7716c7716
 < 						amount = 3
 ---
-> 						amount = 30
+> 						amount = 36
 7720c7720
 < 						amount = 3
 ---
-> 						amount = 30
+> 						amount = 36
 7802c7802
 < 						amount = 3
 ---
-> 						amount = 30
+> 						amount = 36
 7806c7806
 < 						amount = 3
 ---
-> 						amount = 30
+> 						amount = 36
+8148c8148
+< prospect_for_resources = {
+---
+> prospect_for_resources={
+8150c8150
+< 		priority = 50
+---
+> 		priority = 60
+8155c8155
+< 			base = 1
+---
+> 			base = 1.2
 8189c8189
 < 					amount = 3
 ---
-> 					amount = 30
+> 					amount = 36
 8193c8193
 < 					amount = 3
 ---
-> 					amount = 30
+> 					amount = 36
 8277c8277
 < 					amount = 3
 ---
-> 					amount = 30
+> 					amount = 36
 8281c8281
 < 					amount = 3
 ---
-> 					amount = 30
+> 					amount = 36
 9361c9361
 < 				amount = 3
 ---
-> 				amount = 30
+> 				amount = 36
 11254c11254
 < 						amount = 12
 ---
-> 						amount = 120
+> 						amount = 144

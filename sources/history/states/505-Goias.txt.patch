@@ -4,5 +4,5 @@
 < 		chromium = 3
 ---
 > 	resources={
-> 		aluminium = 30
-> 		chromium = 30
+> 		aluminium = 36
+> 		chromium = 36

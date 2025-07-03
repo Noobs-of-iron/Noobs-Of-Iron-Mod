@@ -17,7 +17,7 @@
 204c204
 < 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.005,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
 ---
-> 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.0005,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
+> 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.000375,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
 253c253
 < 	EMBARGO_THREAT_THRESHOLD = 30,						-- Target-generated threat threshold to allow embargo (affected by modifiers)
 ---
@@ -43,7 +43,7 @@
 623c623
 < 	PRODUCTION_RESOURCE_LACK_PENALTY = -0.05,			-- Penalty decrease while lack of resource per factory
 ---
-> 	PRODUCTION_RESOURCE_LACK_PENALTY = -0.005,			-- Penalty decrease while lack of resource per factory
+> 	PRODUCTION_RESOURCE_LACK_PENALTY = -0.00375,		-- Penalty decrease while lack of resource per factory
 635,636c635,636
 < 	EQUIPMENT_MODULE_ADD_XP_COST = 5.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 < 	EQUIPMENT_MODULE_REPLACE_XP_COST = 6.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.

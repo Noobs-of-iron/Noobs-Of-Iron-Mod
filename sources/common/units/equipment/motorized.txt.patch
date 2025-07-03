@@ -2,15 +2,25 @@
 < 		lend_lease_cost = 5
 ---
 > 		lend_lease_cost = 3
-26c26
+26,30c26,30
 < 		build_cost_ic = 2.5
----
-> 		build_cost_ic = 1.5
-28,30c28,30
+< 		resources = {
 < 			#oil = 1
 < 			rubber = 1
 < 			steel = 1
 ---
+> 		build_cost_ic = 1.5
+> 		resources={
 > 
-> 			rubber = 6
-> 			steel = 10
+> 			rubber = 7.2
+> 			steel = 12
+80c80
+< 		resources = {
+---
+> 		resources={
+82,83c82,83
+< 			rubber = 1
+< 			steel = 1
+---
+> 			rubber = 1.2
+> 			steel = 1.2

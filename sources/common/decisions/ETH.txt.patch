@@ -1,12 +1,12 @@
 2170c2170
 < 							amount = 10
 ---
-> 							amount = 100
+> 							amount = 120
 2178c2178
 < 							amount = 6
 ---
-> 							amount = 60
+> 							amount = 72
 2186c2186
 < 							amount = 6
 ---
-> 							amount = 60
+> 							amount = 72

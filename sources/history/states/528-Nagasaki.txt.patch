@@ -3,7 +3,7 @@
 < 		chromium = 52 # was: 88
 ---
 > 	resources={
-> 		chromium = 520 # was: 88
+> 		chromium = 624 # was: 88
 22c22
 < 			industrial_complex = 2
 ---

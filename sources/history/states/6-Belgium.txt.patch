@@ -3,4 +3,4 @@
 < 		steel = 4 # was: 48, then 25 then 15
 ---
 > 	resources={
-> 		steel = 40 # was: 48, then 25 then 15
+> 		steel = 48 # was: 48, then 25 then 15

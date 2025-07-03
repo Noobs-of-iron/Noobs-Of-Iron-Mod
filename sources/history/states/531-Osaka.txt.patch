@@ -3,7 +3,7 @@
 < 		aluminium = 3 # was: 6
 ---
 > 	resources={
-> 		aluminium = 30 # was: 6
+> 		aluminium = 36 # was: 6
 19c19
 < 			industrial_complex = 4
 ---

@@ -3,6 +3,6 @@
 < 		oil=5 # was: 10
 < 		aluminium=8 # was: 16
 ---
-> 		steel = 200 # was: 40
+> 		steel = 240 # was: 40
 > 		oil = 5 # was: 10
-> 		aluminium = 80 # was: 16
+> 		aluminium = 96 # was: 16

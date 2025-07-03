@@ -1136,7 +1136,7 @@
 				}
 				add_resource = {
 					type = rubber
-					amount = 300
+					amount = 360
 				}
 			}
 		}
@@ -1176,7 +1176,7 @@
 				}
 				add_resource = {
 					type = tungsten
-					amount = 150
+					amount = 180
 				}
 			}
 		}
@@ -1414,7 +1414,7 @@
 					}
 					add_resource = {
 						type = steel
-						amount = 150
+						amount = 180
 					}					
 				}
 			}

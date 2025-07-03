@@ -4,5 +4,5 @@
 < 			steel = 3
 ---
 > 		resources={
-> 			tungsten = 20
-> 			steel = 30
+> 			tungsten = 24
+> 			steel = 36

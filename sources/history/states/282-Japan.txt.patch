@@ -3,4 +3,4 @@
 < 		aluminium = 1 # was: 2
 ---
 > 	resources={
-> 		aluminium = 10 # was: 2
+> 		aluminium = 12 # was: 2

@@ -4,16 +4,16 @@
 < 			chromium = 8
 ---
 > 		resources={ 
-> 			steel = 160
-> 			chromium = 80
+> 			steel = 192
+> 			chromium = 96
 967,969c967,969
 < 		resources = { 
 < 			steel = 8
 < 			tungsten = 4
 ---
 > 		resources={ 
-> 			steel = 80
-> 			tungsten = 40
+> 			steel = 96
+> 			tungsten = 48
 1102,1105c1102,1105
 < 		resources = { 
 < 			steel = 8
@@ -21,9 +21,9 @@
 < 			chromium = 2
 ---
 > 		resources={ 
-> 			steel = 80
-> 			tungsten = 60
-> 			chromium = 20
+> 			steel = 96
+> 			tungsten = 72
+> 			chromium = 24
 1231,1234c1231,1234
 < 		resources = { 
 < 			steel = 16
@@ -31,9 +31,9 @@
 < 			chromium = 8
 ---
 > 		resources={ 
-> 			steel = 160
-> 			tungsten = 80
-> 			chromium = 80
+> 			steel = 192
+> 			tungsten = 96
+> 			chromium = 96
 1318,1321c1318,1321
 < 		resources = { 
 < 			steel = 6
@@ -41,9 +41,9 @@
 < 			chromium = 2
 ---
 > 		resources={ 
-> 			steel = 60
-> 			tungsten = 40
-> 			chromium = 20
+> 			steel = 72
+> 			tungsten = 48
+> 			chromium = 24
 1564,1567c1564,1567
 < 		resources = { 
 < 			steel = 4
@@ -51,6 +51,6 @@
 < 			tungsten = 1
 ---
 > 		resources={ 
-> 			steel = 40
-> 			chromium = 20
-> 			tungsten = 10
+> 			steel = 48
+> 			chromium = 24
+> 			tungsten = 12

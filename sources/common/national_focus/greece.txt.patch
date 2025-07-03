@@ -1,24 +1,24 @@
 3507c3507
 < 					amount = 12
 ---
-> 					amount = 120
+> 					amount = 144
 3513c3513
 < 					amount = 8
 ---
-> 					amount = 80
+> 					amount = 96
 3517c3517
 < 					amount = 15
 ---
-> 					amount = 150
+> 					amount = 180
 3521c3521
 < 					amount = 5
 ---
-> 					amount = 50
+> 					amount = 60
 3527c3527
 < 					amount = 21
 ---
-> 					amount = 210
+> 					amount = 252
 3531c3531
 < 					amount = 9
 ---
-> 					amount = 90
+> 					amount = 108

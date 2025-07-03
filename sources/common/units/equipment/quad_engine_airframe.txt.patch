@@ -1,40 +1,50 @@
-47,49c47,49
+46,49c46,49
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 3
 < #			rubber = 2
 ---
+> #		resources={
 > 
 > 
 > 
-97,99c97,99
+96,99c96,99
+< #		resources = {
 < #			aluminium = 3
 < #			tungsten = 3
 < #			rubber = 1
 ---
+> #		resources={
 > 
 > 
 > 
-141,143c141,143
+140,143c140,143
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 4
 < #			rubber = 2
 ---
+> #		resources={
 > 
 > 
 > 
-164,166c164,166
+163,166c163,166
+< #		resources = {
 < #			#oil = 1
 < #			aluminium = 5
 < #			rubber = 2
 ---
+> #		resources={
 > 
 > 
 > 
-217,219c217,219
+216,219c216,219
+< 		resources = {
 < 			#oil = 1
 < 			aluminium = 3
 < 			rubber = 2
 ---
+> 		resources={
 > 
-> 			aluminium = 30
-> 			rubber = 20
+> 			aluminium = 36
+> 			rubber = 24

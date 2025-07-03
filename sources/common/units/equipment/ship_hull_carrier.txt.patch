@@ -1,60 +1,112 @@
-140,141c140,141
+139,141c139,141
+< 		resources = {
 < 			steel = 3
 < 			chromium = 1
 ---
-> 			steel = 30
-> 			chromium = 10
-223,224c223,224
+> 		resources={
+> 			steel = 36
+> 			chromium = 12
+222,224c222,224
+< 		resources = {
 < 			steel = 4
 < 			chromium = 1
 ---
-> 			steel = 40
-> 			chromium = 10
-294,295c294,295
+> 		resources={
+> 			steel = 48
+> 			chromium = 12
+293,295c293,295
+< 		resources = {
 < 			steel = 4
 < 			chromium = 2
 ---
-> 			steel = 40
-> 			chromium = 20
-502,503c502,503
+> 		resources={
+> 			steel = 48
+> 			chromium = 24
+372,374c372,374
+< 		resources = {
+< 			steel = 5
+< 			chromium = 3
+---
+> 		resources={
+> 			steel = 60
+> 			chromium = 36
+454,456c454,456
+< 		resources = {
+< 			steel = 5
+< 			chromium = 2
+---
+> 		resources={
+> 			steel = 60
+> 			chromium = 24
+501,503c501,503
+< 		resources = {
 < 			steel = 4
 < 			chromium = 1
 ---
-> 			steel = 40
-> 			chromium = 10
-544c544
+> 		resources={
+> 			steel = 48
+> 			chromium = 12
+543,544c543,544
+< 		resources = {
 < 			steel = 3
 ---
-> 			steel = 30
-637,639c637,639
+> 		resources={
+> 			steel = 36
+636,639c636,639
+< 		resources = {
 < 			#oil = 1
 < 			steel = 3
 < 			chromium = 1
 ---
+> 		resources={
 > 
-> 			steel = 30
-> 			chromium = 10
-727,729c727,729
+> 			steel = 36
+> 			chromium = 12
+726,729c726,729
+< 		resources = {
 < 			#oil = 1
 < 			steel = 4
 < 			chromium = 1
 ---
+> 		resources={
 > 
-> 			steel = 40
-> 			chromium = 10
-774,776c774,776
+> 			steel = 48
+> 			chromium = 12
+773,776c773,776
+< 		resources = {
 < 			#oil = 2
 < 			steel = 4
 < 			chromium = 2
 ---
+> 		resources={
 > 
-> 			steel = 40
-> 			chromium = 20
-821,823c821,823
+> 			steel = 48
+> 			chromium = 24
+820,823c820,823
+< 		resources = {
 < 			#oil = 2
 < 			steel = 5
 < 			chromium = 2
 ---
+> 		resources={
 > 
-> 			steel = 50
-> 			chromium = 20
+> 			steel = 60
+> 			chromium = 24
+944c944
+< 		resources = {
+---
+> 		resources={
+946,947c946,947
+< 			steel = 5
+< 			chromium = 2
+---
+> 			steel = 60
+> 			chromium = 24
+1055,1057c1055,1057
+< 		resources = {
+< 			steel = 5
+< 			chromium = 2
+---
+> 		resources={
+> 			steel = 60
+> 			chromium = 24

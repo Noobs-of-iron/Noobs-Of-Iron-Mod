@@ -5,6 +5,6 @@
 < 		chromium = 15
 ---
 > 	resources={
-> 		tungsten = 350
-> 		steel = 390
-> 		chromium = 150
+> 		tungsten = 420
+> 		steel = 468
+> 		chromium = 180

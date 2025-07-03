@@ -1,22 +1,28 @@
-36,37c36,37
+35,37c35,37
+< 		resources = {
 < 			tungsten = 2
 < 			steel = 2
 ---
-> 			tungsten = 20
-> 			steel = 20
-62,64c62,64
+> 		resources={
+> 			tungsten = 24
+> 			steel = 24
+61,64c61,64
+< 		resources = {
 < 			tungsten = 2
 < 			chromium = 1
 < 			steel = 2
 ---
-> 			tungsten = 20
-> 			chromium = 10
-> 			steel = 20
-81,83c81,83
+> 		resources={
+> 			tungsten = 24
+> 			chromium = 12
+> 			steel = 24
+80,83c80,83
+< 		resources = {
 < 			tungsten = 2
 < 			chromium = 1
 < 			steel = 3
 ---
-> 			tungsten = 20
-> 			chromium = 10
-> 			steel = 30
+> 		resources={
+> 			tungsten = 24
+> 			chromium = 12
+> 			steel = 36

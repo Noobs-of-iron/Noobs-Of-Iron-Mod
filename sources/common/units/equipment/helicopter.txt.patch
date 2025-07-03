@@ -4,5 +4,5 @@
 < 			steel = 1
 ---
 > 		resources={
-> 			aluminium = 20
-> 			steel = 10
+> 			aluminium = 24
+> 			steel = 12

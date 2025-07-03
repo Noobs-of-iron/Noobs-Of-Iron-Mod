@@ -3,4 +3,4 @@
 < 		rubber = 13 # was: 30, then 23
 ---
 > 	resources={
-> 		rubber = 130 # was: 30, then 23
+> 		rubber = 156 # was: 30, then 23
