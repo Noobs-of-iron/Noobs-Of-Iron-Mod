@@ -1,0 +1,24 @@
+113,114c113,114
+< 	color = rgb { 249 126 98 }
+< 	color_ui = rgb { 255 164 127 }
+---
+> 	color = rgb { 101 130 80 }
+> 	color_ui = rgb { 101 130 80 }
+145,146c145,146
+< 	color = hsv { 0.18 0.6 0.9 } #255 244 190
+< 	color_ui = hsv { 0.18 0.3 0.9 }
+---
+> 	color = rgb { 0 54 181 } #255 244 190
+> 	color_ui = rgb { 0 54 181 }
+169,170c169,170
+< 	color = rgb { 152 130 191 }
+< 	color_ui = rgb { 198 169 248 }
+---
+> 	color = rgb { 255 225 0 }
+> 	color_ui = rgb { 255 225 0 }
+185,186c185,186
+< 	color = hsv { 0.05 0.3 1 }
+< 	color_ui = hsv { 0.05 0.25 1.2 }
+---
+> 	color = rgb { 255 202 96 }
+> 	color_ui = rgb { 255 202 96 }

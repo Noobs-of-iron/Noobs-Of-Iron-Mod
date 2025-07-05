@@ -1,0 +1,6 @@
+11,12c11,12
+< 		owner = SIK
+< 		add_core_of = SIK
+---
+> 		owner = MON
+> 		add_core_of = MON
