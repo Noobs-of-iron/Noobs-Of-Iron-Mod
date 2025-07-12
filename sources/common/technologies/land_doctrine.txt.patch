@@ -4,27 +4,36 @@
 > 		}
 > 		semi_motorized = {
 > 		    max_organisation = 7
-481a487,491
+371a377,384
+> 
+> 		armored_signal = {
+> 			battalion_mult = {
+> 				category = category_all_armor
+> 				breakthrough = 0.10
+> 				soft_attack = 0.10
+> 			}
+> 		}
+481a495,499
 > 
 > 		semi_motorized = {
 > 		    max_organisation = 2
 > 		}
 > 
-1142a1153
+1142a1161
 > 			
-1163a1175
+1163a1183
 > 				soft_attack = 0.20
-1181a1194
+1181a1202
 > 				
-1973a1987,1989
+1973a1995,1997
 > 		semi_motorized = {
 > 		    max_organisation = 2
 > 		}
-2925c2941
+2925c2949
 < 		land_reinforce_rate = 0.05
 ---
 > 		
-3100c3116,3120
+3100c3124,3128
 < 		}	
 ---
 > 		}
@@ -32,54 +41,147 @@
 > 		category_tanks = {
 > 			breakthrough = 0.2
 > 		}
-3105a3126,3131
+3105a3134,3139
 > 
 > 		semi_motorized = {
 > 		    max_organisation = 5
 > 		    default_morale = 0.05
 > 		}
 > 
-3161c3187
+3161c3195
 < 		land_reinforce_rate = 0.05
 ---
 > 		land_reinforce_rate = 0.10
-3212c3238
+3212c3246
 < 		resistance_damage_to_garrison_on_our_occupied_states = 0.1 #10% more partisan effects 
 ---
-> 		resistance_damage_to_garrison_on_our_occupied_states = 0.2 #20% more partisan effects 
-3215c3241
+> 		resistance_damage_to_garrison_on_our_occupied_states = 0.20 #20% more partisan effects 
+3215c3249
 < 
 ---
 > 		land_reinforce_rate = 0.05
-3288c3314
+3288c3322
 < 			default_morale = 0.30
 ---
 > 			default_morale = 0.10
-3330c3356
+3330c3364
 < 			max_organisation = 10
 ---
 > 			max_organisation = 5
-3333c3359
+3333c3367
 < 			max_organisation = 2
 ---
 > 			max_organisation = 4
-3376c3402
+3376c3410
 < 		conscription = 0.05
 ---
 > 		conscription = 0.02
-3380c3406,3407
+3380c3414,3415
 < 			combat_width = -0.4
 ---
 > 			combat_width = -0.3
 > 			max_strength = -10
-3383c3410
+3383c3418
 < 		land_reinforce_rate = 0.15		
 ---
 > 		land_reinforce_rate = 0.05		
-3423c3450
+3423c3458
 < 		out_of_supply_factor = -0.30
 ---
 > 		out_of_supply_factor = -0.10
-3428a3456,3457
-> 		
+3429a3465,3466
 > 		pocket_penalty = -0.2
+> 		
+3433a3471,3475
+> 
+> 		path = {
+> 			leads_to_tech = asymetricalwarfare
+> 			research_cost_coeff = 1
+> 		}
+3442a3485,3570
+> 		}
+> 		
+> 		ai_will_do = {
+> 			modifier = {
+> 				not = {
+> 					has_army_experience > 120
+> 				}
+> 				factor = 0.8
+> 			}
+> 			factor = 20
+> 		}
+> 		
+> 		ai_research_weights = {
+> 			industry = 2.0
+> 		}
+> 	}
+> 
+> 	asymetricalwarfare = {
+> 		xp_research_type = army
+> 		xp_unlock_cost = 100
+> 		
+> 		resistance_growth_on_our_occupied_states = 0.20
+> 		resistance_damage_to_garrison_on_our_occupied_states = 0.25
+> 		
+> 		enable_tactic = tactic_delay
+> 
+> 		supply_consumption_factor = -0.10
+> 		
+> 		doctrine = yes	
+> 		research_cost = 4.5
+> 
+> 		path = {
+> 			leads_to_tech = raising_militias
+> 			research_cost_coeff = 1
+> 		}
+> 		
+> 		categories = {
+> 			land_doctrine
+> 			cat_mass_assault
+> 		}
+> 		
+> 		folder = {
+> 			name = land_doctrine_folder
+> 			position = { x = 2 y = 16 }
+> 		}
+> 		
+> 		ai_will_do = {
+> 			modifier = {
+> 				not = {
+> 					has_army_experience > 120
+> 				}
+> 				factor = 0.8
+> 			}
+> 			factor = 20
+> 		}
+> 		
+> 		ai_research_weights = {
+> 			industry = 2.0
+> 		}
+> 	}
+> 
+> 	raising_militias = {
+> 		xp_research_type = army
+> 		xp_unlock_cost = 100
+> 
+> 		out_of_supply_factor = -0.10
+> 		attrition = -0.15
+> 		doctrine = yes	
+> 		research_cost = 4.5
+> 
+> 		enable_subunits = {
+> 			militia
+> 		}
+> 
+> 		path = {
+> 			research_cost_coeff = 1
+> 		}
+> 		
+> 		categories = {
+> 			land_doctrine
+> 			cat_mass_assault
+> 		}
+> 		
+> 		folder = {
+> 			name = land_doctrine_folder
+> 			position = { x = 2 y = 18 }

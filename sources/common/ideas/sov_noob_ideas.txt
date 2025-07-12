@@ -69,7 +69,8 @@ country = {
 
         targeted_modifier = {
             tag = FIN
-				army_attack_factor = 0.10
+				army_attack_factor = 0.25
+                army_bonus_air_superiority_factor = 0.25
 			}
     }
 }
@@ -93,10 +94,10 @@ country = {
 		
 		modifier = {
     tag = SOV
-	supply_consumption_factor = -0.10
-	winter_attrition_factor = -0.20
-	acclimatization_cold_climate_gain_factor = 0.50
-	army_core_attack_factor = 0.20
+	supply_consumption_factor = -0.15
+	winter_attrition_factor = -0.30
+	acclimatization_cold_climate_gain_factor = 0.70
+	army_core_attack_factor = 0.30
 	army_speed_factor = 0.1
             }
 	    }

@@ -31,36 +31,40 @@
 < 		x = 8
 ---
 > 		x = 0
-1286a1272,1273
+1210a1196,1198
+> 				PRC = {
+> 					country_event = china.1
+> 				}
+1286a1275,1276
 > 	
 > 
-1323c1310
+1323c1313
 < 					amount = 8
 ---
 > 					amount = 96
-1329c1316
+1329c1319
 < 					amount = 12
 ---
 > 					amount = 144
-1803,1805c1790
+1803,1805c1793
 < 			SIA = { 
 < 				country_event = { id = generic.5 hours = 2 }
 < 			}
 ---
 > 			add_to_faction = SIA
-1823c1808
+1823c1811
 < 		cost = 10
 ---
 > 		cost = 5
-1853c1838
+1853c1841
 < 					amount = 12
 ---
 > 					amount = 144
-1894c1879
+1894c1882
 < 					amount = 6
 ---
 > 					amount = 72
-2722,2737c2707,2708
+2722,2737c2710,2711
 < 			if = {
 < 				limit = {
 < 					has_game_rule = {
@@ -80,11 +84,11 @@
 ---
 >             always = no
 >         }
-3513c3484
+3513c3487
 < 					amount = 8
 ---
 > 					amount = 96
-3612,3628c3583,3584
+3612,3628c3586,3587
 < 			has_dlc = "Waking the Tiger"
 < 			if = {
 < 				limit = {
@@ -105,45 +109,45 @@
 ---
 >             always = no
 >         }
-4402c4358
+4402c4361
 < 		x = 6
 ---
 > 		x = 11
-4404d4359
+4404d4362
 < 		relative_position_id = JAP_strengthen_civilian_government
-4413c4368
+4413c4371
 < 			x = -9
 ---
 > 			x = -8
-4547c4502
+4547c4505
 < 						amount = 16
 ---
 > 						amount = 192
-4600c4555
+4600c4558
 < 						amount = 12
 ---
 > 						amount = 144
-4860c4815
+4860c4818
 < 		cost = 10
 ---
 > 		cost = 5
-5080c5035
+5080c5038
 < 		cost = 10
 ---
 > 		cost = 5
-5642c5597
+5642c5600
 < 		cost = 10
 ---
 > 		cost = 5
-5683c5638
+5683c5641
 < 		cost = 10
 ---
 > 		cost = 5
-5813c5768
+5813c5771
 < 		cost = 10
 ---
 > 		cost = 5
-6095a6051,6554
+6095a6054,6557
 > 		}
 > 	}
 > 	focus = {

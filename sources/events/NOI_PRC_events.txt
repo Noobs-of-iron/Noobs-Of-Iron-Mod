@@ -1,0 +1,27 @@
+add_namespace = prc_noi
+country_event = {
+	id = prc_noi.2
+	title = prc_noi.2.t
+	desc = prc_noi.2.d
+	picture = GFX_report_event_japanese_soldiers_03
+
+
+	trigger = {
+		tag = PRC
+		CHI = {
+			has_war_with = JAP
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	option = {
+		name = prc_noi.2.a
+		ai_chance = { factor = 100 }
+		CHI = {
+			add_to_faction = PRC
+		}
+	}
+}

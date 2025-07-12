@@ -1,0 +1,39 @@
+64c64
+< 			factor = 4
+---
+> 			factor = 100
+71,73d70
+< 		bypass = {
+< 
+< 		}
+697,700d693
+< 		bypass = {
+< 
+< 		}
+< 
+730,733d722
+< 		bypass = {
+< 
+< 		}
+< 
+800a790,792
+> 		allow_branch = {
+> 			always = no
+> 		}
+808c800,803
+< 			is_in_faction_with = PRC
+---
+> 			OR = {
+> 				has_war_with = JAP
+> 				has_war_with = MAN
+> 			}
+833c828
+< 		prerequisite = { focus = CHI_united_front focus = CHI_anti_communism }
+---
+> 		prerequisite = { focus = CHI_foreign_threats focus = CHI_anti_communism }
+835,836c830,831
+< 		y = 1
+< 		relative_position_id = CHI_united_front
+---
+> 		y = 2
+> 		relative_position_id = CHI_foreign_threats

@@ -1,3 +1,9 @@
+389,390c389,390
+< 	attacker = 0.25
+< 	defender = -0.15
+---
+> 	attacker = 0.35
+> 	defender = -0.25
 721a722,728
 > 		OR = {
 >             is_fighting_in_terrain = urban

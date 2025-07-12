@@ -1,0 +1,13 @@
+120a121,122
+> 
+> 
+957,960d958
+< 		NOT = {
+< 			has_dlc = "Waking the Tiger"
+< 		}
+< 		has_global_flag = CHI_unite_PRC
+1491c1489
+< }
+\ Pas de fin de ligne à la fin du fichier
+---
+> }
