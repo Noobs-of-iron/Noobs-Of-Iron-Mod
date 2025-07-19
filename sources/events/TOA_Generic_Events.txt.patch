@@ -1,6 +1,4 @@
-39,3175c39
-< } 
-< 
+41,400d40
 < # Terra Steps Down
 < country_event = {
 < 	id = south_american_events.1
@@ -361,122 +359,45 @@
 < 	}
 < } 
 < 
-< # Specializing the National Heavy Guns Department
-< country_event = {
-< 	id = south_american_events.2
-< 	title = south_american_events.2.t
+405c45
 < 	desc = south_american_events.2.desc 
-< 	picture = GFX_report_event_british_artillery
-< 	is_triggered_only = yes
-< 	fire_only_once = no
-< 
-< 	# Artillery is the obvious choice
-< 	option = {
+---
+> 	desc = south_american_events.2.desc
+412,413c52,53
 < 		name = south_american_events.2.a 
 < 		ai_chance = {  
-< 			base = 55
+---
+> 		name = south_american_events.2.a
+> 		ai_chance = {
+415c55
 < 		} 
-< 		IF = {
-< 			limit = {
-< 				original_tag = CHL
-< 			}
-< 			custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_attack_factor = 0.05 tooltip = army_artillery_attack_factor_tt }
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_defence_factor = 0.1 tooltip = army_artillery_defence_factor_tt }
-< 		}
-< 		ELSE_IF = {
-< 			limit = {
-< 				original_tag = BRA
-< 			}
-< 			custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_attack_factor = 0.05 tooltip = army_artillery_attack_factor_tt }
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_defence_factor =  0.1 tooltip = army_artillery_defence_factor_tt }
-< 		}
-< 		ELSE_IF = {
-< 			limit = {
-< 				original_tag = ARG
-< 			}
-< 			custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_attack_factor = 0.05 tooltip = army_artillery_attack_factor_tt }
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_defence_factor = 0.1 tooltip = army_artillery_defence_factor_tt }
-< 		}
-< 		ELSE_IF = {
-< 			limit = {
-< 				original_tag = PAR
-< 			}
-< 			custom_effect_tooltip = PAR_modify_paraguayan_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_attack_factor = 0.05 tooltip = army_artillery_attack_factor_tt }
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_defence_factor = 0.1 tooltip = army_artillery_defence_factor_tt }
-< 		}
-< 		ELSE_IF = {
-< 			limit = {
-< 				original_tag = URG
-< 			}
-< 			custom_effect_tooltip = URG_modify_uruguayan_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_attack_factor = 0.05 tooltip = army_artillery_attack_factor_tt }
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_defence_factor = 0.1 tooltip = army_artillery_defence_factor_tt }
-< 		}
-< 		ELSE = {
-< 			custom_effect_tooltip = JUNO_modify_south_american_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_attack_factor = 0.05 tooltip = army_artillery_attack_factor_tt }
-< 			add_to_variable = { JUNO_army_modifier_army_artillery_defence_factor = 0.1 tooltip = army_artillery_defence_factor_tt }
-< 		}
+---
+> 		}
+461c101
 < 	}  
-< 
-< 	# I think the air is scary
-< 	option = {
+---
+> 	}
+465,466c105,106
 < 		name = south_american_events.2.b 
 < 		ai_chance = {  
-< 			base = 30
+---
+> 		name = south_american_events.2.b
+> 		ai_chance = {
+468c108
 < 		} 
-< 		IF = {
-< 			limit = {
-< 				original_tag = CHL
-< 			}
-< 			custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_production_speed_anti_air_building_factor = 0.15 tooltip = production_speed_anti_air_building_factor_tt }
-< 		}
-< 		ELSE_IF = {
-< 			limit = {
-< 				original_tag = BRA
-< 			}
-< 			custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_production_speed_anti_air_building_factor = 0.15 tooltip = production_speed_anti_air_building_factor_tt }
-< 		}
-< 		ELSE_IF = {
-< 			limit = {
-< 				original_tag = ARG
-< 			}
-< 			custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_production_speed_anti_air_building_factor = 0.15 tooltip = production_speed_anti_air_building_factor_tt }
-< 		}
-< 		ELSE_IF = {
-< 			limit = {
-< 				original_tag = PAR
-< 			}
-< 			custom_effect_tooltip = PAR_modify_paraguayan_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_production_speed_anti_air_building_factor = 0.15 tooltip = production_speed_anti_air_building_factor_tt }
-< 		}
-< 		ELSE_IF = {
-< 			limit = {
-< 				original_tag = URG
-< 			}
-< 			custom_effect_tooltip = URG_modify_uruguayan_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_production_speed_anti_air_building_factor = 0.15 tooltip = production_speed_anti_air_building_factor_tt }
-< 		}
-< 		ELSE = {
-< 			custom_effect_tooltip = JUNO_modify_south_american_army_ns_intro
-< 			add_to_variable = { JUNO_army_modifier_production_speed_anti_air_building_factor = 0.15 tooltip = production_speed_anti_air_building_factor_tt }
-< 		}
-< 
-< 		add_ideas = JUNO_hidden_aa_production_ns
+---
+> 		}
+510c150
 < 	} 
-< 
-< 	# I want to shoot in a straight line
-< 	option = {
+---
+> 	}
+514,515c154,155
 < 		name = south_american_events.2.c 
 < 		ai_chance = {  
-< 			base = 15
+---
+> 		name = south_american_events.2.c
+> 		ai_chance = {
+517,578d156
 < 		} 
 < 		add_ideas = JUNO_hidden_at_production_ns
 < 	} 
@@ -539,249 +460,96 @@
 < 		name = south_american_news.10.b
 < 		trigger = {
 < 			NOT = { has_government = democratic }
-< 		}
-< 	}
+579a158
+> 		add_ideas = JUNO_hidden_at_production_ns
+581,582c160
 < } 
 < 
-< # X country restarts the Naval Arms Race in South America
-< country_event = {
-< 	id = south_american_events.10
-< 	title = south_american_events.10.t
-< 	desc = south_american_events.10.d
-< 	picture = GFX_report_event_ast_navy
-< 
-< 	hidden = no
-< 	is_triggered_only = yes
-< 	fire_only_once = no
-< 
-< 	# drop idea
-< 	option = {
-< 		name = south_american_events.10.a
-< 		ai_chance = {
-< 			base = 10
-< 		}
-< 		remove_ideas = SMB_MTG_naval_arms_race_legacy
-< 	}
-< }
-< 
-< 
-< # The February Revolution (Paraguay)
-< country_event = {
-< 	id = south_american_events.11
-< 	title = south_american_events.11.t
-< 	desc = south_american_events.11.d
-< 	picture = GFX_report_event_gre_militaristic_march
-< 
-< 	trigger = {
-< 		tag = PAR
-< 		has_government = democratic
-< 		date > 1936.2.16
-< 		is_subject = no
-< 		has_civil_war = no
-< 		has_dlc = "Trial of Allegiance"
-< 	}
-< 
-< 	mean_time_to_happen = { days = 1 }
-< 
-< 	hidden = no
-< 
-< 	fire_only_once = yes
-< 
-< 	option = {
-< 		name = south_american_events.11.a
-< 		ai_chance = {
-< 			base = 100
-< 			modifier = {
-< 				has_game_rule = {
-< 					rule = PAR_AI_BEHAVIOR
-< 					option = DEMOCRATIC
-< 				}
-< 				factor = 0
-< 			}
-< 		}
-< 
-< 		#add_war_support = -0.1
-< 
-< 		#add_stability = -0.1
-< 
-< 		set_politics = {
-< 			ruling_party = communism
-< 			elections_allowed = no
-< 		}
-< 
-< 		add_popularity = {
-< 			ideology = neutrality
-< 			popularity = 0.05
-< 		}
-< 
-< 		add_popularity = {
-< 			ideology = communism
-< 			popularity = 0.07
-< 		}
-< 
-< 		#custom_effect_tooltip = higinio_and_estigarrabia_wont_cooperate
-< 
-< 
-< 
-< 		add_manpower = 120000
-< 
-< 		PAR_rafael_franco = {
-< 			promote_leader = yes
-< 		}
-< 
+---
+> }
+669,673d246
 < 		news_event = { 
 < 			id = south_american_news.8 
 < 			days = 3
 < 			random_days = 6
 < 		}
-< 	}
-< 
-< 	option = {
-< 		name = south_american_events.11.b
-< 			ai_chance = {
-< 				base = 0
+680c253
 < 				
-< 				modifier = {
-< 					add = 50
-< 					is_historical_focus_on = no
-< 				}
-< 
-< 				modifier = {
-< 					has_game_rule = {
-< 						rule = PAR_AI_BEHAVIOR
-< 						option = DEMOCRATIC
-< 					}
-< 					add = 500
-< 				}
+---
+> 
+693c266
 < 				
-< 				modifier = {
-< 					OR = {
-< 						has_game_rule = {
-< 							rule = PAR_AI_BEHAVIOR
-< 							option = DEFAULT
-< 						}
-< 
-< 						has_game_rule = {
-< 							rule = PAR_AI_BEHAVIOR
-< 							option = HISTORICAL
-< 						}
-< 					}
+---
+> 
+706c279
 < 					factor = 0	
-< 				}
-< 			}
-< 
-< 			add_war_support = -0.25
-< 
-< 			add_stability = -0.3
-< 
-< 			add_popularity = {
-< 				ideology = communism
-< 				popularity = -0.1
-< 			}
-< 
-< 			add_popularity = {
-< 				ideology = fascism
-< 				popularity = 0.1
-< 			}
-< 
-< 			division_template = {
-< 				name = "Anti-Socialist Militia"
-< 				is_locked = no
-< 				#division_names_group = NAMELIST_ID # optional
+---
+> 					factor = 0
+728c301
 < 				priority = 2 # optional 
-< 				#template_counter = <INT> # optional
-< 				regiments = {
-< 					militia = { x = 0 y = 0 }
-< 					militia = { x = 0 y = 1 }
-< 					militia = { x = 0 y = 2 }
-< 					militia = { x = 1 y = 0 }
-< 					militia = { x = 1 y = 1 }
-< 					militia = { x = 1 y = 2 }
+---
+> 				priority = 2 # optional
+737c310
 < 					
-< 				}
-< 				support = {
+---
+> 
+740c313
 < 					
-< 				}
-< 			}
-< 
-< 			start_civil_war = {
-< 				ideology = communism
-< 				ruling_party = democratic
-< 				size = 0.9 # (0-1) Size modifier of the revolt. Affects stockpile, army, air and navy as well
+---
+> 
+748c321
 < 				
-< 				division_template = {
-< 					name = "Peasant Militia"
-< 					is_locked = no
-< 					#division_names_group = NAMELIST_ID # optional
+---
+> 
+753c326
 < 					priority = 2 # optional 
-< 					#template_counter = <INT> # optional
-< 					regiments = {
-< 						militia = { x = 0 y = 0 }
-< 						militia = { x = 0 y = 1 }
-< 						militia = { x = 0 y = 2 }
+---
+> 					priority = 2 # optional
+759c332
 < 						
-< 					}
-< 					support = {
+---
+> 
+762c335
 < 						
-< 					}
-< 				}
-< 				random_core_state = {
-< 					limit = {
-< 						is_controlled_by = PREV
-< 					}
-< 					create_unit = {
-< 						division = "name = \"Peasant Militia\" division_template = \"Peasant Militia\" start_experience_factor = 0.1 start_equipment_factor = 1 start_manpower_factor = 1"
-< 						owner = PREV
+---
+> 
+772,773c345,346
 < 						#prioritize_location = province_id # optional 
 < 						allow_spawning_on_enemy_provs = no 
-< 						count = 10
-< 					}
-< 				}
-< 			}
-< 
-< 			random_core_state = {
-< 				limit = { is_controlled_by = ROOT }
-< 				create_unit = {
-< 					division = "name = \"Anti-Socialist Militia\" division_template = \"Anti-Socialist Militia\" start_experience_factor = 0.05 start_equipment_factor = 0.2 start_manpower_factor = 0.8"
-< 					owner = PAR
+---
+> 						#prioritize_location = province_id # optional
+> 						allow_spawning_on_enemy_provs = no
+784,785c357,358
 < 					#prioritize_location = province_id # optional 
 < 					allow_spawning_on_enemy_provs = no 
-< 					count = 4
-< 				}
-< 			}
-< 
-< 			random_other_country = {
-< 				limit = {
-< 					original_tag = PAR
+---
+> 					#prioritize_location = province_id # optional
+> 					allow_spawning_on_enemy_provs = no
+793c366
 < 					has_government = communism		
-< 				}
+---
+> 					has_government = communism
+795,796c368,369
 < 				PAR_rafael_franco = { set_nationality = PREV } 
 < 				add_country_leader_role = {		
-< 					character =  PAR_rafael_franco # optional if inside character scope
-< 					promote_leader = yes
-< 			 		country_leader = {
-< 			 			ideology =marxism
-< 			 			expire = 1950.1.1
+---
+> 				PAR_rafael_franco = { set_nationality = PREV }
+> 				add_country_leader_role = {
+802c375
 < 			 			#traits = {  } 
-< 			 		}
-< 				}
-< 			}
-< 
-< 			hidden_effect = {
+---
+> 			 			#traits = {  }
+808c381
 < 				PAR_Jose_Felix_Estigarribia = { set_nationality = ROOT } 
-< 				set_country_flag = PAR_is_going_democratic
-< 			}
-< 
-< 			swap_ideas = { remove_idea = BOL_toll_of_the_chaco_war add_idea = BOL_toll_of_the_chaco_war_2 }
-< 
+---
+> 				PAR_Jose_Felix_Estigarribia = { set_nationality = ROOT }
+814,815c387,388
 < 			#news_event = { 
 < 			#	id = south_american_news.9 
-< 			#	days = 3
-< 			#	random_days = 6
-< 			#}
-< 		}
-< }
-< 
+---
+> 			#news_event = {
+> 			#	id = south_american_news.9
+822,872d394
 < # The February Revolution
 < news_event = {
 < 	id = south_american_news.8
@@ -833,102 +601,22 @@
 < }
 < 
 < 
-< # The Socialist Revolution of 1936 (Bolivia)
-< country_event = {
-< 	id = south_american_events.12
-< 	title = south_american_events.12.t
-< 	desc = south_american_events.12.d
-< 	picture = GFX_report_event_BOL_bolivian_socialist_revolution
-< 
-< 	trigger = {
-< 		tag = BOL
-< 		has_government = democratic
-< 		date > 1936.5.14
-< 		is_subject = no
-< 
-< 		# TODO JA, set to require the correct DLC
-< 		has_dlc = "Trial of Allegiance"
-< 	}
-< 
-< 	mean_time_to_happen = { days = 1 }
-< 
-< 	hidden = no
-< 
-< 	fire_only_once = yes
-< 
-< 	option = {
-< 		name = south_american_events.12.a
-< 		ai_chance = {
-< 			base = 100
-< 		}
-< 
-< 		add_war_support = -0.15
-< 
-< 		add_stability = -0.1
-< 
-< 		set_politics = {
-< 			ruling_party = neutrality
-< 			elections_allowed = yes
-< 		}
-< 
-< 		add_popularity = {
-< 			ideology = neutrality
-< 			popularity = 0.3
-< 		}
-< 
-< 		add_popularity = {
-< 			ideology = communism
-< 			popularity = 0.15
-< 		}
-< 
-< 		BOL_german_busch_beccera = {
-< 			promote_leader = yes
-< 		}
-< 
-< 		add_manpower = 500
+926,931d447
 < 
 < 		news_event = { 
 < 			id = south_american_news.11 
 < 			days = 3
 < 			random_days = 6
 < 		}
-< 	}
-< 
-< 	option = {
-< 		name = south_american_events.12.b
-< 		ai_chance = {
-< 			base = 0
+938c454
 < 			
-< 			modifier = {
-< 				add = 50
-< 				is_historical_focus_on = no
-< 			}
+---
+> 
+943c459
 < 			
-< 		}
-< 
-< 		add_war_support = -0.2
-< 
-< 		add_stability = -0.3
-< 
-< 		add_popularity = {
-< 			ideology = neutrality
-< 			popularity = -0.1
-< 		}
-< 
-< 		custom_effect_tooltip = german_busch_and_gualberto_imprisoned
-< 
-< 		hidden_effect = {
-< 			retire_character = BOL_gualberto_villarroel_lopez
-< 			retire_character = BOL_german_busch_beccera
-< 		}
-< 
-< 		add_manpower = -500
-< 
-< 		swap_ideas = {
-< 		    remove_idea = BOL_toll_of_the_chaco_war
-< 		    add_idea = BOL_toll_of_the_chaco_war_2
-< 		}
-< 
+---
+> 
+969,1498d484
 < 		news_event = { 
 < 			id = south_american_news.12 
 < 			days = 3
@@ -1459,10 +1147,7 @@
 < 			    long_name = CHL_communist_but_democratic_party_long
 < 			}
 < 		}
-< 
-< 	}
-< 
-< }
+1503,3175d488
 < 
 < news_event = {
 < 	id = south_american_news.50
@@ -3136,7 +2821,4 @@
 < 		add_stability = 0.1
 < 	}
 < }
-\ Pas de fin de ligne à la fin du fichier
----
-> } 
 \ Pas de fin de ligne à la fin du fichier
