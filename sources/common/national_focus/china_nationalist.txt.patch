@@ -27,6 +27,10 @@
 > 				has_war_with = JAP
 > 				has_war_with = MAN
 > 			}
+825c820
+< 				country_event = generic.5
+---
+> 				country_event = prc_noi.1
 833c828
 < 		prerequisite = { focus = CHI_united_front focus = CHI_anti_communism }
 ---
