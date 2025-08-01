@@ -1,4 +1,408 @@
-2787c2787
+1637a1638
+> 		add_ideas = RAJ_NOI_chindits_i
+2045a2047
+> 			add_ideas = RAJ_NOI_bangalore_torpedo_i
+2787c2789
 < 					amount = 24
 ---
 > 					amount = 288
+4043a4046,4444
+> 	
+> ###############################################################################################################################################################################################################
+> ###NOI FOCUSES###
+> ##############################################################################################################################################################################################################################################################################################################################################################################################################################
+> 
+> focus = {
+> 		id = RAJ_NOI_mobilisise_the_nation
+> 		icon = GFX_goal_generic_propaganda
+> 		
+> 		
+> 		x = 0
+> 		y = 3
+> 		relative_position_id = RAJ_british_army_support
+> 
+> 		cost = 10
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 
+> 		available = {
+> 			has_war = yes
+> 		}
+> 		
+> 
+> 		cancel_if_invalid = yes
+> 		continue_if_invalid = no
+> 		available_if_capitulated = no
+> 
+> 		complete_tooltip = {
+> 
+> 		}
+> 
+> 		completion_reward = {
+> 			add_political_power = 100
+> 			add_war_support = 0.1
+> 		}
+> 	}
+> 
+> 	focus = {
+> 		id = RAJ_NOI_mobilise_economy
+> 		icon = GFX_goal_generic_consumer_goods
+> 		prerequisite = { focus = RAJ_NOI_mobilisise_the_nation }
+> 		
+> 		x = -1
+> 		y = 1
+> 		relative_position_id = RAJ_NOI_mobilisise_the_nation
+> 
+> 		cost = 10
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 
+> 		available = {
+> 
+> 		}
+> 		
+> 		bypass = {
+> 			has_idea = war_economy
+> 		}
+> 
+> 		cancel_if_invalid = yes
+> 		continue_if_invalid = no
+> 		available_if_capitulated = no
+> 
+> 		complete_tooltip = {
+> 
+> 		}
+> 
+> 		completion_reward = {
+> 			add_stability = -0.1
+> 			add_ideas = war_economy
+> 			add_timed_idea = { idea = RAJ_NOI_mobilise_economy_i days = 180 }
+> 		}
+> 	}
+> 	
+> 	focus = {
+> 		id = RAJ_NOI_recruitment_campaign
+> 		icon = GFX_focus_generic_commonwealth_build_infantry
+> 		prerequisite = { focus = RAJ_NOI_mobilisise_the_nation }
+> 		
+> 		x = 1
+> 		y = 1
+> 		relative_position_id = RAJ_NOI_mobilisise_the_nation
+> 
+> 		cost = 10
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 
+> 		available = {
+> 
+> 		}
+> 		
+> 		bypass = {
+> 
+> 		}
+> 
+> 		cancel_if_invalid = yes
+> 		continue_if_invalid = no
+> 		available_if_capitulated = no
+> 
+> 		complete_tooltip = {
+> 
+> 		}
+> 
+> 		completion_reward = {
+> 			add_war_support = 0.05
+> 			add_timed_idea = { idea = RAJ_NOI_recruitment_campaign_i days = 365}
+> 		}
+> 	}
+> 	
+> 
+> 	
+> 
+> 	
+> 
+> 
+> 
+> 	focus = {
+> 		id = RAJ_NOI_fortifications_of_burma
+> 		icon = GFX_goal_generic_fortify_city
+> 		prerequisite = { focus = RAJ_NOI_mobilise_economy focus = RAJ_NOI_recruitment_campaign }
+> 		mutually_exclusive = { focus = RAJ_NOI_fortifications_of_bengal }
+> 		x = 0
+> 		y = 1
+> 		relative_position_id = RAJ_NOI_recruitment_campaign
+> 
+> 		cost = 10
+> 
+> 		ai_will_do = {
+> 			factor = 30
+> 		}
+> 
+> 		available = {
+> 			has_war_with = JAP
+> 		}
+> 		
+> 		bypass = {
+> 
+> 		}
+> 
+> 		cancel_if_invalid = yes
+> 		continue_if_invalid = no
+> 		available_if_capitulated = no
+> 
+> 		completion_reward = {
+> 			288 = {
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 3
+> 					province = 12090
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 1
+> 					province = 4147
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 1
+> 					province = 10033
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 1
+> 					province = 11966
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 1
+> 					province = 3999
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 1
+> 					province = 4454
+> 					instant_build = yes
+> 				}
+> 			}
+> 			432 = {
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 3
+> 					province = 1581
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 1
+> 					province = 1553
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 1
+> 					province = 1525
+> 					instant_build = yes
+> 				}
+> 			}
+> 			434 = {
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 1
+> 					province = 12322
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 1
+> 					province = 1996
+> 					instant_build = yes
+> 				}
+> 			}
+> 		}
+> 	}
+> 	focus = {
+> 		id = RAJ_NOI_fortifications_of_bengal
+> 		icon = GFX_goal_generic_fortify_city
+> 		prerequisite = { focus = RAJ_NOI_mobilise_economy focus = RAJ_NOI_recruitment_campaign }
+> 		mutually_exclusive = { focus = RAJ_NOI_fortifications_of_burma }
+> 		x = -2
+> 		y = 0
+> 		relative_position_id = RAJ_NOI_fortifications_of_burma
+> 
+> 		cost = 10
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 
+> 		available = {
+> 			has_war_with = JAP
+> 		}
+> 		
+> 		bypass = {
+> 
+> 		}
+> 
+> 		cancel_if_invalid = yes
+> 		continue_if_invalid = no
+> 		available_if_capitulated = no
+> 
+> 		completion_reward = {
+> 			430 = {
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 3
+> 					province = 4162
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 3
+> 					province = 4616
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 3
+> 					province = 10443
+> 					instant_build = yes
+> 				}
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 3
+> 					province = 10389
+> 					instant_build = yes
+> 				}
+> 			}
+> 			431 = {
+> 				add_building_construction = {
+> 					type = bunker
+> 					level = 3
+> 					province = 12338
+> 					instant_build = yes
+> 				}
+> 			}
+> 		}
+> 	}
+> 	
+> 	focus = {
+> 		id = RAJ_NOI_coastal_defenses
+> 		icon = GFX_goal_generic_construct_military
+> 		prerequisite = { focus = RAJ_NOI_fortifications_of_burma focus = RAJ_NOI_fortifications_of_bengal}
+> 		
+> 		x = -1
+> 		y = 1
+> 		relative_position_id = RAJ_NOI_fortifications_of_burma
+> 
+> 		cost = 10
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 
+> 		available = {
+> 			has_war_with = JAP
+> 		}
+> 		
+> 		bypass = {
+> 
+> 		}
+> 
+> 		cancel_if_invalid = yes
+> 		continue_if_invalid = no
+> 		available_if_capitulated = no
+> 
+> 		completion_reward = {
+> 			431 = {
+> 				add_building_construction = {
+> 					type = coastal_bunker
+> 					level = 2
+> 					province = 4245
+> 					instant_build = yes
+> 				}
+> 				
+> 			}
+> 			423 = {
+> 				add_building_construction = {
+> 					type = coastal_bunker
+> 					level = 2
+> 					province = 10278
+> 					instant_build = yes
+> 				}
+> 				
+> 			}
+> 			429 = {
+> 				add_building_construction = {
+> 					type = coastal_bunker
+> 					level = 2
+> 					province = 1349
+> 					instant_build = yes
+> 				}
+> 				
+> 			}
+> 			428 = {
+> 				add_building_construction = {
+> 					type = coastal_bunker
+> 					level = 2
+> 					province = 9975
+> 					instant_build = yes
+> 				}
+> 			}
+> 			443 = {
+> 				add_building_construction = {
+> 					type = coastal_bunker
+> 					level = 2
+> 					province = 3456
+> 					instant_build = yes
+> 				}
+> 				
+> 			}
+> 		}
+> 	}
+> 
+> 	focus = {
+> 		id = RAJ_NOI_hindu_finest_hour
+> 		icon = GFX_focus_generic_support_the_left_right
+> 		prerequisite = { focus = RAJ_NOI_coastal_defenses }
+> 		
+> 		x = 0
+> 		y = 1
+> 		relative_position_id = RAJ_NOI_coastal_defenses
+> 
+> 		cost = 1
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 
+> 		available = {
+> 			surrender_progress > 0.7
+> 		}
+> 		
+> 		bypass = {
+> 
+> 		}
+> 
+> 		cancel_if_invalid = yes
+> 		continue_if_invalid = no
+> 		available_if_capitulated = no
+> 
+> 		complete_tooltip = {
+> 
+> 		}
+> 
+> 		completion_reward = {
+> 			add_timed_idea = { idea = RAJ_NOI_hindu_finest_hour_i days = 40 }
+> 		}
+> 	}
+> 
