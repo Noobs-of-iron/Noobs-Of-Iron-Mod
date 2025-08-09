@@ -2,3 +2,7 @@
 
  ship_hull_submarine_4fixed_desc:0 "Basically the same but better engine and torpedoes. Dont build the hull pls"
  ship_hull_submarine_4fixed:1 "1940+ Submarine Hull"
+ modifier_experience_gain_escort_carrier_training_factor:1 "Escort Carrier Training Experience Gain"
+ modifier_experience_gain_escort_carrier_combat_factor:1 "Escort Carrier Combat Experience Gain"
+ modifier_experience_gain_hybrid_bb_training_factor:1 "Hybrid Battleship Training Experience Gain"
+ modifier_experience_gain_hybrid_bb_combat_factor:1 "Hybrid Battleship Combat Experience Gain"

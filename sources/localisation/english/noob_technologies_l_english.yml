@@ -7,3 +7,6 @@
   raising_militias_desc: "When regular armies fall, the people must rise. Drawing on local knowledge and patriotic fervor, militias are hastily organized from civilians, former soldiers, and volunteers. Though poorly equipped and irregular, their resolve turns every village into a fortress and every citizen into a fighter. War is no longer just the army’s burden — it belongs to the nation."
   asymetricalwarfare: "Asymetrical Warfare"
   asymetricalwarfare_desc: "Conventional armies rely on numbers and firepower — but we exploit terrain, mobility, and unpredictability. By decentralizing command and adopting hit-and-run tactics, our forces can bleed a stronger enemy dry, disrupting supply lines and undermining morale. Victory is not measured in territory gained, but in the cost imposed on the occupier."
+  advanced_sonar: "Advanced Active Sonar"
+  advanced_sonar_desc: "Refinements in transmitter power, signal processing, and target classification now allow our escorts to locate submarines at greater ranges and with unmatched precision. With this technology, no enemy beneath the waves can remain hidden for long"
+  

@@ -1,0 +1,11 @@
+871a872,881
+>  
+>  ship_hull_hybrid_bb: "Hybrid Battleship hull"
+>  sp_naval_hybrid_battleship: "Hybrid Carriers"
+>  sp_naval_hybrid_battleship_desc: "The importance of both having carrier based planes and heavy ship has never been greater, how about we find a compromise between the two"
+>  JAP_sp_naval_hybrid_battleship: "Ise-Class Hybrid Carrier"
+>  USA_sp_naval_hybrid_battleship: "Interdiction-Class Hybrid Carrier"
+>  ENG_sp_naval_hybrid_battleship: "Invisible Class Hybrid Carrier"
+>  FRA_sp_naval_hybrid_battleship: "Jeanne D'arc class Hybrid Carrier"
+>  sp_sp_naval_hybrid_battleship_tt: "Add technology: §YHybrid Carrier Hull§!"
+>  sp_sp_naval_hybrid_battleship_free_design: "Hybrid Carrier"

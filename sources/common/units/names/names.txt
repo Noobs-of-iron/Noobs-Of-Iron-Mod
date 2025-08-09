@@ -1,0 +1,14 @@
+﻿generic = {
+	# Ships
+	hybrid_carrier = {
+		prefix = ""
+		generic = { "Hybrid Battleship" }
+		unique = {}
+	}
+
+	escort_carrier = {
+		prefix = ""
+		generic = { "Escort Carrier" }
+		unique = {}
+	}
+}

@@ -1,0 +1,24 @@
+3,5c3,6
+< ###################################################
+< # UI Elements
+< ###################################################
+---
+>    spriteType = {
+>       name = "GFX_SD_tv_ship_hull_hybrid_bb"
+>       textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_battleship.dds"
+>    }
+7c8,13
+< 	spriteType = {
+---
+>    spriteType = {
+>       name = "GFX_SD_tv_ship_hull_escort_carrier"
+>       textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_carrier.dds"
+>    }
+> 
+>    spriteType = {
+115c121,122
+< }
+---
+>    
+> }
+\ Pas de fin de ligne à la fin du fichier

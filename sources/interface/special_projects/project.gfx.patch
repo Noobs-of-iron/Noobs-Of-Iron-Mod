@@ -1,0 +1,16 @@
+4a5,19
+> #     #  #######   #####   #     #
+> ##    #  #     #     #     ##   ##
+> # #   #  #     #     #     # # # #
+> #  #  #  #     #     #     #  #  #
+> #   # #  #     #     #     #     #
+> #    ##  #     #     #     #     #
+> #     #  #######   #####   #     #
+> 
+> 	spriteType = {
+> 		name = "GFX_sp_naval_hybrid_battleship"
+> 		texturefile = "gfx/interface/special_project/project_icons/sp_naval_hybrid_battleship.dds"
+> 	}
+> 
+> 	###########################################################################################
+> 

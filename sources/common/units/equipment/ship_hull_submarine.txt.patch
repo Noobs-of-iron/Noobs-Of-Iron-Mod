@@ -122,27 +122,18 @@
 > 		resources={
 > 
 > 			steel = 24
-637c637
-< 		surface_detection = 70
----
-> 		surface_detection = 50
-650,654c650,654
-< 		build_cost_ic = 400
-< 		resources = {
+652,654c652,653
 < 			#oil = 2
 < 			steel = 3
 < 			chromium = 1
 ---
-> 		build_cost_ic = 550
-> 		resources={
-> 
-> 			steel = 36
-> 			chromium = 12
-734c734
+> 			steel = 34
+> 			chromium = 14
+734c733
 < 		surface_detection = 20
 ---
 > 		surface_detection = 30
-751,753c751,753
+751,753c750,752
 < 		build_cost_ic = 490
 < 		resources = {
 < 			steel = 2
@@ -150,17 +141,17 @@
 > 		build_cost_ic = 570
 > 		resources={
 > 			steel = 24
-832c832
+832c831
 < 		surface_detection = 60
 ---
 > 		surface_detection = 30
-849,850c849,850
+849,850c848,849
 < 		resources = {
 < 			steel = 3
 ---
 > 		resources={
 > 			steel = 36
-905,907c905,907
+905,907c904,906
 < 		build_cost_ic = 150
 < 		resources = {
 < 			steel = 1
@@ -168,11 +159,11 @@
 > 		build_cost_ic = 300
 > 		resources={
 > 			steel = 12
-989c989
+989c988
 < 		surface_detection = 55
 ---
 > 		surface_detection = 60
-1006,1009c1006,1009
+1006,1009c1005,1008
 < 		build_cost_ic = 1150
 < 		resources = {
 < 			steel = 4
@@ -182,11 +173,11 @@
 > 		resources={
 > 			steel = 48
 > 			chromium = 24
-1091c1091
+1091c1090
 < 		surface_detection = 65
 ---
 > 		surface_detection = 60
-1108,1111c1108,1111
+1108,1111c1107,1110
 < 		build_cost_ic = 900
 < 		resources = {
 < 			steel = 4
@@ -196,11 +187,11 @@
 > 		resources={
 > 			steel = 48
 > 			chromium = 24
-1193c1193
+1193c1192
 < 		surface_detection = 60
 ---
 > 		surface_detection = 70
-1210,1213c1210,1213
+1210,1213c1209,1212
 < 		build_cost_ic = 1450
 < 		resources = {
 < 			steel = 4

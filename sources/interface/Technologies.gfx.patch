@@ -1,9 +1,34 @@
-2a3,35
+2a3,60
 > 	### NOIM techs
 > 	
 > 	SpriteType = {
 > 		name = "GFX_asymetricalwarfare_medium"
 > 		texturefile = "gfx/interface/technologies/asymetricalwarfare.dds"
+> 	}
+> 
+> 	SpriteType = {
+> 		name = "GFX_advanced_sonar_medium"
+> 		texturefile = "gfx/interface/technologies/advanced_sonar.dds"
+> 	}
+> 
+> 	SpriteType = {
+> 		name = "GFX_basic_hybrid_ship_hull_heavy_medium"
+> 		texturefile = "gfx/interface/technologies/improved_hybrid_carrier.dds"
+> 	}
+> 
+> 	SpriteType = {
+> 		name = "GFX_improved_hybrid_ship_hull_heavy_medium"
+> 		texturefile = "gfx/interface/technologies/advanced_hybrid_carrier.dds"
+> 	}
+> 
+> 	SpriteType = {
+> 		name = "GFX_improved_ship_hull_escort_carrier_medium"
+> 		texturefile = "gfx/interface/technologies/improved_escort_carrier.dds"
+> 	}
+> 
+> 	SpriteType = {
+> 		name = "GFX_advanced_ship_hull_escort_carrier_medium"
+> 		texturefile = "gfx/interface/technologies/advanced_escort_carrier.dds"
 > 	}
 > 
 > 	SpriteType = {

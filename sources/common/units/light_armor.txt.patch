@@ -1,14 +1,13 @@
-28c28,29
+28c28
 < 			light_tank_chassis = 60
 ---
-> 			motorized_equipment = 30
 > 			light_tank_chassis = 70
-30c31
+30c30
 < 		manpower = 500
 ---
 > 		manpower = 550
-37a39,40
+37a38,39
 > 		transport = light_tank_chassis
 > 
-62d64
+62d63
 < 			defence = -0.1

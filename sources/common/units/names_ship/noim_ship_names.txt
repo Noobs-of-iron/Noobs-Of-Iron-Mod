@@ -1,0 +1,22 @@
+﻿HYBRID_CARRIER = {
+	name = NAME_THEME_HYBRID_BB
+	for_countries = {}
+	
+	type = ship
+	ship_types = { ship_hull_hybrid_bb }			
+
+	prefix = ""
+	fallback_name = "Hybrid battleship %d"					
+
+}
+
+ESCORT_CARRIER = {
+	name = NAME_THEME_ESCORT_CARRIER
+	for_countries = {}
+	
+	type = ship
+	ship_types = { ship_hull_escort_carrier }
+	
+	prefix = ""
+	fallback_name = "Escort Carrier %d"
+}

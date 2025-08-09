@@ -2,7 +2,9 @@
 < 		steel=27 # was: 35
 ---
 > 		steel = 1284 # was: 35
-17c17
+17,18c17,18
 < 			industrial_complex = 2
+< 			fuel_silo = 1
 ---
-> 			industrial_complex = 4
+> 			industrial_complex = 5
+> 			fuel_silo = 2
