@@ -13,11 +13,9 @@
 < 		armor_value = -0.75
 ---
 > 		armor_value = -0.95
-53a56
-> 			motorized_equipment = 15
-55a59
+55a58
 > 
-132,134c136,140
+132,134c135,139
 < 		soft_attack = -0.45 #Was -0.7
 < 		breakthrough = -0.45 #Was -0.7
 < 		hard_attack = -0.7
@@ -27,15 +25,13 @@
 > 		soft_attack = -0.1 #Was -0.7
 > 		breakthrough = -0.1 #Was -0.7
 > 		hard_attack = -0.1
-136c142
+136c141
 < 		armor_value = -0.7
 ---
 > 		armor_value = -0.95
-139a146
-> 			motorized_equipment = 15
-141a149
+141a147
 > 
-219,220c227,230
+219,220c225,228
 < 		soft_attack = -0.4 #Was -0.625
 < 		hard_attack = -0.625
 ---
@@ -43,11 +39,9 @@
 > 
 > 		soft_attack = -0.1 #Was -0.625
 > 		hard_attack = -0.125
-222c232
+222c230
 < 		armor_value = -0.625
 ---
 > 		armor_value = -0.95
-226a237
-> 			motorized_equipment = 15
-227a239
+227a236
 > 
