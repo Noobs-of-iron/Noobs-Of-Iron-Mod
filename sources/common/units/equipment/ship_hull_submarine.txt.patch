@@ -2,6 +2,14 @@
 < 		surface_detection = 20
 ---
 > 		surface_detection = 10
+83c83
+< 		sub_visibility = 25
+---
+> 		sub_visibility = 24
+89c89
+< 		max_strength = 10
+---
+> 		max_strength = 7
 94,97c94,97
 < 		build_cost_ic = 320
 < 		resources = {
@@ -12,6 +20,14 @@
 > 		resources={
 > 
 > 			steel = 12
+142c142
+< 		sub_visibility = 22
+---
+> 		sub_visibility = 21
+148c148
+< 		max_strength = 20
+---
+> 		max_strength = 13
 152,155c152,155
 < 		build_cost_ic = 350
 < 		resources = {
@@ -22,6 +38,14 @@
 > 		resources={
 > 
 > 			steel = 24
+193c193
+< 		sub_visibility = 20
+---
+> 		sub_visibility = 18
+199c199
+< 		max_strength = 30
+---
+> 		max_strength = 17
 203,205c203,205
 < 		build_cost_ic = 420
 < 		resources = {
@@ -30,6 +54,10 @@
 > 		build_cost_ic = 610
 > 		resources={
 > 			steel = 24
+248c248
+< 		max_strength = 35
+---
+> 		max_strength = 20
 252,255c252,255
 < 		build_cost_ic = 550
 < 		resources = {
@@ -40,6 +68,14 @@
 > 		resources={
 > 			steel = 36
 > 			chromium = 12
+303c303
+< 		sub_visibility = 20
+---
+> 		sub_visibility = 18
+309c309
+< 		max_strength = 30
+---
+> 		max_strength = 20
 313,315c313,315
 < 		build_cost_ic = 490
 < 		resources = {
@@ -51,11 +87,15 @@
 363c363
 < 		sub_visibility = 18
 ---
-> 		sub_visibility = 22
+> 		sub_visibility = 19
 367c367
 < 		naval_range = 6500
 ---
 > 		naval_range = 5500
+369c369
+< 		max_strength = 40
+---
+> 		max_strength = 20
 373,375c373,375
 < 		build_cost_ic = 650
 < 		resources = {
@@ -72,6 +112,14 @@
 > 		build_cost_ic = 300
 > 		resources={
 > 			steel = 12
+466c466
+< 		sub_visibility = 16
+---
+> 		sub_visibility = 12
+473c473
+< 		max_strength = 50
+---
+> 		max_strength = 30
 478,480c478,480
 < 		resources = {
 < 			steel = 3
@@ -84,6 +132,14 @@
 < 		surface_detection = 30
 ---
 > 		surface_detection = 20
+510c510
+< 		sub_visibility = 30
+---
+> 		sub_visibility = 24
+516c516
+< 		max_strength = 10
+---
+> 		max_strength = 7
 521,524c521,524
 < 		build_cost_ic = 250
 < 		resources = {
@@ -98,6 +154,14 @@
 < 		surface_detection = 40
 ---
 > 		surface_detection = 30
+556c556
+< 		sub_visibility = 25
+---
+> 		sub_visibility = 21
+562c562
+< 		max_strength = 20
+---
+> 		max_strength = 10
 566,569c566,569
 < 		build_cost_ic = 250
 < 		resources = {
@@ -112,6 +176,14 @@
 < 		surface_detection = 50
 ---
 > 		surface_detection = 40
+598c598
+< 		sub_visibility = 15
+---
+> 		sub_visibility = 18
+604c604
+< 		max_strength = 30
+---
+> 		max_strength = 14
 608,611c608,611
 < 		build_cost_ic = 350
 < 		resources = {
@@ -122,6 +194,14 @@
 > 		resources={
 > 
 > 			steel = 24
+640c640
+< 		sub_visibility = 10
+---
+> 		sub_visibility = 16
+646c646
+< 		max_strength = 35
+---
+> 		max_strength = 18
 652,654c652,653
 < 			#oil = 2
 < 			steel = 3
@@ -133,6 +213,10 @@
 < 		surface_detection = 20
 ---
 > 		surface_detection = 30
+741c740
+< 		sub_visibility = 26
+---
+> 		sub_visibility = 18
 751,753c750,752
 < 		build_cost_ic = 490
 < 		resources = {
@@ -145,12 +229,20 @@
 < 		surface_detection = 60
 ---
 > 		surface_detection = 30
+839c838
+< 		sub_visibility = 13
+---
+> 		sub_visibility = 18
 849,850c848,849
 < 		resources = {
 < 			steel = 3
 ---
 > 		resources={
 > 			steel = 36
+894c893
+< 		sub_visibility = 15
+---
+> 		sub_visibility = 16
 905,907c904,906
 < 		build_cost_ic = 150
 < 		resources = {
@@ -177,6 +269,10 @@
 < 		surface_detection = 65
 ---
 > 		surface_detection = 60
+1098c1097
+< 		sub_visibility = 13
+---
+> 		sub_visibility = 16
 1108,1111c1107,1110
 < 		build_cost_ic = 900
 < 		resources = {

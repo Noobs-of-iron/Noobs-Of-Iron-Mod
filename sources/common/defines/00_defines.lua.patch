@@ -62,6 +62,16 @@
 < 	SCORCHED_EARTH_STATE_COST = 5,					-- pp cost to scorch a state
 ---
 > 	SCORCHED_EARTH_STATE_COST = 3,					-- pp cost to scorch a state
+465,468c465,468
+< 	GIE_DIVISION_ATTACK_BONUS_AGAINST_OCCUPIER = 0.1, -- Attack bonus factor against whoever occupies your core territory.
+< 	GIE_DIVISION_DEFENSE_BONUS_AGAINST_OCCUPIER = 0.1, -- Attack bonus factor against whoever occupies your core territory.
+< 	GIE_DIVISION_ATTACK_BONUS_ON_CORE = 0.1, -- Attack bonus factor when fighting on cores.
+< 	GIE_DIVISION_DEFENSE_BONUS_ON_CORE = 0.1, -- Defense bonus factor when fighting on cores.
+---
+> 	GIE_DIVISION_ATTACK_BONUS_AGAINST_OCCUPIER = 0.05, -- Attack bonus factor against whoever occupies your core territory.
+> 	GIE_DIVISION_DEFENSE_BONUS_AGAINST_OCCUPIER = 0.05, -- Attack bonus factor against whoever occupies your core territory.
+> 	GIE_DIVISION_ATTACK_BONUS_ON_CORE = 0.05, -- Attack bonus factor when fighting on cores.
+> 	GIE_DIVISION_DEFENSE_BONUS_ON_CORE = 0.05, -- Defense bonus factor when fighting on cores.
 588c588
 < 	MAX_EQUIPMENT_RESOURCES_NEED = 3, 	-- Max number of different strategic resources an equipment can be dependent on.
 ---
@@ -286,10 +296,12 @@
 < 		0.0, -- NAVAL_INVASION_SUPPORT
 ---
 > 		0.2, -- NAVAL_INVASION_SUPPORT
-1650c1650
+1649,1650c1649,1650
+< 		1.0,   -- high
 < 		0.1,   -- I am death incarnate!
 ---
-> 		1.0,   -- I am death incarnate!
+> 		3.0,   -- high
+> 		3.0,   -- I am death incarnate!
 1661c1661
 < 		0.3, -- HOLD
 ---

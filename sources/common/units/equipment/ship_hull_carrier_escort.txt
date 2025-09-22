@@ -89,7 +89,7 @@ module_slots = {
 
 		fuel_consumption = 20
 		
-		build_cost_ic = 1600
+		build_cost_ic = 1100
 		resources = {
 			steel = 10
 		}
@@ -103,7 +103,7 @@ module_slots = {
 		archetype = ship_hull_escort_carrier
 		priority = 1800
 		naval_speed = 12
-		build_cost_ic = 1500
+		build_cost_ic = 1350
 		reliability = 0.60
 		max_strength = 120
 		naval_range = 3000
@@ -178,7 +178,7 @@ module_slots = {
 		naval_speed = 14
 		reliability = 0.65
 		manpower = 2400
-		build_cost_ic = 1750
+		build_cost_ic = 1500
 		naval_range = 3500
 		max_strength = 130
 		resources = {

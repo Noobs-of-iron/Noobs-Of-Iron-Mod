@@ -57,16 +57,16 @@
 < 			position = {  x = -1 y = 2 }
 ---
 > 			position = {  x = 2 y = 2 }
-1262c1313
-< 			position = {  x = -1 y = 8 }
----
-> 			position = {  x = 2 y = 8 }
-1312a1364,1368
+1255a1307,1311
 > 		path = {
 > 			leads_to_tech = improved_ship_hull_escort_carrier
 > 			research_cost_coeff = 1
 > 		}
 > 
+1262c1318
+< 			position = {  x = -1 y = 8 }
+---
+> 			position = {  x = 2 y = 8 }
 1319c1375
 < 			position = {  x = -1 y = 14 }
 ---
@@ -126,11 +126,11 @@
 > 			basic_ship_hull_carrier = 1
 > 		}
 > 
-> 		start_year = 1940
+> 		start_year = 1938
 > 
 > 		folder = {
 > 			name = mtgnavalfolder
-> 			position = {  x = 0 y = 14 }
+> 			position = {  x = 0 y = 11 }
 1389a1502,1574
 > 	advanced_ship_hull_escort_carrier = {
 > 
@@ -139,11 +139,11 @@
 > 		}
 > 		research_cost = 0.75
 > 
-> 		start_year = 1944
+> 		start_year = 1942
 > 
 > 		folder = {
 > 			name = mtgnavalfolder
-> 			position = {  x = 0 y = 20 }
+> 			position = {  x = 0 y = 17 }
 > 		}
 > 
 > 		categories = {

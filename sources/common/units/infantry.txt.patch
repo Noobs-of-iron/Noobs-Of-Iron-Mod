@@ -61,11 +61,13 @@
 < 			infantry_equipment = 100
 ---
 > 			infantry_equipment = 125
-680,681c694,695
+679,681c693,695
+< 		max_strength = 25
 < 		max_organisation = 50 #reg infantry 60
 < 		default_morale = 0.3
 ---
-> 		max_organisation = 40 #reg infantry 60
+> 		max_strength = 20
+> 		max_organisation = 30 #reg infantry 60
 > 		default_morale = 0.2
 685,686c699,700
 < 		training_time = 80 #reg infantry 90
@@ -80,7 +82,7 @@
 692c706
 < 			infantry_equipment = 100
 ---
-> 			infantry_equipment = 80
+> 			infantry_equipment = 90
 695c709
 < }
 \ Pas de fin de ligne à la fin du fichier

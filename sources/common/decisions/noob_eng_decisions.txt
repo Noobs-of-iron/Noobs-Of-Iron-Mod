@@ -237,6 +237,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 				}
 			}
 		}
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -441,6 +442,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 		ai_will_do = {
 			base = 10
 		}
+		days_remove = 180
 	}
 	ENG_NOI_operation_husky = {
 		icon = hol_draw_up_staff_plans
@@ -556,7 +558,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -758,7 +760,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -960,7 +962,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -1241,7 +1243,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -1361,7 +1363,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -1563,7 +1565,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -1724,7 +1726,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -1927,7 +1929,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -2088,7 +2090,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -2290,7 +2292,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -2738,7 +2740,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -2908,7 +2910,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 				}
 			}
 		}
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}
@@ -3012,7 +3014,7 @@ ENG_NOI_chiefs_of_staff_comitee = {
 			}
 		}
 
-
+		days_remove = 180
 		ai_will_do = {
 			base = 10
 		}

@@ -36,7 +36,7 @@ module_slots = {
 			}
 			fixed_ship_armor_slot = {
 				required = yes
-				allowed_module_categories = { ship_heavy_armor }	
+				allowed_module_categories = { ship_cruiser_armor }	
 			}
 			front_1_custom_slot = {
 				required = no
@@ -72,7 +72,7 @@ module_slots = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
@@ -88,18 +88,18 @@ module_slots = {
 		
 		anti_air_attack = 0
 		
-		armor_value = 0
+		armor_value = -15
 
 		
 		surface_detection = 20
 		sub_detection = 1
-		surface_visibility = 20
-		naval_speed = 24
+		surface_visibility = 25
+		naval_speed = 20
 		reliability = 0.80
 		
 		naval_range = 3250
 		
-		max_strength = 360		
+		max_strength = 100		
 		
 
 		fuel_consumption = 70
@@ -118,10 +118,10 @@ module_slots = {
 		visual_level = 1
 		archetype = ship_hull_hybrid_bb
 		priority = 1800
-		naval_speed = 26
-		build_cost_ic = 2750
+		naval_speed = 20
+		build_cost_ic = 3500
 		reliability = 0.90
-		max_strength = 350
+		max_strength = 110
 		naval_range = 3350
 		manpower = 5500
 		resources = {
@@ -155,7 +155,7 @@ module_slots = {
 			}
 			fixed_ship_armor_slot = {
 				required = yes
-				allowed_module_categories = { ship_heavy_armor }	
+				allowed_module_categories = { ship_cruiser_armor }	
 			}
 			front_1_custom_slot = {
 				required = no
@@ -192,7 +192,7 @@ module_slots = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
@@ -207,12 +207,12 @@ module_slots = {
 
 		can_convert_from = { ship_hull_escort_carrier_2 }
 
-		naval_speed = 26
+		naval_speed = 22
 		reliability = 0.90
 		manpower = 6400
-		build_cost_ic = 2100
+		build_cost_ic = 3800
 		naval_range = 4000
-		max_strength = 390
+		max_strength = 125
 		resources = {
 			steel = 20
 			chromium = 10
@@ -244,7 +244,7 @@ module_slots = {
 			}
 			fixed_ship_armor_slot = {
 				required = yes
-				allowed_module_categories = { ship_heavy_armor }	
+				allowed_module_categories = { ship_cruiser_armor }	
 			}
 			front_1_custom_slot = {
 				required = no
@@ -276,7 +276,7 @@ module_slots = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
