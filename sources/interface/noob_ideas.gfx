@@ -71,3 +71,10 @@ spriteTypes = {
         texturefile = gfx/interface/event_pictures/world_event_noob_kutuzov.dds
         legacy_lazy_load = no
     }
+
+    spriteType = {
+        name = GFX_USA_NOI_rubber_industry_rivality
+        texturefile = gfx/interface/ideas/ARG_resource_extration_focus.dds
+        legacy_lazy_load = no
+    }
+}

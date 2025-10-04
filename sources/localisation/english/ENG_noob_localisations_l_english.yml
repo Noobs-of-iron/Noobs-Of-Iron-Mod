@@ -9,9 +9,10 @@ ENG_NOI_dday_desc: "Meticulously prepared invasion plans aiming to breach the At
 ENG_NOI_commonwealth_corp: "Commonwealth Corps Offensive Plans"
 ENG_NOI_commonwealth_corp_desc: "A meticulously coordinated strategy among the Commonwealth forces, including British, Indian, Australian, and South African troops, aimed at launching a massive invasion of Japan’s home islands. This offensive involves large-scale amphibious assaults, precision bombing raids, and combined ground operations to break through Japan’s defenses, weaken its war machine, and secure a decisive victory to end the Pacific conflict."
 #DECISIONS
- ENG_NOI_assemble_commonwealth_corps: "Assemble Commonwealth Corps"
-  ENG_NOI_assemble_commonwealth_corps_desc: "Prepare and assemble forces from across the British Commonwealth for a coordinated offensive against the Japanese, bringing together troops from nations like Canada, Australia, India, and South Africa."
-  ENG_NOI_operation_sledgehammer: "Operation Sledgehammer"
+
+ENG_NOI_assemble_commonwealth_corps: "Assemble Commonwealth Corps"
+ENG_NOI_assemble_commonwealth_corps_desc: "Prepare and assemble forces from across the British Commonwealth for a coordinated offensive against the Japanese, bringing together troops from nations like Canada, Australia, India, and South Africa."
+ENG_NOI_operation_sledgehammer: "Operation Sledgehammer"
 ENG_NOI_operation_sledgehammer_desc: "An early plan for an invasion of Western Europe, intended to open a second front against Nazi Germany in 1942, with a focus on a landing in the Pas-de-Calais region."
   
 ENG_NOI_operation_jupiter: "Operation Jupiter"

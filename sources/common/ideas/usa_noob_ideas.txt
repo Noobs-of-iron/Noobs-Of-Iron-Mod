@@ -11,6 +11,15 @@ ideas = {
                 guarantee_cost = 50
                 }
         }
+
+        USA_NOI_rubber_industry_rivality = {
+           picture = ARG_resource_extration_focus
+           modifier = {
+				production_speed_synthetic_refinery_factor = -0.75
+			}
+
+        }
+
         # PHI on our own
         PHI_NOI_on_our_own = {
             picture = tur_disorganised_armed_forces

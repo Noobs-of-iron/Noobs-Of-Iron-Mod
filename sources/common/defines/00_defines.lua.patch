@@ -174,6 +174,10 @@
 ---
 > 	PARADROP_PENALTY = -0.5, 						-- Combat penalty when recently paradropped
 > 	PARADROP_HOURS = 72,							-- time paratroopers suffer penalties in combat
+1110c1110
+< 	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = -1, -- minimum hours required for units to rejoin border wars, values below zero will make units never return
+---
+> 	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = 336, -- minimum hours required for units to rejoin border wars
 1166c1166
 < 	ARMY_FUEL_COST_MULT = 0.5,						-- fuel cost multiplier for all army related stuff
 ---

@@ -1,3 +1,7 @@
+4897c4897
+< 		conscription_factor = 0.05
+---
+> 		recruitable_population_factor = 0.03
 10203c10203
 < 		country_resource_aluminium = 10 
 ---
