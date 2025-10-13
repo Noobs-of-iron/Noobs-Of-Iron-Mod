@@ -1,223 +1,6 @@
-41,400d40
-< # Terra Steps Down
-< country_event = {
-< 	id = south_american_events.1
-< 	title = south_american_events.1.t
-< 	desc = south_american_events.1.desc
-< 	picture = GFX_report_event_election_vote
+40d39
 < 
-< 	trigger = {
-< 		tag = URG
-< 		date > 1938.6.16
-< 		is_subject = no
-< 
-< 		has_dlc = "Trial of Allegiance"
-< 		NOT = { has_completed_focus = URG_establish_the_german_uruguayan_cultural_center }
-< 	}
-< 
-< 	mean_time_to_happen = { days = 3 }
-< 
-< 	hidden = no
-< 
-< 	fire_only_once = yes
-< 
-< 	option = {
-< 		name = south_american_events.1.a
-< 		ai_chance = {
-< 			base = 100
-< 
-< 			modifier = {
-< 				OR = {
-< 					has_country_flag = URG_AI_RANDOM_DEMOCRATIC_ALT
-< 					
-< 					has_game_rule = {
-< 						rule = URG_AI_BEHAVIOR
-< 						option = DEMOCRATIC_ALT
-< 					}
-< 
-< 					has_country_flag = URG_AI_RANDOM_FASCIST
-< 					
-< 					has_game_rule = {
-< 						rule = URG_AI_BEHAVIOR
-< 						option = FASCIST
-< 					}		
-< 				}
-< 				factor = 0
-< 			}
-< 		}
-< 		if = {
-< 			limit = {
-< 				has_country_leader = {
-< 					ruling_only = yes# default = yes
-< 					character = URG_gabriel_terra # recommended<bool>
-< 				}
-< 			}
-< 			retire_character = URG_gabriel_terra
-< 			remove_ideas = {	
-< 				URG_terra_dictatorship
-< 			}
-< 		}
-< 
-< 
-< 		drop_cosmetic_tag = yes
-< 		complete_national_focus = URG_colorado_victory
-< 		news_event = { 
-< 			id = south_american_news.2 
-< 			days = 2
-< 			random_days = 5
-< 		}
-< 		set_politics = {
-< 			ruling_party = democratic
-< 		    elections_allowed = yes
-< 		    last_election = "1938.6.15"
-< 		    election_frequency = 48
-< 		}
-< 	}
-< 
-< 	option = {
-< 		name = south_american_events.1.b
-< 		ai_chance = {
-< 			base = 0
-< 			
-< 			modifier = {
-< 				add = 100
-< 				OR = {
-< 					has_country_flag = URG_AI_RANDOM_DEMOCRATIC_ALT
-< 					
-< 					has_game_rule = {
-< 						rule = URG_AI_BEHAVIOR
-< 						option = DEMOCRATIC_ALT
-< 					}	
-< 				}	
-< 			}
-< 			
-< 		}
-< 		complete_national_focus = URG_blanco_victory
-< 		if = {
-< 			limit = {
-< 				has_country_leader = {
-< 					ruling_only = yes# default = yes
-< 					character = URG_gabriel_terra # recommended<bool>
-< 				}
-< 			}
-< 			retire_character = URG_gabriel_terra
-< 			remove_ideas = {	
-< 				URG_terra_dictatorship
-< 			}
-< 		}
-< 		drop_cosmetic_tag = yes
-< 
-< 		set_politics = {
-< 			ruling_party = neutrality
-< 		    elections_allowed = yes
-< 		    last_election = "1938.6.15"
-< 		    election_frequency = 48
-< 		}
-< 
-< 		add_popularity = {
-< 			ideology = neutrality
-< 			popularity = 0.1
-< 		}
-< 
-< 		news_event = { 
-< 			id = south_american_news.3 
-< 			days = 2
-< 			random_days = 5
-< 		}
-< 
-< 	}
-< 
-< 	#option = {
-< 	#	name = south_american_events.1.c
-< 	#	ai_chance = {
-< 	#		base = 0
-< 	#		
-< 	#		modifier = {
-< 	#			add = 30
-< 	#			is_historical_focus_on = no
-< 	#		}
-< 	#		
-< 	#	}
-< #
-< 	#	retire_character = URG_gabriel_terra
-< 	#	remove_ideas = {	
-< 	#		URG_terra_dictatorship
-< 	#	}
-< 	#	complete_national_focus = URG_
-< 	#	drop_cosmetic_tag = yes
-< #
-< 	#	set_politics = {
-< 	#		ruling_party = communism
-< 	#	    elections_allowed = no
-< 	#	    last_election = "1938.6.15"
-< 	#	    election_frequency = 48
-< 	#	}
-< #
-< 	#	add_popularity = {
-< 	#		ideology = communism
-< 	#		popularity = 0.4
-< 	#	}
-< #
-< 	#	add_stability = -0.3
-< #
-< 	#	news_event = { 
-< 	#		id = south_american_news.4 
-< 	#		days = 2
-< 	#		random_days = 5
-< 	#	}
-< 	#}
-< 
-< 	option = {
-< 		name = south_american_events.1.d
-< 		ai_chance = {
-< 			base = 0
-< 			
-< 			modifier = {
-< 				OR = {
-< 
-< 					has_country_flag = URG_AI_RANDOM_FASCIST
-< 					
-< 					has_game_rule = {
-< 						rule = URG_AI_BEHAVIOR
-< 						option = FASCIST
-< 					}		
-< 				}
-< 				add = 100
-< 			}
-< 			
-< 		}
-< 
-< 		if = {
-< 			limit = {
-< 				has_country_leader = {
-< 					ruling_only = yes# default = yes
-< 					character = URG_gabriel_terra # recommended<bool>
-< 				}
-< 			}
-< 			retire_character = URG_gabriel_terra
-< 			remove_ideas = {	
-< 				URG_terra_dictatorship
-< 			}
-< 		}
-< 		#complete_national_focus = URG_establish_the_german_uruguayan_cultural_center
-< 		drop_cosmetic_tag = yes
-< 
-< 		add_popularity = {
-< 			ideology = fascism
-< 			popularity = 0.08
-< 		}
-< 
-< 		#add_stability = -0.3
-< 
-< 		#news_event = { 
-< 		#	id = south_american_news.4 
-< 		#	days = 2
-< 		#	random_days = 5
-< 		#}
-< 	}
-< 
-< }
-< 
+260,399d258
 < # Terra steps down in favor of mister ferrari
 < news_event = {
 < 	id = south_american_news.2
@@ -358,46 +141,45 @@
 < 		}
 < 	}
 < } 
-< 
-405c45
+405c264
 < 	desc = south_american_events.2.desc 
 ---
 > 	desc = south_american_events.2.desc
-412,413c52,53
+412,413c271,272
 < 		name = south_american_events.2.a 
 < 		ai_chance = {  
 ---
 > 		name = south_american_events.2.a
 > 		ai_chance = {
-415c55
+415c274
 < 		} 
 ---
 > 		}
-461c101
+461c320
 < 	}  
 ---
 > 	}
-465,466c105,106
+465,466c324,325
 < 		name = south_american_events.2.b 
 < 		ai_chance = {  
 ---
 > 		name = south_american_events.2.b
 > 		ai_chance = {
-468c108
+468c327
 < 		} 
 ---
 > 		}
-510c150
+510c369
 < 	} 
 ---
 > 	}
-514,515c154,155
+514,515c373,374
 < 		name = south_american_events.2.c 
 < 		ai_chance = {  
 ---
 > 		name = south_american_events.2.c
 > 		ai_chance = {
-517,578d156
+517,578d375
 < 		} 
 < 		add_ideas = JUNO_hidden_at_production_ns
 < 	} 
@@ -460,96 +242,96 @@
 < 		name = south_american_news.10.b
 < 		trigger = {
 < 			NOT = { has_government = democratic }
-579a158
+579a377
 > 		add_ideas = JUNO_hidden_at_production_ns
-581,582c160
+581,582c379
 < } 
 < 
 ---
 > }
-669,673d246
+669,673d465
 < 		news_event = { 
 < 			id = south_american_news.8 
 < 			days = 3
 < 			random_days = 6
 < 		}
-680c253
+680c472
 < 				
 ---
 > 
-693c266
+693c485
 < 				
 ---
 > 
-706c279
+706c498
 < 					factor = 0	
 ---
 > 					factor = 0
-728c301
+728c520
 < 				priority = 2 # optional 
 ---
 > 				priority = 2 # optional
-737c310
+737c529
 < 					
 ---
 > 
-740c313
+740c532
 < 					
 ---
 > 
-748c321
+748c540
 < 				
 ---
 > 
-753c326
+753c545
 < 					priority = 2 # optional 
 ---
 > 					priority = 2 # optional
-759c332
+759c551
 < 						
 ---
 > 
-762c335
+762c554
 < 						
 ---
 > 
-772,773c345,346
+772,773c564,565
 < 						#prioritize_location = province_id # optional 
 < 						allow_spawning_on_enemy_provs = no 
 ---
 > 						#prioritize_location = province_id # optional
 > 						allow_spawning_on_enemy_provs = no
-784,785c357,358
+784,785c576,577
 < 					#prioritize_location = province_id # optional 
 < 					allow_spawning_on_enemy_provs = no 
 ---
 > 					#prioritize_location = province_id # optional
 > 					allow_spawning_on_enemy_provs = no
-793c366
+793c585
 < 					has_government = communism		
 ---
 > 					has_government = communism
-795,796c368,369
+795,796c587,588
 < 				PAR_rafael_franco = { set_nationality = PREV } 
 < 				add_country_leader_role = {		
 ---
 > 				PAR_rafael_franco = { set_nationality = PREV }
 > 				add_country_leader_role = {
-802c375
+802c594
 < 			 			#traits = {  } 
 ---
 > 			 			#traits = {  }
-808c381
+808c600
 < 				PAR_Jose_Felix_Estigarribia = { set_nationality = ROOT } 
 ---
 > 				PAR_Jose_Felix_Estigarribia = { set_nationality = ROOT }
-814,815c387,388
+814,815c606,607
 < 			#news_event = { 
 < 			#	id = south_american_news.9 
 ---
 > 			#news_event = {
 > 			#	id = south_american_news.9
-822,872d394
+822,872d613
 < # The February Revolution
 < news_event = {
 < 	id = south_american_news.8
@@ -601,22 +383,22 @@
 < }
 < 
 < 
-926,931d447
+926,931d666
 < 
 < 		news_event = { 
 < 			id = south_american_news.11 
 < 			days = 3
 < 			random_days = 6
 < 		}
-938c454
+938c673
 < 			
 ---
 > 
-943c459
+943c678
 < 			
 ---
 > 
-969,1498d484
+969,2772d703
 < 		news_event = { 
 < 			id = south_american_news.12 
 < 			days = 3
@@ -1147,7 +929,10 @@
 < 			    long_name = CHL_communist_but_democratic_party_long
 < 			}
 < 		}
-1503,3175d488
+< 
+< 	}
+< 
+< }
 < 
 < news_event = {
 < 	id = south_american_news.50
@@ -2418,7 +2203,7 @@
 < 				has_war_with = FROM
 < 			}
 < 		}
-< 
+2774,2826d704
 < 		if = {
 < 			limit = {
 < 				has_country_flag = propagate_monroe_along_allies ##this event is sent from the monroe aggressor to its allies - hand me down event
@@ -2472,8 +2257,7 @@
 < 
 < 			clear_variable = monroe_defender
 < 		}
-< 	}
-< 
+2829,2854d706
 < 	option = { #refuse to end war
 < 		name = south_american_events.51.b
 < 		ai_chance = {
@@ -2500,7 +2284,7 @@
 < 			}
 < 		}
 < 	}
-< }
+2856,3175d707
 < 
 < country_event = { #FROM Agrees to end war in SA/NA
 < 	id = south_american_events.52

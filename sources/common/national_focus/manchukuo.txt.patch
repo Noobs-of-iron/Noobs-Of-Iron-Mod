@@ -1,0 +1,17 @@
+1132a1133,1136
+> 		
+> 		allow_branch = {
+> 			always = no
+> 		}
+1164c1168
+< 		x = 1
+---
+> 		x = 0
+1200d1203
+< 		prerequisite = { focus = MAN_vassalize_mengukuo }
+1203,1204c1206,1207
+< 		y = 2
+< 		relative_position_id = MAN_chinese_leadership
+---
+> 		y = 1
+> 		relative_position_id = MAN_national_cooperation_government
