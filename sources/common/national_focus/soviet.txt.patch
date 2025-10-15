@@ -1,28 +1,32 @@
-482d481
+475a476
+> 			NOT = { has_completed_focus = SOV_the_right_opposition }
+482d482
 < 				add_to_variable = { SOV_fyp_production_factory_efficiency_gain_factor = 0.05 }
-864c863
+864c864
 < 					amount = 5
 ---
 > 					amount = 60
-904c903
+904c904
 < 						amount = 5
 ---
 > 						amount = 60
-3796a3796
+3797c3797
+< 
+---
 > 			remove_ideas = amphibious_craft_in_bad_condition
 4198c4198
 < 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
 ---
 > 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.1 }
 4904a4905,4921
-> 			219 = {
-> 						add_building_construction = {
-> 							type = land_facility
-> 							level = 1
-> 							instant_build = yes
-> 							province = 3391 # Kubinka
-> 						}
+> 				219 = {
+> 					add_building_construction = {
+> 						type = land_facility
+> 						level = 1
+> 						instant_build = yes
+> 						province = 3391 # Kubinka
 > 					}
+> 				}
 > 			hidden_effect = {
 > 				IF = {
 > 					limit = { 
@@ -32,24 +36,60 @@
 > 					}
 > 				}
 > 			}
-4905a4923,4926
-> 
-> 			
-> 
-> 			
-7033a7055
-> 				
-7039a7062
+7042a7060
 > 			country_event = { id = noi_sov.16 }
-13676c13699
+9812c9830
+< 		cost = 10
+---
+> 		cost = 5
+9821c9839
+< 			add_stability = -0.05
+---
+> 			add_stability = -0.15
+9929c9947
+< 			SOV_soviet_civil_war_not_started = yes
+---
+> 
+10015c10033
+< 		cost = 10
+---
+> 		cost = 5
+10280c10298
+< 			NOT = { has_global_flag = SOV_soviet_civil_war_over }
+---
+> 
+11058d11075
+< 			SOV_soviet_civil_war_not_started = yes 
+11147d11163
+< 			SOV_soviet_civil_war_not_started = yes 
+11202c11218
+< 			SOV_soviet_civil_war_not_started = yes 
+---
+> 
+11278c11294
+< 			SOV_soviet_civil_war_not_started = yes 
+---
+> 
+11331c11347
+< 			has_global_flag = SOV_soviet_civil_war_over
+---
+> 
+13460a13477,13480
+> 				has_completed_focus = SOV_the_centre
+> 				has_completed_focus = SOV_back_to_the_nep
+> 			}
+> 			OR = {
+13676c13696
 < 		cost = 10
 ---
 > 		cost = 0.2
-14154c14177
+14154c14174
 < 		cost = 10
 ---
 > 		cost = 0.2
-17840c17863
+15617a15638
+> 			always = no
+17840c17861
 < 		cost = 10
 ---
 > 		cost = 1

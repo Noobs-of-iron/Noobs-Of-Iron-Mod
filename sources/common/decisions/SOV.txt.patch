@@ -66,3 +66,16 @@
 < 						amount = 12
 ---
 > 						amount = 144
+13131d13130
+< 		fixed_random_seed = no
+13149c13148
+< 						80 = {
+---
+> 						100 = {
+13158,13163d13156
+< 						}
+< 						20 = {
+< 							SOV_paranoia_very_high_increase_effect = yes
+< 							news_event = {
+< 								id = NSB_soviet_communist_civil_war.008
+< 							}
