@@ -1,0 +1,11 @@
+546c546
+< 			surrender_progress > 0.25
+---
+> 			surrender_progress > 0.10
+563d562
+< 			has_country_flag = FIN_available_decision_to_surrender_to_soviets_flag
+4176c4175
+< }
+\ Pas de fin de ligne à la fin du fichier
+---
+> }
