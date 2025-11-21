@@ -2199,7 +2199,6 @@
 				name = SIA_cruiser_modernization
 				bonus = 2.0
 				uses = 1
-				category = cl_tech	
 				category = ca_tech	
 			}					
 		}

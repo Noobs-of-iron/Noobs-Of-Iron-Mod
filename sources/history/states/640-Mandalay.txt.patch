@@ -4,3 +4,7 @@
 ---
 > 	resources={
 > 		tungsten = 600 # was 120, 70 was moved to Shan
+14c14
+< 		owner = BRM
+---
+> 		owner = RAJ
