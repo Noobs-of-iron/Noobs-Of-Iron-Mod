@@ -18,6 +18,10 @@
 < 						amount = 2
 ---
 > 						amount = 24
+17116c17116
+< 						amount = 5
+---
+> 						amount = 60
 17424c17424
 < 					amount = 14
 ---
