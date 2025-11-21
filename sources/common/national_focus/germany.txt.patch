@@ -42,16 +42,16 @@
 > 					oil > 140
 > 					tungsten > 90
 > 					chromium > 90
-1874,1875c1874,1875
+1874,1878c1874,1878
 < 						steel > 25
 < 						aluminium > 20
----
-> 						steel > 250
-> 						aluminium > 200
-1877,1878c1877,1878
+< 						oil > 15
 < 						tungsten > 10
 < 						chromium > 10
 ---
+> 						steel > 250
+> 						aluminium > 200
+> 						oil > 150
 > 						tungsten > 100
 > 						chromium > 100
 1889c1889
@@ -70,18 +70,22 @@
 < 					amount > 99
 ---
 > 					amount > 999
-1969,1970c1969,1970
+1969,1973c1969,1973
 < 						steel > 19
 < 						aluminium > 10
----
-> 						steel > 190
-> 						aluminium > 100
-1972,1973c1972,1973
+< 						oil > 9
 < 						tungsten > 9
 < 						chromium > 9
 ---
+> 						steel > 190
+> 						aluminium > 100
+> 						oil > 99
 > 						tungsten > 90
 > 						chromium > 90
+2145c2145
+< 				amount > 149
+---
+> 				amount > 1499
 2232c2232
 < 				amount > 99
 ---
@@ -102,6 +106,10 @@
 < 				amount > 199 #This needs to correspond to the Bypass values in the previous focuses
 ---
 > 				amount > 1999 #This needs to correspond to the Bypass values in the previous focuses
+2324c2324
+< 				amount > 149 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 				amount > 1499 #This needs to correspond to the Bypass values in the previous focuses
 2330c2330
 < 				amount > 99 #This needs to correspond to the Bypass values in the previous focuses
 ---

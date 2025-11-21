@@ -1,0 +1,28 @@
+26473c26473
+< 				amount > 199
+---
+> 				amount > 1999
+26481c26481
+< 				amount > 199 
+---
+> 				amount > 1999 
+26489c26489
+< 				amount > 249
+---
+> 				amount > 2499
+26497c26497
+< 				amount > 199
+---
+> 				amount > 1999
+26505c26505
+< 				amount > 149 
+---
+> 				amount > 1499 
+26513c26513
+< 				amount > 299
+---
+> 				amount > 2999
+26521c26521
+< 				amount > 199
+---
+> 				amount > 1999
