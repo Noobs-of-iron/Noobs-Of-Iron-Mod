@@ -838,7 +838,7 @@
 3041c3430
 < 					amount = 12
 ---
-> 					amount = 24
+> 					amount = 288
 3054c3443
 < 					amount = 24
 ---
@@ -846,7 +846,7 @@
 3065c3454
 < 					amount = 12
 ---
-> 					amount = 24
+> 					amount = 288
 3068a3458,3467
 > 			random_owned_controlled_state = {
 > 				limit = {

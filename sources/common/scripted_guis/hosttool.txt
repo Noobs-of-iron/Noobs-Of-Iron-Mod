@@ -123,7 +123,7 @@ scripted_gui = {
 						if={limit={check_variable={Root.selected_cheat=17}} capital_scope = { add_resource = { type = tungsten amount = 5}} }
 						if={limit={check_variable={Root.selected_cheat=18}} capital_scope = { add_resource = { type = steel amount = 5}} }
 						if={limit={check_variable={Root.selected_cheat=19}} capital_scope = { add_resource = { type = chromium amount = 5}} }
-						if={limit={check_variable={Root.selected_cheat=20}} capital_scope = { add_resource = { type = oil amount = 5}} }
+						if={limit={check_variable={Root.selected_cheat=20}} capital_scope = { add_resource = { type = oil amount = 60}} }
 						if={limit={check_variable={Root.selected_cheat=21}} add_timed_idea = { idea = hosttool_efficency days = 15 } }
 						}
 					}

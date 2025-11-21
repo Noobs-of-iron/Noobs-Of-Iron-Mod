@@ -142,13 +142,13 @@
 > 
 > 			steel = 48
 > 			chromium = 12
-1412c1412
+1412,1415c1412,1415
 < 		resources = {
----
-> 		resources={
-1414,1415c1414,1415
+< 			#oil = 2
 < 			steel = 5
 < 			chromium = 3
 ---
+> 		resources={
+> 			#oil = 24
 > 			steel = 60
 > 			chromium = 36

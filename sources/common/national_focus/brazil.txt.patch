@@ -2,6 +2,10 @@
 < 					amount = 24
 ---
 > 					amount = 288
+1558c1558
+< 					amount = 16
+---
+> 					amount = 192
 1603c1603
 < 					amount = 20
 ---

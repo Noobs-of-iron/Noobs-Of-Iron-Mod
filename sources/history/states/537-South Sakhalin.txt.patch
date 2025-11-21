@@ -1,8 +1,8 @@
-5c5
+5,7c5,7
 < 	resources = {
----
-> 	resources={
-7c7
+< 		#oil = 3 # was: 4 - The only oil on Sakhalin seem to have been in the northern part, held by Soviet
 < 		coal = 2 #initial distribution
 ---
+> 	resources={
+> 		#oil = 36 # was: 4 - The only oil on Sakhalin seem to have been in the northern part, held by Soviet
 > 		coal = 24 #initial distribution

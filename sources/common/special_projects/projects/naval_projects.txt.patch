@@ -84,6 +84,10 @@
 > 		resources={
 > 			rubber = 144
 > 			steel = 96
+1714c1722
+< 		resources = { 
+---
+> 		resources={ 
 1882,1885c1890,1893
 < 		resources = { 
 < 			steel = 8
@@ -144,3 +148,11 @@
 > 			steel = 144
 > 			chromium = 48
 > 			tungsten = 144
+3582c3590
+< 		resources = { 
+---
+> 		resources={ 
+3781c3789
+< 		resources = { 
+---
+> 		resources={ 

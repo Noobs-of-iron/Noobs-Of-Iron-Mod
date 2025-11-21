@@ -1,0 +1,4 @@
+10c10
+< 		oil = 9 # was split from Dagestan which had 19 oil, and retained 10
+---
+> 		oil = 108 # was split from Dagestan which had 19 oil, and retained 10

@@ -10,6 +10,14 @@
 < 					amount = 8
 ---
 > 					amount = 96
+248c248
+< 					amount = 4
+---
+> 					amount = 48
+328c328
+< 					amount = 8
+---
+> 					amount = 96
 408c408
 < 					amount = 12
 ---
@@ -46,6 +54,14 @@
 < 					amount = 12
 ---
 > 					amount = 144
+1165c1165
+< 					amount = 8
+---
+> 					amount = 96
+1256c1256
+< 					amount = 4
+---
+> 					amount = 48
 1340c1340
 < 					amount = 8
 ---
@@ -74,6 +90,18 @@
 < 					amount = 10
 ---
 > 					amount = 120
+1948c1948
+< 					amount = 6
+---
+> 					amount = 72
+2038c2038
+< 					amount = 4
+---
+> 					amount = 48
+2127c2127
+< 					amount = 6
+---
+> 					amount = 72
 2217c2217
 < 					amount = 23
 ---
@@ -154,11 +182,19 @@
 < 					amount = 26
 ---
 > 					amount = 312
+4272c4272
+< 					amount = 8
+---
+> 					amount = 96
 4349c4349
 < 					amount = 12
 ---
 > 					amount = 144
 4426c4426
+< 					amount = 6
+---
+> 					amount = 72
+4503c4503
 < 					amount = 6
 ---
 > 					amount = 72
@@ -246,6 +282,46 @@
 < 					amount = 6
 ---
 > 					amount = 72
+6600c6600
+< 					amount = 8
+---
+> 					amount = 96
+6702c6702
+< 					amount = 18
+---
+> 					amount = 216
+6799c6799
+< 					amount = 12
+---
+> 					amount = 144
+6887c6887
+< 					amount = 16
+---
+> 					amount = 192
+6975c6975
+< 					amount = 6
+---
+> 					amount = 72
+7063c7063
+< 					amount = 18
+---
+> 					amount = 216
+7150c7150
+< 					amount = 28
+---
+> 					amount = 336
+7252c7252
+< 					amount = 22
+---
+> 					amount = 264
+7349c7349
+< 					amount = 6
+---
+> 					amount = 72
+7437c7437
+< 					amount = 8
+---
+> 					amount = 96
 7519c7519
 < 					amount = 15
 ---
@@ -266,6 +342,22 @@
 < 					amount = 28
 ---
 > 					amount = 336
+7950c7950
+< 					amount = 8
+---
+> 					amount = 96
+8045c8045
+< 					amount = 10
+---
+> 					amount = 120
+8139c8139
+< 					amount = 18
+---
+> 					amount = 216
+8231c8231
+< 					amount = 4
+---
+> 					amount = 48
 8322c8322
 < 					amount = 8
 ---
@@ -278,6 +370,18 @@
 < 					amount = 14
 ---
 > 					amount = 168
+8539c8539
+< 					amount = 24
+---
+> 					amount = 288
+8597c8597
+< 					amount = 14
+---
+> 					amount = 168
+8655c8655
+< 					amount = 8
+---
+> 					amount = 96
 8710c8710
 < 					amount = 24
 ---
@@ -302,6 +406,14 @@
 < 					amount = 4
 ---
 > 					amount = 48
+8920c8920
+< 					amount = 12
+---
+> 					amount = 144
+8993c8993
+< 					amount = 16
+---
+> 					amount = 192
 9062c9062
 < 					amount = 8
 ---

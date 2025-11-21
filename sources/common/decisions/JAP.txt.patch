@@ -6,6 +6,10 @@
 < 				state = 655
 ---
 > 				state = 7860
+4012c4012
+< 					amount = 12
+---
+> 					amount = 144
 4071c4071
 < 					amount = 26
 ---
@@ -35,6 +39,22 @@
 ---
 > 	#				amount = 72
 4492c4492
+< 					amount = 12
+---
+> 					amount = 144
+4550c4550
+< 					amount = 26
+---
+> 					amount = 312
+4608c4608
+< 					amount = 16
+---
+> 					amount = 192
+4666c4666
+< 					amount = 14
+---
+> 					amount = 168
+4724c4724
 < 					amount = 12
 ---
 > 					amount = 144

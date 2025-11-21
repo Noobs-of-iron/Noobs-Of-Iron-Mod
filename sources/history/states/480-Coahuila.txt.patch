@@ -1,10 +1,10 @@
-8c8
+8,11c8,11
 < 	resources = {
----
-> 	resources={
-10,11c10,11
+< 		oil = 8
 < 		coal = 3 # initial distribution = with infra 3.6 / 4 total
 < 		#steel=4 sent to Mexico City
 ---
+> 	resources={
+> 		oil = 96
 > 		coal = 36 # initial distribution = with infra 3.6 / 4 total
 > 		#steel = 48 sent to Mexico City

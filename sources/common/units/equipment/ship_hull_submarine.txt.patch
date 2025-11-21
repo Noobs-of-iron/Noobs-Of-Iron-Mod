@@ -128,6 +128,10 @@
 > 		resources={
 > 			steel = 36
 > 			chromium = 24
+529c529
+< 		resources = {
+---
+> 		resources={
 557c557
 < 		surface_detection = 30
 ---
@@ -202,11 +206,13 @@
 < 		max_strength = 35
 ---
 > 		max_strength = 18
-702,704c702,703
+701,704c701,703
+< 		resources = {
 < 			#oil = 2
 < 			steel = 3
 < 			chromium = 1
 ---
+> 		resources={
 > 			steel = 34
 > 			chromium = 14
 784c783

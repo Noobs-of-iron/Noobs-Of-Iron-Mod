@@ -152,6 +152,10 @@
 <         }
 ---
 >         Allow_branch = { always = no }
+5363c5404
+<                         amount = 12
+---
+>                         amount = 144
 5381c5422
 <                         amount = 19
 ---
@@ -396,6 +400,10 @@
 <                         amount = 6
 ---
 >                         amount = 7.2
+13947c13862
+<                         amount = 5
+---
+>                         amount = 60
 13952c13867
 <                         amount = 4
 ---
@@ -691,7 +699,7 @@
 > 		428 = {
 > 			add_resource = {
 > 				type = oil
-> 				amount = 4
+> 				amount = 48
 > 			}
 > 			add_building_construction = {
 > 				type = infrastructure
@@ -702,7 +710,7 @@
 > 		432 = {
 > 			add_resource = {
 > 				type = oil
-> 				amount = 4
+> 				amount = 48
 > 			}
 > 			add_building_construction = {
 > 				type = infrastructure
@@ -884,7 +892,7 @@
 > 		428 = {
 > 			add_resource = {
 > 				type = oil
-> 				amount = 4
+> 				amount = 48
 18188,18202c17858,17861
 < 			hidden_effect = {
 < 				if = {
@@ -944,7 +952,7 @@
 > 		432 = {
 > 			add_resource = {
 > 				type = oil
-> 				amount = 4
+> 				amount = 48
 18239,18310c17869,17898
 < 			hidden_effect = {
 < 				if = {
@@ -1149,7 +1157,7 @@
 < 			uses = 2
 ---
 > 			uses = 1
-19384,19406d18947
+19384,19399d18947
 < 		random_owned_state = {
 < 			limit = {
 < 				is_coastal = yes
@@ -1166,14 +1174,14 @@
 < 				}
 < 			}
 < 			prioritize = { 431 } #Calcutta
-< 
+19401,19417d18948
 < 			add_extra_state_shared_building_slots = 1
 < 			add_building_construction = {
 < 				type = dockyard
 < 				level = 1
 < 				instant_build = yes
 < 			}
-19408,19417d18948
+< 
 < 			add_building_construction = {
 < 				type = naval_base
 < 				level = 2
@@ -1335,7 +1343,7 @@
 <                 uses = 2
 ---
 >                 uses = 1
-21619a21128,21150
+21619a21128,21136
 > 	
 > 	focus = {
 >         id = RAJ_royal_indian_navy_dlc
@@ -1345,7 +1353,7 @@
 >         x = 8
 >         y = 0
 >         relative_position_id = RAJ_indian_air_force
-> 
+21620a21138,21168
 >         cost = 5
 > 
 >         ai_will_do = {
@@ -1359,7 +1367,7 @@
 >         bypass = {
 > 
 >         }
-21620a21152,21168
+> 
 >         cancel_if_invalid = yes
 >         continue_if_invalid = no
 >         available_if_capitulated = no
@@ -1496,6 +1504,10 @@
 <         cost = 5
 ---
 >         cost = 10
+23581c23124
+<                     amount = 12
+---
+>                     amount = 144
 23604c23147
 <         cost = 5
 ---

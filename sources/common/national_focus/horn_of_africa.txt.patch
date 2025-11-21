@@ -1,3 +1,11 @@
+273c273
+< 					amount = 8
+---
+> 					amount = 96
+283c283
+< 					amount = 8
+---
+> 					amount = 96
 293c293
 < 					amount = 8
 ---
@@ -7,6 +15,10 @@
 ---
 > 					amount = 96
 313c313
+< 					amount = 8
+---
+> 					amount = 96
+323c323
 < 					amount = 8
 ---
 > 					amount = 96

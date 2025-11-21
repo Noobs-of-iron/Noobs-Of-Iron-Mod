@@ -14,6 +14,10 @@
 < 						amount = 8
 ---
 > 						amount = 96
+4590c4590
+< 						amount = 8
+---
+> 						amount = 96
 5322c5322
 < 					amount = 16
 ---

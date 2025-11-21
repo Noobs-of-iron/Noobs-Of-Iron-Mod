@@ -1,10 +1,10 @@
-6c6
+6,9c6,9
 < 	resources = {
----
-> 	resources={
-8,9c8,9
+< 		oil = 4
 < 		coal = 4 # These are part of hte Soviet oil and coal concessions of North Sakhalin to Japan
 < 		chromium = 1
 ---
+> 	resources={
+> 		oil = 48
 > 		coal = 48 # These are part of hte Soviet oil and coal concessions of North Sakhalin to Japan
 > 		chromium = 12

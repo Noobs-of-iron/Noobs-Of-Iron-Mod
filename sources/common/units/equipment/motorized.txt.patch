@@ -14,15 +14,15 @@
 > 
 > 			rubber = 7.2
 > 			steel = 12
-79,80c79,80
+79,83c79,83
 < 		build_cost_ic = 1.5
 < 		resources = {
----
-> 		build_cost_ic = 2
-> 		resources={
-82,83c82,83
+< 			#oil = 1
 < 			rubber = 1
 < 			steel = 1
 ---
+> 		build_cost_ic = 2
+> 		resources={
+> 			#oil = 12
 > 			rubber = 1.2
 > 			steel = 1.2

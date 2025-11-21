@@ -4,5 +4,5 @@
 < 		aluminium=8 # was: 16
 ---
 > 		steel = 240 # was: 40
-> 		oil = 5 # was: 10
+> 		oil = 60 # was: 10
 > 		aluminium = 96 # was: 16

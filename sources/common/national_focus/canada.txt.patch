@@ -1,3 +1,19 @@
+518c518
+< 					amount = 2
+---
+> 					amount = 24
+524c524
+< 					amount = 4
+---
+> 					amount = 48
+530c530
+< 					amount = 4
+---
+> 					amount = 48
+536c536
+< 					amount = 4
+---
+> 					amount = 48
 888c888
 < 					amount = 2
 ---
@@ -35,3 +51,7 @@
 < 					amount = 8
 ---
 > 					amount = 96
+2852c2862
+< 					amount = 36
+---
+> 					amount = 432

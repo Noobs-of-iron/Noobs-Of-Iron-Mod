@@ -1,9 +1,11 @@
-5,6c5,6
+5,7c5,7
 < 	resources = {
 < 		tungsten = 92
+< 		oil = 56
 ---
 > 	resources={
 > 		tungsten = 1104
+> 		oil = 672
 16c16
 < 		owner = BRM
 ---

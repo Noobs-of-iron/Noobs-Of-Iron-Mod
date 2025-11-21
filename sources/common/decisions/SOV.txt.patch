@@ -14,6 +14,14 @@
 < 					amount = 3
 ---
 > 					amount = 36
+7140c7140
+< 					amount = 6
+---
+> 					amount = 72
+7549c7549
+< 					amount = 12
+---
+> 					amount = 144
 7772c7772
 < 						amount = 3
 ---
@@ -30,6 +38,14 @@
 < 						amount = 3
 ---
 > 						amount = 36
+7866c7866
+< 						amount = 6
+---
+> 						amount = 72
+8105c8105
+< 						amount = 12
+---
+> 						amount = 144
 8204c8204
 < prospect_for_resources = {
 ---
@@ -58,6 +74,14 @@
 < 					amount = 3
 ---
 > 					amount = 36
+8341c8341
+< 					amount = 6
+---
+> 					amount = 72
+8456c8456
+< 					amount = 12
+---
+> 					amount = 144
 9417c9417
 < 				amount = 3
 ---
