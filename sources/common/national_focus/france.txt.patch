@@ -8,7 +8,7 @@
 > 				
 1994a1997,1999
 > 		allow_branch = {
-> 			always = no
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
 5267,5279c5272
 < 			has_dlc = "La Resistance"
@@ -25,7 +25,7 @@
 < 				}
 < 			}
 ---
-> 			always = no
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 5342,5353c5335
 < 			has_dlc = "La Resistance"
 < 			if = {
@@ -40,7 +40,7 @@
 < 				NOT = {	has_completed_focus = FRA_the_council_of_rambouillet }
 < 			}
 ---
-> 			always = no
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 6797,6809c6779,6780
 < 			NOT = { has_dlc = "La Resistance" }
 < 			if = {
@@ -56,7 +56,7 @@
 < 			}
 < 		} 
 ---
-> 			always = no
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
 7254,7265c7225
 < 			has_dlc = "La Resistance"
@@ -72,7 +72,7 @@
 < 				NOT = {	has_completed_focus = FRA_national_regeneration }
 < 			}
 ---
-> 			always = no
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 8500c8460
 < 		x = 70
 ---

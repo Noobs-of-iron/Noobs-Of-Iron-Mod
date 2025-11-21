@@ -124,7 +124,7 @@
 > 		x = 6
 8256a8257,8259
 > 		allow_branch = {
-> 			always = no 
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
 8406,8420c8409
 < 			has_dlc = "La Resistance"
@@ -143,7 +143,7 @@
 < 				}
 < 			}
 ---
-> 			always = no
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 9127c9116
 < 		x = -14
 ---
@@ -170,91 +170,95 @@
 ---
 > 			has_army_manpower = { size > 724999 } #80 
 > 			date > 1937.9.22
-10520c10520
+10520c10520,10522
 < 
 ---
-> 		allow_branch = { always = no }
-10578a10579,10580
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+10578a10581,10582
 > 		
 > 
-10582c10584
+10582c10586
 < 
 ---
 > 		
-10808,10809c10810,10811
+10808,10809c10812,10813
 < 		x = 2
 < 		y = 4
 ---
 > 		x = 1
 > 		y = 10
-11377a11380,11381
-> 		allow_branch = { always = no }
+11377a11382,11385
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
 > 
-11439c11443
+11439c11447
 < 		prerequisite = { focus = GER_reassert_eastern_claims }
 ---
 > 		prerequisite = { focus = GER_reassert_eastern_claims focus = GER_molotov_ribbentrop_pact}
-14084c14088
+14084c14092
 < 		x = 20
 ---
 > 		x = 10
-14185c14189
+14185c14193
 < 		x = 2
 ---
 > 		x = 15
-14259a14264,14266
+14259a14268,14270
 > 		allow_branch = {
-> 			always = no 
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-14489c14496
+14489c14500
 < 		x = -1
 ---
 > 		x = 11
-18797c18804
+18797c18808
 < 						amount = 6
 ---
 > 						amount = 72
-18818c18825
+18818c18829
 < 								amount > 19
 ---
 > 								amount > 190
-18823c18830
+18823c18834
 < 								amount > 19
 ---
 > 								amount > 190
-18828c18835
+18828c18839
 < 								amount > 19
 ---
 > 								amount > 190
-18833c18840
+18833c18844
 < 								amount > 19
 ---
 > 								amount > 190
-18838c18845
+18838c18849
 < 								amount > 19
 ---
 > 								amount > 190
-18861c18868
+18861c18872
 < 								amount > 19
 ---
 > 								amount > 190
-18866c18873
+18866c18877
 < 								amount > 19
 ---
 > 								amount > 190
-18871c18878
+18871c18882
 < 								amount > 19
 ---
 > 								amount > 190
-18876c18883
+18876c18887
 < 								amount > 19
 ---
 > 								amount > 190
-18881c18888
+18881c18892
 < 								amount > 19
 ---
 > 								amount > 190
-21025,21036c21032
+21025,21036c21036
 < 			has_dlc = "Gotterdammerung" 
 < 			if = {
 < 				limit = {
@@ -268,8 +272,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-21357,21369c21353
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+21357,21369c21357
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -284,37 +288,37 @@
 < 				}
 < 			}
 ---
-> 			always = no
-21741a21726,21729
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+21741a21730,21733
 > 		allow_branch = {
-> 			always = no 
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
 > 
-23723c23711
+23723c23715
 < 						amount = 6
 ---
 > 						amount = 72
-23727c23715
+23727c23719
 < 						amount = 3
 ---
 > 						amount = 36
-23731c23719
+23731c23723
 < 						amount = 3
 ---
 > 						amount = 36
-23748c23736
+23748c23740
 < 						amount = 6
 ---
 > 						amount = 72
-23752c23740
+23752c23744
 < 						amount = 3
 ---
 > 						amount = 36
-23756c23744
+23756c23748
 < 						amount = 3
 ---
 > 						amount = 36
-25147,25159c25135
+25147,25159c25139
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -329,8 +333,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-25284,25299c25260
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+25284,25299c25264
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -348,8 +352,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-29069,29087c29030
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+29069,29087c29034
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -370,8 +374,8 @@
 < 				has_completed_focus = GER_conquer_italy
 < 			}
 ---
-> 			always = no
-35041,35053c34984
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+35041,35053c34988
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 
 < 			if = {
@@ -387,7 +391,7 @@
 < 			}
 ---
 > 			always = no
-35204,35218c35135
+35204,35218c35139
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -404,8 +408,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-35271,35282c35188
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+35271,35282c35192
 < 			NOT = { has_dlc = "Gotterdammerung" }
 < 			if = {
 < 				limit = {
@@ -419,8 +423,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-36958,36972c36864
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+36958,36972c36868
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -437,8 +441,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-38357c38249
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+38357c38253
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

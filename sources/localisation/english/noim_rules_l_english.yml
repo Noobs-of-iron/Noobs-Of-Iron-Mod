@@ -1,0 +1,7 @@
+﻿l_english:
+ noi_rules_group: "NOIM settings"
+ noi_allow_ahistorical: "Allow Ahistorical majors"
+ noi_rule_ahistorical_forbidden: "Forbidden"
+ noi_rule_ahistorical_forbidden_desc: "Ahistorical paths for major hidden and disabled (default)"
+ noi_rule_ahistorical_allowed: "Allowed"
+ noi_rule_ahistorical_allowed_desc: "All major paths, including ahistorical, are avaiable (trees will be visually borked)"

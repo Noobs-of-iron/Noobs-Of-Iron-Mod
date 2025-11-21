@@ -2,21 +2,23 @@
 < 
 ---
 > 	continuous_focus_position = { x = 0	y = 1500 }
-268a269
-> 		Allow_branch = { always = no }
-330c331
+268a269,271
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+330c333
 < 		x = 2
 ---
 > 		x = 0
-387c388
+387c390
 < 		cost = 10
 ---
 > 		cost = 5
-861c862
+861c864
 < 		x = 5
 ---
 > 		x = 8
-873,897d873
+873,897d875
 < 
 < 	focus = {
 < 		id = ENG_special_air_service
@@ -42,7 +44,7 @@
 < 			show_ideas_tooltip = ENG_david_stirling
 < 		}
 < 	}
-899,924d874
+899,924d876
 < 	focus = {
 < 		id = ENG_parachute_regiments
 < 		prerequisite = { focus = ENG_special_air_service }
@@ -69,11 +71,11 @@
 < 			}
 < 		}
 < 	}
-1063c1013
+1063c1015
 < 		x = 1
 ---
 > 		x = 2
-1078,1109c1028
+1078,1109c1030
 < 	focus = {
 < 		id = UK_secret_focus
 < 		prerequisite = { focus = royal_ordinance_focus }
@@ -108,7 +110,7 @@
 < 	}
 ---
 > 	
-1114,1116c1033,1035
+1114,1116c1035,1037
 < 		icon = GFX_goal_generic_air_doctrine
 < 		x = -2
 < 		y = 2
@@ -116,24 +118,24 @@
 > 		icon = GFX_focus_generic_aircraft_production
 > 		x = -6
 > 		y = 1
-1322,1323c1241
+1322,1323c1243
 < 		prerequisite = { focus = air_rearmament_focus }
 < 		prerequisite = { focus = naval_rearmament_focus }
 ---
 > 		
-1327c1245,1247
+1327c1247,1249
 < 
 ---
 > 		prerequisite = { focus = aircraft_production_focus }
 > 		prerequisite = { focus = ENG_NOI_victory_at_all_cost focus = ENG_NOI_casualty_avoidance }
 > 		prerequisite = { focus = ENG_expand_the_repair_yards focus = ENG_anti_submarine_training_school }
-1331,1332c1251,1252
+1331,1332c1253,1254
 < 		x = 2
 < 		y = 1
 ---
 > 		x = 8
 > 		y = 4
-1345a1266,1341
+1345a1268,1343
 > 	focus = {
 > 		id = ENG_NOI_establish_the_commandos
 > 		prerequisite = { focus = ENG_chiefs_of_staff_committee }
@@ -210,7 +212,7 @@
 > 			}
 > 		}
 > 	}
-1512,1542c1508
+1512,1542c1510
 < 	focus = {
 < 		id = uk_jet_focus
 < 		prerequisite = { focus = aircraft_production_focus }
@@ -244,7 +246,7 @@
 < 
 ---
 > 	
-1546,1548c1512,1514
+1546,1548c1514,1516
 < 		icon = GFX_goal_generic_construct_naval_dockyard 
 < 		x = 2
 < 		y = 2
@@ -252,17 +254,19 @@
 > 		icon = GFX_focus_generic_refit_civilian_ships
 > 		x = 8
 > 		y = 1
-1646a1613
-> 		Allow_branch = { always = no }
-1680d1646
+1646a1615,1617
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+1680d1650
 < 		prerequisite = { focus = uk_service_focus }
-1682,1683c1648,1649
+1682,1683c1652,1653
 < 		x = 3
 < 		y = 2
 ---
 > 		x = 0
 > 		y = 1
-1714,1716c1680,1682
+1714,1716c1684,1686
 < 		icon = GFX_focus_generic_destroyer
 < 		x = -1
 < 		y = 2
@@ -270,25 +274,25 @@
 > 		icon = GFX_focus_SWE_coastal_support
 > 		x = 3
 > 		y = 1
-1718c1684
+1718c1688
 < 		cost = 10
 ---
 > 		cost = 5
-1729c1695
+1729c1699
 < 				uses = 2
 ---
 > 				uses = 1
-1739,1740c1705,1706
+1739,1740c1709,1710
 < 		x = 0
 < 		y = 2
 ---
 > 		x = 2
 > 		y = 1
-1742c1708
+1742c1712
 < 		cost = 10
 ---
 > 		cost = 5
-1756,1758c1722,1724
+1756,1758c1726,1728
 < 				bonus = 1.0
 < 				ahead_reduction = 2
 < 				uses = 2
@@ -296,25 +300,25 @@
 > 				bonus = 0.75
 > 				ahead_reduction = 1.0
 > 				uses = 1
-1760c1726
+1760c1730
 < 			}	
 ---
 > 			}
-1768c1734
+1768c1738
 < 		x = -1
 ---
 > 		x = 0
-1784a1751
+1784a1755
 > 		prerequisite = { focus = ENG_NOI_advanced_torpedoes focus = ENG_a_s_warfare }
-1788c1755
+1788c1759
 < 		y = 2
 ---
 > 		y = 1
-1797c1764
+1797c1768
 < 		cost = 10
 ---
 > 		cost = 5
-1819,1821c1786,1788
+1819,1821c1790,1792
 < 		icon = GFX_goal_generic_navy_doctrines_tactics
 < 		x = 1
 < 		y = 2
@@ -322,17 +326,19 @@
 > 		icon = GFX_focus_eng_the_sun_never_sets
 > 		x = -2
 > 		y = 1
-1869c1836
+1869c1840
 < 		icon = GFX_goal_generic_navy_battleship
 ---
 > 		icon = GFX_focus_SWE_Vasa_II
-1893a1861
-> 		Allow_branch = { always = no }
-1927c1895
+1893a1865,1867
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+1927c1901
 < 		cost = 10
 ---
 > 		cost = 5
-1974,2041c1942
+1974,2041c1948
 < 	focus = {
 < 		id = ENG_vanguard
 < 		prerequisite = { focus = uk_battleship_focus }
@@ -403,19 +409,19 @@
 < 	}
 ---
 > 	
-2087c1988
+2087c1994
 < 		x = 29
 ---
 > 		x = 41
-2141c2042
+2141c2048
 < 		x = -2
 ---
 > 		x = -6
-2160c2061
+2160c2067
 < 		cost = 10
 ---
 > 		cost = 5
-2173,2926c2074,2075
+2173,2926c2080,2081
 < 	focus = {
 < 		id = uk_mediterranean_focus 
 < 		prerequisite = { focus = uk_service_focus }
@@ -1173,13 +1179,13 @@
 ---
 > 	
 > ### DECOLONIZATION ###
-2958c2107
+2958c2113
 < 		x = 34
 ---
 > 		x = 48
-3590a2740
+3590a2746
 > 					NOT = { has_dlc = "Graveyard of Empires" }
-3593,3604c2743
+3593,3604c2749
 < 						NOT = {
 < 							has_autonomy_state = autonomy_dominion
 < 							has_autonomy_state = autonomy_satellite
@@ -1194,26 +1200,26 @@
 < 						}
 ---
 > 						NOT = { has_autonomy_state = autonomy_dominion }
-3606,3609d2744
+3606,3609d2750
 < 					set_autonomy = { target = RAJ autonomy_state = autonomy_dominion }
 < 				}
 < 				else = {
 < 					set_autonomy = { target = RAJ autonomy_state = autonomy_satellite }
-3610a2746
+3610a2752
 > 				set_autonomy = { target = RAJ autonomy_state = autonomy_dominion }
-5673c4809
+5673c4815
 < 		prerequisite = { focus = uk_service_focus }
 ---
 > 		prerequisite = { focus = uk_empire_focus }
-5675c4811
+5675c4817
 < 		x = -5
 ---
 > 		x = 2
-5677c4813
+5677c4819
 < 		relative_position_id = uk_service_focus
 ---
 > 		relative_position_id = uk_empire_focus
-5687,6454d4822
+5687,6454d4828
 < 	focus = {
 < 		id = uk_asia_focus 
 < 		prerequisite = { focus = uk_colonial_focus }
@@ -1982,21 +1988,21 @@
 < 			}
 < 		}
 < 	}
-6456,6457d4823
+6456,6457d4829
 < 	focus = {
 < 		id = uk_china_focus 
-6459d4824
+6459d4830
 < 		prerequisite = { focus = hk_air_focus  }
-6461,6464d4825
+6461,6464d4831
 < 		available = {
 < 			CHI = { exists = yes }
 < 			has_government = democratic
 < 		} 
-6466,6468d4826
+6466,6468d4832
 < 		cancel = {
 < 			CHI = { exists = no }
 < 		}
-6470,6504d4827
+6470,6504d4833
 < 		icon = GFX_focus_chi_cooperation_with_the_nationalists
 < 
 < 		x = 0
@@ -2032,11 +2038,11 @@
 < 			}
 < 		}
 < 	}
-6609c4932
+6609c4938
 < 		x = 4
 ---
 > 		x = 0
-6612c4935,4942
+6612c4941,4948
 < 
 ---
 > 		
@@ -2047,85 +2053,93 @@
 > 				has_completed_focus = uk_empire_focus
 > 			}
 > 		}
-6715c5045
+6715c5051
 < 		x = -1
 ---
 > 		x = 2
-6767c5097
+6767c5103
 < 		x = -3
 ---
 > 		x = 4
-6904c5234
+6904c5240
 < 		icon = GFX_goal_generic_improve_relations
 ---
 > 		icon = GFX_focus_RAJ_all_india_forward_bloc
-6978c5308
+6978c5314
 < 		x = 1
 ---
 > 		x = 0
-7298c5628
+7298c5634
 < 		x = 0
 ---
 > 		x = -1
-7457c5787
+7457c5793
 < 		x = 2
 ---
 > 		x = 1
-8369d6698
+8369d6704
 < 		mutually_exclusive = { focus = ENG_a_change_in_course }
-8370a6700
+8370a6706
 > 		mutually_exclusive = { focus = ENG_a_change_in_course }
-8740d7069
+8740d7075
 < 				NOT = {	has_character = ENG_winston_churchill } #MM: GoE content if he is transferred to India via event chain triggered by focus RAJ_the_jewel_becomes_the_crown
-9370c7699
+9370c7705
 < 		icon = GFX_goal_generic_occupy_states_ongoing_war
 ---
 > 		icon = GFX_focus_generic_attack_iraq
-9397c7726
+9397c7732
 < 		icon = GFX_goal_generic_forceful_treaty
 ---
 > 		icon = GFX_focus_generic_attack_iran
-9700c8029
+9700c8035
 < 		icon = GFX_goal_generic_position_armies
 ---
 > 		icon = GFX_SOV_control_scandinavia_ccp_2d_sov_compatibility
-9955c8284
+9955c8290
 < 		icon = GFX_goal_generic_position_armies
 ---
 > 		icon = GFX_focus_generic_influence_benelux
-10061c8390
+10061c8396,8398
 < 
 ---
-> 		Allow_branch = { always = no }
-10316c8645
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+10316c8653,8655
 < 
 ---
-> 		Allow_branch = { always = no }
-10617c8946
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+10617c8956,8958
 < 
 ---
-> 		Allow_branch = { always = no }
-11246c9575,9576
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+11246c9587,9588
 < 				if = {
 ---
 > 			}
 > 			if = {
-11251d9580
+11251d9592
 < 					
-11258,11259d9586
+11258,11259d9598
 < 		}
 < 
-11945c10272
+11945c10284,10286
 < 
 ---
-> 		Allow_branch = { always = no }
-13209,13211c11536
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+13209,13211c11550
 < 		available = {
 < 
 < 		}
 ---
 > 		available = { }
-13223a11549,14305
+13223a11563,14327
 > 	}
 > 	
 > ###################################
@@ -2339,7 +2353,9 @@
 > 		id = hk_landward_forts_focus
 > 		prerequisite = { focus = hongkong_focus }
 > 		icon = GFX_goal_generic_construct_military
-> 		Allow_branch = { always = no }
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = hongkong_focus
@@ -2504,7 +2520,9 @@
 > 			CHI = { exists = yes }
 > 			has_government = democratic
 > 		} 
-> 		Allow_branch = { always = no }
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
 > 		cancel = {
 > 			CHI = { exists = no }
 > 		}
@@ -2824,7 +2842,9 @@
 > 	focus = {
 > 		id = uk_burma_focus
 > 		prerequisite = { focus = uk_asia_focus } 
-> 		Allow_branch = { always = no }
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
 > 		available = {
 > 			CHI = { 
 > 				has_war_with = JAP 
@@ -3664,7 +3684,9 @@
 > 			116 = { is_owned_and_controlled_by = ENG }
 > 		}		
 > 		icon = GFX_focus_generic_coastal_fort
-> 		Allow_branch = { always = no }
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
 > 		x = 1
 > 		y = 1
 > 		relative_position_id = uk_mediterranean_focus

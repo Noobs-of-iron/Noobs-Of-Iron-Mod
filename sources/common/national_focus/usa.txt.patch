@@ -32,7 +32,7 @@
 340a331,334
 > 		
 > 		allow_branch = {
-> 			always = no
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
 379c373,374
 < 		prerequisite = { focus = USA_liberty_for_the_philippines }
@@ -43,16 +43,16 @@
 < 
 ---
 > 			has_government = communism
-457a453,456
-> 		
-> 				allow_branch = {
->             always = no
->         }
+458a454,457
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+> 
 801a801,804
 > 		
 > 				allow_branch = {
->             always = no
->         }
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
 1514c1517
 < 			
 ---
@@ -83,7 +83,7 @@
 > 		x = 10
 3124a3130
 > 		add_stability = 0.10
-3251,3263c3257,3258
+3251,3262c3257
 < 			has_dlc = "Man the Guns"
 < 			if = {
 < 				limit = {
@@ -96,10 +96,8 @@
 < 					has_completed_focus = USA_continue_the_new_deal
 < 				}
 < 			}
-< 		}
 ---
->             always = no
->         }
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 4681c4676
 < 		x = 42
 ---

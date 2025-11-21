@@ -18,7 +18,7 @@
 < 
 830a820,822
 > 		allow_branch = {
-> 			always = no
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
 838c830,833
 < 			is_in_faction_with = PRC

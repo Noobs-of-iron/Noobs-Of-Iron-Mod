@@ -258,7 +258,7 @@
 > 		focus = {
 2735a2844,2846
 > 		allow_branch = {
-> 			always = no
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
 2739a2851,2948
 > 
