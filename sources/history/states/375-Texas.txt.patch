@@ -1,6 +1,8 @@
-11,12c11,12
+11,13c11,13
 < 		oil=320 # was: 580
 < 		aluminium=50 # was: 96
+< 		coal = 11 # initial distribution = with infra 35.2 / 1280 total
 ---
 > 		oil = 320 # was: 580
 > 		aluminium = 600 # was: 96
+> 		coal = 132 # initial distribution = with infra 35.2 / 1280 total

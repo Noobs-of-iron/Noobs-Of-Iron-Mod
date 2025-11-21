@@ -40,75 +40,75 @@
 < 			position = { x = 2 y = 6 }
 ---
 > 			position = { x = 3 y = 6 }
-312c317
+314c319
 < 			position = { x = 4 y = 2 }
 ---
 > 			position = { x = 5 y = 2 }
-380c385
+384c389
 < 			position = { x = 4 y = 4 }
 ---
 > 			position = { x = 5 y = 4 }
-419c424
+425c430
 < 			position = { x = 4 y = 6 }
 ---
 > 			position = { x = 5 y = 6 }
-457c462
+465c470
 < 			position = { x = 4 y = 8 }
 ---
 > 			position = { x = 5 y = 8 }
-490c495
+500c505
 < 			position = { x = 4 y = 10 }
 ---
 > 			position = { x = 5 y = 10 }
-539c544
+551c556
 < 			position = { x = 6 y = 2 }
 ---
 > 			position = { x = 7 y = 2 }
-610c615
+624c629
 < 			position = { x = 6 y = 4 }
 ---
 > 			position = { x = 7 y = 4 }
-651c656
+667c672
 < 			position = { x = 6 y = 6 }
 ---
 > 			position = { x = 7 y = 6 }
-692c697
+710c715
 < 			position = { x = 6 y = 8 }
 ---
 > 			position = { x = 7 y = 8 }
-729c734
+749c754
 < 			position = { x = 6 y = 10 }
 ---
 > 			position = { x = 7 y = 10 }
-1399c1404
+1419c1424
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-1402c1407
+1422c1427
 < 				amount = 1
 ---
 > 				amount = 12
-1464c1469
+1484c1489
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-1467c1472
+1487c1492
 < 				amount = 1
 ---
 > 				amount = 12
-1524c1529
+1544c1549
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-1527c1532
+1547c1552
 < 				amount = 1
 ---
 > 				amount = 12
-1584c1589
+1604c1609
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-1587c1592
+1607c1612
 < 				amount = 1
 ---
 > 				amount = 12

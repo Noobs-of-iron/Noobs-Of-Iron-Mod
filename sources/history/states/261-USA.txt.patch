@@ -1,6 +1,8 @@
-5,6c5,6
+5,7c5,7
 < 		steel=28 # was: 48.000
 < 		aluminium=9 # was: 16.000
+< 		coal = 13 # initial distribution = with infra 46.8 / 1280 total
 ---
 > 		steel = 336 # was: 48.000
 > 		aluminium = 108 # was: 16.000
+> 		coal = 156 # initial distribution = with infra 46.8 / 1280 total

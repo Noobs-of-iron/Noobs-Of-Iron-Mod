@@ -1,0 +1,8 @@
+6,8c6,8
+< 	resources = {
+< 		steel = 5
+< 		coal = 1 #initial distribution
+---
+> 	resources={
+> 		steel = 60
+> 		coal = 12 #initial distribution

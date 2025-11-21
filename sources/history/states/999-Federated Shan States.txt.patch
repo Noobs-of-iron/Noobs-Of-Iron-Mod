@@ -1,4 +1,8 @@
-9c9
-< 		owner = BRM
+8,10c8,10
+< 	resources = {
+< 		tungsten = 70
+< 		coal = 4 #Kalewa mines near the Chindwin River
 ---
-> 		owner = RAJ
+> 	resources={
+> 		tungsten = 840
+> 		coal = 48 #Kalewa mines near the Chindwin River

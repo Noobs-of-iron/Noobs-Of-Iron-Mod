@@ -1,6 +1,10 @@
-10,11c10,11
-< 		chromium=6 # was: 8
-< 		tungsten=27 # was: 38
+8,11c8,11
+< 	resources = {
+< 		chromium = 2 # was: 8, then 6
+< 		tungsten = 20 # was: 38, then 27
+< 		coal = 3
 ---
-> 		chromium = 72 # was: 8
-> 		tungsten = 324 # was: 38
+> 	resources={
+> 		chromium = 24 # was: 8, then 6
+> 		tungsten = 240 # was: 38, then 27
+> 		coal = 36

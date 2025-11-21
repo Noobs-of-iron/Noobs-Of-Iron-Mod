@@ -1,6 +1,8 @@
-10,11c10,11
+10,12c10,12
 < 		steel=11 #was: 5   was: 8
 < 		chromium=53 # was: 80
+< 		coal = 14 # initial distribution
 ---
 > 		steel = 132 #was: 5   was: 8
 > 		chromium = 636 # was: 80
+> 		coal = 168 # initial distribution

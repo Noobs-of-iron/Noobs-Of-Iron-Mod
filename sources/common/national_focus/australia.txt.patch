@@ -78,51 +78,51 @@
 < 			air_experience = 25
 ---
 > 			air_experience = 50
-1675c1670
+1673c1668
 < 		cost = 10
 ---
 > 		cost = 5
-1714c1709
+1719c1714
 < 		cost = 10
 ---
 > 		cost = 5
-1939c1934
+1951c1946
 < 		cost = 10
 ---
 > 		cost = 5
-1973c1968
+1985c1980
 < 		cost = 10
 ---
 > 		cost = 5
-1996c1991
+2008c2003
 < 				uses = 1
 ---
 > 				uses = 2
-2011c2006
+2023c2018
 < 		cost = 10
 ---
 > 		cost = 5
-2066c2061
+2078c2073
 < 					level = 1
 ---
 > 					level = 2
-2171c2166
+2183c2178
 < 					level = 1
 ---
 > 					level = 2
-2188c2183
+2200c2195
 < 				add_extra_state_shared_building_slots = 1
 ---
 > 				add_extra_state_shared_building_slots = 2
-2191c2186
+2203c2198
 < 					level = 1
 ---
 > 					level = 2
-2234c2229
+2246c2241
 < 					level = 1
 ---
 > 					level = 2
-2420a2416,2445
+2432a2428,2457
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					free_building_slots = {
@@ -153,9 +153,9 @@
 > 					instant_build = yes
 > 				}
 > 			}
-2425a2451
+2437a2463
 > 
-2462a2489,2518
+2474a2501,2530
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					free_building_slots = {
@@ -186,25 +186,25 @@
 > 					instant_build = yes
 > 				}
 > 			}
-2481c2537
+2493c2549
 < 				category = excavation_tech
 ---
 > 				category = nuclear
-2496c2552
+2508c2564
 < 		cost = 10
 ---
 > 		cost = 5
-2566c2622
+2578c2634
 < 		cost = 10
 ---
 > 		cost = 5
-2696c2752
+2708c2764
 < 		cost = 10
 ---
 > 		cost = 5
-2718a2775
+2730a2787
 > 
-2719a2777,2827
+2731a2789,2839
 > 		id = AST_fight_work_or_perish
 > 		icon = GFX_goal_generic_propaganda
 > 		prerequisite = { focus = AST_civil_construction_corps }
@@ -256,11 +256,11 @@
 > 	}
 > 
 > 		focus = {
-2723a2832,2834
+2735a2844,2846
 > 		allow_branch = {
 > 			always = no
 > 		}
-2727a2839,2936
+2739a2851,2948
 > 
 > 		cancel_if_invalid = yes
 > 		continue_if_invalid = no
@@ -359,7 +359,7 @@
 > 		y = 1
 > 		relative_position_id = AST_NOI_in_service_of_the_commonwealth
 > 
-2735,2739c2944,3041
+2747,2751c2956,3053
 < 			OR = {
 < 				is_subject_of = ENG
 < 				AND = {
@@ -464,7 +464,7 @@
 > 						size > 1
 > 						include_locked = yes
 > 					}
-2741,2747c3043,3047
+2753,2759c3055,3059
 < 			}
 < 			#Requires UK at war in Africa
 < 			any_country = {
@@ -478,7 +478,7 @@
 > 					type = arms_factory
 > 					level = 2
 > 					instant_build = yes
-2750a3051,3070
+2762a3063,3082
 > 	}
 > 	
 > 	focus = {
@@ -499,14 +499,14 @@
 > 		available = {
 > 
 > 		}
-2759c3079,3082
+2771c3091,3094
 < 		search_filters = {  }
 ---
 > 
 > 		complete_tooltip = {
 > 
 > 		}
-2762,2811c3085,3091
+2774,2823c3097,3103
 < 			#Starts with recon and engineers
 < 			hidden_effect = {
 < 				if = {
@@ -565,9 +565,9 @@
 > 						building = dockyard
 > 						size > 0
 > 						include_locked = yes
-2812a3093
+2824a3105
 > 					is_core_of = ROOT
-2814,2835c3095,3099
+2826,2847c3107,3111
 < 
 < 				#Spawn unit in Africa
 < 				if = {
@@ -596,11 +596,11 @@
 > 					type = dockyard
 > 					level = 3
 > 					instant_build = yes
-2838c3102
+2850c3114
 < 			if = {
 ---
 > 			random_owned_controlled_state = {
-2840,2846c3104,3108
+2852,2858c3116,3120
 < 					any_country = {
 < 						is_in_faction_with = AST
 < 						controls_state = 273
@@ -614,9 +614,9 @@
 > 						building = dockyard
 > 						size > 0
 > 						include_locked = yes
-2847a3110
+2859a3122
 > 					is_core_of = ROOT
-2849,2856c3112,3116
+2861,2868c3124,3128
 < 				custom_effect_tooltip = AST_rats_of_tobruk_effect_1
 < 				else = {
 < 					if = {
@@ -631,11 +631,11 @@
 > 					type = dockyard
 > 					level = 3
 > 					instant_build = yes
-2861c3121
+2873c3133
 < 
 ---
 > 	
-2863,2869c3123,3129
+2875,2881c3135,3141
 < 		id = AST_fight_work_or_perish
 < 		icon = GFX_goal_generic_propaganda
 < 		prerequisite = { focus = AST_civil_construction_corps }
@@ -651,11 +651,11 @@
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = AST_NOI_ANZAC
-2874c3134
+2886c3146
 < 			factor = 15
 ---
 > 			factor = 10
-2887,2888c3147,3151
+2899,2900c3159,3163
 < 		available_if_capitulated = yes
 < 		search_filters = { FOCUS_FILTER_INDUSTRY }
 ---
@@ -664,7 +664,7 @@
 > 		complete_tooltip = {
 > 
 > 		}
-2891,2901c3154,3159
+2903,2913c3166,3171
 < 			#if effect is there for the tooltips sake
 < 			if = {
 < 				limit = { has_idea = AST_great_depression_1 }
@@ -683,7 +683,7 @@
 > 				bonus = 3.0
 > 				uses = 1
 > 				category = marine_tech
-2903,2907c3161,3174
+2915,2919c3173,3186
 < 			if = {
 < 				limit = { has_idea = AST_great_depression_3 }
 < 				swap_ideas = {
@@ -704,7 +704,7 @@
 > 					type = arms_factory
 > 					level = 2
 > 					instant_build = yes
-2911a3179,3273
+2923a3191,3285
 > 	
 > 	focus = {
 >     id = AST_NOI_integrate_new_zealand
@@ -800,7 +800,7 @@
 > 		ai_will_do = {
 > 			factor = 20
 > 		}
-2912a3275,3302
+2924a3287,3314
 > 		available = {
 > 
 > 		}
@@ -829,25 +829,25 @@
 > 	}
 > ##########################################################################################################################################################################################
 > ##########################################################################################################################################################################################
-2929d3318
+2941d3330
 < 			is_subject = no
-3022c3411
+3034c3423
 < 					amount = 24
 ---
 > 					amount = 288
-3029c3418
+3041c3430
 < 					amount = 12
 ---
 > 					amount = 24
-3042c3431
+3054c3443
 < 					amount = 24
 ---
 > 					amount = 288
-3053c3442
+3065c3454
 < 					amount = 12
 ---
 > 					amount = 24
-3056a3446,3455
+3068a3458,3467
 > 			random_owned_controlled_state = {
 > 				limit = {
 > 					is_in_home_area = yes
@@ -858,27 +858,27 @@
 > 					amount = 288
 > 				}
 > 			}
-3068c3467
+3080c3479
 < 		cost = 10
 ---
 > 		cost = 5
-3174c3573
+3186c3585
 < 		cost = 10
 ---
 > 		cost = 5
-3234c3633
+3246c3645
 < 		cost = 10
 ---
 > 		cost = 5
-3378c3777
+3393c3792
 < 				value = 0.1
 ---
 > 				value = 0.3
-3394c3793
+3409c3808
 < 		cost = 10
 ---
 > 		cost = 5
-3579,3581c3978,3980
+3594,3596c3993,3995
 < 		x = -1
 < 		y = 4
 < 		relative_position_id = AST_support_the_policy_of_appeasement
@@ -886,7 +886,7 @@
 > 		x = 0
 > 		y = 2
 > 		relative_position_id = AST_adopt_westminster
-3616,3619c4015,4018
+3631,3634c4030,4033
 < 		prerequisite = { focus = AST_CSIR focus = AST_swpa_protector }
 < 		x = 1
 < 		y = 4
@@ -896,11 +896,11 @@
 > 		x = 0
 > 		y = 1
 > 		relative_position_id = AST_empire_air_training_scheme
-3621c4020
+3636c4035
 < 		cost = 10
 ---
 > 		cost = 5
-3987a4387,4395
+4002a4402,4410
 > 		cancel_if_invalid = yes
 > 		continue_if_invalid = no
 > 		available_if_capitulated = no
@@ -910,7 +910,7 @@
 > 				country_event = { id = tfv_australia.10 }
 > 			}
 > 		}
-4003,4011c4411,4415
+4018,4026c4426,4430
 < 		}
 < 
 < 		cancel_if_invalid = yes

@@ -1,6 +1,8 @@
-8,9c8,9
+8,10c8,10
 < 	resources = {
 < 		tungsten = 95 #was 150 # was: 300
+< 		coal = 1 #initial distribution
 ---
 > 	resources={
 > 		tungsten = 1140 #was 150 # was: 300
+> 		coal = 12 #initial distribution

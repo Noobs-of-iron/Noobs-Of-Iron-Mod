@@ -314,10 +314,6 @@
 < 		cost = 10
 ---
 > 		cost = 5
-1807c1774
-< 				cost_reduction = 0.35
----
-> 				cost_reduction = 0.5
 1819,1821c1786,1788
 < 		icon = GFX_goal_generic_navy_doctrines_tactics
 < 		x = 1
@@ -1205,19 +1201,19 @@
 < 					set_autonomy = { target = RAJ autonomy_state = autonomy_satellite }
 3610a2746
 > 				set_autonomy = { target = RAJ autonomy_state = autonomy_dominion }
-5628c4764
+5673c4809
 < 		prerequisite = { focus = uk_service_focus }
 ---
 > 		prerequisite = { focus = uk_empire_focus }
-5630c4766
+5675c4811
 < 		x = -5
 ---
 > 		x = 2
-5632c4768
+5677c4813
 < 		relative_position_id = uk_service_focus
 ---
 > 		relative_position_id = uk_empire_focus
-5642,6409d4777
+5687,6454d4822
 < 	focus = {
 < 		id = uk_asia_focus 
 < 		prerequisite = { focus = uk_colonial_focus }
@@ -1986,21 +1982,21 @@
 < 			}
 < 		}
 < 	}
-6411,6412d4778
+6456,6457d4823
 < 	focus = {
 < 		id = uk_china_focus 
-6414d4779
+6459d4824
 < 		prerequisite = { focus = hk_air_focus  }
-6416,6419d4780
+6461,6464d4825
 < 		available = {
 < 			CHI = { exists = yes }
 < 			has_government = democratic
 < 		} 
-6421,6423d4781
+6466,6468d4826
 < 		cancel = {
 < 			CHI = { exists = no }
 < 		}
-6425,6459d4782
+6470,6504d4827
 < 		icon = GFX_focus_chi_cooperation_with_the_nationalists
 < 
 < 		x = 0
@@ -2036,11 +2032,11 @@
 < 			}
 < 		}
 < 	}
-6564c4887
+6609c4932
 < 		x = 4
 ---
 > 		x = 0
-6567c4890,4897
+6612c4935,4942
 < 
 ---
 > 		
@@ -2051,79 +2047,87 @@
 > 				has_completed_focus = uk_empire_focus
 > 			}
 > 		}
-6670c5000
+6715c5045
 < 		x = -1
 ---
 > 		x = 2
-6722c5052
+6767c5097
 < 		x = -3
 ---
 > 		x = 4
-6859c5189
+6904c5234
 < 		icon = GFX_goal_generic_improve_relations
 ---
 > 		icon = GFX_focus_RAJ_all_india_forward_bloc
-6933c5263
+6978c5308
 < 		x = 1
 ---
 > 		x = 0
-7253c5583
+7298c5628
 < 		x = 0
 ---
 > 		x = -1
-7412c5742
+7457c5787
 < 		x = 2
 ---
 > 		x = 1
-8324d6653
+8369d6698
 < 		mutually_exclusive = { focus = ENG_a_change_in_course }
-8325a6655
+8370a6700
 > 		mutually_exclusive = { focus = ENG_a_change_in_course }
-8681d7010
+8740d7069
 < 				NOT = {	has_character = ENG_winston_churchill } #MM: GoE content if he is transferred to India via event chain triggered by focus RAJ_the_jewel_becomes_the_crown
-9311c7640
+9370c7699
 < 		icon = GFX_goal_generic_occupy_states_ongoing_war
 ---
 > 		icon = GFX_focus_generic_attack_iraq
-9338c7667
+9397c7726
 < 		icon = GFX_goal_generic_forceful_treaty
 ---
 > 		icon = GFX_focus_generic_attack_iran
-9641c7970
+9700c8029
 < 		icon = GFX_goal_generic_position_armies
 ---
 > 		icon = GFX_SOV_control_scandinavia_ccp_2d_sov_compatibility
-9896c8225
+9955c8284
 < 		icon = GFX_goal_generic_position_armies
 ---
 > 		icon = GFX_focus_generic_influence_benelux
-10002c8331
+10061c8390
 < 
 ---
 > 		Allow_branch = { always = no }
-10250c8579
+10316c8645
 < 
 ---
 > 		Allow_branch = { always = no }
-10551c8880
+10617c8946
 < 
 ---
 > 		Allow_branch = { always = no }
-11187c9516,9517
+11246c9575,9576
 < 				if = {
 ---
 > 			}
 > 			if = {
-11192d9521
+11251d9580
 < 					
-11199,11200d9527
+11258,11259d9586
 < 		}
 < 
-11887c10214
+11945c10272
 < 
 ---
 > 		Allow_branch = { always = no }
-13151a11479,11858
+13209,13211c11536
+< 		available = {
+< 
+< 		}
+---
+> 		available = { }
+13223a11549,14305
+> 	}
+> 	
 > ###################################
 > ###	 _   _ _____ ________  ___	###
 > ###	| \ | |  _  |_   _|  \/  |	###
@@ -2504,7 +2508,7 @@
 > 		cancel = {
 > 			CHI = { exists = no }
 > 		}
-13152a11860,14233
+> 
 > 		icon = GFX_focus_chi_cooperation_with_the_nationalists
 > 
 > 		x = 0

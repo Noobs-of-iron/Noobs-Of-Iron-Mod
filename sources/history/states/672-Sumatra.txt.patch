@@ -4,7 +4,9 @@
 ---
 > 	resources={
 > 		rubber = 1800 # was: 268
-11c11
+11,12c11,12
 < 		aluminium = 28 # was: 50
+< 		coal = 4 # initial distribution
 ---
 > 		aluminium = 336 # was: 50
+> 		coal = 48 # initial distribution

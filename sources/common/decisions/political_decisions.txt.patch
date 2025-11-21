@@ -1,10 +1,10 @@
-2186,2190d2185
+2193,2197d2192
 <     		OR = { # has_focus_tree is not allwoed in the allowed trigger
 <     			has_focus_tree = austro_hungarian_releasable_focus
 <     			has_focus_tree = generic_focus
 <     			has_idea = idea_RAJ_kingmaker
 <     		}
-2567,2570d2561
+2574,2577d2568
 < 			OR = { # has_focus_tree is not allwoed in the allowed trigger
 < 				has_focus_tree = austro_hungarian_releasable_focus
 < 				has_focus_tree = generic_focus

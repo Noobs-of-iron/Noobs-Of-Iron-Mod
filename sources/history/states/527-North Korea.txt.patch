@@ -1,6 +1,8 @@
-8,9c8,9
-< 		steel=18 # was: 30
-< 		tungsten=28 # was: 52
+7,9c7,9
+< 	resources = {
+< 		steel = 8 # was: 30
+< 		tungsten = 8 # was: 52 - moved 10 to South Korea and the Sangdong province
 ---
-> 		steel = 216 # was: 30
-> 		tungsten = 336 # was: 52
+> 	resources={
+> 		steel = 96 # was: 30
+> 		tungsten = 96 # was: 52 - moved 10 to South Korea and the Sangdong province

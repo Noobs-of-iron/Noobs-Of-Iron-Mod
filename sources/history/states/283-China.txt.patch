@@ -4,7 +4,3 @@
 ---
 > 	resources={
 > 		tungsten = 12.000
-9c9
-< 		owner = XSM
----
-> 		owner = CHI

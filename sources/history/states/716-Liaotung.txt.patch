@@ -1,4 +1,12 @@
-5c5
+5,7c5,7
 < 		steel=27.000
+< 		chromium = 4
+< 		tungsten = 4
 ---
 > 		steel = 324.000
+> 		chromium = 48
+> 		tungsten = 48
+9c9
+< 		coal = 11
+---
+> 		coal = 132

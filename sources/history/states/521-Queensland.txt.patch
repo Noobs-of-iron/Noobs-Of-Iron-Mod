@@ -1,4 +1,6 @@
-5c5
+5,6c5,6
 < 		tungsten=24.000
+< 		coal = 4 #initial distribution
 ---
 > 		tungsten = 288.000
+> 		coal = 48 #initial distribution

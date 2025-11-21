@@ -1,4 +1,6 @@
-11c11
+11,12c11,12
 < 		aluminium=7 # was: 10
+< 		coal = 2 # initial distribution
 ---
 > 		aluminium = 84 # was: 10
+> 		coal = 24 # initial distribution

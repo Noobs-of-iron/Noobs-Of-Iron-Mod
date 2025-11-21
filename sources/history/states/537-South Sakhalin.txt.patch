@@ -1,4 +1,8 @@
-6c6
-< 		oil=3 # was: 4
+5c5
+< 	resources = {
 ---
-> 		oil = 3 # was: 4
+> 	resources={
+7c7
+< 		coal = 2 #initial distribution
+---
+> 		coal = 24 #initial distribution

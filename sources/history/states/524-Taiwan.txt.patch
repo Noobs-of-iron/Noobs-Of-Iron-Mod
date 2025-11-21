@@ -1,0 +1,6 @@
+8,9c8,9
+< 	resources = {
+< 		coal = 8 # 200,000 metric tons produced 
+---
+> 	resources={
+> 		coal = 96 # 200,000 metric tons produced 

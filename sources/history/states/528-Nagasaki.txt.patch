@@ -1,10 +1,8 @@
-8,9c8,9
+8,10c8,10
 < 	resources = {
-< 		chromium = 52 # was: 88
+< 		chromium = 32 # was: 88, then 52
+< 		coal = 15 # initial distribution
 ---
 > 	resources={
-> 		chromium = 624 # was: 88
-22c22
-< 			industrial_complex = 2
----
-> 			industrial_complex = 3
+> 		chromium = 384 # was: 88, then 52
+> 		coal = 180 # initial distribution

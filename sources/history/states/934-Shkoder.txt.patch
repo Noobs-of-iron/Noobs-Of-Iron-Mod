@@ -1,8 +1,10 @@
-5,7c5,7
+5,8c5,8
 < 	resources = {
 < 		aluminium = 1.000
 <         chromium = 1.000
+<         coal = 1 # initial distribution = with infra 1.4 / 1 total
 ---
 > 	resources={
 > 		aluminium = 12.000
 >         chromium = 12.000
+>         coal = 12 # initial distribution = with infra 1.4 / 1 total

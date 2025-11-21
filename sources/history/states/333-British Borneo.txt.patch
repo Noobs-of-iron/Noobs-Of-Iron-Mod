@@ -1,6 +1,10 @@
-7,8c7,8
-< 		rubber=40 # was: 72
-< 		oil=12 # was: 18
+8,9c8,9
+< 	resources = {
+< 		rubber = 20 # was: 72, then 40
 ---
-> 		rubber = 480 # was: 72
-> 		oil = 12 # was: 18
+> 	resources={
+> 		rubber = 240 # was: 72, then 40
+11c11
+< 		coal = 1 # initial distribution
+---
+> 		coal = 12 # initial distribution

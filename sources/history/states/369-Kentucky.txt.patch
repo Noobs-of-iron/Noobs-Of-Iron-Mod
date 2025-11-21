@@ -1,0 +1,6 @@
+7,8c7,8
+< 	resources = {
+< 		coal = 56 # initial distribution = with infra 99.2 / 1280 total
+---
+> 	resources={
+> 		coal = 672 # initial distribution = with infra 99.2 / 1280 total

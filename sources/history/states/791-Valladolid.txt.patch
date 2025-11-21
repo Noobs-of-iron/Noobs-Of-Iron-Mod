@@ -1,4 +1,6 @@
-5c5
+5,6c5,6
 < 		tungsten=10.000 #added due to Portugal Setup
+< 		coal = 2 #initial distribution
 ---
 > 		tungsten = 120.000 #added due to Portugal Setup
+> 		coal = 24 #initial distribution

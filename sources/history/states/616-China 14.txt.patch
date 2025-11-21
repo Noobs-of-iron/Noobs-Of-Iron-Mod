@@ -1,4 +1,6 @@
-7c7
-< 		owner = XSM
+5,6c5,6
+< 	resources = {
+< 		coal = 2
 ---
-> 		owner = CHI
+> 	resources={
+> 		coal = 24

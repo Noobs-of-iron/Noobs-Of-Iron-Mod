@@ -1,0 +1,6 @@
+6,7c6,7
+< 	resources = {
+< 		coal = 2 # initial distribution / 60 total
+---
+> 	resources={
+> 		coal = 24 # initial distribution / 60 total

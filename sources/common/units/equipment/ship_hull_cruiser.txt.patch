@@ -4,25 +4,25 @@
 ---
 > 		resources={
 > 			steel = 12
-175,176c175,176
+176,177c176,177
 < 		resources = {
 < 			steel = 2
 ---
 > 		resources={
 > 			steel = 24
-248,249c248,249
+250,251c250,251
 < 		resources = {
 < 			steel = 2
 ---
 > 		resources={
 > 			steel = 24
-334,335c334,335
+337,338c337,338
 < 		resources = {
 < 			steel = 3
 ---
 > 		resources={
 > 			steel = 36
-437,439c437,439
+440,442c440,442
 < 		resources = {
 < 			#oil = 1
 < 			steel = 2
@@ -30,7 +30,7 @@
 > 		resources={
 > 
 > 			steel = 24
-486,488c486,488
+489,491c489,491
 < 		resources = {
 < 			#oil = 1
 < 			steel = 3
@@ -38,7 +38,7 @@
 > 		resources={
 > 
 > 			steel = 36
-537,539c537,539
+540,542c540,542
 < 		resources = {
 < 			#oil = 2
 < 			steel = 3
@@ -46,7 +46,7 @@
 > 		resources={
 > 
 > 			steel = 36
-589,592c589,592
+592,595c592,595
 < 		resources = {
 < 			#oil = 2
 < 			steel = 4
@@ -56,7 +56,7 @@
 > 
 > 			steel = 48
 > 			chromium = 12
-706,708c706,708
+709,711c709,711
 < 		resources = {
 < 			#oil = 1
 < 			steel = 3
@@ -64,7 +64,7 @@
 > 		resources={
 > 
 > 			steel = 36
-756,758c756,758
+759,761c759,761
 < 		resources = {
 < 			#oil = 1
 < 			steel = 4
@@ -72,7 +72,7 @@
 > 		resources={
 > 
 > 			steel = 48
-806,808c806,808
+809,811c809,811
 < 		resources = {
 < 			#oil = 2
 < 			steel = 4
@@ -80,7 +80,7 @@
 > 		resources={
 > 
 > 			steel = 48
-857,860c857,860
+860,863c860,863
 < 		resources = {
 < 			#oil = 2
 < 			steel = 5
@@ -90,7 +90,7 @@
 > 
 > 			steel = 60
 > 			chromium = 12
-977,979c977,979
+980,982c980,982
 < 		resources = {
 < 			#oil = 2
 < 			steel = 2
@@ -98,7 +98,7 @@
 > 		resources={
 > 
 > 			steel = 24
-1070,1072c1070,1072
+1073,1075c1073,1075
 < 		resources = {
 < 			#oil = 2
 < 			steel = 3
@@ -106,19 +106,19 @@
 > 		resources={
 > 
 > 			steel = 36
-1089,1090c1089,1090
+1093,1094c1093,1094
 < 		resources = {
 < 			steel = 3
 ---
 > 		resources={
 > 			steel = 36
-1147,1148c1147,1148
+1151,1152c1151,1152
 < 		resources = {
 < 			steel = 3
 ---
 > 		resources={
 > 			steel = 36
-1217,1218c1217,1218
+1225,1226c1225,1226
 < 		resources = {
 < 			steel = 3
 ---

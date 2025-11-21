@@ -4,7 +4,3 @@
 ---
 > 	resources={
 > 		aluminium = 36 # was: 6
-20c20
-< 			dockyard = 2
----
-> 			dockyard = 4

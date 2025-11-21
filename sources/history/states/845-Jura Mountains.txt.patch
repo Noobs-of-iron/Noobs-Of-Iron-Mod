@@ -1,4 +1,6 @@
-7c7
+7,8c7,8
 < 		aluminium=18 # was: 28 #CarloTODO
+< 		coal = 1 #initial distribution
 ---
 > 		aluminium = 216 # was: 28 #CarloTODO
+> 		coal = 12 #initial distribution

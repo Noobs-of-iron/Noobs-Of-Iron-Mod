@@ -1,10 +1,12 @@
-5,8c5,8
+5,9c5,9
 < 	resources = {
 < 		steel = 9 # was 5 was: 13 was: 20
 < 		chromium = 3 # was: 4
 < 		tungsten = 3 # was: 4
+< 		coal = 8 #initial distribution
 ---
 > 	resources={
 > 		steel = 108 # was 5 was: 13 was: 20
 > 		chromium = 36 # was: 4
 > 		tungsten = 36 # was: 4
+> 		coal = 96 #initial distribution

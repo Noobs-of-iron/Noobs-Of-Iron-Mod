@@ -1,0 +1,6 @@
+22,23c22,23
+< 	resources = {
+< 		coal = 15 # initial distribution
+---
+> 	resources={
+> 		coal = 180 # initial distribution

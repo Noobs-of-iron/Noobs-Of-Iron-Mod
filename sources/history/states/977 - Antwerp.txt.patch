@@ -1,6 +1,4 @@
-6,7c6,7
-< 	#resources = {
-< 	#	steel = 10 # was: 48 then 10
+7c7
+< 		coal = 2 
 ---
-> 	#resources={
-> 	#	steel = 120 # was: 48 then 10
+> 		coal = 24 

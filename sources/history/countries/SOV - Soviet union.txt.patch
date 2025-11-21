@@ -1,13 +1,13 @@
 120a121,122
 > recruit_character = SOV_NOI_Elusivsky_Erodditch
 > 
-566c568
+567c569
 < set_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
 ---
 > set_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.1 }
-864a867
+865a868
 > 	amphibious_craft_in_bad_condition
-867c870
+869c872
 < 
 ---
 > 	SOV_NOI_enduring_spirit

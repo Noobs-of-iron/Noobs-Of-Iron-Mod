@@ -1,10 +1,8 @@
-9,10c9,10
-< 		steel=27 # was: 35
-< 		tungsten=8 # was: 10
+7,9c7,9
+< 	resources = {
+< 		steel = 27 # was: 35
+< 		tungsten = 8 # was: 10
 ---
+> 	resources={
 > 		steel = 324 # was: 35
 > 		tungsten = 96 # was: 10
-19c19
-< 			industrial_complex = 2
----
-> 			industrial_complex = 3

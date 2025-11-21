@@ -1,4 +1,6 @@
-5c5
-< 		steel=14.000
+4,5c4,5
+< 	resources = {
+< 		steel = 10
 ---
-> 		steel = 168.000
+> 	resources={
+> 		steel = 120

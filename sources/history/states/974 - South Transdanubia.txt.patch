@@ -2,7 +2,9 @@
 < 	resources = {
 ---
 > 	resources={
-10c10
+10,11c10,11
 < 		aluminium = 20
+< 		coal = 2 # initial distribution
 ---
 > 		aluminium = 240
+> 		coal = 24 # initial distribution

@@ -1,4 +1,6 @@
-10c10
+10,11c10,11
 < 		aluminium=12 # was: 18
+< 		coal = 5 # initial distribution = with infra 8 / 1280 total
 ---
 > 		aluminium = 144 # was: 18
+> 		coal = 60 # initial distribution = with infra 8 / 1280 total

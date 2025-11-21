@@ -53,37 +53,37 @@
 > 				allow_branch = {
 >             always = no
 >         }
-1513c1516
+1514c1517
 < 			
 ---
 >         has_war_with = JAP
-1514a1518
+1515a1519
 > 
-1532a1537
+1533a1538
 > 			remove_ideas = USA_NOI_rubber_industry_rivality
-2106c2111
+2107c2112
 < 			democratic > 0.95
 ---
 > 			democratic > 0.80
-2345c2350
+2346c2351
 < 			democratic > 0.95
 ---
 > 			democratic > 0.80
-2471c2476
+2472c2477
 < 			democratic > 0.95
 ---
 > 			democratic > 0.80
-2523c2528
+2524c2529
 < 			democratic > 0.95
 ---
 > 			democratic > 0.80
-2946c2951
+2947c2952
 < 		x = 18
 ---
 > 		x = 10
-3123a3129
+3124a3130
 > 		add_stability = 0.10
-3250,3262c3256,3257
+3251,3263c3257,3258
 < 			has_dlc = "Man the Guns"
 < 			if = {
 < 				limit = {
@@ -100,11 +100,11 @@
 ---
 >             always = no
 >         }
-4679c4674
+4681c4676
 < 		x = 42
 ---
 > 		x = 20
-4689c4684
+4691c4686
 < 			x = -17
 ---
 > 			x = -2

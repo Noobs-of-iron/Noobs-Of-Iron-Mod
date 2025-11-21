@@ -1,6 +1,8 @@
-9,10c9,10
-< 		steel=31 # was: 56
-< 		aluminium=2 # was: 4
+9,11c9,11
+< 		steel = 31 # was: 56
+< 		aluminium = 2 # was: 4
+< 		coal = 33 #initial distribution
 ---
 > 		steel = 372 # was: 56
 > 		aluminium = 24 # was: 4
+> 		coal = 396 #initial distribution

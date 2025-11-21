@@ -1,6 +1,8 @@
-8,9c8,9
+8,10c8,10
 < 		steel=17 # was: 24
 < 		oil=7 # was: 10
+< 		coal = 12 # initial distribution = with infra 25.2 / 1280 total
 ---
 > 		steel = 204 # was: 24
 > 		oil = 7 # was: 10
+> 		coal = 144 # initial distribution = with infra 25.2 / 1280 total

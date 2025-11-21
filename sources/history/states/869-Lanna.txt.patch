@@ -1,0 +1,6 @@
+19,20c19,20
+< 	resources = {
+< 		coal = 1 #Lowgrade lignite and sub-bituminous coal
+---
+> 	resources={
+> 		coal = 12 #Lowgrade lignite and sub-bituminous coal

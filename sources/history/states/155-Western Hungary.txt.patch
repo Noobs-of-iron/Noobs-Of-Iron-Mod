@@ -1,6 +1,8 @@
-8,9c8,9
+8,10c8,10
 < 	resources = {
 < 		aluminium = 40 # moved from Northern Hungary, then was 60
+< 		coal = 1 # more coal is added through a focus
 ---
 > 	resources={
 > 		aluminium = 480 # moved from Northern Hungary, then was 60
+> 		coal = 12 # more coal is added through a focus

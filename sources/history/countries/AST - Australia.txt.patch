@@ -1,11 +1,11 @@
 86a87
 > 
-90c91,92
+91c92,93
 < 
 ---
 > #NOI
 > recruit_character = AST_john_doctrine
-470c472
+471c473
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

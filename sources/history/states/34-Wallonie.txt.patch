@@ -1,4 +1,6 @@
-6c6
+6,7c6,7
 < 		steel=22 # was: 14
+< 		coal = 5 # More added through focus BEL_revive_coal_mining
 ---
 > 		steel = 264 # was: 14
+> 		coal = 60 # More added through focus BEL_revive_coal_mining

@@ -1,48 +1,56 @@
-1035c1035
-< 				FRA = { country_event = { id = france.1 } }
+3956c3956
+< prospect_for_resources = {
 ---
-> 				FRA = { country_event = { id = noi_jap.3 } }
-1050c1050
-< 				VIC = { country_event = { id = france.1 } }
+> prospect_for_resources={
+3970c3970
+< 				state = 655
 ---
-> 				VIC = { country_event = { id = noi_jap.3 } }
-2254c2254
+> 				state = 7860
+4071c4071
+< 					amount = 26
+---
+> 					amount = 312
+4131c4131
+< 					amount = 20
+---
+> 					amount = 240
+4202c4202
 < 					amount = 12
 ---
 > 					amount = 144
-2305c2305
+4260c4260
 < 					amount = 8
 ---
 > 					amount = 96
-2356c2356
+4318c4318
 < 					amount = 6
 ---
 > 					amount = 72
-2407c2407
+4376c4376
 < 					amount = 4
 ---
 > 					amount = 48
-2451c2451
-< 					amount = 6
+4434c4434
+< 	#				amount = 6
 ---
-> 					amount = 72
-2495c2495
+> 	#				amount = 72
+4492c4492
 < 					amount = 12
 ---
 > 					amount = 144
-2557c2557
+4797c4797
 < 					amount = 12
 ---
 > 					amount = 144
-2609c2609
+4857c4857
 < 					amount = 8
 ---
 > 					amount = 96
-2655c2655
+4911c4911
 < 					amount = 12
 ---
 > 					amount = 144
-2700c2700
+4965c4965
 < 					amount = 12
 ---
 > 					amount = 144

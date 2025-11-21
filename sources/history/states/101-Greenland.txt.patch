@@ -1,6 +1,8 @@
-5,6c5,6
+5,7c5,7
 < 	resources = {
 < 		aluminium = 10.000
+< 		coal = 1 #initial distribution
 ---
 > 	resources={
 > 		aluminium = 120.000
+> 		coal = 12 #initial distribution

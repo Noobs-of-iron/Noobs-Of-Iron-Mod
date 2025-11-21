@@ -8,7 +8,3 @@
 > 		tungsten = 132 # was: 14
 > 		steel = 96 # was: 10
 > 		chromium = 36 # was: 4
-14c14
-< 		owner = GXC
----
-> 		owner = CHI

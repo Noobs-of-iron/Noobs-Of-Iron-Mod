@@ -1,10 +1,10 @@
-8c8
-< 		steel=27 # was: 35
+6,7c6,7
+< 	resources = {
+< 		steel = 10 # was: 35, then 15
 ---
-> 		steel = 1284 # was: 35
-17,18c17,18
-< 			industrial_complex = 2
-< 			fuel_silo = 1
+> 	resources={
+> 		steel = 120 # was: 35, then 15
+9c9
+< 		coal = 2 #initial distribution
 ---
-> 			industrial_complex = 5
-> 			fuel_silo = 2
+> 		coal = 24 #initial distribution

@@ -1,4 +1,6 @@
-9c9
-< 		owner = BRM
+5,6c5,6
+< 	resources = {
+< 		rubber = 3
 ---
-> 		owner = RAJ
+> 	resources={
+> 		rubber = 36

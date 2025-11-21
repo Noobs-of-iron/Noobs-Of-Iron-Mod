@@ -1,4 +1,4 @@
-2302,2448d2301
+2305,2451d2304
 < 	option = { # Support the Czechs
 < 		name = germany.40.b
 < 		
@@ -146,7 +146,7 @@
 < 			}
 < 		}
 < 	}
-2584,2644d2436
+2587,2631d2439
 < 	option = { # Support the Czechs alone
 < 		name = germany.41.b
 < 
@@ -192,9 +192,9 @@
 < 			}
 < 			add_opinion_modifier = { target = ROOT modifier = offered_support }
 < 		}
-< 
+2633d2440
 < 		add_opinion_modifier = { target = GER modifier = condemn_aggression }
-< 		
+2635,2771d2441
 < 		GER = {
 < 			country_event = {
 < 				id = germany.48
@@ -208,7 +208,7 @@
 < 				}
 < 			}
 < 		}
-2646,2765d2437
+< 
 < 		#Deal with faction relations FRA-ENG / FRA-GER / FRA-CZE
 < 		if = {
 < 			limit = {
@@ -297,7 +297,10 @@
 < 				limit = {
 < 					CZE = { is_in_faction = no }
 < 				}
-< 				create_faction = french_alliance
+< 				create_faction_from_template = {
+< 					template = faction_template_the_little_entente
+< 					name = french_alliance
+< 				}
 < 				set_rule = { can_create_factions = yes }
 < 				add_to_faction = CZE
 < 				CZE = {

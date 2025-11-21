@@ -170,19 +170,19 @@
 ---
 > 		build_cost_resources={
 > 			rubber = 2.4
-2500,2501c2500,2501
+2546,2547c2546,2547
 < 		build_cost_resources = {
 < 			steel = 1
 ---
 > 		build_cost_resources={
 > 			steel = 12
-2523,2524c2523,2524
+2571,2572c2571,2572
 < 		build_cost_resources = {
 < 			steel = 2
 ---
 > 		build_cost_resources={
 > 			steel = 2.4
-2615a2616,2630
+2663a2664,2678
 > 	ship_sonar_3 = {
 > 		abbreviation = "sdd"
 > 		category = ship_sonar
@@ -198,25 +198,25 @@
 > 			convert_cost_ic = 25
 > 		}
 > 	}
-2633,2634c2648,2649
+2760,2761c2775,2776
 < 		build_cost_resources = {
 < 			steel = 1
 ---
 > 		build_cost_resources={
 > 			steel = 12
-2678,2679c2693,2694
+2805,2806c2820,2821
 < 		build_cost_resources = {
 < 			steel = 1
 ---
 > 		build_cost_resources={
 > 			steel = 12
-2702,2703c2717,2718
+2829,2830c2844,2845
 < 		build_cost_resources = {
 < 			steel = 1
 ---
 > 		build_cost_resources={
 > 			steel = 12
-2725,2727c2740,2742
+2852,2854c2867,2869
 < 		build_cost_resources = {
 < 			steel = 2
 < 			chromium = 1
@@ -224,7 +224,7 @@
 > 		build_cost_resources={
 > 			steel = 24
 > 			chromium = 12
-2751,2753c2766,2768
+2878,2880c2893,2895
 < 		build_cost_resources = {
 < 			steel = 1
 < 			chromium = 1
@@ -232,7 +232,7 @@
 > 		build_cost_resources={
 > 			steel = 12
 > 			chromium = 12
-2777,2779c2792,2794
+2904,2906c2919,2921
 < 		build_cost_resources = {
 < 			steel = 2
 < 			chromium = 1
@@ -240,29 +240,29 @@
 > 		build_cost_resources={
 > 			steel = 24
 > 			chromium = 12
-2799c2814
+2926c2941
 < 			build_cost_ic = 0.1
 ---
 > 			build_cost_ic = 0.075
-2805c2820
+2932c2947
 < 			armor_value = 6
 ---
 > 			armor_value = 4
-2821c2836
+2948c2963
 < 			armor_value = 8
 ---
 > 			armor_value = 6
-2823,2824c2838,2839
+2950,2951c2965,2966
 < 		build_cost_resources = {
 < 			steel = 1
 ---
 > 		build_cost_resources={
 > 			steel = 12
-2840c2855
+2967c2982
 < 			armor_value = 10
 ---
 > 			armor_value = 8
-2842,2844c2857,2859
+2969,2971c2984,2986
 < 		build_cost_resources = {
 < 			steel = 1
 < 			chromium = 1
@@ -270,11 +270,11 @@
 > 		build_cost_resources={
 > 			steel = 12
 > 			chromium = 12
-2860c2875
+2987c3002
 < 			armor_value = 12
 ---
 > 			armor_value = 10
-2862,2864c2877,2879
+2989,2991c3004,3006
 < 		build_cost_resources = {
 < 			steel = 2
 < 			chromium = 1
@@ -282,33 +282,33 @@
 > 		build_cost_resources={
 > 			steel = 24
 > 			chromium = 12
-2873c2888
+3000c3015
 < 			build_cost_ic = 0.1
 ---
 > 			build_cost_ic = 0.05
-2875,2876c2890,2891
+3002,3003c3017,3018
 < 		build_cost_resources = {
 < 			steel = 1
 ---
 > 		build_cost_resources={
 > 			steel = 12
-2882c2897
+3009c3024
 < 			armor_value = 5
 ---
 > 			armor_value = 6
-2898,2899c2913,2914
+3025,3026c3040,3041
 < 		build_cost_resources = {
 < 			steel = 2
 ---
 > 		build_cost_resources={
 > 			steel = 2.4
-2921,2922c2936,2937
+3048,3049c3063,3064
 < 		build_cost_resources = {
 < 			steel = 2
 ---
 > 		build_cost_resources={
 > 			steel = 2.4
-2944,2945c2959,2960
+3071,3072c3086,3087
 < 		build_cost_resources = {
 < 			steel = 3
 ---

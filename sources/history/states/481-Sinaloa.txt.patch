@@ -1,0 +1,6 @@
+7,8c7,8
+< 	resources = {
+< 		coal = 1 # initial distribution = with infra 1.4 / 4 total - includes Sonora and Chihauha
+---
+> 	resources={
+> 		coal = 12 # initial distribution = with infra 1.4 / 4 total - includes Sonora and Chihauha

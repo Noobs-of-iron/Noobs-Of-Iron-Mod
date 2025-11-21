@@ -18,18 +18,20 @@
 > 				custom_effect_tooltip = available_mio_tt
 > 				show_mio_tooltip = CAN_canadian_pacific_organization
 > 			}
-2423a2431,2432
+2422a2430,2431
 > 				category = cat_medium_armor
 > 				category = cat_heavy_armor
-2804c2813
+2424a2434
+> 
+2803c2813
 < 					amount = 20
 ---
 > 					amount = 240
-2810c2819
+2809c2819
 < 					amount = 8
 ---
 > 					amount = 96
-2816c2825
+2815c2825
 < 					amount = 8
 ---
 > 					amount = 96

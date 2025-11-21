@@ -2,3 +2,9 @@
 < 	resources = {
 ---
 > 	resources={
+10,11c10,11
+< 		coal = 3 # initial distribution = with infra 3.6 / 4 total
+< 		#steel=4 sent to Mexico City
+---
+> 		coal = 36 # initial distribution = with infra 3.6 / 4 total
+> 		#steel = 48 sent to Mexico City

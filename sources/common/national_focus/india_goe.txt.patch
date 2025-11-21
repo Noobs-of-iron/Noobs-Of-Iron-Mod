@@ -259,13 +259,13 @@
 <             add_to_variable = { RAJ_autonomy_gain_independence_movement = 0.1 tooltip = autonomy_gain_tt }
 ---
 >             add_to_variable = { RAJ_autonomy_gain_independence_movement = 0.05 tooltip = autonomy_gain_tt }
-7585,7586c7547,7548
+7587,7588c7549,7550
 <         x = -6
 <         y = 8
 ---
 >         x = 11
 >         y = 1
-7673,7687c7635
+7675,7689c7637
 <         allow_branch = {
 <         	if = {
 < 				limit = {
@@ -283,49 +283,49 @@
 <         }
 ---
 >         Allow_branch = { always = no }
-7725c7673
+7727c7675
 <         cost = 5
 ---
 >         cost = 10
-7750,7752c7698
+7752,7754c7700
 <             add_autonomy_ratio = { 
 <                 value = 0.05 
 <             }
 ---
 > 
-7804c7750
+7806c7752
 <         cost = 10
 ---
 >         cost = 5
-7837c7783
+7839c7785
 <         cost = 10
 ---
 >         cost = 5
-7936c7882
+7938c7884
 <                 days = 400
 ---
 >                 days = 180
-7949c7895
+7951c7897
 <         cost = 5
 ---
 >         cost = 10
-8027c7973
+8029c7975
 <         cost = 10
 ---
 >         cost = 5
-8240c8186
+8242c8188
 <         cost = 5
 ---
 >         cost = 10
-8654c8600
+8656c8602
 <         cost = 5
 ---
 >         cost = 10
-8748c8694
+8750c8696
 <                 bonus = 0.35
 ---
 >                 bonus = 0.5
-8940,8955c8886
+8942,8957c8888
 <         allow_branch = {
 <         	if = {
 < 				limit = {
@@ -344,7 +344,7 @@
 <         }
 ---
 >         Allow_branch = { always = no }
-9171,9187c9102
+9173,9189c9104
 <         allow_branch = {
 <         	if = {
 < 				limit = {
@@ -364,77 +364,77 @@
 < 
 ---
 >        Allow_branch = { always = no }
-10878c10793
+10879c10794
 <                     amount = 9
 ---
 >                     amount = 10.8
-10931c10846
+10932c10847
 <                     amount = 18
 ---
 >                     amount = 21.6
-10946c10861
+10947c10862
 <         cost = 5
 ---
 >         cost = 10
-11148c11063
+11149c11064
 <                     amount = 8
 ---
 >                     amount = 9.6
-11153c11068
+11154c11069
 <                     amount = 4
 ---
 >                     amount = 4.8
-11157c11072
+11158c11073
 <                     amount = 4
 ---
 >                     amount = 4.8
-13341c13256
+13450c13365
 <                     amount = 12
 ---
 >                     amount = 14.4
-13437c13352
+13546c13461
 <                         amount = 6
 ---
 >                         amount = 7.2
-13844c13759
+13952c13867
 <                         amount = 4
 ---
 >                         amount = 4.8
-13848c13763
+13956c13871
 <                         amount = 6
 ---
 >                         amount = 7.2
-15053c14968
+15161c15076
 <         cost = 10
 ---
 >         cost = 5
-15235c15150
+15343c15258
 <         cost = 10
 ---
 >         cost = 5
-15418c15333
+15526c15441
 <             add_to_variable = { RAJ_autonomy_gain_independence_movement = 0.05 tooltip = autonomy_gain_tt }
 ---
 >             add_to_variable = { RAJ_autonomy_gain_independence_movement = 0.15 tooltip = autonomy_gain_tt }
-16269c16184
+16381c16296
 <                  days = 260
 ---
 >                  days = 180
-16428,16429c16343,16344
+16540,16541c16455,16456
 <                 cost_reduction = 0.3
 <                 uses = 2
 ---
 >                 cost_reduction = 0.25
 >                 uses = 1
-16509c16424
+16621c16536
 <                 uses = 2
 ---
 >                 uses = 1
-16516c16431
+16628c16543
 <                 bonus = 0.5
 ---
 >                 bonus = 0.25
-16558,16808c16473,16522
+16670,16920c16585,16634
 <         complete_tooltip = {
 < 
 <         }
@@ -737,7 +737,7 @@
 > 			}
 > 		}
 > 	}
-16810,16817c16524
+16922,16929c16636
 <                       add_resource = { type = aluminium amount = 3 }
 <                 }
 <                 if = {
@@ -748,99 +748,99 @@
 <         }
 ---
 >         
-16954,16955d16660
+17066,17067d16772
 <            try_build_civ_in_core_otherwise_build_in_controlled_2_civs = yes
 <            try_build_mil_in_core_otherwise_build_in_controlled_2_mil = yes
-16980c16685
+17092c16797
 < 	x = 44
 ---
 > 	x = 23
-16982c16687
+17094c16799
 < 	relative_position_id = RAJ_great_depression_price_controls 
 ---
 > 	relative_position_id = RAJ_provincial_autonomy 
-17028c16733
+17140c16845
 < 		add_political_power = 70
 ---
 > 		add_political_power = 50
-17147c16852
+17259c16964
 < 		add_political_power = 70
 ---
 > 		add_political_power = 50
-17229d16933
+17341d17045
 < 		add_political_power = 100
-17285,17286c16989,16990
+17397,17398c17101,17102
 < 		add_to_variable = { RAJ_a_loyal_government_political_power_factor = 0.1	tooltip = political_power_factor_tt }
 < 		add_to_variable = { RAJ_a_loyal_government_political_advisor_cost_factor = -0.5 tooltip = political_advisor_cost_factor_tt }
 ---
 > 		add_to_variable = { RAJ_a_loyal_government_political_power_factor = 0.05	tooltip = political_power_factor_tt }
 > 		add_to_variable = { RAJ_a_loyal_government_political_advisor_cost_factor = -0.2 tooltip = political_advisor_cost_factor_tt }
-17487c17191
+17599c17303
 < 	cost = 5
 ---
 > 	cost = 10
-17525,17526c17229,17230
+17637,17638c17341,17342
 < 		add_to_variable = { RAJ_a_loyal_government_industrial_capacity_factory = 0.15 tooltip = industrial_capacity_factory_tt }
 < 		add_to_variable = { RAJ_a_loyal_government_industrial_capacity_dockyard = 0.35 tooltip = industrial_capacity_dockyard_tt }
 ---
 > 		add_to_variable = { RAJ_a_loyal_government_industrial_capacity_factory = 0.10 tooltip = industrial_capacity_factory_tt }
 > 		add_to_variable = { RAJ_a_loyal_government_industrial_capacity_dockyard = 0.15 tooltip = industrial_capacity_dockyard_tt }
-17663c17367
+17775c17479
 < 	cost = 5
 ---
 > 	cost = 10
-17670d17373
+17782d17485
 < 		add_political_power = 100
-17711c17414
+17823c17526
 < 	cost = 5
 ---
 > 	cost = 10
-17759,17760c17462,17463
+17871,17872c17574,17575
 < 			random_select_amount = 3
 < 			add_extra_state_shared_building_slots = 2
 ---
 > 			random_select_amount = 1
 > 			add_extra_state_shared_building_slots = 1
-17834,17835c17537,17538
+17946,17947c17649,17650
 < 			random_select_amount = 2
 < 			add_extra_state_shared_building_slots = 2
 ---
 > 			random_select_amount = 1
 > 			add_extra_state_shared_building_slots = 1
-17838c17541
+17950c17653
 < 				level = 2
 ---
 > 				level = 1
-17852,17853c17555,17556
+17964,17965c17667,17668
 < 			random_select_amount = 2
 < 			add_extra_state_shared_building_slots = 2
 ---
 > 			random_select_amount = 1
 > 			add_extra_state_shared_building_slots = 1
-17856c17559
+17968c17671
 < 				level = 2
 ---
 > 				level = 1
-17871c17574
+17983c17686
 < 			add_extra_state_shared_building_slots = 2
 ---
 > 			add_extra_state_shared_building_slots = 1
-17874c17577
+17986c17689
 < 				level = 2
 ---
 > 				level = 1
-17911c17614
+18023c17726
 < 	cost = 5
 ---
 > 	cost = 10
-17935,17938c17638
+18047,18050c17750
 < 		add_autonomy_score = {
 < 			value = 75
 < 			localization = RAJ_crown_commodities
 < 		}
 ---
 > 		
-17954,17969d17653
+18066,18081d17765
 < 		random_core_state = {
 < 			limit = {
 < 				is_fully_controlled_by = ROOT
@@ -857,7 +857,7 @@
 < 				instant_build = yes
 < 			}
 < 		}
-18034,18039c17718
+18146,18151c17830
 < 		add_tech_bonus = {
 < 			name = RAJ_rural_mechanization_program
 < 			bonus = 0.75
@@ -866,7 +866,7 @@
 < 		}
 ---
 > 
-18062,18074c17741,17744
+18174,18186c17853,17856
 < 		custom_effect_tooltip = RAJ_the_riches_of_the_raj_targets_oil_tt
 < 		custom_effect_tooltip = generic_states_affected_no_prev_line_tt
 < 		every_owned_state = {
@@ -885,7 +885,7 @@
 > 			add_resource = {
 > 				type = oil
 > 				amount = 4
-18076,18090c17746,17749
+18188,18202c17858,17861
 < 			hidden_effect = {
 < 				if = {
 < 					limit = {
@@ -906,7 +906,7 @@
 > 				type = infrastructure
 > 				level = 1
 > 				instant_build = yes
-18093,18125c17752,17755
+18205,18237c17864,17867
 < 		custom_effect_tooltip = generic_skip_one_line_tt
 < 
 < 		custom_effect_tooltip = RAJ_the_riches_of_the_raj_targets_tt
@@ -945,7 +945,7 @@
 > 			add_resource = {
 > 				type = oil
 > 				amount = 4
-18127,18198c17757,17786
+18239,18310c17869,17898
 < 			hidden_effect = {
 < 				if = {
 < 					limit = {
@@ -1049,36 +1049,36 @@
 > 				type = infrastructure
 > 				level = 1
 > 				instant_build = yes
-18201a17790
+18313a17902
 > 
-18266c17855
+18378c17967
 < 			random_select_amount = 2
 ---
 > 			random_select_amount = 1
-18442c18031
+18554c18143
 < 	cost = 5
 ---
 > 	cost = 10
-18469,18470c18058,18059
+18581,18582c18170,18171
 < 			random_select_amount = 2
 < 			add_extra_state_shared_building_slots = 2
 ---
 > 			random_select_amount = 1
 > 			add_extra_state_shared_building_slots = 1
-18473c18062
+18585c18174
 < 				level = 2
 ---
 > 				level = 1
-18518,18521d18106
+18630,18633d18218
 < 		add_autonomy_score = {
 < 			value = 150
 < 			localization = RAJ_the_empires_workshop
 < 		}
-18527c18112
+18639c18224
 < 			uses = 2
 ---
 > 			uses = 1
-18532,18547d18116
+18644,18659d18228
 < 		random_core_state = {
 < 			limit = {
 < 				is_fully_controlled_by = ROOT
@@ -1095,61 +1095,61 @@
 < 				instant_build = yes
 < 			}
 < 		}
-18681c18250
+18793c18362
 < 		arms_factory > 39
 ---
 > 		arms_factory > 49
-18704c18273
+18816c18385
 < 			add_extra_state_shared_building_slots = 2
 ---
 > 			add_extra_state_shared_building_slots = 1
-18707c18276
+18819c18388
 < 				level = 2
 ---
 > 				level = 1
-18763c18332
+18875c18444
 < 		army_experience = 35
 ---
 > 		army_experience = 10
-18800c18369
+18912c18481
 < 				add_extra_state_shared_building_slots = 3
 ---
 > 				add_extra_state_shared_building_slots = 2
-18811,18815d18379
+18923,18927d18491
 < 				add_building_construction = {
 < 					type = dockyard
 < 					level = 1
 < 					instant_build = yes
 < 				}
-18860c18424
+18972c18536
 < 					level = 2
 ---
 > 					level = 1
-18878c18442
+18990c18554
 < 				level = 4
 ---
 > 				level = 2
-18886c18450
+18998c18562
 < 				level = 4
 ---
 > 				level = 2
-18894c18458
+19006c18570
 < 				level = 4
 ---
 > 				level = 2
-19215c18779
+19327c18891
 < 			days = 365
 ---
 > 			days = 180
-19259c18823
+19371c18935
 < 			days = 365
 ---
 > 			days = 90
-19266c18830
+19378c18942
 < 			uses = 2
 ---
 > 			uses = 1
-19272,19294d18835
+19384,19406d18947
 < 		random_owned_state = {
 < 			limit = {
 < 				is_coastal = yes
@@ -1173,7 +1173,7 @@
 < 				level = 1
 < 				instant_build = yes
 < 			}
-19296,19305d18836
+19408,19417d18948
 < 			add_building_construction = {
 < 				type = naval_base
 < 				level = 2
@@ -1184,19 +1184,19 @@
 < 				}
 < 			}
 < 		}
-19417c18948
+19529c19060
 < 			uses = 2
 ---
 > 			uses = 1
-19426c18957
+19538c19069
 < 			uses = 2
 ---
 > 			uses = 1
-19445c18976
+19557c19088
 < 			random_select_amount = 3
 ---
 > 			random_select_amount = 2
-19687,19689c19218,19220
+19799,19801c19330,19332
 < 		add_to_variable = { RAJ_south_east_asia_command_dm_max_command_power = 50 tooltip = max_command_power_tt }
 < 		add_to_variable = { RAJ_south_east_asia_command_dm_command_power_gain = 0.2 tooltip = command_power_gain_tt }
 < 		add_to_variable = { RAJ_south_east_asia_command_dm_special_forces_cap = 0.25 tooltip = special_forces_cap_tt }
@@ -1204,80 +1204,80 @@
 > 		add_to_variable = { RAJ_south_east_asia_command_dm_max_command_power = 20 tooltip = max_command_power_tt }
 > 		add_to_variable = { RAJ_south_east_asia_command_dm_command_power_gain = 0.1 tooltip = command_power_gain_tt }
 > 		add_to_variable = { RAJ_south_east_asia_command_dm_special_forces_cap = 0.05 tooltip = special_forces_cap_tt }
-19731,19734d19261
+19843,19846d19373
 < 			add_skill_level = 1
 < 			add_logistics = 1
 < 			add_defense = 1
 < 			add_planning = 1
-19828c19355
+19940c19467
 < 				days = 365
 ---
 > 				days = 90
-19869,19872d19395
+19981,19984d19507
 < 			add_skill_level = 1
 < 			add_logistics = 1
 < 			add_defense = 1
 < 			add_planning = 1
-19975c19498
+20087c19610
 < 				days = 365
 ---
 > 				days = 90
-20063,20066d19585
+20175,20178d19697
 < 			add_skill_level = 1
 < 			add_logistics = 1
 < 			add_defense = 1
 < 			add_planning = 1
-20152,20156d19670
+20264,20268d19782
 < 		add_autonomy_score = {
 < 			value = 150
 < 			localization = RAJ_defense_of_burma
 < 		}
 < 		custom_effect_tooltip = generic_skip_one_line_tt
-20455c19969
+20567c20081
 < 				days = 365
 ---
 > 				days = 90
-20550c20064
+20662c20176
 < 				level = 4
 ---
 > 				level = 2
-20559c20073
+20671c20185
 < 				days = 365
 ---
 > 				days = 90
-20579c20093
+20691c20205
 < 					level = 4
 ---
 > 					level = 2
-20586c20100
+20698c20212
 < 					days = 365
 ---
 > 					days = 90
-20617c20131
+20729c20243
 < 						level = 4
 ---
 > 						level = 2
-20631c20145
+20743c20257
 < 						level = 4
 ---
 > 						level = 2
-20645c20159
+20757c20271
 < 						level = 4
 ---
 > 						level = 2
-20653c20167
+20765c20279
 < 					days = 365
 ---
 > 					days = 90
-20674c20188
+20786c20300
 < 					level = 4
 ---
 > 					level = 2
-20681c20195
+20793c20307
 < 					days = 365
 ---
 > 					days = 90
-20729,20732c20243,20246
+20841,20844c20355,20358
 < 		add_to_variable = { RAJ_south_east_asia_command_dm_extra_marine_supply_grace = 48 tooltip = extra_marine_supply_grace_tt }
 < 		add_to_variable = { RAJ_south_east_asia_command_dm_shore_bombardment_bonus = 0.2 tooltip = shore_bombardment_bonus_tt }
 < 		add_to_variable = { RAJ_south_east_asia_command_dm_modifier_army_sub_unit_marine_attack_factor = 0.1 tooltip = modifier_army_sub_unit_marine_attack_factor_tt }
@@ -1287,7 +1287,7 @@
 > 		add_to_variable = { RAJ_south_east_asia_command_dm_shore_bombardment_bonus = 0.1 tooltip = shore_bombardment_bonus_tt }
 > 		add_to_variable = { RAJ_south_east_asia_command_dm_modifier_army_sub_unit_marine_attack_factor = 0.05 tooltip = modifier_army_sub_unit_marine_attack_factor_tt }
 > 		add_to_variable = { RAJ_south_east_asia_command_dm_special_forces_cap = 0.05 tooltip = special_forces_cap_tt }
-20735,20745d20248
+20847,20857d20360
 < 		if = {
 < 			limit = {
 < 				has_dlc = "Arms Against Tyranny"
@@ -1299,20 +1299,20 @@
 < 				category = cat_marines_doctrine
 < 			}
 < 		}
-20751c20254
+20863c20366
 < 			amount = 50 
 ---
 > 			amount = 25
-20830,20833d20332
+20942,20945d20444
 < 			add_skill_level = 1
 < 			add_logistics = 1
 < 			add_defense = 1
 < 			add_planning = 1
-20927c20426
+21039c20538
 < 				days = 365
 ---
 > 				days = 90
-21105,21106c20604,20614
+21217,21218c20716,20726
 <             ETH_add_random_mil_factory_effect = yes
 <             ETH_add_random_mil_factory_effect = yes
 ---
@@ -1327,15 +1327,15 @@
 >                         instant_build = yes
 >                     }
 >             }
-21299c20807
+21411c20919
 <             army_experience = 50
 ---
 >             army_experience = 25
-21491c20999
+21603c21111
 <                 uses = 2
 ---
 >                 uses = 1
-21507a21016,21038
+21619a21128,21150
 > 	
 > 	focus = {
 >         id = RAJ_royal_indian_navy_dlc
@@ -1359,7 +1359,7 @@
 >         bypass = {
 > 
 >         }
-21508a21040,21056
+21620a21152,21168
 >         cancel_if_invalid = yes
 >         continue_if_invalid = no
 >         available_if_capitulated = no
@@ -1377,48 +1377,48 @@
 >         }
 >     }
 > 	
-21516c21064
+21628c21176
 <         x = 7
 ---
 >         x = 9
-21518c21066
+21630c21178
 <         relative_position_id = RAJ_indianize_the_army
 ---
 >         relative_position_id = RAJ_royal_indian_navy_dlc
-21591c21139
+21703c21251
 <         cost = 10
 ---
 >         cost = 20
-21870c21418
+21982c21530
 <         cost = 5
 ---
 >         cost = 10
-21946c21494
+22058c21606
 <         cost = 5
 ---
 >         cost = 10
-21971,21972d21518
+22083,22084d21630
 <             custom_effect_tooltip = RAJ_supply_center_fortifications_tt
 <             hidden_effect = {
-21976c21522
+22088c21634
 <                         level = 3
 ---
 >                         level = 1
-21984d21529
+22096d21641
 <             }
-22036c21581
+22148c21693
 <         cost = 5
 ---
 >         cost = 10
-22072c21617
+22184c21729
 <                             air_attack = 0.15
 ---
 >                             air_attack = 0.1
-22100c21645
+22212c21757
 <         cost = 5
 ---
 >         cost = 10
-22142,22144c21687,21689
+22254,22256c21799,21801
 <         x = 6
 <         y = 0
 <         relative_position_id = RAJ_bombay_baroda_and_central_india_railway
@@ -1426,184 +1426,184 @@
 >         x = -1
 >         y = 5
 >         relative_position_id = RAJ_indianize_the_army
-22146c21691
+22258c21803
 <         cost = 5
 ---
 >         cost = 10
-22239c21784
+22351c21896
 <         y = 0
 ---
 >         y = 1
-22242c21787
+22354c21899
 <         cost = 5
 ---
 >         cost = 10
-22263c21808
+22375c21920
 <             add_timed_idea = { idea = idea_RAJ_military_pensions days = 400 }
 ---
 >             add_timed_idea = { idea = idea_RAJ_military_pensions days = 365 }
-22376c21921
+22488c22033
 <         cost = 5
 ---
 >         cost = 10
-22617c22162
+22729c22274
 <                 bonus = 1
 ---
 >                 bonus = 0.5
-22673c22218
+22785c22330
 <         cost = 5
 ---
 >         cost = 10
-22701c22246
+22813c22358
 <             army_experience = 20
 ---
 >             army_experience = 25
-22889d22433
+23001d22545
 <                 ahead_reduction = 2
-22924c22468
+23036c22580
 <             has_war_support > 0.4
 ---
 >             has_war_support > 0.6
-22977c22521
+23089c22633
 <                 cost_reduction = 0.35
 ---
 >                 cost_reduction = 0.25
-22983c22527
+23095c22639
 <                 bonus = 0.4
 ---
 >                 bonus = 0.5
-23000c22544
+23112c22656
 <         cost = 5
 ---
 >         cost = 10
-23025,23026c22569,22570
+23137,23138c22681,22682
 <                     cost_reduction = 0.35
 <                     uses = 3
 ---
 >                     cost_reduction = 0.25
 >                     uses = 2
-23136d22679
+23248d22791
 <             army_experience = 30
-23266c22809
+23378c22921
 <         cost = 5
 ---
 >         cost = 10
-23351c22894
+23463c23006
 <         cost = 5
 ---
 >         cost = 10
-23444c22987
+23556c23099
 <         cost = 5
 ---
 >         cost = 10
-23492c23035
+23604c23147
 <         cost = 5
 ---
 >         cost = 10
-23516c23059
+23628c23171
 <                     amount = 24
 ---
 >                     amount = 288
-23730c23273
+23842c23385
 <         cost = 5
 ---
 >         cost = 10
-23870c23413
+23982c23525
 <         cost = 5
 ---
 >         cost = 10
-23988c23531
+24100c23643
 <         cost = 5
 ---
 >         cost = 10
-24060c23603
+24172c23715
 <         relative_position_id = RAJ_local_recruitment_offices
 ---
 >         relative_position_id = RAJ_indianize_the_army
-24088c23631
+24200c23743
 <                 value = 0.2
 ---
 >                 value = 0.05 #IM REDUCING IT FROM 0.2 I KNOW 35 DAYS BUT GODDAMN I CANT JUST NUKE IT LIKE TOTALLY
-24104c23647
+24216c23759
 <         cost = 5
 ---
 >         cost = 10
-24154c23697
+24266c23809
 <         cost = 5
 ---
 >         cost = 10
-24209c23752
+24321c23864
 <         cost = 5
 ---
 >         cost = 10
-24234c23777
+24346c23889
 <                 value = -0.15
 ---
 >                 value = -0.1
-24346c23889
+24458c24001
 <         cost = 5
 ---
 >         cost = 10
-24391c23934
+24503c24046
 <         cost = 5
 ---
 >         cost = 10
-24412,24417d23954
+24524,24529d24066
 <             add_tech_bonus = {
 <                 name = RAJ_douglas_dakota
 <                 bonus = 1
 <                 uses = 1
 <                 category = transport_planes_cat # optional 
 <             }
-24479c24016
+24591c24128
 <                     bonus = 1
 ---
 >                     bonus = 0.5
-24485c24022
+24597c24134
 <                 air_experience = 60
 ---
 >                 air_experience = 25
-24506c24043
+24618c24155
 <         cost = 5
 ---
 >         cost = 10
-24733c24270
+24845c24382
 <         cost = 5
 ---
 >         cost = 10
-24757c24294
+24869c24406
 <                 value = 0.3
 ---
 >                 value = 0.07
-24771c24308
+24883c24420
 <         cost = 5
 ---
 >         cost = 10
-24808,24809c24345,24346
+24920,24921c24457,24458
 <                     cost_reduction = 0.75
 <                     uses = 1
 ---
 >                     cost_reduction = 0.25
 >                     uses = 2
-24887d24423
+24999d24535
 <             try_build_mil_in_core_otherwise_build_in_controlled_2_mil = yes
-24896c24432
+25008c24544
 <         prerequisite = { focus = RAJ_british_air_experts focus = RAJ_abolish_agrarian_society_criteria }
 ---
 >         prerequisite = { focus = RAJ_british_air_experts }
-24930c24466
+25042c24578
 <                     bonus = 3.0
 ---
 >                     bonus = 1.0
-24958c24494
+25070c24606
 <         cost = 5
 ---
 >         cost = 10
-24979c24515
+25091c24627
 <             air_experience = 100
 ---
 >             air_experience = 50
-24988,25026d24523
+25100,25138d24635
 <     focus = {
 <         id = RAJ_royal_indian_navy_dlc
 <         icon = GFX_goal_generic_navy_doctrines_tactics
@@ -1643,63 +1643,63 @@
 <             }
 <         }
 <     }
-25079c24576
+25191c24688
 <             navy_experience = 50
 ---
 >             navy_experience = 25
-25090c24587
+25202c24699
 <                 add_extra_state_shared_building_slots = 2
 ---
 >                 add_extra_state_shared_building_slots = 1
-25093c24590
+25205c24702
 <                     level = 2
 ---
 >                     level = 1
-25150c24647
+25262c24759
 <                 uses = 2
 ---
 >                 uses = 1
-25229c24726
+25341c24838
 <                 cost_reduction = 0.3
 ---
 >                 cost_reduction = 0.25
-25234c24731
+25346c24843
 <                 bonus = 0.3
 ---
 >                 bonus = 0.25
-25289c24786
+25401c24898
 <         cost = 5
 ---
 >         cost = 10
-25374c24871
+25486c24983
 <         cost = 5
 ---
 >         cost = 10
-25415c24912
+25527c25024
 <                 bonus = 1
 ---
 >                 bonus = 0.75
-25431c24928
+25543c25040
 <         cost = 5
 ---
 >         cost = 10
-25454c24951
+25566c25063
 <         cost = 5
 ---
 >         cost = 10
-25468c24965
+25580c25077
 <                 add_extra_state_shared_building_slots = 3
 ---
 >                 add_extra_state_shared_building_slots = 2
-25471c24968
+25583c25080
 <                     level = 3
 ---
 >                     level = 2
-25487c24984
+25599c25096
 <         cost = 5
 ---
 >         cost = 10
-25615c25112
+25727c25224
 <         cost = 5
 ---
 >         cost = 10

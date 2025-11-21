@@ -1,4 +1,6 @@
-11c11
-< 		owner = SHX
+6,7c6,7
+< 	resources = {
+< 		coal = 19 #initial distribution
 ---
-> 		owner = PRC
+> 	resources={
+> 		coal = 228 #initial distribution

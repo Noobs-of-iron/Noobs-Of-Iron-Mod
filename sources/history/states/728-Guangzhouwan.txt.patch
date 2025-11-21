@@ -1,0 +1,6 @@
+6,7c6,7
+< 	resources = {
+< 		coal = 6 # Guangzhouwan was notable for its coal mines
+---
+> 	resources={
+> 		coal = 72 # Guangzhouwan was notable for its coal mines
