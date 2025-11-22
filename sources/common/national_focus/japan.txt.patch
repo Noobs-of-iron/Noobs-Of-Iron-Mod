@@ -1,3 +1,87 @@
+1271c1271
+< 					amount = 12
+---
+> 					amount = 144
+2790c2790
+< 					amount = 8
+---
+> 					amount = 96
+12094c12094
+< 					amount = 8
+---
+> 					amount = 96
+12100c12100
+< 					amount = 12
+---
+> 					amount = 144
+12104c12104
+< 					amount = 8
+---
+> 					amount = 96
+12110c12110
+< 					amount = 8
+---
+> 					amount = 96
+12116c12116
+< 					amount = 12
+---
+> 					amount = 144
+12122c12122
+< 					amount = 10
+---
+> 					amount = 120
+13371c13371
+< 					amount = 12
+---
+> 					amount = 144
+13444c13444
+< 					amount = 6
+---
+> 					amount = 72
+15712c15712
+< 					amount = 8
+---
+> 					amount = 96
+21052c21052
+< 					amount = 12
+---
+> 					amount = 144
+21125c21125
+< 					amount = 6
+---
+> 					amount = 72
+21184c21184
+< 					amount = 8
+---
+> 					amount = 96
+21201c21201
+< 					amount = 8
+---
+> 					amount = 96
+21207c21207
+< 					amount = 12
+---
+> 					amount = 144
+21211c21211
+< 					amount = 8
+---
+> 					amount = 96
+21217c21217
+< 					amount = 8
+---
+> 					amount = 96
+21223c21223
+< 					amount = 12
+---
+> 					amount = 144
+21229c21229
+< 					amount = 10
+---
+> 					amount = 120
+24596c24596
+< 					amount = 25
+---
+> 					amount = 300
 26473c26473
 < 				amount > 199
 ---
@@ -26,3 +110,15 @@
 < 				amount > 199
 ---
 > 				amount > 1999
+27026c27026
+< 					amount = 4
+---
+> 					amount = 48
+27030c27030
+< 					amount = 6
+---
+> 					amount = 72
+27034c27034
+< 					amount = 6
+---
+> 					amount = 72
