@@ -1,0 +1,246 @@
+1d0
+< 
+6c5
+< 		1041 1062 1118 1127 1130 1149 1174 1186 1189 1198 1204 4047 4051 4057 4060 4063 4117 4120 4133 4136 4151 4176 4194 4200 7063 7066 7076 7082 7136 7139 7154 7194 7206 7209 8069 9977 9980 9992 10037 10046 10049 10067 10117 10120 10123 11940 11954 12009 12025 12039 12079 12088 12094 13073 13078 
+---
+> 		1041 1118 1149 1174 1189 1198 4047 4051 4057 4117 4176 4194 4200 7066 7076 7136 7154 7194 7209 8069 9980 10037 10046 10067 10117 11940 12009 12039 12088 13073 
+12,20c11,19
+< 			no_phenomenon=0.600
+< 			rain_light=0.400
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.050
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=0.6
+> 			rain_light=0.4
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.05
+> 			min_snow_level=0
+25,33c24,32
+< 			no_phenomenon=0.750
+< 			rain_light=0.250
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.050
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=0.75
+> 			rain_light=0.25
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.05
+> 			min_snow_level=0
+38,46c37,45
+< 			no_phenomenon=0.800
+< 			rain_light=0.200
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.050
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=0.8
+> 			rain_light=0.2
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.05
+> 			min_snow_level=0
+51,59c50,58
+< 			no_phenomenon=0.950
+< 			rain_light=0.050
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.100
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=0.95
+> 			rain_light=0.05
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.1
+> 			min_snow_level=0
+64,72c63,71
+< 			no_phenomenon=0.950
+< 			rain_light=0.050
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.150
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=0.95
+> 			rain_light=0.05
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.15
+> 			min_snow_level=0
+77,85c76,84
+< 			no_phenomenon=1.000
+< 			rain_light=0.000
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.200
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=1
+> 			rain_light=0
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.2
+> 			min_snow_level=0
+90,98c89,97
+< 			no_phenomenon=1.000
+< 			rain_light=0.000
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.250
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=1
+> 			rain_light=0
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.25
+> 			min_snow_level=0
+103,111c102,110
+< 			no_phenomenon=1.000
+< 			rain_light=0.000
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.250
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=1
+> 			rain_light=0
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.25
+> 			min_snow_level=0
+116,124c115,123
+< 			no_phenomenon=1.000
+< 			rain_light=0.000
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.200
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=1
+> 			rain_light=0
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.2
+> 			min_snow_level=0
+129,137c128,136
+< 			no_phenomenon=0.850
+< 			rain_light=0.150
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.150
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=0.85
+> 			rain_light=0.15
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.15
+> 			min_snow_level=0
+142,150c141,149
+< 			no_phenomenon=0.800
+< 			rain_light=0.200
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.100
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=0.8
+> 			rain_light=0.2
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.1
+> 			min_snow_level=0
+155,163c154,162
+< 			no_phenomenon=0.600
+< 			rain_light=0.400
+< 			rain_heavy=0.000
+< 			snow=0.000
+< 			blizzard=0.000
+< 			arctic_water=0.000
+< 			mud=1.000
+< 			sandstorm=0.050
+< 			min_snow_level=0.000
+---
+> 			no_phenomenon=0.6
+> 			rain_light=0.4
+> 			rain_heavy=0
+> 			snow=0
+> 			blizzard=0
+> 			arctic_water=0
+> 			mud=1
+> 			sandstorm=0.05
+> 			min_snow_level=0
