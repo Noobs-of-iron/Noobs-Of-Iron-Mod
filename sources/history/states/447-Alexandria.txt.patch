@@ -1,8 +1,0 @@
-7,9c7,9
-< 		oil=1 # was: 2
-< 		tungsten = 3 #maganese
-< 		steel = 3 #Maganese
----
-> 		oil = 12 # was: 2
-> 		tungsten = 36 #maganese
-> 		steel = 36 #Maganese
