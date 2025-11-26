@@ -1,20 +1,20 @@
-3976c3976
+3980c3980
 < 		conscription_factor = 0.05
 ---
 > 		recruitable_population_factor = 0.03
-11738c11738
+11750c11750
 < 		country_resource_aluminium = 10 
 ---
 > 		country_resource_aluminium = 100 
-11748c11748
+11760c11760
 < 		country_resource_aluminium = 20 
 ---
 > 		country_resource_aluminium = 200 
-11842c11842
+11854c11854
 < 		country_resource_steel = 10 
 ---
 > 		country_resource_steel = 100 
-12215c12215
+12227c12227
 < 		country_resource_steel = 12
 ---
 > 		country_resource_steel = 120

@@ -1,76 +1,76 @@
-3956c3956
+3979c3979
 < prospect_for_resources = {
 ---
 > prospect_for_resources={
-3970c3970
+3993c3993
 < 				state = 655
 ---
 > 				state = 7860
-4012c4012
+4035c4035
 < 					amount = 12
 ---
 > 					amount = 144
-4071c4071
+4094c4094
 < 					amount = 26
 ---
 > 					amount = 312
-4131c4131
+4154c4154
 < 					amount = 20
 ---
 > 					amount = 240
-4202c4202
+4225c4225
 < 					amount = 12
 ---
 > 					amount = 144
-4260c4260
+4283c4283
 < 					amount = 8
 ---
 > 					amount = 96
-4318c4318
+4341c4341
 < 					amount = 6
 ---
 > 					amount = 72
-4376c4376
+4399c4399
 < 					amount = 4
 ---
 > 					amount = 48
-4434c4434
+4457c4457
 < 	#				amount = 6
 ---
 > 	#				amount = 72
-4492c4492
+4515c4515
 < 					amount = 12
 ---
 > 					amount = 144
-4550c4550
+4573c4573
 < 					amount = 26
 ---
 > 					amount = 312
-4608c4608
+4631c4631
 < 					amount = 16
 ---
 > 					amount = 192
-4666c4666
+4689c4689
 < 					amount = 14
 ---
 > 					amount = 168
-4724c4724
+4747c4747
 < 					amount = 12
 ---
 > 					amount = 144
-4797c4797
+4820c4820
 < 					amount = 12
 ---
 > 					amount = 144
-4857c4857
+4880c4880
 < 					amount = 8
 ---
 > 					amount = 96
-4911c4911
+4934c4934
 < 					amount = 12
 ---
 > 					amount = 144
-4965c4965
+4988c4988
 < 					amount = 12
 ---
 > 					amount = 144
