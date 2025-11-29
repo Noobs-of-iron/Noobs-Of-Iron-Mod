@@ -1,76 +1,119 @@
-3979c3979
+1020,1027d1019
+< 		target_root_trigger = {
+< 			NOT = { has_country_flag = JAP_offered_china_white_peace_flag }
+< 			is_subject = no
+< 			any_enemy_country = {
+< 				is_literally_china = yes
+< 			}
+< 		}
+< 		
+1040a1033,1036
+> 			is_subject = no
+> 			any_enemy_country = {
+> 				is_literally_china = yes
+> 			}
+1052d1047
+< 			set_country_flag = JAP_offered_china_white_peace_flag
+2177d2171
+< 
+2179,2189c2173
+< 			is_subject = no 
+< 			OR = {
+< 				is_faction_leader = yes
+< 				AND = {
+< 					is_faction_leader = no
+< 					any_allied_country = {
+< 						is_faction_leader = yes
+< 						has_government = democratic 
+< 					}
+< 				}
+< 			}
+---
+> 			
+3529,3536c3513
+< 			
+< 			hidden_trigger = {
+< 				OR = {
+< 					has_border_war_with = SOV # Japan shouldn't lose war support if they actually use the window of opportunity
+< 					has_country_flag = JAP_did_the_border_war_flag
+< 				}
+< 			}
+< 				
+---
+> 			has_border_war_with = SOV # Japan shouldn't lose war support if they actually use the window of opportunity
+3979c3956
 < prospect_for_resources = {
 ---
 > prospect_for_resources={
-3993c3993
+3993c3970
 < 				state = 655
 ---
 > 				state = 7860
-4035c4035
+4035c4012
 < 					amount = 12
 ---
 > 					amount = 144
-4094c4094
+4094c4071
 < 					amount = 26
 ---
 > 					amount = 312
-4154c4154
+4154c4131
 < 					amount = 20
 ---
 > 					amount = 240
-4225c4225
+4225c4202
 < 					amount = 12
 ---
 > 					amount = 144
-4283c4283
+4283c4260
 < 					amount = 8
 ---
 > 					amount = 96
-4341c4341
+4341c4318
 < 					amount = 6
 ---
 > 					amount = 72
-4399c4399
+4399c4376
 < 					amount = 4
 ---
 > 					amount = 48
-4457c4457
+4457c4434
 < 	#				amount = 6
 ---
 > 	#				amount = 72
-4515c4515
+4515c4492
 < 					amount = 12
 ---
 > 					amount = 144
-4573c4573
+4573c4550
 < 					amount = 26
 ---
 > 					amount = 312
-4631c4631
+4631c4608
 < 					amount = 16
 ---
 > 					amount = 192
-4689c4689
+4689c4666
 < 					amount = 14
 ---
 > 					amount = 168
-4747c4747
+4747c4724
 < 					amount = 12
 ---
 > 					amount = 144
-4820c4820
+4820c4797
 < 					amount = 12
 ---
 > 					amount = 144
-4880c4880
+4880c4857
 < 					amount = 8
 ---
 > 					amount = 96
-4934c4934
+4934c4911
 < 					amount = 12
 ---
 > 					amount = 144
-4988c4988
+4988c4965
 < 					amount = 12
 ---
 > 					amount = 144

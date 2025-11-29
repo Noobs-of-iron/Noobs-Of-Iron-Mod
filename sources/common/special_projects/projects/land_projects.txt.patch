@@ -14,7 +14,46 @@
 > 		resources={ 
 > 			steel = 96
 > 			tungsten = 48
-1102,1105c1102,1105
+1077a1078,1115
+> sp_land_aphe_apcr_rounds = {
+> 	specialization = specialization_land
+> 
+> 	project_tags = sp_tag_artillery
+> 
+> 	allowed = {
+> 		has_dlc = "Gotterdammerung"
+> 	}
+> 	
+> 	available = {
+> 		FROM = {
+> 			has_tech = antitank2
+> 		}
+> 	}
+> 	
+> 	prototype_time = sp_time.prototype.short
+> 
+> 	complexity = sp_complexity.small
+> 
+> 	breakthrough_cost = {
+> 		specialization_land = 1
+> 	}
+> 
+> 	resource_cost = {
+> 		resources={ 
+> 			steel = 96
+> 			tungsten = 48
+> 		}
+> 	}
+> 	
+> 	project_output = {
+> 		enable_equipment_modules = {
+> 			aphe_round
+> 			apcr_round
+> 		}
+> 	}
+> }
+> 
+1102,1105c1140,1143
 < 		resources = { 
 < 			steel = 8
 < 			tungsten = 6
@@ -24,7 +63,7 @@
 > 			steel = 96
 > 			tungsten = 72
 > 			chromium = 24
-1231,1234c1231,1234
+1231,1234c1269,1272
 < 		resources = { 
 < 			steel = 16
 < 			tungsten = 8
@@ -34,7 +73,7 @@
 > 			steel = 192
 > 			tungsten = 96
 > 			chromium = 96
-1318,1321c1318,1321
+1318,1321c1356,1359
 < 		resources = { 
 < 			steel = 6
 < 			tungsten = 4
@@ -44,7 +83,7 @@
 > 			steel = 72
 > 			tungsten = 48
 > 			chromium = 24
-1564,1567c1564,1567
+1564,1567c1602,1605
 < 		resources = { 
 < 			steel = 4
 < 			chromium = 2

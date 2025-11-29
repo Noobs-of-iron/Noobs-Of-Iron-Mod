@@ -26,27 +26,27 @@ country_event = {
 }
 
 # US annexes the Philippines
-country_event = {
-     id = noi_usa.2
-     title = noi_usa.2.t
-     desc = noi_usa.2.d
-     picture = GFX_report_event_usa_heavy_cruiser
-
-     trigger = {
-         tag = USA
-         has_war_with = JAP
-     }
-
-     fire_only_once = yes
-
-     option = {
-          name = noi_usa.2.a
-          annex_country = {
-                target = PHI
-                transfer_troops = yes
-          }
-     }
-}
+# country_event = {
+#     id = noi_usa.2
+#      title = noi_usa.2.t
+#      desc = noi_usa.2.d
+#      picture = GFX_report_event_usa_heavy_cruiser
+# 
+#      trigger = {
+#          tag = USA
+#          has_war_with = JAP
+#      }
+# 
+#      fire_only_once = yes
+# 
+#      option = {
+#           name = noi_usa.2.a
+#           annex_country = {
+#                 target = PHI
+#                 transfer_troops = yes
+#           }
+#      }
+# }
 
 # Japan attack on Eurobros, timer for the Pacific war starts
 country_event = {

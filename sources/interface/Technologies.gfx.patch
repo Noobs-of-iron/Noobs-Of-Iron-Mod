@@ -1,4 +1,4 @@
-2a3,60
+2a3,65
 > 	### NOIM techs
 > 	
 > 	SpriteType = {
@@ -20,6 +20,11 @@
 > 		name = "GFX_improved_hybrid_ship_hull_heavy_medium"
 > 		texturefile = "gfx/interface/technologies/advanced_hybrid_carrier.dds"
 > 	}
+> 
+> 	SpriteType = {
+> 		name = "GFX_sp_land_aphe_apcr_rounds"
+> 		texturefile = "gfx/interface/technologies/sp_land_aphe_apcr_rounds.dds"
+> 	} 
 > 
 > 	SpriteType = {
 > 		name = "GFX_improved_ship_hull_escort_carrier_medium"
