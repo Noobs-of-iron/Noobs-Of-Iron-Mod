@@ -1993,18 +1993,18 @@
 < 		id = uk_china_focus 
 6459d4830
 < 		prerequisite = { focus = hk_air_focus  }
-6461,6464d4831
+6461,6468d4831
 < 		available = {
 < 			CHI = { exists = yes }
 < 			has_government = democratic
 < 		} 
-6466,6468d4832
+< 
 < 		cancel = {
 < 			CHI = { exists = no }
 < 		}
-6470,6504d4833
+6470d4832
 < 		icon = GFX_focus_chi_cooperation_with_the_nationalists
-< 
+6472,6504d4833
 < 		x = 0
 < 		y = 1
 < 		relative_position_id = hk_air_focus
@@ -2139,7 +2139,7 @@
 < 		}
 ---
 > 		available = { }
-13223a11563,14327
+13223a11563,14341
 > 	}
 > 	
 > ###################################
@@ -3128,6 +3128,20 @@
 > 						level = 3
 > 						instant_build = yes
 > 					}
+> 				}
+> 
+> 				IF = {
+> 				    limit = {
+> 				        447 = {
+> 				            naval_headquarters < 1
+> 				        }
+> 				    }
+> 				    add_building_construction = {
+> 				        type = naval_headquarters
+> 				        level = 1
+> 				        province = 4076
+> 				        instant_build = yes
+> 				    }
 > 				}
 > 				
 > 				
