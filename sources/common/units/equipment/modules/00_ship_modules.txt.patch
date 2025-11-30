@@ -169,7 +169,7 @@
 < 			rubber = 2
 ---
 > 		build_cost_resources={
-> 			rubber = 2.4
+> 			rubber = 24
 2546,2547c2546,2547
 < 		build_cost_resources = {
 < 			steel = 1
@@ -181,7 +181,7 @@
 < 			steel = 2
 ---
 > 		build_cost_resources={
-> 			steel = 2.4
+> 			steel = 24
 2595c2595
 < 		build_cost_resources = {
 ---
@@ -309,16 +309,16 @@
 < 			steel = 2
 ---
 > 		build_cost_resources={
-> 			steel = 2.4
+> 			steel = 24
 3048,3049c3063,3064
 < 		build_cost_resources = {
 < 			steel = 2
 ---
 > 		build_cost_resources={
-> 			steel = 2.4
+> 			steel = 24
 3071,3072c3086,3087
 < 		build_cost_resources = {
 < 			steel = 3
 ---
 > 		build_cost_resources={
-> 			steel = 3.6
+> 			steel = 36

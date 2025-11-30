@@ -395,15 +395,15 @@
 11149c11076
 <                     amount = 8
 ---
->                     amount = 9.6
+>                     amount = 96
 11154c11081
 <                     amount = 4
 ---
->                     amount = 4.8
+>                     amount = 48
 11158c11085
 <                     amount = 4
 ---
->                     amount = 4.8
+>                     amount = 48
 13450c13377
 <                     amount = 12
 ---
@@ -419,7 +419,7 @@
 13952c13879
 <                         amount = 4
 ---
->                         amount = 4.8
+>                         amount = 48
 13956c13883
 <                         amount = 6
 ---

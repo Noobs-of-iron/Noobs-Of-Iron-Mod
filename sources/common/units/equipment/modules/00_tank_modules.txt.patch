@@ -56,7 +56,7 @@
 > 		}
 > 		
 > 		build_cost_resources={
-> 			rubber = 4.8
+> 			rubber = 48
 184a193,194
 > 		build_cost_ic = 1
 > 		reliability = 0.03

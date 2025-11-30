@@ -103,7 +103,7 @@
 ---
 > 		build_cost_ic = 900
 > 		resources={
-> 			steel = 3.6
+> 			steel = 36
 407,409c407,409
 < 		build_cost_ic = 150
 < 		resources = {

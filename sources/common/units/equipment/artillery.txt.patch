@@ -86,8 +86,8 @@
 < 			tungsten = 2
 ---
 > 		resources={
-> 			steel = 4.8
-> 			tungsten = 2.4
+> 			steel = 48
+> 			tungsten = 24
 300,303c300,303
 < 		resources = {
 < 			tungsten = 3
@@ -95,6 +95,6 @@
 < 			chromium = 1
 ---
 > 		resources={
-> 			tungsten = 3.6
-> 			steel = 4.8
-> 			chromium = 1.2
+> 			tungsten = 36
+> 			steel = 48
+> 			chromium = 12
