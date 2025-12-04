@@ -1,14 +1,14 @@
-784c784
+833c833
 < 		army_core_attack_factor = 0.05
 ---
 > 		army_attack_factor = 0.025
-824,825c824,825
+873,874c873,874
 < 		army_core_attack_factor = 0.075
 < 		army_core_defence_factor = 0.075
 ---
 > 		army_attack_factor = 0.05
 > 		army_defence_factor = 0.05
-3183,3194d3182
+3232,3243d3231
 < 	guerilla_expert = {
 < 		random = no
 < 		sprite = 13
@@ -21,23 +21,23 @@
 < 		
 < 	}
 < 
-3988c3976
+4037c4025
 < 		conscription_factor = 0.05
 ---
 > 		recruitable_population_factor = 0.03
-11750c11738
+11802c11790
 < 		country_resource_aluminium = 10 
 ---
 > 		country_resource_aluminium = 100 
-11760c11748
+11812c11800
 < 		country_resource_aluminium = 20 
 ---
 > 		country_resource_aluminium = 200 
-11854c11842
+11906c11894
 < 		country_resource_steel = 10 
 ---
 > 		country_resource_steel = 100 
-12227c12215
+12279c12267
 < 		country_resource_steel = 12
 ---
 > 		country_resource_steel = 120
