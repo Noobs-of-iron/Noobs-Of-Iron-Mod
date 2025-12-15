@@ -400,7 +400,7 @@
 ---
 > 	BASE_TRADE_FACTOR = 1500,					-- This is the base trade factor
 > 	PUPPET_MASTER_TRADE_FACTOR = 4000,			-- This is priority for puppet master
-3046,3048c3046,3048
+3048,3050c3048,3050
 < 		4, -- STRIKE FORCE
 < 		1.5, -- CONVOY RAIDING
 < 		4, -- CONVOY ESCORT
@@ -408,19 +408,19 @@
 > 		3, -- STRIKE FORCE
 > 		2, -- CONVOY RAIDING
 > 		3, -- CONVOY ESCORT
-3053c3053
+3055c3055
 < 		10, -- NAVAL INVASION SUPPORT
 ---
 > 		4, -- NAVAL INVASION SUPPORT
-3823c3823
+3825c3825
 < 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 ---
 > 	RECON_PLANE_INTEL_BASE = 0.05, 				-- intel base amount for a strategic area per plane
-4177c4177
+4179c4179
 < 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 60.0,
 ---
 > 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 100.0,
-4206c4206
+4208c4208
 < 	DEFAULT_STARTING_TRUCK_RATIO = 1.5, -- countries get this ratio of starting truck in their buffers compared to their need
 ---
 > 	DEFAULT_STARTING_TRUCK_RATIO = 2.0, -- countries get this ratio of starting truck in their buffers compared to their need

@@ -29,19 +29,24 @@
 >          conscription = 0.02
 >         }
 > 
-623c627
+617c621
 <         defense = 0.2
 ---
 >         defense = 0.05
-627c631
+621c625
 <         defense = 0.2
 ---
 >         defense = 0.05
+667c671
+<                     defence = 0.10
+---
+>                     defence = 0.20
 673c677
 <                     defence = 0.10
 ---
 >                     defence = 0.20
-679c683
-<                     defence = 0.10
+858c862
+< }
+\ Pas de fin de ligne à la fin du fichier
 ---
->                     defence = 0.20
+> }

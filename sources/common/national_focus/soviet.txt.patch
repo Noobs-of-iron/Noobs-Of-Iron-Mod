@@ -87,12 +87,12 @@
 < 		cost = 10
 ---
 > 		cost = 0.2
-15767c15787,15788
+15773c15793,15794
 < 		allow_branch = { 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-17931c17952
+17937c17958
 < 		cost = 10
 ---
 > 		cost = 1
