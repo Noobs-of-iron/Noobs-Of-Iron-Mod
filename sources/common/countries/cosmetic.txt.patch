@@ -4,3 +4,27 @@
 ---
 > 	color = rgb { 255 202 96 }
 > 	color_ui = rgb { 255 202 96 }
+663,664c663,664
+< 	color = rgb { 138 249 195 }
+< 	color_ui = rgb { 138 249 195 }
+---
+> 	color = rgb { 41 135 62 }
+> 	color_ui = rgb { 41 135 62 }
+668,669c668,669
+< 	color = rgb { 138 249 195 }
+< 	color_ui = rgb { 138 249 195 }
+---
+> 	color = rgb { 41 135 62 }
+> 	color_ui = rgb { 41 135 62 }
+673,674c673,674
+< 	color = rgb { 138 249 195 }
+< 	color_ui = rgb { 138 249 195 }
+---
+> 	color = rgb { 41 135 62 }
+> 	color_ui = rgb { 41 135 62 }
+678,679c678,679
+< 	color = rgb { 138 249 195 }
+< 	color_ui = rgb { 138 249 195 }
+---
+> 	color = rgb { 41 135 62 }
+> 	color_ui = rgb { 41 135 62 }

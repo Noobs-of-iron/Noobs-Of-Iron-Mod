@@ -266,11 +266,15 @@
 < 				sub_detection = 10
 ---
 > 				sub_detection = 15
-2150c2150
+2147a2148
+> 				air_superiority
+2150c2151
 < 				night_penalty = -0.2
 ---
 > 				night_penalty = -0.4
-2172c2172
+2169a2171
+> 				air_superiority
+2172c2174
 < 				night_penalty = -0.4
 ---
 > 				night_penalty = -0.6

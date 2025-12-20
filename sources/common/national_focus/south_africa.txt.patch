@@ -49,6 +49,10 @@
 < 					level = 2
 ---
 > 					level = 3
+2102c2088
+< 				add_extra_state_shared_building_slots = 2
+---
+> 				add_extra_state_shared_building_slots = 3
 2105c2091
 < 					level = 2
 ---
@@ -69,7 +73,7 @@
 > 						include_locked = yes
 > 					}
 > 				}
-> 				add_extra_state_shared_building_slots = 1
+> 				add_extra_state_shared_building_slots = 3
 > 				add_building_construction = {
 > 					type = industrial_complex
 > 					level = 3
@@ -101,11 +105,13 @@
 < 					instant_build = yes
 < 				}
 < 			}
-2240c2221
+2237a2219
+> 				add_extra_state_shared_building_slots = 3
+2240c2222
 < 					level = 1
 ---
 > 					level = 2
-2259,2288d2239
+2259,2288d2240
 < 				random_neighbor_state = { # done like this to prevent double selection of previous state
 < 					limit = {
 < 						is_controlled_by = ROOT
@@ -136,15 +142,15 @@
 < 					}
 < 					set_state_flag = SAF_infrastructure_effort_Inf4
 < 				}
-2385c2336
+2385c2337
 < 					amount = 16
 ---
 > 					amount = 192
-2525c2476
+2525c2477
 < 		cost = 10
 ---
 > 		cost = 5
-2545,2562c2496,2500
+2545,2562c2497,2501
 < 			if = {
 < 				limit = {
 < 					NOT = {
@@ -169,7 +175,7 @@
 > 				bonus = 1.0
 > 				uses = 1
 > 				category = nuclear
-2567,2597d2504
+2567,2597d2505
 < 	focus = {
 < 		id = SAF_the_cape_defense_institute
 < 		icon = GFX_focus_research
@@ -201,23 +207,23 @@
 < 			add_research_slot = 1
 < 		}
 < 	}
-2603c2510
+2603c2511
 < 		x = 1
 ---
 > 		x = 0
-2648c2555
+2648c2556
 < 		x = 24
 ---
 > 		x = 29
-2671c2578
+2671c2579
 < 			army_experience = 10
 ---
 > 			army_experience = 25
-2674c2581
+2674c2582
 < 				cost_reduction = 0.25
 ---
 > 				cost_reduction = 0.5
-2684,2686c2591,2593
+2684,2686c2592,2594
 < 		prerequisite = { focus = SAF_special_service_battalion }
 < 		x = -1
 < 		y = 1
@@ -225,11 +231,11 @@
 > 		prerequisite = { focus = SAF_sa_engineer_corps }
 > 		x = -4
 > 		y = 2
-2711c2618
+2711c2619
 < 				bonus = 1.0
 ---
 > 				bonus = 2.0
-2721,2723c2628,2630
+2721,2723c2629,2631
 < 		prerequisite = { focus = SAF_special_service_battalion }
 < 		x = 1
 < 		y = 1
@@ -237,7 +243,7 @@
 > 		prerequisite = { focus = SAF_sa_engineer_corps }
 > 		x = -2
 > 		y = 2
-2762,2764c2669,2671
+2762,2764c2670,2672
 < 		prerequisite = { focus = SAF_improve_the_three_oh_three focus = SAF_q_services_corps }
 < 		x = 0
 < 		y = 2
@@ -245,11 +251,11 @@
 > 		prerequisite = { focus = SAF_special_service_battalion }
 > 		x = -2
 > 		y = 1
-2787c2694
+2787c2695
 < 			army_experience = 10
 ---
 > 			army_experience = 25
-2800,2802c2707,2709
+2800,2802c2708,2710
 < 		prerequisite = { focus = SAF_improve_the_three_oh_three focus = SAF__south_african_military_college }
 < 		x = -1
 < 		y = 3
@@ -257,11 +263,11 @@
 > 		prerequisite = { focus = SAF_sa_engineer_corps }
 > 		x = -6
 > 		y = 2
-2828c2735
+2828c2736
 < 				uses = 1
 ---
 > 				uses = 2
-2837,2839c2744,2746
+2837,2839c2745,2747
 < 		prerequisite = { focus = SAF_q_services_corps focus = SAF__south_african_military_college }
 < 		x = 1
 < 		y = 3
@@ -269,11 +275,11 @@
 > 		prerequisite = { focus = SAF_special_service_battalion }
 > 		x = -4
 > 		y = 1
-2863c2770
+2863c2771
 < 				name = SAF_sa_engineer_corps
 ---
 > 				name = SAF_equipment_effort
-2865a2773,2779
+2865a2774,2780
 > 				category = infantry_weapons
 > 				category = artillery
 > 			}
@@ -281,7 +287,7 @@
 > 				name = SAF_sa_engineer_corps
 > 				bonus = 1.5
 > 				uses = 1
-2872,2876c2786,2790
+2872,2876c2787,2791
 < 		id = SAF_equipment_effort
 < 		icon = GFX_goal_generic_army_artillery
 < 		prerequisite = { focus = SAF_expand_the_south_african_artillery focus = SAF_sa_engineer_corps }
@@ -293,22 +299,22 @@
 > 		prerequisite = { focus = SAF_q_services_corps }
 > 		x = -3
 > 		y = 3
-2895c2809
+2895c2810
 < 		available_if_capitulated = yes
 ---
 > 		available_if_capitulated = no
-2900,2901c2814,2815
+2900,2901c2815,2816
 < 				name = SAF_equipment_effort
 < 				bonus = 1.0
 ---
 > 				name = SAF_mechanization_effort
 > 				bonus = 2.0
-2903,2904c2817
+2903,2904c2818
 < 				category = infantry_weapons
 < 				category = artillery
 ---
 > 				category = cat_mechanized_equipment
-2910,2914c2823,2828
+2910,2914c2824,2829
 < 		id = SAF_mechanization_effort
 < 		icon = GFX_goal_generic_build_tank
 < 		prerequisite = { focus = SAF_equipment_effort }
@@ -321,27 +327,27 @@
 > 		prerequisite = { focus = SAF_improve_the_three_oh_three }
 > 		x = -5
 > 		y = 3
-2933c2847
+2933c2848
 < 		available_if_capitulated = no
 ---
 > 		available_if_capitulated = yes
-2936c2850
+2936c2851
 < 		completion_reward = {			
 ---
 > 		completion_reward = {
-2938,2939c2852,2853
+2938,2939c2853,2854
 < 				name = SAF_mechanization_effort
 < 				bonus = 1.0
 ---
 > 				name = SAF_south_african_special_forces
 > 				bonus = 3.0
-2941c2855,2857
+2941c2856,2858
 < 				category = cat_mechanized_equipment
 ---
 > 				category = para_tech
 > 				category = marine_tech
 > 				category = mountaineers_tech
-2947,2951c2863,2867
+2947,2951c2864,2868
 < 		id = SAF_south_african_special_forces
 < 		icon = GFX_goal_generic_special_forces
 < 		prerequisite = { focus = SAF_equipment_effort focus = SAF_sa_engineer_corps }
@@ -353,19 +359,19 @@
 > 		prerequisite = { focus = SAF_q_services_corps }
 > 		x = -1
 > 		y = 3
-2954c2870
+2954c2871
 < 		cost = 10
 ---
 > 		cost = 5
-2970c2886
+2970c2887
 < 		available_if_capitulated = yes
 ---
 > 		available_if_capitulated = no
-2975c2891
+2975c2892
 < 				name = SAF_south_african_special_forces
 ---
 > 				name = SAF_armor_effort
-2978,2988c2894
+2978,2988c2895
 < 				category = para_tech
 < 				category = marine_tech
 < 				category = mountaineers_tech
@@ -379,11 +385,11 @@
 < 				}
 ---
 > 				category = armor
-2992c2898
+2992c2899
 < 
 ---
 > 	
-2994,2996c2900,2902
+2994,2996c2901,2903
 < 		id = SAF_armor_effort
 < 		icon = GFX_goal_generic_army_tanks
 < 		prerequisite = { focus = SAF_south_african_special_forces focus = SAF_mechanization_effort }
@@ -391,23 +397,23 @@
 > 		id = SAF_the_cape_defense_institute
 > 		icon = GFX_focus_research
 > 		prerequisite = { focus = SAF_armor_effort focus = SAF_mechanization_effort focus = SAF_south_african_special_forces}
-2998,2999c2904,2905
+2998,2999c2905,2906
 < 		y = 6
 < 		relative_position_id = SAF_special_service_battalion
 ---
 > 		y = 1
 > 		relative_position_id = SAF_mechanization_effort
-3004c2910
+3004c2911
 < 			factor = 1
 ---
 > 			factor = 100
-3007,3009c2913
+3007,3009c2914
 < 		available = {
 < 
 < 		}
 ---
 > 		
-3021,3026c2925
+3021,3026c2926
 < 			add_tech_bonus = {
 < 				name = SAF_armor_effort
 < 				bonus = 1.0
@@ -416,19 +422,19 @@
 < 			}
 ---
 > 			add_research_slot = 1
-3038c2937
+3038c2938
 < 		x = 28
 ---
 > 		x = 37
-3324c3223
+3324c3224
 < 			air_experience = 35
 ---
 > 			air_experience = 50
-3342c3241
+3342c3242
 < 		x = 32
 ---
 > 		x = 41
-3756c3655,4206
+3756c3656,4207
 < }		
 ---
 > 	
