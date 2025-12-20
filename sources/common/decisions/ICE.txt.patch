@@ -1,0 +1,12 @@
+86c86
+< 							amount = 4
+---
+> 							amount = 48
+94c94
+< 							amount = 2
+---
+> 							amount = 24
+102c102
+< 							amount = 8
+---
+> 							amount = 96

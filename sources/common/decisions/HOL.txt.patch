@@ -1,0 +1,16 @@
+190c190
+< 					amount = 2
+---
+> 					amount = 24
+286c286
+< 					amount = 1
+---
+> 					amount = 12
+292c292
+< 					amount = 1
+---
+> 					amount = 12
+298c298
+< 					amount = 1
+---
+> 					amount = 12

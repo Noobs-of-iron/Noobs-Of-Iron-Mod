@@ -25,6 +25,10 @@
 < 		conscription_factor = 0.05
 ---
 > 		recruitable_population_factor = 0.03
+11032c11020
+< 		country_resource_coal = 6
+---
+> 		country_resource_coal = 72
 11820c11808
 < 		country_resource_aluminium = 10 
 ---
@@ -37,7 +41,31 @@
 < 		country_resource_steel = 10 
 ---
 > 		country_resource_steel = 100 
+11933c11921
+< 		country_resource_oil = 20 
+---
+> 		country_resource_oil = 240 
 12297c12285
 < 		country_resource_steel = 12
 ---
 > 		country_resource_steel = 120
+12313c12301
+< 		country_resource_oil = 10 
+---
+> 		country_resource_oil = 120 
+12361c12349
+< 		resource_trade_cost_bonus_per_factory = 2
+---
+> 		resource_trade_cost_bonus_per_factory = 24
+12469c12457
+< 		resource_trade_cost_bonus_per_factory = 1
+---
+> 		resource_trade_cost_bonus_per_factory = 12
+17131c17119
+< 		resource_trade_cost_bonus_per_factory = -2
+---
+> 		resource_trade_cost_bonus_per_factory = -24
+17141c17129
+< 		resource_trade_cost_bonus_per_factory = -1
+---
+> 		resource_trade_cost_bonus_per_factory = -12

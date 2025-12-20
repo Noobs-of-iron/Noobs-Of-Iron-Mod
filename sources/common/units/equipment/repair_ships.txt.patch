@@ -1,0 +1,6 @@
+57,58c57,58
+< 		resources = {
+< 			steel = 2
+---
+> 		resources={
+> 			steel = 24
