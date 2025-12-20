@@ -87,12 +87,27 @@
 < 		cost = 10
 ---
 > 		cost = 0.2
-15773c15793,15794
+15029a15050,15053
+> 			add_timed_idea = {
+> 				idea = SOV_NOI_red_volunteer_army_i
+> 				days = 1095
+> 			}
+15095a15120,15123
+> 			add_timed_idea = {
+> 				idea = SOV_NOI_red_volunteer_army_i
+> 				days = 1095
+> 			}
+15164a15193,15196
+> 			add_timed_idea = {
+> 				idea = SOV_NOI_red_volunteer_army_i
+> 				days = 1095
+> 			}
+15773c15805,15806
 < 		allow_branch = { 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-17937c17958
+17937c17970
 < 		cost = 10
 ---
 > 		cost = 1
