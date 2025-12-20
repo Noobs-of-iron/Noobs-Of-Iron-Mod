@@ -1,0 +1,5 @@
+318a319,322
+> add_relation_rule_override = {
+> 	target = SPR
+> 	can_send_volunteers = yes
+> }
