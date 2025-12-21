@@ -1,9 +1,17 @@
+128c128
+< 		max_strength = 25
+---
+> 		max_strength = 50
 134,135c134,135
 < 		resources = {
 < 			steel = 2
 ---
 > 		resources={
 > 			steel = 24
+211c211
+< 		max_strength = 40
+---
+> 		max_strength = 80
 214,215c214,215
 < 		resources = {
 < 			steel = 2
@@ -16,6 +24,14 @@
 ---
 > 		resources={
 > 			steel = 36
+283c283
+< 		max_strength = 50
+---
+> 		max_strength = 100
+363c363
+< 		max_strength = 60
+---
+> 		max_strength = 120
 366,368c366,368
 < 		resources = {
 < 			steel = 4

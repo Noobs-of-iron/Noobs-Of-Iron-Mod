@@ -1,3 +1,7 @@
+130c130
+< 		max_strength = 250
+---
+> 		max_strength = 375
 139,141c139,141
 < 		resources = {
 < 			steel = 3
@@ -6,6 +10,10 @@
 > 		resources={
 > 			steel = 36
 > 			chromium = 12
+219c219
+< 		max_strength = 325
+---
+> 		max_strength = 487
 224,226c224,226
 < 		resources = {
 < 			steel = 4
@@ -14,6 +22,10 @@
 > 		resources={
 > 			steel = 48
 > 			chromium = 12
+291c291
+< 		max_strength = 350
+---
+> 		max_strength = 525
 296,298c296,298
 < 		resources = {
 < 			steel = 4
@@ -22,6 +34,10 @@
 > 		resources={
 > 			steel = 48
 > 			chromium = 24
+370c370
+< 		max_strength = 400
+---
+> 		max_strength = 600
 375,377c375,377
 < 		resources = {
 < 			steel = 5
@@ -30,6 +46,10 @@
 > 		resources={
 > 			steel = 60
 > 			chromium = 36
+450c450
+< 		max_strength = 350
+---
+> 		max_strength = 525
 457,459c457,459
 < 		resources = {
 < 			steel = 5
@@ -38,6 +58,10 @@
 > 		resources={
 > 			steel = 60
 > 			chromium = 24
+499c499
+< 		max_strength = 325
+---
+> 		max_strength = 487
 504,506c504,506
 < 		resources = {
 < 			steel = 4
@@ -46,6 +70,10 @@
 > 		resources={
 > 			steel = 48
 > 			chromium = 12
+541c541
+< 		max_strength = 125
+---
+> 		max_strength = 187
 546,547c546,547
 < 		resources = {
 < 			steel = 3

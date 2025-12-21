@@ -1,2 +1,6 @@
 85a86
 > 	marines = 1
+1312c1313
+< 		type = ship_hull_heavy_1
+---
+> 		type = ship_hull_heavy_2

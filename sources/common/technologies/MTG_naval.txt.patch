@@ -1,37 +1,208 @@
-914a915,919
+662d661
+< 			ship_armor_cruiser_1
+899c898
+< 			ship_armor_cruiser_2
+---
+> 			ship_armor_cruiser_1
+914a914,918
 > 
 > 		path = {
 > 			leads_to_tech = basic_hybrid_ship_hull_heavy
 > 			research_cost_coeff = 1
 > 		}
-958a964
+958a963
 > 
-1194a1201
+1194a1200
 > 
-1343c1350
+1214c1220
+< 			ship_armor_cruiser_3
+---
+> 			ship_armor_cruiser_2
+1228,1229c1234,1235
+< 		xp_boost_cost = 50
+< 		xp_research_bonus = 1.50
+---
+> 		xp_boost_cost = 75
+> 		xp_research_bonus = 0.5
+1263c1269
+< 	improved_heavy_armor_scheme = {
+---
+>     improved_heavy_armor_scheme = {
+1265,1269c1271,1275
+< 		enable_equipment_modules = {
+< 			ship_armor_bb_3
+< 			ship_armor_bc_3
+< 			ship_armor_cruiser_4
+< 		}
+---
+>         enable_equipment_modules = {
+>             ship_armor_bb_3
+>             ship_armor_bc_3
+>             ship_armor_cruiser_3
+>         }
+1271,1273c1277,1279
+< 		on_research_complete = {
+< 			custom_effect_tooltip = heavy_armor_advice_tt
+< 		}
+---
+>         on_research_complete = {
+>             custom_effect_tooltip = heavy_armor_advice_tt
+>         }
+1274a1281,1284
+>         path = {
+>             leads_to_tech = advanced_heavy_armor_scheme
+>             research_cost_coeff = 1
+>         }
+1276,1279c1286,1289
+< 		xp_research_type = navy
+< 		xp_boost_cost = 50
+< 		xp_research_bonus = 1.25
+< 		research_cost = 1.25
+---
+>         xp_research_type = navy
+>         xp_boost_cost = 75
+>         xp_research_bonus = 0.5
+>         research_cost = 1.25
+1281,1284c1291
+< 		folder = {
+< 			name = mtgnavalfolder
+< 			position = {  x = 0 y = 14 }
+< 		}
+---
+>         start_year = 1939
+1286,1287c1293,1296
+< 		ai_will_do = {
+< 			factor = 1
+---
+>         folder = {
+>             name = mtgnavalfolder
+>             position = {  x = 0 y = 14 }
+>         }
+1289,1300c1298,1299
+< 			modifier = {
+< 				factor = 4
+< 				OR = {
+< 					tag = ENG
+< 					tag = USA
+< 				}
+< 			}
+< 			modifier = {
+< 				has_tech = improved_ship_hull_heavy
+< 				factor = 2
+< 			}
+< 		}
+---
+>         ai_will_do = {
+>             factor = 1
+1302,1311c1301,1373
+< 		categories = {
+< 			naval_armor
+< 			naval_equipment
+< 			bb_tech
+< 			bc_tech
+< 			ship_modules_tech
+< 			mio_cat_tech_all_capital_ship_and_modules
+< 		}
+< 		special_project_specialization = { specialization_naval }
+< 	}
+---
+>             modifier = {
+>                 factor = 4
+>                 OR = {
+>                     tag = ENG
+>                     tag = USA
+>                 }
+>             }
+>             modifier = {
+>                 has_tech = improved_ship_hull_heavy
+>                 factor = 2
+>             }
+>         }
+> 
+>         categories = {
+>             naval_armor
+>             naval_equipment
+>             bb_tech
+>             bc_tech
+>             ship_modules_tech
+>             mio_cat_tech_all_capital_ship_and_modules
+>         }
+>         special_project_specialization = { specialization_naval }
+>     }
+> 
+>     advanced_heavy_armor_scheme = {
+> 
+>         enable_equipment_modules = {
+>             ship_armor_bb_4
+>             ship_armor_cruiser_4
+>         }
+> 
+>         on_research_complete = {
+>             custom_effect_tooltip = heavy_armor_advice_tt
+>         }
+> 
+> 
+>         xp_research_type = navy
+>         xp_boost_cost = 75
+>         xp_research_bonus = 0.5
+>         research_cost = 1.25
+> 
+>         start_year = 1943
+> 
+>         folder = {
+>             name = mtgnavalfolder
+>             position = {  x = 0 y = 20 }
+>         }
+> 
+>         ai_will_do = {
+>             factor = 1
+> 
+>             modifier = {
+>                 factor = 4
+>                 OR = {
+>                     tag = ENG
+>                     tag = USA
+>                 }
+>             }
+>             modifier = {
+>                 has_tech = improved_ship_hull_heavy
+>                 factor = 2
+>             }
+>         }
+> 
+>         categories = {
+>             naval_armor
+>             naval_equipment
+>             bb_tech
+>             ship_modules_tech
+>             mio_cat_tech_all_capital_ship_and_modules
+>         }
+>         special_project_specialization = { specialization_naval }
+>     }
+1343c1405
 < 			position = {  x = -1 y = 2 }
 ---
 > 			position = {  x = 2 y = 2 }
-1378a1386,1389
+1378a1441,1444
 > 		path = {
 > 			leads_to_tech = improved_ship_hull_escort_carrier
 > 			research_cost_coeff = 1
 > 		}
-1379a1391
+1379a1446
 > 
-1395c1407
+1395c1462
 < 			position = {  x = -1 y = 8 }
 ---
 > 			position = {  x = 2 y = 8 }
-1462c1474
+1462c1529
 < 			position = {  x = -1 y = 14 }
 ---
 > 			position = {  x = 2 y = 14 }
-1509c1521
+1509c1576
 < 			position = {  x = -1 y = 20 }
 ---
 > 			position = {  x = 2 y = 20 }
-1532a1545,1673
+1532a1600,1728
 > ######### ESCORT CARRIERS #################
 > ###################################################################################
 > #     #  #######   #####   #     #
@@ -161,65 +332,65 @@
 > #		special_project_specialization = { specialization_naval }
 > #	}
 > 
-1571c1712
+1571c1767
 < 			position = {  x = -2 y = 2 }
 ---
 > 			position = {  x = 3 y = 2 }
-1585c1726,1727
+1585c1781,1782
 < 
 ---
 > 	
 > 		
-1632c1774
+1632c1829
 < 			position = {  x = -2 y = 8 }
 ---
 > 			position = {  x = 3 y = 8 }
-1681c1823
+1681c1878
 < 			position = {  x = -2 y = 14 }
 ---
 > 			position = {  x = 3 y = 14 }
-1708a1851
+1708a1906
 > 		
-1719c1862
+1719c1917
 < 			position = {  x = -2 y = 20 }
 ---
 > 			position = {  x = 3 y = 20 }
-1748,1751c1891
+1748,1751c1946
 < 		path = {
 < 			leads_to_tech = improved_submarine_snorkel
 < 			research_cost_coeff = 1
 < 		}
 ---
 > 
-1757c1897
+1757c1952
 < 		start_year = 1939
 ---
 > 		start_year = 1940
-1761c1901
+1761c1956
 < 			position = {  x = -1 y = 13 }
 ---
 > 			position = {  x = 4 y = 13 }
-1806c1946
+1806c2001
 < 		start_year = 1943
 ---
 > 		start_year = 1944
-1946c2086
+1946c2141
 < 		start_year = 1939
 ---
 > 		start_year = 1940
-1975c2115
+1975c2170
 < 		start_year = 1943
 ---
 > 		start_year = 1944
-2015c2155
+2015c2210
 < 			position = { x = 0 y = 17 }
 ---
 > 			position = { x = 3 y = 17 }
-2042c2182
+2042c2237
 < 		start_year = 1944
 ---
 > 		start_year = 1945
-2045c2185
+2045c2240
 < 			position = { x = 0 y = 23 }
 ---
 > 			position = { x = 3 y = 23 }

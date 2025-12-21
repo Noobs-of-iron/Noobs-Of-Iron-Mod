@@ -1,0 +1,4 @@
+12c12
+< 		supply_consumption = 0.04
+---
+> 		supply_consumption = 0.1
