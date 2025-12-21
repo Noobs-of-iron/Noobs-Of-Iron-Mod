@@ -5,3 +5,9 @@
  noi_rule_ahistorical_forbidden_desc: "Ahistorical paths for major hidden and disabled (default)"
  noi_rule_ahistorical_allowed: "Allowed"
  noi_rule_ahistorical_allowed_desc: "All major paths, including ahistorical, are avaiable (trees will be visually borked)"
+
+
+ RULE_OPTION_BELLIGERENT_ONLY: "Co-belligerents only"
+ RULE_ALLOW_ACCESS_BELLIGERENT_ONLY_DESC: "Land and naval access can be established only between countries fighting on the same side\nAnd you cannot get access to Comintern countries unless Japan has surrendered"
+ RULE_ALLOW_MILITARY_ACCESS_BELLIGERENT_ONLY_TT: "You can only get military access from co-belligerents"
+ AIR_BASE_ACCESS_FACTIONLESS_BELLIGERENTS_ONLY_TT: "You can only get airbase access from factionless co-belligerents"

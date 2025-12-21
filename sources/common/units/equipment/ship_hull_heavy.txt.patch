@@ -1,3 +1,7 @@
+133c133
+< 		max_strength = 350
+---
+> 		max_strength = 525
 138,140c138,140
 < 		resources = {
 < 			steel = 1
@@ -6,6 +10,10 @@
 > 		resources={
 > 			steel = 12
 > 			chromium = 12
+199c199
+< 		max_strength = 300
+---
+> 		max_strength = 450
 204,206c204,206
 < 		resources = {
 < 			steel = 1
@@ -14,6 +22,14 @@
 > 		resources={
 > 			steel = 12
 > 			chromium = 12
+297c297
+< 		max_strength = 350
+---
+> 		max_strength = 525
+356c356
+< 		max_strength = 370
+---
+> 		max_strength = 555
 361,364c361,364
 < 		resources = {
 < 			#oil = 1
@@ -24,6 +40,10 @@
 > 
 > 			steel = 12
 > 			chromium = 12
+422c422
+< 		max_strength = 400
+---
+> 		max_strength = 600
 427,430c427,430
 < 		resources = {
 < 			#oil = 1
@@ -34,6 +54,10 @@
 > 
 > 			steel = 12
 > 			chromium = 12
+489c489
+< 		max_strength = 450
+---
+> 		max_strength = 675
 494,497c494,497
 < 		resources = {
 < 			#oil = 1
@@ -44,6 +68,10 @@
 > 
 > 			steel = 12
 > 			chromium = 12
+561c561
+< 		max_strength = 500
+---
+> 		max_strength = 750
 566,569c566,569
 < 		resources = {
 < 			tungsten = 2
@@ -54,6 +82,18 @@
 > 			tungsten = 24
 > 			steel = 72
 > 			chromium = 36
+610c610
+< 				allowed_module_categories = { ship_heavy_armor }	
+---
+> 				allowed_module_categories = { ship_super_heavy_armor }
+661c661
+< 		max_strength = 700
+---
+> 		max_strength = 850
+664c664
+< 		build_cost_ic = 5500
+---
+> 		build_cost_ic = 7500
 666,668c666,668
 < 		resources = {
 < 			steel = 1

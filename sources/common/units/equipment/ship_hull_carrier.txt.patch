@@ -1,3 +1,11 @@
+26c26
+< 		group_by = archetype
+---
+> 		group_by = type
+130c130
+< 		max_strength = 250
+---
+> 		max_strength = 375
 139,141c139,141
 < 		resources = {
 < 			steel = 3
@@ -6,22 +14,38 @@
 > 		resources={
 > 			steel = 36
 > 			chromium = 12
-224,226c224,226
+219c219
+< 		max_strength = 325
+---
+> 		max_strength = 487
+223,226c223,226
+< 		build_cost_ic = 2600
 < 		resources = {
 < 			steel = 4
 < 			chromium = 1
 ---
+> 		build_cost_ic = 2300
 > 		resources={
 > 			steel = 48
 > 			chromium = 12
-296,298c296,298
+291c291
+< 		max_strength = 350
+---
+> 		max_strength = 525
+295,298c295,298
+< 		build_cost_ic = 3250
 < 		resources = {
 < 			steel = 4
 < 			chromium = 2
 ---
+> 		build_cost_ic = 2600
 > 		resources={
 > 			steel = 48
 > 			chromium = 24
+370c370
+< 		max_strength = 400
+---
+> 		max_strength = 600
 375,377c375,377
 < 		resources = {
 < 			steel = 5
@@ -30,6 +54,10 @@
 > 		resources={
 > 			steel = 60
 > 			chromium = 36
+450c450
+< 		max_strength = 350
+---
+> 		max_strength = 525
 457,459c457,459
 < 		resources = {
 < 			steel = 5
@@ -38,6 +66,10 @@
 > 		resources={
 > 			steel = 60
 > 			chromium = 24
+499c499
+< 		max_strength = 325
+---
+> 		max_strength = 487
 504,506c504,506
 < 		resources = {
 < 			steel = 4
@@ -46,17 +78,89 @@
 > 		resources={
 > 			steel = 48
 > 			chromium = 12
+541c541
+< 		max_strength = 125
+---
+> 		max_strength = 187
 546,547c546,547
 < 		resources = {
 < 			steel = 3
 ---
 > 		resources={
 > 			steel = 36
-615c615
+554d553
+< 		abbreviation = "hacve"
+557d555
+< 		archetype = ship_hull_carrier
+558a557,570
+> 
+>         is_archetype = yes
+>         is_buildable = no
+>         type = screen_ship
+>         sprite = carrier
+>         group_by = type
+>         interface_category = interface_category_capital_ships
+> 
+>         upgrades = {
+>             ship_deckspace_upgrade
+>             ship_engine_upgrade
+>             ship_reliability_upgrade
+>         }
+> 
+570,574c582,598
+< 			fixed_ship_anti_air_slot = inherit
+< 			fixed_ship_radar_slot = inherit
+< 			fixed_ship_engine_slot = inherit
+< 			fixed_ship_secondaries_slot = inherit
+< 			fixed_ship_armor_slot = inherit
+---
+> 			fixed_ship_anti_air_slot = {
+> 				required = no
+> 				allowed_module_categories = { ship_anti_air }
+> 			}
+> 			fixed_ship_radar_slot = {
+> 				required = no
+> 				allowed_module_categories = { ship_radar }
+> 			}
+> 			fixed_ship_engine_slot = {
+> 				required = yes
+> 				allowed_module_categories = { light_ship_engine }
+> 			}
+> 			fixed_ship_secondaries_slot = {
+> 				required = no
+> 				allowed_module_categories = { ship_secondaries ship_dp_secondaries}
+> 			}
+> 
+598c622
+< 		surface_detection = 26
+---
+> 		surface_detection = 10
+606,607c630
+< 		max_strength = 175
+< 
+---
+> 		max_strength = 50
+609c632
+< 		fuel_consumption = 87
+---
+> 		fuel_consumption = 30
+614,615c637,638
+< 		build_cost_ic = 1500
 < 		resources = {
 ---
+> 		build_cost_ic = 1000
 > 		resources={
-715,718c715,718
+625c648,654
+< 		# change this from 1 at your own risk				
+---
+> 		# change this from 1 at your own risk
+> 	}
+> 
+> 	ship_hull_escort_carrier_1 = {
+> 	    archetype = ship_hull_escort_carrier
+> 	    abbreviation = "hacve"
+> 	    module_slots = inherit
+715,718c744,747
 < 		resources = {
 < 			#oil = 1
 < 			steel = 3
@@ -66,7 +170,7 @@
 > 
 > 			steel = 36
 > 			chromium = 12
-805,808c805,808
+805,808c834,837
 < 		resources = {
 < 			#oil = 1
 < 			steel = 4
@@ -76,7 +180,7 @@
 > 
 > 			steel = 48
 > 			chromium = 12
-852,855c852,855
+852,855c881,884
 < 		resources = {
 < 			#oil = 2
 < 			steel = 4
@@ -86,7 +190,7 @@
 > 
 > 			steel = 48
 > 			chromium = 24
-899,902c899,902
+899,902c928,931
 < 		resources = {
 < 			#oil = 2
 < 			steel = 5
@@ -96,7 +200,7 @@
 > 
 > 			steel = 60
 > 			chromium = 24
-1023,1026c1023,1026
+1023,1026c1052,1055
 < 		resources = {
 < 			#oil = 2
 < 			steel = 5
@@ -106,7 +210,7 @@
 > 			#oil = 24
 > 			steel = 60
 > 			chromium = 24
-1134,1136c1134,1136
+1134,1136c1163,1165
 < 		resources = {
 < 			steel = 5
 < 			chromium = 2
@@ -114,7 +218,7 @@
 > 		resources={
 > 			steel = 60
 > 			chromium = 24
-1222c1222
+1222c1251
 < 		resources = {
 ---
 > 		resources={

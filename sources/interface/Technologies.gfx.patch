@@ -1,4 +1,4 @@
-2a3,65
+2a3,70
 > 	### NOIM techs
 > 	
 > 	SpriteType = {
@@ -60,5 +60,10 @@
 > 	SpriteType = {
 > 		name = "GFX_HGC3"
 > 		textureFile = "gfx/interface/technologies/HGC3.dds"
+> 	 }
+> 
+> 	 SpriteType = {
+> 	    name = "GFX_advanced_heavy_armor_scheme_medium"
+> 	    textureFile = "gfx/interface/technologies/advanced_cruiser_armor_scheme.dds"
 > 	 }
 > 	

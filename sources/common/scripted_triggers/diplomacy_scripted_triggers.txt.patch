@@ -1,0 +1,75 @@
+896a897,916
+> 	if = {
+> 		limit = {
+> 			has_game_rule = {
+> 				rule = allow_access
+> 				option = BELLIGERENT_ONLY
+> 			}
+> 		}
+>         has_war_together_with = FROM
+>         OR = {
+>             FROM = {
+>                 NOT = { is_in_faction_with = SOV }
+>             }
+>             # Hopefully this accounts for everything
+>             282 = { #Kanto
+>                 NOT = { is_owned_by = JAP }
+>             }
+>             JAP = { has_capitulated = yes }
+>             JAP = { is_in_faction_with = ENG }
+>         }
+> 	}
+931a952,969
+> 	if = {
+> 		limit = {
+> 			has_game_rule = {
+> 				rule = allow_access
+> 				option = BELLIGERENT_ONLY
+> 			}
+> 		}
+> 		has_war_together_with = FROM
+>         OR = {
+>             NOT = { is_in_faction_with = SOV }
+>             # Hopefully this accounts for everything
+>             282 = { #Kanto
+>                 NOT = { is_owned_by = JAP }
+>             }
+>             JAP = { has_capitulated = yes }
+>             JAP = { is_in_faction_with = ENG }
+>         }
+> 	}
+1045a1084,1093
+> 
+> 	if = {
+> 	    limit = {
+> 	        has_game_rule = {
+> 	            rule = allow_access
+> 	            option = BELLIGERENT_ONLY
+> 	        }
+> 	    }
+>         has_war_together_with = FROM
+> 	}
+1080a1129,1137
+> 	if = {
+> 	    limit = {
+> 	        has_game_rule = {
+> 	            rule = allow_access
+> 	            option = BELLIGERENT_ONLY
+> 	        }
+> 	    }
+>         has_war_together_with = FROM
+> 	}
+2106a2164,2176
+> 
+> DIPLOMACY_AIR_BASE_ACCESS_ENABLE_TRIGGER = {
+>     has_war_together_with = FROM
+>     FROM = {
+>         is_in_faction = no
+>     }
+> }
+> 
+> DIPLOMACY_OFFER_AIR_BASE_ACCESS_ENABLE_TRIGGER = {
+>     has_war_together_with = FROM
+>     is_in_faction = no
+> }
+> 

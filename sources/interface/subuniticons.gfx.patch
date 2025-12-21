@@ -1,0 +1,8 @@
+447c447
+< 	spriteType = { name = "GFX_unit_escort_carrier_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_carrier.dds" }
+---
+> 	spriteType = { name = "GFX_unit_escort_carrier_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_escort_carrier.dds" }
+463c463
+< 	spriteType = { name = "GFX_unit_escort_carrier_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_carrier_inverted.dds" }
+---
+> 	spriteType = { name = "GFX_unit_escort_carrier_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_escort_carrier_inverted.dds" }

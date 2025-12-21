@@ -232,6 +232,16 @@
 < 	NAVAL_MINES_SWEEPING_SPEED_MULT = 0.025,						-- Value used to overall balance of the speed of sweeping naval mines
 ---
 > 	NAVAL_MINES_SWEEPING_SPEED_MULT = 0.015,						-- Value used to overall balance of the speed of sweeping naval mines
+1515,1516c1515,1516
+< 	RESOURCE_LENDLEASE_PRIORITY = 3,								-- Default convoy priority for export lend lease
+< 	RESOURCE_EXPORT_PRIORITY = 4,									-- Default convoy priority for export trade
+---
+> 	RESOURCE_LENDLEASE_PRIORITY = 4,								-- Default convoy priority for export lend lease
+> 	RESOURCE_EXPORT_PRIORITY = 3,									-- Default convoy priority for export trade
+1538c1538
+< 	COMBAT_MIN_HIT_CHANCE = 0.05,									-- never less hit chance then this?
+---
+> 	COMBAT_MIN_HIT_CHANCE = 0.01,									-- never less hit chance then this?
 1540c1540
 < 	COMBAT_EVASION_TO_HIT_CHANCE_TORPEDO_MULT = 10.0,				-- the above evasion hit chance is multiplied by 400% if shooting with torpedoes. Torpedoes are slow, so evasion matters more.
 ---
@@ -290,6 +300,14 @@
 < 	IN_COMBAT_FUEL_COST = 2.0,										-- ships in combat will get this ratio for fuel cost
 ---
 > 	IN_COMBAT_FUEL_COST = 4.0,										-- ships in combat will get this ratio for fuel cost
+1699c1699
+< 	MAX_FUEL_FLOW_MULT = 2.0, -- max fuel flow ratio for ships, which will be multiplied by supply
+---
+> 	MAX_FUEL_FLOW_MULT = 0.5, -- max fuel flow ratio for ships, which will be multiplied by supply
+1704c1704
+< 	OUT_OF_FUEL_ATTACK_FACTOR = -0.5,
+---
+> 	OUT_OF_FUEL_ATTACK_FACTOR = -0.75,
 1708c1708
 < 	UNDERWAY_REPLENISHMENT_CONVOY_COST_PER_FUEL = 0.28,	-- Cost in convoys for underway replenishment multiplied by max daily fuel consumption (rounded up)
 ---
@@ -322,26 +340,44 @@
 ---
 > 	NAVAL_MINES_IN_REGION_MAX = 5000.0,								-- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
 > 	NAVAL_MINES_PLANTING_SPEED_MULT = 0.09,							-- Value used to overall balance of the speed of planting naval mines
+1838c1838
+< 	ATTRITION_WHILE_MOVING_FACTOR = 1.2,							-- attrition multiplier while moving & doing missions
+---
+> 	ATTRITION_WHILE_MOVING_FACTOR = 100,							-- attrition multiplier while moving & doing missions
 1846,1847c1846,1847
 < 	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_CHANCES = 0.14,				-- If an accident happens, how likely it is to be a critical hit (caused by naval mines)
 < 	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_DAMAGE_SCALE = 5.0,			-- Scale the value below in case of critical hit (caused by naval mines)
 ---
 > 	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_CHANCES = 0.60,				-- If an accident happens, how likely it is to be a critical hit (caused by naval mines)
 > 	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_DAMAGE_SCALE = 8.0,			-- Scale the value below in case of critical hit (caused by naval mines)
-1919c1919
-< 	BASE_ESCAPE_SPEED = 0.045,										-- daily base escape speed (gained as percentagE)
+1851c1851
+< 	TRAINING_ACCIDENT_CHANCES = 0.02,								-- Chances one ship get damage each hour while on training
 ---
-> 	BASE_ESCAPE_SPEED = 0.1,										-- daily base escape speed (gained as percentagE)
-1921,1922c1921,1922
+> 	TRAINING_ACCIDENT_CHANCES = 0.00,								-- Chances one ship get damage each hour while on training
+1904,1905c1904,1905
+< 	SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.5,						-- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio
+< 	SPOTTING_SPEED_MULT_FOR_CATCHING_UP = 0.2,						-- speed diff bonus rate that is added to spotting every hour
+---
+> 	SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 20,						-- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio
+> 	SPOTTING_SPEED_MULT_FOR_CATCHING_UP = 20,						-- speed diff bonus rate that is added to spotting every hour
+1908c1908
+< 	NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.9,				-- Multiplier for the surface/sub visiblity when the heavily damaged fleet is returning to the home base for reparation. 1.0 = no bonus. 0.0 = invisible.
+---
+> 	NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.0,				-- Multiplier for the surface/sub visiblity when the heavily damaged fleet is returning to the home base for reparation. 1.0 = no bonus. 0.0 = invisible.
+1919,1924c1919,1924
+< 	BASE_ESCAPE_SPEED = 0.045,										-- daily base escape speed (gained as percentagE)
+< 	SPEED_TO_ESCAPE_SPEED = 0.95,									-- ratio to converstion from ship speed to escape speed (divided by hundred)
 < 	ESCAPE_SPEED_PER_COMBAT_DAY = 0.01,								-- daily increase in escape speed during combat duration
 < 	MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.15,					-- max escape speed that will be gained from combat duration
----
-> 	ESCAPE_SPEED_PER_COMBAT_DAY = 0.25,								-- daily increase in escape speed during combat duration
-> 	MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 1.50,					-- max escape speed that will be gained from combat duration
-1924c1924
+< 	ESCAPE_SPEED_SUB_BASE = 0.08,									-- subs get faster escape speed. gets replaced by hidden version below if hidden
 < 	ESCAPE_SPEED_HIDDEN_SUB = 0.18,									-- hidden subs get faster escape speed
 ---
-> 	ESCAPE_SPEED_HIDDEN_SUB = 0.14,									-- hidden subs get faster escape speed
+> 	BASE_ESCAPE_SPEED = -1,										-- daily base escape speed (gained as percentagE)
+> 	SPEED_TO_ESCAPE_SPEED = 10,									-- ratio to converstion from ship speed to escape speed (divided by hundred)
+> 	ESCAPE_SPEED_PER_COMBAT_DAY = 0.05,								-- daily increase in escape speed during combat duration
+> 	MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 1.50,					-- max escape speed that will be gained from combat duration
+> 	ESCAPE_SPEED_SUB_BASE = 2,									-- subs get faster escape speed. gets replaced by hidden version below if hidden
+> 	ESCAPE_SPEED_HIDDEN_SUB = 2,									-- hidden subs get faster escape speed
 1954c1954
 < 		4.0,	-- torpedoes
 ---
@@ -383,7 +419,7 @@
 < 		100.0,	-- torpedoes
 ---
 > 		70.0,	-- big guns
-> 		90.0,	-- torpedoes
+> 		150.0,	-- torpedoes
 2065,2066c2065,2066
 < 	SUBMARINE_REVEALED_TIMEOUT 										= 16,		-- Amount of in-game-hours that makes the submarine visible if it is on the defender side.
 < 	SUBMARINE_REVEAL_BASE_CHANCE 									= 11,		-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
@@ -416,10 +452,24 @@
 < 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 ---
 > 	RECON_PLANE_INTEL_BASE = 0.05, 				-- intel base amount for a strategic area per plane
+4140,4142c4140,4142
+< 	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3.3,
+< 	NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.84,
+< 	NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.1,
+---
+> 	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 30,
+> 	NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 5,
+> 	NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 5,
 4179c4179
 < 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 60.0,
 ---
 > 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 100.0,
+4192,4193c4192,4193
+< 	NAVAL_BASE_FLOW = 5.0, -- max output/input of a naval node is limited by this base value + additional ratio for each level
+< 	NAVAL_FLOW_PER_LEVEL = 3.0, -- max output/input of a naval node is limited by previous base value + this define per its level
+---
+> 	NAVAL_BASE_FLOW = 5, -- max output/input of a naval node is limited by this base value + additional ratio for each level
+> 	NAVAL_FLOW_PER_LEVEL = 3, -- max output/input of a naval node is limited by previous base value + this define per its level
 4208c4208
 < 	DEFAULT_STARTING_TRUCK_RATIO = 1.5, -- countries get this ratio of starting truck in their buffers compared to their need
 ---

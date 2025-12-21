@@ -13,3 +13,31 @@ noi_allow_ahistorical = {
         desc = noi_rule_ahistorical_allowed_desc
     }
 }
+
+allow_access = {
+	name = "RULE_ALLOW_MILITARY_ACCESS"
+	group = noi_rules_group
+	icon = "GFX_military_access_docking_rights"
+
+	default = {
+	    name = "BELLIGERENT_ONLY"
+	    text = "RULE_OPTION_BELLIGERENT_ONLY"
+	    desc = "RULE_ALLOW_ACCESS_BELLIGERENT_ONLY_DESC"
+	}
+
+	option = {
+		name = "FREE"
+		text = RULE_OPTION_FREE
+		desc = "RULE_ALLOW_ACCESS_FREE_DESC"
+	}
+	option = {
+		name = "SAME_IDEOLOGY"
+		text = "RULE_OPTION_SAME_IDEOLOGY"
+		desc = "RULE_ALLOW_ACCESS_SAME_IDEOLOGY_DESC"
+	}
+	option = {
+		name = "BLOCKED"
+		text = RULE_OPTION_BLOCKED
+		desc = "RULE_ALLOW_ACCESS_BLOCKED_DESC"
+	}
+}

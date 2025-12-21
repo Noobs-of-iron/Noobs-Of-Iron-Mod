@@ -48,11 +48,13 @@
 < 		local_resources_rubber = 1 # May use local_resources_ + any resource name
 ---
 > 		local_resources_rubber = 12 # May use local_resources_ + any resource name
-535c507
+361d332
+< 		naval_supply_hub = yes
+535c506
 < 		base_cost = 12000
 ---
 > 		base_cost = 8000
-558c530
+558c529
 < 		base_cost = 12000
 ---
 > 		base_cost = 8000
