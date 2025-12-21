@@ -6,3 +6,5 @@
  modifier_experience_gain_escort_carrier_combat_factor:1 "Escort Carrier Combat Experience Gain"
  modifier_experience_gain_hybrid_bb_training_factor:1 "Hybrid Battleship Training Experience Gain"
  modifier_experience_gain_hybrid_bb_combat_factor:1 "Hybrid Battleship Combat Experience Gain"
+ ship_armor_bb_4: "Advanced Battleship Armor"
+ ship_armor_bb_4_desc: "A culmination of decades of development, this armor utilizes the lessons of recent wars to make our battleships virtually invincible to heavy guns"
