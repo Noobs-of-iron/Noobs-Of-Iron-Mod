@@ -232,6 +232,12 @@
 < 	NAVAL_MINES_SWEEPING_SPEED_MULT = 0.025,						-- Value used to overall balance of the speed of sweeping naval mines
 ---
 > 	NAVAL_MINES_SWEEPING_SPEED_MULT = 0.015,						-- Value used to overall balance of the speed of sweeping naval mines
+1515,1516c1515,1516
+< 	RESOURCE_LENDLEASE_PRIORITY = 3,								-- Default convoy priority for export lend lease
+< 	RESOURCE_EXPORT_PRIORITY = 4,									-- Default convoy priority for export trade
+---
+> 	RESOURCE_LENDLEASE_PRIORITY = 4,								-- Default convoy priority for export lend lease
+> 	RESOURCE_EXPORT_PRIORITY = 3,									-- Default convoy priority for export trade
 1538c1538
 < 	COMBAT_MIN_HIT_CHANCE = 0.05,									-- never less hit chance then this?
 ---
