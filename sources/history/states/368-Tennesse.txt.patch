@@ -1,4 +1,6 @@
-10c10
+10,11c10,11
 < 		steel=60 # was: 112
+< 		coal = 5 # initial distribution = with infra 11.2 / 1280 total
 ---
 > 		steel = 720 # was: 112
+> 		coal = 60 # initial distribution = with infra 11.2 / 1280 total

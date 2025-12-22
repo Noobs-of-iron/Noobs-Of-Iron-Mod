@@ -1,101 +1,36 @@
-1a2,55
-> 	tankround = {
+1a2
 > 	
-> 		enable_equipment_modules = {
-> 			aphe_round
-> 			apcr_round
-> 		}
-> 		
-> 		research_cost = 0.7
-> 
-> 		start_year = 1940
-> 
-> 		folder = {
-> 			name = artillery_folder
-> 			position = { x = 10 y = 6 }
-> 		}
-> 
-> 		ai_will_do = {
-> 			factor = 1
-> 
-> 			modifier = {
-> 				factor = 2
-> 				date > "1939.1.9"
-> 			}
-> 			
-> 			modifier = {
-> 				factor = 2
-> 				date > "1940.1.1"
-> 			}
-> 
-> 			modifier = {
-> 				factor = 5
-> 				date > "1940.1.6"
-> 			}
-> 			
-> 			modifier = {
-> 				factor = 10
-> 				any_enemy_country = {
-> 					ROOT = {
-> 						estimated_intel_max_armor = {
-> 							tag = PREV
-> 							value > 32
-> 						}
-> 					}
-> 				}
-> 			}
-> 		}
-> 
-> 		categories = {
-> 			artillery
-> 			cat_anti_tank
-> 			mio_cat_all_artillery_equipment
-> 		}
-> 	}
-> 	
-288c342
+291c292
 < 			soft_attack = 0.1
 ---
 > 			soft_attack = 0.2
-332,335d385
+332,335d332
 < 			modifier = {
 < 				factor = 5
 < 				date > "1942.1.1"
 < 			}
-1104c1154
+1092c1089
 < 			ap_attack = 0.2
 ---
 > 			ap_attack = 0.1
-1109c1159
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1113c1163
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1117c1167
-< 			ap_attack = 0.2
----
-> 			ap_attack = 0.1
-1143a1194
+1131a1129
 > 		
-1208a1260,1263
+1174a1173,1176
 > 		path = {
 >  			leads_to_tech = tankround
 >  			research_cost_coeff = 1
 >  		}
-1214a1270
+1202a1205
 > 
-1275c1331
+1243c1246
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1358c1414
+1320c1323
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1523c1579
+1486c1489
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05

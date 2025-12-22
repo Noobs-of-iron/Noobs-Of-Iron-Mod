@@ -6,7 +6,7 @@
 > 		resources={
 > 			steel = 36
 > 			chromium = 12
-222,224c222,224
+224,226c224,226
 < 		resources = {
 < 			steel = 4
 < 			chromium = 1
@@ -14,7 +14,7 @@
 > 		resources={
 > 			steel = 48
 > 			chromium = 12
-293,295c293,295
+296,298c296,298
 < 		resources = {
 < 			steel = 4
 < 			chromium = 2
@@ -22,7 +22,7 @@
 > 		resources={
 > 			steel = 48
 > 			chromium = 24
-372,374c372,374
+375,377c375,377
 < 		resources = {
 < 			steel = 5
 < 			chromium = 3
@@ -30,7 +30,7 @@
 > 		resources={
 > 			steel = 60
 > 			chromium = 36
-454,456c454,456
+457,459c457,459
 < 		resources = {
 < 			steel = 5
 < 			chromium = 2
@@ -38,7 +38,7 @@
 > 		resources={
 > 			steel = 60
 > 			chromium = 24
-501,503c501,503
+504,506c504,506
 < 		resources = {
 < 			steel = 4
 < 			chromium = 1
@@ -46,13 +46,17 @@
 > 		resources={
 > 			steel = 48
 > 			chromium = 12
-543,544c543,544
+546,547c546,547
 < 		resources = {
 < 			steel = 3
 ---
 > 		resources={
 > 			steel = 36
-636,639c636,639
+615c615
+< 		resources = {
+---
+> 		resources={
+715,718c715,718
 < 		resources = {
 < 			#oil = 1
 < 			steel = 3
@@ -62,7 +66,7 @@
 > 
 > 			steel = 36
 > 			chromium = 12
-726,729c726,729
+805,808c805,808
 < 		resources = {
 < 			#oil = 1
 < 			steel = 4
@@ -72,7 +76,7 @@
 > 
 > 			steel = 48
 > 			chromium = 12
-773,776c773,776
+852,855c852,855
 < 		resources = {
 < 			#oil = 2
 < 			steel = 4
@@ -82,7 +86,7 @@
 > 
 > 			steel = 48
 > 			chromium = 24
-820,823c820,823
+899,902c899,902
 < 		resources = {
 < 			#oil = 2
 < 			steel = 5
@@ -92,21 +96,25 @@
 > 
 > 			steel = 60
 > 			chromium = 24
-944c944
+1023,1026c1023,1026
 < 		resources = {
----
-> 		resources={
-946,947c946,947
-< 			steel = 5
-< 			chromium = 2
----
-> 			steel = 60
-> 			chromium = 24
-1055,1057c1055,1057
-< 		resources = {
+< 			#oil = 2
 < 			steel = 5
 < 			chromium = 2
 ---
 > 		resources={
+> 			#oil = 24
 > 			steel = 60
 > 			chromium = 24
+1134,1136c1134,1136
+< 		resources = {
+< 			steel = 5
+< 			chromium = 2
+---
+> 		resources={
+> 			steel = 60
+> 			chromium = 24
+1222c1222
+< 		resources = {
+---
+> 		resources={

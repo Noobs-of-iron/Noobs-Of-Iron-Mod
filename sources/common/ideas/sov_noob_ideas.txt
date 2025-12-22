@@ -102,4 +102,23 @@ country = {
             }
 	    }
     }
+    country = {
+        SOV_NOI_red_volunteer_army_i = {
+            allowed = { 
+                tag = SOV
+            }
+            
+            available = { }
+        
+            cancel = { }
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = MEX_politicised_army
+            modifier = {
+                send_volunteer_factor  = -0.8
+            }
+        }
+    }
 }

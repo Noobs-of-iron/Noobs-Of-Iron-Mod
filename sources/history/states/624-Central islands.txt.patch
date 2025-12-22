@@ -1,0 +1,4 @@
+8c8
+< 		steel=7 # was: 0
+---
+> 		steel = 84 # was: 0

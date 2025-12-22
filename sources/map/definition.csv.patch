@@ -1,4 +1,134 @@
-13026c13026
-< 13025;255;16;40;land;true;plains;6
+1187c1187
+< 1186;5;189;65;land;false;desert;5
 ---
-> 13025;255;16;40;land;true;hills;6
+> 1186;5;189;65;land;false;deep_desert;5
+1632c1632
+< 1631;7;183;150;land;false;desert;7
+---
+> 1631;7;183;150;land;false;deep_desert;7
+2058c2058
+< 2057;9;159;140;land;false;desert;7
+---
+> 2057;9;159;140;land;false;deep_desert;7
+2230c2230
+< 2229;10;210;210;land;true;desert;5
+---
+> 2229;10;210;210;land;true;deep_desert;5
+4139c4139
+< 4138;47;135;98;land;false;desert;5
+---
+> 4138;47;135;98;land;false;deep_desert;5
+4952c4952
+< 4951;51;48;23;land;false;desert;7
+---
+> 4951;51;48;23;land;false;deep_desert;7
+4962c4962
+< 4961;51;57;73;land;false;desert;5
+---
+> 4961;51;57;73;land;false;deep_desert;5
+4969c4969
+< 4968;51;66;68;land;false;desert;7
+---
+> 4968;51;66;68;land;false;deep_desert;7
+4993c4993
+< 4992;51;90;193;land;false;desert;5
+---
+> 4992;51;90;193;land;false;deep_desert;5
+5017c5017
+< 5016;51;117;28;land;false;desert;6
+---
+> 5016;51;117;28;land;false;deep_desert;6
+5028c5028
+< 5027;51;129;43;land;false;desert;7
+---
+> 5027;51;129;43;land;false;deep_desert;7
+7077c7077
+< 7076;89;54;141;land;false;desert;5
+---
+> 7076;89;54;141;land;false;deep_desert;5
+7155c7155
+< 7154;89;138;21;land;false;desert;5
+---
+> 7154;89;138;21;land;false;deep_desert;5
+7791c7791
+< 7790;92;93;216;land;false;desert;6
+---
+> 7790;92;93;216;land;false;deep_desert;6
+8031c8031
+< 8030;93;108;46;land;false;desert;7
+---
+> 8030;93;108;46;land;false;deep_desert;7
+8043c8043
+< 8042;93;120;156;land;false;desert;6
+---
+> 8042;93;120;156;land;false;deep_desert;6
+8070c8070
+< 8069;93;150;11;land;false;desert;5
+---
+> 8069;93;150;11;land;false;deep_desert;5
+8087c8087
+< 8086;93;168;1;land;false;desert;6
+---
+> 8086;93;168;1;land;false;deep_desert;6
+8119c8119
+< 8118;93;201;26;land;false;desert;7
+---
+> 8118;93;201;26;land;false;deep_desert;7
+9978c9978
+< 9977;131;45;204;land;false;desert;5
+---
+> 9977;131;45;204;land;false;deep_desert;5
+9984c9984
+< 9983;131;51;134;land;false;desert;5
+---
+> 9983;131;51;134;land;false;deep_desert;5
+10038c10038
+< 10037;131;108;179;land;false;desert;5
+---
+> 10037;131;108;179;land;false;deep_desert;5
+10815c10815
+< 10814;135;96;44;land;false;desert;5
+---
+> 10814;135;96;44;land;false;deep_desert;5
+10871c10871
+< 10870;135;156;54;land;false;desert;7
+---
+> 10870;135;156;54;land;false;deep_desert;7
+10886c10886
+< 10885;135;171;129;land;false;desert;6
+---
+> 10885;135;171;129;land;false;deep_desert;6
+12741c12741
+< 12740;177;39;162;land;false;desert;7
+---
+> 12740;177;39;162;land;false;deep_desert;7
+12769c12769
+< 12768;177;69;167;land;false;desert;7
+---
+> 12768;177;69;167;land;false;deep_desert;7
+12777c12777
+< 12776;177;78;57;land;false;desert;6
+---
+> 12776;177;78;57;land;false;deep_desert;6
+12813c12813
+< 12812;177;117;217;land;false;desert;5
+---
+> 12812;177;117;217;land;false;deep_desert;5
+12837c12837
+< 12836;177;144;52;land;false;desert;5
+---
+> 12836;177;144;52;land;false;deep_desert;5
+12865c12865
+< 12864;177;174;2;land;false;desert;6
+---
+> 12864;177;174;2;land;false;deep_desert;6
+13382c13382,13386
+< 13381;183;231;3;land;false;mountain;6
+\ Pas de fin de ligne à la fin du fichier
+---
+> 13381;183;231;3;land;false;mountain;6
+> 13382;198;220;25;land;false;deep_desert;1
+> 13383;108;51;235;land;false;deep_desert;1
+> 13384;27;88;191;land;fakse;deep_desert;1
+> 13385;95;36;217;land;fakse;deep_desert;1
+\ Pas de fin de ligne à la fin du fichier

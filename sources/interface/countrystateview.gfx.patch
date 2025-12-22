@@ -1,0 +1,12 @@
+82a83,87
+> 	
+> 	spriteType = {
+> 		name = "GFX_modifiers_deep_desert_icon"
+> 		textureFile = "gfx/interface/modifiers_deep_desert_icon.dds"
+> 	}
+277a283,287
+> 	}
+> 
+> 	spriteType = {
+> 		name = "GFX_terrain_deep_desert"
+> 		textureFile = "gfx/interface/terrains/terrain_deep_desert.dds"

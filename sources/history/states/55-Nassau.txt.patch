@@ -1,0 +1,6 @@
+6,7c6,7
+< 	resources = {
+< 		coal = 8 # initial distribution
+---
+> 	resources={
+> 		coal = 96 # initial distribution

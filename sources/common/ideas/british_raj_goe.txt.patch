@@ -46,15 +46,19 @@
 ---
 > 				local_resources_factor = 0.1
 > 				experience_gain_army = 0.05
-2653a2655
+2651a2653
 > 				training_time_army_factor = 0.15
-2668a2671
+2653a2656
+> 
+2667a2671
 > 				training_time_army_factor = 0.15
-2671c2674
+2668a2673
+> 
+2682c2687
 < 				command_power_gain = 0.15
 ---
 > 				command_power_gain = 0.1
-2820,2822c2823,2825
+2831,2833c2836,2838
 < 				trade_opinion_factor = -0.15
 < 				consumer_goods_factor = -0.15
 < 				economy_cost_factor = -0.2
@@ -62,25 +66,30 @@
 > 				trade_opinion_factor = -0.1
 > 				consumer_goods_factor = -0.1
 > 				economy_cost_factor = -0.15
-2843c2846
+2854c2859
 < 				production_factory_max_efficiency_factor = 0.1
 ---
 > 				production_factory_max_efficiency_factor = 0.05
-2865,2866c2868,2869
+2876,2877c2881,2882
 < 				industrial_capacity_factory = 0.1
 < 				production_speed_buildings_factor = 0.1
 ---
 > 				industrial_capacity_factory = 0.05
 > 				production_speed_buildings_factor = 0.05
-2907,2908c2910,2911
+2918,2919c2923,2924
 < 				production_speed_rail_way_factor = 0.15
 < 				production_speed_supply_node_factor = 0.15
 ---
 > 				production_speed_rail_way_factor = 0.1
 > 				production_speed_supply_node_factor = 0.05
-3053,3054c3056,3057
+3064,3065c3069,3070
 < 				modifier_army_sub_unit_marine_max_org_factor = 0.15
 < 				industrial_capacity_dockyard = 0.2
 ---
 > 				modifier_army_sub_unit_marine_max_org_factor = 0.1
 > 				industrial_capacity_dockyard = 0.1
+3511c3516
+< }
+\ Pas de fin de ligne à la fin du fichier
+---
+> }

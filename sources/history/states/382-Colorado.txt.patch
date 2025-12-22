@@ -1,4 +1,6 @@
-7c7
+7,8c7,8
 < 		oil=14 # was: 20
+< 		coal = 7 # initial distribution = with infra 14 / 1280 total
 ---
-> 		oil = 14 # was: 20
+> 		oil = 168 # was: 20
+> 		coal = 84 # initial distribution = with infra 14 / 1280 total

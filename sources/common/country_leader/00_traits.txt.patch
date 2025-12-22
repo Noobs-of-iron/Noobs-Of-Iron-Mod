@@ -1,20 +1,71 @@
-4897c4897
+851c851
+< 		army_core_attack_factor = 0.05
+---
+> 		army_attack_factor = 0.025
+891,892c891,892
+< 		army_core_attack_factor = 0.075
+< 		army_core_defence_factor = 0.075
+---
+> 		army_attack_factor = 0.05
+> 		army_defence_factor = 0.05
+3250,3261d3249
+< 	guerilla_expert = {
+< 		random = no
+< 		sprite = 13
+< 
+< 
+< 		resistance_growth_on_our_occupied_states = 0.15
+< 		resistance_damage_to_garrison_on_our_occupied_states = 0.1
+< 		resistance_target_on_our_occupied_states = 0.1
+< 
+< 		
+< 	}
+< 
+4055c4043
 < 		conscription_factor = 0.05
 ---
 > 		recruitable_population_factor = 0.03
-10203c10203
+11032c11020
+< 		country_resource_coal = 6
+---
+> 		country_resource_coal = 72
+11820c11808
 < 		country_resource_aluminium = 10 
 ---
 > 		country_resource_aluminium = 100 
-10213c10213
+11830c11818
 < 		country_resource_aluminium = 20 
 ---
 > 		country_resource_aluminium = 200 
-10307c10307
+11924c11912
 < 		country_resource_steel = 10 
 ---
 > 		country_resource_steel = 100 
-10680c10680
+11933c11921
+< 		country_resource_oil = 20 
+---
+> 		country_resource_oil = 240 
+12297c12285
 < 		country_resource_steel = 12
 ---
 > 		country_resource_steel = 120
+12313c12301
+< 		country_resource_oil = 10 
+---
+> 		country_resource_oil = 120 
+12361c12349
+< 		resource_trade_cost_bonus_per_factory = 2
+---
+> 		resource_trade_cost_bonus_per_factory = 24
+12469c12457
+< 		resource_trade_cost_bonus_per_factory = 1
+---
+> 		resource_trade_cost_bonus_per_factory = 12
+17131c17119
+< 		resource_trade_cost_bonus_per_factory = -2
+---
+> 		resource_trade_cost_bonus_per_factory = -24
+17141c17129
+< 		resource_trade_cost_bonus_per_factory = -1
+---
+> 		resource_trade_cost_bonus_per_factory = -12

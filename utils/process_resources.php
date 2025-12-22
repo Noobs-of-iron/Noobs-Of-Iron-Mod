@@ -1,7 +1,7 @@
 <?php
 
 // Define the multiplier constant
-define('MULTIPLIER', 1.2);
+define('MULTIPLIER', 12);
 
 // Check command-line arguments
 if ($argc < 2) {
@@ -19,7 +19,7 @@ function processFile($file) {
         $block = $matches[1];
         
         // Check if the block contains `type = oil`
-        if (strpos($block, 'type = oil') === false) {
+        if (strpos($block, 'type = any') === false) {
             // Multiply the amount values by MULTIPLIER
             $block = preg_replace_callback(
                 '/(\s*amount\s*=\s*)(\d+)/',
@@ -49,7 +49,7 @@ function processFile($file) {
 
 
                 // Multiply the value if it's not `oil`
-                if ($resourceName === 'oil') {
+                if ($resourceName === 'any') {
                     return $resourceMatches[1] . $resourceName . ' = ' . $resourceValue . $comment;
                 }
                 return $resourceMatches[1] . $resourceName . ' = ' . ($resourceValue * MULTIPLIER) . $comment;

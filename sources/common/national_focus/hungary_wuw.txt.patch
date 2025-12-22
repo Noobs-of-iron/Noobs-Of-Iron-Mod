@@ -1,24 +1,40 @@
-11032c11032
+7662c7662
+< 					amount = 32
+---
+> 					amount = 384
+11081c11081
 < 					amount = 4
 ---
 > 					amount = 48
-11079c11079
+11128c11128
 < 					amount = 16
 ---
 > 					amount = 192
-15865c15865
+15921c15921
 < 						amount = 6
 ---
 > 						amount = 72
-16948c16948
+17003c17003
 < 					amount = 10
 ---
 > 					amount = 120
-17055c17055
-< 						amount = 2
+17110c17110
+< 						amount = 8 
 ---
-> 						amount = 24
-17363c17363
+> 						amount = 96 
+17163c17163
+< 					amount = 5
+---
+> 					amount = 60
+17169c17169
+< 					amount = 4
+---
+> 					amount = 48
+17176c17176
+< 					amount = 6
+---
+> 					amount = 72
+17418c17418
 < 					amount = 14
 ---
 > 					amount = 168

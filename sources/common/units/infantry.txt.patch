@@ -21,47 +21,53 @@
 167a168
 > 
 168a170
+> 			
+172a175
 > 			support_equipment = 20
-224a227
+224a228
 > 
-226a230
+226a231
+> 			
+230a236
 > 			support_equipment = 20
-282a287
+282a289
 > 
-284a290
+288a296
 > 			support_equipment = 10
-339a346,351
+339a348,353
 > 		urban = {
 > 			attack = 0.30
 > 			defence = 0.2
 > 			movement = 0.2
 > 		}
 > 
-343c355,356
+347a362
+> 			support_equipment = 10
+404c419,420
 < 			infantry_equipment = 130
 ---
 > 		    support_equipment = 20
 > 			infantry_equipment = 150
-382c395
+443c459
 < 		supply_consumption = 0.065
 ---
 > 		supply_consumption = 0.09
-388,389c401,403
+449,450c465,467
 < 			infantry_equipment = 100
 < 			motorized_equipment = 35
 ---
 > 			infantry_equipment = 125
 > 			motorized_equipment = 80
 > 
-459c473
+520c537
 < 		supply_consumption = 0.14
 ---
 > 		supply_consumption = 0.18
-472c486
+533c550
 < 			infantry_equipment = 100
 ---
 > 			infantry_equipment = 125
-679,681c693,695
+740,742c757,759
 < 		max_strength = 25
 < 		max_organisation = 50 #reg infantry 60
 < 		default_morale = 0.3
@@ -69,21 +75,21 @@
 > 		max_strength = 20
 > 		max_organisation = 30 #reg infantry 60
 > 		default_morale = 0.2
-685,686c699,700
+746,747c763,764
 < 		training_time = 80 #reg infantry 90
 < 		suppression = 1.5
 ---
 > 		training_time = 40 #reg infantry 90
 > 		suppression = 1
-689c703
+750c767
 < 		supply_consumption = 0.06
 ---
 > 		supply_consumption = 0.05
-692c706
+753c770
 < 			infantry_equipment = 100
 ---
 > 			infantry_equipment = 90
-695c709
+756c773
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

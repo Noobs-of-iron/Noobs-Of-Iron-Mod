@@ -1,0 +1,15 @@
+126c126
+<  STRATEGICREGION_126:1 "Eastern Maghreb"
+---
+>  STRATEGICREGION_126:1 "Algeria"
+128c128
+<  STRATEGICREGION_128:0 "Egypt"
+---
+>  STRATEGICREGION_128:0 "Lower Egypt"
+299a300,305
+> 
+> #NOIM Regions
+>  STRATEGICREGION_299: "Cyrennaica"
+>  STRATEGICREGION_300: "Upper Egypt"
+>  STRATEGICREGION_301: "Tunisia"
+> 

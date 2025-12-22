@@ -62,8 +62,8 @@
 ---
 > 		build_cost_ic = 18
 > 		resources={
-> 			aluminium = 4.8
-> 			chromium = 4.8
+> 			aluminium = 48
+> 			chromium = 48
 850,856c850,856
 < 		lend_lease_cost = 8
 < 		manpower = 20

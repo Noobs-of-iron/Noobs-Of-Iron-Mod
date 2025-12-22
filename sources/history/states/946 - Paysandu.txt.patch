@@ -1,4 +1,6 @@
-9c9
+9,10c9,10
 < 	resources = {
+< 		oil = 3 
 ---
 > 	resources={
+> 		oil = 36 

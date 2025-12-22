@@ -10,15 +10,15 @@
 < 						amount = 5
 ---
 > 						amount = 60
-3797c3797
+3788d3787
 < 
----
+3789a3789
 > 			remove_ideas = amphibious_craft_in_bad_condition
-4198c4198
+4256c4256
 < 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
 ---
 > 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.1 }
-4904a4905,4921
+4962a4963,4979
 > 				219 = {
 > 					add_building_construction = {
 > 						type = land_facility
@@ -36,60 +36,78 @@
 > 					}
 > 				}
 > 			}
-7042a7060
+7100a7118
 > 			country_event = { id = noi_sov.16 }
-9812c9830
+9877c9895
 < 		cost = 10
 ---
 > 		cost = 5
-9821c9839
+9886c9904
 < 			add_stability = -0.05
 ---
 > 			add_stability = -0.15
-9929c9947
+9994c10012
 < 			SOV_soviet_civil_war_not_started = yes
 ---
 > 
-10015c10033
+10080c10098
 < 		cost = 10
 ---
 > 		cost = 5
-10280c10298
+10345c10363
 < 			NOT = { has_global_flag = SOV_soviet_civil_war_over }
 ---
 > 
-11058d11075
+11126d11143
 < 			SOV_soviet_civil_war_not_started = yes 
-11147d11163
+11215d11231
 < 			SOV_soviet_civil_war_not_started = yes 
-11202c11218
-< 			SOV_soviet_civil_war_not_started = yes 
----
-> 
-11278c11294
+11270c11286
 < 			SOV_soviet_civil_war_not_started = yes 
 ---
 > 
-11331c11347
+11346c11362
+< 			SOV_soviet_civil_war_not_started = yes 
+---
+> 
+11399c11415
 < 			has_global_flag = SOV_soviet_civil_war_over
 ---
 > 
-13460a13477,13480
+13565a13582,13585
 > 				has_completed_focus = SOV_the_centre
 > 				has_completed_focus = SOV_back_to_the_nep
 > 			}
 > 			OR = {
-13676c13696
+13781c13801
 < 		cost = 10
 ---
 > 		cost = 0.2
-14154c14174
+14259c14279
 < 		cost = 10
 ---
 > 		cost = 0.2
-15617a15638
-> 			always = no
-17840c17861
+15029a15050,15053
+> 			add_timed_idea = {
+> 				idea = SOV_NOI_red_volunteer_army_i
+> 				days = 1095
+> 			}
+15095a15120,15123
+> 			add_timed_idea = {
+> 				idea = SOV_NOI_red_volunteer_army_i
+> 				days = 1095
+> 			}
+15164a15193,15196
+> 			add_timed_idea = {
+> 				idea = SOV_NOI_red_volunteer_army_i
+> 				days = 1095
+> 			}
+15773c15805,15806
+< 		allow_branch = { 
+---
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+17937c17970
 < 		cost = 10
 ---
 > 		cost = 1

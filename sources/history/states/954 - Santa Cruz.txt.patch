@@ -1,4 +1,8 @@
-8c8
+8,10c8,10
 < 	resources = {
+< 		oil = 3
+< 		coal = 2 # initial distribution = with infra 2.4 / 2 total
 ---
 > 	resources={
+> 		oil = 36
+> 		coal = 24 # initial distribution = with infra 2.4 / 2 total

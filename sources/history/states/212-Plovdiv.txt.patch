@@ -1,4 +1,6 @@
-10c10
+10,11c10,11
 < 		chromium = 1
+< 		coal = 2 # initial distribution / 3 total
 ---
 > 		chromium = 12
+> 		coal = 24 # initial distribution / 3 total

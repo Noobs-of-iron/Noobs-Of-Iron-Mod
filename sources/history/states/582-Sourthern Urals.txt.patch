@@ -1,6 +1,8 @@
-4,5c4,5
+4,6c4,6
 < 	resources = {
 < 		steel = 40.000
+< 		oil = 6.000
 ---
 > 	resources={
 > 		steel = 480.000
+> 		oil = 72.000

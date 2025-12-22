@@ -1,28 +1,24 @@
-1514c1514,1515
+1518c1518,1519
 < 			size = { width = 100%% height = 100%% }
 ---
 > 			size = { width = 183 height = 84 }
 > 		    clipping = no
-1663c1664
+1667c1668
 < 					position = { x = 30 y = 1032 }
 ---
 > 					position = { x = 30 y = 1632 }
-1805,1806c1806,1808
+1809,1810c1810,1812
 < 			size = { width = 100%% height = 100%% }
 < 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 ---
 > 			size = { width = 2568 height = 1317 }
 > 		    clipping = yes
 > 			margin = { top = 13 left = 10 bottom = 1 right = 3}
-1940c1942
-< 					position = { x = 30 y = 710 }
----
-> 					position = { x = 30 y = 775 }
-1970c1972
+1974c1976
 < 					width=1700 height=1300
 ---
 > 					width=2700 height=2900
-2021a2024,2031
+2025a2028,2035
 > 				name = "noim_ship_hull_tree"
 > 				position = { x = 70 y = 780 }
 > 				size = { width = 100 height = 140 }
@@ -31,11 +27,11 @@
 > 			}
 > 
 > 			gridboxtype = {
-5327c5337
+5336c5346
 < 		size = { width = 204 height = 72 }
 ---
 > 		size = { width = 183 height = 84 }
-6403c6413
+6412c6422
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

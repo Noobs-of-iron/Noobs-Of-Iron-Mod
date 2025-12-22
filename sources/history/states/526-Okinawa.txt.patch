@@ -1,0 +1,6 @@
+6,7c6,7
+< 	resources = {
+< 		coal = 4 # Represents the Iriomote and Utara coal mines (and quite a few more)
+---
+> 	resources={
+> 		coal = 48 # Represents the Iriomote and Utara coal mines (and quite a few more)

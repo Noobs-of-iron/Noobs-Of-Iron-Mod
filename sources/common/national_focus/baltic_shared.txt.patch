@@ -2,7 +2,15 @@
 < 					amount = 16
 ---
 > 					amount = 192
+2397c2397
+< 					amount = 8
+---
+> 					amount = 96
 2484c2484
 < 					amount = 8
 ---
 > 					amount = 96
+2493c2493
+< 					amount = 4
+---
+> 					amount = 48

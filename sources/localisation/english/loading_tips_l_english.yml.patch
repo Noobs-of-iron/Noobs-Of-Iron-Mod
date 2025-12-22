@@ -1,4 +1,4 @@
-2,155c2,50
+2,157c2,50
 <  LOADING_TIP_0: "It is humiliating to remain with our hands folded while others write history. It matters little who wins.\n- Benito Mussolini"
 <  LOADING_TIP_1: "To make a people great it is necessary to send them to battle even if you have to kick them in the pants. That is what I shall do.\n- Benito Mussolini"
 <  LOADING_TIP_2: "Every soldier must know, before he goes into battle, how the little battle he is to fight fits into the larger picture.\n- Bernard L. Montgomery"
@@ -77,7 +77,7 @@
 <  LOADING_TIP_75: "People who are hungry and out of a job are the stuff of which dictatorships are made.\n- Franklin D. Roosevelt"
 <  LOADING_TIP_76: "A man has to be alert all the time if he expects to keep on breathing. If not, some German son-of-a-bitch will sneak up behind him and beat him to death with a sock full of shit.\n- George S. Patton"
 <  LOADING_TIP_77: "Fortifications, artillery, foreign aid - will be of no value, unless the ordinary soldier knows that it is HE guarding his country.\n- Carl Gustaf Emil Mannerheim"
-<  LOADING_TIP_78: "Through the mud and the blood to the green fields beyond.\n- Royal Canadian Armoured Corps motto"
+<  LOADING_TIP_78: "Through the mud and the blood to the green fields beyond.\n- Unofficial Canadian Armoured Corps motto"
 <  LOADING_TIP_79: "There is general curiosity in the British Fleet to find out whether the Italians are up to the level they were at in the last war or whether they have fallen off at all.\n- Winston Churchill (on the Italian declaration of war)"
 <  LOADING_TIP_80: "And we'll fight them with the butt ends of broken beer bottles because that's bloody well all we've got!\n - Winston Churchill (immediately after promising to fight in the fields and in the streets)"
 <  LOADING_TIP_81: "Experience has shown that attacks against tanks with close combat weapons by a sufficiently determined man will basically always succeed.\n - German Army Group Center anti-tank manual"
@@ -88,7 +88,7 @@
 <  LOADING_TIP_86: "People don't matter, only what they represent.\n - Ion Antonescu"
 <  LOADING_TIP_87: "In wartime, truth is so precious that she should always be attended by a bodyguard of lies.\n - Winston Churchill"
 <  LOADING_TIP_88: "Vanquished today by mechanical force, in the future we will be able to overcome by a superior mechanical force. The fate of the world depends on it.\n - Charles de Gaulle"
-<  LOADING_TIP_89: "The long sobs of violins of autumn. Soothe my heart with a monotone languor.\n - SOE coded transmission to French resistance"
+<  LOADING_TIP_89: "The long sobs of the violins of autumn wound my heart with a monotonous languor.\n - SOE coded transmission to French resistance"
 <  LOADING_TIP_90: "A state like Switzerland, which is nothing but a pimple on the face of Europe, cannot be allowed to continue.\n- Adolf Hitler"
 <  LOADING_TIP_91: "Those who can win a war well can rarely make a good peace, and those who could make a good peace would never have won the war.\n- Winston Churchill"
 <  LOADING_TIP_92: "An appeaser is one who feeds a crocodile, hoping it will eat him last.\n- Winston Churchill"
@@ -153,6 +153,9 @@
 <  LOADING_TIP_151: "There is no question of ever accepting Nazi representatives in the Austrian cabinet.\n- Kurt Schuschnigg, 1938"
 <  LOADING_TIP_152: "The king is as fictional an authority as God. This fact made both atheism and republicanism two faces of the same coin.\n- Noe Zhordania"
 <  LOADING_TIP_153: "There are decades where nothing happens; and there are weeks where decades happen.\n- Vladimir Lenin"
+<  LOADING_TIP_154: "The raising of that flag on Suribachi means a Marine Corps for the next five hundred years.\n- Secretary of the Navy James Forrestal, Iwo Jima, 1945"
+<  LOADING_TIP_155: "Let us therefore brace ourselves to our duties, and so bear ourselves that, if the British Empire and its Commonwealth last for a thousand years, men will still say, 'This was their finest hour.'\n- Winston Churchill"
+\ Pas de fin de ligne à la fin du fichier
 ---
 >  LOADING_TIP_0: "Order in the court!\n- Jahef"
 >  LOADING_TIP_1: "Jeff is the bay harbor ragebaiter \n- Danny"

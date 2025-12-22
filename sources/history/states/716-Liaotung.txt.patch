@@ -1,4 +1,12 @@
-5c5
+5,9c5,9
 < 		steel=27.000
+< 		chromium = 4
+< 		tungsten = 4
+< 		oil = 3 #Japan extracted 1m barrels annually from Manhuria
+< 		coal = 11
 ---
 > 		steel = 324.000
+> 		chromium = 48
+> 		tungsten = 48
+> 		oil = 36 #Japan extracted 1m barrels annually from Manhuria
+> 		coal = 132

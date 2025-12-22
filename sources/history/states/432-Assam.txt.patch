@@ -1,4 +1,6 @@
-5c5
+5,6c5,6
 < 		oil=5.000
+< 		coal = 1 #initial distribution
 ---
-> 		oil = 5.000
+> 		oil = 60.000
+> 		coal = 12 #initial distribution

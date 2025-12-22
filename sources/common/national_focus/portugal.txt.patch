@@ -10,6 +10,10 @@
 < 					amount = 4
 ---
 > 					amount = 48
+468c468
+< 					amount = 12
+---
+> 					amount = 144
 511c511
 < 					amount = 6
 ---
@@ -18,7 +22,7 @@
 < 					amount = 6
 ---
 > 					amount = 72
-3947c3947
+3979c3979
 < 				    amount = 50
 ---
 > 				    amount = 600

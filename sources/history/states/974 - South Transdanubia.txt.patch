@@ -1,8 +1,10 @@
-8c8
+8,11c8,11
 < 	resources = {
+< 		oil = 1
+< 		aluminium = 20
+< 		coal = 2 # initial distribution
 ---
 > 	resources={
-10c10
-< 		aluminium = 20
----
+> 		oil = 12
 > 		aluminium = 240
+> 		coal = 24 # initial distribution

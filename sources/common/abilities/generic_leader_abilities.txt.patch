@@ -1,10 +1,6 @@
 13a14
 > 				has_government = fascism
-18c19
-< 					NOT = { has_completed_focus = CHI_dare_to_die_corps }
----
-> 					AND = { has_focus_tree = japan_wtt_focus }
-70,73c71,76
+84,87c85,90
 < 				NOT = {
 < 					has_completed_focus = JAP_warrior_spirit
 < 					has_completed_focus = SPA_cultivate_fanaticism
@@ -16,7 +12,7 @@
 > 						has_dlc = "Waking the Tiger"
 > 					}
 > 					AND = { has_focus_tree = japan_wtt_focus }
-345c348
+367c370
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

@@ -1,6 +1,8 @@
-7,8c7,8
+7,9c7,9
 < 	resources = {
 < 		tungsten = 11 # was: 16
+< 		coal = 7 # initial distribution = with infra 12.6 / 1280 total
 ---
 > 	resources={
 > 		tungsten = 132 # was: 16
+> 		coal = 84 # initial distribution = with infra 12.6 / 1280 total

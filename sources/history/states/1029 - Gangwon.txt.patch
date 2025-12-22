@@ -1,0 +1,6 @@
+9,10c9,10
+< 	resources = {
+< 		tungsten = 10 #This number is made up and needs further research into. These resources should also be moved to correspond to the current Sangdong province in S Korea when split up
+---
+> 	resources={
+> 		tungsten = 120 #This number is made up and needs further research into. These resources should also be moved to correspond to the current Sangdong province in S Korea when split up

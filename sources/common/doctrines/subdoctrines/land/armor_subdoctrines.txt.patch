@@ -1,0 +1,8 @@
+304c304
+<                     category = category_light_infantry
+---
+>                     category = category_all_armor
+310c310
+<                     category = category_light_infantry
+---
+>                     category = category_all_armor

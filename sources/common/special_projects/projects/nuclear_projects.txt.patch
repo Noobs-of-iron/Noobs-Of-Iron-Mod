@@ -14,11 +14,11 @@
 < 		resources = { steel=2 tungsten=8 chromium=2 }
 ---
 > 		resources={ steel = 24 tungsten = 96 chromium = 24 }
-687c687
+697c697
 < 		resources = { steel=2 tungsten=10 chromium=3 }
 ---
 > 		resources={ steel = 24 tungsten = 120 chromium = 36 }
-788c788
+798c798
 < 		resources = { aluminium=4 tungsten=4 chromium=2 }
 ---
 > 		resources={ aluminium = 48 tungsten = 48 chromium = 24 }

@@ -1,4 +1,4 @@
-5178,5189d5177
+5503,5514d5502
 < 			if = {
 < 				limit = { 
 < 					FROM = { has_tech = paras_combat_drop } 
@@ -11,7 +11,7 @@
 < 				}
 < 				SF_PARA_combat_effect = yes
 < 			}
-5307a5296,5305
+5632a5621,5630
 > 					if = {
 > 						limit = { 
 > 							AND = {

@@ -30,29 +30,29 @@
 < 	#   missing_tech_loc = <bindable localization> # See script concept bindable localization
 < 	#   repair_speed_factor = 0.5 # Optional. Factor for how fast the building is repaired (default = 1.0)
 < 
-93c62
+94c63
 < 			state_max = 10
 ---
 > 			state_max = 20
-117a87
+118a88
 > 		allied_build = yes
-126c96
+128c98
 < 		base_cost = 12000
 ---
 > 		base_cost = 8000
-171a142
+173a144
 > 		allied_build = yes
-187a159
+189a161
 > 		allied_build = yes
-259c231
+263c235
 < 		local_resources_rubber = 1 # May use local_resources_ + any resource name
 ---
 > 		local_resources_rubber = 12 # May use local_resources_ + any resource name
-484c456
+535c507
 < 		base_cost = 12000
 ---
 > 		base_cost = 8000
-507c479
+558c530
 < 		base_cost = 12000
 ---
 > 		base_cost = 8000

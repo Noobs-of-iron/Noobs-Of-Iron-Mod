@@ -1,4 +1,6 @@
-5c5
+5,6c5,6
 < 		steel=15.000
+< 		coal = 3 #initial distribution
 ---
 > 		steel = 180.000
+> 		coal = 36 #initial distribution

@@ -1,6 +1,8 @@
-5,6c5,6
+5,7c5,7
 < 	resources = {
 < 		chromium = 12.000 #added due to portugal setup
+< 		coal = 3 #initial distribution
 ---
 > 	resources={
 > 		chromium = 144.000 #added due to portugal setup
+> 		coal = 36 #initial distribution

@@ -1,12 +1,10 @@
-7,9c7,9
-< 		tungsten=15 # was: 20
-< 		steel= 15 # was: 20
+8,11c8,11
+< 	resources = {
+< 		tungsten = 15 # was: 20
+< 		steel = 15 # was: 20
 < 		chromium = 3 # was: 4
 ---
+> 	resources={
 > 		tungsten = 180 # was: 20
 > 		steel = 180 # was: 20
 > 		chromium = 36 # was: 4
-13c13
-< 		owner = GXC
----
-> 		owner = CHI

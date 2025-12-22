@@ -2,113 +2,121 @@
 < technologies = {
 ---
 >   technologies = {
-27c27
+32c32
 < 			position = { x = 0 y = 0 }
 ---
 > 			position = { x = 1 y = 0 }
-48a49,53
+55c55,60
+< 
+---
 > 		
 > 		path = {
 > 			leads_to_tech = heavy_industrial_crane
 > 			research_cost_coeff = 1
 > 		}
-60c65
+> 		
+66c71
 < 			position = { x = 0 y = 4 }
 ---
 > 			position = { x = 1 y = 4 }
-92c97
+99c104
 < 			position = { x = 0 y = 6 }
 ---
 > 			position = { x = 1 y = 6 }
-135c140
+138c143
 < 			position = { x = 0 y = 8 }
 ---
 > 			position = { x = 1 y = 8 }
-167c172
+170c175
 < 			position = { x = -1 y = 10 }
 ---
 > 			position = { x = 0 y = 10 }
-199c204
+202c207
 < 			position = { x = 1 y = 10 }
 ---
 > 			position = { x = 2 y = 10 }
-237c242
+236c241
 < 			position = { x = 2 y = 4 }
 ---
 > 			position = { x = 3 y = 4 }
-269c274
+274c279
 < 			position = { x = 2 y = 6 }
 ---
 > 			position = { x = 3 y = 6 }
-312c317
+325c330
 < 			position = { x = 4 y = 2 }
 ---
 > 			position = { x = 5 y = 2 }
-380c385
+395c400
 < 			position = { x = 4 y = 4 }
 ---
 > 			position = { x = 5 y = 4 }
-419c424
+436c441
 < 			position = { x = 4 y = 6 }
 ---
 > 			position = { x = 5 y = 6 }
-457c462
+476c481
 < 			position = { x = 4 y = 8 }
 ---
 > 			position = { x = 5 y = 8 }
-490c495
+511c516
 < 			position = { x = 4 y = 10 }
 ---
 > 			position = { x = 5 y = 10 }
-539c544
+562c567
 < 			position = { x = 6 y = 2 }
 ---
 > 			position = { x = 7 y = 2 }
-610c615
+635c640
 < 			position = { x = 6 y = 4 }
 ---
 > 			position = { x = 7 y = 4 }
-651c656
+678c683
 < 			position = { x = 6 y = 6 }
 ---
 > 			position = { x = 7 y = 6 }
-692c697
+721c726
 < 			position = { x = 6 y = 8 }
 ---
 > 			position = { x = 7 y = 8 }
-729c734
+760c765
 < 			position = { x = 6 y = 10 }
 ---
 > 			position = { x = 7 y = 10 }
-1399c1404
+1430c1435
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-1402c1407
+1433c1438
 < 				amount = 1
 ---
 > 				amount = 12
-1464c1469
+1495c1500
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-1467c1472
+1498c1503
 < 				amount = 1
 ---
 > 				amount = 12
-1524c1529
+1555c1560
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-1527c1532
+1558c1563
 < 				amount = 1
 ---
 > 				amount = 12
-1584c1589
+1615c1620
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-1587c1592
+1618c1623
 < 				amount = 1
 ---
 > 				amount = 12
+2134c2139
+< }
+\ Pas de fin de ligne à la fin du fichier
+---
+> }

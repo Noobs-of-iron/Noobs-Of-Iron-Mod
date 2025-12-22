@@ -1,8 +1,8 @@
-6c6
+6,8c6,8
 < 	resources = {
----
-> 	resources={
-8c8
+< 		oil = 2
 < 		rubber = 3
 ---
+> 	resources={
+> 		oil = 24
 > 		rubber = 36

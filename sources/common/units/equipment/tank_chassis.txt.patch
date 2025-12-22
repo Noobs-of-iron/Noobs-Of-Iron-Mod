@@ -1722,5 +1722,5 @@
 < 			chromium = 4
 ---
 > 		resources={
-> 			steel = 9.6
-> 			chromium = 4.8
+> 			steel = 96
+> 			chromium = 48

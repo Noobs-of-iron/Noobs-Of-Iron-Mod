@@ -1,15 +1,13 @@
-1132a1133,1136
+1132a1133,1134
 > 		
-> 		allow_branch = {
-> 			always = no
-> 		}
-1164c1168
+> 
+1228c1230
 < 		x = 1
 ---
 > 		x = 0
-1200d1203
+1264d1265
 < 		prerequisite = { focus = MAN_vassalize_mengukuo }
-1203,1204c1206,1207
+1267,1268c1268,1269
 < 		y = 2
 < 		relative_position_id = MAN_chinese_leadership
 ---

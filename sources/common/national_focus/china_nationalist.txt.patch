@@ -1,41 +1,41 @@
-64c64
+69c69
 < 			factor = 4
 ---
 > 			factor = 100
-71,73d70
+76,78d75
 < 		bypass = {
 < 
 < 		}
-697,700d693
-< 		bypass = {
-< 
-< 		}
-< 
-730,733d722
+727,730d723
 < 		bypass = {
 < 
 < 		}
 < 
-800a790,792
+760,763d752
+< 		bypass = {
+< 
+< 		}
+< 
+830a820,822
 > 		allow_branch = {
-> 			always = no
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-808c800,803
+838c830,833
 < 			is_in_faction_with = PRC
 ---
 > 			OR = {
 > 				has_war_with = JAP
 > 				has_war_with = MAN
 > 			}
-825c820
+855c850
 < 				country_event = generic.5
 ---
 > 				country_event = prc_noi.1
-833c828
+863c858
 < 		prerequisite = { focus = CHI_united_front focus = CHI_anti_communism }
 ---
 > 		prerequisite = { focus = CHI_foreign_threats focus = CHI_anti_communism }
-835,836c830,831
+865,866c860,861
 < 		y = 1
 < 		relative_position_id = CHI_united_front
 ---

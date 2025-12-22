@@ -1,6 +1,10 @@
-7,8c7,8
-< 		steel=6 #was 3 was: 4
-< 		aluminium=40 # was: 194
+6,9c6,9
+< 	resources = {
+< 		steel = 6 #was 3 was: 4
+< 		aluminium = 40 # was: 194
+< 		coal = 4 #initial distribution
 ---
+> 	resources={
 > 		steel = 72 #was 3 was: 4
 > 		aluminium = 480 # was: 194
+> 		coal = 48 #initial distribution

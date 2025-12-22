@@ -1,3 +1,11 @@
+1681c1681
+< 				amount = 8
+---
+> 				amount = 96
+1732c1732
+< 				amount = 4
+---
+> 				amount = 48
 2762c2762
 < 					amount = 8
 ---
@@ -6,11 +14,23 @@
 < 						amount = 12
 ---
 > 						amount = 144
-11476c11476
+11429c11429
+< 			    	amount = 8
+---
+> 			    	amount = 96
+11496c11496
 < 				    amount = 16
 ---
 > 				    amount = 192
-12455c12455
+12475c12475
 < 						amount = 8
 ---
 > 						amount = 96
+12503c12503
+< 						amount = 2
+---
+> 						amount = 24
+15203c15203
+< 					amount = 2
+---
+> 					amount = 24

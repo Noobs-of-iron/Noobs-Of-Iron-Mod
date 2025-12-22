@@ -4,7 +4,9 @@
 ---
 > 	resources={
 > 		aluminium = 12
-11c11
+11,12c11,12
 < 	resources = {
+< 		oil = 1
 ---
 > 	resources={
+> 		oil = 12

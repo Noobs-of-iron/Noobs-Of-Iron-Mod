@@ -1,4 +1,6 @@
-8c8
+8,9c8,9
 < 	resources = {
+< 		oil = 10 # was: 26 and then 19, but was split into 2 different states
 ---
 > 	resources={
+> 		oil = 120 # was: 26 and then 19, but was split into 2 different states

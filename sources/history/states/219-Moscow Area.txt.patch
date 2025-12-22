@@ -1,4 +1,6 @@
-9c9
-< 		steel=16 # was: 28
+9,10c9,10
+< 		steel = 16 # was: 28
+< 		coal = 16 # initial distribution
 ---
 > 		steel = 192 # was: 28
+> 		coal = 192 # initial distribution

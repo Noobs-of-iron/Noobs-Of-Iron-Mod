@@ -1,4 +1,6 @@
-7c7
+7,8c7,8
 < 		aluminium = 2
+< 		coal = 1 #initial distribution
 ---
 > 		aluminium = 24
+> 		coal = 12 #initial distribution

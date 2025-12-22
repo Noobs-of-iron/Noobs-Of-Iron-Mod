@@ -1,6 +1,8 @@
-5,6c5,6
+5,7c5,7
 < 		steel=3.000
 < 		tungsten=3.000
+< 		coal = 12 #initial distribution
 ---
 > 		steel = 36.000
 > 		tungsten = 36.000
+> 		coal = 144 #initial distribution

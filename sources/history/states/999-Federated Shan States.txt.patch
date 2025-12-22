@@ -1,4 +1,12 @@
-9c9
+8,10c8,10
+< 	resources = {
+< 		tungsten = 70
+< 		coal = 4 #Kalewa mines near the Chindwin River
+---
+> 	resources={
+> 		tungsten = 840
+> 		coal = 48 #Kalewa mines near the Chindwin River
+14c14
 < 		owner = BRM
 ---
 > 		owner = RAJ

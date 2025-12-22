@@ -1,0 +1,6 @@
+7,8c7,8
+< 	resources = {
+< 		coal = 8 # initial distribution = with infra 3.2 / 3 total	#boosted by 6 to reduce US import necessity
+---
+> 	resources={
+> 		coal = 96 # initial distribution = with infra 3.2 / 3 total	#boosted by 6 to reduce US import necessity

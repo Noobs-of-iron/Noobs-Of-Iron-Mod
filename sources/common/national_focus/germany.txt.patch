@@ -26,11 +26,11 @@
 < 					amount = 2
 ---
 > 					amount = 24
-1793c1793
+1797c1797
 < 					amount = 6
 ---
 > 					amount = 72
-1856,1860c1856,1860
+1860,1864c1860,1864
 < 					steel > 24
 < 					aluminium > 19
 < 					oil > 14
@@ -42,127 +42,99 @@
 > 					oil > 140
 > 					tungsten > 90
 > 					chromium > 90
-1870,1871c1870,1871
+1874,1878c1874,1878
 < 						steel > 25
 < 						aluminium > 20
----
-> 						steel > 250
-> 						aluminium > 200
-1873,1874c1873,1874
+< 						oil > 15
 < 						tungsten > 10
 < 						chromium > 10
 ---
+> 						steel > 250
+> 						aluminium > 200
+> 						oil > 150
 > 						tungsten > 100
 > 						chromium > 100
-1884c1884
+1889c1889
 < 					amount > 799
 ---
 > 					amount > 7999
-1890c1890
-< 						amount > 799
----
-> 						amount > 7999
-1898c1898
+1897c1897
 < 					amount > 499
 ---
 > 					amount > 4999
-1904c1904
-< 						amount > 499
----
-> 						amount > 4999
-1912c1912
+1905c1905
 < 					amount > 99
 ---
 > 					amount > 999
-1918c1918
-< 						amount > 99
----
-> 						amount > 999
-1926c1926
+1913c1913
 < 					amount > 99
 ---
 > 					amount > 999
-1932c1932
-< 						amount > 99
----
-> 						amount > 999
-1989,1990c1989,1990
+1969,1973c1969,1973
 < 						steel > 19
 < 						aluminium > 10
----
-> 						steel > 190
-> 						aluminium > 100
-1992,1993c1992,1993
+< 						oil > 9
 < 						tungsten > 9
 < 						chromium > 9
 ---
+> 						steel > 190
+> 						aluminium > 100
+> 						oil > 99
 > 						tungsten > 90
 > 						chromium > 90
+2145c2145
+< 				amount > 149
+---
+> 				amount > 1499
+2232c2232
+< 				amount > 99
+---
+> 				amount > 999
 2260c2260
-< 					amount > 99
----
-> 					amount > 999
-2266c2266
-< 						amount > 99
----
-> 						amount > 999
-2296c2296
 < 			modify_building_resources = {
 ---
 > 			modify_building_resources={
-2299c2299
+2263c2263
 <         	   amount = 2
 ---
 >         	   amount = 48
+2312c2312
+< 				amount > 799 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 				amount > 7999 #This needs to correspond to the Bypass values in the previous focuses
+2318c2318
+< 				amount > 199 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 				amount > 1999 #This needs to correspond to the Bypass values in the previous focuses
+2324c2324
+< 				amount > 149 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 				amount > 1499 #This needs to correspond to the Bypass values in the previous focuses
+2330c2330
+< 				amount > 99 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 				amount > 999 #This needs to correspond to the Bypass values in the previous focuses
+2336c2336
+< 				amount > 99 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 				amount > 999 #This needs to correspond to the Bypass values in the previous focuses
+2342c2342
+< 				amount > 99 #This needs to correspond to the Bypass values in the previous focuses
+---
+> 				amount > 999 #This needs to correspond to the Bypass values in the previous focuses
 2348c2348
-< 					amount > 799 #This needs to correspond to the Bypass values in the previous focuses
+< 				amount > 499 #This needs to correspond to the Bypass values in the previous focuses
 ---
-> 					amount > 7999 #This needs to correspond to the Bypass values in the previous focuses
-2354c2354
-< 						amount > 799 #This needs to correspond to the Bypass values in the previous focuses
----
-> 						amount > 7999 #This needs to correspond to the Bypass values in the previous focuses
-2362c2362
-< 					amount > 199 #This needs to correspond to the Bypass values in the previous focuses
----
-> 					amount > 1999 #This needs to correspond to the Bypass values in the previous focuses
-2368c2368
-< 						amount > 199 #This needs to correspond to the Bypass values in the previous focuses
----
-> 						amount > 1999 #This needs to correspond to the Bypass values in the previous focuses
-2390c2390
-< 					amount > 99 #This needs to correspond to the Bypass values in the previous focuses
----
-> 					amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2396c2396
-< 						amount > 99 #This needs to correspond to the Bypass values in the previous focuses
----
-> 						amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2404c2404
-< 					amount > 99 #This needs to correspond to the Bypass values in the previous focuses
----
-> 					amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2410c2410
-< 						amount > 99 #This needs to correspond to the Bypass values in the previous focuses
----
-> 						amount > 999 #This needs to correspond to the Bypass values in the previous focuses
-2418c2418
-< 					amount > 49 #This needs to correspond to the Bypass values in the previous focuses
----
-> 					amount > 499 #This needs to correspond to the Bypass values in the previous focuses
-2424c2424
-< 						amount > 49 #This needs to correspond to the Bypass values in the previous focuses
----
-> 						amount > 499 #This needs to correspond to the Bypass values in the previous focuses
-8169c8169
+> 				amount > 4999 #This needs to correspond to the Bypass values in the previous focuses
+8214c8214
 < 		x = 17
 ---
 > 		x = 6
-8238a8239,8241
+8283a8284,8286
 > 		allow_branch = {
-> 			always = no 
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-8388,8402c8391
+8433,8447c8436
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -179,18 +151,18 @@
 < 				}
 < 			}
 ---
-> 			always = no
-9109c9098
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+9154c9143
 < 		x = -14
 ---
 > 		x = -10
-9506,9507c9495,9496
+9551,9552c9540,9541
 < 		x = 17
 < 		y = 1
 ---
 > 		x = 18
 > 		y = 5
-9700a9690,9699
+9745a9735,9744
 > 		
 > 		bypass = {
 > 			CZE = {
@@ -201,92 +173,100 @@
 > 				}
 > 			}
 > 		}
-9742c9741,9742
+9787c9786,9787
 < 			has_army_manpower = { size > 724999 } #80 div
 ---
 > 			has_army_manpower = { size > 724999 } #80 
 > 			date > 1937.9.22
-10560a10561,10562
-> 		
-> 
-10564c10566
+10547c10547,10549
 < 
 ---
-> 		allow_branch = { always = no }
-10787,10788c10789,10790
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+10605a10608,10609
+> 		
+> 
+10609c10613
+< 
+---
+> 		
+10835,10836c10839,10840
 < 		x = 2
 < 		y = 4
 ---
 > 		x = 1
 > 		y = 10
-11356a11359,11360
-> 		allow_branch = { always = no }
+11404a11409,11412
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
 > 
-11418c11422
+11471c11479
 < 		prerequisite = { focus = GER_reassert_eastern_claims }
 ---
 > 		prerequisite = { focus = GER_reassert_eastern_claims focus = GER_molotov_ribbentrop_pact}
-14063c14067
+14116c14124
 < 		x = 20
 ---
 > 		x = 10
-14164c14168
+14217c14225
 < 		x = 2
 ---
 > 		x = 15
-14238a14243,14245
+14291a14300,14302
 > 		allow_branch = {
-> 			always = no 
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-14466c14473
+14521c14532
 < 		x = -1
 ---
 > 		x = 11
-18748c18755
+18829c18840
 < 						amount = 6
 ---
 > 						amount = 72
-18769c18776
+18850c18861
 < 								amount > 19
 ---
 > 								amount > 190
-18774c18781
+18855c18866
 < 								amount > 19
 ---
 > 								amount > 190
-18779c18786
+18860c18871
 < 								amount > 19
 ---
 > 								amount > 190
-18784c18791
+18865c18876
 < 								amount > 19
 ---
 > 								amount > 190
-18789c18796
+18870c18881
 < 								amount > 19
 ---
 > 								amount > 190
-18812c18819
+18893c18904
 < 								amount > 19
 ---
 > 								amount > 190
-18817c18824
+18898c18909
 < 								amount > 19
 ---
 > 								amount > 190
-18822c18829
+18903c18914
 < 								amount > 19
 ---
 > 								amount > 190
-18827c18834
+18908c18919
 < 								amount > 19
 ---
 > 								amount > 190
-18832c18839
+18913c18924
 < 								amount > 19
 ---
 > 								amount > 190
-20976,20987c20983
+21057,21068c21068
 < 			has_dlc = "Gotterdammerung" 
 < 			if = {
 < 				limit = {
@@ -300,8 +280,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-21308,21320c21304
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+21389,21401c21389
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -316,37 +296,37 @@
 < 				}
 < 			}
 ---
-> 			always = no
-21692a21677,21680
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+21773a21762,21765
 > 		allow_branch = {
-> 			always = no 
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
 > 
-23665c23653
+23755c23747
 < 						amount = 6
 ---
 > 						amount = 72
-23669c23657
+23759c23751
 < 						amount = 3
 ---
 > 						amount = 36
-23673c23661
+23763c23755
 < 						amount = 3
 ---
 > 						amount = 36
-23690c23678
+23780c23772
 < 						amount = 6
 ---
 > 						amount = 72
-23694c23682
+23784c23776
 < 						amount = 3
 ---
 > 						amount = 36
-23698c23686
+23788c23780
 < 						amount = 3
 ---
 > 						amount = 36
-25089,25101c25077
+25179,25191c25171
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -361,8 +341,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-25226,25241c25202
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+25316,25331c25296
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -380,8 +360,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-29012,29030c28973
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+29101,29119c29066
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -402,8 +382,8 @@
 < 				has_completed_focus = GER_conquer_italy
 < 			}
 ---
-> 			always = no
-34982,34994c34925
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+35073,35085c35020
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 
 < 			if = {
@@ -419,7 +399,7 @@
 < 			}
 ---
 > 			always = no
-35145,35159c35076
+35236,35250c35171
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -436,8 +416,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-35212,35223c35129
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+35303,35314c35224
 < 			NOT = { has_dlc = "Gotterdammerung" }
 < 			if = {
 < 				limit = {
@@ -451,8 +431,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-36895,36909c36801
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+36990,37004c36900
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -469,8 +449,8 @@
 < 				}
 < 			}
 ---
-> 			always = no
-38286c38178
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+38389c38285
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

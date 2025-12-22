@@ -1,0 +1,8 @@
+8,10c8,10
+< 	resources = {
+< 		coal = 8 # 200,000 metric tons produced 
+< 		oil = 3 #1m barrels annually
+---
+> 	resources={
+> 		coal = 96 # 200,000 metric tons produced 
+> 		oil = 36 #1m barrels annually

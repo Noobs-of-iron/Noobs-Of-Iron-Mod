@@ -1,0 +1,15 @@
+noi_allow_ahistorical = {
+    name = noi_allow_ahistorical
+    group = noi_rules_group
+    icon = "GFX_new_icon"
+    default = {
+        name = noi_rule_ahistorical_forbidden
+        text = noi_rule_ahistorical_forbidden
+        desc = noi_rule_ahistorical_forbidden_desc
+    }
+    option = {
+        name = noi_rule_ahistorical_allowed
+        text = noi_rule_ahistorical_allowed
+        desc = noi_rule_ahistorical_allowed_desc
+    }
+}

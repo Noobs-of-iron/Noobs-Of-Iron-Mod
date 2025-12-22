@@ -1,4 +1,4 @@
-25c25
+29c29
 < 		xp_unlock_cost = 60
 ---
 > 		xp_unlock_cost = 40
@@ -34,7 +34,7 @@
 < 		xp_unlock_cost = 60
 ---
 > 		xp_unlock_cost = 40
-1012,1016c1012
+977,981c977
 < 		
 < 		path = {
 < 			leads_to_tech = paras_combat_drop
@@ -42,16 +42,16 @@
 < 		}
 ---
 > 	
-1058,1059d1053
+1019,1020d1014
 < 
 < 		xor = { paras_combat_drop }
-1078c1072
+1039c1033
 < 			position = { x = -1 y = 2 }
 ---
 > 			position = { x = 0 y = 2 }
-1090d1083
+1051d1044
 < 	paras_combat_drop = {
-1092,1131d1084
+1053,1092d1045
 < 		xp_research_type = air
 < 		xp_unlock_cost = 60
 < 		

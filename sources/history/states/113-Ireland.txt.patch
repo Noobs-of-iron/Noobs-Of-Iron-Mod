@@ -1,6 +1,8 @@
-7,8c7,8
+7,9c7,9
 < 		aluminium=0 # was: 2
 < 		steel=2 # was: 3
+< 		coal = 1 # initial distribution
 ---
 > 		aluminium = 0 # was: 2
 > 		steel = 24 # was: 3
+> 		coal = 12 # initial distribution

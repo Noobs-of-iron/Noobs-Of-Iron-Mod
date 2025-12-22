@@ -90,7 +90,7 @@ module_slots = {
 		fuel_consumption = 20
 		
 		build_cost_ic = 1100
-		resources = {
+		resources={
 			steel = 10
 		}
 		
@@ -108,7 +108,7 @@ module_slots = {
 		max_strength = 120
 		naval_range = 3000
 		manpower = 2200
-		resources = {
+		resources={
 			steel = 20
 			chromium = 1
 		}
@@ -181,7 +181,7 @@ module_slots = {
 		build_cost_ic = 1500
 		naval_range = 3500
 		max_strength = 130
-		resources = {
+		resources={
 			steel = 30
 			chromium = 10
 		}

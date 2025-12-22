@@ -1,8 +1,10 @@
-8,10c8,10
+8,11c8,11
 < 	resources = {
 < 		steel = 8 # was: 12.000
 < 		aluminium = 9 # was: 14.000
+< 		coal = 2 # initial distribution = with infra 3.2 / 36 total
 ---
 > 	resources={
 > 		steel = 96 # was: 12.000
 > 		aluminium = 108 # was: 14.000
+> 		coal = 24 # initial distribution = with infra 3.2 / 36 total

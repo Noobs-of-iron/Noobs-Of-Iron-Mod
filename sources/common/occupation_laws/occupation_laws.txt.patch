@@ -1,11 +1,8 @@
 145a146
 > 
-173a175
+173a175,176
 > 	starting_law = yes
-275d276
+> 	default_law = yes
+274,275d276
+< 	default_law = yes
 < 	starting_law = yes
-880c881
-< }
-\ Pas de fin de ligne à la fin du fichier
----
-> }

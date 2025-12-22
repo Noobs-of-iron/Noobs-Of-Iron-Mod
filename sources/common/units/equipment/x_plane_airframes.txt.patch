@@ -65,9 +65,9 @@
 < 			rubber = 1
 ---
 > 		resources={
-> 			aluminium = 4.8
-> 			chromium = 4.8
-> 			rubber = 1.2
+> 			aluminium = 48
+> 			chromium = 48
+> 			rubber = 12
 460,463c460,463
 < 		resources = {
 < 			#oil = 1

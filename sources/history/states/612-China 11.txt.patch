@@ -1,6 +1,6 @@
-6,7c6,7
-< 		owner = MEN
-< 		add_core_of = MEN
+8,9c8,9
+< 	resources = {
+< 		coal = 3 # The coal of the Chahar–Suiyuan mines.
 ---
-> 		owner = MAN
-> 		add_core_of = MAN
+> 	resources={
+> 		coal = 36 # The coal of the Chahar–Suiyuan mines.

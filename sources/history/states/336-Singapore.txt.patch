@@ -1,39 +1,12 @@
-5c5
-< 	manpower = 2893200
----
-> 	manpower = 2293200
-9,13c9,13
+8,12c8,12
 < 	resources = {
 < 		rubber = 342 # was: 848
-< 		steel = 20 # was: 32
-< 		tungsten = 189 # was: 308
-< 		aluminium = 15 # was: 25
+< 		steel = 10 # was: 32, then 20
+< 		tungsten = 160 # was: 308, then 189
+< 		aluminium = 10 # was: 25, then 15
 ---
 > 	resources={
 > 		rubber = 4104 # was: 848
-> 		steel = 240 # was: 32
-> 		tungsten = 2268 # was: 308
-> 		aluminium = 180 # was: 25
-20,23c20
-< 
-< 		victory_points = {
-< 			12299 10
-< 		}
----
-> 		
-28c25
-< 			10297 1 
----
-> 			10297 5
-34,38c31
-< 			air_base = 6
-< 			12299 = {
-< 				naval_base = 8
-< 				coastal_bunker = 3
-< 			}
----
-> 			air_base = 3
-50c43
-< 		1291 1348 1364 1376 1392 4310 4355 4367 4384 4412 4424 7329 7342 7399 7427 10227 10297 10313 12144 12199 12215 12255 12271 12299 
----
-> 		1291 1348 1364 1376 1392 4310 4355 4367 4384 4412 4424 7329 7342 7399 7427 10227 10297 10313 12144 12199 12215 12255 12271
+> 		steel = 120 # was: 32, then 20
+> 		tungsten = 1920 # was: 308, then 189
+> 		aluminium = 120 # was: 25, then 15

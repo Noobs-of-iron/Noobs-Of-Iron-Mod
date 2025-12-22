@@ -1,0 +1,6 @@
+6,7c6,7
+< 	resources = {
+< 		coal = 2 # local bituminous coal being developed in a factory
+---
+> 	resources={
+> 		coal = 24 # local bituminous coal being developed in a factory

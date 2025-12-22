@@ -1,0 +1,6 @@
+8,9c8,9
+< 	resources = {
+< 		aluminium = 5
+---
+> 	resources={
+> 		aluminium = 60

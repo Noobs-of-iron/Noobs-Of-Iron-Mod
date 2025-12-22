@@ -1,662 +1,128 @@
-16c16
-< 
----
-> 	
-35,51c35,36
-< 			has_dlc = "Waking the Tiger"
-< 			if = {
-< 				limit = {
-< 					has_game_rule = {
-< 						rule = obsolete_focus_branches_visibility
-< 						option = HIDE
-< 					}
-< 				}
-< 				NOT = {
-< 					OR = {
-< 						has_completed_focus = JAP_purge_the_kodoha_faction
-< 						has_completed_focus = JAP_support_the_kodoha_faction
-< 						has_completed_focus = JAP_strengthen_civilian_government
-< 					}
-< 				}
-< 			}
-< 		}
----
->             always = no
->         }
-980c965
+1271c1271
 < 					amount = 12
 ---
 > 					amount = 144
-990c975
-< 		x = 8
----
-> 		x = 0
-1210a1196,1198
-> 				PRC = {
-> 					country_event = china.1
-> 				}
-1286a1275,1276
-> 	
-> 
-1323c1313
+2790c2790
 < 					amount = 8
 ---
 > 					amount = 96
-1329c1319
+12125c12125
+< 					amount = 8
+---
+> 					amount = 96
+12131c12131
 < 					amount = 12
 ---
 > 					amount = 144
-1803,1805c1793
-< 			SIA = { 
-< 				country_event = { id = generic.5 hours = 2 }
-< 			}
+12135c12135
+< 					amount = 8
 ---
-> 			add_to_faction = SIA
-1823c1811
-< 		cost = 10
+> 					amount = 96
+12141c12141
+< 					amount = 8
 ---
-> 		cost = 5
-1853c1841
+> 					amount = 96
+12147c12147
 < 					amount = 12
 ---
 > 					amount = 144
-1894c1882
+12153c12153
+< 					amount = 10
+---
+> 					amount = 120
+13405c13405
+< 					amount = 12
+---
+> 					amount = 144
+13478c13478
 < 					amount = 6
 ---
 > 					amount = 72
-2722,2737c2710,2711
-< 			if = {
-< 				limit = {
-< 					has_game_rule = {
-< 						rule = obsolete_focus_branches_visibility
-< 						option = HIDE
-< 					}
-< 				}
-< 				NOT = {
-< 					OR = {
-< 						has_completed_focus = JAP_purge_the_kodoha_faction
-< 						has_completed_focus = JAP_the_unthinkable_option
-< 						has_completed_focus = JAP_strengthen_civilian_government
-< 					}
-< 				}
-< 			}
-< 		}
----
->             always = no
->         }
-3513c3487
+15746c15746
 < 					amount = 8
 ---
 > 					amount = 96
-3612,3628c3586,3587
-< 			has_dlc = "Waking the Tiger"
-< 			if = {
-< 				limit = {
-< 					has_game_rule = {
-< 						rule = obsolete_focus_branches_visibility
-< 						option = HIDE
-< 					}
-< 				}
-< 				NOT = {
-< 					OR = {
-< 						has_completed_focus = JAP_purge_the_kodoha_faction
-< 						has_completed_focus = JAP_support_the_kodoha_faction
-< 						has_completed_focus = JAP_the_unthinkable_option
-< 					}
-< 				}
-< 			}
-< 		}
+21086c21086
+< 					amount = 12
 ---
->             always = no
->         }
-4402c4361
-< 		x = 6
+> 					amount = 144
+21159c21159
+< 					amount = 6
 ---
-> 		x = 11
-4404d4362
-< 		relative_position_id = JAP_strengthen_civilian_government
-4413c4371
-< 			x = -9
+> 					amount = 72
+21218c21218
+< 					amount = 8
 ---
-> 			x = -8
-4547c4505
-< 						amount = 16
+> 					amount = 96
+21235c21235
+< 					amount = 8
 ---
-> 						amount = 192
-4600c4558
-< 						amount = 12
+> 					amount = 96
+21241c21241
+< 					amount = 12
 ---
-> 						amount = 144
-4860c4818
-< 		cost = 10
+> 					amount = 144
+21245c21245
+< 					amount = 8
 ---
-> 		cost = 5
-5080c5038
-< 		cost = 10
+> 					amount = 96
+21251c21251
+< 					amount = 8
 ---
-> 		cost = 5
-5519c5477
-< 		cost = 10
+> 					amount = 96
+21257c21257
+< 					amount = 12
 ---
-> 		cost = 5
-5642c5600
-< 		cost = 10
+> 					amount = 144
+21263c21263
+< 					amount = 10
 ---
-> 		cost = 5
-5683c5641
-< 		cost = 10
+> 					amount = 120
+24631c24631
+< 					amount = 25
 ---
-> 		cost = 5
-5813c5771
-< 		cost = 10
+> 					amount = 300
+26508c26508
+< 				amount > 199
 ---
-> 		cost = 5
-5866c5824
-< 		cost = 10
+> 				amount > 1999
+26516c26516
+< 				amount > 199 
 ---
-> 		cost = 5
-6095a6054,6557
-> 		}
-> 	}
-> 	focus = {
-> 		id = JAP_island_fortification
-> 		icon = GFX_focus_generic_coastal_fort
-> 		prerequisite = { focus = JAP_secure_china }
-> 		available = {
-> 		        AND = {
-> 				NOT = { country_exists = CHI }
-> 				has_full_control_of_state = 648
-> 				has_full_control_of_state = 645
-> 				has_full_control_of_state = 646
-> 				has_full_control_of_state = 526
-> 				has_full_control_of_state = 524
-> 				has_full_control_of_state = 647
-> 				}
-> 		}
-> 		cancel_if_invalid = yes
-> 		x = -2
-> 		y = 1
-> 		relative_position_id = JAP_secure_china
-> 		cost = 10
-> 		ai_will_do = {
-> 			factor = 1
-> 		}
-> 
-> 		completion_reward = {
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 648
-> 						}
-> 					}
-> 					648 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 					}
-> 				}
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 645
-> 						}
-> 					}
-> 					645 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 					}
-> 				}
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 646
-> 						}
-> 					}
-> 					646 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 					}
-> 				}
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 526
-> 						}
-> 					}
-> 					526 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 					}
-> 				}
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 524
-> 						}
-> 					}
-> 					524 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 					}
-> 				}
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 647
-> 						}
-> 					}
-> 					647 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 				}
-> 			}
-> 		}
-> 	}
-> 
-> 	focus = {
-> 		id = JAP_mainland_fortification
-> 		icon = GFX_goal_generic_construct_military
-> 		prerequisite = { focus = JAP_island_fortification }
-> 		available = {
-> 			AND = {
-> 				has_full_control_of_state = 533
-> 				has_full_control_of_state = 282
-> 				has_full_control_of_state = 531
-> 				has_full_control_of_state = 529
-> 				has_full_control_of_state = 528
-> 			}
-> 		}
-> 		cancel_if_invalid = yes
-> 		x = 0
-> 		y = 1
-> 		relative_position_id = JAP_island_fortification
-> 		cost = 10
-> 		ai_will_do = {
-> 			factor = 1
-> 		}
-> 
-> 		completion_reward = {
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 533
-> 						}
-> 					}
-> 					533 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 					}
-> 				}
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 282
-> 						}
-> 					}
-> 					282 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 					}
-> 				}
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 531
-> 						}
-> 					}
-> 					531 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 					}
-> 				}
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 529
-> 						}
-> 					}
-> 					529 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 					}
-> 				}
-> 				if = {
-> 					limit = {
-> 						any_country = {
-> 							OR = {
-> 								tag = JAP
-> 								is_in_faction_with = JAP
-> 							}
-> 							has_full_control_of_state = 528
-> 						}
-> 					}
-> 					528 = {
-> 						#Fortify naval bases
-> 						add_building_construction = {
-> 							type = coastal_bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 4
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
-> 							type = bunker
-> 							province = {
-> 								all_provinces = yes
-> 								limit_to_naval_base = yes
-> 							}
-> 							level = 3
-> 							instant_build = yes
-> 						}
-> 						add_building_construction = {
->             	    	    type = coastal_bunker
->             	    	    province = {
->             	    	        all_provinces = yes
->             	    	        limit_to_coastal = yes
->             	    	    }
->             	    	    level = 1
->             	    	    instant_build = yes
->             	    	}
-> 					}
-> 				}
+> 				amount > 1999 
+26524c26524
+< 				amount > 249
+---
+> 				amount > 2499
+26532c26532
+< 				amount > 199
+---
+> 				amount > 1999
+26540c26540
+< 				amount > 149 
+---
+> 				amount > 1499 
+26548c26548
+< 				amount > 299
+---
+> 				amount > 2999
+26556c26556
+< 				amount > 199
+---
+> 				amount > 1999
+27061c27061
+< 					amount = 4
+---
+> 					amount = 48
+27065c27065
+< 					amount = 6
+---
+> 					amount = 72
+27069c27069
+< 					amount = 6
+---
+> 					amount = 72
+30039c30039
+< 				    amount = 5
+---
+> 				    amount = 60

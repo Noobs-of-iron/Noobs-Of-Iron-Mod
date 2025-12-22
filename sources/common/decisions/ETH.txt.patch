@@ -1,12 +1,20 @@
-2170c2170
+2109c2109
+< 	ETH_prospect_for_resources = {
+---
+> 	ETH_prospect_for_resources={
+2167c2167
+< 							amount = 4
+---
+> 							amount = 48
+2175c2175
 < 							amount = 10
 ---
 > 							amount = 120
-2178c2178
+2183c2183
 < 							amount = 6
 ---
 > 							amount = 72
-2186c2186
+2191c2191
 < 							amount = 6
 ---
 > 							amount = 72

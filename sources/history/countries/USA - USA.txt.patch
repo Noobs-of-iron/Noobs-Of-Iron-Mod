@@ -1,14 +1,9 @@
-388,391d387
-< set_autonomy = {
-< 	target = PHI
-< 	autonomous_state =  autonomy_puppet
-< }
-1358a1355,1362
-> 
+6a7,12
 > #Noobs of Iron stuff
 > add_ideas = {
 >     USA_NOI_enforced_neutrality
 > 	USA_NOI_rubber_industry_rivality
 > }
-> give_guarantee = PHI
 > 
+20a27
+> 			iw_large_airframe = 1

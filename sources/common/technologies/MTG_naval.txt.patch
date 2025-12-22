@@ -1,103 +1,37 @@
-492a493,536
-> 		path = {
-> 			leads_to_tech = advanced_sonar
-> 			research_cost_coeff = 1
-> 		}
-> 
-> 		ai_will_do = {
-> 			factor = 2
-> 
-> 			modifier = {
-> 				factor = 4
-> 				has_war_with = GER
-> 			}
-> 			modifier = {
-> 				factor = 2
-> 				anti_submarine_strategy_required_trigger = yes
-> 			}
-> 		}
-> 
-> 		categories = {
-> 			naval_equipment
-> 			dd_tech
-> 			asw_tech
-> 			ship_modules_tech
-> 			mio_cat_tech_all_screen_ship_and_modules
-> 			mio_cat_tech_all_destroyer_and_modules
-> 		}
-> 		special_project_specialization = { specialization_naval }
-> 	}
-> 
-> 	advanced_sonar = {
-> 		enable_equipment_modules = {
-> 			ship_sonar_3
-> 		}
-> 		on_research_complete = {
-> 			custom_effect_tooltip = sonar_advice_tt
-> 		}
-> 		research_cost = 0.75
-> 
-> 		start_year = 1940
-> 
-> 		folder = {
-> 			name = mtgnavalfolder
-> 			position = { x = 2 y = 13 }
-> 		}
-914a959,963
+914a915,919
 > 
 > 		path = {
 > 			leads_to_tech = basic_hybrid_ship_hull_heavy
 > 			research_cost_coeff = 1
 > 		}
-956a1006
+958a964
 > 
-1194a1245
+1194a1201
 > 
-1219c1270
+1343c1350
 < 			position = {  x = -1 y = 2 }
 ---
 > 			position = {  x = 2 y = 2 }
-1255a1307,1311
+1378a1386,1389
 > 		path = {
 > 			leads_to_tech = improved_ship_hull_escort_carrier
 > 			research_cost_coeff = 1
 > 		}
+1379a1391
 > 
-1262c1318
+1395c1407
 < 			position = {  x = -1 y = 8 }
 ---
 > 			position = {  x = 2 y = 8 }
-1319c1375
+1462c1474
 < 			position = {  x = -1 y = 14 }
 ---
 > 			position = {  x = 2 y = 14 }
-1366c1422,1478
+1509c1521
 < 			position = {  x = -1 y = 20 }
 ---
 > 			position = {  x = 2 y = 20 }
-> 		}
-> 
-> 		ai_will_do = {
-> 			factor = 1
-> 
-> 			modifier = {
-> 				factor = 8
-> 				OR = {
-> 					tag = ENG
-> 					tag = JAP
-> 					tag = USA
-> 				}
-> 			}
-> 		}
-> 
-> 		categories = {
-> 			naval_equipment
-> 			cv_tech
-> 			mio_cat_tech_all_carrier_and_modules
-> 		}
-> 		special_project_specialization = { specialization_naval }
-> 	}
-> 
+1532a1545,1673
 > ######### ESCORT CARRIERS #################
 > ###################################################################################
 > #     #  #######   #####   #     #
@@ -110,140 +44,182 @@
 > ###################################################################################
 > 
 > 
-> 	improved_ship_hull_escort_carrier = {
+> #	improved_ship_hull_escort_carrier = {
+> #
+> #		enable_equipments = {
+> #			ship_hull_escort_carrier_2
+> #		}	
+> #		path = {
+> #			leads_to_tech = advanced_ship_hull_escort_carrier
+> #			research_cost_coeff = 1
+> #		}
+> #
+> #		research_cost = 0.5
+> #
+> #		dependencies = {
+> #			basic_ship_hull_carrier = 1
+> #		}
+> #
+> #		start_year = 1938
+> #
+> #		folder = {
+> #			name = mtgnavalfolder
+> #			position = {  x = 0 y = 11 }
+> #		}
+> #
+> #		ai_will_do = {
+> #			factor = 1
+> #
+> #			modifier = {
+> #				factor = 8
+> #				OR = {
+> #					tag = ENG
+> #					tag = JAP
+> #					tag = USA
+> #				}
+> #			}
+> #		}
+> #
+> #		categories = {
+> #			naval_equipment
+> #			cv_tech
+> #			mio_cat_tech_all_carrier_and_modules
+> #		}
+> #		special_project_specialization = { specialization_naval }
+> #	}
 > 
-> 		enable_equipments = {
-> 			ship_hull_escort_carrier_2
-> 		}	
-> 		path = {
-> 			leads_to_tech = advanced_ship_hull_escort_carrier
-> 			research_cost_coeff = 1
-> 		}
+> #	advanced_ship_hull_escort_carrier = {
+> #
+> #		enable_equipments = {
+> #			ship_hull_escort_carrier_3
+> #		}
+> #		research_cost = 0.75
+> #
+> #		start_year = 1942
+> #
+> #		folder = {
+> #			name = mtgnavalfolder
+> #			position = {  x = 0 y = 17 }
+> #		}
+> #
+> #		categories = {
+> #			naval_equipment
+> #			cv_tech
+> #			mio_cat_tech_all_carrier_and_modules
+> #		}
+> #		special_project_specialization = { specialization_naval }
+> #	}
 > 
-> 		research_cost = 0.5
+> 	#basic_hybrid_ship_hull_heavy = {
+> #
+> 	#	enable_equipments = {
+> 	#		ship_hull_hybrid_bb_2
+> 	#	}
+> 	#	
+> 	#	research_cost = 1.25
+> #
+> 	#	start_year = 1940
+> #
+> 	#	folder = {
+> 	#		name = mtgnavalfolder
+> 	#		position = {  x = 1 y = 14 }
+> 	#	}
+> #
+> 	#	path = {
+> 	#		leads_to_tech = improved_hybrid_ship_hull_heavy
+> 	#		research_cost_coeff = 1
+> 	#	}
+> #
+> 	#	categories = {
+> 	#		naval_equipment
+> 	#		cv_tech
+> 	#		mio_cat_tech_all_capital_ship_and_modules
+> 	#	}
+> 	#	special_project_specialization = { specialization_naval }
+> 	#}
 > 
-> 		dependencies = {
-> 			basic_ship_hull_carrier = 1
-> 		}
+> 	#improved_hybrid_ship_hull_heavy = {
+> #
+> 	#	enable_equipments = {
+> 	#		ship_hull_hybrid_bb_3
+> #		}
+> #		
+> #		research_cost = 1
+> #
+> #		start_year = 1944
+> #
+> #		folder = {
+> #			name = mtgnavalfolder
+> #			position = {  x = 1 y = 20 }
+> #		}
+> #
+> #		categories = {
+> #			naval_equipment
+> #			cv_tech
+> #			mio_cat_tech_all_capital_ship_and_modules
+> #		}
+> #		special_project_specialization = { specialization_naval }
+> #	}
 > 
-> 		start_year = 1938
-> 
-> 		folder = {
-> 			name = mtgnavalfolder
-> 			position = {  x = 0 y = 11 }
-1389a1502,1574
-> 	advanced_ship_hull_escort_carrier = {
-> 
-> 		enable_equipments = {
-> 			ship_hull_escort_carrier_3
-> 		}
-> 		research_cost = 0.75
-> 
-> 		start_year = 1942
-> 
-> 		folder = {
-> 			name = mtgnavalfolder
-> 			position = {  x = 0 y = 17 }
-> 		}
-> 
-> 		categories = {
-> 			naval_equipment
-> 			cv_tech
-> 			mio_cat_tech_all_carrier_and_modules
-> 		}
-> 		special_project_specialization = { specialization_naval }
-> 	}
-> 
-> 	basic_hybrid_ship_hull_heavy = {
-> 
-> 		enable_equipments = {
-> 			ship_hull_hybrid_bb_2
-> 		}
-> 		
-> 		research_cost = 1.25
-> 
-> 		start_year = 1940
-> 
-> 		folder = {
-> 			name = mtgnavalfolder
-> 			position = {  x = 1 y = 14 }
-> 		}
-> 
-> 		path = {
-> 			leads_to_tech = improved_hybrid_ship_hull_heavy
-> 			research_cost_coeff = 1
-> 		}
-> 
-> 		categories = {
-> 			naval_equipment
-> 			cv_tech
-> 			mio_cat_tech_all_capital_ship_and_modules
-> 		}
-> 		special_project_specialization = { specialization_naval }
-> 	}
-> 
-> 	improved_hybrid_ship_hull_heavy = {
-> 
-> 		enable_equipments = {
-> 			ship_hull_hybrid_bb_3
-> 		}
-> 		
-> 		research_cost = 1
-> 
-> 		start_year = 1944
-> 
-> 		folder = {
-> 			name = mtgnavalfolder
-> 			position = {  x = 1 y = 20 }
-> 		}
-> 
-> 		categories = {
-> 			naval_equipment
-> 			cv_tech
-> 			mio_cat_tech_all_capital_ship_and_modules
-> 		}
-> 		special_project_specialization = { specialization_naval }
-> 	}
-> 
-1429c1614
+1571c1712
 < 			position = {  x = -2 y = 2 }
 ---
 > 			position = {  x = 3 y = 2 }
-1443c1628,1629
+1585c1726,1727
 < 
 ---
 > 	
 > 		
-1491c1677
+1632c1774
 < 			position = {  x = -2 y = 8 }
 ---
 > 			position = {  x = 3 y = 8 }
-1541c1727
+1681c1823
 < 			position = {  x = -2 y = 14 }
 ---
 > 			position = {  x = 3 y = 14 }
-1568a1755
+1708a1851
 > 		
-1580c1767
+1719c1862
 < 			position = {  x = -2 y = 20 }
 ---
 > 			position = {  x = 3 y = 20 }
-1609,1612c1796
+1748,1751c1891
 < 		path = {
 < 			leads_to_tech = improved_submarine_snorkel
 < 			research_cost_coeff = 1
 < 		}
 ---
 > 
-1622c1806
+1757c1897
+< 		start_year = 1939
+---
+> 		start_year = 1940
+1761c1901
 < 			position = {  x = -1 y = 13 }
 ---
 > 			position = {  x = 4 y = 13 }
-1880c2064
+1806c1946
+< 		start_year = 1943
+---
+> 		start_year = 1944
+1946c2086
+< 		start_year = 1939
+---
+> 		start_year = 1940
+1975c2115
+< 		start_year = 1943
+---
+> 		start_year = 1944
+2015c2155
 < 			position = { x = 0 y = 17 }
 ---
 > 			position = { x = 3 y = 17 }
-1910c2094
+2042c2182
+< 		start_year = 1944
+---
+> 		start_year = 1945
+2045c2185
 < 			position = { x = 0 y = 23 }
 ---
 > 			position = { x = 3 y = 23 }

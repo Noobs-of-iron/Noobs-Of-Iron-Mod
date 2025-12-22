@@ -1,12 +1,12 @@
-4,6c4,6
+5,7c5,7
 < 	resources = {
-< 		rubber = 3.000
-< 		tungsten = 92.000
+< 		tungsten = 92
+< 		oil = 56
 ---
 > 	resources={
-> 		rubber = 36.000
-> 		tungsten = 1104.000
-14c14
+> 		tungsten = 1104
+> 		oil = 672
+16c16
 < 		owner = BRM
 ---
 > 		owner = RAJ

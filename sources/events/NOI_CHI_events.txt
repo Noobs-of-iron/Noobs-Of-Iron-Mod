@@ -1,0 +1,63 @@
+add_namespace = noi.chi
+
+country_event = {
+     id = noi.chi.2
+     title = noi.chi.2.t
+     desc = noi.chi.2.d
+     picture = GFX_report_event_china_chiang_kai_shek
+ 
+     trigger = {
+          tag = CHI
+          has_war_with = JAP
+      }
+ 
+      fire_only_once = yes
+ 
+      option = {
+           name = noi.chi.2.a
+           annex_country = {
+                 target = SIC
+                 transfer_troops = yes
+           }
+           annex_country = {
+                 target = YUN
+                 transfer_troops = yes
+           }
+           annex_country = {
+                 target = GDC
+                 transfer_troops = yes
+           }
+           annex_country = {
+                 target = GXC
+                 transfer_troops = yes
+           }
+           annex_country = {
+                 target = SND
+                 transfer_troops = yes
+           }
+           annex_country = {
+                 target = HBC
+                 transfer_troops = yes
+           }
+           annex_country = {
+                 target = XIC
+                 transfer_troops = yes
+           }
+           annex_country = {
+                 target = XSM
+                 transfer_troops = yes
+           }
+           annex_country = {
+                 target = GSM
+                 transfer_troops = yes
+           }
+           annex_country = {
+                 target = NXM
+                 transfer_troops = yes
+           }
+           annex_country = {
+                 target = KHM
+                 transfer_troops = yes
+           }
+      }
+ }

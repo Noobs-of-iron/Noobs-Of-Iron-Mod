@@ -1,0 +1,8 @@
+8,10c8,10
+< 	resources = {
+< 		steel=4
+< 		chromium=5
+---
+> 	resources={
+> 		steel = 48
+> 		chromium = 60

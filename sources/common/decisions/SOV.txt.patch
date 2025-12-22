@@ -1,78 +1,102 @@
-6925c6925
+6973c6973
 < 					amount = 3
 ---
 > 					amount = 36
-6929c6929
+6977c6977
 < 					amount = 3
 ---
 > 					amount = 36
-7084c7084
+7132c7132
 < 					amount = 3
 ---
 > 					amount = 36
-7088c7088
+7136c7136
 < 					amount = 3
 ---
 > 					amount = 36
-7716c7716
+7140c7140
+< 					amount = 6
+---
+> 					amount = 72
+7549c7549
+< 					amount = 12
+---
+> 					amount = 144
+7772c7772
 < 						amount = 3
 ---
 > 						amount = 36
-7720c7720
+7776c7776
 < 						amount = 3
 ---
 > 						amount = 36
-7802c7802
+7858c7858
 < 						amount = 3
 ---
 > 						amount = 36
-7806c7806
+7862c7862
 < 						amount = 3
 ---
 > 						amount = 36
-8148c8148
-< prospect_for_resources = {
+7866c7866
+< 						amount = 6
 ---
-> prospect_for_resources={
-8150c8150
-< 		priority = 50
----
-> 		priority = 60
-8155c8155
-< 			base = 1
----
-> 			base = 1.2
-8189c8189
-< 					amount = 3
----
-> 					amount = 36
-8193c8193
-< 					amount = 3
----
-> 					amount = 36
-8277c8277
-< 					amount = 3
----
-> 					amount = 36
-8281c8281
-< 					amount = 3
----
-> 					amount = 36
-9361c9361
-< 				amount = 3
----
-> 				amount = 36
-11254c11254
+> 						amount = 72
+8105c8105
 < 						amount = 12
 ---
 > 						amount = 144
-13131d13130
+8204c8204
+< prospect_for_resources = {
+---
+> prospect_for_resources={
+8206c8206
+< 		priority = 50
+---
+> 		priority = 60
+8211c8211
+< 			base = 1
+---
+> 			base = 1.2
+8245c8245
+< 					amount = 3
+---
+> 					amount = 36
+8249c8249
+< 					amount = 3
+---
+> 					amount = 36
+8333c8333
+< 					amount = 3
+---
+> 					amount = 36
+8337c8337
+< 					amount = 3
+---
+> 					amount = 36
+8341c8341
+< 					amount = 6
+---
+> 					amount = 72
+8456c8456
+< 					amount = 12
+---
+> 					amount = 144
+9417c9417
+< 				amount = 3
+---
+> 				amount = 36
+11310c11310
+< 						amount = 12
+---
+> 						amount = 144
+13187d13186
 < 		fixed_random_seed = no
-13149c13148
+13205c13204
 < 						80 = {
 ---
 > 						100 = {
-13158,13163d13156
+13214,13219d13212
 < 						}
 < 						20 = {
 < 							SOV_paranoia_very_high_increase_effect = yes

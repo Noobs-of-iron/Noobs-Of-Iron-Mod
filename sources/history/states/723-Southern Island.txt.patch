@@ -1,4 +1,6 @@
-6c6
+6,7c6,7
 < 		tungsten=4 # was: 6
+< 		coal = 2 #initial distribution
 ---
 > 		tungsten = 48 # was: 6
+> 		coal = 24 #initial distribution

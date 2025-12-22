@@ -1,0 +1,27 @@
+220a221,246
+> 
+> 	deep_desert = {
+> 		color = { 225 107 10 }
+> 		movement_cost = 1.25
+> 		attrition = 0.35
+> 		combat_width = 65
+> 		combat_support_width = 35
+> 		ai_terrain_importance_factor = 8.0
+> 		match_value = 8
+> 		sound_type = desert
+> 		buildings_max_level = {
+> 			bunker = 4
+> 			coastal_bunker = 6
+> 		}
+> 		
+> 		units = {
+> 			attack = -0.3
+> 			#movement = -0.2
+> 		}
+> 
+> 		sickness_chance = 4.0
+> 		
+> 		supply_flow_penalty_factor = 0.28
+> 		
+> 		truck_attrition_factor = 0.8
+> 	}

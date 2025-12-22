@@ -1,12 +1,12 @@
-1152c1152
+1659c1659
 < prospect_for_resources = {
 ---
 > prospect_for_resources={
-1198c1198
+1709c1709
 < 					amount = 12
 ---
 > 					amount = 144
-1247c1247
+1761c1761
 < 					amount = 16
 ---
 > 					amount = 192

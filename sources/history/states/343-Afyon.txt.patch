@@ -1,4 +1,6 @@
-7c7
+7,8c7,8
 < 		chromium=25 # was: 32
+< 		coal = 1 #initial distribution
 ---
 > 		chromium = 300 # was: 32
+> 		coal = 12 #initial distribution

@@ -1,10 +1,10 @@
-4,5c4,5
+5,6c5,6
 < 	resources = {
-< 		tungsten = 120.000
+< 		tungsten = 50 # was 120, 70 was moved to Shan
 ---
 > 	resources={
-> 		tungsten = 1440.000
-12c12
+> 		tungsten = 600 # was 120, 70 was moved to Shan
+14c14
 < 		owner = BRM
 ---
 > 		owner = RAJ

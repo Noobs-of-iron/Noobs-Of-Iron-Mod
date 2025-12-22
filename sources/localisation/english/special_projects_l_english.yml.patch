@@ -1,4 +1,11 @@
-871a872,881
+323a324,329
+>  
+>  
+>  # NOI
+>  
+>  sp_land_aphe_apcr_rounds: "Advanced anti-tank rounds"
+>  sp_land_aphe_apcr_rounds_desc: "We can develop new types of shells for our tanks. Increasing our chances of succes against new threats on the battlefield"
+871a878,887
 >  
 >  ship_hull_hybrid_bb: "Hybrid Battleship hull"
 >  sp_naval_hybrid_battleship: "Hybrid Carriers"

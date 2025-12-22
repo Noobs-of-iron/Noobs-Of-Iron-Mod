@@ -1,0 +1,4 @@
+2322c2322
+< 				resource_trade_cost_bonus_per_factory = -1
+---
+> 				resource_trade_cost_bonus_per_factory = -12
