@@ -1,9 +1,11 @@
-418d417
+409d408
 < 
-422a422,423
+538c537,538
+< 
+---
 > 				unit_semi_motorized_design_cost_factor = -1
 > 				experience_gain_semi_motorized_combat_factor = 0.1
-1281c1282
+1294c1294
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

@@ -642,23 +642,23 @@ UBF_united_balkan_federation_neutrality = {
 }
 
 TBE_third_bulgarian_empire_communism = {
-	color = rgb { 138 249 195 }
-	color_ui = rgb { 138 249 195 }
+	color = rgb { 6 53 12 }
+	color_ui = rgb { 6 53 12 }
 }
 
 TBE_third_bulgarian_empire_democratic = {
-	color = rgb { 138 249 195 }
-	color_ui = rgb { 138 249 195 }
+	color = rgb { 6 53 12 }
+	color_ui = rgb { 6 53 12 }
 }
 
 TBE_third_bulgarian_empire_fascism = {
-	color = rgb { 138 249 195 }
-	color_ui = rgb { 138 249 195 }
+	color = rgb { 6 53 12 }
+	color_ui = rgb { 6 53 12 }
 }
 
 TBE_third_bulgarian_empire_neutrality = {
-	color = rgb { 138 249 195 }
-	color_ui = rgb { 138 249 195 }
+	color = rgb { 6 53 12 }
+	color_ui = rgb { 6 53 12 }
 }
 
 #NSB

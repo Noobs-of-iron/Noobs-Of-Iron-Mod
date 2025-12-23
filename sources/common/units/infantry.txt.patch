@@ -41,31 +41,33 @@
 > 			movement = 0.2
 > 		}
 > 
-404c418,419
+347a362
+> 			support_equipment = 10
+404c419,420
 < 			infantry_equipment = 130
 ---
 > 		    support_equipment = 20
 > 			infantry_equipment = 150
-443c458
+443c459
 < 		supply_consumption = 0.065
 ---
 > 		supply_consumption = 0.09
-449,450c464,466
+449,450c465,467
 < 			infantry_equipment = 100
 < 			motorized_equipment = 35
 ---
 > 			infantry_equipment = 125
 > 			motorized_equipment = 80
 > 
-520c536
+520c537
 < 		supply_consumption = 0.14
 ---
 > 		supply_consumption = 0.18
-533c549
+533c550
 < 			infantry_equipment = 100
 ---
 > 			infantry_equipment = 125
-740,742c756,758
+740,742c757,759
 < 		max_strength = 25
 < 		max_organisation = 50 #reg infantry 60
 < 		default_morale = 0.3
@@ -73,21 +75,21 @@
 > 		max_strength = 20
 > 		max_organisation = 30 #reg infantry 60
 > 		default_morale = 0.2
-746,747c762,763
+746,747c763,764
 < 		training_time = 80 #reg infantry 90
 < 		suppression = 1.5
 ---
 > 		training_time = 40 #reg infantry 90
 > 		suppression = 1
-750c766
+750c767
 < 		supply_consumption = 0.06
 ---
 > 		supply_consumption = 0.05
-753c769
+753c770
 < 			infantry_equipment = 100
 ---
 > 			infantry_equipment = 90
-756c772
+756c773
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

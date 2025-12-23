@@ -6,3 +6,7 @@
 < 					amount = 6
 ---
 > 					amount = 72
+9306c9306
+< 			BUL_set_appropriate_cosmetic_tag = yes
+---
+>                         BUL_set_appropriate_cosmetic_tag = yes

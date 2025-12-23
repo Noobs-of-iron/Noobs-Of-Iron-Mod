@@ -1,3 +1,9 @@
+97,98c97,98
+< 	color = rgb { 51 155 0 }
+< 	color_ui = rgb { 51 155 0 }
+---
+> 	color = rgb { 41 135 62 }
+> 	color_ui = rgb { 41 135 62 }
 113,114c113,114
 < 	color = rgb { 249 126 98 }
 < 	color_ui = rgb { 255 164 127 }

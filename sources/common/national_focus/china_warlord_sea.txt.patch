@@ -1,0 +1,20 @@
+2883c2883
+< 			    amount = 8
+---
+> 			    amount = 96
+2946c2946
+< 				    resources = { oil }
+---
+> 				    resources={ oil }
+2952c2952
+< 			    amount = 35
+---
+> 			    amount = 420
+4051c4051
+< 							resources = { oil }
+---
+> 							resources={ oil }
+4158c4158
+< 							resources = { oil }
+---
+> 							resources={ oil }

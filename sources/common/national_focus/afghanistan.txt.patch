@@ -1,0 +1,24 @@
+443c443
+< 					amount = 16
+---
+> 					amount = 192
+474c474
+< 					amount = 24
+---
+> 					amount = 288
+11879c11879
+< 					amount = 8
+---
+> 					amount = 96
+11883c11883
+< 					amount = 8
+---
+> 					amount = 96
+11920c11920
+< 					amount = 8
+---
+> 					amount = 96
+11957c11957
+< 					amount = 8
+---
+> 					amount = 96

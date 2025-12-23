@@ -1,0 +1,44 @@
+674c674
+< 					amount = 8
+---
+> 					amount = 96
+733c733
+< 					amount = 12
+---
+> 					amount = 144
+1161c1161
+< 						resources = { oil }
+---
+> 						resources={ oil }
+1167c1167
+< 						resources = { oil }
+---
+> 						resources={ oil }
+1173c1173
+< 						resources = { oil }
+---
+> 						resources={ oil }
+1288c1288
+< 					amount = 8
+---
+> 					amount = 96
+1316c1316
+< 					amount = 6
+---
+> 					amount = 72
+1386c1386
+< 					amount = 8
+---
+> 					amount = 96
+1517c1517
+< 					amount = 10
+---
+> 					amount = 120
+1530c1530
+< 					amount = 10
+---
+> 					amount = 120
+9616c9616
+< 					amount = 12
+---
+> 					amount = 144

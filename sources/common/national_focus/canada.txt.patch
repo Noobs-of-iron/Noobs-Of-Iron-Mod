@@ -26,7 +26,10 @@
 < 					amount = 3
 ---
 > 					amount = 36
-2405a2406,2412
+2406a2407
+> 
+2412a2414,2421
+> 		
 > 			IF = {
 > 					limit = {
 > 						has_dlc = "Arms Against Tyranny"
@@ -34,24 +37,26 @@
 > 				custom_effect_tooltip = available_mio_tt
 > 				show_mio_tooltip = CAN_canadian_pacific_organization
 > 			}
-2422a2430,2431
+2422a2432
+> 
+2424a2435
+> 
+2430a2442,2443
 > 				category = cat_medium_armor
 > 				category = cat_heavy_armor
-2424a2434
-> 
-2803c2813
+2811c2824
 < 					amount = 20
 ---
 > 					amount = 240
-2809c2819
+2817c2830
 < 					amount = 8
 ---
 > 					amount = 96
-2815c2825
+2823c2836
 < 					amount = 8
 ---
 > 					amount = 96
-2852c2862
+2860c2873
 < 					amount = 36
 ---
 > 					amount = 432

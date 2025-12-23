@@ -1,4 +1,4 @@
-1020,1027d1019
+1035,1042d1034
 < 		target_root_trigger = {
 < 			NOT = { has_country_flag = JAP_offered_china_white_peace_flag }
 < 			is_subject = no
@@ -7,16 +7,16 @@
 < 			}
 < 		}
 < 		
-1040a1033,1036
+1055a1048,1051
 > 			is_subject = no
 > 			any_enemy_country = {
 > 				is_literally_china = yes
 > 			}
-1052d1047
+1067d1062
 < 			set_country_flag = JAP_offered_china_white_peace_flag
-2177d2171
+2192d2186
 < 
-2179,2189c2173
+2194,2204c2188
 < 			is_subject = no 
 < 			OR = {
 < 				is_faction_leader = yes
@@ -30,7 +30,7 @@
 < 			}
 ---
 > 			
-3529,3536c3513
+3544,3551c3528
 < 			
 < 			hidden_trigger = {
 < 				OR = {
@@ -41,79 +41,79 @@
 < 				
 ---
 > 			has_border_war_with = SOV # Japan shouldn't lose war support if they actually use the window of opportunity
-4427c4404
+4442c4419
 < prospect_for_resources = {
 ---
 > prospect_for_resources={
-4441c4418
+4456c4433
 < 				state = 655
 ---
 > 				state = 7860
-4483c4460
+4503c4480
 < 					amount = 12
 ---
 > 					amount = 144
-4542c4519
+4563c4540
 < 					amount = 26
 ---
 > 					amount = 312
-4602c4579
+4623c4600
 < 					amount = 20
 ---
 > 					amount = 240
-4673c4650
+4694c4671
 < 					amount = 12
 ---
 > 					amount = 144
-4731c4708
+4752c4729
 < 					amount = 8
 ---
 > 					amount = 96
-4789c4766
+4810c4787
 < 					amount = 6
 ---
 > 					amount = 72
-4847c4824
+4868c4845
 < 					amount = 4
 ---
 > 					amount = 48
-4905c4882
+4926c4903
 < 	#				amount = 6
 ---
 > 	#				amount = 72
-4963c4940
+4984c4961
 < 					amount = 12
 ---
 > 					amount = 144
-5021c4998
+5042c5019
 < 					amount = 26
 ---
 > 					amount = 312
-5079c5056
+5100c5077
 < 					amount = 16
 ---
 > 					amount = 192
-5137c5114
+5158c5135
 < 					amount = 14
 ---
 > 					amount = 168
-5195c5172
+5216c5193
 < 					amount = 12
 ---
 > 					amount = 144
-5268c5245
+5289c5266
 < 					amount = 12
 ---
 > 					amount = 144
-5328c5305
+5349c5326
 < 					amount = 8
 ---
 > 					amount = 96
-5382c5359
+5403c5380
 < 					amount = 12
 ---
 > 					amount = 144
-5436c5413
+5457c5434
 < 					amount = 12
 ---
 > 					amount = 144
