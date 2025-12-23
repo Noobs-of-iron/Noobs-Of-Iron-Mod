@@ -346,6 +346,10 @@
 ---
 > 	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_CHANCES = 0.60,				-- If an accident happens, how likely it is to be a critical hit (caused by naval mines)
 > 	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_DAMAGE_SCALE = 8.0,			-- Scale the value below in case of critical hit (caused by naval mines)
+1851c1851
+< 	TRAINING_ACCIDENT_CHANCES = 0.02,								-- Chances one ship get damage each hour while on training
+---
+> 	TRAINING_ACCIDENT_CHANCES = 0.00,								-- Chances one ship get damage each hour while on training
 1904,1905c1904,1905
 < 	SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.5,						-- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio
 < 	SPOTTING_SPEED_MULT_FOR_CATCHING_UP = 0.2,						-- speed diff bonus rate that is added to spotting every hour
@@ -364,8 +368,12 @@
 > 	SPEED_TO_ESCAPE_SPEED = 10,									-- ratio to converstion from ship speed to escape speed (divided by hundred)
 > 	ESCAPE_SPEED_PER_COMBAT_DAY = 0.05,								-- daily increase in escape speed during combat duration
 > 	MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 1.50,					-- max escape speed that will be gained from combat duration
-> 	ESCAPE_SPEED_SUB_BASE = 0.88,									-- subs get faster escape speed. gets replaced by hidden version below if hidden
-> 	ESCAPE_SPEED_HIDDEN_SUB = 0.94,									-- hidden subs get faster escape speed
+> 	ESCAPE_SPEED_SUB_BASE = 2,									-- subs get faster escape speed. gets replaced by hidden version below if hidden
+> 	ESCAPE_SPEED_HIDDEN_SUB = 2,									-- hidden subs get faster escape speed
+1926c1926
+< 	SUB_DETECTION_CHANCE_BASE = 5,									-- to start spotting a submarine, a dice is rolled and checked if it succeeds this percentage. if not, that enemy sub force won't be spotted on this tick
+---
+> 	SUB_DETECTION_CHANCE_BASE = 1,									-- to start spotting a submarine, a dice is rolled and checked if it succeeds this percentage. if not, that enemy sub force won't be spotted on this tick
 1954c1954
 < 		4.0,	-- torpedoes
 ---
