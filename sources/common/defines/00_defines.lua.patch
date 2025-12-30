@@ -354,8 +354,12 @@
 < 	SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.5,						-- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio
 < 	SPOTTING_SPEED_MULT_FOR_CATCHING_UP = 0.2,						-- speed diff bonus rate that is added to spotting every hour
 ---
-> 	SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 50,						-- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio
-> 	SPOTTING_SPEED_MULT_FOR_CATCHING_UP = 50,						-- speed diff bonus rate that is added to spotting every hour
+> 	SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 20,						-- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio
+> 	SPOTTING_SPEED_MULT_FOR_CATCHING_UP = 20,						-- speed diff bonus rate that is added to spotting every hour
+1908c1908
+< 	NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.9,				-- Multiplier for the surface/sub visiblity when the heavily damaged fleet is returning to the home base for reparation. 1.0 = no bonus. 0.0 = invisible.
+---
+> 	NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.0,				-- Multiplier for the surface/sub visiblity when the heavily damaged fleet is returning to the home base for reparation. 1.0 = no bonus. 0.0 = invisible.
 1919,1924c1919,1924
 < 	BASE_ESCAPE_SPEED = 0.045,										-- daily base escape speed (gained as percentagE)
 < 	SPEED_TO_ESCAPE_SPEED = 0.95,									-- ratio to converstion from ship speed to escape speed (divided by hundred)
