@@ -30,16 +30,19 @@
 > 		truck_attrition_factor = 0.8
 > 	}
 223a250
-> 		naval_attrition = 0.05
-268a296
-> 		naval_attrition = 0.05
+> 		naval_attrition = 0.0005
+269c296,297
+< 		color = { 56 118 217 } 
+---
+> 		naval_attrition = 0.0005
+> 		color = { 56 118 217 }
 283a312
-> 		naval_attrition = 0.05
+> 		naval_attrition = 0.0005
 312a342,352
 > 
 >     water_normal_ocean = {
 >         naval_terrain = yes
->         naval_attrition = 0.05
+>         naval_attrition = 0.0005
 >         color = { 40 83 176 }
 >         movement_cost = 1.0
 >         is_water = yes

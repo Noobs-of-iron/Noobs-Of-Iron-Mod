@@ -340,6 +340,10 @@
 ---
 > 	NAVAL_MINES_IN_REGION_MAX = 5000.0,								-- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
 > 	NAVAL_MINES_PLANTING_SPEED_MULT = 0.09,							-- Value used to overall balance of the speed of planting naval mines
+1838c1838
+< 	ATTRITION_WHILE_MOVING_FACTOR = 1.2,							-- attrition multiplier while moving & doing missions
+---
+> 	ATTRITION_WHILE_MOVING_FACTOR = 100,							-- attrition multiplier while moving & doing missions
 1846,1847c1846,1847
 < 	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_CHANCES = 0.14,				-- If an accident happens, how likely it is to be a critical hit (caused by naval mines)
 < 	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_DAMAGE_SCALE = 5.0,			-- Scale the value below in case of critical hit (caused by naval mines)
