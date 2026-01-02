@@ -8,6 +8,10 @@
 ---
 > 		resources={
 > 			steel = 24
+138c138
+< 		manpower = 250
+---
+> 		manpower = 625
 211c211
 < 		max_strength = 40
 ---
@@ -18,6 +22,10 @@
 ---
 > 		resources={
 > 			steel = 24
+217c217
+< 		manpower = 325
+---
+> 		manpower = 815
 275,276c275,276
 < 		resources = {
 < 			steel = 3
@@ -28,6 +36,10 @@
 < 		max_strength = 50
 ---
 > 		max_strength = 100
+285c285
+< 		manpower = 400
+---
+> 		manpower = 1000
 363c363
 < 		max_strength = 60
 ---
@@ -40,6 +52,10 @@
 > 		resources={
 > 			steel = 48
 > 			chromium = 12
+370c370
+< 		manpower = 500
+---
+> 		manpower = 1250
 413,415c413,415
 < 		resources = {
 < 			#oil = 1

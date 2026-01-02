@@ -8,6 +8,14 @@
 ---
 > 		resources={
 > 			steel = 12
+142c142
+< 		manpower = 600
+---
+> 		manpower = 1500
+168c168
+< 		manpower = 800
+---
+> 		manpower = 2000
 174c174
 < 		max_strength = 110
 ---
@@ -22,12 +30,18 @@
 < 		max_strength = 120
 ---
 > 		max_strength = 180
-250,251c250,251
+249,251c249,251
+< 		manpower = 1200
 < 		resources = {
 < 			steel = 2
 ---
+> 		manpower = 3000
 > 		resources={
 > 			steel = 24
+331c331
+< 		manpower = 1400
+---
+> 		manpower = 3500
 334c334
 < 		max_strength = 130
 ---
