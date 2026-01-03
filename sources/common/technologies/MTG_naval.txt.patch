@@ -185,7 +185,7 @@
 > 			position = {  x = 2 y = 2 }
 1378a1441,1444
 > 		path = {
-> 			leads_to_tech = improved_ship_hull_escort_carrier
+> 			#leads_to_tech = improved_ship_hull_escort_carrier
 > 			research_cost_coeff = 1
 > 		}
 1379a1446

@@ -7,18 +7,13 @@
 >       name = "GFX_SD_tv_ship_hull_hybrid_bb"
 >       textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_battleship.dds"
 >    }
-7c8,13
+7c8
 < 	spriteType = {
 ---
 >    spriteType = {
->       name = "GFX_SD_tv_ship_hull_escort_carrier"
->       textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_carrier.dds"
->    }
-> 
->    spriteType = {
-115c121,122
+115c116,117
 < }
 ---
 >    
 > }
-\ Pas de fin de ligne à la fin du fichier
+\ No newline at end of file

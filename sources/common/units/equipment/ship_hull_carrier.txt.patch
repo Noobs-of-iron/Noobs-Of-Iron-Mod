@@ -1,3 +1,7 @@
+26c26
+< 		group_by = archetype
+---
+> 		group_by = type
 130c130
 < 		max_strength = 250
 ---
@@ -14,11 +18,13 @@
 < 		max_strength = 325
 ---
 > 		max_strength = 487
-224,226c224,226
+223,226c223,226
+< 		build_cost_ic = 2600
 < 		resources = {
 < 			steel = 4
 < 			chromium = 1
 ---
+> 		build_cost_ic = 2300
 > 		resources={
 > 			steel = 48
 > 			chromium = 12
@@ -26,11 +32,13 @@
 < 		max_strength = 350
 ---
 > 		max_strength = 525
-296,298c296,298
+295,298c295,298
+< 		build_cost_ic = 3250
 < 		resources = {
 < 			steel = 4
 < 			chromium = 2
 ---
+> 		build_cost_ic = 2600
 > 		resources={
 > 			steel = 48
 > 			chromium = 24
@@ -80,11 +88,71 @@
 ---
 > 		resources={
 > 			steel = 36
-615c615
+554d553
+< 		abbreviation = "hacve"
+557d555
+< 		archetype = ship_hull_carrier
+558a557,570
+> 
+>         is_archetype = yes
+>         is_buildable = no
+>         type = carrier
+>         sprite = carrier
+>         group_by = type
+>         interface_category = interface_category_capital_ships
+> 
+>         upgrades = {
+>             ship_deckspace_upgrade
+>             ship_engine_upgrade
+>             ship_reliability_upgrade
+>         }
+> 
+570,574c582,598
+< 			fixed_ship_anti_air_slot = inherit
+< 			fixed_ship_radar_slot = inherit
+< 			fixed_ship_engine_slot = inherit
+< 			fixed_ship_secondaries_slot = inherit
+< 			fixed_ship_armor_slot = inherit
+---
+> 			fixed_ship_anti_air_slot = {
+> 				required = no
+> 				allowed_module_categories = { ship_anti_air }
+> 			}
+> 			fixed_ship_radar_slot = {
+> 				required = no
+> 				allowed_module_categories = { ship_radar }
+> 			}
+> 			fixed_ship_engine_slot = {
+> 				required = yes
+> 				allowed_module_categories = { light_ship_engine }
+> 			}
+> 			fixed_ship_secondaries_slot = {
+> 				required = no
+> 				allowed_module_categories = { ship_secondaries ship_dp_secondaries}
+> 			}
+> 
+606c630
+< 		max_strength = 175
+---
+> 		max_strength = 50
+609c633
+< 		fuel_consumption = 87
+---
+> 		fuel_consumption = 30
+614,615c638,639
+< 		build_cost_ic = 1500
 < 		resources = {
 ---
+> 		build_cost_ic = 1000
 > 		resources={
-715,718c715,718
+627a652,657
+> 	ship_hull_escort_carrier_1 = {
+> 	    archetype = ship_hull_escort_carrier
+> 	    abbreviation = "hacve"
+> 	    module_slots = inherit
+> 	}
+> 
+715,718c745,748
 < 		resources = {
 < 			#oil = 1
 < 			steel = 3
@@ -94,7 +162,7 @@
 > 
 > 			steel = 36
 > 			chromium = 12
-805,808c805,808
+805,808c835,838
 < 		resources = {
 < 			#oil = 1
 < 			steel = 4
@@ -104,7 +172,7 @@
 > 
 > 			steel = 48
 > 			chromium = 12
-852,855c852,855
+852,855c882,885
 < 		resources = {
 < 			#oil = 2
 < 			steel = 4
@@ -114,7 +182,7 @@
 > 
 > 			steel = 48
 > 			chromium = 24
-899,902c899,902
+899,902c929,932
 < 		resources = {
 < 			#oil = 2
 < 			steel = 5
@@ -124,7 +192,7 @@
 > 
 > 			steel = 60
 > 			chromium = 24
-1023,1026c1023,1026
+1023,1026c1053,1056
 < 		resources = {
 < 			#oil = 2
 < 			steel = 5
@@ -134,7 +202,7 @@
 > 			#oil = 24
 > 			steel = 60
 > 			chromium = 24
-1134,1136c1134,1136
+1134,1136c1164,1166
 < 		resources = {
 < 			steel = 5
 < 			chromium = 2
@@ -142,7 +210,7 @@
 > 		resources={
 > 			steel = 60
 > 			chromium = 24
-1222c1222
+1222c1252
 < 		resources = {
 ---
 > 		resources={

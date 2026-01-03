@@ -156,3 +156,11 @@
 < 		resources = { 
 ---
 > 		resources={ 
+3806c3814
+< 			ship_hull_escort_carrier
+---
+> 			ship_hull_escort_carrier_1
+3819c3827
+< 			
+---
+> 
