@@ -1,0 +1,9 @@
+82a83
+> 
+83a85,90
+> 	    name = "BELLIGERENT_ONLY"
+> 	    text = "RULE_OPTION_BELLIGERENT_ONLY"
+> 	    desc = "RULE_ALLOW_ACCESS_BELLIGERENT_ONLY_DESC"
+> 	}
+> 
+> 	option = {
