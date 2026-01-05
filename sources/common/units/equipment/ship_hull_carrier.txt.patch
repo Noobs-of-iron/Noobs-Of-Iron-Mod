@@ -96,7 +96,7 @@
 > 
 >         is_archetype = yes
 >         is_buildable = no
->         type = carrier
+>         type = screen_ship
 >         sprite = carrier
 >         group_by = type
 >         interface_category = interface_category_capital_ships
@@ -131,28 +131,36 @@
 > 				allowed_module_categories = { ship_secondaries ship_dp_secondaries}
 > 			}
 > 
-606c630
+598c622
+< 		surface_detection = 26
+---
+> 		surface_detection = 10
+606,607c630
 < 		max_strength = 175
+< 
 ---
 > 		max_strength = 50
-609c633
+609c632
 < 		fuel_consumption = 87
 ---
 > 		fuel_consumption = 30
-614,615c638,639
+614,615c637,638
 < 		build_cost_ic = 1500
 < 		resources = {
 ---
 > 		build_cost_ic = 1000
 > 		resources={
-627a652,657
+625c648,654
+< 		# change this from 1 at your own risk				
+---
+> 		# change this from 1 at your own risk
+> 	}
+> 
 > 	ship_hull_escort_carrier_1 = {
 > 	    archetype = ship_hull_escort_carrier
 > 	    abbreviation = "hacve"
 > 	    module_slots = inherit
-> 	}
-> 
-715,718c745,748
+715,718c744,747
 < 		resources = {
 < 			#oil = 1
 < 			steel = 3
@@ -162,7 +170,7 @@
 > 
 > 			steel = 36
 > 			chromium = 12
-805,808c835,838
+805,808c834,837
 < 		resources = {
 < 			#oil = 1
 < 			steel = 4
@@ -172,7 +180,7 @@
 > 
 > 			steel = 48
 > 			chromium = 12
-852,855c882,885
+852,855c881,884
 < 		resources = {
 < 			#oil = 2
 < 			steel = 4
@@ -182,7 +190,7 @@
 > 
 > 			steel = 48
 > 			chromium = 24
-899,902c929,932
+899,902c928,931
 < 		resources = {
 < 			#oil = 2
 < 			steel = 5
@@ -192,7 +200,7 @@
 > 
 > 			steel = 60
 > 			chromium = 24
-1023,1026c1053,1056
+1023,1026c1052,1055
 < 		resources = {
 < 			#oil = 2
 < 			steel = 5
@@ -202,7 +210,7 @@
 > 			#oil = 24
 > 			steel = 60
 > 			chromium = 24
-1134,1136c1164,1166
+1134,1136c1163,1165
 < 		resources = {
 < 			steel = 5
 < 			chromium = 2
@@ -210,7 +218,7 @@
 > 		resources={
 > 			steel = 60
 > 			chromium = 24
-1222c1252
+1222c1251
 < 		resources = {
 ---
 > 		resources={

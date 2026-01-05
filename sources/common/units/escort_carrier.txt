@@ -5,8 +5,7 @@ sub_units = {
 		priority = 10
 		active = yes
 		type = {
-			#capital_ship
-			carrier
+			capital_ship
 		}
 		need = { ship_hull_escort_carrier = 1 }
 

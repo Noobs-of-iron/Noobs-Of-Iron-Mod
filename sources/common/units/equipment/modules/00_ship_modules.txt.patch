@@ -224,10 +224,12 @@
 > 			steel = 24
 2584d2583
 < 		add_equipment_type = capital_ship
-2587c2586
+2587,2588c2586,2587
 < 			build_cost_ic = 700
+< 			carrier_surface_detection = 2
 ---
 > 			build_cost_ic = 250
+> 			carrier_surface_detection = 1.5
 2595c2594
 < 		build_cost_resources = {
 ---
