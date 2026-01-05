@@ -1,9 +1,21 @@
-82a83
-> 
-83a85,90
-> 	    name = "BELLIGERENT_ONLY"
-> 	    text = "RULE_OPTION_BELLIGERENT_ONLY"
-> 	    desc = "RULE_ALLOW_ACCESS_BELLIGERENT_ONLY_DESC"
-> 	}
-> 
-> 	option = {
+79,98d78
+< allow_access = {
+< 	name = "RULE_ALLOW_MILITARY_ACCESS"
+< 	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+< 	icon = "GFX_military_access_docking_rights"
+< 	default = {
+< 		name = "FREE"
+< 		text = RULE_OPTION_FREE
+< 		desc = "RULE_ALLOW_ACCESS_FREE_DESC"
+< 	}
+< 	option = {
+< 		name = "SAME_IDEOLOGY"
+< 		text = "RULE_OPTION_SAME_IDEOLOGY"
+< 		desc = "RULE_ALLOW_ACCESS_SAME_IDEOLOGY_DESC"
+< 	}
+< 	option = {
+< 		name = "BLOCKED"
+< 		text = RULE_OPTION_BLOCKED
+< 		desc = "RULE_ALLOW_ACCESS_BLOCKED_DESC"
+< 	}
+< }
