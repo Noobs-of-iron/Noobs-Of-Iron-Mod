@@ -1,0 +1,27 @@
+on_actions = {
+
+    #Assigns every state its strategic area
+    on_startup = {
+        effect = {
+            for_loop_effect = {
+                end = 301 # the amount of strategic areas in the game
+                value = strat_region
+
+                every_state = {
+                    if = {
+                        limit = { region = var:strat_region }
+                        set_variable = { strategic_area = var:strat_region }
+                    }
+                }
+            }
+        }
+        effect = {
+            set_temp_variable = {target_state = 684}
+
+            var:target_state = {
+                log = "[THIS.GetID], Region: [?var:strategic_area],"
+            }
+        }
+    }
+
+}

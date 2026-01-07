@@ -1,0 +1,6 @@
+﻿l_english:
+  raid_category_noim_naval_raids: "Naval raids"
+  tooltip_raid_category_noim_naval_raids: "§HNaval raids§!\nCoastal raids performed by small amphibious forces, in cooperation with the navy"
+
+  raid_type_noim_naval_counter_air_raid: "Counter-Air Naval Raid"
+  raid_type_noim_naval_counter_air_raid_desc: "Our battleships will bombard the enemy airfield, inflicting damage and suppressing its defenses. Then we'll land a small marine team, that will use explosives and mines to further sabotage the base facilities"
