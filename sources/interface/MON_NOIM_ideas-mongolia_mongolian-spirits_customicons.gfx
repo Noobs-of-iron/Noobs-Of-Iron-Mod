@@ -1,0 +1,244 @@
+spriteTypes = { 
+	##Icon For: Gulags
+	SpriteType = { 
+		name = "GFX_idea_mongolia_gulags-807217"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_gulags-807217.dds"
+	}
+
+	##Icon For: Industrializing resource extraction
+	SpriteType = { 
+		name = "GFX_idea_mongolia_industrializing_resource_extraction-1452"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_industrializing_resource_extraction-1452.dds"
+	}
+
+	##Icon For: Monastic oposition
+	SpriteType = { 
+		name = "GFX_idea_mongolia_monastic_oposition-806880"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_monastic_oposition-806880.dds"
+	}
+
+	##Icon For: half industrialized resource extraction
+	SpriteType = { 
+		name = "GFX_idea_mongolia_half_industrialized_resource_extraction-1129"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_half_industrialized_resource_extraction-1129.dds"
+	}
+
+	##Icon For: Wood framed construction
+	SpriteType = { 
+		name = "GFX_idea_mongolia_wood_framed_construction-806883"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_wood_framed_construction-806883.dds"
+	}
+
+	##Icon For: Steel, is kinda good
+	SpriteType = { 
+		name = "GFX_idea_mongolia_steel_is_kinda_good-806885"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_steel_is_kinda_good-806885.dds"
+	}
+
+	##Icon For: Build out of STEEL
+	SpriteType = { 
+		name = "GFX_idea_mongolia_build_out_of_steel-806887"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_build_out_of_steel-806887.dds"
+	}
+
+	##Icon For: Tax breaks
+	SpriteType = { 
+		name = "GFX_idea_mongolia_tax_breaks-2138"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_tax_breaks-2138.dds"
+	}
+
+	##Icon For: Cooperation with the Monks
+	SpriteType = { 
+		name = "GFX_idea_mongolia_cooperation_with_the_monks-806880"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_cooperation_with_the_monks-806880.dds"
+	}
+
+	##Icon For: Stalin's Influence 1
+	SpriteType = { 
+		name = "GFX_idea_mongolia_stalins_influence_1-806368"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_stalins_influence_1-806368.dds"
+	}
+
+	##Icon For: Stalin's Influence 2
+	SpriteType = { 
+		name = "GFX_idea_mongolia_stalins_influence_2-806368"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_stalins_influence_2-806368.dds"
+	}
+
+	##Icon For: Taxing Religious figures
+	SpriteType = { 
+		name = "GFX_idea_mongolia_taxing_religious_figures-2138"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_taxing_religious_figures-2138.dds"
+	}
+
+	##Icon For: Conscripting the Monks
+	SpriteType = { 
+		name = "GFX_idea_mongolia_conscripting_the_monks-807217"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_conscripting_the_monks-807217.dds"
+	}
+
+	##Icon For: State Atheism
+	SpriteType = { 
+		name = "GFX_idea_mongolia_state_atheism-807233"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_state_atheism-807233.dds"
+	}
+
+	##Icon For: Stalin's Influence 0
+	SpriteType = { 
+		name = "GFX_idea_mongolia_stalins_influence_0-807318"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_stalins_influence_0-807318.dds"
+	}
+
+	##Icon For: Stalin trusts us
+	SpriteType = { 
+		name = "GFX_idea_mongolia_stalin_trusts_us-807318"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_stalin_trusts_us-807318.dds"
+	}
+
+	##Icon For: Stalin's distrust 1
+	SpriteType = { 
+		name = "GFX_idea_mongolia_stalins_distrust_1-1204"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_stalins_distrust_1-1204.dds"
+	}
+
+	##Icon For: Soviet military advisors
+	SpriteType = { 
+		name = "GFX_idea_mongolia_soviet_military_advisors-807318"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_soviet_military_advisors-807318.dds"
+	}
+
+	##Icon For: Soviets are only helping now
+	SpriteType = { 
+		name = "GFX_idea_mongolia_soviets_are_only_helping_now-807318"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_soviets_are_only_helping_now-807318.dds"
+	}
+
+	##Icon For: Stalin's distrust 2
+	SpriteType = { 
+		name = "GFX_idea_mongolia_stalins_distrust_2-1204"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_stalins_distrust_2-1204.dds"
+	}
+
+	##Icon For: Army or Factory
+	SpriteType = { 
+		name = "GFX_idea_mongolia_army_or_factory-807217"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_army_or_factory-807217.dds"
+	}
+
+	##Icon For: Stalin is our fren
+	SpriteType = { 
+		name = "GFX_idea_mongolia_stalin_is_our_fren-806368"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_stalin_is_our_fren-806368.dds"
+	}
+
+	##Icon For: Immigrant integration
+	SpriteType = { 
+		name = "GFX_idea_mongolia_immigrant_integration-1463"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_immigrant_integration-1463.dds"
+	}
+
+	##Icon For: Immigrants integrated
+	SpriteType = { 
+		name = "GFX_idea_mongolia_immigrants_integrated-1095"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_immigrants_integrated-1095.dds"
+	}
+
+	##Icon For: Mongolian military school
+	SpriteType = { 
+		name = "GFX_idea_mongolia_mongolian_military_school-1084"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_mongolian_military_school-1084.dds"
+	}
+
+	##Icon For: Purge in progress 1
+	SpriteType = { 
+		name = "GFX_idea_mongolia_purge_in_progress_1-2098"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_purge_in_progress_1-2098.dds"
+	}
+
+	##Icon For: Purge in progress 2
+	SpriteType = { 
+		name = "GFX_idea_mongolia_purge_in_progress_2-2098"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_purge_in_progress_2-2098.dds"
+	}
+
+	##Icon For: Stalin's Constitution
+	SpriteType = { 
+		name = "GFX_idea_mongolia_stalins_constitution-807496"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_stalins_constitution-807496.dds"
+	}
+
+	##Icon For: Happy Monks
+	SpriteType = { 
+		name = "GFX_idea_mongolia_happy_monks-807497"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_happy_monks-807497.dds"
+	}
+
+	##Icon For: Nomadic Population
+	SpriteType = { 
+		name = "GFX_idea_mongolia_nomadic_population-806695"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_nomadic_population-806695.dds"
+	}
+
+	##Icon For: Bigger factories
+	SpriteType = { 
+		name = "GFX_idea_mongolia_bigger_factories-1095"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_bigger_factories-1095.dds"
+	}
+
+	##Icon For: Nomadic Warfare
+	SpriteType = { 
+		name = "GFX_idea_mongolia_nomadic_warfare-806695"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_nomadic_warfare-806695.dds"
+	}
+
+	##Icon For: Expansion of the constriction sector
+	SpriteType = { 
+		name = "GFX_idea_mongolia_expansion_of_the_constriction_sector-644708"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_expansion_of_the_constriction_sector-644708.dds"
+	}
+
+	##Icon For: Expansion of our production capacity
+	SpriteType = { 
+		name = "GFX_idea_mongolia_expansion_of_our_production_capacity-122649"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_expansion_of_our_production_capacity-122649.dds"
+	}
+
+	##Icon For: Optimization of what we have
+	SpriteType = { 
+		name = "GFX_idea_mongolia_optimization_of_what_we_have-1467"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_optimization_of_what_we_have-1467.dds"
+	}
+
+	##Icon For: The Future of Warfare
+	SpriteType = { 
+		name = "GFX_idea_mongolia_the_future_of_warfare-1751"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_the_future_of_warfare-1751.dds"
+	}
+
+	##Icon For: The Future of Warfare 2
+	SpriteType = { 
+		name = "GFX_idea_mongolia_the_future_of_warfare_2-1751"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_the_future_of_warfare_2-1751.dds"
+	}
+
+	##Icon For: Mongolian gulags
+	SpriteType = { 
+		name = "GFX_idea_mongolia_mongolian_gulags-807217"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_mongolian_gulags-807217.dds"
+	}
+
+	##Icon For: National Pride
+	SpriteType = { 
+		name = "GFX_idea_mongolia_national_pride-122641"
+		texturefile = "gfx/interface/ideas/mongolian-spirits-ideas/mongolia_national_pride-122641.dds"
+	}
+	SpriteType = { 
+		name = "GFX_MON_agartha_help"
+		texturefile = "gfx/interface/goals/MON_agartha_help.dds"
+	}
+	spriteType = { 
+		name = "GFX_div_templ_<ICON_NUMBER>_large" 
+		textureFile = "gfx/interface/counters/division_templates_large/custom_template_992.dds" 
+		}
+
+ }

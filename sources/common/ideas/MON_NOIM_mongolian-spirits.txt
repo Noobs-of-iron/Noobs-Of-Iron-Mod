@@ -1,0 +1,343 @@
+ideas = {
+	country = {
+
+		mongolia_gulags = {
+			picture = mongolia_gulags-807217
+			modifier = {
+				recruitable_population_factor = -0.1
+				local_resources_factor = 0.25
+			}
+		}
+
+		mongolia_industrializing_resource_extraction = {
+			picture = mongolia_industrializing_resource_extraction-1452
+			modifier = {
+				local_resources_factor = -0.5
+			}
+		}
+		mongolia_half_industrialized_resource_extraction = {
+			picture = mongolia_half_industrialized_resource_extraction-1129
+			targeted_modifier = {
+				local_resources_factor = -0.25
+			}
+		}
+		mongolia_wood_framed_construction = {
+			picture = mongolia_wood_framed_construction-806883
+			modifier = {
+				production_speed_buildings_factor = -0.3
+			}
+		}
+
+		mongolia_steel_is_kinda_good = {
+			picture = mongolia_steel_is_kinda_good-806885
+			modifier = {
+				production_speed_buildings_factor = -0.15
+				stability_factor = -0.025
+			}
+		}
+
+		mongolia_build_out_of_steel = {
+			picture = mongolia_build_out_of_steel-806887
+			modifier = {
+				stability_factor = -0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		mongolia_tax_breaks = {
+			picture = mongolia_tax_breaks-2138
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = 0.15
+			}
+		}
+		mongolia_stalins_influence_1 = {
+			picture = mongolia_stalins_influence_1-806368
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.05
+				civilian_factory_use = 1
+			}
+		}
+
+		mongolia_stalins_influence_2 = {
+			picture = mongolia_stalins_influence_2-806368
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.2
+				civilian_factory_use = 2
+			}
+		}
+
+		mongolia_taxing_religious_figures = {
+			picture = mongolia_taxing_religious_figures-2138
+			modifier = {
+				stability_factor = -0.075
+				consumer_goods_factor = -0.25
+			}
+		}
+
+		mongolia_conscripting_the_monks = {
+			picture = mongolia_conscripting_the_monks-807217
+			modifier = {
+				conscription = 0.005
+				stability_factor = -0.075
+			}
+		}
+
+		mongolia_state_atheism = {
+			picture = mongolia_state_atheism-807233
+			modifier = {
+				stability_factor = -0.125
+				research_speed_factor = 0.05
+			}
+		}
+		mongolia_stalins_influence_0 = {
+			picture = mongolia_stalins_influence_0-807318
+			modifier = {
+				political_power_cost = 0.05
+			}
+		}
+		mongolia_stalin_trusts_us = {
+			picture = mongolia_stalin_trusts_us-807318
+			modifier = {
+				stability_factor = 0.25
+				political_power_gain = 0.3
+				cic_to_overlord_factor = -0.4
+				mic_to_overlord_factor = -0.4
+			}
+		}
+		mongolia_soviet_military_advisors = {
+			picture = mongolia_soviet_military_advisors-807318
+			modifier = {
+				experience_gain_army_factor = 0.05
+				experience_gain_air_factor = 0.05
+			}
+		}
+
+		mongolia_soviets_are_only_helping_now = {
+			picture = mongolia_soviets_are_only_helping_now-807318
+			modifier = {
+				experience_gain_army_factor = 0.15
+				experience_gain_air_factor = 0.15
+			}
+		}
+
+		mongolia_stalins_distrust_2 = {
+			picture = mongolia_stalins_distrust_2-1204
+			modifier = {
+				political_power_cost = 0.2
+				civilian_factory_use = 2
+			}
+		}
+
+		mongolia_army_or_factory = {
+			picture = mongolia_army_or_factory-807217
+			modifier = {
+				stability_factor = -0.1
+				conscription = 0.005
+				production_factory_max_efficiency_factor = 0.05 
+			}
+		}
+
+		mongolia_stalin_is_our_fren = {
+			picture = mongolia_stalin_is_our_fren-806368
+			ledger = army
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.2
+			}
+		}
+
+		mongolia_immigrant_integration = {
+			picture = mongolia_immigrant_integration-1463
+			modifier = {
+				monthly_population = 0.5
+				stability_factor = -0.15
+				consumer_goods_factor = 0.15
+
+
+			}
+		}
+
+		mongolia_immigrants_integrated = {
+			picture = mongolia_immigrants_integrated-1095
+			modifier = {
+				monthly_population = 0.2
+				conscription_factor = 0.25
+				stability_factor = -0.1
+			}
+		}
+
+		mongolia_mongolian_military_school = {
+			picture = mongolia_mongolian_military_school-1084
+			modifier = {
+				experience_gain_army = 0.4
+				experience_gain_air = 0.4
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		mongolia_purge_in_progress_1 = {
+			picture = mongolia_purge_in_progress_1-2098
+			modifier = {
+				research_speed_factor = -0.1
+				stability_factor = -0.05
+				experience_gain_army_factor = -0.1
+			}
+		}
+
+		mongolia_purge_in_progress_2 = {
+			picture = mongolia_purge_in_progress_2-2098
+			modifier = {
+				research_speed_factor = -0.15
+				stability_factor = -0.1
+				experience_gain_army_factor = -0.15
+			}
+		}
+
+		mongolia_stalins_constitution = {
+			picture = mongolia_stalins_constitution-807496
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+				political_advisor_cost_factor = -0.05
+			}
+		}
+
+		mongolia_happy_monks = {
+			picture = mongolia_happy_monks-807497
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+
+		mongolia_nomadic_population = {
+			picture = mongolia_nomadic_population-806695
+			modifier = {
+				conscription_factor = -0.5
+			}
+		}
+		mongolia_nomadic_warfare = {
+			picture = mongolia_nomadic_warfare-806695
+			modifier = {
+				cavalry_attack_factor = 0.15
+				cavalry_defence_factor = 0.15
+			}
+		}
+
+		mongolia_expansion_of_the_constriction_sector = {
+			picture = mongolia_expansion_of_the_constriction_sector-644708
+			ledger = army
+			modifier = {
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+		mongolia_expansion_of_our_production_capacity = {
+			picture = mongolia_expansion_of_our_production_capacity-122649
+			ledger = army
+			modifier = {
+				production_speed_arms_factory_factor = 0.25 
+			}
+		}
+
+		mongolia_optimization_of_what_we_have = {
+			picture = mongolia_optimization_of_what_we_have-1467
+			ledger = army
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+			}
+		}
+		mongolia_the_future_of_warfare = {
+			picture = mongolia_the_future_of_warfare-1751
+			ledger = army
+			modifier = {
+				army_armor_attack_factor = 0.05
+				army_armor_defence_factor = 0.05
+			}
+		}
+		mongolia_the_future_of_warfare_2 = {
+			picture = mongolia_the_future_of_warfare_2-1751
+			ledger = army
+			modifier = {
+				army_armor_attack_factor = 0.1
+				army_armor_defence_factor = 0.1
+			}
+		}
+		mongolia_mongolian_gulags = {
+			picture = mongolia_mongolian_gulags-807217
+			ledger = army
+			modifier = {
+				conscription_factor = -0.15
+				local_resources_factor = 0.25
+			}
+		}
+		mongolia_national_pride = {
+			picture = mongolia_national_pride-122641
+			modifier = {
+				conscription = 0.05
+				weekly_manpower = 200
+			}
+		}
+		MON_Stop_consumer_production = {
+			picture = mongolia_national_pride-122641
+			modifier = {
+				consumer_goods_expected_value = -0.1
+				stability_weekly = -0.001
+			}
+		}
+		MON_facility_speed_bonus = {
+			picture = GFX_focus_GER_factories_for_resources
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		
+		MON_Food_for_metal = { 
+			name = MON_FFM
+			removal_cost = -1
+			picture = GFX_focus_GER_factories_for_resources
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				#dynamic shit
+			}
+		}
+		MON_control_question = {
+			name = MON_cq
+			removal_cost = -1
+			picture = GFX_focus_SOV_the_supreme_soviet
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				#dynamic shit
+			}
+		}
+		MON_german_invasion = { 
+			name = MON_GI
+			removal_cost = -1
+			picture = FIN_german_threat
+
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				#dynamic shit
+			}
+		}
+		MON_learning_from_finnish = {
+			name = MON_learning_from_f
+			picture = SWE_save_finland
+
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.1
+   				defense_bonus_against = 0.1
+			}
+		}
+	}
+}

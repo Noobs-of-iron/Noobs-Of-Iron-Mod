@@ -1,0 +1,212 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_gengis_khan_khorloogiin_choibalsan_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_khorloogiin_choibalsan_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_khorloogiin_choibalsan_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_khorloogiin_choibalsan_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_khorloogiin_choibalsan_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_khorloogiin_choibalsan_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_the_ghost_and_spirit_of_genghis_khan_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_the_ghost_and_spirit_of_genghis_khan_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_the_ghost_and_spirit_of_genghis_khan_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_the_ghost_and_spirit_of_genghis_khan_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_the_ghost_and_spirit_of_genghis_khan_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_the_ghost_and_spirit_of_genghis_khan_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_rajo_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_rajo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_ero_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_rattodite_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_lemen_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_lemen_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_lemen_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_lemen_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_the_black_khan_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_the_black_khan_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_the_black_khan_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_the_black_khan_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_chang_kai_ned_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_chang_kai_ned_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_semple_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_semple_meme_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_damdinsukhbaatar_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_damdinsukhbaatar_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_damdinsukhbaatar_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_damdinsukhbaatar_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_khatanbaatar_magsarjav_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_khatanbaatar_magsarjav_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_khatanbaatar_magsarjav_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_khatanbaatar_magsarjav_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_khatanbaatar_magsarjav_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_khatanbaatar_magsarjav_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_lkhagvasuren_jamiyan_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_lkhagvasuren_jamiyan_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_lkhagvasuren_jamiyan_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_lkhagvasuren_jamiyan_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_lkhagvasuren_jamiyan_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_lkhagvasuren_jamiyan_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_jamsrangiin_sambuu_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_jamsrangiin_sambuu_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_jamsrangiin_sambuu_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_jamsrangiin_sambuu_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_jamsrangiin_sambuu_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_jamsrangiin_sambuu_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_batochiryn_elbegdorj_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_batochiryn_elbegdorj_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_batochiryn_elbegdorj_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_batochiryn_elbegdorj_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_batochiryn_elbegdorj_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_batochiryn_elbegdorj_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_jahef_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_jahef_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_jahef_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_jahef_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_batbayar_tsend_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_batbayar_tsend_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_batbayar_tsend_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_batbayar_tsend_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_batbayar_tsend_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_batbayar_tsend_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_chingis_munkhbayar_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_chingis_munkhbayar_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_chingis_munkhbayar_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_chingis_munkhbayar_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_chingis_munkhbayar_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_chingis_munkhbayar_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_sukhbaatarbaatar_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_sukhbaatarbaatar_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_sukhbaatarbaatar_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_sukhbaatarbaatar_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_sukhbaatarbaatar_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_sukhbaatarbaatar_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_poaa_prime_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_poaa_prime_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_poaa_prime_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_poaa_prime_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_erdenechimeg_bayarmaa_large"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_erdenechimeg_bayarmaa_large.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_erdenechimeg_bayarmaa_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_erdenechimeg_bayarmaa_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_erdenechimeg_bayarmaa_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_erdenechimeg_bayarmaa_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_poaa_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_Poaa_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_kubua_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_kubua_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_death_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_death_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_trashen_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_trashen_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_kobinori_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_kobinori_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_tiru_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_tiru_small.dds"
+	}
+spriteType = {
+		name = "GFX_gengis_khan_marko_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_marko_small.dds"
+	}
+	spriteType = {
+		name = "GFX_gengis_khan_Blue_small"
+		texturefile = "gfx/characters/gengis_khan/gengis_khan_Blue_small.dds"
+	}
+
+
+}

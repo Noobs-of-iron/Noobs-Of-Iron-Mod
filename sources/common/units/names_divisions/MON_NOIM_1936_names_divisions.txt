@@ -1,0 +1,18 @@
+MON_DIV_0_0 = {
+	name = "Example Division"
+	for_countries = { MON }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" 
+	}
+	fallback_name = "%d. Example Division"
+}
+MON_DIV_1_0 = {
+	name = "test"
+	for_countries = { MON }
+	can_use = { always = yes }
+	division_types = { 
+		"artillery_brigade" "rocket_artillery_brigade" 
+	}
+	fallback_name = "%d. test"
+}

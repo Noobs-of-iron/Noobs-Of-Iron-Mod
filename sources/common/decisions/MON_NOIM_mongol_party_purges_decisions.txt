@@ -1,0 +1,27 @@
+mongol_party_purges = {
+	kill_the_commies = {
+		cost = 25
+		days_re_enable = 140
+		days_remove = 70
+		available = {
+			has_completed_focus = MON_subver_control
+		}
+		modifier ={
+			communism_drift = -0.15
+			stability_weekly = 0.0025
+		}
+		
+	}
+	kill_the_traditiolalists = {
+		cost = 25
+		days_re_enable = 140
+		days_remove = 70
+		available = {
+			has_completed_focus = MON_align_with_stalin
+		}
+		modifier ={
+			communism_drift = -0.15
+			stability_weekly = 0.0025
+		}
+	}
+}
