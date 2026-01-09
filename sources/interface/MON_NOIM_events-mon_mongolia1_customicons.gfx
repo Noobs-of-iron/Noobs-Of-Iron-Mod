@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Unification of the step
+	SpriteType = { 
+		name = "mon_unification_of_the_step-613"
+		texturefile = "gfx/interface/events/mongolia1-event/mon_unification_of_the_step-613.dds"
+	}
+
+ 
+ }

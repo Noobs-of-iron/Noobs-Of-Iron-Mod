@@ -1,0 +1,73 @@
+MON_FFM = {
+
+    icon = GFX_MON_food_for_metal-806666
+
+    enable = { always = yes }
+
+    country_resource_steel = MON_FFM_steel
+    country_resource_tungsten = MON_FFM_tungsten
+    country_resource_rubber = MON_FFM_rubber
+    country_resource_chromium = MON_FFM_chromium
+    country_resource_coal = MON_FFM_coal
+    consumer_goods_factor = MON_FFM_civs
+}
+MON_control_question = {
+    icon = GFX_focus_SOV_the_supreme_soviet
+
+    enable = { always = yes }
+    
+    communism_drift = MONc_commusism_drift
+    neutrality_drift = MONc_neutrality_drift
+    stability_factor = MONc_stability_factor
+    war_support_factor = MONc_war_support_factor
+    conscription = MONc_conscription
+    research_speed_factor = MONc_research_speed_factor
+    political_power_gain = MONc_political_power_gain
+    political_power_cost = MONc_political_power_cost
+    experience_gain_army_factor = MONc_experience_gain_army_factor
+    experience_gain_air_factor = MONc_experience_gain_air_factor
+    consumer_goods_factor = MONc_consumer_goods_factor
+    stability_weekly = MONc_stability_factor_weekly 
+    civilian_factory_use = MONc_civilian_factory_use
+    production_speed_buildings_factor = MONc_production_speed_buildings_factor
+
+    
+}
+MON_german_invasion = {
+    icon = GFX_focus_SOV_organization_centralization_discipline
+
+    enable = { always = yes }
+
+    conscription = 0.01
+    war_support_factor = 0.10
+    stability_factor = -0.05
+    military_factory_donations = MON_ger_production_speed_military_factory_factor
+    production_factory_max_efficiency_factor = MON_ger_production_factory_max_efficiency_factor
+    production_factory_efficiency_gain_factor = MON_ger_production_factory_efficiency_gain_factor
+}
+MON_mongolian_army = {
+    icon = generic_manpower_bonus
+
+    enable = { always = yes }
+
+    supply_consumption_factor = MONA_supply_consumption_factor
+    army_org_factor = MONA_army_org_factor
+    army_org_regain = MONA_org_regain 
+    cavalry_attack_factor = MONA_cavalry_attack_factor
+    cavalry_defence_factor = MONA_cavalry_defence_factor 
+    army_armor_attack_factor = MONA_armor_attack_factor
+    army_armor_defence_factor = MONA_armor_defence_factor
+    army_armor_speed_factor = MONA_speed_factor
+    winter_attrition_factor = MONA_winter_attrition_factor
+    acclimatization_cold_climate_gain_factor = MONA_acclimatization_cold_climate_gain_factor
+    experience_loss_factor = MONA_experience_loss_factor
+    cas_damage_reduction = MONA_cas_damage_reduction
+    weekly_manpower = MONA_weekly_manpower 
+    conscription = MONA_conscription
+    experience_gain_army_factor = MONA_experience_gain_army_factor
+    mechanized_attack_factor = MONA_mechanized_attack_factor
+    mechanized_defence_factor = MONA_mechanized_defence_factor
+    motorized_attack_factor = MONA_motorized_attack_factor
+    motorized_defence_factor = MONA_motorized_defence_factor
+    special_forces_cap = MONA_special_forces_cap
+}

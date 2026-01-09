@@ -1,0 +1,672 @@
+characters = {
+	#Khorloogiin Choibalsan
+	gengis_khan_khorloogiin_choibalsan = {
+		name = gengis_khan_khorloogiin_choibalsan
+		portraits = {
+			civilian = {
+				large = GFX_gengis_khan_khorloogiin_choibalsan_large
+				small = GFX_gengis_khan_khorloogiin_choibalsan_small
+			}
+			army = {
+				large = GFX_gengis_khan_khorloogiin_choibalsan_large
+				small = GFX_gengis_khan_khorloogiin_choibalsan_small
+			}				
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = { Mongolian_dictator }
+			expire = "1950.12.12.12"
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = gengis_khan_khorloogiin_choibalsan
+			cost = 75
+			traits = { silent_workhorse }
+		}
+		corps_commander = {
+			traits = { politically_connected harsh_leader guerilla_fighter old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	#The ghost and spirit of Genghis Khan
+	gengis_khan_the_ghost_and_spirit_of_genghis_khan = {
+		name = gengis_khan_the_ghost_and_spirit_of_genghis_khan
+		portraits = {
+			civilian = {
+				small = GFX_gengis_khan_the_ghost_and_spirit_of_genghis_khan_advisor
+			}
+			army = {
+				large = GFX_gengis_khan_the_ghost_and_spirit_of_genghis_khan_large
+				small = GFX_gengis_khan_the_ghost_and_spirit_of_genghis_khan_small
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = gengis_khan_the_ghost_and_spirit_of_genghis_khan
+			cost = 75
+			traits = { army_chief_offensive_2 }
+			available = { has_completed_focus = MON_mongolization_of_our_army }
+		}
+		field_marshal = {
+			traits = { cavalry_officer cavalry_leader cavalry_expert }
+			skill = 6
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	#Rajo
+	gengis_khan_rajo = {
+		name = gengis_khan_rajo
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_rajo_small"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = gengis_khan_rajo
+			cost = 100
+			traits = { army_armored_2 }
+		available = {
+          	has_completed_focus = not
+		}
+		}
+	}
+	#Ero
+	gengis_khan_ero = {
+		name = gengis_khan_ero
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_ero_small"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = gengis_khan_ero
+			cost = 100
+			traits = { army_CombinedArms_2 }
+		available = {
+          	has_completed_focus = MON_conscript_them_yankhanuud
+		}
+		}
+	}
+	#Lemen
+	gengis_khan_lemen = {
+		name = gengis_khan_lemen
+		portraits = {
+			army = {
+				large = GFX_gengis_khan_lemen_large
+				small = GFX_gengis_khan_lemen_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard politically_connected jungle_rat }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			visible = { 
+				has_completed_focus = MON_british_military_advisors
+			}
+		}
+	}
+	#The black khan
+	gengis_khan_the_black_khan = {
+		name = gengis_khan_the_black_khan
+		portraits = {
+			army = {
+				large = GFX_gengis_khan_the_black_khan_large
+				small = GFX_gengis_khan_the_black_khan_small
+			}
+		}
+		field_marshal = {
+			traits = { trait_reckless media_personality harsh_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = -4
+			logistics_skill = -4
+		}
+	}
+	#Chang Kai Ned
+	gengis_khan_chang_kai_ned = {
+		name = gengis_khan_chang_kai_ned
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_chang_kai_ned_small"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = gengis_khan_chang_kai_ned
+			cost = 100
+			traits = { air_airborne_2 }
+		available = {
+          	has_completed_focus = MON_gypsy
+		}
+		}
+	}
+	#Semple
+	gengis_khan_semple = {
+		name = gengis_khan_semple
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_semple_small"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = gengis_khan_semple
+			cost = 100
+			traits = { military_theorist }
+		}
+	}
+	#Damdin Sükhbaatar
+	gengis_khan_damdinsukhbaatar = {
+		name = gengis_khan_damdinsukhbaatar
+		portraits = {
+			army = {
+				large = GFX_gengis_khan_damdinsukhbaatar_large
+				small = GFX_gengis_khan_damdinsukhbaatar_small
+			}
+		}
+		corps_commander = {
+			traits = { guerilla_fighter infantry_leader hill_fighter }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	#Khatanbaatar Magsarjav
+	gengis_khan_khatanbaatar_magsarjav = {
+		name = gengis_khan_khatanbaatar_magsarjav
+		portraits = {
+			civilian = {
+				small = GFX_gengis_khan_khatanbaatar_magsarjav_advisor
+			}
+			army = {
+				large = GFX_gengis_khan_khatanbaatar_magsarjav_large
+				small = GFX_gengis_khan_khatanbaatar_magsarjav_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = gengis_khan_khatanbaatar_magsarjav
+			cost = 100
+			traits = { army_commando_1 }
+			available = {
+           		has_completed_focus = MON_national_advisors
+		}	
+		}
+		corps_commander = {
+			traits = { commando hill_fighter  infantry_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	#Lkhagvasuren Jamiyan
+	gengis_khan_lkhagvasuren_jamiyan = {
+		name = gengis_khan_lkhagvasuren_jamiyan
+		portraits = {
+			civilian = {
+				small = GFX_gengis_khan_lkhagvasuren_jamiyan_advisor
+			}
+			army = {
+				large = GFX_gengis_khan_lkhagvasuren_jamiyan_large
+				small = GFX_gengis_khan_lkhagvasuren_jamiyan_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = gengis_khan_lkhagvasuren_jamiyan
+			cost = 100
+			traits = { army_CombinedArms_2 }
+			available = {
+				has_completed_focus =  MON_national_advisors
+			}
+		}
+		corps_commander = {
+			traits = { expert_improviser trickster cavalry_leader combined_arms_expert }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	#Jamsrangiin Sambuu
+	gengis_khan_jamsrangiin_sambuu = {
+		name = gengis_khan_jamsrangiin_sambuu
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_zou_taofen_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = gengis_khan_jamsrangiin_sambuu
+			cost = 150
+			traits = { marxist_philosopher }
+			available = {
+            	has_completed_focus = MON_national_advisors
+		}	
+		}
+	}
+	#Bat-Ochiryn Elbegdorj
+	gengis_khan_batochiryn_elbegdorj = {
+		name = gengis_khan_batochiryn_elbegdorj
+		portraits = {
+			civilian = {
+				small = GFX_idea_CHI_weng_wenhao 
+				}
+			}		
+		advisor = {
+			slot = political_advisor
+			idea_token = gengis_khan_batochiryn_elbegdorj
+			cost = 150
+			traits = { war_industrialist }
+			available = {
+				has_completed_focus =  MON_national_advisors
+			}
+		}
+	}
+	#Poaa
+	#Jahef
+	gengis_khan_jahef = {
+		name = gengis_khan_jahef
+		portraits = {
+			army = {
+				large = GFX_gengis_khan_jahef_large
+				small = GFX_gengis_khan_jahef_small
+			}
+		}
+		corps_commander = {
+			traits = { war_hero trait_reckless substance_abuser }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			visible = { 
+				has_completed_focus = MON_the_yankee_advisor
+			}
+		}
+	}
+	#Batbayar Tsend
+	gengis_khan_batbayar_tsend = {
+		name = gengis_khan_batbayar_tsend
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_chen_lifu_small
+			}
+		}	
+		advisor = {
+			slot = political_advisor
+			idea_token = gengis_khan_batbayar_tsend
+			cost = 150
+			traits = { industry_reformer }
+			available = {
+          	  has_completed_focus = MON_national_advisors
+		}
+		}
+	}
+	#Chingis Munkhbayar
+	gengis_khan_chingis_munkhbayar = {
+		name = gengis_khan_chingis_munkhbayar
+		portraits = {
+			civilian = {
+				small = GFX_gengis_khan_chingis_munkhbayar_advisor
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = gengis_khan_chingis_munkhbayar
+			cost = 50
+			traits = { army_infantry_1 }
+			available = {
+            	has_completed_focus = MON_national_advisors
+		}	
+		}
+	}
+	#Sükhbaatar Baatar
+	gengis_khan_sukhbaatarbaatar = {
+		name = gengis_khan_sukhbaatarbaatar
+		portraits = {
+			civilian = {
+				small = GFX_gengis_khan_sukhbaatarbaatar_advisor
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = gengis_khan_sukhbaatarbaatar
+			cost = 100
+			traits = { army_regrouping_2 }
+			available = {
+            	has_completed_focus = MON_national_advisors
+			}	
+		}
+	}
+	#Poaa Prime
+	gengis_khan_poaa_prime = {
+		name = gengis_khan_poaa_prime
+		portraits = {
+			army = {
+				large = GFX_gengis_khan_poaa_prime_large
+				small = GFX_gengis_khan_poaa_prime_small
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader panzer_expert brilliant_strategist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			visible = { has_completed_focus = MON_even_more_mongolian }
+		}
+	}
+	#Erdenechimeg Bayarmaa
+	gengis_khan_erdenechimeg_bayarmaa = {
+		name = gengis_khan_erdenechimeg_bayarmaa
+		portraits = {
+			civilian = {
+				small = GFX_gengis_khan_erdenechimeg_bayarmaa_advisor
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = gengis_khan_erdenechimeg_bayarmaa
+			cost = 100
+			traits = { army_cavalry_2 }
+			available = {
+            	has_completed_focus = MON_cav_bonus
+			}	
+		}
+	}
+	#Kubua
+	gengis_khan_kubua = {
+		name = gengis_khan_kubua
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_kubua_small"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = gengis_khan_kubua
+			cost = 100
+			traits = { air_chief_all_weather_2 }
+			available = {
+          	has_completed_focus = not
+			}
+		}
+	}
+		gengis_khan_poaa = {
+		name = gengis_khan_poaa
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_poaa_small"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = gengis_khan_poaa
+			cost = 100
+			traits = { army_armored_2 }
+			available = {
+          	has_completed_focus = not
+		}
+		}
+	}
+	#soviet advisors
+	gengis_khan_ivan_konev = {
+		name = SOV_ivan_konev
+		portraits = {
+			army = {
+				small = "GFX_idea_SOV_ivan_konev"
+				large = "GFX_portrait_SOV_ivan_konev"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ivan_konev
+			ledger = army
+			available = {
+				has_completed_focus = MON_red_army_experts
+			}
+			traits = {
+			army_concealment_2
+			}
+			cost = 100
+		}
+	}
+	#soviet advisor
+	gengis_khan_yevgeny_preobrazhensky = {
+		name = SOV_yevgeny_preobrazhensky
+		portraits = {
+			army = {
+				small = "GFX_idea_SOV_yevgeny_preobrazhensky"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SOV_yevgeny_preobrazhensky
+			available = {
+				has_completed_focus = MON_red_army_experts
+			}
+			traits = {
+				ecomonist_publicist 
+			}
+		}
+	}
+	#soviet advisor
+	gengis_khan_vasily_yanchenko = {
+		name = SOV_vasily_yanchenko
+
+		portraits = {
+			army = {
+				small = "GFX_idea_SOV_vasily_yanchenko"
+			}
+		}
+		
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = SOV_vasily_yanchenko
+			ledger = air
+			available = {
+				has_completed_focus = MON_red_army_experts
+			}
+			traits = { air_air_superiority_2 }
+		}
+	}	
+	#soviet advisor
+	gengis_khan_aleksandr_yegorov = {
+		name = SOV_aleksandr_yegorov
+		portraits = {
+			army = {
+				small = "GFX_idea_aleksandr_yegorov"
+				large = "GFX_portrait_SOV_aleksandr_yegorov"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = SOV_aleksandr_yegorov
+
+			traits = {
+				army_chief_defensive_2
+			}
+			available = {
+				has_completed_focus = MON_red_army_experts
+			}
+			cost = 100
+		}
+	}
+	#Shimbara 
+	## replace him
+	gengis_khan_shimabara = {
+		name = gengis_khan_shimabara
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_Blue_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = gengis_khan_shimbara
+			cost = 150
+			traits = { right_trade_unionist }
+			available = {
+          	has_completed_focus = not
+		}
+		}
+	}
+	#Kobinori
+	gengis_khan_kobinori = {
+		name = gengis_khan_kobinori
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_kobinori_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = gengis_khan_kobinori
+			cost = 150
+			traits = { head_of_intelligence }
+			available = {
+          	has_completed_focus = not
+		}
+		}
+	}
+	#Trashen
+	gengis_khan_trashen = {
+		name = gengis_khan_trashen
+		portraits = {
+			army = {
+				small = "GFX_gengis_khan_trashen_small"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = gengis_khan_trashen
+			cost = 200
+			traits = { army_chief_entrenchment_3 }
+			available = {
+				has_completed_focus = MON_invite_soviet_generals
+			}
+		}
+	}
+	gengis_khan_death_master = {
+		name = gengis_khan_death_master
+			portraits = {
+				civilian = {
+					large = GFX_gengis_khan_death_large
+					small = "GFX_gengis_khan_death_small"
+				}
+				army = {
+					small = "GFX_gengis_khan_death_small"
+					large = "GFX_gengis_khan_death_large"
+				}
+			}
+
+		advisor = {
+			slot = high_command
+			idea_token = gengis_khan_death_master
+			cost = 100
+			traits = { army_commando_2 }
+			available = {
+          	has_completed_focus = not
+		}
+		}
+		corps_commander = {
+			traits = { commando  infantry_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			visible = { has_completed_focus = MON_the_rest_of_polish_retards }
+		}
+	}
+	gengis_khan_tiru = {
+		name = gengis_khan_tiru
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_tiru_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = gengis_khan_tiru
+			cost = 100
+			traits = { JAP_financial_genius }
+			available = {
+           		has_completed_focus = MON_religius_freedom
+			}	
+		}
+	}
+	gengis_khan_better_marko = {
+		name = gengis_khan_better_marko
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_marko_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = gengis_khan_better_marko
+			cost = 150
+			traits = { prince_of_terror }
+			available = {
+          	has_completed_focus = not
+		}	
+		}
+	}
+	gengis_khan_quonb = {
+		name = gengis_khan_quonb
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_marko_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = gengis_khan_quonb
+			cost = 67
+			traits = { Ratte_Specialist }
+			available = {
+				has_completed_focus = MON_steal_the_ratte
+			}
+		}
+	}
+	gengis_khan_mario = {
+		name = gengis_khan_mario
+		portraits = {
+			civilian = {
+				small = "GFX_gengis_khan_marko_small"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = gengis_khan_mario
+			cost = 100
+			traits = { navy_chief_decisive_battle_3 }
+			available = {
+          	has_completed_focus = not
+		}
+		}
+	}
+}

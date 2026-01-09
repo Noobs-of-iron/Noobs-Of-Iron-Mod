@@ -1,0 +1,21 @@
+leader_traits = {
+    
+    Ratte_Specialist = {
+        random = no
+        equipment_bonus = {
+            land_cruiser_chassis = {
+                build_cost_ic = -0.25
+            }
+        }
+
+        ai_will_do = {
+			factor = 1
+		}
+    }
+    Mongolian_dictator = {
+        random = no
+        political_power_factor = 0.25
+        weekly_casualties_war_support = 0.001
+    }
+    
+}
