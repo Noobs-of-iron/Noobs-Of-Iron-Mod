@@ -1,0 +1,10 @@
+mongol_party_purges = {
+	allowed = {
+		always = yes
+	}
+	visible = {
+		tag = MON
+
+
+	}
+}

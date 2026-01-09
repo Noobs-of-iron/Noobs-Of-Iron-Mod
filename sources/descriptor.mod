@@ -7,7 +7,7 @@ tags={
 }
 picture="thumbnail.png"
 name="NOIM"
-supported_version="1.17.3"
+supported_version="1.17.3.*"
 remote_file_id="3167289368"
 replace_path = "gfx/loadingscreens"
 replace_path = "localisation/english/loading_tips_l_english.yml"

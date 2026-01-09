@@ -1,0 +1,2002 @@
+focus_tree = {
+	id = mongolia
+	continuous_focus_position = { x = -40 y = 1180 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MON
+		}
+	}
+	#annex tana tuva
+	focus = {
+		id = MON_annex_tana_tuva
+		icon = GFX_MON_annex_tana_tuva-806649
+		x = 6
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = MON_unification_with_the_our_nomadic_brothers  }
+		completion_reward = {
+			annex_country = {
+			    target = TAN
+			    transfer_troops = yes
+			}
+			
+			
+			
+		}
+	}
+
+	#The Soviet Control Question
+	focus = {
+		id = MON_the_soviet_control_question
+		icon = GFX_focus_generic_soviet_politics
+		x = 9
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}	
+		
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_stability_factor = 0.05 
+				tooltip = stability_factor_tt
+			}
+			add_to_variable = { MONc_political_power_gain = 0.05
+				tooltip = political_power_gain_tt
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_political_power = 25
+		}
+	}
+
+	#advisors from Moscow
+	focus = {
+		id = MON_advisors_from_moscow
+		icon = GFX_MON_advisors_from_moscow-646119
+		x = 16
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_stalinourgreatally  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_experience_gain_army_factor = 0.2
+				tooltip = experience_gain_army_factor_tt }
+			add_to_variable = { MONc_experience_gain_air_factor = 0.2
+				tooltip = experience_gain_air_factor_tt }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			army_experience = 25
+			
+		}
+	}
+
+	#conscript them yankhanuud
+	focus = {
+		id = MON_conscript_them_yankhanuud
+		icon = GFX_MON_force_resource_extraction-262107
+		x = 14
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_fuck_with_the_monks  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_neutrality_drift = -0.1
+				tooltip = neutrality_drift_tt }
+			add_to_variable = { MONc_conscription = 0.005
+				tooltip = conscription_tt }
+			add_to_variable = { MONc_stability_factor = -0.075
+				tooltip = stability_factor_tt }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_political_power = 50
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = gengis_khan_ero
+		}
+	}
+
+	#Soviet Engineers
+	focus = {
+		id = MON_soviet_engineers
+		icon = GFX_MON_soviet_engineers-806659
+		x = 16
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = MON_advisors_from_moscow  }
+		completion_reward = {
+			add_research_slot = 1
+			
+			
+		}
+	}
+
+	#Copy Stalins Constitution
+	focus = {
+		id = MON_copy_stalins_constitution
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 18
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_purge_the_party  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_commusism_drift = 0.05
+				tooltip = communism_drift_tt }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_ideas = mongolia_stalins_constitution
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_political_power = 50
+		}
+	}
+
+	#state atheism
+	focus = {
+		id = MON_state_atheism
+		icon = GFX_MON_state_atheism-807233
+		x = 15
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_tax_them_novsh  } prerequisite = { focus = MON_conscript_them_yankhanuud  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_neutrality_drift = -0.1
+				tooltip = neutrality_drift_tt }
+			add_to_variable = { MONc_consumer_goods_factor = -0.1
+				tooltip = consumer_goods_factor_tt }
+			add_to_variable = { MONc_research_speed_factor = 0.05 
+				tooltip = research_speed_factor_tt }	
+			add_to_variable = { MONc_stability_factor = -0.05 
+				tooltip = stability_factor_tt}
+			
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_political_power = 50
+		}
+	}
+
+	#Tax breaks for religius figures
+	focus = {
+		id = MON_tax_breaks_for_religius_figures
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_eeach_out_to_monks  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_stability_factor = 0.1 
+				tooltip = stability_factor_tt }
+			add_to_variable = { MONc_war_support_factor = 0.1 
+				tooltip = war_support_factor_tt }
+			add_to_variable = { MONc_consumer_goods_factor = 0.10
+				tooltip = consumer_goods_factor_tt }
+			add_to_variable = { MONc_neutrality_drift = 0.1 
+				tooltip = neutrality_drift_tt }
+		}
+	}
+
+	#Force the nomads to factories
+	focus = {
+		id = MON_force_the_nomads_to_factories
+		icon = GFX_MON_force_the_nomads_to_factories-262036
+		x = 9
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { 
+			focus = MON_mongoliaallyofthesovietunion 
+			focus = MON_stalinourgreatally  }
+		completion_reward = {
+			remove_ideas = mongolia_nomadic_population
+			
+			
+			
+		}
+	}
+
+	#Tax them novsh
+	focus = {
+		id = MON_tax_them_novsh
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_fuck_with_the_monks  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_neutrality_drift = -0.1
+				tooltip = neutrality_drift_tt }
+			add_to_variable = { MONc_consumer_goods_factor = -0.25
+				tooltip = consumer_goods_factor_tt }
+			add_to_variable = { MONc_stability_factor = -0.075
+				tooltip = stability_factor_tt }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_political_power = 50
+		}
+	}
+
+	#national advisors
+	focus = {
+		id = MON_national_advisors
+		icon = GFX_MON_national_advisors-646222
+		x = 1
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_mongoliaallyofthesovietunion  }
+		completion_reward = {
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip =  gengis_khan_khatanbaatar_magsarjav
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = gengis_khan_chingis_munkhbayar
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = gengis_khan_sukhbaatarbaatar
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip =  gengis_khan_lkhagvasuren_jamiyan
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = gengis_khan_jamsrangiin_sambuu
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = gengis_khan_batochiryn_elbegdorj
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = gengis_khan_batbayar_tsend
+			
+		}
+	}
+
+	#Stalin, our great ally
+	focus = {
+		id = MON_stalinourgreatally
+		icon = GFX_MON_stalinourgreatally-262123
+		x = 16
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_state_atheism  } prerequisite = { focus = MON_copy_stalins_constitution  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_neutrality_drift = -0.1
+				tooltip = neutrality_drift_tt }
+			add_to_variable = { MONc_war_support_factor = 0.1
+				tooltip = war_support_factor_tt }
+			add_to_variable = { MONc_stability_factor = 0.05
+				tooltip = stability_factor_tt }
+			add_to_variable = { MONc_political_power_gain = 0.1
+				tooltip = political_power_gain_tt }
+			add_to_variable = { MONc_civilian_factory_use = -1
+				tooltip = civilian_factory_use_tt_2 }	
+		}
+	}
+
+	#Cav bonus
+	focus = {
+		id = MON_cav_bonus
+		icon = GFX_MON_cav_bonus-646208
+		x = 32
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = MON_our_national_pride 
+						 focus = MON_keep_our_tradition }
+		completion_reward = {
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = gengis_khan_erdenechimeg_bayarmaa
+			
+		}
+	}
+
+	#Modernizing Mining
+	focus = {
+		id = MON_modernizing_mining
+		icon = GFX_MON_modernizing_mining-645960
+		x = 26
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_mongol_industry  }
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = mongolia_industrializing_resource_extraction
+			    add_idea = mongolia_half_industrialized_resource_extraction
+			}	
+		}
+	}
+
+	#Purge the rest
+	focus = {
+		id = MON_purge_the_rest
+		icon = GFX_MON_purge_the_rest-262127
+		x = 0
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		cancel_if_invalid = no
+		available = {
+			has_political_power > 50
+		}
+		prerequisite = { focus = MON_ban_comminist_youth  }
+		cancel_if_invalid = no
+		completion_reward = {
+			add_political_power = -50
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_commusism_drift = -0.25 
+				tooltip = communism_drift_tt }
+			add_to_variable = { MONc_stability_factor = 0.05 
+				tooltip = stability_factor_tt }
+			add_to_variable = { MONc_political_power_gain = 0.1 
+				tooltip = political_power_gain_tt }
+		}
+	}
+
+	#religius freedom
+	focus = {
+		id = MON_religius_freedom
+		icon = GFX_MON_religius_freedom-442
+		x = 3
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_cooperation_with_the_monks  } 
+		prerequisite = { focus = MON_tax_breaks_for_religius_figures  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_political_power_gain = 0.25 
+				tooltip = political_power_gain_tt }
+			add_to_variable = { MONc_stability_factor = 0.1
+				tooltip = stability_factor_tt }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = gengis_khan_tiru
+		}
+	}
+	#Promote our own sientists
+	focus = {
+		id = MON_promote_our_own_sientists
+		icon = GFX_MON_promote_our_own_sientists-646153
+		x = 3
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = MON_mongoliaallyofthesovietunion  }
+		completion_reward = {
+			add_research_slot = 1
+			add_to_variable = { MONc_consumer_goods_factor = 0.10 }
+			
+			
+		}
+	}
+
+	#Subver control
+	focus = {
+		id = MON_subver_control
+		icon = GFX_MON_subver_control-806368
+		x = 2
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_the_soviet_control_question  }
+		mutually_exclusive = { focus = MON_align_with_stalin  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_commusism_drift = 0.5 
+				tooltip = communism_drift_tt }
+			add_to_variable = { MONc_stability_factor = -0.1
+				tooltip = stability_factor_tt }
+			add_to_variable = { MONc_war_support_factor = 0.05
+				tooltip = war_support_factor_tt }
+			add_to_variable = { MONc_political_power_gain = 0.05
+				tooltip = political_power_gain_tt }
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+
+		}
+	}
+
+	#Align with stalin
+	focus = {
+		id = MON_align_with_stalin
+		icon = GFX_focus_fra_loyalty_stalin
+		x = 16
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_the_soviet_control_question  }
+		mutually_exclusive = { focus = MON_subver_control  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_neutrality_drift = 0.5 
+				tooltip = neutrality_drift_tt }
+			add_to_variable = { MONc_stability_factor = 0.15
+				tooltip = stability_factor_tt }
+			add_to_variable = { MONc_war_support_factor = 0.05
+				tooltip = war_support_factor_tt }
+			add_to_variable = { MONc_political_power_gain = 0.05
+				tooltip = political_power_gain_tt }
+			add_to_variable = { MONc_stability_factor_weekly = 0.01
+				tooltip = stability_factor_weekly_tt1 }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_political_power = 50
+		}
+	}
+
+	#Eeach out to monks
+	focus = {
+		id = MON_eeach_out_to_monks
+		icon = GFX_goal_generic_dangerous_deal
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_subver_control  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_neutrality_drift = 0.1 
+				tooltip = neutrality_drift_tt }
+			add_to_variable = { MONc_stability_factor = 0.1 
+				tooltip = stability_factor_tt }
+		}
+	}
+
+	#Fuck with the monks
+	focus = {
+		id = MON_fuck_with_the_monks
+		icon = GFX_MON_fuck_with_the_monks-806655
+		x = 15
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_align_with_stalin  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_neutrality_drift = -0.05 
+				tooltip = neutrality_drift_tt }
+			add_to_variable = { MONc_political_power_gain = 0.05
+				tooltip = political_power_gain_tt }
+			add_to_variable = { MONc_civilian_factory_use = 1
+				tooltip = civilian_factory_use_tt }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			add_political_power = 50
+		}
+	}
+
+	#refuges form inner mongolia
+	focus = {
+		id = MON_refuges_form_inner_mongolia
+		icon = GFX_MON_refuges_form_inner_mongolia-646020
+		x = 6
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_mongoliaallyofthesovietunion  focus = MON_stalinourgreatally  }
+
+		completion_reward = {
+			612 = { add_manpower = -100000 }
+			621 = { add_manpower = -100000 }
+			330 = { add_manpower = 100000 }
+			817 = { add_manpower = 100000 }
+
+		}
+	}
+
+	#Send Soviet advisors back
+	focus = {
+		id = MON_send_soviet_advisors_back
+		icon = GFX_goal_anti_comintern_pact
+		x = 0
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		cancel_if_invalid = no
+		available = {
+			has_political_power > 50
+		}
+		prerequisite = { focus = MON_subver_control
+		}
+		completion_reward = {
+			add_political_power = -50
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_experience_gain_army_factor = -0.1 
+				tooltip = experience_gain_army_factor_tt }
+			add_to_variable = { MONc_experience_gain_air_factor = -0.1 
+				tooltip = experience_gain_air_factor_tt }
+			add_to_variable = { MONc_war_support_factor = 0.1 
+				tooltip = war_support_factor_tt }
+			add_to_variable = { MONc_commusism_drift = -0.1 
+				tooltip = communism_drift_tt }
+
+		}
+		
+	}
+	
+	
+	focus = {
+		id = MON_ban_comminist_youth
+		icon = GFX_focus_BRA_ban_communist_party
+		x = 0
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_send_soviet_advisors_back }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_commusism_drift = -0.25
+				tooltip = communism_drift_tt }
+			add_to_variable = { MONc_stability_factor = 0.05 
+				tooltip = stability_factor_tt }
+			add_to_variable = { MONc_stability_factor_weekly = 0.005 
+				tooltip = stability_factor_weekly_tt0.5 }
+		}
+	}
+
+	#mongol industry
+	focus = {
+		id = MON_mongol_industry
+		icon = GFX_MON_mongol_industry-645906
+		x = 24
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			820 = {
+			    add_extra_state_shared_building_slots = 2
+			    add_building_construction = {
+			        type = industrial_complex
+			        level = 1
+			        instant_build = yes
+				}
+			}
+			
+			
+		}
+	}
+
+	#Modern extraction
+	focus = {
+		id = MON_modern_extraction
+		icon = GFX_MON_modern_extraction-645976
+		x = 26
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_modernizing_mining  }
+		completion_reward = {
+			remove_ideas = mongolia_half_industrialized_resource_extraction
+		}
+	}
+
+	#Modern construction
+	focus = {
+		id = MON_modern_construction
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 22
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_modernizing_construction  }
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = mongolia_steel_is_kinda_good
+			    add_idea = mongolia_build_out_of_steel
+			}
+			random_controlled_state = {
+			    add_extra_state_shared_building_slots = 2
+			    add_building_construction = {
+			        type = industrial_complex
+			        level = 1
+			        instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Mongolia, ally of the Soviet Union
+	focus = {
+		id = MON_mongoliaallyofthesovietunion
+		icon = GFX_MON_mongoliaallyofthesovietunion-646334
+		x = 2
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_religius_freedom  } 
+		prerequisite = { focus = MON_purge_the_rest  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_stability_factor_weekly = 0.005 
+				tooltip = stability_factor_weekly_tt0.5 }
+			add_to_variable = { MONc_neutrality_drift = 0.1 
+				tooltip = neutrality_drift_tt }
+			add_to_variable = { MONc_stability_factor = 0.1 
+				tooltip = stability_factor_tt }
+		}
+	}
+
+	#unification with the our nomadic brothers
+	focus = {
+		id = MON_unification_with_the_our_nomadic_brothers
+		icon = GFX_MON_unification_with_the_our_nomadic_brothers-806371
+		x = 7
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = MON_align_with_stalin  focus = MON_subver_control  }
+		available = {
+
+		SIK = {
+			country_exists = SIK
+			has_opinion = { target = MON value > 74 } 
+			}
+		TAN = {
+			country_exists = TAN
+			has_opinion = { target = MON value > 74 } 
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = MON_frien_with_nomads
+		}
+	}
+
+	#Cooperation with the Monks
+	focus = {
+		id = MON_cooperation_with_the_monks
+		icon = GFX_focus_generic_concessions
+		x = 2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_eeach_out_to_monks  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_research_speed_factor = -0.05 
+				tooltip = research_speed_factor_tt }
+			add_to_variable = { MONc_stability_factor = 0.05 
+				tooltip = stability_factor_tt }
+			add_to_variable = { MONc_political_power_gain = 0.25
+				tooltip = political_power_gain_tt }
+			add_to_variable = { MONc_commusism_drift = -0.25 
+				tooltip = communism_drift_tt }
+		}
+	}
+
+	#"economic aid"
+	focus = {
+		id = MON_economicaid
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 18
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_align_with_stalin  }
+		completion_reward = {
+			330 = {
+			    add_extra_state_shared_building_slots = 1
+			    add_building_construction = {
+			    	type = industrial_complex
+			        level = 1
+			        instant_build = yes
+			        }
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_commusism_drift = 0.05
+				tooltip = communism_drift_tt }
+			add_to_variable = { MONc_stability_factor = 0.05
+				tooltip = stability_factor_tt }
+			add_to_variable = { MONc_production_speed_buildings_factor = 0.05
+				tooltip = production_speed_buildings_factor_tt 	}
+			add_to_variable = { MONc_civilian_factory_use = 1
+				tooltip = civilian_factory_use_tt }
+		}
+	}
+
+	#Red army Experts
+	focus = {
+		id = MON_red_army_experts
+		icon = GFX_MON_red_army_experts-262089
+		x = 18
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_advisors_from_moscow  }
+		completion_reward = {
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = ivan_konev
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = SOV_yevgeny_preobrazhensky
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = SOV_vasily_yanchenko
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_chief_of_army
+			show_ideas_tooltip = SOV_aleksandr_yegorov
+		}
+	}
+	focus = {
+		id = MON_donctrine_help
+		icon = GFX_MON_red_army_experts-262089
+		x = 20
+		y = 7
+		cost = 2
+		prerequisite = { focus = MON_advisors_from_moscow  }
+		
+		completion_reward = {
+			add_mastery_bonus = {
+					bonus = 0.25
+					days = 360
+					track = armor
+					name = JAP_reform_the_army
+				}
+				add_mastery_bonus = {
+					bonus = 0.25
+					days = 360
+					track = infantry
+					name = JAP_reform_the_army
+				}
+				add_mastery_bonus = {
+					bonus = 0.25
+					days = 360
+					track = operations
+					name = JAP_reform_the_army
+				}
+		}
+	}
+
+	#align wit soviet military doctrine
+	focus = {
+		id = MON_purge_the_party
+		icon = GFX_MON_purge_the_rest-262127
+		x = 18
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MON_economicaid  }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_commusism_drift = 0.05
+				tooltip = communism_drift_tt }
+			add_to_variable = { MONc_research_speed_factor = -0.05
+				tooltip = research_speed_factor_tt }
+			add_to_variable = { MONc_stability_factor = 0.05
+				tooltip = stability_factor_tt }
+			add_to_variable = { MONc_experience_gain_army_factor = -0.1
+				tooltip = experience_gain_army_factor_tt }
+			add_to_variable = { MONc_experience_gain_air_factor = -0.1
+				tooltip = experience_gain_air_factor_tt}
+			
+			
+		}
+	}
+
+	#unification with the Uyghurs
+	focus = {
+		id = MON_unification_with_the_uyghurs
+		icon = GFX_MON_unification_with_the_uyghurs-262022
+		x = 8
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = MON_unification_with_the_our_nomadic_brothers  }
+		available = { }
+		completion_reward = {
+			annex_country = {
+			    target = SIK
+			    transfer_troops = yes
+			}
+			
+			
+			
+		}
+	}
+
+	#Military expansion 1
+	focus = {
+		id = MON_military_expansion_1
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 20
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_modern_construction  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+				building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Expand our production capacity
+	focus = {
+		id = MON_expand_our_production_capacity
+		icon = GFX_focus_generic_tank_production
+		x = 22
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_expand_our_constriction_sector  }
+		available = {
+			not = { has_idea = mongolia_expansion_of_the_constriction_sector }
+		}
+		completion_reward = {
+			add_timed_idea = {
+			    idea = mongolia_expansion_of_our_production_capacity
+			    days = 210
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Expand our constriction sector
+	focus = {
+		id = MON_expand_our_constriction_sector
+		icon = GFX_goal_generic_construction
+		x = 22
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_modern_construction  }
+		completion_reward = {
+
+			add_timed_idea = {
+			    idea = mongolia_expansion_of_the_constriction_sector
+			    days = 210
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#urbanisation
+	focus = {
+		id = MON_urbanisation
+		icon = GFX_MON_urbanisation-806645
+		x = 8
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_force_the_nomads_to_factories  }
+		completion_reward = {
+			330 = { set_state_category = city }
+			817 = { set_state_category = rural }
+			819 = { set_state_category = rural }
+			818 = { set_state_category = rural }
+			add_stability = 0.05
+		}
+	}
+
+	#Finish integration
+	focus = {
+		id = MON_finish_integration
+		icon = GFX_MON_finish_integration-645661
+		x = 7
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_urbanisation  } prerequisite = { focus = MON_encourage_population_growth  }
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = mongolia_immigrant_integration
+			    add_idea = mongolia_immigrants_integrated
+			}
+			
+		}
+	}
+
+	#Rubber for the tires
+	focus = {
+		id = MON_rubber_for_the_tires
+		icon = GFX_focus_generic_rubber
+		x = 26
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			custom_effect_tooltip = MON_FFM_tt
+			add_to_variable = { MON_FFM_civs = 0.075 
+			tooltip = consumer_goods_factor_tt }
+			add_to_variable = { MON_FFM_rubber = 8
+				tooltip = FFM_rubber_tt }
+
+		}
+		prerequisite = { focus = MON_food_for_metal  }
+	}
+	focus = {
+		id = MON_coal_for_heat
+		icon = GFX_focus_generic_rubber
+		x = 28
+		y = 5
+		prerequisite = { focus = MON_food_for_metal }
+		completion_reward = {
+			custom_effect_tooltip = MON_FFM_tt
+			add_to_variable = { MON_FFM_civs = 0.075
+			tooltip = consumer_goods_factor_tt}
+			add_to_variable = { MON_FFM_coal = 8 
+			tooltip = FFM_coal_tt }
+		}
+	}
+
+	#Military expansion 2
+	focus = {
+		id = MON_military_expansion_2
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 20
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_military_expansion_1  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Steel for food
+	focus = {
+		id = MON_steel_for_food
+		icon = GFX_focus_generic_steel
+		x = 24
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			custom_effect_tooltip = MON_FFM_tt
+			add_to_variable = { MON_FFM_civs = 0.075
+				tooltip = consumer_goods_factor_tt }
+			add_to_variable = { MON_FFM_steel =  16
+				tooltip = steel_FFM_tt }
+			
+		}
+		prerequisite = { focus = MON_food_for_metal  }
+	}
+
+	#Ulaanbaatar Polytechnical Instytute
+	focus = {
+		id = MON_ulaanbaatar_polytechnical_instytute
+		icon = GFX_MON_ulaanbaatar_polytechnical_instytute-646146
+		x = 8
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = MON_urbanisation  }
+		completion_reward = {
+			add_research_slot = 1
+			
+			
+		}
+	}
+
+	#Greater Mongolian State
+	focus = {
+		id = MON_greater_mongolian_state
+		icon = GFX_MON_greater_mongolian_state-806653
+		x = 7
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = MON_unification_with_the_uyghurs  } prerequisite = { focus = MON_annex_tana_tuva  }
+		available = {
+			has_political_power > 100
+		}
+		cancel_if_invalid = no
+		completion_reward = {
+			add_political_power = -100
+			add_state_core = 760
+			add_state_core = 618
+			add_state_core = 759
+			add_state_core = 617
+			add_state_core = 619
+			add_state_core = 329
+		}
+		select_effect = {
+			news_event = {
+    			id = mon_mongolia1.1
+    			days = 10
+    			random = 50
+    			random_days = 10
+			}
+
+
+
+		}
+	}
+
+	#Optimization of what we have
+	focus = {
+		id = MON_optimization_of_what_we_have
+		icon = GFX_MON_optimization_of_what_we_have-806663
+		x = 22
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_expand_our_production_capacity  }
+		available = {
+			NOT = { has_idea = mongolia_expansion_of_our_production_capacity }
+		}
+		completion_reward = {
+			add_timed_idea = {
+			    idea = mongolia_optimization_of_what_we_have
+			    days = 360
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+
+	#Encourage population growth
+	focus = {
+		id = MON_encourage_population_growth
+		icon = GFX_MON_force_resource_extraction-262107
+		x = 6
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = MON_refuges_form_inner_mongolia  }
+		completion_reward = {
+			add_ideas = mongolia_immigrant_integration
+		}
+	}
+
+	#Army or Factory
+	focus = {
+		id = MON_army_or_factory
+		icon = GFX_MON_army_or_factory-59
+		x = 10
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_force_the_nomads_to_factories  }
+		completion_reward = {
+			add_ideas = mongolia_army_or_factory
+			
+		}
+	}
+
+	#Keep our tradition
+	focus = {
+		id = MON_keep_our_tradition
+		icon = GFX_MON_keep_our_tradition-645936
+		x = 31
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = MON_keep_our_traditional_warfare  }
+		
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt 
+			add_to_variable = { MONA_cavalry_attack_factor = 0.1
+				tooltip = cavalry_attack_factor_tt }
+			add_to_variable = { MONA_cavalry_defence_factor = 0.1
+				tooltip = cavalry_defence_factor_tt }
+			add_to_variable = { MONA_armor_attack_factor = -0.1
+				tooltip = army_armor_attack_factor_tt } 
+			add_to_variable = { MONA_armor_defence_factor = -0.1
+				tooltip = army_armor_defence_factor_tt }
+			add_to_variable = { MONA_mechanized_defence_factor = -0.1
+				tooltip = mechanized_defence_factor_minus_ten }
+			add_to_variable = { MONA_motorized_defence_factor = -0.1
+				tooltip = motorized_defence_factor_minus_ten }
+		}
+	}
+	#force resource extraction
+	focus = {
+		id = MON_force_resource_extraction
+		icon = GFX_MON_force_resource_extraction-262107
+		x = 25
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_modern_extraction }
+		completion_reward = {
+			add_ideas = mongolia_mongolian_gulags
+			
+			
+			
+			
+		}
+	}
+
+	#Tank Focus
+	focus = {
+		id = MON_tank_focus
+		icon = GFX_MON_tank_focus-646129
+		x = 39
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = MON_form_modern_mongolian_doctrine
+						 focus = MON_soviet_doctrine }
+		mutually_exclusive = { focus = MON_artylery_research_instytute }
+		completion_reward = {
+			add_to_variable = { MONA_armor_attack_factor = 0.015
+				tooltip = army_armor_attack_factor_tt }
+			add_to_variable = { MONA_armor_defence_factor = 0.0075
+				tooltip = army_armor_defence_factor_tt }
+			add_tech_bonus = {
+							name = CAN_the_valentine_tank
+							bonus = 0.5
+							uses = 2
+							category = armor
+			}
+		}
+	}
+
+	#Motorization focus
+	focus = {
+		id = MON_motorization_focus
+		icon = GFX_goal_generic_army_motorized
+		x = 38
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_form_modern_mongolian_doctrine }
+		completion_reward = {
+			add_tech_bonus = {
+							name = CAN_cmp_truck
+							ahead_reduction = 1
+							bonus = 0.5
+							uses = 2
+							category = motorized_equipment
+			}
+		}
+	}
+
+	#Artylery research instytute
+	focus = {
+		id = MON_artylery_research_instytute
+		icon = GFX_goal_generic_army_artillery
+		x = 37
+		y = 2
+		cost = 5
+		prerequisite = { focus = MON_keep_our_traditional_warfare
+						 focus = MON_form_modern_mongolian_doctrine  }
+		mutually_exclusive = { focus = MON_tank_focus }
+		completion_reward = {
+			add_tech_bonus = {
+							name = Mongolian_artillery
+							bonus = 0.5
+							uses = 2
+							category = artillery
+						}
+		}
+	}
+
+	#Recruit a competent general
+	focus = {
+		id = MON_recruit_a_competent_general
+		icon = GFX_focus_generic_army_tanks2
+		x = 44
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = MON_sov_deep_battle }
+		prerequisite = { focus = MON_tank_spirit_with_motorized_spirit }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_supply_consumption_factor = 0.05
+				tooltip = supply_consumption_factor_tt }
+			hidden_effect = {
+			    unlock_tactic = tactic_masterful_blitz
+			}
+			custom_effect_tooltip = SOV_the_glory_of_the_red_army_masterful_blitz_tactic_tt
+		}
+	}
+
+	#tank spirit with motorized spirit
+	focus = {
+		id = MON_tank_spirit_with_motorized_spirit
+		icon = GFX_goal_generic_army_tanks
+		x = 43
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = MON_soviet_doctrine
+						 focus = MON_form_modern_mongolian_doctrine }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt 
+			add_to_variable = { MONA_armor_attack_factor = 0.0175 
+				tooltip = army_armor_attack_factor_tt }
+			add_to_variable = { MONA_armor_defence_factor = 0.025
+				tooltip = army_armor_defence_factor_tt }
+			add_to_variable = { MONA_supply_consumption_factor = 0.05
+				tooltip = supply_consumption_factor_tt }
+			add_to_variable = { MONA_mechanized_attack_factor = -0.05
+				tooltip = mechanized_attack_factor_tt }
+		}
+	}
+	focus = {
+		id = MON_train_our_own
+		icon = GFX_SOV_muster_the_old_guard_ccp_2d_sov_compatibility
+		x = 34
+		y = 3
+		cost = 5
+		prerequisite = { focus = MON_keep_our_traditional_warfare
+						 focus = MON_form_modern_mongolian_doctrine }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt 
+			add_to_variable = { MONA_experience_loss_factor = -0.1
+				tooltip = experience_loss_factor_tt }
+			add_to_variable = { MONA_cas_damage_reduction = 0.05
+				tooltip = cas_damage_reduction_tt }
+		}
+	}
+	focus = {
+		id = MON_nothing_yet
+		icon = GFX_focus_FIN_motti_tactics
+		x = 35
+		y = 2
+		cost = 5
+		prerequisite = { focus = MON_keep_our_traditional_warfare
+						 focus = MON_form_modern_mongolian_doctrine }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_motorized_attack_factor = 0.05
+				tooltip = motorized_attack_factor_tt }
+			add_to_variable = { MONA_mechanized_attack_factor = 0.05
+				tooltip = mechanized_attack_factor_tt }
+			add_to_variable = { MONA_supply_consumption_factor = 0.05
+				tooltip = supply_consumption_factor_tt }
+		}
+	}
+	focus = {
+		id = MON_more_traditional
+		icon = GFX_SOV_smersh_ccp_2d_sov_compatibility
+		x = 35
+		y = 4
+		cost = 5
+		prerequisite = { focus = MON_nothing_yet }
+		prerequisite = { focus = MON_train_our_own }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_experience_gain_army_factor = 0.1
+				tooltip = experience_gain_army_factor_tt }
+			add_to_variable = { MONA_mechanized_attack_factor = 0.05
+				tooltip = mechanized_attack_factor_tt }
+		}
+	}
+	focus = {
+		id = MON_more_soviet
+		icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
+		x = 42
+		y = 3
+		cost = 5
+		prerequisite = { focus = MON_soviet_doctrine
+						 focus = MON_form_modern_mongolian_doctrine }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_cas_damage_reduction = 0.05
+				tooltip = cas_damage_reduction_tt }
+			add_to_variable = { MONA_conscription = 0.005
+				tooltip = conscription_tt }
+		}
+	}
+		focus = {
+		id = MON_even_more_soviet
+		icon = GFX_SOV_an_adaptable_army_ccp_2d_sov_compatibility
+		x = 41
+		y = 2
+		cost = 5
+		prerequisite = { focus = MON_soviet_doctrine
+						 focus = MON_form_modern_mongolian_doctrine }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_experience_gain_army_factor = 0.05 
+				tooltip = experience_gain_army_factor_tt }
+			add_to_variable = { MONA_acclimatization_cold_climate_gain_factor = 0.1
+				tooltip = acclimatization_cold_climate_gain_factor_tt }
+			add_to_variable = { MONA_winter_attrition_factor = -0.1
+				tooltip = winter_attrition_factor_tt}
+		}
+	}
+		focus = {
+		id = MON_even_more_mongolian
+		icon = GFX_SOV_positive_heroism_ccp_2d_sov_compatibility
+		x = 41
+		y = 4
+		cost = 5
+		prerequisite = { focus = MON_even_more_soviet }
+		prerequisite = { focus = MON_more_soviet }
+		completion_reward = {
+			show_unit_leaders_tooltip = gengis_khan_poaa_prime
+		}
+	}
+		focus = {
+		id = MON_glory_to_mongolia
+		icon = GFX_focus_RAJ_peacock_throne_for_the_modern_age
+		x = 38
+		y = 5
+		cost = 10
+		prerequisite = { focus = MON_more_traditional
+						 focus = MON_even_more_mongolian }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt 
+			add_to_variable = { MONA_army_org_factor = 0.05
+				tooltip = army_org_factor_tt }
+			add_to_variable = { MONA_weekly_manpower = 100
+				tooltip = weekly_manpower_tt }
+			add_to_variable = { MONA_special_forces_cap = 0.05
+				tooltip = special_forces_cap_tt }
+		}
+	}
+	focus = {
+		#soviet investment
+		id = MON_sp_facility
+		icon = GFX_focus_NORDIC_dem_capstone_research
+		x = 38
+		y = 4
+		cost = 10
+		prerequisite = { focus = MON_more_traditional
+						 focus = MON_even_more_mongolian }
+		completion_reward = {
+			330 = {
+				add_building_construction = {
+					type = land_facility
+					level = 1
+					instant_build = yes
+					province = 1798
+				}
+			}
+			add_ideas = MON_facility_speed_bonus
+		}
+	}
+	#Our National Pride
+	focus = {
+		id = MON_our_national_pride
+		icon = GFX_MON_our_national_pride-807494
+		x = 33
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = MON_keep_our_traditional_warfare }			 
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_weekly_manpower = 200
+				tooltip = weekly_manpower_tt }
+			add_to_variable = { MONA_conscription = 0.02
+				tooltip = conscription_tt }
+		}
+	}
+
+	#Millitary schools
+	focus = {
+		id = MON_millitary_schools
+		icon = GFX_focus_generic_military_academy
+		x = 2
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available = {
+			date > 1940.01.01
+		}
+		prerequisite = { focus = MON_promote_our_own_sientists  } prerequisite = { focus = MON_national_advisors  }
+		completion_reward = {
+			add_mastery_bonus = {
+				bonus = 0.25
+				days = 720
+				track = armor
+				name = JAP_reform_the_army
+			}
+			add_mastery_bonus = {
+				bonus = 0.25
+				days = 720
+				track = infantry
+				name = JAP_reform_the_army
+			}
+			add_mastery_bonus = {
+				bonus = 0.25
+				days = 720
+				track = operations
+				name = JAP_reform_the_army
+			}
+		}
+	}
+
+	#Tungsten for the cannons
+	focus = {
+		id = MON_tungsten_for_the_cannons
+		icon = GFX_focus_generic_tungsten
+		x = 25
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			custom_effect_tooltip = MON_FFM_tt
+			add_to_variable = { MON_FFM_civs = 0.075
+				tooltip = consumer_goods_factor_tt }
+			add_to_variable = { MON_FFM_tungsten = 16
+				tooltip = FFM_tungsten_tt }
+
+		}
+		prerequisite = { focus = MON_food_for_metal  }
+	}
+	focus = {
+		id = MON_Chromium_for_something
+		icon = GFX_focus_generic_chromium
+		x = 27
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			custom_effect_tooltip = MON_FFM_tt
+			add_to_variable = { MON_FFM_civs = 0.075
+				tooltip = consumer_goods_factor_tt }
+			add_to_variable = { MON_FFM_chromium = 8
+				tooltip = FFM_chromium_tt }
+		}
+		prerequisite = { focus = MON_food_for_metal  }
+	}
+
+	#Learning steel casting
+	focus = {
+		id = MON_learning_steel_casting
+		icon = GFX_focus_generic_steel
+		x = 27
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_modern_extraction  }
+		completion_reward = {
+			330 = {add_resource = {
+			    type = steel
+			    amount = 192
+			}
+			}
+			
+			
+		}
+	}
+	#Food for metal
+	focus = {
+		id = MON_food_for_metal
+		icon = GFX_MON_food_for_metal-806666
+		x = 26
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_modern_extraction  }
+		completion_reward = {
+			custom_effect_tooltip = MON_FFM_focus_tt
+			custom_effect_tooltip = MON_FFM_focus_ttt
+			hidden_effect= {
+				add_dynamic_modifier = {
+				modifier = MON_FFM
+				}
+			}
+		}
+	}
+
+	#Modernizing Construction
+	focus = {
+		id = MON_modernizing_construction
+		icon = GFX_goal_generic_production2
+		x = 22
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_mongol_industry  }
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = mongolia_wood_framed_construction
+			    add_idea = mongolia_steel_is_kinda_good
+			}
+			random_controlled_state = {
+			    add_extra_state_shared_building_slots = 2
+			    add_building_construction = {
+			        type = industrial_complex
+			        level = 1
+			        instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Military expansion 3
+	focus = {
+		id = MON_military_expansion_3
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 20
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MON_military_expansion_2  }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+				instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+
+	focus = {
+		id = MON_wtf_germans
+		icon = GFX_focus_attack_germany
+		x = 13
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available = { has_war_with = GER }
+		prerequisite = {
+			focus = MON_mongoliaallyofthesovietunion
+			focus = MON_stalinourgreatally
+		}
+		completion_reward = { 
+			add_dynamic_modifier = {
+				modifier = MON_german_invasion
+			}
+		}
+	}
+	focus = {
+		id = MON_get_more_shit_left
+		icon = GFX_focus_RAJ_a_private_military
+		x = 12
+		y = 7
+		cost = 5
+			search_filters = {
+		FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = MON_wtf_germans }
+		completion_reward = {
+			custom_effect_tooltip = MON_control_question_tt
+			add_to_variable = { MONc_civilian_factory_use = 1
+				tooltip = civilian_factory_use_tt }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+		}
+	}
+	focus = {
+		id = MON_get_more_shit_right
+		icon = GFX_focus_generic_military_industry
+		x = 14
+		y = 7
+		cost = 5
+			search_filters = {
+		FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = MON_wtf_germans }
+		completion_reward = {
+			custom_effect_tooltip = MON_german_invasion_tt
+			add_to_variable = { MON_ger_production_factory_max_efficiency_factor = 0.1 
+				tooltip = production_factory_max_efficiency_factor_tt }
+			add_to_variable = { MON_ger_production_factory_efficiency_gain_factor = -0.25
+				tooltip = production_factory_efficiency_gain_factor_tt }
+		}
+	}
+	focus = {
+		id = MON_our_war_economy
+		icon = GFX_goal_generic_consumer_goods
+		x = 13
+		y = 8
+		cost = 5
+		prerequisite = { focus = MON_get_more_shit_left }
+		prerequisite = { focus = MON_get_more_shit_right }
+		completion_reward = {
+			add_ideas = MON_Stop_consumer_production
+		}
+	}
+	focus = {
+		id = MON_finland_haha
+		icon = GFX_focus_EST_national_pride_in_finland
+		x = 11
+		y = 2
+		cost = 5
+		prerequisite = { 
+			focus = MON_subver_control
+			focus = MON_align_with_stalin
+			}
+		available = {
+			FIN = {
+				is_subject_of = SOV
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = MON_learning_from_finnish
+				days = 90
+			}	
+		}
+	}
+	focus = {
+		id = MON_mongolization_of_our_army
+		icon = GFX_focus_HUN_legacy_of_the_black_legion
+		x = 34
+		y = 0
+		cost = 10
+		mutually_exclusive = { focus = MON_invite_soviet_generals }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_army_org_factor = 0.05
+				tooltip = army_org_factor_tt }
+			add_to_variable = { MONA_org_regain = 0.05
+				tooltip = army_org_regain_tt }
+			add_to_variable = { MONA_armor_attack_factor = -0.025
+				tooltip = army_armor_attack_factor_tt } 
+			add_to_variable = { MONA_armor_defence_factor = -0.025
+				tooltip = army_armor_defence_factor_tt }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_chief_of_army
+			show_ideas_tooltip = gengis_khan_the_ghost_and_spirit_of_genghis_khan
+		}
+	}
+	focus = { 
+		id = MON_invite_soviet_generals
+		icon = GFX_SOV_the_glory_of_the_red_army_ccp_2d_sov_compatibility
+		x = 42
+		y = 0
+		cost = 10
+		mutually_exclusive = { focus = MON_mongolization_of_our_army }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_army_org_factor = 0.1
+				tooltip = army_org_factor_tt }
+			add_to_variable = { MONA_supply_consumption_factor = 0.05
+				tooltip = supply_consumption_factor_tt }
+			add_to_variable = { MONA_cavalry_attack_factor = -0.05 
+				tooltip = cavalry_attack_factor_tt }
+			add_to_variable = { MONA_cavalry_defence_factor = -0.05
+				tooltip = cavalry_defence_factor_tt }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = available_chief_of_army
+			show_ideas_tooltip = gengis_khan_trashen
+
+		}
+	}
+	focus = {
+		id = MON_form_modern_mongolian_doctrine
+		icon = GFX_SOV_development_aid_for_eastern_allies_ccp_2d_sov_compatibility
+		x = 38
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = MON_keep_our_traditional_warfare 
+							   focus = MON_soviet_doctrine }
+		prerequisite = { focus = MON_mongolization_of_our_army 
+						 focus = MON_invite_soviet_generals }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_army_org_factor = 0.05
+				tooltip = army_org_factor_tt }
+			add_to_variable = { MONA_armor_attack_factor = 0.01
+				tooltip = army_armor_attack_factor_tt }
+			add_to_variable = { MONA_armor_defence_factor = 0.01
+				tooltip = army_armor_defence_factor_tt }
+			add_to_variable = { MONA_mechanized_attack_factor = 0.025
+				tooltip = mechanized_attack_factor_tt }
+			add_to_variable = { MONA_mechanized_defence_factor = 0.025
+				tooltip = mechanized_defence_factor_twofive }
+			add_to_variable = { MONA_supply_consumption_factor = 0.05
+				tooltip = supply_consumption_factor_tt }
+			add_to_variable = { MONA_cavalry_attack_factor = -0.03
+				tooltip = cavalry_attack_factor_tt}
+			add_to_variable = { MONA_cavalry_defence_factor = -0.03
+				tooltip = cavalry_defence_factor_tt }
+		}
+	}
+	focus = {
+		id = MON_keep_our_traditional_warfare
+		icon = GFX_focus_SOV_restore_cossack_units
+		x = 32
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = MON_form_modern_mongolian_doctrine }
+		prerequisite = { focus = MON_mongolization_of_our_army }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt 
+			add_to_variable = { MONA_experience_loss_factor = -0.1
+				tooltip = experience_loss_factor_tt }
+			add_to_variable = { MONA_army_org_factor = 0.05
+				tooltip = army_org_factor_tt }
+			add_to_variable = { MONA_cavalry_attack_factor = 0.025
+				tooltip = cavalry_attack_factor_tt }
+			add_to_variable = { MONA_cavalry_defence_factor = 0.025
+				tooltip = cavalry_defence_factor_tt }
+		}
+
+	}
+	focus = {
+		id = MON_steal_the_ratte
+		icon = GFX_focus_generic_cruiser2
+		x = 30
+		y = 5
+		cost = 1
+		prerequisite = { focus = MON_gypsy }
+		available = {
+			divisions_in_state = {
+				state = 64
+				size > 0
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip =  gengis_khan_quonb
+		}
+	}
+	focus = {
+		id = MON_soviet_doctrine
+		icon = GFX_SOV_the_glory_of_the_red_army_alt_ccp_2d_sov_compatibility
+		x = 44
+		y = 1
+		cost = 10
+		prerequisite = { focus = MON_invite_soviet_generals }
+		mutually_exclusive = { focus = MON_form_modern_mongolian_doctrine }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt 
+			add_to_variable = { MONA_armor_attack_factor = 0.0175
+				tooltip = army_armor_attack_factor_tt }
+			add_to_variable = { MONA_armor_defence_factor = 0.0175
+				tooltip = army_armor_defence_factor_tt}
+			add_to_variable = { MONA_army_org_factor = 0.05
+				tooltip = army_org_factor_tt }
+			add_to_variable = { MONA_supply_consumption_factor = 0.05
+				tooltip = supply_consumption_factor_tt }
+			add_to_variable = { MONA_cavalry_attack_factor = -0.05
+				tooltip = cavalry_attack_factor_tt }
+			add_to_variable = { MONA_cavalry_defence_factor = -0.05
+				tooltip = cavalry_defence_factor_tt }
+	
+		}
+	}
+	focus = {
+		id = MON_sov_deep_battle
+		icon = GFX_focus_NORDIC_com_materiel
+		x = 45
+		y = 2
+		cost = 5
+		prerequisite = { focus = MON_soviet_doctrine }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_supply_consumption_factor = -0.05
+				tooltip = supply_consumption_factor_tt}
+			add_to_variable = { MONA_armor_attack_factor = 0.025
+				tooltip = army_armor_attack_factor_tt }
+			
+		}
+	}
+	focus = {
+		id = MON_gypsy
+		icon = GFX_focus_GER_subjugate_romanian_economy
+		x = 30
+		y = 4
+		cost = 2
+		prerequisite = { focus = MON_keep_our_tradition }
+		prerequisite = { focus = MON_learning_steel_casting }
+		completion_reward = {
+			custom_effect_tooltip = MON_mongolian_army_tt
+			add_to_variable = { MONA_special_forces_cap = 0.1
+				tooltip = special_forces_cap_tt }
+				custom_effect_tooltip = generic_skip_one_line_tt 
+			MON = { show_ideas_tooltip = gengis_khan_chang_kai_ned }
+		}
+	}
+}
