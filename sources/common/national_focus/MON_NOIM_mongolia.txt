@@ -1036,7 +1036,7 @@ focus_tree = {
 			custom_effect_tooltip = MON_FFM_tt
 			add_to_variable = { MON_FFM_civs = 0.075 
 			tooltip = consumer_goods_factor_tt }
-			add_to_variable = { MON_FFM_rubber = 8
+			add_to_variable = { MON_FFM_rubber = 96
 				tooltip = FFM_rubber_tt }
 
 		}
@@ -1045,6 +1045,7 @@ focus_tree = {
 	focus = {
 		id = MON_coal_for_heat
 		icon = GFX_focus_generic_rubber
+		cost = 5
 		x = 28
 		y = 5
 		prerequisite = { focus = MON_food_for_metal }
@@ -1052,7 +1053,7 @@ focus_tree = {
 			custom_effect_tooltip = MON_FFM_tt
 			add_to_variable = { MON_FFM_civs = 0.075
 			tooltip = consumer_goods_factor_tt}
-			add_to_variable = { MON_FFM_coal = 8 
+			add_to_variable = { MON_FFM_coal = 96 
 			tooltip = FFM_coal_tt }
 		}
 	}
@@ -1104,7 +1105,7 @@ focus_tree = {
 			custom_effect_tooltip = MON_FFM_tt
 			add_to_variable = { MON_FFM_civs = 0.075
 				tooltip = consumer_goods_factor_tt }
-			add_to_variable = { MON_FFM_steel =  16
+			add_to_variable = { MON_FFM_steel =  192
 				tooltip = steel_FFM_tt }
 			
 		}
@@ -1594,7 +1595,7 @@ focus_tree = {
 			custom_effect_tooltip = MON_FFM_tt
 			add_to_variable = { MON_FFM_civs = 0.075
 				tooltip = consumer_goods_factor_tt }
-			add_to_variable = { MON_FFM_tungsten = 16
+			add_to_variable = { MON_FFM_tungsten = 192
 				tooltip = FFM_tungsten_tt }
 
 		}
@@ -1613,7 +1614,7 @@ focus_tree = {
 			custom_effect_tooltip = MON_FFM_tt
 			add_to_variable = { MON_FFM_civs = 0.075
 				tooltip = consumer_goods_factor_tt }
-			add_to_variable = { MON_FFM_chromium = 8
+			add_to_variable = { MON_FFM_chromium = 96
 				tooltip = FFM_chromium_tt }
 		}
 		prerequisite = { focus = MON_food_for_metal  }
