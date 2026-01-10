@@ -1,3 +1,7 @@
+360c360
+< 				GER_industrial_resource_trade_cost_bonus_per_factory = 1
+---
+> 				GER_industrial_resource_trade_cost_bonus_per_factory = 15
 529c529
 < 			modify_building_resources = {
 ---

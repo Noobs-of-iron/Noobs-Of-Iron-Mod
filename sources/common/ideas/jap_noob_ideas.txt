@@ -12,5 +12,67 @@ ideas = {
                 can_decline_call_to_war = no
             }
         }
+
+        JAP_NOI_late_war = {
+
+			picture = generic_war_preparation
+
+			modifier = {
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.20
+				production_speed_dockyard_factor = 0.15
+				production_speed_industrial_complex_factor = 0.1
+                production_speed_arms_factory_factor = 0.15
+                consumer_goods_expected_value = 0.05
+			}
+
+            rule = {
+                can_join_factions = no
+                can_not_declare_war = yes
+            }
+
+            on_add = {
+                override_country_rule = {
+                    can_justify_war_goal = no
+                }
+                }
+
+            remove_trigger = {
+        OR = {
+            has_war = yes
+            date > 1941.6.15
+		}
     }
+        }
+
+        JAP_NOI_early_war = {
+
+			picture = generic_war_preparation
+
+			modifier = {
+    targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = 0.2
+			}
+    army_attack_factor = 0.1
+    war_support_factor = 0.1
+    political_power_gain = 0.2
+    production_speed_industrial_complex_factor = -0.15
+    production_speed_arms_factory_factor = 0.20
+    production_speed_dockyard_factor = -0.20
+}
+
+            rule = {
+                can_join_factions = no
+                can_not_declare_war = no
+            }
+
+            remove_trigger = {
+        OR = {
+            date > 1940.1.1
+		}
+    }
+        }
+    }
+
 }
