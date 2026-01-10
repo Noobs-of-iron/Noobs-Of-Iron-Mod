@@ -1,128 +1,501 @@
-1271c1271
+107c107
+< 		position = { X = 10000 y = 700 }
+---
+> 		position = { X = 2800 y = 2000 }
+110,111c110,111
+< 			x = 6800
+< 			y = 700
+---
+> 			x = 4800
+> 			y = 1500
+127c127
+< 			y = 700
+---
+> 			y = 1100
+138,139c138,139
+< 			x = 6000
+< 			y = 700
+---
+> 			x = 3000
+> 			y = 1000
+240a241,244
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+> 
+1271c1275
 < 					amount = 12
 ---
 > 					amount = 144
-2790c2790
+1284a1289,1292
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+> 
+1370a1379
+> 		
+1375a1385,1388
+> 				allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+> 
+1553,1568c1566
+< 			NOT = {
+< 				has_dlc = "No Compromise, No Surrender"
+< 			}
+< 			if = {
+< 				limit = {
+< 					has_game_rule = {
+< 						rule = obsolete_focus_branches_visibility
+< 						option = HIDE
+< 					}
+< 				}
+< 				NOT = {
+< 					has_completed_focus = JAP_sea_purge_the_kodoha_faction
+< 					has_completed_focus = JAP_the_unthinkable_option
+< 					has_completed_focus = JAP_strengthen_civilian_government
+< 				}
+< 			}
+---
+> 			always = no
+1758,1773c1756
+< 			NOT = {
+< 				has_dlc = "No Compromise, No Surrender"
+< 			}
+< 			if = {
+< 				limit = {
+< 					has_game_rule = {
+< 						rule = obsolete_focus_branches_visibility
+< 						option = HIDE
+< 					}
+< 				}
+< 				NOT = {
+< 					has_completed_focus = JAP_the_unthinkable_option
+< 					has_completed_focus = JAP_strengthen_civilian_government
+< 					has_completed_focus = JAP_sea_purge_the_kodoha_faction
+< 				}
+< 			}
+---
+> 			always = no
+2790c2773
 < 					amount = 8
 ---
 > 					amount = 96
-12125c12125
+3705c3688
+< 		x = 27
+---
+> 		x = -15
+3715,3727c3698
+< 			has_dlc = "No Compromise, No Surrender"
+< 			IF = {
+< 				limit = {
+< 					has_game_rule = {
+< 						rule = obsolete_focus_branches_visibility
+< 						option = HIDE
+< 					}
+< 				}
+< 				NOT = {
+< 					has_completed_focus = JAP_sea_purge_the_kodoha_faction
+< 					has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+< 				}
+< 			}
+---
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+7406a7378,7382
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+> 
+> 
+12125c12101
 < 					amount = 8
 ---
 > 					amount = 96
-12131c12131
+12131c12107
 < 					amount = 12
 ---
 > 					amount = 144
-12135c12135
+12135c12111
 < 					amount = 8
 ---
 > 					amount = 96
-12141c12141
+12141c12117
 < 					amount = 8
 ---
 > 					amount = 96
-12147c12147
+12147c12123
 < 					amount = 12
 ---
 > 					amount = 144
-12153c12153
+12153c12129
 < 					amount = 10
 ---
 > 					amount = 120
-13405c13405
+12349,12408d12324
+< 		id = JAP_ally_the_dragon_king
+< 		icon = GFX_focus_JAP_ally_the_dragon_king
+< 		mutually_exclusive = { focus = JAP_claim_the_raven_crown }
+< 		x = -1
+< 		y = 1
+< 		relative_position_id = JAP_an_expedition_to_tibet
+< 
+< 		prerequisite = { focus = JAP_an_expedition_to_tibet }
+< 
+< 		cost = 5
+< 
+< 		ai_will_do = {
+< 			factor = 1
+< 		}
+< 
+< 		available = {
+< 			is_subject = no
+< 			is_faction_leader = yes
+< 			BHU = {
+< 				exists = yes
+< 				is_subject = no
+< 				is_in_faction = no
+< 				NOT = {
+< 					has_war_with = ROOT
+< 				}
+< 			}
+< 		}
+< 
+< 		bypass = {
+< 			BHU = {
+< 				is_ally_with = ROOT
+< 			}
+< 		}
+< 
+< 		cancel_if_invalid = yes
+< 		continue_if_invalid = no
+< 		available_if_capitulated = no
+< 
+< 		search_filters = {  }
+< 
+< 		completion_reward = {
+< 
+< 			BHU = {
+< 				country_event = {
+< 					id = SEA_japan_foreign_policy.18
+< 					hours = 6
+< 					random_hours = 12
+< 				}	
+< 			}
+< 			custom_effect_tooltip = if_they_accept_tt
+< 			effect_tooltip = {
+< 				ROOT = {
+< 					add_to_faction = BHU
+< 				}
+< 			}
+< 			
+< 		}
+< 	}
+< 
+< 	focus = {
+12411,12412c12327
+< 		mutually_exclusive = { focus = JAP_ally_the_dragon_king }
+< 		x = 1
+---
+> 		x = 0
+12473,12531d12387
+< 	focus = {
+< 		id = JAP_ally_the_gorkhas
+< 		icon = GFX_focus_JAP_ally_the_gorkhas
+< 		mutually_exclusive = { focus = JAP_claim_the_scripech }
+< 		x = -2
+< 		y = 1
+< 		relative_position_id = JAP_claim_the_raven_crown
+< 
+< 		prerequisite = { focus = JAP_claim_the_raven_crown focus = JAP_ally_the_dragon_king }
+< 
+< 		cost = 5
+< 
+< 		ai_will_do = {
+< 			factor = 1
+< 		}
+< 
+< 		available = {
+< 			is_subject = no
+< 			is_faction_leader = yes
+< 			NEP = {
+< 				exists = yes
+< 				is_subject = no
+< 				is_in_faction = no
+< 				NOT = {
+< 					has_war_with = ROOT
+< 				}
+< 			}
+< 		}
+< 
+< 		bypass = {
+< 			NEP = {
+< 				is_ally_with = ROOT
+< 			}
+< 		}
+< 
+< 		cancel_if_invalid = yes
+< 		continue_if_invalid = no
+< 		available_if_capitulated = no
+< 
+< 		search_filters = {  }
+< 
+< 		completion_reward = {
+< 
+< 			NEP = {
+< 				country_event = {
+< 					id = SEA_japan_foreign_policy.18
+< 					hours = 6
+< 					random_hours = 12
+< 				}	
+< 			}
+< 			custom_effect_tooltip = if_they_accept_tt
+< 			effect_tooltip = {
+< 				ROOT = {
+< 					add_to_faction = NEP
+< 				}
+< 			}
+< 			
+< 		}
+< 	}
+12536d12391
+< 		mutually_exclusive = { focus = JAP_ally_the_gorkhas }
+12541c12396
+< 		prerequisite = { focus = JAP_claim_the_raven_crown focus = JAP_ally_the_dragon_king }
+---
+> 		prerequisite = { focus = JAP_claim_the_raven_crown }
+12599,12658d12453
+< 		id = JAP_ally_afghanistan
+< 		icon = GFX_focus_JAP_ally_afghanistan
+< 		mutually_exclusive = { focus = JAP_best_the_graveyard }
+< 		x = -2
+< 		y = 1
+< 		relative_position_id = JAP_claim_the_scripech
+< 
+< 		prerequisite = { focus = JAP_claim_the_scripech focus = JAP_ally_the_gorkhas }
+< 
+< 		cost = 5
+< 
+< 		ai_will_do = {
+< 			factor = 1
+< 		}
+< 
+< 		available = {
+< 			is_subject = no
+< 			is_faction_leader = yes
+< 			AFG = {
+< 				exists = yes
+< 				is_subject = no
+< 				is_in_faction = no
+< 				NOT = {
+< 					has_war_with = ROOT
+< 				}
+< 			}
+< 		}
+< 
+< 		bypass = {
+< 			AFG = {
+< 				is_ally_with = ROOT
+< 			}
+< 		}
+< 
+< 		cancel_if_invalid = yes
+< 		continue_if_invalid = no
+< 		available_if_capitulated = no
+< 
+< 		search_filters = {  }
+< 
+< 		completion_reward = {
+< 
+< 			AFG = {
+< 				country_event = {
+< 					id = SEA_japan_foreign_policy.18
+< 					hours = 6
+< 					random_hours = 12
+< 				}	
+< 			}
+< 			custom_effect_tooltip = if_they_accept_tt
+< 			effect_tooltip = {
+< 				ROOT = {
+< 					add_to_faction = AFG
+< 				}
+< 			}
+< 			
+< 		}
+< 	}
+< 
+< 	focus = {
+12661d12455
+< 		mutually_exclusive = { focus = JAP_ally_afghanistan }
+12666c12460
+< 		prerequisite = { focus = JAP_claim_the_scripech focus = JAP_ally_the_gorkhas }
+---
+> 		prerequisite = { focus = JAP_claim_the_scripech }
+13405c13199
 < 					amount = 12
 ---
 > 					amount = 144
-13478c13478
+13478c13272
 < 					amount = 6
 ---
 > 					amount = 72
-15746c15746
+15746c15540
 < 					amount = 8
 ---
 > 					amount = 96
-21086c21086
+16468,16481c16262
+< 			has_dlc = "No Compromise, No Surrender"
+< 			IF = {
+< 				limit = {
+< 					has_game_rule = {
+< 						rule = obsolete_focus_branches_visibility
+< 						option = HIDE
+< 					}
+< 				}
+< 				NOT = {
+< 					has_completed_focus = JAP_a_red_sun_rises_for_a_new_era
+< 					has_completed_focus = JAP_sea_purge_the_kodoha_faction
+< 					has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+< 				}
+< 			}
+---
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+16527,16540c16308
+< 			has_dlc = "No Compromise, No Surrender"
+< 			IF = {
+< 				limit = {
+< 					has_game_rule = {
+< 						rule = obsolete_focus_branches_visibility
+< 						option = HIDE
+< 					}
+< 				}
+< 				NOT = {
+< 					has_completed_focus = JAP_a_red_sun_rises_for_a_new_era
+< 					has_completed_focus = JAP_sea_purge_the_kodoha_faction
+< 					has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+< 				}
+< 			}
+---
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+17254a17023,17026
+> 		allow_branch = {
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+> 		}
+> 
+17366,17379c17138
+< 			has_dlc = "No Compromise, No Surrender"
+< 			IF = {
+< 				limit = {
+< 					has_game_rule = {
+< 						rule = obsolete_focus_branches_visibility
+< 						option = HIDE
+< 					}
+< 				}
+< 				NOT = {
+< 					has_completed_focus = JAP_organize_a_general_election
+< 					has_completed_focus = JAP_sea_purge_the_kodoha_faction
+< 					has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+< 				}
+< 			}
+---
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+21086c20845
 < 					amount = 12
 ---
 > 					amount = 144
-21159c21159
+21159c20918
 < 					amount = 6
 ---
 > 					amount = 72
-21218c21218
+21218c20977
 < 					amount = 8
 ---
 > 					amount = 96
-21235c21235
+21235c20994
 < 					amount = 8
 ---
 > 					amount = 96
-21241c21241
+21241c21000
 < 					amount = 12
 ---
 > 					amount = 144
-21245c21245
+21245c21004
 < 					amount = 8
 ---
 > 					amount = 96
-21251c21251
+21251c21010
 < 					amount = 8
 ---
 > 					amount = 96
-21257c21257
+21257c21016
 < 					amount = 12
 ---
 > 					amount = 144
-21263c21263
+21263c21022
 < 					amount = 10
 ---
 > 					amount = 120
-24631c24631
+21994,22007c21753
+< 			has_dlc = "No Compromise, No Surrender"
+< 			IF = {
+< 				limit = {
+< 					has_game_rule = {
+< 						rule = obsolete_focus_branches_visibility
+< 						option = HIDE
+< 					}
+< 				}
+< 				NOT = {
+< 					has_completed_focus = JAP_a_red_sun_rises_for_a_new_era
+< 					has_completed_focus = JAP_sea_purge_the_kodoha_faction
+< 					has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+< 				}
+< 			}
+---
+> 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
+24631c24377
 < 					amount = 25
 ---
 > 					amount = 300
-26508c26508
+26508c26254
 < 				amount > 199
 ---
 > 				amount > 1999
-26516c26516
+26516c26262
 < 				amount > 199 
 ---
 > 				amount > 1999 
-26524c26524
+26524c26270
 < 				amount > 249
 ---
 > 				amount > 2499
-26532c26532
+26532c26278
 < 				amount > 199
 ---
 > 				amount > 1999
-26540c26540
+26540c26286
 < 				amount > 149 
 ---
 > 				amount > 1499 
-26548c26548
+26548c26294
 < 				amount > 299
 ---
 > 				amount > 2999
-26556c26556
+26556c26302
 < 				amount > 199
 ---
 > 				amount > 1999
-27061c27061
+27061c26807
 < 					amount = 4
 ---
 > 					amount = 48
-27065c27065
+27065c26811
 < 					amount = 6
 ---
 > 					amount = 72
-27069c27069
+27069c26815
 < 					amount = 6
 ---
 > 					amount = 72
-30039c30039
+30039c29785
 < 				    amount = 5
 ---
 > 				    amount = 60
