@@ -35,8 +35,8 @@ sub_units = {
 		can_be_parachuted = yes
 
 		# Important Ability
-		fuel_consumption_factor = -0.05
-		fuel_capacity = 2000
+		fuel_consumption_factor = -0.10
+		fuel_capacity = 3000
 		
 		essential = {
 			support_equipment

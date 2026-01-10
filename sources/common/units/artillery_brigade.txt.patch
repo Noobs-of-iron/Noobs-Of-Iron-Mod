@@ -2,43 +2,68 @@
 < 		supply_consumption = 0.21
 ---
 > 		supply_consumption = 0.30
-120c120
+43c43
+< 			attack = -0.2
+---
+> 			attack = -0.1
+45a46,48
+> 		plains = {
+> 			attack = 0.15
+> 		}
+61c64
+< 			attack = -0.2
+---
+> 			attack = -0.1
+66c69
+< 			attack = 0.1
+---
+> 			attack = 0.2
+70c73
+< 			attack = -0.2
+---
+> 			attack = -0.15
+120c123
 < 		supply_consumption = 0.25
 ---
 > 		supply_consumption = 0.36
-195c195
+195c198
 < 		supply_consumption = 0.22
 ---
 > 		supply_consumption = 0.25
-198c198
+198c201
 < 			attack = -0.2
 ---
 > 			attack = -0.1
-211c211
+205a209,212
+> 		plains = {
+> 			attack = 0.2
+> 		}
+> 
+211c218
 < 			attack = -0.25
 ---
 > 			attack = -0.20
-271c271
+271c278
 < 		supply_consumption = 0.25
 ---
 > 		supply_consumption = 0.30
-274c274
+274c281
 < 			attack = -0.2
 ---
 > 			attack = -0.1
-287c287
+287c294
 < 			attack = -0.25
 ---
 > 			attack = -0.20
-334c334
+334c341
 < 		combat_width = 3
 ---
 > 		combat_width = 2
-349c349
+349c356
 < 		supply_consumption = 0.25
 ---
 > 		supply_consumption = 0.30
-365c365
+365c372
 < 			attack = -0.25
 ---
 > 			attack = -0.20
