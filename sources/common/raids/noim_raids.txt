@@ -33,7 +33,10 @@ types = {
 
 		# Raid Type is visible
 		visible = {
-
+            has_navy_size = {
+                size > 5
+                type = capital_ship
+            }
 		}
 		# Specific Target is visible
 		show_target = {
