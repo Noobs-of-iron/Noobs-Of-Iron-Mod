@@ -1,21 +1,51 @@
+132c132
+< 		max_strength = 100		
+---
+> 		max_strength = 150
 138,139c138,139
 < 		resources = {
 < 			steel = 1
 ---
 > 		resources={
 > 			steel = 12
+142c142
+< 		manpower = 600
+---
+> 		manpower = 1500
+168c168
+< 		manpower = 800
+---
+> 		manpower = 2000
+174c174
+< 		max_strength = 110
+---
+> 		max_strength = 165
 176,177c176,177
 < 		resources = {
 < 			steel = 2
 ---
 > 		resources={
 > 			steel = 24
-250,251c250,251
+245c245
+< 		max_strength = 120
+---
+> 		max_strength = 180
+249,251c249,251
+< 		manpower = 1200
 < 		resources = {
 < 			steel = 2
 ---
+> 		manpower = 3000
 > 		resources={
 > 			steel = 24
+331c331
+< 		manpower = 1400
+---
+> 		manpower = 3500
+334c334
+< 		max_strength = 130
+---
+> 		max_strength = 195
 337,338c337,338
 < 		resources = {
 < 			steel = 3

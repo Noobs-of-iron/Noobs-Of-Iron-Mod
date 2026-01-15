@@ -1,3 +1,7 @@
+14c14
+< 		color = { 40 83 176 }
+---
+>         color = { 40 83 176 }
 220a221,246
 > 
 > 	deep_desert = {
@@ -25,3 +29,24 @@
 > 		
 > 		truck_attrition_factor = 0.8
 > 	}
+223a250
+> 		naval_attrition = 0.0005
+269c296,297
+< 		color = { 56 118 217 } 
+---
+> 		naval_attrition = 0.0005
+> 		color = { 56 118 217 }
+283a312
+> 		naval_attrition = 0.0005
+312a342,352
+> 
+>     water_normal_ocean = {
+>         naval_terrain = yes
+>         naval_attrition = 0.0005
+>         color = { 40 83 176 }
+>         movement_cost = 1.0
+>         is_water = yes
+>         sound_type = sea
+>         naval_mine_hit_chance = -0.75
+>         minimum_seazone_dominance = 250 #It's, uh. Well it makes sense in math. If there's time I'll add a util function so that these numbers are game-representative.
+>     }

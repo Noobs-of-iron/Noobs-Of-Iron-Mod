@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_raid_category_small_noim_naval_raids"
+		texturefile = "gfx/interface/military_raids/map_icons/raid_unit_icon_naval_commando_raids.dds"
+		noOfFrames = 1
+	}
+
+    spriteType = {
+        name = "GFX_raid_unit_icon_noim_naval_raids"
+        texturefile = "gfx/interface/military_raids/map_icons/raid_unit_icon_naval_commando_raids.dds"
+    }
+
+}

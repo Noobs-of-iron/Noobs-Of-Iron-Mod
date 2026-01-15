@@ -1,0 +1,227 @@
+types = {
+	noim_naval_counter_air_raid = {
+		days_to_prepare = 30
+		speed_multiplier = 20
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 0
+				is_major = no
+			}
+			modifier = {
+				factor = 0
+				date < 1939.5.1 # No one probably does anything interesting before this anyway :)
+			}
+			modifier = {
+				# Don't target anyone who is not a potential enemy
+				factor = 0
+				NOT = {
+					is_in_array = {
+						array = potential_and_current_enemies
+						value = FROM  # Target country
+					}
+				}
+			}
+		}
+
+		category = noim_naval_raids
+
+		days_re_enable = 60
+
+		command_power = 15
+
+		# Raid Type is visible
+		visible = {
+            has_navy_size = {
+                size > 5
+                type = capital_ship
+            }
+		}
+		# Specific Target is visible
+		show_target = {
+			NOT = { is_in_faction_with = FROM }
+
+            var:target_state = {
+                OR = {
+                    has_state_category = tiny_island
+                    has_state_category = small_island
+                    has_state_category = large_island
+                    is_island_state = yes
+                }
+            }
+		}
+
+		# Can prepare
+		available = {
+		    var:target_state = {
+                meta_trigger = {
+                    text = {
+                        PREV = {
+                            has_naval_control = [STRATEGIC_AREA]
+
+                            ships_in_area = {
+                                area = [STRATEGIC_AREA]
+                                size > 5
+                                type = capital_ship
+                            }
+                        }
+                    }
+                    STRATEGIC_AREA = "[?var:strategic_area]"
+                }
+            }
+		}
+		launchable = {
+			has_war_with = FROM
+		    var:target_state = {
+                meta_trigger = {
+                    text = {
+                        PREV = {
+                            has_naval_control = [STRATEGIC_AREA]
+
+                            ships_in_area = {
+                                area = [STRATEGIC_AREA]
+                                size > 5
+                                type = capital_ship
+                            }
+                        }
+                    }
+                    STRATEGIC_AREA = "[?var:strategic_area]"
+                }
+            }
+		}
+
+		target_type = {
+			building = {
+				type = air_base
+				is_coastal = yes
+				level = { min = 3 }
+			}
+		}
+		target_icon = GFX_eben_emael_target_icon
+		launch_sound = raid_launch_naval
+		custom_map_icon = GFX_raid_type_icon_airfield_raid
+
+		arrow = {
+		    type = naval
+		}
+
+        unit_model = {
+
+            # Entities to use as raid unit models, the game will try to find suitable entity in the following order:
+            #	1. First, a country-specific override, for example: GER_entity_name
+            #	2. Second, a culture-specific override, for example: westerngfx_entity_name
+            #	3. Then, the basic entity: entity_name
+            #	4. If still not found, the game will try to find the default_entity_name
+            entity = battleship_entity
+            default_entity = battleship_entity
+
+            start_offset = 15 # offsets the starting position of a unit by an amount, mostly needed so that convoy entities start in the sea and not on the shore
+            scale = 0.5 # scale of the entity, is also multiplied by the global RAID_UNIT_ENTITY_BASE_SCALE define
+        }
+
+		unit_requirements = {
+			battalion_types = {
+				marine = { min = 3 }
+			}
+		}
+
+		starting_point = {
+		    types = { naval_base }
+		}
+
+		success_factors = {
+			success = {
+				base = 0.65
+
+				intel = {
+                    weight = 0.2
+                    #start_reference = 50
+                    reference = 100
+                }
+			}
+
+			critical = {
+				base = 0.15
+			}
+		}
+
+		success_levels = {
+			failure = {
+                actor_effects = {
+                    raid_unit_experience = 100
+                    raid_damage_units = {
+                    	org_damage = 30
+                    	str_damage = 30
+                    }
+                    var:actor_country = {
+                        navy_experience = 15
+                    }
+                }
+			}
+			limited_success = {
+                actor_effects = {
+                    raid_unit_experience = 100
+                    raid_damage_units = {
+                    	org_damage = 30
+                    	str_damage = 20
+                    }
+                    var:actor_country = {
+                        navy_experience = 25
+                    }
+                }
+                victim_effects = {
+                    var:target_state = {
+                        damage_building = {
+                            type = air_base
+                            damage = 2
+                            repair_speed_modifier = -0.5
+                        }
+                    }
+                }
+			}
+			success = {
+                actor_effects = {
+                    raid_unit_experience = 100
+                    raid_damage_units = {
+                    	org_damage = 30
+                    	str_damage = 10
+                    }
+                    var:actor_country = {
+                        navy_experience = 25
+                    }
+                }
+                victim_effects = {
+                    var:target_state = {
+                        damage_building = {
+                            type = air_base
+                            damage = 8
+                            repair_speed_modifier = -0.7
+                        }
+                    }
+                }
+			}
+			critical_success = {
+                actor_effects = {
+                    raid_unit_experience = 150
+                    raid_damage_units = {
+                    	org_damage = 30
+                    	str_damage = 5
+                    }
+                    var:actor_country = {
+                        navy_experience = 50
+                    }
+                }
+                victim_effects = {
+                    var:target_state = {
+                        damage_building = {
+                            type = air_base
+                            damage = 10
+                            repair_speed_modifier = -0.9
+                        }
+                    }
+                }
+			}
+		}
+	}
+}
