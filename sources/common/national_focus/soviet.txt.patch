@@ -38,76 +38,78 @@
 > 			}
 7100a7118
 > 			country_event = { id = noi_sov.16 }
-9877c9895
+7909d7926
+< 			has_global_flag = AAT_trotsky_in_mexico
+9877c9894
 < 		cost = 10
 ---
 > 		cost = 5
-9886c9904
+9886c9903
 < 			add_stability = -0.05
 ---
 > 			add_stability = -0.15
-9994c10012
+9994c10011
 < 			SOV_soviet_civil_war_not_started = yes
 ---
 > 
-10080c10098
+10080c10097
 < 		cost = 10
 ---
 > 		cost = 5
-10345c10363
+10345c10362
 < 			NOT = { has_global_flag = SOV_soviet_civil_war_over }
 ---
 > 
-11126d11143
+11126d11142
 < 			SOV_soviet_civil_war_not_started = yes 
-11215d11231
+11215d11230
 < 			SOV_soviet_civil_war_not_started = yes 
-11270c11286
-< 			SOV_soviet_civil_war_not_started = yes 
----
-> 
-11346c11362
+11270c11285
 < 			SOV_soviet_civil_war_not_started = yes 
 ---
 > 
-11399c11415
+11346c11361
+< 			SOV_soviet_civil_war_not_started = yes 
+---
+> 
+11399c11414
 < 			has_global_flag = SOV_soviet_civil_war_over
 ---
 > 
-13565a13582,13585
+13565a13581,13584
 > 				has_completed_focus = SOV_the_centre
 > 				has_completed_focus = SOV_back_to_the_nep
 > 			}
 > 			OR = {
-13781c13801
+13781c13800
 < 		cost = 10
 ---
 > 		cost = 0.2
-14259c14279
+14259c14278
 < 		cost = 10
 ---
 > 		cost = 0.2
-15029a15050,15053
+15029a15049,15052
 > 			add_timed_idea = {
 > 				idea = SOV_NOI_red_volunteer_army_i
 > 				days = 1095
 > 			}
-15095a15120,15123
+15095a15119,15122
 > 			add_timed_idea = {
 > 				idea = SOV_NOI_red_volunteer_army_i
 > 				days = 1095
 > 			}
-15164a15193,15196
+15164a15192,15195
 > 			add_timed_idea = {
 > 				idea = SOV_NOI_red_volunteer_army_i
 > 				days = 1095
 > 			}
-15773c15805,15806
+15773c15804,15805
 < 		allow_branch = { 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-17937c17970
+17937c17969
 < 		cost = 10
 ---
 > 		cost = 1
