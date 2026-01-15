@@ -149,7 +149,7 @@ types = {
 		success_levels = {
 			failure = {
                 actor_effects = {
-                    raid_unit_experience = 100
+                    raid_add_unit_experience = 100
                     raid_damage_units = {
                     	org_damage = 30
                     	str_damage = 30
@@ -161,7 +161,7 @@ types = {
 			}
 			limited_success = {
                 actor_effects = {
-                    raid_unit_experience = 100
+                    raid_add_unit_experience = 100
                     raid_damage_units = {
                     	org_damage = 30
                     	str_damage = 20
@@ -182,7 +182,7 @@ types = {
 			}
 			success = {
                 actor_effects = {
-                    raid_unit_experience = 100
+                    raid_add_unit_experience = 100
                     raid_damage_units = {
                     	org_damage = 30
                     	str_damage = 10
@@ -203,7 +203,7 @@ types = {
 			}
 			critical_success = {
                 actor_effects = {
-                    raid_unit_experience = 150
+                    raid_add_unit_experience = 150
                     raid_damage_units = {
                     	org_damage = 30
                     	str_damage = 5
