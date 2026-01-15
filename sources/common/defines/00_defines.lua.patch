@@ -424,11 +424,17 @@
 < 	DEFAULT_STARTING_TRUCK_RATIO = 1.5, -- countries get this ratio of starting truck in their buffers compared to their need
 ---
 > 	DEFAULT_STARTING_TRUCK_RATIO = 2.0, -- countries get this ratio of starting truck in their buffers compared to their need
-4543,4545c4543,4545
+4543c4543
 <         TRAINING_MASTERY_GAIN_FACTOR = 0.1,                     -- How much training contributes to doctrine mastery relative to combat/missions
-<         MAX_MONTHLY_MASTERY_GAIN = 50.0,                        -- Monthly mastery gain will not exceed this value
-<         MIN_MASTERY_GAIN_PER_DAY = 0.0,                         -- If we have any mastery gain, it will be boosted to be at least this much per day (lower cap)
 ---
 >         TRAINING_MASTERY_GAIN_FACTOR = 0.00,                     -- How much training contributes to doctrine mastery relative to combat/missions
->         MAX_MONTHLY_MASTERY_GAIN = 30.0,                        -- Monthly mastery gain will not exceed this value
->         MIN_MASTERY_GAIN_PER_DAY = 0,                         -- If we have any mastery gain, it will be boosted to be at least this much per day (lower cap)
+4545,4546c4545,4546
+<         MIN_MASTERY_GAIN_PER_DAY = 0.0,                         -- If we have any mastery gain, it will be boosted to be at least this much per day (lower cap)
+<         MASTERY_BAR_ANIMATION_SPEED_PER_DAILY_MASTERY = 5.0, -- Multiplier of how fast the mastery bar animates based on daily mastery gain
+---
+>         MIN_MASTERY_GAIN_PER_DAY = 1.0,                         -- If we have any mastery gain, it will be boosted to be at least this much per day (lower cap)
+>         MASTERY_BAR_ANIMATION_SPEED_PER_DAILY_MASTERY = 2.0, -- Multiplier of how fast the mastery bar animates based on daily mastery gain
+4560c4560
+< 		0.0, -- TRAIN # NOT USED - handled by TRAINING_MASTERY_GAIN_FACTOR
+---
+> 		0.1, -- TRAIN # NOT USED - handled by TRAINING_MASTERY_GAIN_FACTOR
