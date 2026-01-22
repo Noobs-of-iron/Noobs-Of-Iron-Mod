@@ -1,0 +1,4 @@
+84c84
+< 	naval_attrition = 0.1
+---
+> 	naval_attrition = 0.001
