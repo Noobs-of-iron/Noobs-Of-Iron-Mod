@@ -20,7 +20,7 @@ mongol_party_purges = {
 			has_completed_focus = MON_align_with_stalin
 		}
 		modifier ={
-			communism_drift = -0.15
+			neutrality_drift = -0.15
 			stability_weekly = 0.0025
 		}
 	}
