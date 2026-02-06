@@ -25,3 +25,71 @@ mongol_party_purges = {
 		}
 	}
 }
+prospect_for_resources = {
+	MON_develop_coal_mines = {
+		icon = coal
+		highlight_states = {
+			highlight_state_targets = {
+				state = 330
+			}
+		}
+		allowed = {
+			original_tag = MON
+		}
+		available = {
+			330 = { is_controlled_by_ROOT_or_ally = yes }
+			has_tech = excavation2
+			has_completed_focus = MON_coal_for_heat 
+		}
+		visible = {
+			has_completed_focus = MON_modern_extraction
+		}
+		cost = 50
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_manpower = -5000
+			330 = {
+				add_resource = {
+					type = coal
+					amount = 80
+				}
+			}
+		}
+	}
+	MON_develop_steel_mills = {
+		icon = steel
+		highlight_states = {
+			highlight_state_targets = {
+				state = 330
+			}
+		}
+		allowed = {
+			original_tag = MON
+		}
+		available = {
+			330 = { is_controlled_by_ROOT_or_ally = yes }
+			has_tech = excavation2
+			has_completed_focus = MON_learning_steel_casting
+		}
+		visible = {
+			has_completed_focus = MON_modern_extraction
+		}
+		cost = 50
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_manpower = -5000
+			330 = {
+				add_resource = {
+					type = steel
+					amount = 80
+				}
+			}
+		}
+	}
+}

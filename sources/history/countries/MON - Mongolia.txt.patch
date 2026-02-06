@@ -138,14 +138,14 @@
 ---
 > 	last_election = "1934.01.01"
 > 	election_frequency = 10000
-94c63,80
+94c63,66
 < 	communism = 100
 ---
 > 	democratic = 0
 > 	fascism = 0
 > 	communism = 50
 > 	neutrality = 50
-> }
+95a68,82
 > # Government/National Spirits
 > add_dynamic_modifier = { modifier = MON_control_question }
 > add_dynamic_modifier = { modifier = MON_mongolian_army }
@@ -159,15 +159,12 @@
 > 	mongolia_industrializing_resource_extraction
 > 	mongolia_wood_framed_construction
 > 	mongolia_nomadic_population
-97,100d82
-< 1939.1.1 = {
+> }
+> 
+98,99c85,97
 < 	add_ideas = {
 < 		limited_conscription
-< 	}
-102c84,91
-< 	retire_character = MON_anandyn_amar
 ---
-> 1939.1.1 = {
 > 	oob = "MON_1939"
 > 	starting_train_buffer = 0
 > 	set_research_slots = 3
@@ -175,7 +172,31 @@
 > 	set_war_support = 0.5
 > 	add_command_power = 0
 > 	set_convoys = 0
-104,114c93,98
+> 
+> 	# Politics for 1939.1.1
+> 	set_politics = {
+> 		ruling_party = communism
+> 		last_election = "1934.1.1"
+> 		elections_allowed = no
+100a99,105
+> }
+> #Mongolia control Question
+> set_variable = { MONc_stability_factor = -0.25 }
+> set_variable = { MONc_political_power_gain = -0.5 }
+> set_variable = { MONc_war_support_factor = -0.25 }
+> set_variable = { MONc_stability_factor_weekly = -0.01 }
+> set_variable = { MONc_consumer_goods_factor = 0.25 }
+102c107,113
+< 	retire_character = MON_anandyn_amar
+---
+> #Mongolian Army
+> set_variable = { MONA_supply_consumption_factor = -0.15 }
+> set_variable = { MONA_cavalry_attack_factor = 0.05 }
+> set_variable = { MONA_cavalry_defence_factor = 0.05 }
+> set_variable = { MONA_army_org_factor = -0.25 }
+> set_variable = { MONA_experience_loss_factor = 0.25 }
+> set_variable = { MONA_experience_gain_army_factor = -0.1}
+104,115c115,117
 < 	add_country_leader_role = {
 < 		character = MON_khorloogiin_choibalsan
 < 		promote_leader = yes
@@ -187,25 +208,9 @@
 < 	}	
 < 	set_global_flag = MON_choibalsan_ascended_flag 
 < 	
+< }
 ---
-> 	# Politics for 1939.1.1
-> 	set_politics = {
-> 		ruling_party = communism
-> 		last_election = "1934.1.1"
-> 		elections_allowed = no
-> 	}
-115a100,113
-> #Mongolia control Question
-> set_variable = { MONc_stability_factor = -0.25 }
-> set_variable = { MONc_political_power_gain = -0.5 }
-> set_variable = { MONc_war_support_factor = -0.25 }
-> set_variable = { MONc_stability_factor_weekly = -0.01 }
-> set_variable = { MONc_consumer_goods_factor = 0.25 }
-> 
-> #Mongolian Army
-> set_variable = { MONA_supply_consumption_factor = -0.15 }
-> set_variable = { MONA_cavalry_attack_factor = 0.05 }
-> set_variable = { MONA_cavalry_defence_factor = 0.05 }
-> set_variable = { MONA_army_org_factor = -0.25 }
-> set_variable = { MONA_experience_loss_factor = 0.25 }
-> set_variable = { MONA_experience_gain_army_factor = -0.1}
+> #Mongolian eco shit kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me kill me 
+> set_variable = { MONd_production_speed_buildings_factor = 0.05 }
+> set_variable = { MONd_stability_factor = -0.1 }
+\ Pas de fin de ligne à la fin du fichier

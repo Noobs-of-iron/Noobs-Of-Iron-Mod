@@ -46,7 +46,7 @@ MON_german_invasion = {
     production_factory_efficiency_gain_factor = MON_ger_production_factory_efficiency_gain_factor
 }
 MON_mongolian_army = {
-    icon = generic_manpower_bonus
+    icon = ARG_war_division
 
     enable = { always = yes }
 
@@ -70,4 +70,23 @@ MON_mongolian_army = {
     motorized_attack_factor = MONA_motorized_attack_factor
     motorized_defence_factor = MONA_motorized_defence_factor
     special_forces_cap = MONA_special_forces_cap
+}
+MONd_eco = {
+    icon = ARG_civilian_economy_boost
+    
+    enable = { always = yes }
+
+    production_speed_buildings_factor = MONd_production_speed_buildings_factor
+    stability_factor = MONd_stability_factor
+    production_factory_efficiency_gain_factor = MONd_production_factory_efficiency_gain_factor
+    production_factory_max_efficiency_factor = MONd_production_factory_max_efficiency_factor
+    conversion_cost_civ_to_mil_factor = MONd_conversion_cost_civ_to_mil_factor
+    global_building_slots = MONd_global_building_slots
+    static_anti_air_damage_factor = MONd_static_anti_air_damage_factor
+    production_speed_industrial_complex_factor = MONd_production_speed_industrial_complex_factor
+    production_speed_arms_factory_factor = MONd_production_speed_arms_factory_factor
+    production_factory_start_efficiency_factor = MONd_production_factory_start_efficiency_factor
+    min_export = MONd_min_export
+    line_change_production_efficiency_factor = MONd_line_change_production_efficiency_factor
+    industrial_capacity_factory = MONd_industrial_capacity_factory
 }

@@ -22,6 +22,11 @@ characters = {
 			idea_token = gengis_khan_khorloogiin_choibalsan
 			cost = 75
 			traits = { silent_workhorse }
+			available= {
+				not = {
+					has_completed_focus = MON_subver_control
+				}
+			}
 		}
 		corps_commander = {
 			traits = { politically_connected harsh_leader guerilla_fighter old_guard }
@@ -30,6 +35,11 @@ characters = {
 			defense_skill = 1
 			planning_skill = 2
 			logistics_skill = 1
+			visible = {
+				not = {
+					has_completed_focus = MON_subver_control
+				}
+			}
 		}
 	}
 	#The ghost and spirit of Genghis Khan
@@ -278,8 +288,12 @@ characters = {
 			cost = 150
 			traits = { war_industrialist }
 			available = {
-				has_completed_focus =  MON_national_advisors
+				or = {
+					has_completed_focus = MON_national_advisors
+					has_completed_focus = MON_mil_eco 
+				}
 			}
+			
 		}
 	}
 	#Poaa
@@ -409,7 +423,7 @@ characters = {
 			cost = 100
 			traits = { air_chief_all_weather_2 }
 			available = {
-          	has_completed_focus = not
+          	has_completed_focus = MON_integrate_the_railway_lines
 			}
 		}
 	}
@@ -529,7 +543,7 @@ characters = {
 			cost = 150
 			traits = { right_trade_unionist }
 			available = {
-          	has_completed_focus = not
+          	has_completed_focus = MON_expand_our_production_capacity
 		}
 		}
 	}
@@ -547,7 +561,7 @@ characters = {
 			cost = 150
 			traits = { head_of_intelligence }
 			available = {
-          	has_completed_focus = not
+          	has_completed_focus = MON_urbanisation 
 		}
 		}
 	}
@@ -614,7 +628,7 @@ characters = {
 			cost = 100
 			traits = { JAP_financial_genius }
 			available = {
-           		has_completed_focus = MON_religius_freedom
+           		has_completed_focus = MON_eco_civ_focus 
 			}	
 		}
 	}
@@ -631,7 +645,7 @@ characters = {
 			cost = 150
 			traits = { prince_of_terror }
 			available = {
-          	has_completed_focus = not
+          	has_completed_focus = MON_stalinourgreatally
 		}	
 		}
 	}
@@ -665,7 +679,7 @@ characters = {
 			cost = 100
 			traits = { navy_chief_decisive_battle_3 }
 			available = {
-          	has_completed_focus = not
+          	has_completed_focus = MON_advisors_from_moscow
 		}
 		}
 	}

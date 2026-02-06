@@ -5,7 +5,7 @@ news_event = {
 	id = mon_mongolia1.1
 	title = mon_mongolia1.1.t
 	desc = mon_mongolia1.1.d
-
+	is_triggered_only = yes
 	picture = mon_unification_of_the_step-613
 	fire_only_once = yes
 	trigger = {
