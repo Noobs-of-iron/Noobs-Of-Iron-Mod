@@ -10,3 +10,12 @@
 < 					amount = 16
 ---
 > 					amount = 192
+1816c1816
+< 					amount = 18
+---
+> 					amount = 216
+3018c3018
+< }
+\ Pas de fin de ligne à la fin du fichier
+---
+> }
