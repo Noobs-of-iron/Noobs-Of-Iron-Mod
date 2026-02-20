@@ -10,7 +10,6 @@
 - **Host tool** system for multiplayer/tournament play (allows selecting a host country for special modifiers)
 
 ### Fuel rebalance
-- Oil-to-fuel conversion drastically reduced (2 to 0.17)
 - Fuel capacity quintupled (50k to 250k)
 - Army fuel consumption increased (0.5 to 0.70)
 
@@ -54,13 +53,7 @@
 - Anti-air targeting improved
 
 ## Germany
-- Brand new Army focus tree
 - **Summer offensives**: decisions for Typhoon (1941), Fall Blau (1942), and Zitadelle (1943) — available May-August each year, grant **temporary combat bonuses for 90 days**
-- **Endsieg**: if active and Germany is winning, grants **+40% defense, +30% attack, +10% org, +10 max dig-in**
-- **Deutsche Arbeitsfront**: +5% industrial capacity, -5% stability
-- **Totalen Krieg**: +20% war support, +50% political power, +10% surrender limit
-- **Volkssturm**: cheap infantry (-25% cost, -20% stats)
-- StuG III focus reduces tank destroyer cost by 10%
 - Removed several minor nation alliance focuses (Bhutan, Nepal, Afghanistan)
 
 ## USA
@@ -141,11 +134,6 @@
 - Added to **The Gathering Storm bookmark** as a playable minor
 
 ## India
-- Added **new wartime focuses**: Mobilise the Nation, Mobilise Economy, Recruitment Campaign (+900 weekly manpower)
-- **Fortifications**: mutually exclusive choice between fortifying Burma or Bengal
-- **Chindits** special forces idea (+3% special forces cap)
-- **Bangalore Torpedo** (+10% max dig-in)
-- **Hindu Finest Hour**: +20% core defense, +20% dig-in speed
 - Changed effects of some existing focuses
 
 ## Australia
@@ -168,7 +156,6 @@
 - Focus costs reduced on many focuses
 
 ## United Kingdom
-- UK starts with **first marine tech** researched
 - After Germany annexes Czechoslovakia, UK will get an event to **guarantee Poland** for 50 political power
 - After April 1st 1941 or if Germany has divisions in Matrouh, Iraqi fascist support will be increased, **allowing UK to take "Secure Iraq" focus**
 - **Special forces overhaul**: new Commandos focus tree branch (SAS requires Commandos as prerequisite), Parachute Regiment restructured

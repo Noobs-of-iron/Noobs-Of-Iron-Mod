@@ -4,6 +4,8 @@ When the noobs get too much time on their hands, this is the result.
 
 This mod was brought to you by the Linux Gang.
 
+See the [changelog](changelog.md) for a detailed list of what the mod changes.
+
 ## About the mod
 
 The Noobs Of Iron Mod for Hearts of Iron IV initially aimed to enforce game rules. However, it now includes balance changes, additional events, focus tree alterations, and occasional game fixes (we're looking at you, supply in Spain).
@@ -25,7 +27,7 @@ The script uses bash and requires the `diff`, `dos2unix` and `patch` programs. O
 - `mod`: This folder contains modded files. An `.ignoreme` file ensures that Git creates the necessary empty directories. If you wish to add a patch or a new file, you don't have to recreate everything each time (only for directories not currently in use).
 - `sources`: This directory houses the mod. We utilize `.patch` files (also known as diff files) created using `diff` for overriding the base game. This setup facilitates easy re-patching of the game with each new Paradox release. It's used if we wish to remove vanilla events, such as the ability for the Soviet Union to deny Finnish White Peace.
 
-The script structure should match the game files. For example, for `Finland.txt`, located in `events/` in the base game, the patch is located at `source/events/Finland.txt.patch` and will be placed in `mod/events/Finland.txt`.
+The script structure should match the game files. For example, for `Finland.txt`, located in `events/` in the base game, the patch is located at `sources/events/Finland.txt.patch` and will be placed in `mod/events/Finland.txt`.
 
 ### Script Usage
 
@@ -38,13 +40,13 @@ The script structure should match the game files. For example, for `Finland.txt`
 ### Building the Mod
 
 1. Place the events, common folder (or any other necessary files) in the 'original' folder (or use `--original-folder` in the command below).
-2. Run `./apply_patches apply`.
+2. Run `./apply_patches.sh apply`.
 3. Retrieve the files from the 'mod' folder and place them in the destination mod folder.
 
 ### Creating Patches from Modified Files
 
 1. Place the game files in 'original' (or use `--original-folder`), then place your modified files in 'mod' (or use `--mod-folder`).
-2. Run `./apply_patches create`. This will create patches for existing files and copy non-existing ones.
-3. Optional: Run `./apply_patches clear` (please don't commit modded files if you didn't use `--mod-folder`).
+2. Run `./apply_patches.sh create`. This will create patches for existing files and copy non-existing ones.
+3. Optional: Run `./apply_patches.sh clear` (please don't commit modded files if you didn't use `--mod-folder`).
 4. Commit the changes.
 
