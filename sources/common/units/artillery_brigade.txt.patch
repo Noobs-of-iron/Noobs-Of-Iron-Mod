@@ -43,27 +43,27 @@
 < 			attack = -0.25
 ---
 > 			attack = -0.20
-271c278
+272c279
 < 		supply_consumption = 0.25
 ---
 > 		supply_consumption = 0.30
-274c281
+275c282
 < 			attack = -0.2
 ---
 > 			attack = -0.1
-287c294
+288c295
 < 			attack = -0.25
 ---
 > 			attack = -0.20
-334c341
+336c343
 < 		combat_width = 3
 ---
 > 		combat_width = 2
-349c356
+351c358
 < 		supply_consumption = 0.25
 ---
 > 		supply_consumption = 0.30
-365c372
+367c374
 < 			attack = -0.25
 ---
 > 			attack = -0.20

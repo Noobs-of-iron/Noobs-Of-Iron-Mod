@@ -2,11 +2,11 @@
 < technologies = {
 ---
 >   technologies = {
-32c32
+27c27
 < 			position = { x = 0 y = 0 }
 ---
 > 			position = { x = 1 y = 0 }
-55c55,60
+50c50,55
 < 
 ---
 > 		
@@ -15,107 +15,107 @@
 > 			research_cost_coeff = 1
 > 		}
 > 		
-66c71
+61c66
 < 			position = { x = 0 y = 4 }
 ---
 > 			position = { x = 1 y = 4 }
-99c104
+94c99
 < 			position = { x = 0 y = 6 }
 ---
 > 			position = { x = 1 y = 6 }
-138c143
+133c138
 < 			position = { x = 0 y = 8 }
 ---
 > 			position = { x = 1 y = 8 }
-170c175
+165c170
 < 			position = { x = -1 y = 10 }
 ---
 > 			position = { x = 0 y = 10 }
-202c207
+197c202
 < 			position = { x = 1 y = 10 }
 ---
 > 			position = { x = 2 y = 10 }
-236c241
+231c236
 < 			position = { x = 2 y = 4 }
 ---
 > 			position = { x = 3 y = 4 }
-274c279
+270c275
 < 			position = { x = 2 y = 6 }
 ---
 > 			position = { x = 3 y = 6 }
-325c330
+322c327
 < 			position = { x = 4 y = 2 }
 ---
 > 			position = { x = 5 y = 2 }
-395c400
+392c397
 < 			position = { x = 4 y = 4 }
 ---
 > 			position = { x = 5 y = 4 }
-436c441
+433c438
 < 			position = { x = 4 y = 6 }
 ---
 > 			position = { x = 5 y = 6 }
-476c481
+473c478
 < 			position = { x = 4 y = 8 }
 ---
 > 			position = { x = 5 y = 8 }
-511c516
+508c513
 < 			position = { x = 4 y = 10 }
 ---
 > 			position = { x = 5 y = 10 }
-562c567
+559c564
 < 			position = { x = 6 y = 2 }
 ---
 > 			position = { x = 7 y = 2 }
-635c640
+632c637
 < 			position = { x = 6 y = 4 }
 ---
 > 			position = { x = 7 y = 4 }
-678c683
+675c680
 < 			position = { x = 6 y = 6 }
 ---
 > 			position = { x = 7 y = 6 }
-721c726
+718c723
 < 			position = { x = 6 y = 8 }
 ---
 > 			position = { x = 7 y = 8 }
-760c765
+757c762
 < 			position = { x = 6 y = 10 }
 ---
 > 			position = { x = 7 y = 10 }
+1427c1432
+< 			modify_building_resources = {
+---
+> 			modify_building_resources={
 1430c1435
-< 			modify_building_resources = {
----
-> 			modify_building_resources={
-1433c1438
 < 				amount = 1
 ---
 > 				amount = 12
+1492c1497
+< 			modify_building_resources = {
+---
+> 			modify_building_resources={
 1495c1500
-< 			modify_building_resources = {
----
-> 			modify_building_resources={
-1498c1503
 < 				amount = 1
 ---
 > 				amount = 12
+1552c1557
+< 			modify_building_resources = {
+---
+> 			modify_building_resources={
 1555c1560
-< 			modify_building_resources = {
----
-> 			modify_building_resources={
-1558c1563
 < 				amount = 1
 ---
 > 				amount = 12
+1612c1617
+< 			modify_building_resources = {
+---
+> 			modify_building_resources={
 1615c1620
-< 			modify_building_resources = {
----
-> 			modify_building_resources={
-1618c1623
 < 				amount = 1
 ---
 > 				amount = 12
-2134c2139
+2131c2136
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

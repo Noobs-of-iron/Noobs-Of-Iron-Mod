@@ -26,11 +26,11 @@
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1320c1323
+1325c1328
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1486c1489
+1491c1494
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05

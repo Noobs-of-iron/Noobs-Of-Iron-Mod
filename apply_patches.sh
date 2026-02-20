@@ -167,7 +167,7 @@ create_patches_and_sources() {
     find "${MOD_FOLDER}" -type f -not -name ".*" | while read -r mod_file; do
         thread_limiter  # Assure la limite des threads
         {
-            relative_path="${mod_file#${MOD_FOLDER}}"
+            relative_path="${mod_file#"${MOD_FOLDER}"}"
             original_file="${ORIGINAL_FOLDER}${relative_path}"
             sources_file="${SOURCES_FOLDER}${relative_path}.patch"
 
@@ -191,8 +191,8 @@ create_patches_and_sources() {
                             echo_debug "Skipping existing patch file due to no overwrite setting: $sources_file"
                         fi
                     else
-                      echo_debug "No differences found, skipping patch creation for: $relative_path"
-                  fi
+                        echo_debug "No differences found, skipping patch creation for: $relative_path"
+                    fi
 
                     rm "$temp_original_file" "$temp_mod_file"
                 else
@@ -220,7 +220,7 @@ apply_patches_and_update_mod() {
     find "${SOURCES_FOLDER}" -type f -not -name ".*" | while read -r sources_file; do
         thread_limiter  # Assure la limite des threads
         {
-            relative_path="${sources_file#${SOURCES_FOLDER}}"
+            relative_path="${sources_file#"${SOURCES_FOLDER}"}"
             relative_path_no_patch="${relative_path%.patch}"
             mod_file="${MOD_FOLDER}/${relative_path_no_patch}"
 
@@ -229,56 +229,52 @@ apply_patches_and_update_mod() {
 
                 if [ ! -e "$original_file" ]; then
                     echo "WARNING : Original file missing for patch, cannot apply: ${relative_path_no_patch}"
-                    continue
-                fi
-
-                temp_original_file=$(mktemp)
-                cp "$original_file" "$temp_original_file"
-                dos2unix "$temp_original_file" &>/dev/null
-
-                if [ -e "$mod_file" ] && [ "$OVERWRITE_MOD" != "yes" ]; then
+                elif [ -e "$mod_file" ] && [ "$OVERWRITE_MOD" != "yes" ]; then
                     echo_debug "Mod file $mod_file exists and will not be overwritten. Skipping patch application."
+                else
+                    temp_original_file=$(mktemp)
+                    cp "$original_file" "$temp_original_file"
+                    dos2unix "$temp_original_file" &>/dev/null
+
+                    mkdir -p "$(dirname "$mod_file")"
+                    if ! patch -o "$mod_file" "$temp_original_file" "$sources_file" > /dev/null; then
+                        echo "ERROR: Failed to apply patch for: ${relative_path_no_patch}"
+                    else
+                        echo_debug "Applied patch to create: $mod_file"
+                        # Paradox's csv parser rejects unix line endings. Yes, even on linux. Praise Yog Sa'rath.
+                        if [[ "$mod_file" == *.csv ]]; then
+                            unix2dos -q "$mod_file"
+                            echo_debug "Converted $mod_file to DOS format."
+                        fi
+
+                        # patch strips the BOM. Clausewitz demands the BOM. The three sacred bytes must be restored
+                        # or the loc files shall be cast into the void, unseen by mortal eyes. Ask not why. There is no why.
+                        if [[ "$mod_file" == *.yml ]]; then
+                            mv "$mod_file" "$mod_file.tmp"
+                            printf '\xEF\xBB\xBF' > "$mod_file"
+                            cat "$mod_file.tmp" >> "$mod_file"
+                            rm "$mod_file.tmp"
+                            echo_debug "Converted $mod_file to UTF-8 BOM format."
+                        fi
+                    fi
+
                     rm "$temp_original_file"
-                    continue
                 fi
-
-                mkdir -p "$(dirname "$mod_file")"
-                patch -o "$mod_file" "$temp_original_file" "$sources_file" > /dev/null
-                echo_debug "Applied patch to create: $mod_file"
-                if [[ "$mod_file" == *.csv ]]; then
-                    unix2dos -q "$mod_file"
-                    echo_debug "Converted $mod_file to DOS format."
-                fi
-
-                if [[ "$mod_file" == *.yml ]]; then
-                    mv "$mod_file" "$mod_file.tmp"
-                    printf '\xEF\xBB\xBF' > "$mod_file"
-                    cat "$mod_file.tmp" >> "$mod_file"
-                    rm "$mod_file.tmp"
-                    echo_debug "Converted $mod_file to UTF-8 BOM format."
-                fi
-
-                rm "$temp_original_file"
             else
                 if [ -e "${ORIGINAL_FOLDER}${relative_path}" ]; then
                     fileStatus=$(file "${ORIGINAL_FOLDER}${relative_path}")
-                    isfile=$(echo "$fileStatus" | grep 'text')
-                    if [ "${isfile}" ]; then
+                    if echo "$fileStatus" | grep -q 'text'; then
                         echo "ERROR: A file with the same name as the non-patch file $relative_path exists in the original folder. Use a patch file instead of a whole file."
-                        exit 1
                     else
                         echo_debug "Overriding $fileStatus from sources"
                     fi
                 fi
 
-                if [ -e "$mod_file" ] && [ "$OVERWRITE_MOD" != "yes" ]; then
-                    continue
+                if [ ! -e "$mod_file" ] || [ "$OVERWRITE_MOD" = "yes" ]; then
+                    mkdir -p "$(dirname "$mod_file")"
+                    cp "$sources_file" "$mod_file"
+                    echo_debug "Copied file to mod: $mod_file"
                 fi
-
-                mkdir -p "$(dirname "$mod_file")"
-                cp "$sources_file" "$mod_file"
-                echo_debug "Copied file to mod: $mod_file"
-
             fi
         } &
     done

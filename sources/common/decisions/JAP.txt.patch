@@ -30,7 +30,7 @@
 < 			}
 ---
 > 			
-3544,3551c3528
+3543,3550c3527
 < 			
 < 			hidden_trigger = {
 < 				OR = {
@@ -41,79 +41,79 @@
 < 				
 ---
 > 			has_border_war_with = SOV # Japan shouldn't lose war support if they actually use the window of opportunity
-4442c4419
+4441c4418
 < prospect_for_resources = {
 ---
 > prospect_for_resources={
-4456c4433
+4455c4432
 < 				state = 655
 ---
 > 				state = 7860
-4503c4480
+4502c4479
 < 					amount = 12
 ---
 > 					amount = 144
-4563c4540
+4562c4539
 < 					amount = 26
 ---
 > 					amount = 312
-4623c4600
+4622c4599
 < 					amount = 20
 ---
 > 					amount = 240
-4694c4671
+4693c4670
 < 					amount = 12
 ---
 > 					amount = 144
-4752c4729
+4751c4728
 < 					amount = 8
 ---
 > 					amount = 96
-4810c4787
+4809c4786
 < 					amount = 6
 ---
 > 					amount = 72
-4868c4845
+4867c4844
 < 					amount = 4
 ---
 > 					amount = 48
-4926c4903
+4925c4902
 < 	#				amount = 6
 ---
 > 	#				amount = 72
-4984c4961
+4983c4960
 < 					amount = 12
 ---
 > 					amount = 144
-5042c5019
+5041c5018
 < 					amount = 26
 ---
 > 					amount = 312
-5100c5077
+5099c5076
 < 					amount = 16
 ---
 > 					amount = 192
-5158c5135
+5157c5134
 < 					amount = 14
 ---
 > 					amount = 168
-5216c5193
+5215c5192
 < 					amount = 12
 ---
 > 					amount = 144
-5289c5266
+5288c5265
 < 					amount = 12
 ---
 > 					amount = 144
-5349c5326
+5348c5325
 < 					amount = 8
 ---
 > 					amount = 96
-5403c5380
+5402c5379
 < 					amount = 12
 ---
 > 					amount = 144
-5457c5434
+5456c5433
 < 					amount = 12
 ---
 > 					amount = 144

@@ -107,31 +107,31 @@
 > 		}
 > 
 > 
-12125c12101
+12133c12109
 < 					amount = 8
 ---
 > 					amount = 96
-12131c12107
+12139c12115
 < 					amount = 12
 ---
 > 					amount = 144
-12135c12111
+12143c12119
 < 					amount = 8
 ---
 > 					amount = 96
-12141c12117
+12149c12125
 < 					amount = 8
 ---
 > 					amount = 96
-12147c12123
+12155c12131
 < 					amount = 12
 ---
 > 					amount = 144
-12153c12129
+12161c12137
 < 					amount = 10
 ---
 > 					amount = 120
-12349,12408d12324
+12357,12416d12332
 < 		id = JAP_ally_the_dragon_king
 < 		icon = GFX_focus_JAP_ally_the_dragon_king
 < 		mutually_exclusive = { focus = JAP_claim_the_raven_crown }
@@ -192,12 +192,12 @@
 < 	}
 < 
 < 	focus = {
-12411,12412c12327
+12419,12420c12335
 < 		mutually_exclusive = { focus = JAP_ally_the_dragon_king }
 < 		x = 1
 ---
 > 		x = 0
-12473,12531d12387
+12481,12539d12395
 < 	focus = {
 < 		id = JAP_ally_the_gorkhas
 < 		icon = GFX_focus_JAP_ally_the_gorkhas
@@ -257,13 +257,13 @@
 < 			
 < 		}
 < 	}
-12536d12391
+12544d12399
 < 		mutually_exclusive = { focus = JAP_ally_the_gorkhas }
-12541c12396
+12549c12404
 < 		prerequisite = { focus = JAP_claim_the_raven_crown focus = JAP_ally_the_dragon_king }
 ---
 > 		prerequisite = { focus = JAP_claim_the_raven_crown }
-12599,12658d12453
+12607,12666d12461
 < 		id = JAP_ally_afghanistan
 < 		icon = GFX_focus_JAP_ally_afghanistan
 < 		mutually_exclusive = { focus = JAP_best_the_graveyard }
@@ -324,25 +324,25 @@
 < 	}
 < 
 < 	focus = {
-12661d12455
+12669d12463
 < 		mutually_exclusive = { focus = JAP_ally_afghanistan }
-12666c12460
+12674c12468
 < 		prerequisite = { focus = JAP_claim_the_scripech focus = JAP_ally_the_gorkhas }
 ---
 > 		prerequisite = { focus = JAP_claim_the_scripech }
-13405c13199
+13413c13207
 < 					amount = 12
 ---
 > 					amount = 144
-13478c13272
+13486c13280
 < 					amount = 6
 ---
 > 					amount = 72
-15746c15540
+15754c15548
 < 					amount = 8
 ---
 > 					amount = 96
-16468,16481c16262
+16476,16489c16270
 < 			has_dlc = "No Compromise, No Surrender"
 < 			IF = {
 < 				limit = {
@@ -359,7 +359,7 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-16527,16540c16308
+16535,16548c16316
 < 			has_dlc = "No Compromise, No Surrender"
 < 			IF = {
 < 				limit = {
@@ -376,12 +376,12 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-17254a17023,17026
+17262a17031,17034
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
 > 
-17366,17379c17138
+17374,17387c17146
 < 			has_dlc = "No Compromise, No Surrender"
 < 			IF = {
 < 				limit = {
@@ -398,43 +398,43 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-21086c20845
+21094c20853
 < 					amount = 12
 ---
 > 					amount = 144
-21159c20918
+21167c20926
 < 					amount = 6
 ---
 > 					amount = 72
-21218c20977
+21226c20985
 < 					amount = 8
 ---
 > 					amount = 96
-21235c20994
+21243c21002
 < 					amount = 8
 ---
 > 					amount = 96
-21241c21000
+21249c21008
 < 					amount = 12
 ---
 > 					amount = 144
-21245c21004
+21253c21012
 < 					amount = 8
 ---
 > 					amount = 96
-21251c21010
+21259c21018
 < 					amount = 8
 ---
 > 					amount = 96
-21257c21016
+21265c21024
 < 					amount = 12
 ---
 > 					amount = 144
-21263c21022
+21271c21030
 < 					amount = 10
 ---
 > 					amount = 120
-21994,22007c21753
+22002,22015c21761
 < 			has_dlc = "No Compromise, No Surrender"
 < 			IF = {
 < 				limit = {
@@ -451,51 +451,51 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-24631c24377
+24627c24373
 < 					amount = 25
 ---
 > 					amount = 300
-26508c26254
+26504c26250
 < 				amount > 199
 ---
 > 				amount > 1999
-26516c26262
+26512c26258
 < 				amount > 199 
 ---
 > 				amount > 1999 
-26524c26270
+26520c26266
 < 				amount > 249
 ---
 > 				amount > 2499
-26532c26278
+26528c26274
 < 				amount > 199
 ---
 > 				amount > 1999
-26540c26286
+26536c26282
 < 				amount > 149 
 ---
 > 				amount > 1499 
-26548c26294
+26544c26290
 < 				amount > 299
 ---
 > 				amount > 2999
-26556c26302
+26552c26298
 < 				amount > 199
 ---
 > 				amount > 1999
-27061c26807
+27057c26803
 < 					amount = 4
 ---
 > 					amount = 48
+27061c26807
+< 					amount = 6
+---
+> 					amount = 72
 27065c26811
 < 					amount = 6
 ---
 > 					amount = 72
-27069c26815
-< 					amount = 6
----
-> 					amount = 72
-30039c29785
+30035c29781
 < 				    amount = 5
 ---
 > 				    amount = 60

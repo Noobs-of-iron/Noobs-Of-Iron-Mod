@@ -18,98 +18,101 @@
 < 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
 ---
 > 			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.1 }
-4962a4963,4979
-> 				219 = {
+4968a4969,4986
+> 
+> 			hidden_effect = {
+> 				IF = {
+> 					limit = {
+> 						219 = {
+> 							land_facility < 1
+> 						}
+> 					}
+> 					219 = {
 > 					add_building_construction = {
 > 						type = land_facility
 > 						level = 1
 > 						instant_build = yes
 > 						province = 3391 # Kubinka
-> 					}
-> 				}
-> 			hidden_effect = {
-> 				IF = {
-> 					limit = { 
-> 						219 = {
-> 							land_facility < 1
 > 						}
 > 					}
 > 				}
 > 			}
-7100a7118
+7048c7066
+< 
+---
 > 			country_event = { id = noi_sov.16 }
-7909d7926
+7978d7995
 < 			has_global_flag = AAT_trotsky_in_mexico
-9877c9894
+9946c9963
 < 		cost = 10
 ---
 > 		cost = 5
-9886c9903
+9955c9972
 < 			add_stability = -0.05
 ---
 > 			add_stability = -0.15
-9994c10011
+10063c10080
 < 			SOV_soviet_civil_war_not_started = yes
 ---
 > 
-10080c10097
+10149c10166
 < 		cost = 10
 ---
 > 		cost = 5
-10345c10362
+10414c10431
 < 			NOT = { has_global_flag = SOV_soviet_civil_war_over }
 ---
 > 
-11126d11142
+11195d11211
 < 			SOV_soviet_civil_war_not_started = yes 
-11215d11230
+11284d11299
 < 			SOV_soviet_civil_war_not_started = yes 
-11270c11285
-< 			SOV_soviet_civil_war_not_started = yes 
----
-> 
-11346c11361
+11339c11354
 < 			SOV_soviet_civil_war_not_started = yes 
 ---
 > 
-11399c11414
+11415c11430
+< 			SOV_soviet_civil_war_not_started = yes 
+---
+> 
+11468c11483
 < 			has_global_flag = SOV_soviet_civil_war_over
 ---
 > 
-13565a13581,13584
+13634a13650,13653
 > 				has_completed_focus = SOV_the_centre
 > 				has_completed_focus = SOV_back_to_the_nep
 > 			}
 > 			OR = {
-13781c13800
+13850c13869
 < 		cost = 10
 ---
 > 		cost = 0.2
-14259c14278
+14328c14347
 < 		cost = 10
 ---
 > 		cost = 0.2
-15029a15049,15052
+15098a15118,15121
 > 			add_timed_idea = {
 > 				idea = SOV_NOI_red_volunteer_army_i
 > 				days = 1095
 > 			}
-15095a15119,15122
+15164a15188,15191
 > 			add_timed_idea = {
 > 				idea = SOV_NOI_red_volunteer_army_i
 > 				days = 1095
 > 			}
-15164a15192,15195
+15233a15261,15264
 > 			add_timed_idea = {
 > 				idea = SOV_NOI_red_volunteer_army_i
 > 				days = 1095
 > 			}
-15773c15804,15805
+15842c15873,15874
 < 		allow_branch = { 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-17937c17969
+18006c18038
 < 		cost = 10
 ---
 > 		cost = 1

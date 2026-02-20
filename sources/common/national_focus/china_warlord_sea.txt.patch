@@ -1,20 +1,20 @@
-2883c2883
+3020c3020
 < 			    amount = 8
 ---
 > 			    amount = 96
-2946c2946
+3083c3083
 < 				    resources = { oil }
 ---
 > 				    resources={ oil }
-2952c2952
+3089c3089
 < 			    amount = 35
 ---
 > 			    amount = 420
-4051c4051
+4258c4258
 < 							resources = { oil }
 ---
 > 							resources={ oil }
-4158c4158
+4365c4365
 < 							resources = { oil }
 ---
 > 							resources={ oil }

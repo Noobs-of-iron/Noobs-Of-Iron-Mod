@@ -6,39 +6,39 @@
 < 					amount = 12
 ---
 > 					amount = 144
-1161c1161
+1269c1269
 < 						resources = { oil }
 ---
 > 						resources={ oil }
-1167c1167
+1275c1275
 < 						resources = { oil }
 ---
 > 						resources={ oil }
-1173c1173
+1281c1281
 < 						resources = { oil }
 ---
 > 						resources={ oil }
-1288c1288
+1399c1399
 < 					amount = 8
 ---
 > 					amount = 96
-1316c1316
+1427c1427
 < 					amount = 6
 ---
 > 					amount = 72
-1386c1386
+1497c1497
 < 					amount = 8
 ---
 > 					amount = 96
-1517c1517
+1628c1628
 < 					amount = 10
 ---
 > 					amount = 120
-1530c1530
+1641c1641
 < 					amount = 10
 ---
 > 					amount = 120
-9616c9616
+10001c10001
 < 					amount = 12
 ---
 > 					amount = 144

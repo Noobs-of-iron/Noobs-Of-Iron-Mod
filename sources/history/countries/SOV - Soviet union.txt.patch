@@ -5,9 +5,9 @@
 < set_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
 ---
 > set_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.1 }
-865a868
+867a870
 > 	amphibious_craft_in_bad_condition
-869c872
+871c874
 < 
 ---
 > 	SOV_NOI_enduring_spirit

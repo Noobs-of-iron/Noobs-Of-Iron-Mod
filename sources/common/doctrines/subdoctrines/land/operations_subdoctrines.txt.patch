@@ -3,49 +3,49 @@
 >                 defense = 0.1
 >             }
 > 
-91d94
+95d98
 <     conscription = 0.05
-105,110d107
+109,114d111
 <         pocket_consolidation = {
 <         #2
 <             category_all_infantry = {
 <                 defense = 0.1
 <             }
 <         }
-112c109
+116c113
 <         #3
 ---
 >         #2
-117a115
+121a119
 > 
-119c117
+123c121
 <         #4
 ---
 >         #3
-121a120,125
+125a124,129
 > 
 >         pocket_consolidation = {
 >         #4
 >          conscription = 0.02
 >         }
 > 
-617c621
+624c628
 <         defense = 0.2
 ---
 >         defense = 0.05
-621c625
+628c632
 <         defense = 0.2
 ---
 >         defense = 0.05
-667c671
+674c678
 <                     defence = 0.10
 ---
 >                     defence = 0.20
-673c677
+680c684
 <                     defence = 0.10
 ---
 >                     defence = 0.20
-858c862
+865c869
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

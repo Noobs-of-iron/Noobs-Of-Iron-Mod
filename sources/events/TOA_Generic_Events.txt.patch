@@ -1,6 +1,6 @@
 40d39
 < 
-260,399d258
+264,403d262
 < # Terra steps down in favor of mister ferrari
 < news_event = {
 < 	id = south_american_news.2
@@ -141,45 +141,45 @@
 < 		}
 < 	}
 < } 
-405c264
+409c268
 < 	desc = south_american_events.2.desc 
 ---
 > 	desc = south_american_events.2.desc
-412,413c271,272
+416,417c275,276
 < 		name = south_american_events.2.a 
 < 		ai_chance = {  
 ---
 > 		name = south_american_events.2.a
 > 		ai_chance = {
-415c274
+419c278
 < 		} 
 ---
 > 		}
-461c320
+465c324
 < 	}  
 ---
 > 	}
-465,466c324,325
+469,470c328,329
 < 		name = south_american_events.2.b 
 < 		ai_chance = {  
 ---
 > 		name = south_american_events.2.b
 > 		ai_chance = {
-468c327
+472c331
 < 		} 
 ---
 > 		}
-510c369
+514c373
 < 	} 
 ---
 > 	}
-514,515c373,374
+518,519c377,378
 < 		name = south_american_events.2.c 
 < 		ai_chance = {  
 ---
 > 		name = south_american_events.2.c
 > 		ai_chance = {
-517,578d375
+521,582d379
 < 		} 
 < 		add_ideas = JUNO_hidden_at_production_ns
 < 	} 
@@ -242,96 +242,96 @@
 < 		name = south_american_news.10.b
 < 		trigger = {
 < 			NOT = { has_government = democratic }
-579a377
+583a381
 > 		add_ideas = JUNO_hidden_at_production_ns
-581,582c379
+585,586c383
 < } 
 < 
 ---
 > }
-669,673d465
+673,677d469
 < 		news_event = { 
 < 			id = south_american_news.8 
 < 			days = 3
 < 			random_days = 6
 < 		}
-680c472
+684c476
 < 				
 ---
 > 
-693c485
+710c502
 < 				
 ---
 > 
-706c498
+723c515
 < 					factor = 0	
 ---
 > 					factor = 0
-728c520
+745c537
 < 				priority = 2 # optional 
 ---
 > 				priority = 2 # optional
-737c529
+754c546
 < 					
 ---
 > 
-740c532
+757c549
 < 					
 ---
 > 
-748c540
+765c557
 < 				
 ---
 > 
-753c545
+770c562
 < 					priority = 2 # optional 
 ---
 > 					priority = 2 # optional
-759c551
+776c568
 < 						
 ---
 > 
-762c554
+779c571
 < 						
 ---
 > 
-772,773c564,565
+789,790c581,582
 < 						#prioritize_location = province_id # optional 
 < 						allow_spawning_on_enemy_provs = no 
 ---
 > 						#prioritize_location = province_id # optional
 > 						allow_spawning_on_enemy_provs = no
-784,785c576,577
+801,802c593,594
 < 					#prioritize_location = province_id # optional 
 < 					allow_spawning_on_enemy_provs = no 
 ---
 > 					#prioritize_location = province_id # optional
 > 					allow_spawning_on_enemy_provs = no
-793c585
+810c602
 < 					has_government = communism		
 ---
 > 					has_government = communism
-795,796c587,588
+812,813c604,605
 < 				PAR_rafael_franco = { set_nationality = PREV } 
 < 				add_country_leader_role = {		
 ---
 > 				PAR_rafael_franco = { set_nationality = PREV }
 > 				add_country_leader_role = {
-802c594
+819c611
 < 			 			#traits = {  } 
 ---
 > 			 			#traits = {  }
-808c600
+825c617
 < 				PAR_Jose_Felix_Estigarribia = { set_nationality = ROOT } 
 ---
 > 				PAR_Jose_Felix_Estigarribia = { set_nationality = ROOT }
-814,815c606,607
+831,832c623,624
 < 			#news_event = { 
 < 			#	id = south_american_news.9 
 ---
 > 			#news_event = {
 > 			#	id = south_american_news.9
-822,872d613
+839,889d630
 < # The February Revolution
 < news_event = {
 < 	id = south_american_news.8
@@ -383,22 +383,22 @@
 < }
 < 
 < 
-926,931d666
+943,948d683
 < 
 < 		news_event = { 
 < 			id = south_american_news.11 
 < 			days = 3
 < 			random_days = 6
 < 		}
-938c673
+955c690
 < 			
 ---
 > 
-943c678
+960c695
 < 			
 ---
 > 
-969,2772d703
+986,2789d720
 < 		news_event = { 
 < 			id = south_american_news.12 
 < 			days = 3
@@ -2203,7 +2203,7 @@
 < 				has_war_with = FROM
 < 			}
 < 		}
-2774,2826d704
+2791,2843d721
 < 		if = {
 < 			limit = {
 < 				has_country_flag = propagate_monroe_along_allies ##this event is sent from the monroe aggressor to its allies - hand me down event
@@ -2257,7 +2257,7 @@
 < 
 < 			clear_variable = monroe_defender
 < 		}
-2829,2854d706
+2846,2871d723
 < 	option = { #refuse to end war
 < 		name = south_american_events.51.b
 < 		ai_chance = {
@@ -2284,7 +2284,7 @@
 < 			}
 < 		}
 < 	}
-2856,3175d707
+2873,3192d724
 < 
 < country_event = { #FROM Agrees to end war in SA/NA
 < 	id = south_american_events.52
