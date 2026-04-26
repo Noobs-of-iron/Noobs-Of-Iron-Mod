@@ -1,0 +1,8 @@
+1807c1807
+< 	local_resources_factor = -0.4
+---
+> 	local_resources = -0.4
+1821c1821
+< 	local_resources_factor = -0.75
+---
+> 	local_resources = -0.75
