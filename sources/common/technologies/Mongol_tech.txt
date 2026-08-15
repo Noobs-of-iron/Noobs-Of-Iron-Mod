@@ -1,0 +1,26 @@
+technologies = {
+#### Mongolian Cav bullsshit
+	MONGOLcavalry_tech = {
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		enable_subunits = {
+			MONGOLcavalry
+		}
+	}
+	MONGOLcavalry_AT_tech = {
+		allow = {
+			always = no
+		}
+		research_cost = 1
+		start_year = 1936
+		enable_subunits = {
+			MONGOLcavalry_AT
+		}
+	}
+}

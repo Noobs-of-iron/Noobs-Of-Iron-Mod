@@ -5,3 +5,90 @@
 > 			movement = 0.2
 > 		}
 > 
+232a239,324
+> 		}
+> 
+> 		amphibious = {
+> 			attack = -0.7
+> 		}
+> 	}
+> 	MONGOLcavalry = {
+> 		abbreviation = "MCV"
+> 		sprite = "Mongol_cav"
+> 		map_icon_category = other
+> 		priority = 599
+> 		ai_priority = 200
+> 		active = no
+> 		cavalry = yes
+> 
+> 
+> 		type = { infantry }
+> 		
+> 		group = mobile
+> 
+> 		
+> 		categories = {
+> 			category_front_line
+> 			category_cavalry
+> 			category_army
+> 		}
+> 
+> 		
+> 		combat_width = 2
+> 		
+> 		#Size Definitions
+> 		max_organisation = 70
+> 		max_strength = 25
+> 		default_morale = 0.3
+> 		manpower = 1000
+> 
+> 		#Misc Abilities
+> 		training_time = 120		
+> 		weight = 0.5
+> 		
+> 		supply_consumption = 0.06
+> 
+> 		#Offensive Abilities
+> 		suppression = 2
+> 		soft_attack = 2
+> 		breakthrough = 3
+> 		air_attack = 0.1
+> 
+>         essential = {
+>             infantry_equipment 
+>         }
+> 	
+> 		need = {
+> 			infantry_equipment = 250
+> 			support_equipment = 70
+> 		}
+> 		plains = {
+> 			attack = 0.05
+> 			movement = 0.1
+> 		}
+> 
+> 		forest = {
+> 			attack = 0.05
+> 			movement = -0.2
+> 		}	
+> 
+> 		hills = {
+> 			attack = 0.05
+> 		}
+> 
+> 		mountain = {
+> 			attack = -0.1
+> 			movement = -0.2
+> 		}
+> 
+> 		river = {
+> 			attack = -0.1
+> 			movement = -0.1
+> 		}
+> 
+> 		jungle = {
+> 			attack = -0.2
+> 		}
+> 
+> 		urban = {
+> 			attack = -0.1

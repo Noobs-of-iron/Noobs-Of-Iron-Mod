@@ -322,6 +322,24 @@ focus_tree = {
 			
 		}
 	}
+	#AT_Horce 
+	focus = {
+		id = MON_AT_CAV 
+		icon = GFX_focus_generic_anti_tank_guns
+		x = 38
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = MON_cav_bonus }
+		completion_reward = {
+			set_technology = {
+	            MONGOLcavalry_AT_tech = 1
+	            popup = yes
+	        }
+		}
+	}
 
 	#Modernizing Mining
 	focus = {
@@ -2038,6 +2056,11 @@ focus_tree = {
 		cost = 10
 		mutually_exclusive = { focus = MON_invite_soviet_generals }
 		completion_reward = {
+			set_technology = {
+	            MONGOLcavalry_tech = 1
+	            popup = yes
+	        }
+			custom_effect_tooltip = generic_skip_one_line_tt
 			custom_effect_tooltip = MON_mongolian_army_tt
 			add_to_variable = { MONA_army_org_factor = 0.05
 				tooltip = army_org_factor_tt }

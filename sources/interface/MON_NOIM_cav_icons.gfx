@@ -1,0 +1,29 @@
+spriteTypes = { 
+    # Base Mongol Cavalry - Large Division Designer Icon
+    spriteType = { 
+        name = "GFX_unit_Mongol_cav_icon_medium"                
+        textureFile = "gfx/interface/counters/divisions_large/mongol_cav_icon.dds"  
+        noOfFrames = 2
+    }
+
+    # Base Mongol Cavalry - Small Map Counter Icon
+    spriteType = { 
+        name = "GFX_unit_Mongol_cav_icon_small"                     
+        textureFile = "gfx/interface/counters/divisions_small/mongol_AT_cav_icon.dds" 
+        noOfFrames = 2
+    }
+
+    # Mongol Anti-Tank Cavalry - Large Division Designer Icon
+    spriteType = { 
+        name = "GFX_unit_Mongol_at_cav_icon_medium"                
+        textureFile = "gfx/interface/counters/divisions_large/mongol_AT_cav_icon.dds"  
+        noOfFrames = 2
+    }
+
+    # Mongol Anti-Tank Cavalry - Small Map Counter Icon
+    spriteType = { 
+        name = "GFX_unit_Mongol_at_cav_icon_small"                      
+        textureFile = "gfx/interface/counters/divisions_small/mongol_AT_cav_icon.dds" 
+        noOfFrames = 2
+    }
+}
