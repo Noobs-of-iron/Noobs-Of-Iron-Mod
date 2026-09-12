@@ -3,8 +3,8 @@
 < 	LAG_DAYS_FOR_PAUSE = 25,						-- Days of client lag for pause of gamespeed.
 < 	GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
 ---
-> 	LAG_DAYS_FOR_LOWER_SPEED = 60,					-- Days of client lag for decrease of gamespeed
-> 	LAG_DAYS_FOR_PAUSE = 90,						-- Days of client lag for pause of gamespeed.
+> 	LAG_DAYS_FOR_LOWER_SPEED = 400,					-- Days of client lag for decrease of gamespeed
+> 	LAG_DAYS_FOR_PAUSE = 400,						-- Days of client lag for pause of gamespeed.
 > 	GAME_SPEED_SECONDS = { 0.4, 0.28, 0.15, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
 14,15c14,15
 < 	TRADE_ROUTE_RECALCULATE_FREQUENCY_DAYS = 45, -- Max recalculation time for all trade routes (0 means we do not recalucate prediodically trade routes)

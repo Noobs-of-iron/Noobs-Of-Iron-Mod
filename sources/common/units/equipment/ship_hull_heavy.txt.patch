@@ -4,18 +4,20 @@
 ---
 > 		resources={
 > 			steel = 36
-203,204c203,204
+203,205c203,205
 < 		resources = {
 < 			steel = 2
+< 			#chromium = 1
 ---
 > 		resources={
-> 			steel = 24
+> 			steel = 20
+> 			#chromium = 6
 299,300c299,300
 < 		resources = {
 < 			chromium = 1
 ---
 > 		resources={
-> 			chromium = 12
+> 			chromium = 6
 362,365c362,365
 < 		resources = {
 < 			#oil = 1
@@ -24,8 +26,8 @@
 ---
 > 		resources={
 > 			#oil = 12
-> 			steel = 36
-> 			chromium = 12
+> 			steel = 24
+> 			chromium = 8
 428,431c428,431
 < 		resources = {
 < 			#oil = 1
@@ -34,8 +36,8 @@
 ---
 > 		resources={
 > 			#oil = 12
-> 			steel = 48
-> 			chromium = 12
+> 			steel = 32
+> 			chromium = 10
 439c439
 < 		year = 1944
 ---
@@ -48,8 +50,8 @@
 ---
 > 		resources={
 > 			#oil = 12
-> 			steel = 48
-> 			chromium = 12
+> 			steel = 40
+> 			chromium = 10
 567,570c567,570
 < 		resources = {
 < 			tungsten = 2

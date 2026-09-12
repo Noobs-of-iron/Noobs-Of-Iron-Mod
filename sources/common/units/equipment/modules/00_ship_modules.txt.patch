@@ -270,63 +270,65 @@
 < 			steel = 1
 ---
 > 		build_cost_resources={
-> 			steel = 12
+> 			steel = 6
 2898,2899c2824,2825
 < 		build_cost_resources = {
 < 			steel = 1
 ---
 > 		build_cost_resources={
-> 			steel = 12
+> 			steel = 4
 2922,2923c2848,2849
 < 		build_cost_resources = {
 < 			steel = 1
 ---
 > 		build_cost_resources={
-> 			steel = 12
+> 			steel = 6
 2945,2947c2871,2873
 < 		build_cost_resources = {
 < 			steel = 1
 < 			chromium = 1
 ---
 > 		build_cost_resources={
-> 			steel = 12
-> 			chromium = 12
+> 			steel = 8
+> 			chromium = 6
 2971,2973c2897,2899
 < 		build_cost_resources = {
 < 			steel = 1
 < 			chromium = 1
 ---
 > 		build_cost_resources={
-> 			steel = 12
-> 			chromium = 12
+> 			steel = 8
+> 			chromium = 4
 2997,2999c2923,2925
 < 		build_cost_resources = {
 < 			steel = 2
 < 			chromium = 1
 ---
 > 		build_cost_resources={
-> 			steel = 24
-> 			chromium = 12
+> 			steel = 12
+> 			chromium = 10
 3043,3044c2969,2970
 < 		#build_cost_resources = {
 < 		#	steel = 1
 ---
 > 		#build_cost_resources={
 > 		#	steel = 12
-3062,3063c2988,2989
+3062,3064c2988,2990
 < 		build_cost_resources = {
 < 			steel = 1
+< 			#chromium = 1
 ---
 > 		build_cost_resources={
-> 			steel = 12
+> 			steel = 8
+> 			#chromium = 6
 3082,3084c3008,3010
 < 		build_cost_resources = {
 < 			steel = 1
 < 			chromium = 1
 ---
 > 		build_cost_resources={
-> 			steel = 12
-> 			chromium = 12
+> 			steel = 10
+> 			chromium = 8
 3095,3096c3021,3022
 < 		#build_cost_resources = {
 < 		#	steel = 1

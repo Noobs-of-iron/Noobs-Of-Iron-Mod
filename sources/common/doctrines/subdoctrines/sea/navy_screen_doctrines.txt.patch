@@ -1,0 +1,16 @@
+34c34
+< 				max_organisation = 10
+---
+> 				max_organisation = 4
+401c401
+<     			max_organisation = 20
+---
+>     			max_organisation = 10
+456c456
+<     		    torpedo_attack = 0.20
+---
+>     		    torpedo_attack = 0.05
+467c467
+<     			max_organisation = 10
+---
+>     			max_organisation = 4
