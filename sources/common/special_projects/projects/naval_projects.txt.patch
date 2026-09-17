@@ -227,4 +227,4 @@
 < 	prototype_time = sp_time.prototype.medium 
 ---
 > 	complexity = sp_complexity.small
-> 	prototype_time = sp_time.prototype.small 
+> 	prototype_time = sp_time.prototype.short 

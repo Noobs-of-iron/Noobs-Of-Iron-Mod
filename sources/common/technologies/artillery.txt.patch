@@ -33,7 +33,7 @@
 > 			ap_attack = 0.1
 1206a1208
 > 		
-1251a1254,1257
+1255a1258,1261
 > 			leads_to_tech = tankround
 > 			research_cost_coeff = 1
 > 		}
@@ -45,14 +45,16 @@
 ---
 > 			ap_attack = 0.05
 1409a1417
+> 			
+1413a1422
 > 			tank_small_cannon_3
-1418c1426
+1418c1427
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1492a1501
+1490a1500
 > 			tank_medium_cannon_3
-1577c1586
+1577c1587
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05

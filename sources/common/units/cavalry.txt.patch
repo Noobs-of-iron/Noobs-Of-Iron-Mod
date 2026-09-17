@@ -5,12 +5,9 @@
 > 			movement = 0.2
 > 		}
 > 
-157a164,249
+154a161,243
 > 		}
-> 
-> 		amphibious = {
-> 			attack = -0.7
-> 		}
+> 	
 > 	}
 > 	MONGOLcavalry = {
 > 		abbreviation = "MCV"

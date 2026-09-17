@@ -36,25 +36,25 @@
 > 			state_max = 20
 118a88
 > 		allied_build = yes
-264c234
+249a220
+> 		allied_build = yes
+264c235
 < 		local_resources_rubber = 1 # May use local_resources_ + any resource name
 ---
 > 		local_resources_rubber = 12 # May use local_resources_ + any resource name
-537c507
+537c508
 < 		base_cost = 10000
 ---
 > 		base_cost = 8000
-561c531
+561c532
 < 		base_cost = 10000
 ---
 > 		base_cost = 8000
-716c686
+716c687
 < 		base_cost = 12000
 ---
 > 		base_cost = 8000
-761a732
+761a733
 > 		allied_build = yes
-777a749
-> 		allied_build = yes
-787a760
+777a750
 > 		allied_build = yes
