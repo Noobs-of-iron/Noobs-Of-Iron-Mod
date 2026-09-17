@@ -1,48 +1,24 @@
-3240c3240
-< 					amount = 10
----
-> 					amount = 120
-3244c3244
-< 					amount = 8
----
-> 					amount = 96
-3248c3248
-< 					amount = 8
----
-> 					amount = 96
-3258c3258
-< 					amount = 10
----
-> 					amount = 120
-3262c3262
-< 					amount = 8
----
-> 					amount = 96
-3266c3266
-< 					amount = 8
----
-> 					amount = 96
-4719c4719
+5684c5684
 < 					amount = 74
 ---
 > 					amount = 888
-4723c4723
+5688c5688
 < 					amount = 18
 ---
 > 					amount = 216
-4844c4844
+5809c5809
 < 						amount = 14
 ---
 > 						amount = 168
-4848c4848
+5813c5813
 < 						amount = 8
 ---
 > 						amount = 96
-4852c4852
+5817c5817
 < 						amount = 6
 ---
 > 						amount = 72
-4856c4856
+5821c5821
 < 						amount = 6
 ---
 > 						amount = 72

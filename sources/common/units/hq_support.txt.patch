@@ -2,47 +2,47 @@
 < 			infantry_equipment = 20
 ---
 > 			infantry_equipment = 200
-107,108c107,108
+111,112c111,112
 < 			infantry_equipment = 20
 < 			support_equipment = 10
 ---
 > 			infantry_equipment = 40
 > 			support_equipment = 50
-168,169c168,169
+177,178c177,178
 < 			infantry_equipment = 20
 < 			support_equipment = 10
 ---
 > 			infantry_equipment = 80
 > 			support_equipment = 30
-221c221
+235c235
 < 			support_equipment = 10
 ---
 > 			support_equipment = 20
-274c274
+292c292
 < 			support_equipment = 10
 ---
 > 			support_equipment = 50
-330c330
+352c352
 < 			support_equipment = 10
 ---
 > 			support_equipment = 50
-384c384
+410c410
 < 			support_equipment = 10
 ---
 > 			support_equipment = 60
-437c437
+467c467
 < 			support_equipment = 10
 ---
 > 			support_equipment = 40
-488c488
+522c522
 < 			support_equipment = 10
 ---
 > 			support_equipment = 30
-540c540
+578c578
 < 			support_equipment = 10
 ---
 > 			support_equipment = 40
-591c591
+633c633
 < 			support_equipment = 10
 ---
 > 			support_equipment = 30

@@ -454,7 +454,7 @@
 < 						amount = 3
 ---
 > 						amount = 36
-25664,25676c25730
+25666,25678c25732
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -470,11 +470,11 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-25680c25734
+25682c25736
 < 			x = -11
 ---
 > 			x = -1
-25690a25745,25763
+25692a25747,25765
 > 		# Shift monarchist branch right in ahist=ON initial state to avoid overlapping non-WW and communist branches
 > 		# Only fires when no ahistorical path has been chosen yet (initial / remilitarize state)
 > 		offset = {
@@ -494,7 +494,7 @@
 > 			}
 > 		}
 > 
-25802,25817c25875
+25804,25819c25877
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -513,11 +513,11 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-25821c25879
+25823c25881
 < 			x = 12
 ---
 > 			x = 0
-29586,29604c29644
+29588,29606c29646
 < 			has_dlc = "Gotterdammerung"
 < 			if = {
 < 				limit = {
@@ -539,7 +539,7 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-35555,35567c35595
+35557,35569c35597
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 
 < 			if = {
@@ -555,15 +555,15 @@
 < 			}
 ---
 > 			always = no
-35593c35621
+35595c35623
 < 			x = -8
 ---
 > 			x = 50
-35605c35633
+35607c35635
 < 			x = -1
 ---
 > 			x = 49
-35718,35732c35746
+35720,35734c35748
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -581,11 +581,11 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-35736c35750
+35738c35752
 < 			x = 1
 ---
 > 			x = 22
-35785,35796c35799
+35787,35798c35801
 < 			NOT = { has_dlc = "Gotterdammerung" }
 < 			if = {
 < 				limit = {
@@ -600,7 +600,7 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-37473,37487c37476
+37475,37489c37478
 < 			NOT = { has_dlc = "Gotterdammerung" } 
 < 			if = {
 < 				limit = {
@@ -618,15 +618,15 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-37491c37480
+37493c37482
 < 			x = -1
 ---
 > 			x = 0
-37501c37490
+37503c37492
 < 	
 ---
 > 
-38872c38861
+38874c38863
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

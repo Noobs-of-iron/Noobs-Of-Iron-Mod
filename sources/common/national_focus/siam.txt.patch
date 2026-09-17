@@ -1,20 +1,20 @@
-7221c7221
+7225c7225
 < 				amount = 6
 ---
 > 				amount = 72
-7227c7227
+7231c7231
 < 				amount = 8
 ---
 > 				amount = 96
-7233c7233
+7237c7237
 < 				amount = 8
 ---
 > 				amount = 96
-7239c7239
+7243c7243
 < 				amount = 8
 ---
 > 				amount = 96
-7360c7360
+7364c7364
 < 			add_to_variable = { SIA_aep_resource_trade_cost_bonus_per_factory = 1 tooltip = resource_trade_cost_bonus_per_factory_tt }
 ---
 > 			add_to_variable = { SIA_aep_resource_trade_cost_bonus_per_factory = 15 tooltip = resource_trade_cost_bonus_per_factory_tt }

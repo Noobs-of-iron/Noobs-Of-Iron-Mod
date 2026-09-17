@@ -393,7 +393,7 @@
 ---
 > 			soft_attack = 40
 1049c1075
-< 			breakthrough = -4
+< 			breakthrough = -2
 ---
 > 			breakthrough = 4
 1058,1060c1084,1086
@@ -409,7 +409,7 @@
 ---
 > 			soft_attack = 55
 1078c1104
-< 			breakthrough = -4
+< 			breakthrough = -2
 ---
 > 			breakthrough = 4
 1086,1088c1112,1114
@@ -549,10 +549,6 @@
 > 			ap_attack = 30
 > 			build_cost_ic = 8
 > 			maximum_speed = -1
-1265c1293
-< 			breakthrough = -4
----
-> 			breakthrough = -2
 1271c1299
 < 			convert_cost_ic = 7
 ---

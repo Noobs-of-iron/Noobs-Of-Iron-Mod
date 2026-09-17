@@ -1,58 +1,58 @@
 1a2
 > 	
-296c297
+301c302
 < 			soft_attack = 0.1
 ---
 > 			soft_attack = 0.2
-337,340d337
+345,348d345
 < 			modifier = {
 < 				factor = 5
 < 				date > "1942.1.1"
 < 			}
-416a414,415
+424a422,423
 > 			tank_medium_cannon_3
 > 			tank_small_cannon_3
-534c533
+545c544
 < 			soft_attack = 0.15
 ---
 > 			soft_attack = 0.20
-574c573
+585c584
 < 			soft_attack = 0.15
 ---
 > 			soft_attack = 0.20
-616c615
+627c626
 < 			soft_attack = 0.3
 ---
 > 			soft_attack = 0.4
-980a980,981
+991a991,992
 > 			tank_medium_cannon_3
 > 			tank_small_cannon_3
-1135c1136
+1167c1168
 < 			ap_attack = 0.2
 ---
 > 			ap_attack = 0.1
-1174a1176
+1206a1208
 > 		
-1219a1222,1225
+1251a1254,1257
 > 			leads_to_tech = tankround
 > 			research_cost_coeff = 1
 > 		}
 > 		path = {
-1245a1252
+1277a1284
 > 
-1291c1298
+1327c1334
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1373a1381
+1409a1417
 > 			tank_small_cannon_3
-1378c1386
+1418c1426
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1452a1461
+1492a1501
 > 			tank_medium_cannon_3
-1544c1553
+1577c1586
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05

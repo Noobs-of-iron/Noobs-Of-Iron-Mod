@@ -3,45 +3,45 @@
 >                 defense = 0.1
 >             }
 > 
-111d114
+121d124
 <     conscription = 0.05
-125,130d127
+135,140d137
 <         pocket_consolidation = {
 <         #2
 <             category_all_infantry = {
 <                 defense = 0.1
 <             }
 <         }
-132c129
+142c139
 <         #3
 ---
 >         #2
-137a135
+147a145
 > 
-139c137
+149c147
 <         #4
 ---
 >         #3
-141a140,145
+151a150,155
 > 
 >         pocket_consolidation = {
 >         #4
 >          conscription = 0.02
 >         }
 > 
-660c664
+670c674
 <         defense = 0.2
 ---
 >         defense = 0.05
-664c668
+674c678
 <         defense = 0.2
 ---
 >         defense = 0.05
-710c714
+720c724
 <                     defence = 0.10
 ---
 >                     defence = 0.20
-716c720
+726c730
 <                     defence = 0.10
 ---
 >                     defence = 0.20
