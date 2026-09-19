@@ -24,7 +24,7 @@
 < 			soft_attack = 0.3
 ---
 > 			soft_attack = 0.4
-991a991,992
+1009a1009,1010
 > 			tank_medium_cannon_3
 > 			tank_small_cannon_3
 1167c1168
@@ -52,7 +52,7 @@
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05
-1490a1500
+1497a1507
 > 			tank_medium_cannon_3
 1577c1587
 < 			ap_attack = 0.1
