@@ -198,7 +198,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "pause_blocker_country_block_tt"
 			position = {x=30 y=264}
-			font = "hoi_24mbs"
+			font = "hoi_24header"
 			text = "pause_blocker_country_block_tt"
 			maxWidth = 340
 			maxHeight = 23
