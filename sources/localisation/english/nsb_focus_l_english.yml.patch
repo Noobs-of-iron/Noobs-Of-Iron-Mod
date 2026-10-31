@@ -1,8 +1,8 @@
-1122c1122
+1124c1124
 <  SOV_superior_war_machines_desc: "Tanks and armored vehicles have developed significantly over the past decade. With a large armaments industry to produce and supply them, we can create superior vehicles and employ them en masse against the enemy."
 ---
 >  SOV_superior_war_machines_desc: "Tanks and armored vehicles have developed significantly over the past decade. With a large armaments industry to produce and supply them, we can create superior vehicles and employ them in mass against the enemy."
-1476,1477c1476,1477
+1478,1479c1478,1479
 <  SOV_found_the_pcdi_ns_tt: "Add §Y$SOV_defense_industry_dynamic_modifier$§!, which grants (Civilian to Military Factory conversion cost: §G-20.00%§!, Production Efficiency Retention: §R-10.00%§!, £prod_eff_cap Production Efficiency Cap: §G+5.00%§!, £prod_eff Production Efficiency growth: §R-5.00%§!) \n\n"
 <  SOV_pc_of_mechanical_engineering_ns_tt: "$SOV_modify_defense_industry_ns_intro$ \n £prod_eff_cap Production Efficiency Cap: §G+5.00%§! \n £prod_eff Production Efficiency growth: §R-5.00%§! \n\n"
 ---

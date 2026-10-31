@@ -14,11 +14,11 @@
 < 		cost = 10
 ---
 > 		cost = 5
-862c865
+874c877
 < 		x = 5
 ---
 > 		x = 8
-874,898d876
+886,910d888
 < 
 < 	focus = {
 < 		id = ENG_special_air_service
@@ -44,7 +44,7 @@
 < 			show_ideas_tooltip = ENG_david_stirling
 < 		}
 < 	}
-900,925d877
+912,937d889
 < 	focus = {
 < 		id = ENG_parachute_regiments
 < 		prerequisite = { focus = ENG_special_air_service }
@@ -71,11 +71,11 @@
 < 			}
 < 		}
 < 	}
-1064c1016
+1076c1028
 < 		x = 1
 ---
 > 		x = 2
-1079,1110c1031
+1091,1122c1043
 < 	focus = {
 < 		id = UK_secret_focus
 < 		prerequisite = { focus = royal_ordinance_focus }
@@ -110,7 +110,7 @@
 < 	}
 ---
 > 	
-1115,1117c1036,1038
+1127,1129c1048,1050
 < 		icon = GFX_goal_generic_air_doctrine
 < 		x = -2
 < 		y = 2
@@ -118,24 +118,24 @@
 > 		icon = GFX_focus_generic_aircraft_production
 > 		x = -6
 > 		y = 1
-1323,1324c1244
+1335,1336c1256
 < 		prerequisite = { focus = air_rearmament_focus }
 < 		prerequisite = { focus = naval_rearmament_focus }
 ---
 > 		
-1328c1248,1250
+1340c1260,1262
 < 
 ---
 > 		prerequisite = { focus = aircraft_production_focus }
 > 		prerequisite = { focus = ENG_NOI_victory_at_all_cost focus = ENG_NOI_casualty_avoidance }
 > 		prerequisite = { focus = ENG_expand_the_repair_yards focus = ENG_anti_submarine_training_school }
-1332,1333c1254,1255
+1344,1345c1266,1267
 < 		x = 2
 < 		y = 1
 ---
 > 		x = 8
 > 		y = 4
-1346a1269,1344
+1358a1281,1356
 > 	focus = {
 > 		id = ENG_NOI_establish_the_commandos
 > 		prerequisite = { focus = ENG_chiefs_of_staff_committee }
@@ -212,7 +212,7 @@
 > 			}
 > 		}
 > 	}
-1513,1543c1511
+1525,1555c1523
 < 	focus = {
 < 		id = uk_jet_focus
 < 		prerequisite = { focus = aircraft_production_focus }
@@ -246,7 +246,7 @@
 < 
 ---
 > 	
-1547,1549c1515,1517
+1559,1561c1527,1529
 < 		icon = GFX_goal_generic_construct_naval_dockyard 
 < 		x = 2
 < 		y = 2
@@ -254,19 +254,19 @@
 > 		icon = GFX_focus_generic_refit_civilian_ships
 > 		x = 8
 > 		y = 1
-1647a1616,1618
+1659a1628,1630
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-1681d1651
+1693d1663
 < 		prerequisite = { focus = uk_service_focus }
-1683,1684c1653,1654
+1695,1696c1665,1666
 < 		x = 3
 < 		y = 2
 ---
 > 		x = 0
 > 		y = 1
-1715,1717c1685,1687
+1727,1729c1697,1699
 < 		icon = GFX_focus_generic_destroyer
 < 		x = -1
 < 		y = 2
@@ -274,25 +274,25 @@
 > 		icon = GFX_focus_SWE_coastal_support
 > 		x = 3
 > 		y = 1
-1719c1689
+1731c1701
 < 		cost = 10
 ---
 > 		cost = 5
-1730c1700
+1742c1712
 < 				uses = 2
 ---
 > 				uses = 1
-1740,1741c1710,1711
+1752,1753c1722,1723
 < 		x = 0
 < 		y = 2
 ---
 > 		x = 2
 > 		y = 1
-1743c1713
+1755c1725
 < 		cost = 10
 ---
 > 		cost = 5
-1757,1759c1727,1729
+1769,1771c1739,1741
 < 				bonus = 1.0
 < 				ahead_reduction = 2
 < 				uses = 2
@@ -300,25 +300,25 @@
 > 				bonus = 0.75
 > 				ahead_reduction = 1.0
 > 				uses = 1
-1761c1731
+1773c1743
 < 			}	
 ---
 > 			}
-1769c1739
+1781c1751
 < 		x = -1
 ---
 > 		x = 0
-1785a1756
+1797a1768
 > 		prerequisite = { focus = ENG_NOI_advanced_torpedoes focus = ENG_a_s_warfare }
-1789c1760
+1801c1772
 < 		y = 2
 ---
 > 		y = 1
-1798c1769
+1810c1781
 < 		cost = 10
 ---
 > 		cost = 5
-1820,1822c1791,1793
+1832,1834c1803,1805
 < 		icon = GFX_goal_generic_navy_doctrines_tactics
 < 		x = 1
 < 		y = 2
@@ -326,19 +326,19 @@
 > 		icon = GFX_focus_eng_the_sun_never_sets
 > 		x = -2
 > 		y = 1
-1870c1841
+1882c1853
 < 		icon = GFX_goal_generic_navy_battleship
 ---
 > 		icon = GFX_focus_SWE_Vasa_II
-1894a1866,1868
+1906a1878,1880
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-1928c1902
+1940c1914
 < 		cost = 10
 ---
 > 		cost = 5
-1975,2042c1949
+1987,2054c1961
 < 	focus = {
 < 		id = ENG_vanguard
 < 		prerequisite = { focus = uk_battleship_focus }
@@ -409,19 +409,19 @@
 < 	}
 ---
 > 	
-2088c1995
+2100c2007
 < 		x = 29
 ---
 > 		x = 41
-2142c2049
+2154c2061
 < 		x = -2
 ---
 > 		x = -6
-2161c2068
+2173c2080
 < 		cost = 10
 ---
 > 		cost = 5
-2174,2927c2081,2082
+2186,2949c2093,2094
 < 	focus = {
 < 		id = uk_mediterranean_focus 
 < 		prerequisite = { focus = uk_service_focus }
@@ -612,8 +612,8 @@
 < 		mutually_exclusive = { focus = uk_rock_focus }
 < 
 < 		available = {
-< 			any_other_country = {
-< 				original_tag = SPR
+< 			any_country_with_original_tag = {
+< 				original_tag_to_check = SPR
 < 				exists = yes
 < 				has_war = no
 < 				NOT = { is_in_faction_with = ENG }
@@ -893,6 +893,7 @@
 < 			if = {
 < 				limit = {
 < 					has_dlc = "Death or Dishonor"
+< 					country_exists = YUG
 < 				}
 < 				country_event = {
 < 					id = DOD_yugoslavia.40
@@ -925,9 +926,18 @@
 < 		available_if_capitulated = yes
 < 
 < 		completion_reward = {
-< 			ITA = {
-< 				add_opinion_modifier = { target = ENG modifier = embargo }
-< 				add_opinion_modifier = { target = ENG modifier = sanctions_relations } 
+< 			if = {
+< 				limit = {
+< 					has_dlc = "By Blood Alone"
+< 				}
+< 				send_embargo = ITA
+< 				custom_effect_tooltip = embargo_relation_tt
+< 			}
+< 			else = {
+< 				add_opinion_modifier = { target = ITA modifier = embargo }
+< 				ITA = {
+< 					add_opinion_modifier = { target = ENG modifier = sanctions_relations }
+< 				}
 < 			}
 < 		}
 < 	}
@@ -1179,13 +1189,13 @@
 ---
 > 	
 > ### DECOLONIZATION ###
-2959c2114
+2981c2126
 < 		x = 34
 ---
 > 		x = 48
-3591a2747
+3613a2759
 > 					NOT = { has_dlc = "Graveyard of Empires" }
-3594,3605c2750
+3616,3627c2762
 < 						NOT = {
 < 							has_autonomy_state = autonomy_dominion
 < 							has_autonomy_state = autonomy_satellite
@@ -1200,26 +1210,26 @@
 < 						}
 ---
 > 						NOT = { has_autonomy_state = autonomy_dominion }
-3607,3610d2751
+3629,3632d2763
 < 					set_autonomy = { target = RAJ autonomy_state = autonomy_dominion }
 < 				}
 < 				else = {
 < 					set_autonomy = { target = RAJ autonomy_state = autonomy_satellite }
-3611a2753
+3633a2765
 > 				set_autonomy = { target = RAJ autonomy_state = autonomy_dominion }
-5787c4929
+5809c4941
 < 		prerequisite = { focus = uk_service_focus }
 ---
 > 		prerequisite = { focus = uk_empire_focus }
-5789c4931
+5811c4943
 < 		x = -5
 ---
 > 		x = 2
-5791c4933
+5813c4945
 < 		relative_position_id = uk_service_focus
 ---
 > 		relative_position_id = uk_empire_focus
-5802,6428d4943
+5824,6457d4955
 < 		id = uk_asia_focus 
 < 		prerequisite = { focus = uk_colonial_focus }
 < 		
@@ -1439,13 +1449,13 @@
 < 			640 = {
 < 				if = {
 < 					limit = { 
-< 						OR = { 
-< 							ENG = { controls_state = 640 }
-< 							any_other_country = {
+< 						controller = {
+< 							OR = {
+< 								tag = ENG
 < 								is_in_faction_with = ENG
-< 								controls_state = 640
-< 							} 
+< 							}
 < 						}
+< 						
 < 					}
 < 					add_building_construction = {
 < 						type = infrastructure
@@ -1462,12 +1472,11 @@
 < 			325 = {
 < 				if = {
 < 					limit = { 
-< 					OR = { 
-< 							CHI = { controls_state = 325 }
-< 							any_other_country = {
-< 								is_in_faction_with = CHI
-< 								controls_state = 640
-< 							} 
+< 						controller = {
+< 							OR = {
+< 								tag = CHI
+< 								is_in_faction_with = CHI #Hevaily suspect the earlier 640 reference was a bug here
+< 							}
 < 						}
 < 					}
 < 					add_building_construction = {
@@ -1485,13 +1494,13 @@
 < 			601 = {
 < 				if = {
 < 					limit = { 
-< 						OR = { 
-< 							CHI = { controls_state = 601 }
-< 							any_other_country = {
-< 								is_in_faction_with = CHI
-< 								controls_state = 601
-< 							} 
-< 						} }
+< 						controller = {
+< 							OR = {
+< 								tag = CHI
+< 								is_in_faction_with = CHI 
+< 							}
+< 						}
+< 					}
 < 					add_building_construction = {
 < 						type = infrastructure
 < 						level = 2
@@ -1557,10 +1566,18 @@
 < 		available_if_capitulated = yes
 < 
 < 		completion_reward = {
-< 
-< 			JAP = {
-< 				add_opinion_modifier = { target = ENG modifier = embargo }
-< 				add_opinion_modifier = { target = ENG modifier = sanctions_relations } 
+< 			if = {
+< 				limit = {
+< 					has_dlc = "By Blood Alone"
+< 				}
+< 				send_embargo = JAP
+< 				custom_effect_tooltip = embargo_relation_tt
+< 			}
+< 			else = {
+< 				add_opinion_modifier = { target = JAP modifier = embargo }
+< 				JAP = {
+< 					add_opinion_modifier = { target = ENG modifier = sanctions_relations }
+< 				}
 < 			}
 < 
 < 		}
@@ -1847,7 +1864,7 @@
 < 	}
 < 
 < 	focus = {
-6605,6762d5119
+6634,6791d5131
 < 	focus = {
 < 		id = peninsular_focus
 < 		prerequisite = { focus = ENG_royal_malay_regiment_focus focus = ENG_territorial_army_of_malaysia_focus }
@@ -2006,11 +2023,11 @@
 < 		}
 < 
 < 	}
-6772c5129
+6801c5141
 < 		y = 1
 ---
 > 		y = 2
-6951,7059d5307
+6980,7088d5319
 < 	focus = {
 < 		id = hongkong_focus
 < 		prerequisite = { focus = uk_asia_focus }
@@ -2120,17 +2137,17 @@
 < 		}
 < 
 < 	}
-7068,7069c5316,5317
+7097,7098c5328,5329
 < 		x = 0
 < 		y = 2
 ---
 > 		x = -1
 > 		y = 1
-7196c5444
+7225c5456
 < 		y = 1
 ---
 > 		y = 2
-7343,7392d5590
+7372,7421d5602
 < 		id = uk_china_focus 
 < 
 < 		prerequisite = { focus = ENG_south_east_asia_air_command_focus  }
@@ -2181,11 +2198,11 @@
 < 	}
 < 	
 < 	focus = {
-7495c5693
+7487c5668
 < 		x = 4
 ---
 > 		x = 0
-7498c5696,5703
+7490c5671,5678
 < 
 ---
 > 		
@@ -2196,37 +2213,37 @@
 > 				has_completed_focus = uk_empire_focus
 > 			}
 > 		}
-7601c5806
+7593c5781
 < 		x = -1
 ---
 > 		x = 2
-7653c5858
+7646c5834
 < 		x = -3
 ---
 > 		x = 4
-7790c5995
+7783c5971
 < 		icon = GFX_goal_generic_improve_relations
 ---
 > 		icon = GFX_focus_RAJ_all_india_forward_bloc
-7864c6069
+7858c6046
 < 		x = 1
 ---
 > 		x = 0
-8184c6389
+8180c6368
 < 		x = 0
 ---
 > 		x = -1
-8343c6548
+8340c6528
 < 		x = 2
 ---
 > 		x = 1
-9255d7459
+9238d7425
 < 		mutually_exclusive = { focus = ENG_a_change_in_course }
-9256a7461
+9239a7427
 > 		mutually_exclusive = { focus = ENG_a_change_in_course }
-9626d7830
+9609d7796
 < 				NOT = {	has_character = ENG_winston_churchill } #MM: GoE content if he is transferred to India via event chain triggered by focus RAJ_the_jewel_becomes_the_crown
-10251,10257c8455
+10231,10237c8418
 < 			IRQ = { 
 < 				OR = {
 < 					exists = no 
@@ -2236,7 +2253,7 @@
 < 			}
 ---
 > 			IRQ = { exists = no }
-10317,10323c8515
+10297,10303c8478
 < 			PER = { 
 < 				OR = {
 < 					exists = no 
@@ -2246,55 +2263,55 @@
 < 			}
 ---
 > 			PER = { exists = no }
-10598c8790
+10600c8775
 < 		icon = GFX_focus_generic_attack_nordic_territory
 ---
 > 		icon = GFX_SOV_control_scandinavia_ccp_2d_sov_compatibility
-10853c9045
+10855c9030
 < 		icon = GFX_goal_generic_position_armies
 ---
 > 		icon = GFX_focus_generic_influence_benelux
-10959c9151,9153
+10961c9136,9138
 < 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-11214c9408,9410
+11216c9393,9395
 < 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-11515c9711,9713
+11517c9696,9698
 < 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-12144c10342,10343
+12146c10327,10328
 < 				if = {
 ---
 > 			}
 > 			if = {
-12149d10347
+12151d10332
 < 					
-12156,12157d10353
+12158,12159d10338
 < 		}
 < 
-12843c11039,11041
+12845c11024,11026
 < 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-14115,14117c12313
+14118,14120c12299
 < 		available = {
 < 
 < 		}
 ---
 > 		available = { }
-14128a12325,15070
+14131a12311,15074
 > 		}
 > 	}
 > 	
@@ -3058,13 +3075,13 @@
 > 			640 = {
 > 				if = {
 > 					limit = { 
-> 						OR = { 
-> 							ENG = { controls_state = 640 }
-> 							any_other_country = {
+> 						controller = {
+> 							OR = {
+> 								tag = ENG
 > 								is_in_faction_with = ENG
-> 								controls_state = 640
-> 							} 
+> 							}
 > 						}
+> 						
 > 					}
 > 					add_building_construction = {
 > 						type = infrastructure
@@ -3081,12 +3098,11 @@
 > 			325 = {
 > 				if = {
 > 					limit = { 
-> 					OR = { 
-> 							CHI = { controls_state = 325 }
-> 							any_other_country = {
-> 								is_in_faction_with = CHI
-> 								controls_state = 640
-> 							} 
+> 						controller = {
+> 							OR = {
+> 								tag = CHI
+> 								is_in_faction_with = CHI #Hevaily suspect the earlier 640 reference was a bug here
+> 							}
 > 						}
 > 					}
 > 					add_building_construction = {
@@ -3104,13 +3120,13 @@
 > 			601 = {
 > 				if = {
 > 					limit = { 
-> 						OR = { 
-> 							CHI = { controls_state = 601 }
-> 							any_other_country = {
-> 								is_in_faction_with = CHI
-> 								controls_state = 601
-> 							} 
-> 						} }
+> 						controller = {
+> 							OR = {
+> 								tag = CHI
+> 								is_in_faction_with = CHI 
+> 							}
+> 						}
+> 					}
 > 					add_building_construction = {
 > 						type = infrastructure
 > 						level = 2
@@ -3175,9 +3191,18 @@
 > 		available_if_capitulated = yes
 > 
 > 		completion_reward = {
-> 			JAP = {
-> 				add_opinion_modifier = { target = ENG modifier = embargo }
-> 				add_opinion_modifier = { target = ENG modifier = sanctions_relations } 
+> 			if = {
+> 				limit = {
+> 					has_dlc = "By Blood Alone"
+> 				}
+> 				send_embargo = JAP
+> 				custom_effect_tooltip = embargo_relation_tt
+> 			}
+> 			else = {
+> 				add_opinion_modifier = { target = JAP modifier = embargo }
+> 				JAP = {
+> 					add_opinion_modifier = { target = ENG modifier = sanctions_relations }
+> 				}
 > 			}
 > 		}
 > 	}
@@ -3315,8 +3340,8 @@
 > 		mutually_exclusive = { focus = uk_rock_focus }
 > 
 > 		available = {
-> 			any_other_country = {
-> 				original_tag = SPR
+> 			any_country_with_original_tag = {
+> 				original_tag_to_check = SPR
 > 				exists = yes
 > 				has_war = no
 > 				NOT = { is_in_faction_with = ENG }
@@ -3584,6 +3609,7 @@
 > 			if = {
 > 				limit = {
 > 					has_dlc = "Death or Dishonor"
+> 					country_exists = YUG
 > 				}
 > 				country_event = {
 > 					id = DOD_yugoslavia.40
@@ -3616,9 +3642,18 @@
 > 		available_if_capitulated = yes
 > 
 > 		completion_reward = {
-> 			ITA = {
-> 				add_opinion_modifier = { target = ENG modifier = embargo }
-> 				add_opinion_modifier = { target = ENG modifier = sanctions_relations } 
+> 			if = {
+> 				limit = {
+> 					has_dlc = "By Blood Alone"
+> 				}
+> 				send_embargo = ITA
+> 				custom_effect_tooltip = embargo_relation_tt
+> 			}
+> 			else = {
+> 				add_opinion_modifier = { target = ITA modifier = embargo }
+> 				ITA = {
+> 					add_opinion_modifier = { target = ENG modifier = sanctions_relations }
+> 				}
 > 			}
 > 		}
 > 	}

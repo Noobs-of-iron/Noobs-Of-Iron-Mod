@@ -23,11 +23,11 @@
 < 				set_country_flag = KHM_established_the_kashgar_clique_flag
 < 			}
 < 
-9003c8999
+9000c8996
 < 						amount = 6
 ---
 > 						amount = 72
-9017c9013
+9014c9010
 < 						amount = 4
 ---
 > 						amount = 48

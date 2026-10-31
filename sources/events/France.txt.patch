@@ -2,14 +2,14 @@
 > 
 1400a1402
 > 
-1425c1427
+1434c1436
 < 	
 ---
 > 
-1427a1430,1431
+1436a1439,1440
 > 
 > 
-1429a1434,1446
+1438a1443,1455
 > 		set_global_flag = vichy_refused_armistice
 > 
 >         country_event = {

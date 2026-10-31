@@ -1,12 +1,12 @@
-2860c2860
+3153c3153
 < 					modify_building_resources = {
 ---
 > 					modify_building_resources={
-2863c2863
+3156c3156
 < 						amount = 1
 ---
 > 						amount = 12
-2869c2869
+3162c3162
 < 					modify_building_resources = {
 ---
 > 					modify_building_resources={

@@ -61,29 +61,29 @@
 > 
 1534a1539
 > 			remove_ideas = USA_NOI_rubber_industry_rivality
-2108c2113
+2124c2129
 < 			democratic > 0.95
 ---
 > 			democratic > 0.80
-2347c2352
+2363c2368
 < 			democratic > 0.95
 ---
 > 			democratic > 0.80
-2473c2478
+2489c2494
 < 			democratic > 0.95
 ---
 > 			democratic > 0.80
-2525c2530
+2541c2546
 < 			democratic > 0.95
 ---
 > 			democratic > 0.80
-2948c2953
+2964c2969
 < 		x = 18
 ---
 > 		x = 10
-3125a3131
+3141a3147
 > 		add_stability = 0.10
-3252,3263c3258
+3268,3279c3274
 < 			has_dlc = "Man the Guns"
 < 			if = {
 < 				limit = {
@@ -98,15 +98,15 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-4694c4689
+4710c4705
 < 		x = 42
 ---
 > 		x = 20
-4704c4699
+4720c4715
 < 			x = -17
 ---
 > 			x = -2
-6658,6676d6652
+6699,6717d6693
 < 
 < 			create_equipment_variant = {
 < 				name = "Essex Class"				
@@ -126,9 +126,9 @@
 < 			}
 < 
 < 
-6768a6745
+6809a6786
 > 			
-6799,6824d6775
+6840,6865d6816
 < 
 < 			custom_effect_tooltip = generic_skip_one_line_tt
 < 
@@ -155,7 +155,7 @@
 < 					name_group = USA_CVL_HISTORICAL
 < 				}
 < 			}
-6910c6861
+6951c6902
 < 		cost = 5
 ---
 > 		cost = 10

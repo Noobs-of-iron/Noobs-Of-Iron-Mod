@@ -26,14 +26,14 @@
 < 		}
 ---
 > 		icon = "GFX_USA_naval_bomber1_medium"
-1078,1083d1073
+1100,1105d1095
 < 			optional_assets = {
 < 				{
 < 					icon = "GFX_USA_heavy_cruiser_wichita"
 < 					model = "USA_heavy_cruiser_4_entity"
 < 				}
 < 			}
-1107,1127c1097
+1129,1149c1119
 < 		name = "Pennsylvania Class"				# represents Pennsylvania, and New Mexico classes
 < 		type = ship_hull_heavy_1
 < 		name_group = USA_BB_HISTORICAL
@@ -57,7 +57,7 @@
 < 		name = "Nevada Class"				
 ---
 > 		name = "Pennsylvania Class"				# represents Pennsylvania, Nevada, Tennessee, and New Mexico classes
-1138,1163d1107
+1160,1185d1129
 < 			fixed_ship_armor_slot = ship_armor_bb_1
 < 			front_1_custom_slot = ship_anti_air_1
 < 			mid_1_custom_slot = ship_airplane_launcher_1
@@ -84,21 +84,21 @@
 < 			fixed_ship_radar_slot = empty
 < 			fixed_ship_engine_slot = heavy_ship_engine_1
 < 			fixed_ship_secondaries_slot = ship_secondaries_1
-1170,1175d1113
+1192,1197d1135
 < 		optional_assets = {
 < 			{
 < 				icon = "GFX_USA_battleship_tennessee"
 < 				model = "USA_battleship_5_entity"
 < 			}
 < 		}
-1197,1202d1134
+1219,1224d1156
 < 		optional_assets = {
 < 			{
 < 				icon = "GFX_USA_battleship_colorado"
 < 				model = "USA_battleship_3_entity"
 < 			}
 < 		}
-1205,1228d1136
+1227,1250d1158
 < 
 < 	create_equipment_variant = {
 < 		name = "Langley Class"

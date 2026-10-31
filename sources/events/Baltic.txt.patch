@@ -1,4 +1,4 @@
-423,493c423
+422,491c422
 < 	option = { # Refuse
 < 		name = baltic.4.b		
 < 		ai_chance = { 
@@ -12,8 +12,7 @@
 < 					}
 < 				}
 < 				NOT = {
-< 					any_other_country = {
-< 						is_in_faction_with = ROOT
+< 					any_allied_country = {
 < 						has_war_with = GER
 < 					}
 < 				}

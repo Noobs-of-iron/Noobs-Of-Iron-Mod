@@ -16,27 +16,27 @@
 < 	ALERT_SFX_COOLDOWN_DAYS = 14,					-- After playing an alert sound, don't play the same sound for XXX days, even if it fires again.
 ---
 > 	ALERT_SFX_COOLDOWN_DAYS = 10,					-- After playing an alert sound, don't play the same sound for XXX days, even if it fires again.
-140c140
+141c141
 < 	VOLUNTEERS_DIVISIONS_REQUIRED = 30,				-- This many divisons are required for the country to be able to send volunteers.
 ---
 > 	VOLUNTEERS_DIVISIONS_REQUIRED = 15,				-- This many divisons are required for the country to be able to send volunteers.
-211c211
+214c214
 < 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.005,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
 ---
 > 	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.000375,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
-267c267
+270c270
 < 	EMBARGO_COST = 100,									-- One-time cost
 ---
 > 	EMBARGO_COST = 50,									-- One-time cost
-269c269
+272c272
 < 	EMBARGO_THREAT_THRESHOLD = 30,						-- Target-generated threat threshold to allow embargo (affected by modifiers)
 ---
 > 	EMBARGO_THREAT_THRESHOLD = 0,						-- Target-generated threat threshold to allow embargo (affected by modifiers)
-376c376
+379c379
 < 	POLITICAL_POWER_UPPER_CAP = 2000.0,				-- Max amount of political power country should have
 ---
 > 	POLITICAL_POWER_UPPER_CAP = 20000.0,			-- Max amount of political power country should have
-438,440c438,440
+441,443c441,443
 < 	NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT = 90,	 -- time in days to fully delete equipments from stockpile. when you delete an equipment, they go to a temporary hidden pool which still can be seized
 < 	AIR_SUPPLY_CONVERSION_SCALE = 0.01,				-- Conversion scale for planes to air supply
 < 	AIR_SUPPLY_DROP_EXPIRATION_HOURS = 168,			-- Air drop length after being dropped
@@ -44,11 +44,11 @@
 > 	NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT = 120,	 -- time in days to fully delete equipments from stockpile. when you delete an equipment, they go to a temporary hidden pool which still can be seized
 > 	AIR_SUPPLY_CONVERSION_SCALE = 0.02,				-- Conversion scale for planes to air supply
 > 	AIR_SUPPLY_DROP_EXPIRATION_HOURS = 200,			-- Air drop length after being dropped
-442c442
+445c445
 < 	BASE_MAX_COMMAND_POWER = 80.0,					-- base value for maximum command power
 ---
 > 	BASE_MAX_COMMAND_POWER = 120.0,					-- base value for maximum command power
-446,448c446,448
+449,451c449,451
 < 	ATTACHE_XP_SHARE = 0.15,						-- Country received xp from attaches
 < 	SPECIAL_FORCES_CAP_BASE = 0.05,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
 < 	SPECIAL_FORCES_CAP_MIN = 24,					-- You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier
@@ -56,11 +56,11 @@
 > 	ATTACHE_XP_SHARE = 0.10,						-- Country received xp from attaches
 > 	SPECIAL_FORCES_CAP_BASE = 0.008,					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
 > 	SPECIAL_FORCES_CAP_MIN = 20,					-- You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier
-451c451
+454c454
 < 	FUEL_LEASE_CONVOY_RATIO = 0.0005,				-- num convoys needed per fuel land lease
 ---
 > 	FUEL_LEASE_CONVOY_RATIO = 0.0010,				-- num convoys needed per fuel land lease
-454,456c454,456
+457,459c457,459
 < 	BASE_FUEL_GAIN_PER_OIL = 2,						-- base amount of fuel gained hourly per excess oil
 < 	BASE_FUEL_GAIN = 2.0,							-- base amount of fuel gained hourly, independent of excess oil
 < 	BASE_FUEL_CAPACITY = 50000,						-- base amount of fuel capacity
@@ -68,11 +68,11 @@
 > 	BASE_FUEL_GAIN_PER_OIL = 0.17,						-- base amount of fuel gained hourly per excess oil
 > 	BASE_FUEL_GAIN = 0.17,							-- base amount of fuel gained hourly, independent of excess oil
 > 	BASE_FUEL_CAPACITY = 250000,						-- base amount of fuel capacity
-458c458
+461c461
 < 	SCORCHED_EARTH_STATE_COST = 5,					-- pp cost to scorch a state
 ---
 > 	SCORCHED_EARTH_STATE_COST = 3,					-- pp cost to scorch a state
-489,492c489,492
+492,495c492,495
 < 	GIE_DIVISION_ATTACK_BONUS_AGAINST_OCCUPIER = 0.1, -- Attack bonus factor against whoever occupies your core territory.
 < 	GIE_DIVISION_DEFENSE_BONUS_AGAINST_OCCUPIER = 0.1, -- Attack bonus factor against whoever occupies your core territory.
 < 	GIE_DIVISION_ATTACK_BONUS_ON_CORE = 0.1, -- Attack bonus factor when fighting on cores.
@@ -82,75 +82,75 @@
 > 	GIE_DIVISION_DEFENSE_BONUS_AGAINST_OCCUPIER = 0.05, -- Attack bonus factor against whoever occupies your core territory.
 > 	GIE_DIVISION_ATTACK_BONUS_ON_CORE = 0.05, -- Attack bonus factor when fighting on cores.
 > 	GIE_DIVISION_DEFENSE_BONUS_ON_CORE = 0.05, -- Defense bonus factor when fighting on cores.
-514c514
+517c517
 < 	COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = -0.5,	-- compliance factor that applies when the state controller changes (in between allies, compliance is zeroed if it is taken by original country)
 ---
 > 	COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = 0,	-- compliance factor that applies when the state controller changes (in between allies, compliance is zeroed if it is taken by original country)
-593c593
+596c596
 < 	GARRISON_MANPOWER_LOST_BY_ATTACK = 0.016, 	-- Ratio of manpower lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)
 ---
 > 	GARRISON_MANPOWER_LOST_BY_ATTACK = 0.010, 	-- Ratio of manpower lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)
-612c612
+615c615
 < 	MAX_EQUIPMENT_RESOURCES_NEED = 3, 	-- Max number of different strategic resources an equipment can be dependent on.
 ---
 > 	MAX_EQUIPMENT_RESOURCES_NEED = 4, 	-- Max number of different strategic resources an equipment can be dependent on.
-614,615c614,615
+617,618c617,618
 < 	DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 10,
 < 	FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE = 5,
 ---
 > 	DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 15,
 > 	FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE = 10,
-617c617
+620c620
 < 	CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 5,
 ---
 > 	CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10,
-620c620
+623c623
 < 	RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 5,
 ---
 > 	RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 10,
-624c624
+627c627
 < 	RESOURCE_TO_ENERGY_COEFFICIENT = 9.0,		-- How much energy per coal produces
 ---
 > 	RESOURCE_TO_ENERGY_COEFFICIENT = 0.75,		-- How much energy per coal produces
-650c650
+653c653
 < 	ANNEX_CONVOYS_RATIO = 0.15,			-- How many convoys will be transferred on annexation
 ---
 > 	ANNEX_CONVOYS_RATIO = 0.25,			-- How many convoys will be transferred on annexation
-656c656
+659c659
 < 	PRODUCTION_RESOURCE_LACK_PENALTY = -0.05,			-- Penalty decrease while lack of resource per factory
 ---
 > 	PRODUCTION_RESOURCE_LACK_PENALTY = -0.00375,		-- Penalty decrease while lack of resource per factory
-668,669c668,669
+671,672c671,672
 < 	EQUIPMENT_MODULE_ADD_XP_COST = 5.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 < 	EQUIPMENT_MODULE_REPLACE_XP_COST = 6.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
 ---
 > 	EQUIPMENT_MODULE_ADD_XP_COST = 3.0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 > 	EQUIPMENT_MODULE_REPLACE_XP_COST = 5.0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
-686,687c686,687
+689,690c689,690
 < 	IC_TO_CIC_FACTOR = 2.0,                    						-- The factor for mapping IC cost to CIC cost. Should be a positive number.
 < 	MAX_CIV_FACTORIES_PER_CONTRACT = 15,							-- Max number of factories that can be assigned for paying single contract.
 ---
 > 	IC_TO_CIC_FACTOR = 1.5,                    						-- The factor for mapping IC cost to CIC cost. Should be a positive number.
 > 	MAX_CIV_FACTORIES_PER_CONTRACT = 150,							-- Max number of factories that can be assigned for paying single contract.
-708c708
+711c711
 < 	BASE_RESEARCH_POINTS_SAVED = 30.0,		-- Base amount of research points a country can save per slot.
 ---
 > 	BASE_RESEARCH_POINTS_SAVED = 50.0,		-- Base amount of research points a country can save per slot.
-726,727c726,727
+729,730c729,730
 < 	ARMY_LEADER_COST = 5,					-- command power cost for recruiting new leaders, 'this value' * number_of_existing_leaders_of_type
 < 	NAVY_LEADER_COST = 5,					-- command power cost for recruiting new leaders, 'this value' * number_of_existing_leaders_of_type
 ---
 > 	ARMY_LEADER_COST = 3,					-- command power cost for recruiting new leaders, 'this value' * number_of_existing_leaders_of_type
 > 	NAVY_LEADER_COST = 3,					-- command power cost for recruiting new leaders, 'this value' * number_of_existing_leaders_of_type
-740c740
+743c743
 < 	ANTI_AIR_SUPERIORITY_MULT = 5.0,	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 ---
 > 	ANTI_AIR_SUPERIORITY_MULT = 7.5,	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
-743c743
+746c746
 < 	AIRBASE_CAPACITY_MULT = 200,		-- Each level of airbase building multiplied by this, gives capacity (max operational value). Value is int. 1 for each airplane.
 ---
 > 	AIRBASE_CAPACITY_MULT = 100,		-- Each level of airbase building multiplied by this, gives capacity (max operational value). Value is int. 1 for each airplane.
-887,889c887,889
+891,893c891,893
 < 	MAX_ARMY_EXPERIENCE = 500,			--Max army experience a country can store
 < 	MAX_NAVY_EXPERIENCE = 500,			--Max navy experience a country can store
 < 	MAX_AIR_EXPERIENCE = 500,				--Max air experience a country can store
@@ -158,23 +158,23 @@
 > 	MAX_ARMY_EXPERIENCE = 999,			--Max army experience a country can store
 > 	MAX_NAVY_EXPERIENCE = 999,			--Max navy experience a country can store
 > 	MAX_AIR_EXPERIENCE = 999,				--Max air experience a country can store
-947c947
+951c951
 < 	ENEMY_AIR_SUPERIORITY_IMPACT = -0.35,          -- effect on defense due to enemy air superiorty
 ---
 > 	ENEMY_AIR_SUPERIORITY_IMPACT = -0.25,          -- effect on defense due to enemy air superiorty
-956c956
+960c960
 < 	ANTI_AIR_TARGETTING_TO_CHANCE = 0.07,			-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
 ---
 > 	ANTI_AIR_TARGETTING_TO_CHANCE = 0.10,			-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
-961c961
+965c965
 < 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0001,
 ---
 > 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0002,
-975c975
+979c979
 < 	SLOWEST_SPEED = 4,
 ---
 > 	SLOWEST_SPEED = 3,
-989,991c989,991
+993,995c993,995
 < 	PARACHUTE_COMPLETE_ORG = 0.4,				   -- Organisation value (in %) after unit being dropped, regardless if failed, disrupted, or successful.
 < 	PARACHUTE_ORG_REGAIN_PENALTY_DURATION = 120,   -- penalty in org regain after being parachuted. Value is in hours.
 < 	PARACHUTE_ORG_REGAIN_PENALTY_MULT = -0.8,	   -- penalty to org regain after being parachuted.
@@ -182,95 +182,95 @@
 > 	PARACHUTE_COMPLETE_ORG = 0.2,				   -- Organisation value (in %) after unit being dropped, regardless if failed, disrupted, or successful.
 > 	PARACHUTE_ORG_REGAIN_PENALTY_DURATION = 160,   -- penalty in org regain after being parachuted. Value is in hours.
 > 	PARACHUTE_ORG_REGAIN_PENALTY_MULT = -0.85,	   -- penalty to org regain after being parachuted.
-1020c1020
+1024c1024
 < 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.2,       -- percentage of manpower returned when an encircled unit is disbanded
 ---
 > 	ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0,       -- percentage of manpower returned when an encircled unit is disbanded
-1098,1099c1098,1099
+1102,1103c1102,1103
 < 	PARADROP_PENALTY = -0.3, 						-- Combat penalty when recently paradropped
 < 	PARADROP_HOURS = 48,							-- time paratroopers suffer penalties in combat
 ---
 > 	PARADROP_PENALTY = -0.5, 						-- Combat penalty when recently paradropped
 > 	PARADROP_HOURS = 72,							-- time paratroopers suffer penalties in combat
-1176c1176
+1180c1180
 < 	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = -1, -- minimum hours required for units to rejoin border wars, values below zero will make units never return
 ---
 > 	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = 336, -- minimum hours required for units to rejoin border wars
-1215c1215
+1219c1219
 < 	UNIT_LEADER_MODIFIER_COOLDOWN_ON_WITHDRAW = 3,		-- base time in days for withdrawing a deployed unit leader. Instantaneous if 0. Scaled by HQ template manpower.
 ---
 > 	UNIT_LEADER_MODIFIER_COOLDOWN_ON_WITHDRAW = 10,		-- base time in days for withdrawing a deployed unit leader. Instantaneous if 0. Scaled by HQ template manpower.
-1241c1241
+1245c1245
 < 	ARMY_FUEL_COST_MULT = 0.5,						-- fuel cost multiplier for all army related stuff
 ---
 > 	ARMY_FUEL_COST_MULT = 0.70,						-- fuel cost multiplier for all army related stuff
-1273,1274c1273,1274
+1277,1278c1277,1278
 < 	PLANNING_CAP_COMMS_SCALING = { 1.0, 0.95, 0.9, 0.85, 0.8 },		-- Value at index J is the scaling applied to planning cap when HQ is J provinces behind the frontline
 < 	PLANNING_CAP_NO_HQ_SCALING = 0.8,								-- Scaling applied to planning cap when there's no HQ (no leader or leader not deployed or not the same root order)
 ---
 > 	PLANNING_CAP_COMMS_SCALING = { 1.0, 0.9, 0.8, 0.7, 0.6 },		-- Value at index J is the scaling applied to planning cap when HQ is J provinces behind the frontline
 > 	PLANNING_CAP_NO_HQ_SCALING = 0.2,								-- Scaling applied to planning cap when there's no HQ (no leader or leader not deployed or not the same root order)
-1296c1296
+1300c1300
 < 	AIR_WING_MAX_STATS_ATTACK = 100,					-- Max stats
 ---
 > 	AIR_WING_MAX_STATS_ATTACK = 50,					-- Max stats
-1319,1320c1319,1320
+1323,1324c1323,1324
 < 	COMBAT_DAMAGE_SCALE = 1,							-- Higher value = more shot down planes
 < 	COMBAT_DAMAGE_SCALE_CARRIER = 5,					-- same as above but used inside naval combat for carrier battles
 ---
 > 	COMBAT_DAMAGE_SCALE = 0.55,							-- Higher value = more shot down planes
 > 	COMBAT_DAMAGE_SCALE_CARRIER = 8,					-- same as above but used inside naval combat for carrier battles
-1368c1368
+1372c1372
 < 	AIR_NAVAL_KAMIKAZE_DAMAGE_MULT = 20.0,				-- Balancing value to increase usual damage to Strength for Kamikaze
 ---
 > 	AIR_NAVAL_KAMIKAZE_DAMAGE_MULT = 17.0,				-- Balancing value to increase usual damage to Strength for Kamikaze
-1370,1371c1370,1371
+1374,1375c1374,1375
 < 	BASE_KAMIKAZE_DAMAGE = 2.0,                    				-- Base Kamikaze death rate
 < 	BASE_KAMIKAZE_TARGETING = 2.0,			        		-- Kamikaze can't be a bad target
 ---
 > 	BASE_KAMIKAZE_DAMAGE = 4.0,                    				-- Base Kamikaze death rate
 > 	BASE_KAMIKAZE_TARGETING = 4.0,			        		-- Kamikaze can't be a bad target
-1391,1392c1391,1392
+1395,1396c1395,1396
 < 	ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.8,					-- Anti Air Gun Damage factor
 < 	ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.1,					-- Anti Air Gun hit chance
 ---
 > 	ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.9,					-- Anti Air Gun Damage factor
 > 	ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.3,					-- Anti Air Gun hit chance
-1411c1411
+1415c1415
 < 	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.072,	-- How much efficiency to regain per day. Gain applied hourly.
 ---
 > 	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.024,	-- How much efficiency to regain per day. Gain applied hourly.
-1458c1458
+1462c1462
 < 	AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0.3, -- max trucks we can destroy in one instance of a logistics strike
 ---
 > 	AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0.15, -- max trucks we can destroy in one instance of a logistics strike
-1526c1526
+1530c1530
 < 	NAVAL_MINES_PLANTING_SPEED_MULT = 0.025,						-- Value used to overall balance of the speed of planting naval mines
 ---
 > 	NAVAL_MINES_PLANTING_SPEED_MULT = 0.045,						-- Value used to overall balance of the speed of planting naval mines
-1528c1528
+1532c1532
 < 	NAVAL_MINES_SWEEPING_SPEED_MULT = 0.025,						-- Value used to overall balance of the speed of sweeping naval mines
 ---
 > 	NAVAL_MINES_SWEEPING_SPEED_MULT = 0.015,						-- Value used to overall balance of the speed of sweeping naval mines
-1602c1602
+1606c1606
 < 	COMBAT_EVASION_TO_HIT_CHANCE_TORPEDO_MULT = 10.0,				-- the above evasion hit chance is multiplied by 400% if shooting with torpedoes. Torpedoes are slow, so evasion matters more.
 ---
 > 	COMBAT_EVASION_TO_HIT_CHANCE_TORPEDO_MULT = 6.0,				-- the above evasion hit chance is multiplied by 400% if shooting with torpedoes. Torpedoes are slow, so evasion matters more.
-1607c1607
+1611c1611
 < 	COMBAT_TORPEDO_CRITICAL_CHANCE = 0.1,							-- chance for critical hit from torpedo.
 ---
 > 	COMBAT_TORPEDO_CRITICAL_CHANCE = 0.3,							-- chance for critical hit from torpedo.
-1640c1640
+1644c1644
 < 	MISSION_MAX_REGIONS = 0,										-- Limit of the regions that can be assigned to naval mission. Set to 0 for unlimited.
 ---
 > 	MISSION_MAX_REGIONS = 3,										-- Limit of the regions that can be assigned to naval mission. Set to 0 for unlimited.
-1646,1647c1646,1647
+1650,1651c1650,1651
 < 	ANTI_AIR_TARGETTING_TO_CHANCE = 0.2,							-- Balancing value to convert averaged equipment stats (anti_air_targetting and naval_strike_agility) to probability chances of airplane being hit by navies AA.
 < 	ANTI_AIR_ATTACK_TO_AMOUNT = 0.01,								-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
 ---
 > 	ANTI_AIR_TARGETTING_TO_CHANCE = 0.1,							-- Balancing value to convert averaged equipment stats (anti_air_targetting and naval_strike_agility) to probability chances of airplane being hit by navies AA.
 > 	ANTI_AIR_ATTACK_TO_AMOUNT = 0.02,								-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
-1661,1664c1661,1664
+1665,1668c1665,1668
 < 	AMPHIBIOUS_INVADE_SPEED_BASE = 0.5, 							-- every hour movement progress on amphibious invasion
 < 	AMPHIBIOUS_INVADE_MOVEMENT_COST = 24.0, 						-- total progress cost of movement while amphibious invading
 < 	AMPHIBIOUS_INVADE_ATTACK_LOW = 0.2, 							-- low and high cap of attack modifier scale. Scale interpolated by invasion progress.
@@ -280,15 +280,15 @@
 > 	AMPHIBIOUS_INVADE_MOVEMENT_COST = 72.0, 						-- total progress cost of movement while amphibious invading
 > 	AMPHIBIOUS_INVADE_ATTACK_LOW = 0.1, 							-- low and high cap of attack modifier scale. Scale interpolated by invasion progress.
 > 	AMPHIBIOUS_INVADE_ATTACK_HIGH = 1.5,
-1666c1666
+1670c1670
 < 	AMPHIBIOUS_INVADE_DEFEND_HIGH = 1.0,
 ---
 > 	AMPHIBIOUS_INVADE_DEFEND_HIGH = 0.8,
-1677c1677
+1681c1681
 < 	NAVAL_TRANSFER_BASE_SPEED = 6,                                  -- base speed of units on water being transported
 ---
 > 	NAVAL_TRANSFER_BASE_SPEED = 5,                                  -- base speed of units on water being transported
-1693,1695c1693,1695
+1697,1699c1697,1699
 < 	SHORE_BOMBARDMENT_CAP = 0.33,
 < 	ANTI_AIR_TARGETING = 0.9,                                       -- how good ships are at hitting aircraft
 < 	MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.05,							-- How much damage counts as assist damage
@@ -296,43 +296,43 @@
 > 	SHORE_BOMBARDMENT_CAP = 0.35,
 > 	ANTI_AIR_TARGETING = 1.2,                                       -- how good ships are at hitting aircraft
 > 	MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.10,							-- How much damage counts as assist damage
-1709,1710c1709,1710
+1713,1714c1713,1714
 < 	CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 6,                          -- hours from start of combat when only carriers, capitals and subs get to attack
 < 	ALL_SHIPS_ACTIVATE_TIME = 8,                                    -- hours where all get to attack
 ---
 > 	CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 7,                          -- hours from start of combat when only carriers, capitals and subs get to attack
 > 	ALL_SHIPS_ACTIVATE_TIME = 12,                                    -- hours where all get to attack
-1716c1716
+1720c1720
 < 	NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SLOT = 2.5,					-- while searching for a naval base for repairs, the bases gets a bonus to their scores per empty slot they have
 ---
 > 	NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SLOT = 1.0,					-- while searching for a naval base for repairs, the bases gets a bonus to their scores per empty slot they have
-1733c1733
+1737c1737
 < 		1.0, -- PATROL
 ---
 > 		1.2, -- PATROL
-1760c1760
+1764c1764
 < 	IN_COMBAT_FUEL_COST = 2.0,										-- ships in combat will get this ratio for fuel cost
 ---
 > 	IN_COMBAT_FUEL_COST = 4.0,										-- ships in combat will get this ratio for fuel cost
-1772c1772
+1776c1776
 < 	UNDERWAY_REPLENISHMENT_CONVOY_COST_PER_FUEL = 0.28,	-- Cost in convoys for underway replenishment multiplied by max daily fuel consumption (rounded up)
 ---
 > 	UNDERWAY_REPLENISHMENT_CONVOY_COST_PER_FUEL = 0.08,	-- Cost in convoys for underway replenishment multiplied by max daily fuel consumption (rounded up)
-1778c1778
+1782c1782
 < 		0.0, -- CONVOY RAIDING
 ---
 > 		0.1, -- CONVOY RAIDING
-1784c1784
+1788c1788
 < 		0.0, -- NAVAL_INVASION_SUPPORT
 ---
 > 		0.2, -- NAVAL_INVASION_SUPPORT
-2325,2326c2325,2326
+2329,2330c2329,2330
 < 	BASE_TRADE_FACTOR = 150,					-- This is the base trade factor
 < 	PUPPET_MASTER_TRADE_FACTOR = 400,			-- This is priority for puppet master
 ---
 > 	BASE_TRADE_FACTOR = 1800,					-- This is the base trade factor
 > 	PUPPET_MASTER_TRADE_FACTOR = 4800,			-- This is priority for puppet master
-3168,3171c3168,3171
+3182,3185c3182,3185
 < 		1, -- PATROL
 < 		4, -- STRIKE FORCE
 < 		1.5, -- CONVOY RAIDING
@@ -342,49 +342,49 @@
 > 		3, -- STRIKE FORCE
 > 		2, -- CONVOY RAIDING
 > 		3, -- CONVOY ESCORT
-3176c3176
+3190c3190
 < 		10, -- NAVAL INVASION SUPPORT
 ---
 > 		4, -- NAVAL INVASION SUPPORT
-3971c3971
+3986c3986
 < 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 ---
 > 	RECON_PLANE_INTEL_BASE = 0.05, 				-- intel base amount for a strategic area per plane
-4325c4325
+4340c4340
 < 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 60.0,
 ---
 > 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 100.0,
-4354c4354
+4369c4369
 < 	DEFAULT_STARTING_TRUCK_RATIO = 1.5, -- countries get this ratio of starting truck in their buffers compared to their need
 ---
 > 	DEFAULT_STARTING_TRUCK_RATIO = 2.0, -- countries get this ratio of starting truck in their buffers compared to their need
-4578c4578
+4593c4593
 < 	FACTION_INFLUENCE_LEND_LEASE_FACTOR=0.025,				-- how much the country's contribution in the faction affects its influence
 ---
 > 	FACTION_INFLUENCE_LEND_LEASE_FACTOR=0.01,				-- how much the country's contribution in the faction affects its influence
-4590c4590
+4605c4605
 < 	FACTION_INFLUENCE_SCIENTIST_CONTRIBUTION_VALUE = 0.5,				-- how much contribution one scientists gives to you if it is working for somebody else.
 ---
 > 	FACTION_INFLUENCE_SCIENTIST_CONTRIBUTION_VALUE = 3,				--how much contribution one scientists gives to you if it is working for somebody else.
-4634c4634
+4649c4649
 < 	PASSIVE_INITIATIVE_GENERATION = 0.015,				-- How much initiative we are generating per day, scaled by manifest progress and influence%
 ---
 > 	PASSIVE_INITIATIVE_GENERATION = 0.01,				-- How much initiative we are generating per day, scaled by manifest progress and influence%
-4691c4691
+4706c4706
 <         TRAINING_MASTERY_GAIN_FACTOR = 0.1,                     -- How much training contributes to doctrine mastery relative to combat/missions
 ---
 >         TRAINING_MASTERY_GAIN_FACTOR = 0.00,                     -- How much training contributes to doctrine mastery relative to combat/missions
-4693,4694c4693,4694
+4708,4709c4708,4709
 <         MIN_MASTERY_GAIN_PER_DAY = 0.0,                         -- If we have any mastery gain, it will be boosted to be at least this much per day (lower cap)
 <         MASTERY_BAR_ANIMATION_SPEED_PER_DAILY_MASTERY = 4.0, -- Multiplier of how fast the mastery bar animates based on daily mastery gain
 ---
 >         MIN_MASTERY_GAIN_PER_DAY = 0.5,                         -- If we have any mastery gain, it will be boosted to be at least this much per day (lower cap)
 >         MASTERY_BAR_ANIMATION_SPEED_PER_DAILY_MASTERY = 2.0, -- Multiplier of how fast the mastery bar animates based on daily mastery gain
-4697c4697
+4712c4712
 <         MASTERY_BANK_MAX = 200.0,                               -- The maximum amount of mastery that can be banked
 ---
 >         MASTERY_BANK_MAX = 500.0,                               -- The maximum amount of mastery that can be banked
-4708c4708
+4723c4723
 < 		0.0, -- TRAIN # NOT USED - handled by TRAINING_MASTERY_GAIN_FACTOR
 ---
 > 		0.1, -- TRAIN # NOT USED - handled by TRAINING_MASTERY_GAIN_FACTOR

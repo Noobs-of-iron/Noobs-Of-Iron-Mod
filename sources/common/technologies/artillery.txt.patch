@@ -54,7 +54,7 @@
 > 			ap_attack = 0.05
 1497a1507
 > 			tank_medium_cannon_3
-1577c1587
+1569c1579
 < 			ap_attack = 0.1
 ---
 > 			ap_attack = 0.05

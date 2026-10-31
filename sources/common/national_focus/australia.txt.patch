@@ -260,7 +260,7 @@
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-2739a2851,2948
+2739a2851,2870
 > 
 > 		cancel_if_invalid = yes
 > 		continue_if_invalid = no
@@ -281,13 +281,18 @@
 > 		y = 1
 > 		relative_position_id = AST_fight_work_or_perish
 > 
-> 		cost = 10
-> 
-> 		ai_will_do = {
+2743c2874
+< 			factor = 1
+---
 > 			factor = 10
-> 		}
-> 
-> 		available = {
+2747,2752c2878,2935
+< 			OR = {
+< 				is_subject_of = ENG
+< 				AND = {
+< 					has_global_flag = ENG_decolonized
+< 					is_in_faction_with = ENG
+< 				}
+---
 > 			is_ally_with = ENG
 > 		}
 > 		
@@ -346,7 +351,13 @@
 > 			add_timed_idea = { 
 > 				idea = AST_NOI_rats_of_tobruk_i 
 > 				days = 730 
-> 			}
+2754,2758c2937,3052
+< 			#Requires UK at war in Africa
+< 			ENG = {
+< 				any_enemy_country = {
+< 					any_controlled_state = {
+< 						is_on_continent = africa
+---
 > 		}
 > 	}
 > 	
@@ -359,13 +370,13 @@
 > 		y = 1
 > 		relative_position_id = AST_NOI_in_service_of_the_commonwealth
 > 
-2747,2751c2956,3053
-< 			OR = {
-< 				is_subject_of = ENG
-< 				AND = {
-< 					has_global_flag = ENG_decolonized
-< 					is_in_faction_with = ENG
----
+> 		cost = 10
+> 
+> 		ai_will_do = {
+> 			factor = 1
+> 		}
+> 
+> 		available = {
 > 
 > 		}
 > 		
@@ -463,21 +474,13 @@
 > 						building = arms_factory
 > 						size > 1
 > 						include_locked = yes
-> 					}
-2753,2759c3055,3059
-< 			}
-< 			#Requires UK at war in Africa
-< 			any_country = {
-< 				has_war_with = ENG
-< 				any_state = {
-< 					is_controlled_by = PREV
-< 					is_on_continent = africa
----
+2760a3055,3060
 > 				add_extra_state_shared_building_slots = 2
 > 				add_building_construction = {
 > 					type = arms_factory
 > 					level = 2
 > 					instant_build = yes
+> 				}
 2762a3063,3082
 > 	}
 > 	

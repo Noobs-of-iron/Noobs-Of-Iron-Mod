@@ -1,4 +1,59 @@
-5c5
-< 		oil=2.000
+1,6c1,5
+< state = {
+< 	id = 601
+< 	name = "STATE_601"
+< 
+< 	resources = {
+< 		oil = 2.000
 ---
+> state={
+> 	id=601
+> 	name="STATE_601"
+> 	resources={
 > 		oil = 24.000
+9c8
+< 	history = {
+---
+> 	history={
+12,23c11,12
+< 		add_claim_by = PRC
+< 		add_claim_by = CHI
+< 
+< 		1936.1.1 = {
+< 			IF = {
+< 				limit = {
+< 					has_dlc = "No Compromise, No Surrender"
+< 				}
+< 				add_claim_by = SIC
+< 			}
+< 		}
+< 
+---
+> 		add_core_of = PRC
+> 		add_core_of = CHI
+25a15
+> 
+28c18
+< 			10856 1 # Chamdo 
+---
+> 			10856 1
+34a25
+> 
+35a27
+> 
+38c30
+< 	provinces = {
+---
+> 	provinces={
+41,43c33,35
+< 	manpower = 368200
+< 	buildings_max_level_factor = 1.000
+< 	state_category = wasteland
+---
+> 	manpower=368200
+> 	buildings_max_level_factor=1.000
+> 	state_category=wasteland
+45c37
+< 	local_supplies = 1.0 
+---
+> 	local_supplies=1.0 

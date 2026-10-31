@@ -29,19 +29,19 @@
 >          conscription = 0.02
 >         }
 > 
-670c674
+677c681
 <         defense = 0.2
 ---
 >         defense = 0.05
-674c678
+681c685
 <         defense = 0.2
 ---
 >         defense = 0.05
-720c724
+727c731
 <                     defence = 0.10
 ---
 >                     defence = 0.20
-726c730
+733c737
 <                     defence = 0.10
 ---
 >                     defence = 0.20

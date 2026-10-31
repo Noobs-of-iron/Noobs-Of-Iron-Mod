@@ -1,20 +1,20 @@
-18699c18699
+18707c18707
 < 				CZE_ceskoslovenske_letectvo_air_untrained_pilots_penalty_factor = -0.10
 ---
 > 				CZE_ceskoslovenske_letectvo_air_untrained_pilots_penalty_factor = -0.05
-18939c18939
+18947c18947
 < 				CZE_ceskoslovenske_letectvo_air_attack_factor = 0.10
 ---
 > 				CZE_ceskoslovenske_letectvo_air_attack_factor = 0.05
-18943c18943
+18951c18951
 < 				CZE_ceskoslovenske_letectvo_air_range_factor = 0.10
 ---
 > 				CZE_ceskoslovenske_letectvo_air_range_factor = 0.05
-18947c18947
+18955c18955
 < 				CZE_ceskoslovenske_letectvo_ace_effectiveness_factor = 0.25
 ---
 > 				CZE_ceskoslovenske_letectvo_ace_effectiveness_factor = 0.05
-18951c18951
+18959c18959
 < 				CZE_ceskoslovenske_letectvo_air_weather_penalty = -0.25
 ---
 > 				CZE_ceskoslovenske_letectvo_air_weather_penalty = -0.05

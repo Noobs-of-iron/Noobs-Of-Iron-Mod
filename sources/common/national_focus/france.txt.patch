@@ -1,20 +1,20 @@
-1828c1828
+1820c1820
 < 
 ---
 > 		
-1870a1871
+1862a1863
 > 
-1904a1906
+1896a1898
 > 				
-1993a1996,1998
+1985a1988,1990
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-3599c3604
+3595c3600
 < 		
 ---
 > 
-3622a3628,3650
+3618a3624,3646
 > 		# ahist=ON: No-DLC national_bloc path — move review_foreign_policy with the shifted national_bloc tree (+7)
 > 		offset = {
 > 			x = 7
@@ -38,11 +38,11 @@
 > 			}
 > 		}
 > 
-4850c4878
+4852c4880
 < 		
 ---
 > 
-4874a4903,4914
+4876a4905,4916
 > 		# ahist=ON: No-DLC national_bloc path — push whole subtree right past naval tree (42-9+28=61)
 > 		offset = {
 > 			x = 28
@@ -55,11 +55,11 @@
 > 			}
 > 		}
 > 
-5250c5290
+5252c5292
 < 		
 ---
 > 
-5276,5288c5316,5324
+5278,5290c5318,5326
 < 		allow_branch = {
 < 			has_dlc = "La Resistance"
 < 			if = {
@@ -83,12 +83,12 @@
 > 				has_dlc = "La Resistance"
 > 				has_game_rule = { rule = obsolete_focus_branches_visibility option = HIDE }
 > 				has_completed_focus = FRA_the_council_of_rambouillet
-5291a5328,5331
+5293a5330,5333
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
 > 
-5352,5363c5392
+5354,5365c5394
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -103,157 +103,132 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-6394,6400c6423,6424
-< 			OR = {
-< 				BEL = {
-< 					is_subject_of = ROOT
-< 				}
-< 				COG = {
-< 					is_subject_of = ROOT
-< 				}
----
-> 			BEL = {
-> 				is_subject_of = ROOT
-6406,6430c6430,6437
-< 			all_state = {
+6393,6396c6422
 < 				OR = {
-< 					state = 295
-< 					state = 538
-< 					state = 718
-< 					state = 769
-< 					state = 768
-< 					state = 890
-< 					state = 888
-< 					state = 889
+< 					BEL = { is_subject_of = ROOT }
+< 					COG = { is_subject_of = ROOT }
 < 				}
-< 				CONTROLLER = { 
-< 					OR = { 
-< 						AND = {
-< 							original_tag = BEL 
-< 							is_subject_of = ROOT
-< 						}
-< 						is_subject_of = BEL 
-< 						AND = {
-< 							original_tag = COG 
-< 							is_subject_of = ROOT
-< 						}
-< 					} 
-< 				} 
-< 			}
 ---
-> 			295 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
-> 			538 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
-> 			718 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
-> 			769 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
-> 			768 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
-> 			890 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
-> 			888 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
-> 			889 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
-6441,6444c6448
+> 				BEL = { is_subject_of = ROOT }
+6403,6410c6429,6436
+< 					295 = { CONTROLLER = { OR = { AND = { original_tag = BEL is_subject_of = ROOT } AND = { original_tag = COG is_subject_of = ROOT } } } }
+< 					538 = { CONTROLLER = { OR = { AND = { original_tag = BEL is_subject_of = ROOT } AND = { original_tag = COG is_subject_of = ROOT } } } }
+< 					718 = { CONTROLLER = { OR = { AND = { original_tag = BEL is_subject_of = ROOT } AND = { original_tag = COG is_subject_of = ROOT } } } }
+< 					769 = { CONTROLLER = { OR = { AND = { original_tag = BEL is_subject_of = ROOT } AND = { original_tag = COG is_subject_of = ROOT } } } }
+< 					768 = { CONTROLLER = { OR = { AND = { original_tag = BEL is_subject_of = ROOT } AND = { original_tag = COG is_subject_of = ROOT } } } }
+< 					890 = { CONTROLLER = { OR = { AND = { original_tag = BEL is_subject_of = ROOT } AND = { original_tag = COG is_subject_of = ROOT } } } }
+< 					888 = { CONTROLLER = { OR = { AND = { original_tag = BEL is_subject_of = ROOT } AND = { original_tag = COG is_subject_of = ROOT } } } }
+< 					889 = { CONTROLLER = { OR = { AND = { original_tag = BEL is_subject_of = ROOT } AND = { original_tag = COG is_subject_of = ROOT } } } }
+---
+> 					295 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
+> 					538 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
+> 					718 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
+> 					769 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
+> 					768 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
+> 					890 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
+> 					888 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
+> 					889 = { CONTROLLER = { OR = { tag = BEL is_subject_of = BEL } } }
+6425,6428c6451
 < 							AND = {
 < 								original_tag = BEL 
 < 								is_subject_of = ROOT
 < 							}
 ---
 > 							tag = BEL 
-6446,6449d6449
+6430,6433d6452
 < 							AND = {
 < 								original_tag = COG 
 < 								is_subject_of = ROOT
 < 							}
-6458,6461c6458
+6442,6445c6461
 < 							AND = {
 < 								original_tag = BEL 
 < 								is_subject_of = ROOT
 < 							}
 ---
 > 							tag = BEL 
-6463,6466d6459
+6447,6450d6462
 < 							AND = {
 < 								original_tag = COG 
 < 								is_subject_of = ROOT
 < 							}
-6468c6461
+6459,6462c6471
+< 							AND = {
+< 								original_tag = BEL 
+< 								is_subject_of = ROOT
+< 							}
+---
+> 							tag = BEL 
+6464,6467d6472
+< 							AND = {
+< 								original_tag = COG 
+< 								is_subject_of = ROOT
+< 							}
+6476,6479c6481
+< 							AND = {
+< 								original_tag = BEL 
+< 								is_subject_of = ROOT
+< 							}
+---
+> 							tag = BEL 
+6481,6484d6482
+< 							AND = {
+< 								original_tag = COG 
+< 								is_subject_of = ROOT
+< 							}
+6493,6496c6491
+< 							AND = {
+< 								original_tag = BEL 
+< 								is_subject_of = ROOT
+< 							}
+---
+> 							tag = BEL 
+6498,6501d6492
+< 							AND = {
+< 								original_tag = COG 
+< 								is_subject_of = ROOT
+< 							}
+6510,6513c6501
+< 							AND = {
+< 								original_tag = BEL 
+< 								is_subject_of = ROOT
+< 							}
+---
+> 							tag = BEL 
+6515,6518d6502
+< 							AND = {
+< 								original_tag = COG 
+< 								is_subject_of = ROOT
+< 							}
+6527,6530c6511
+< 							AND = {
+< 								original_tag = BEL 
+< 								is_subject_of = ROOT
+< 							}
+---
+> 							tag = BEL 
+6532,6535d6512
+< 							AND = {
+< 								original_tag = COG 
+< 								is_subject_of = ROOT
+< 							}
+6544,6547c6521
+< 							AND = {
+< 								original_tag = BEL 
+< 								is_subject_of = ROOT
+< 							}
+---
+> 							tag = BEL 
+6549,6552d6522
+< 							AND = {
+< 								original_tag = COG 
+< 								is_subject_of = ROOT
+< 							}
+6554c6524
 < 					}  
 ---
 > 					} 
-6475,6478c6468
-< 							AND = {
-< 								original_tag = BEL 
-< 								is_subject_of = ROOT
-< 							}
----
-> 							tag = BEL 
-6480,6483d6469
-< 							AND = {
-< 								original_tag = COG 
-< 								is_subject_of = ROOT
-< 							}
-6492,6495c6478
-< 							AND = {
-< 								original_tag = BEL 
-< 								is_subject_of = ROOT
-< 							}
----
-> 							tag = BEL 
-6497,6500d6479
-< 							AND = {
-< 								original_tag = COG 
-< 								is_subject_of = ROOT
-< 							}
-6509,6512c6488
-< 							AND = {
-< 								original_tag = BEL 
-< 								is_subject_of = ROOT
-< 							}
----
-> 							tag = BEL 
-6514,6517d6489
-< 							AND = {
-< 								original_tag = COG 
-< 								is_subject_of = ROOT
-< 							}
-6526,6529c6498
-< 							AND = {
-< 								original_tag = BEL 
-< 								is_subject_of = ROOT
-< 							}
----
-> 							tag = BEL 
-6531,6534d6499
-< 							AND = {
-< 								original_tag = COG 
-< 								is_subject_of = ROOT
-< 							}
-6543,6546c6508
-< 							AND = {
-< 								original_tag = BEL 
-< 								is_subject_of = ROOT
-< 							}
----
-> 							tag = BEL 
-6548,6551d6509
-< 							AND = {
-< 								original_tag = COG 
-< 								is_subject_of = ROOT
-< 							}
-6560,6563c6518
-< 							AND = {
-< 								original_tag = BEL 
-< 								is_subject_of = ROOT
-< 							}
----
-> 							tag = BEL 
-6565,6568d6519
-< 							AND = {
-< 								original_tag = COG 
-< 								is_subject_of = ROOT
-< 							}
-6570c6521
-< 					}  
----
-> 					} 
-6883,6891c6834,6841
+6867,6875c6837,6844
 < 		available_if_capitulated = yes
 < 		allow_branch = {
 < 			NOT = { has_dlc = "La Resistance" }
@@ -272,7 +247,7 @@
 > 				has_game_rule = {
 > 					rule = noi_allow_ahistorical
 > 					option = noi_rule_ahistorical_allowed
-6893,6894c6843,6852
+6877,6878c6846,6855
 < 				NOT = {
 < 					has_completed_focus = FRA_form_the_popular_front
 ---
@@ -286,14 +261,14 @@
 > 				has_game_rule = {
 > 					rule = noi_allow_ahistorical
 > 					option = noi_rule_ahistorical_allowed
-6895a6854,6859
+6879a6857,6862
 > 				has_dlc = "La Resistance"
 > 				has_game_rule = {
 > 					rule = obsolete_focus_branches_visibility
 > 					option = HIDE
 > 				}
 > 				has_completed_focus = FRA_revive_the_national_bloc
-6897c6861,6883
+6881c6864,6886
 < 		} 
 ---
 > 		}
@@ -319,11 +294,11 @@
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-7325c7311
+7309c7314
 < 		
 ---
 > 
-7338a7325,7336
+7322a7328,7339
 > 		# ahist=ON: La Resistance council path — adjust council position relative to shifted leagues (+13)
 > 		offset = {
 > 			x = 13
@@ -336,7 +311,7 @@
 > 			}
 > 		}
 > 
-7342,7353c7340
+7326,7337c7343
 < 			has_dlc = "La Resistance"
 < 			if = {
 < 				limit = {
@@ -351,7 +326,7 @@
 < 			}
 ---
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
-8717a8705,8765
+8701a8708,8768
 > 			}
 > 		}
 > 

@@ -3,21 +3,21 @@
 > 	target = SPR
 > 	can_send_volunteers = yes
 > }
-1486,1491d1489
+1495,1500d1498
 < 	optional_assets = {
 < 		{
 < 			icon = "GFX_JAP_carrier_hoso"
 < 			model = "JAP_carrier_entity"
 < 		}
 < 	}
-1532,1537d1529
+1541,1546d1538
 < 	optional_assets = {
 < 		{
 < 			icon = "GFX_JAP_battleship_nagato"
 < 			model = "JAP_battleship_3_entity"
 < 		}
 < 	}
-1558,1590d1549
+1567,1599d1558
 < 	optional_assets = {
 < 		{
 < 			icon = "GFX_JAP_battleship_kongo"
@@ -51,13 +51,13 @@
 < 		}
 < 	}
 < 	obsolete = yes
-1593,1594c1552,1553
+1602,1603c1561,1562
 < 	name = "Ise Class"
 < 	type = ship_hull_heavy_1
 ---
 > 	name = "Fuso/Ise Class"
 > 	type = ship_hull_heavy_2
-1611,1617d1569
+1620,1626d1578
 < 	obsolete = yes
 < 	optional_assets = {
 < 		{
@@ -65,28 +65,28 @@
 < 			model = "JAP_battleship_2_entity"
 < 		}
 < 	}
-1744,1749d1695
+1753,1758d1704
 < 	optional_assets = {
 < 		{
 < 			icon = "GFX_JAP_heavy_cruiser_tone"
 < 			model = "JAP_heavy_cruiser_1_entity"
 < 		}
 < 	}
-1831,1836d1776
+1840,1845d1785
 < 	optional_assets = {
 < 		{
 < 			icon = "GFX_JAP_light_cruiser_sendai"
 < 			model = "JAP_light_cruiser_entity"
 < 		}
 < 	}
-2278,2283d2217
+2287,2292d2226
 < 			optional_assets = {
 < 				{
 < 					icon = "GFX_JAP_carrier_shokaku"
 < 					model = "JAP_carrier_0_entity"
 < 				}
 < 			}
-2355,2360d2288
+2364,2369d2297
 < 			}
 < 			optional_assets = {
 < 				{

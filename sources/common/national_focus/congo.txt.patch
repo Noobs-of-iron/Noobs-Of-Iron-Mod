@@ -10,23 +10,23 @@
 < 					amount = 4
 ---
 > 					amount = 48
-4833c4833
+4842c4842
 < 					amount = 8
 ---
 > 					amount = 96
-5262c5262
+5271c5271
 < 					amount = 6
 ---
 > 					amount = 72
-5266c5266
+5275c5275
 < 					amount = 10
 ---
 > 					amount = 120
-5270c5270
+5279c5279
 < 					amount = 10
 ---
 > 					amount = 120
-7553c7553
+7563c7563
 < 					amount = 22
 ---
 > 					amount = 264

@@ -1,8 +1,8 @@
 16a17
 > 
-1599d1599
+1615d1615
 < 				controls_state = 82
-2345,2513d2344
+2385,2561d2384
 < 	option = { # Support the Czechs
 < 		name = germany.40.b
 < 		
@@ -136,20 +136,19 @@
 < 				value = 200
 < 			}
 < 		}
-< 
-< 		effect_tooltip = {
-< 			GER = {
-< 				create_wargoal = {
-< 					type = take_state_focus
-< 					target = CZE
-< 					generator = { 69 } #Doesn't matter the exact state, CZE is guaranteed to control at least 1 Sudetenland state, and the generators don't show up in tooltips.
-< 				}
-< 			}
-< 		}
-< 
+< 		
 < 		if = {
 < 			limit = {
 < 				tag = ENG
+< 			}
+< 			effect_tooltip = {
+< 				GER = {
+< 					create_wargoal = {
+< 						type = take_state_focus
+< 						target = CZE
+< 						generator = { 69 } #Doesn't matter the exact state, CZE is guaranteed to control at least 1 Sudetenland state, and the generators don't show up in tooltips.
+< 					}
+< 				}
 < 			}
 < 			if = {
 < 				limit = {
@@ -171,8 +170,17 @@
 < 				}
 < 			}
 < 		}
+< 		else = {	#If CZE's faction leader defends them, the event chain won't complete
+< 			GER = {
+< 				create_wargoal = {
+< 					type = take_state_focus
+< 					target = CZE
+< 					generator = { 69 } #Doesn't matter the exact state, CZE is guaranteed to control at least 1 Sudetenland state, and the generators don't show up in tooltips.
+< 				}
+< 			}
+< 		}
 < 	}
-2680,2888d2510
+2728,2936d2550
 < 	option = { # Support the Czechs alone
 < 		name = germany.41.b
 < 

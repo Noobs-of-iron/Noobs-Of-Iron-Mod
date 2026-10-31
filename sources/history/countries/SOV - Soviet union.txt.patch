@@ -1,31 +1,31 @@
 120a121,122
 > recruit_character = SOV_NOI_Elusivsky_Erodditch
 > 
-567c569
+575c577
 < set_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
 ---
 > set_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.1 }
-867a870
+875a878
 > 	amphibious_craft_in_bad_condition
-871c874
+879c882
 < 
 ---
 > 	SOV_NOI_enduring_spirit
-1656,1661d1658
+1681,1686d1683
 < 		optional_assets = {
 < 			{
 < 				icon = "GFX_SOV_submarine_shchuka"
 < 				model = "SOV_submarine_entity"
 < 			}
 < 		}
-1685,1690d1681
+1710,1715d1706
 < 		optional_assets = {
 < 			{
 < 				icon = "GFX_SOV_submarine_shchuka"
 < 				model = "SOV_submarine_entity"
 < 			}
 < 		}
-1966,1971d1956
+1991,1996d1981
 < 			}
 < 			optional_assets = {
 < 				{

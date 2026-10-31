@@ -1,102 +1,86 @@
-6973c6973
+6962c6962
 < 					amount = 3
 ---
 > 					amount = 36
-6977c6977
+6966c6966
 < 					amount = 3
 ---
 > 					amount = 36
-7132c7132
+7121c7121
 < 					amount = 3
 ---
 > 					amount = 36
-7136c7136
+7125c7125
 < 					amount = 3
 ---
 > 					amount = 36
-7140c7140
-< 					amount = 6
----
-> 					amount = 72
-7549c7549
+7538c7538
 < 					amount = 12
 ---
 > 					amount = 144
-7772c7772
+7761c7761
 < 						amount = 3
 ---
 > 						amount = 36
-7776c7776
+7765c7765
 < 						amount = 3
 ---
 > 						amount = 36
-7858c7858
+7847c7847
 < 						amount = 3
 ---
 > 						amount = 36
-7862c7862
+7851c7851
 < 						amount = 3
 ---
 > 						amount = 36
-7866c7866
+7855c7855
 < 						amount = 6
 ---
 > 						amount = 72
-8105c8105
+8094c8094
 < 						amount = 12
 ---
 > 						amount = 144
-8204c8204
-< prospect_for_resources = {
+8234c8234
+< 					amount = 3
 ---
-> prospect_for_resources={
-8206c8206
+> 					amount = 36
+8283c8283
 < 		priority = 50
 ---
 > 		priority = 60
-8211c8211
-< 			base = 1
----
-> 			base = 12
-8245c8245
+8322c8322
 < 					amount = 3
 ---
 > 					amount = 36
-8249c8249
+8326c8326
 < 					amount = 3
 ---
 > 					amount = 36
-8333c8333
-< 					amount = 3
----
-> 					amount = 36
-8337c8337
-< 					amount = 3
----
-> 					amount = 36
-8341c8341
+8330c8330
 < 					amount = 6
 ---
 > 					amount = 72
-8456c8456
+8445c8445
 < 					amount = 12
 ---
 > 					amount = 144
-9417c9417
-< 				amount = 3
----
-> 				amount = 36
-11307c11307
+11302c11302
 < 						amount = 12
 ---
 > 						amount = 144
-13184d13183
+11964c11964
+< 			base = 1
+---
+> 			base = 12
+13185d13184
 < 		fixed_random_seed = no
-13202c13201
+13203c13202
 < 						80 = {
 ---
 > 						100 = {
-13211,13216d13209
+13212,13217d13210
 < 						}
 < 						20 = {
 < 							SOV_paranoia_very_high_increase_effect = yes

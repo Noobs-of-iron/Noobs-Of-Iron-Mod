@@ -2,25 +2,25 @@
 < 		political_power_factor = -0.05
 ---
 > 		political_power_factor = -0.25
-415c415
+417c417
 < 				air_range = 0.05
 ---
 > 				air_range = 0.01
-418c418
+420c420
 < 				air_range = 0.05
 ---
 > 				air_range = 0.01
-944c944
+946c946
 < 		army_core_attack_factor = 0.05
 ---
 > 		army_attack_factor = 0.025
-984,985c984,985
+986,987c986,987
 < 		army_core_attack_factor = 0.075
 < 		army_core_defence_factor = 0.075
 ---
 > 		army_attack_factor = 0.05
 > 		army_defence_factor = 0.05
-3375,3386d3374
+3386,3397d3385
 < 	guerilla_expert = {
 < 		random = no
 < 		sprite = 13
@@ -33,56 +33,56 @@
 < 
 < 	}
 < 
-4184c4172
+4212c4200
 < 		conscription_factor = 0.05
 ---
 > 		recruitable_population_factor = 0.03
-11396c11384
+11453c11441
 < 		country_resource_coal = 6
 ---
 > 		country_resource_coal = 72
-12327c12315
+12384c12372
 < 		country_resource_aluminium = 10 
 ---
 > 		country_resource_aluminium = 100 
-12338c12326
+12395c12383
 < 		country_resource_aluminium = 20 
 ---
 > 		country_resource_aluminium = 200 
-12435c12423
+12492c12480
 < 		country_resource_steel = 10 
 ---
 > 		country_resource_steel = 100 
-12444c12432
+12501c12489
 < 		country_resource_oil = 20 
 ---
 > 		country_resource_oil = 240 
-12810c12798
+12867c12855
 < 		country_resource_steel = 12
 ---
 > 		country_resource_steel = 120
-12826c12814
+12883c12871
 < 		country_resource_oil = 10 
 ---
 > 		country_resource_oil = 120 
-12874c12862
+12931c12919
 < 		resource_trade_cost_bonus_per_factory = 2
 ---
 > 		resource_trade_cost_bonus_per_factory = 24
-12982c12970
+13039c13027
 < 		resource_trade_cost_bonus_per_factory = 1
 ---
 > 		resource_trade_cost_bonus_per_factory = 12
-13069,13070c13057
+13126,13127c13114
 < 		civilian_intel_to_others = 0.1
 < 		army_intel_to_others = 0.1
 ---
 > 		local_intel_to_enemies = 0.1
-17781c17768
+17851c17838
 < 		resource_trade_cost_bonus_per_factory = -2
 ---
 > 		resource_trade_cost_bonus_per_factory = -24
-17791c17778
+17861c17848
 < 		resource_trade_cost_bonus_per_factory = -1
 ---
 > 		resource_trade_cost_bonus_per_factory = -12

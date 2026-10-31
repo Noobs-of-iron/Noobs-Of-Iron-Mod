@@ -398,7 +398,7 @@
 < 			
 ---
 > 
-986,2789d720
+986,2464d720
 < 		news_event = { 
 < 			id = south_american_news.12 
 < 			days = 3
@@ -471,6 +471,8 @@
 < 		controls_state = 279
 < 		
 < 		date > 1939.1.18
+< 
+< 		has_start_date < 1939.01.01
 < 
 < 		has_dlc = "Trial of Allegiance"
 < 	}
@@ -1876,11 +1878,11 @@
 < 	picture = GFX_report_event_usa_election_generic
 < 
 < 	is_triggered_only = yes
-< 
+2466,2468d721
 < 	option = { #how dare they
 < 		name = south_american_events.31.a
 < 		add_war_support = 0.01
-< 	}
+2470,2478d722
 < }	
 < 
 < country_event = { #FROM has CW against communists, should we support the democratic/fascist/neutral side
@@ -1890,7 +1892,7 @@
 < 	picture = GFX_report_event_usa_election_generic
 < 
 < 	is_triggered_only = yes
-< 
+2480,2512d723
 < 	option = { #send support
 < 		name = south_american_events.32.a
 < 		ai_chance = {
@@ -1924,7 +1926,7 @@
 < 			base = 10
 < 		}
 < 	}
-< }
+2514,3194d724
 < 
 < #country_event = { #FROM saber rattling
 < #	id = south_american_events.33
@@ -2203,7 +2205,7 @@
 < 				has_war_with = FROM
 < 			}
 < 		}
-2791,2843d721
+< 
 < 		if = {
 < 			limit = {
 < 				has_country_flag = propagate_monroe_along_allies ##this event is sent from the monroe aggressor to its allies - hand me down event
@@ -2257,7 +2259,8 @@
 < 
 < 			clear_variable = monroe_defender
 < 		}
-2846,2871d723
+< 	}
+< 
 < 	option = { #refuse to end war
 < 		name = south_american_events.51.b
 < 		ai_chance = {
@@ -2284,7 +2287,7 @@
 < 			}
 < 		}
 < 	}
-2873,3192d724
+< }
 < 
 < country_event = { #FROM Agrees to end war in SA/NA
 < 	id = south_american_events.52

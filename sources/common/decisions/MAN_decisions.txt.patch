@@ -1,20 +1,20 @@
-1659c1659
+1686c1686
 < prospect_for_resources = {
 ---
 > prospect_for_resources={
-1709c1709
+1736c1736
 < 					amount = 12
 ---
 > 					amount = 144
-1761c1761
+1788c1788
 < 					amount = 16
 ---
 > 					amount = 192
-1816c1816
+1843c1843
 < 					amount = 18
 ---
 > 					amount = 216
-3232c3232
+3259c3259
 < }
 \ Pas de fin de ligne à la fin du fichier
 ---

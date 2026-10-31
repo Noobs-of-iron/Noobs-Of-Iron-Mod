@@ -1,8 +1,8 @@
-2073c2073
+2107c2107
 < 					NOT = { has_tech = amphibious_tank }
 ---
 > 					NOT = { has_tech = amphibious_tank_chassis }
-2075c2075
+2109c2109
 < 				set_technology = { amphibious_tank = 1}
 ---
 > 				set_technology = { amphibious_tank_chassis = 1 }
