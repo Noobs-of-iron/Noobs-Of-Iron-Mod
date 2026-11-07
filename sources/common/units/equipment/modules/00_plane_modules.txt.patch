@@ -237,7 +237,7 @@
 < 			aluminium = -2
 ---
 > 		build_cost_resources={
-> 			aluminium = -20
+> 			aluminium = -24
 1773,1774c1728,1729
 < 		dismantle_cost_resources = {
 < 			aluminium = 2
@@ -263,7 +263,7 @@
 < 			aluminium = -2
 ---
 > 		build_cost_resources={
-> 			aluminium = -20
+> 			aluminium = -24
 1920,1921c1875,1876
 < 		dismantle_cost_resources = {
 < 			aluminium = 2
@@ -281,7 +281,7 @@
 < 			aluminium = -3
 ---
 > 		build_cost_resources={
-> 			aluminium = -30
+> 			aluminium = -36
 2036,2037c1991,1992
 < 		dismantle_cost_resources = {
 < 			aluminium = 3

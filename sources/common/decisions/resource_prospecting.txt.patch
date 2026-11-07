@@ -2,30 +2,66 @@
 < prospect_for_resources = {
 ---
 > prospect_for_resources={
+69c69
+< 					amount < 1
+---
+> 					amount < 12
 78c78
 < 					amount = 12
 ---
 > 					amount = 144
+156c156
+< 					amount < 1
+---
+> 					amount < 12
+165c165
+< 					amount = 12 
+---
+> 					amount = 144 
+236c236
+< 					amount < 1
+---
+> 					amount < 12
 245c245
 < 					amount = 8
 ---
 > 					amount = 96
+325c325
+< 					amount < 1
+---
+> 					amount < 12
 335c335
 < 					amount = 4
 ---
 > 					amount = 48
+406c406
+< 					amount < 1
+---
+> 					amount < 12
 415c415
 < 					amount = 8
 ---
 > 					amount = 96
+486c486
+< 					amount < 1
+---
+> 					amount < 12
 495c495
 < 					amount = 12
 ---
 > 					amount = 144
+566c566
+< 					amount < 1
+---
+> 					amount < 12
 575c575
 < 					amount = 12
 ---
 > 					amount = 144
+646c646
+< 					amount < 1
+---
+> 					amount < 12
 655c655
 < 					amount = 12
 ---
@@ -42,78 +78,154 @@
 < #					amount = 6
 ---
 > #					amount = 72
+988c988
+< 					amount < 1
+---
+> 					amount < 12
 997c997
 < 					amount = 4
 ---
 > 					amount = 48
+1069c1069
+< 					amount < 1
+---
+> 					amount < 12
 1079c1079
 < 					amount = 6
 ---
 > 					amount = 72
+1152c1152
+< 					amount < 1
+---
+> 					amount < 12
 1162c1162
 < 					amount = 12
 ---
 > 					amount = 144
+1240c1240
+< 					amount < 1
+---
+> 					amount < 12
 1252c1252
 < 					amount = 8
 ---
 > 					amount = 96
+1331c1331
+< 					amount < 1
+---
+> 					amount < 12
 1343c1343
 < 					amount = 4
 ---
 > 					amount = 48
+1415c1415
+< 					amount < 1
+---
+> 					amount < 12
 1427c1427
 < 					amount = 8
 ---
 > 					amount = 96
+1499c1499
+< 					amount < 1
+---
+> 					amount < 12
 1511c1511
 < 					amount = 8
 ---
 > 					amount = 96
+1587c1587
+< 					amount < 1
+---
+> 					amount < 12
 1599c1599
 < 					amount = 4
 ---
 > 					amount = 48
+1670c1670
+< 					amount < 1
+---
+> 					amount < 12
 1682c1682
 < 					amount = 8
 ---
 > 					amount = 96
+1756c1756
+< 					amount < 1
+---
+> 					amount < 12
 1768c1768
 < 					amount = 8
 ---
 > 					amount = 96
+1841c1841
+< 					amount < 1
+---
+> 					amount < 12
 1853c1853
 < 					amount = 6
 ---
 > 					amount = 72
+1934c1934
+< 					amount < 1
+---
+> 					amount < 12
 1946c1946
 < 					amount = 10
 ---
 > 					amount = 120
+2023c2023
+< 					amount < 1
+---
+> 					amount < 12
 2035c2035
 < 					amount = 6
 ---
 > 					amount = 72
+2113c2113
+< 					amount < 1
+---
+> 					amount < 12
 2125c2125
 < 					amount = 4
 ---
 > 					amount = 48
+2205c2205
+< 					amount < 1
+---
+> 					amount < 12
 2214c2214
 < 					amount = 6
 ---
 > 					amount = 72
+2294c2294
+< 					amount < 1
+---
+> 					amount < 12
 2304c2304
 < 					amount = 23
 ---
 > 					amount = 276
+2386c2386
+< 					amount < 1
+---
+> 					amount < 12
 2396c2396
 < 					amount = 12
 ---
 > 					amount = 144
+2470c2470
+< 					amount < 1
+---
+> 					amount < 12
 2482c2482
 < 					amount = 12
 ---
 > 					amount = 144
+2555c2555
+< 					amount < 1
+---
+> 					amount < 12
 2567c2567
 < 					amount = 6
 ---
@@ -122,154 +234,310 @@
 < 					amount = 12
 ---
 > 					amount = 144
+2668c2668
+< 					amount < 1
+---
+> 					amount < 12
+2745c2745
+< 					amount < 1
+---
+> 					amount < 12
 2775c2775
 < 					amount = 12
 ---
 > 					amount = 144
+2854c2854
+< 					amount < 1
+---
+> 					amount < 12
 2884c2884
 < 					amount = 12
 ---
 > 					amount = 144
+2963c2963
+< 					amount < 1
+---
+> 					amount < 12
 2993c2993
 < 					amount = 12
 ---
 > 					amount = 144
+3072c3072
+< 					amount < 1
+---
+> 					amount < 12
 3102c3102
 < 					amount = 6
 ---
 > 					amount = 72
+3181c3181
+< 					amount < 1
+---
+> 					amount < 12
 3211c3211
 < 					amount = 6
 ---
 > 					amount = 72
+3290c3290
+< 					amount < 1
+---
+> 					amount < 12
 3320c3320
 < 					amount = 12
 ---
 > 					amount = 144
+3399c3399
+< 					amount < 1
+---
+> 					amount < 12
 3429c3429
 < 					amount = 12
 ---
 > 					amount = 144
+3509c3509
+< 					amount < 1
+---
+> 					amount < 12
 3539c3539
 < 					amount = 12
 ---
 > 					amount = 144
+3618c3618
+< 					amount < 1
+---
+> 					amount < 12
 3648c3648
 < 					amount = 12
 ---
 > 					amount = 144
+3728c3728
+< 					amount < 1
+---
+> 					amount < 12
 3758c3758
 < 					amount = 6
 ---
 > 					amount = 72
+3849c3849
+< 					amount < 1
+---
+> 					amount < 12
 3858c3858
 < 					amount = 10
 ---
 > 					amount = 120
+3940c3940
+< 					amount < 1
+---
+> 					amount < 12
 3949c3949
 < 					amount = 12
 ---
 > 					amount = 144
+4020c4020
+< 					amount < 1
+---
+> 					amount < 12
 4050c4050
 < 					amount = 6
 ---
 > 					amount = 72
+4130c4130
+< 					amount < 1
+---
+> 					amount < 12
 4160c4160
 < 					amount = 26
 ---
 > 					amount = 312
+4240c4240
+< 					amount < 1
+---
+> 					amount < 12
 4270c4270
 < 					amount = 26
 ---
 > 					amount = 312
+4346c4346
+< 					amount < 1
+---
+> 					amount < 12
 4355c4355
 < 					amount = 8
 ---
 > 					amount = 96
+4423c4423
+< 					amount < 1
+---
+> 					amount < 12
 4432c4432
 < 					amount = 12
 ---
 > 					amount = 144
+4500c4500
+< 					amount < 1
+---
+> 					amount < 12
 4509c4509
 < 					amount = 6
 ---
 > 					amount = 72
+4577c4577
+< 					amount < 1
+---
+> 					amount < 12
 4586c4586
 < 					amount = 6
 ---
 > 					amount = 72
+4668c4668
+< 					amount < 1
+---
+> 					amount < 12
 4678c4678
 < 					amount = 4
 ---
 > 					amount = 48
+4751c4751
+< 					amount < 1
+---
+> 					amount < 12
 4761c4761
 < 					amount = 6
 ---
 > 					amount = 72
+4827c4827
+< 					amount < 1
+---
+> 					amount < 12
 4836c4836
 < 					amount = 12
 ---
 > 					amount = 144
+4903c4903
+< 					amount < 1
+---
+> 					amount < 12
 4912c4912
 < 					amount = 12
 ---
 > 					amount = 144
+4982c4982
+< 					amount < 1
+---
+> 					amount < 12
 4991c4991
 < 					amount = 12
 ---
 > 					amount = 144
+5067c5067
+< 					amount < 1
+---
+> 					amount < 12
 5077c5077
 < 					amount = 6
 ---
 > 					amount = 72
+5153c5153
+< 					amount < 1
+---
+> 					amount < 12
 5163c5163
 < 					amount = 10
 ---
 > 					amount = 120
+5239c5239
+< 					amount < 1
+---
+> 					amount < 12
 5249c5249
 < 					amount = 8
 ---
 > 					amount = 96
+5329c5329
+< 					amount < 1
+---
+> 					amount < 12
 5357c5357
 < 					amount = 20
 ---
 > 					amount = 240
+5432c5432
+< 					amount < 1
+---
+> 					amount < 12
 5442c5442
 < 					amount = 10
 ---
 > 					amount = 120
+5518c5518
+< 					amount < 1
+---
+> 					amount < 12
 5528c5528
 < 					amount = 20
 ---
 > 					amount = 240
+5604c5604
+< 					amount < 1
+---
+> 					amount < 12
 5633c5633
 < 					amount = 12
 ---
 > 					amount = 144
+5722c5722
+< 					amount < 1
+---
+> 					amount < 12
 5751c5751
 < 					amount = 12
 ---
 > 					amount = 144
+5840c5840
+< 					amount < 1
+---
+> 					amount < 12
 5869c5869
 < 					amount = 12
 ---
 > 					amount = 144
+5954c5954
+< 					amount < 1
+---
+> 					amount < 12
 5983c5983
 < 					amount = 12
 ---
 > 					amount = 144
+6072c6072
+< 					amount < 1
+---
+> 					amount < 12
 6101c6101
 < 					amount = 12
 ---
 > 					amount = 144
+6190c6190
+< 					amount < 1
+---
+> 					amount < 12
 6219c6219
 < 					amount = 12
 ---
 > 					amount = 144
+6303c6303
+< 					amount < 1
+---
+> 					amount < 12
 6313c6313
 < 					amount = 10
 ---
 > 					amount = 120
+6389c6389
+< 					amount < 1
+---
+> 					amount < 12
 6399c6399
 < 					amount = 15
 ---
@@ -278,94 +546,190 @@
 < 					amount = 16
 ---
 > 					amount = 192
+6482c6482
+< 					amount < 1
+---
+> 					amount < 12
+6556c6556
+< 					amount < 1
+---
+> 					amount < 12
 6585c6585
 < 					amount = 6
 ---
 > 					amount = 72
+6671c6671
+< 					amount < 1
+---
+> 					amount < 12
 6683c6683
 < 					amount = 8
 ---
 > 					amount = 96
+6756c6756
+< 					amount < 1
+---
+> 					amount < 12
 6785c6785
 < 					amount = 18
 ---
 > 					amount = 216
+6870c6870
+< 					amount < 1
+---
+> 					amount < 12
 6882c6882
 < 					amount = 12
 ---
 > 					amount = 144
+6958c6958
+< 					amount < 1
+---
+> 					amount < 12
 6970c6970
 < 					amount = 16
 ---
 > 					amount = 192
+7046c7046
+< 					amount < 1
+---
+> 					amount < 12
 7058c7058
 < 					amount = 6
 ---
 > 					amount = 72
+7134c7134
+< 					amount < 1
+---
+> 					amount < 12
 7146c7146
 < 					amount = 18
 ---
 > 					amount = 216
+7221c7221
+< 					amount < 1
+---
+> 					amount < 12
 7233c7233
 < 					amount = 28
 ---
 > 					amount = 336
+7306c7306
+< 					amount < 1
+---
+> 					amount < 12
 7335c7335
 < 					amount = 22
 ---
 > 					amount = 264
+7420c7420
+< 					amount < 1
+---
+> 					amount < 12
 7432c7432
 < 					amount = 6
 ---
 > 					amount = 72
+7508c7508
+< 					amount < 1
+---
+> 					amount < 12
 7520c7520
 < 					amount = 8
 ---
 > 					amount = 96
+7593c7593
+< 					amount < 1
+---
+> 					amount < 12
 7602c7602
 < 					amount = 15
 ---
 > 					amount = 180
+7675c7675
+< 					amount < 1
+---
+> 					amount < 12
 7684c7684
 < 					amount = 34
 ---
 > 					amount = 408
+7757c7757
+< 					amount < 1
+---
+> 					amount < 12
 7766c7766
 < 					amount = 36
 ---
 > 					amount = 432
+7842c7842
+< 					amount < 1
+---
+> 					amount < 12
 7854c7854
 < 					amount = 12
 ---
 > 					amount = 144
+7931c7931
+< 					amount < 1
+---
+> 					amount < 12
 7943c7943
 < 					amount = 28
 ---
 > 					amount = 336
+8021c8021
+< 					amount < 1
+---
+> 					amount < 12
 8033c8033
 < 					amount = 8
 ---
 > 					amount = 96
+8116c8116
+< 					amount < 1
+---
+> 					amount < 12
 8128c8128
 < 					amount = 10
 ---
 > 					amount = 120
+8210c8210
+< 					amount < 1
+---
+> 					amount < 12
 8222c8222
 < 					amount = 18
 ---
 > 					amount = 216
+8285c8285
+< 					amount < 1
+---
+> 					amount < 12
 8314c8314
 < 					amount = 4
 ---
 > 					amount = 48
+8377c8377
+< 					amount < 1
+---
+> 					amount < 12
 8405c8405
 < 					amount = 8
 ---
 > 					amount = 96
+8478c8478
+< 					amount < 1
+---
+> 					amount < 12
 8487c8487
 < 					amount = 24
 ---
 > 					amount = 288
+8560c8560
+< 					amount < 1
+---
+> 					amount < 12
 8569c8569
 < 					amount = 14
 ---
@@ -394,6 +758,18 @@
 < 					amount = 5
 ---
 > 					amount = 60
+8862c8862
+< 					amount < 1
+---
+> 					amount < 12
+8866c8866
+< 					amount < 1
+---
+> 					amount < 12
+8873c8873
+< 					amount < 1
+---
+> 					amount < 12
 8901c8901
 < 					amount = 8
 ---
@@ -406,90 +782,190 @@
 < 					amount = 4
 ---
 > 					amount = 48
+8989c8989
+< 					amount < 1
+---
+> 					amount < 12
 9003c9003
 < 					amount = 12
 ---
 > 					amount = 144
+9063c9063
+< 					amount < 1
+---
+> 					amount < 12
 9076c9076
 < 					amount = 16
 ---
 > 					amount = 192
+9135c9135
+< 					amount < 1
+---
+> 					amount < 12
 9145c9145
 < 					amount = 8
 ---
 > 					amount = 96
+9206c9206
+< 					amount < 1
+---
+> 					amount < 12
 9216c9216
 < 					amount = 10
 ---
 > 					amount = 120
+9277c9277
+< 					amount < 1
+---
+> 					amount < 12
 9287c9287
 < 					amount = 10
 ---
 > 					amount = 120
+9343c9343
+< 					amount > 3
+---
+> 					amount > 36
+9376c9376
+< 					amount < 1
+---
+> 					amount < 12
 9386c9386
 < 					amount = 10	#increased from 6 since China should be able to be somewhat self-sufficient in coal
 ---
 > 					amount = 120	#increased from 6 since China should be able to be somewhat self-sufficient in coal
+9457c9457
+< 					amount < 1
+---
+> 					amount < 12
 9466c9466
 < 					amount = 20
 ---
 > 					amount = 240
+9546c9546
+< 					amount < 1
+---
+> 					amount < 12
+9555c9555
+< 					amount = 12 
+---
+> 					amount = 144 
+9626c9626
+< 					amount < 1
+---
+> 					amount < 12
 9635c9635
 < 					amount = 12
 ---
 > 					amount = 144
+9705c9705
+< 					amount < 1
+---
+> 					amount < 12
 9714c9714
 < 					amount = 6
 ---
 > 					amount = 72
+9784c9784
+< 					amount < 1
+---
+> 					amount < 12
 9793c9793
 < 					amount = 33
 ---
 > 					amount = 396
+9863c9863
+< 					amount < 1
+---
+> 					amount < 12
 9872c9872
 < 					amount = 7
 ---
 > 					amount = 84
+9942c9942
+< 					amount < 1
+---
+> 					amount < 12
 9951c9951
 < 					amount = 13
 ---
 > 					amount = 156
+10021c10021
+< 					amount < 1
+---
+> 					amount < 12
 10030c10030
 < 					amount = 4
 ---
 > 					amount = 48
+10100c10100
+< 					amount < 1
+---
+> 					amount < 12
 10109c10109
 < 					amount = 8
 ---
 > 					amount = 96
+10179c10179
+< 					amount < 1
+---
+> 					amount < 12
 10188c10188
 < 					amount = 5
 ---
 > 					amount = 60
+10258c10258
+< 					amount < 1
+---
+> 					amount < 12
 10267c10267
 < 					amount = 5
 ---
 > 					amount = 60
+10337c10337
+< 					amount < 1
+---
+> 					amount < 12
 10346c10346
 < 					amount = 20
 ---
 > 					amount = 240
+10416c10416
+< 					amount < 1
+---
+> 					amount < 12
 10425c10425
 < 					amount = 7
 ---
 > 					amount = 84
+10506c10506
+< 					amount < 1
+---
+> 					amount < 12
 10515c10515
 < 					amount = 25
 ---
 > 					amount = 300
+10585c10585
+< 					amount < 1
+---
+> 					amount < 12
 10594c10594
 < 					amount = 10
 ---
 > 					amount = 120
+10664c10664
+< 					amount < 1
+---
+> 					amount < 12
 10673c10673
 < 					amount = 9
 ---
 > 					amount = 108
+10737c10737
+< 					amount < 1
+---
+> 					amount < 12
 10745c10745
 < 					amount = 13
 ---

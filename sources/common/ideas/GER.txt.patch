@@ -1,3 +1,7 @@
+2307c2307
+< 				country_resource_steel = 10
+---
+> 				country_resource_steel = 120
 2322c2322
 < 				resource_trade_cost_bonus_per_factory = -1
 ---

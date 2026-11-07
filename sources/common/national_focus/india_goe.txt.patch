@@ -1026,7 +1026,7 @@
 < 			uses = 2
 ---
 > 			uses = 1
-19404,19419d19188
+19404,19426d19188
 < 		random_owned_state = {
 < 			limit = {
 < 				is_coastal = yes
@@ -1043,14 +1043,14 @@
 < 				}
 < 			}
 < 			prioritize = { 431 } #Calcutta
-19421,19437d19189
+< 
 < 			add_extra_state_shared_building_slots = 1
 < 			add_building_construction = {
 < 				type = dockyard
 < 				level = 1
 < 				instant_build = yes
 < 			}
-< 
+19428,19437d19189
 < 			add_building_construction = {
 < 				type = naval_base
 < 				level = 2
@@ -1228,7 +1228,7 @@
 <                 uses = 2
 ---
 >                 uses = 1
-21675a21389,21409
+21675a21389,21411
 > 	
 > 	focus = {
 >         id = RAJ_royal_indian_navy_dlc
@@ -1250,9 +1250,9 @@
 >         }
 > 
 >         bypass = {
-21676a21411,21429
->         }
 > 
+>         }
+21676a21413,21429
 >         cancel_if_invalid = yes
 >         continue_if_invalid = no
 >         available_if_capitulated = no
@@ -1401,6 +1401,10 @@
 <                     amount = 24
 ---
 >                     amount = 288
+23722c23470
+<                     amount = 15  
+---
+>                     amount = 180  
 23942c23690
 <         cost = 5
 ---

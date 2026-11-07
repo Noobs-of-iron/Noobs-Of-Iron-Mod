@@ -302,46 +302,54 @@
 < 						amount = 6
 ---
 > 						amount = 72
+19442c19492
+< 								amount > 19
+---
+> 								amount > 228
 19447c19497
 < 								amount > 19
 ---
-> 								amount > 190
+> 								amount > 228
 19452c19502
 < 								amount > 19
 ---
-> 								amount > 190
+> 								amount > 228
 19457c19507
 < 								amount > 19
 ---
-> 								amount > 190
+> 								amount > 228
 19462c19512
 < 								amount > 19
 ---
-> 								amount > 190
+> 								amount > 228
 19467c19517
 < 								amount > 19
 ---
-> 								amount > 190
+> 								amount > 228
+19485c19535
+< 								amount > 19
+---
+> 								amount > 228
 19490c19540
 < 								amount > 19
 ---
-> 								amount > 190
+> 								amount > 228
 19495c19545
 < 								amount > 19
 ---
-> 								amount > 190
+> 								amount > 228
 19500c19550
 < 								amount > 19
 ---
-> 								amount > 190
+> 								amount > 228
 19505c19555
 < 								amount > 19
 ---
-> 								amount > 190
+> 								amount > 228
 19510c19560
 < 								amount > 19
 ---
-> 								amount > 190
+> 								amount > 228
 21654,21665c21704
 < 			has_dlc = "Gotterdammerung" 
 < 			if = {
@@ -442,6 +450,10 @@
 < 						amount = 3
 ---
 > 						amount = 36
+24370c24436
+< 							amount > 4
+---
+> 							amount > 48
 24377c24443
 < 						amount = 6
 ---

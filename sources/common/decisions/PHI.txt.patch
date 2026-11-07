@@ -2,18 +2,34 @@
 < prospect_for_resources = { 
 ---
 > prospect_for_resources={ 
+693c693
+< 					amount < 1
+---
+> 					amount < 12
 702c702
 < 					amount = 12
 ---
 > 					amount = 144
+770c770
+< 					amount < 1
+---
+> 					amount < 12
 779c779
 < 					amount = 24
 ---
 > 					amount = 288
+839c839
+< 					amount < 1
+---
+> 					amount < 12
 848c848
 < 					amount = 8
 ---
 > 					amount = 96
+916c916
+< 					amount < 1
+---
+> 					amount < 12
 925c925
 < 					amount = 8
 ---

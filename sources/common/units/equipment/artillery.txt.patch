@@ -30,6 +30,12 @@
 > 		resources={
 > 			tungsten = 24
 > 			steel = 12
+151,152c151,152
+< 			tungsten = 2
+< 			steel = 1
+---
+> 			tungsten = 24
+> 			steel = 12
 189,191c189,191
 < 			rubber = 1
 < 			tungsten = 2

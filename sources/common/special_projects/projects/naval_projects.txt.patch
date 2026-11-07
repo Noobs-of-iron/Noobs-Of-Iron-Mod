@@ -84,13 +84,13 @@
 > 		resources={
 > 			rubber = 144
 > 			steel = 96
-1714c1722
+1714,1716c1722,1724
 < 		resources = { 
----
-> 		resources={ 
-1716c1724
+< 			steel = 12
 < 			chromium = 6
 ---
+> 		resources={ 
+> 			steel = 144
 > 			chromium = 72
 1728,1779d1735
 < 			if = {

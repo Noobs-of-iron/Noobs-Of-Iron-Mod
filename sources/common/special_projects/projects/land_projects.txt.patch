@@ -93,3 +93,11 @@
 > 			steel = 48
 > 			chromium = 24
 > 			tungsten = 12
+2165,2167c2203,2205
+< 			steel = 2
+< 			chromium = 4
+< 			tungsten = 2
+---
+> 			steel = 24
+> 			chromium = 48
+> 			tungsten = 24

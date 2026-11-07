@@ -22,3 +22,11 @@
 < 						amount = 6
 ---
 > 						amount = 72
+6271c6271
+< 					amount > 500 # Use < or >
+---
+> 					amount > 6000 # Use < or >
+6377c6377
+< 				amount > 399
+---
+> 				amount > 4788

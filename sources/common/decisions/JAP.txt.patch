@@ -45,10 +45,6 @@
 < prospect_for_resources = {
 ---
 > prospect_for_resources={
-4492c4469
-< 				state = 655
----
-> 				state = 7860
 4539c4516
 < 					amount = 12
 ---
@@ -168,3 +164,87 @@
 > 				}		 
 10684d10648
 < 			
+14842c14806
+< 								amount > 14
+---
+> 								amount > 168
+14846c14810
+< 								amount > 14
+---
+> 								amount > 168
+14850c14814
+< 								amount > 14
+---
+> 								amount > 168
+14854c14818
+< 								amount > 14
+---
+> 								amount > 168
+14858c14822
+< 								amount > 14
+---
+> 								amount > 168
+14862c14826
+< 								amount > 14
+---
+> 								amount > 168
+14866c14830
+< 								amount > 14
+---
+> 								amount > 168
+14880c14844
+< 								amount > 24
+---
+> 								amount > 288
+14884c14848
+< 								amount > 24
+---
+> 								amount > 288
+14888c14852
+< 								amount > 24
+---
+> 								amount > 288
+14892c14856
+< 								amount > 24
+---
+> 								amount > 288
+14896c14860
+< 								amount > 24
+---
+> 								amount > 288
+14900c14864
+< 								amount > 24
+---
+> 								amount > 288
+14904c14868
+< 								amount > 24
+---
+> 								amount > 288
+14942c14906
+< 							amount > 9
+---
+> 							amount > 108
+14948c14912
+< 							amount > 9
+---
+> 							amount > 108
+14953c14917
+< 							amount > 9
+---
+> 							amount > 108
+14958c14922
+< 							amount > 9
+---
+> 							amount > 108
+14963c14927
+< 							amount > 9
+---
+> 							amount > 108
+14968c14932
+< 							amount > 9
+---
+> 							amount > 108
+14973c14937
+< 							amount > 9
+---
+> 							amount > 108

@@ -2,6 +2,10 @@
 < prospect_for_resources = {
 ---
 > prospect_for_resources={
+833c833
+< 					amount < 1
+---
+> 					amount < 12
 843c843
 < 					amount = 10
 ---

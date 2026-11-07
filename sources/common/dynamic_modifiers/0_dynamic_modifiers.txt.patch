@@ -1,0 +1,10 @@
+552,555c552,555
+< 	state_resource_oil = 16
+< 	state_resource_steel = 8
+< 	state_resource_chromium = 2
+< 	state_resource_rubber = 2
+---
+> 	state_resource_oil = 192
+> 	state_resource_steel = 96
+> 	state_resource_chromium = 24
+> 	state_resource_rubber = 24

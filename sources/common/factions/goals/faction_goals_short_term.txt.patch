@@ -13,3 +13,247 @@
 < 			is_historical_focus_on = no
 ---
 > 			is_historical_focus_on = yes
+1635c1632
+< 				    amount = 4
+---
+> 				    amount = 48
+1700c1697
+< 				    amount = 14
+---
+> 				    amount = 168
+1776c1773
+< 				    amount = 8
+---
+> 				    amount = 96
+1840c1837
+< 				    amount = 14
+---
+> 				    amount = 168
+1912c1909
+< 				    amount = 14
+---
+> 				    amount = 168
+1992c1989
+< 				    amount = 14
+---
+> 				    amount = 168
+1996c1993
+< 				    amount = 14
+---
+> 				    amount = 168
+2000c1997
+< 				    amount = 8
+---
+> 				    amount = 96
+2006c2003
+< 				    amount = 10
+---
+> 				    amount = 120
+2010c2007
+< 				    amount = 10
+---
+> 				    amount = 120
+2014c2011
+< 				    amount = 5
+---
+> 				    amount = 60
+2132c2129
+< 				    amount = 14
+---
+> 				    amount = 168
+2214c2211
+< 				    amount = 4
+---
+> 				    amount = 48
+2220c2217
+< 				    amount = 14
+---
+> 				    amount = 168
+2295c2292
+< 				    amount = 6
+---
+> 				    amount = 72
+2301c2298
+< 				    amount = 4
+---
+> 				    amount = 48
+2307c2304
+< 				    amount = 2
+---
+> 				    amount = 24
+2382c2379
+< 				    amount = 6
+---
+> 				    amount = 72
+2388c2385
+< 				    amount = 4
+---
+> 				    amount = 48
+2394c2391
+< 				    amount = 8
+---
+> 				    amount = 96
+2475c2472
+< 				    amount = 4
+---
+> 				    amount = 48
+2479c2476
+< 				    amount = 6
+---
+> 				    amount = 72
+2483c2480
+< 				    amount = 2
+---
+> 				    amount = 24
+2489c2486
+< 				    amount = 6
+---
+> 				    amount = 72
+2493c2490
+< 				    amount = 6
+---
+> 				    amount = 72
+2497c2494
+< 				    amount = 2
+---
+> 				    amount = 24
+2503c2500
+< 				    amount = 4
+---
+> 				    amount = 48
+2507c2504
+< 				    amount = 4
+---
+> 				    amount = 48
+2511c2508
+< 				    amount = 2
+---
+> 				    amount = 24
+2517c2514
+< 				    amount = 6
+---
+> 				    amount = 72
+2521c2518
+< 				    amount = 6
+---
+> 				    amount = 72
+2525c2522
+< 				    amount = 2
+---
+> 				    amount = 24
+2702c2699
+< 				    amount = 2
+---
+> 				    amount = 24
+2706c2703
+< 				    amount = 4
+---
+> 				    amount = 48
+2710c2707
+< 				    amount = 1
+---
+> 				    amount = 12
+2716c2713
+< 				    amount = 2
+---
+> 				    amount = 24
+2720c2717
+< 				    amount = 6
+---
+> 				    amount = 72
+2724c2721
+< 				    amount = 1
+---
+> 				    amount = 12
+2730c2727
+< 				    amount = 4
+---
+> 				    amount = 48
+2734c2731
+< 				    amount = 20
+---
+> 				    amount = 240
+2738c2735
+< 				    amount = 20
+---
+> 				    amount = 240
+2742c2739
+< 				    amount = 4
+---
+> 				    amount = 48
+2748c2745
+< 				    amount = 4
+---
+> 				    amount = 48
+2752c2749
+< 				    amount = 40
+---
+> 				    amount = 480
+2756c2753
+< 				    amount = 8
+---
+> 				    amount = 96
+2760c2757
+< 				    amount = 4
+---
+> 				    amount = 48
+2766c2763
+< 				    amount = 3
+---
+> 				    amount = 36
+2770c2767
+< 				    amount = 12
+---
+> 				    amount = 144
+2774c2771
+< 				    amount = 4
+---
+> 				    amount = 48
+2780c2777
+< 				    amount = 8
+---
+> 				    amount = 96
+2967c2964
+< 				    amount = 3
+---
+> 				    amount = 36
+2971c2968
+< 				    amount = 28
+---
+> 				    amount = 336
+2975c2972
+< 				    amount = 2
+---
+> 				    amount = 24
+2981c2978
+< 				    amount = 4
+---
+> 				    amount = 48
+2985c2982
+< 				    amount = 48
+---
+> 				    amount = 576
+2991c2988
+< 				    amount = 6
+---
+> 				    amount = 72
+2997c2994
+< 				    amount = 5
+---
+> 				    amount = 60
+3001c2998
+< 				    amount = 8
+---
+> 				    amount = 96
+3005c3002
+< 				    amount = 50
+---
+> 				    amount = 600
+3009c3006
+< 				    amount = 3
+---
+> 				    amount = 36
+3015c3012
+< 				    amount = 10
+---
+> 				    amount = 120

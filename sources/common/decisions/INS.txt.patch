@@ -1,0 +1,84 @@
+514c514
+< 					amount > 15
+---
+> 					amount > 180
+2327c2327
+< 				amount > 39
+---
+> 				amount > 468
+2397c2397
+< 				amount > 23
+---
+> 				amount > 276
+2468c2468
+< 				amount > 31
+---
+> 				amount > 372
+2539c2539
+< 				amount > 15
+---
+> 				amount > 180
+2597c2597
+< 				amount > 39
+---
+> 				amount > 468
+2709c2709
+< 				amount > 15
+---
+> 				amount > 180
+2789c2789
+< 				amount > 31
+---
+> 				amount > 372
+2878c2878
+< 				amount > 89
+---
+> 				amount > 1068
+2943c2943
+< 				amount > 39
+---
+> 				amount > 468
+2954c2954
+< 					amount > 50
+---
+> 					amount > 600
+2959c2959
+< 					amount < 120
+---
+> 					amount < 1440
+3022c3022
+< 					amount > 50
+---
+> 					amount > 600
+3027c3027
+< 					amount < 120
+---
+> 					amount < 1440
+3046c3046
+< 				amount > 23
+---
+> 				amount > 276
+3108c3108
+< 					amount > 50
+---
+> 					amount > 600
+3113c3113
+< 					amount < 120
+---
+> 					amount < 1440
+3133c3133
+< 				amount > 31
+---
+> 				amount > 372
+3180c3180
+< 					amount > 50
+---
+> 					amount > 600
+3185c3185
+< 					amount < 120
+---
+> 					amount < 1440
+3205c3205
+< 				amount > 39
+---
+> 				amount > 468

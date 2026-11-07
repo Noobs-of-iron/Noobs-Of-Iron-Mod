@@ -1,4 +1,6 @@
-5c5
+5,6c5,6
 < 		rubber=2
+< 		aluminium = 4
 ---
 > 		rubber = 24
+> 		aluminium = 48

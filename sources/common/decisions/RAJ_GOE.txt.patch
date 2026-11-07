@@ -1,19 +1,43 @@
+5493c5493
+< 					amount < 1
+---
+> 					amount < 12
 5505c5505
 < 					amount = 8
 ---
 > 					amount = 96
+5571c5571
+< 					amount < 1
+---
+> 					amount < 12
 5583c5583
 < 					amount = 8
 ---
 > 					amount = 96
+5649c5649
+< 					amount < 1
+---
+> 					amount < 12
 5661c5661
 < 					amount = 8
 ---
 > 					amount = 96
+5727c5727
+< 					amount < 1
+---
+> 					amount < 12
 5739c5739
 < 					amount = 8
 ---
 > 					amount = 96
+5806c5806
+< 						amount < 1
+---
+> 						amount < 12
+5810c5810
+< 						amount < 1
+---
+> 						amount < 12
 5823c5823
 < 					amount = 12
 ---
@@ -26,6 +50,14 @@
 < 					amount = 4
 ---
 > 					amount = 48
+5898c5898
+< 						amount < 1
+---
+> 						amount < 12
+5902c5902
+< 						amount < 1
+---
+> 						amount < 12
 5915c5915
 < 					amount = 12
 ---

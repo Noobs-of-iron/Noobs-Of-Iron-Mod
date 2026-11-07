@@ -1,0 +1,48 @@
+3576c3576
+< 					amount < 1
+---
+> 					amount < 12
+3585c3585
+< 					amount = 16
+---
+> 					amount = 192
+3653c3653
+< 					amount < 1
+---
+> 					amount < 12
+3662c3662
+< 					amount = 4
+---
+> 					amount = 48
+3731c3731
+< 					amount < 1
+---
+> 					amount < 12
+3740c3740
+< 					amount = 12
+---
+> 					amount = 144
+3809c3809
+< 					amount < 1
+---
+> 					amount < 12
+3818c3818
+< 					amount = 8
+---
+> 					amount = 96
+3890c3890
+< 					amount < 1
+---
+> 					amount < 12
+3899c3899
+< 					amount = 8
+---
+> 					amount = 96
+3960c3960
+< 					amount < 1
+---
+> 					amount < 12
+3969c3969
+< 					amount = 5
+---
+> 					amount = 60

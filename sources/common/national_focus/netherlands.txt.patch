@@ -6,6 +6,14 @@
 < 					amount = 36
 ---
 > 					amount = 432
+1485c1485
+< 					amount = 24
+---
+> 					amount = 288
+1581c1581
+< 					amount = 36
+---
+> 					amount = 432
 2570c2570
 < 					amount = 16
 ---

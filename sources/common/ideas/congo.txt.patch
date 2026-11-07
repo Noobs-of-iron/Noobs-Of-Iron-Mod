@@ -1,0 +1,10 @@
+94,97c94,97
+< 				country_resource_steel = 10 
+< 				country_resource_rubber = 8 
+< 				country_resource_tungsten = 6 
+< 				country_resource_chromium = 4 
+---
+> 				country_resource_steel = 120 
+> 				country_resource_rubber = 96 
+> 				country_resource_tungsten = 72 
+> 				country_resource_chromium = 48 

@@ -1,3 +1,63 @@
+14972c14972
+< 						amount = 4
+---
+> 						amount = 48
+15056c15056
+< 						amount = 8
+---
+> 						amount = 96
+15060c15060
+< 						amount = 2
+---
+> 						amount = 24
+15259c15259
+< 					amount = 2
+---
+> 					amount = 24
+15269c15269
+< 					amount = 2
+---
+> 					amount = 24
+15279c15279
+< 					amount = 1
+---
+> 					amount = 12
+15402c15402
+< 						amount = 5
+---
+> 						amount = 60
+15406c15406
+< 						amount = 2
+---
+> 						amount = 24
+15423c15423
+< 						amount = 3
+---
+> 						amount = 36
+15440c15440
+< 						amount = 1
+---
+> 						amount = 12
+15535c15535
+< 						amount = 2
+---
+> 						amount = 24
+15587c15587
+< 					amount > 49
+---
+> 					amount > 588
+15592c15592
+< 					amount > 9
+---
+> 					amount > 108
+15599c15599
+< 					amount > 49
+---
+> 					amount > 588
+15604c15604
+< 					amount > 9
+---
+> 					amount > 108
 18707c18707
 < 				CZE_ceskoslovenske_letectvo_air_untrained_pilots_penalty_factor = -0.10
 ---

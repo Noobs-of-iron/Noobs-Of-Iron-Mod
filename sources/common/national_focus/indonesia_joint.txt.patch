@@ -1,0 +1,24 @@
+6822c6822
+< 					amount > 299
+---
+> 					amount > 3588
+6842c6842
+< 				amount > 400
+---
+> 				amount > 4800
+7817c7817
+< 					amount = 20
+---
+> 					amount = 240
+7821c7821
+< 					amount = 6
+---
+> 					amount = 72
+7852c7852
+< 					amount = 20
+---
+> 					amount = 240
+7856c7856
+< 					amount = 6
+---
+> 					amount = 72

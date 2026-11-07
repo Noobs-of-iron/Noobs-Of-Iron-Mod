@@ -10,3 +10,7 @@
 < 					modify_building_resources = {
 ---
 > 					modify_building_resources={
+3165c3165
+< 						amount = -1
+---
+> 						amount = -12

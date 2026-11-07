@@ -18,6 +18,18 @@
 < 					amount = 4
 ---
 > 					amount = 48
+13929c13929
+< 							amount > 1
+---
+> 							amount > 12
+13933c13933
+< 							amount  > 1
+---
+> 							amount  > 12
+13937c13937
+< 							amount > 1
+---
+> 							amount > 12
 13956c13956
 < 					amount = 2
 ---

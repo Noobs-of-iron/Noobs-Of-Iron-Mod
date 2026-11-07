@@ -1,0 +1,16 @@
+32c32
+< 						amount = 10
+---
+> 						amount = 120
+38c38
+< 						amount = 10
+---
+> 						amount = 120
+82c82
+< 				amount = 10
+---
+> 				amount = 120
+89c89
+< 				amount = 10
+---
+> 				amount = 120

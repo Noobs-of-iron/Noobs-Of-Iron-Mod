@@ -2,3 +2,7 @@
 < 						amount = 8
 ---
 > 						amount = 96
+1925c1925
+< 						amount = -8
+---
+> 						amount = -96

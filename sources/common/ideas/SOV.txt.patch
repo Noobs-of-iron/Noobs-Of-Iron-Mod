@@ -1,0 +1,12 @@
+1799,1803c1799,1803
+< 				country_resource_steel = 20 
+< 				country_resource_oil = 30
+< 				country_resource_chromium = 6
+< 				country_resource_rubber = 6
+< 				country_resource_tungsten = 4
+---
+> 				country_resource_steel = 240 
+> 				country_resource_oil = 360
+> 				country_resource_chromium = 72
+> 				country_resource_rubber = 72
+> 				country_resource_tungsten = 48

@@ -44,15 +44,15 @@
 12384c12372
 < 		country_resource_aluminium = 10 
 ---
-> 		country_resource_aluminium = 100 
+> 		country_resource_aluminium = 120 
 12395c12383
 < 		country_resource_aluminium = 20 
 ---
-> 		country_resource_aluminium = 200 
+> 		country_resource_aluminium = 240 
 12492c12480
 < 		country_resource_steel = 10 
 ---
-> 		country_resource_steel = 100 
+> 		country_resource_steel = 120 
 12501c12489
 < 		country_resource_oil = 20 
 ---
@@ -60,7 +60,7 @@
 12867c12855
 < 		country_resource_steel = 12
 ---
-> 		country_resource_steel = 120
+> 		country_resource_steel = 144
 12883c12871
 < 		country_resource_oil = 10 
 ---
@@ -86,3 +86,11 @@
 < 		resource_trade_cost_bonus_per_factory = -1
 ---
 > 		resource_trade_cost_bonus_per_factory = -12
+18982c18969
+< 		country_resource_steel = 10
+---
+> 		country_resource_steel = 120
+19005c18992
+< 		country_resource_steel = 20
+---
+> 		country_resource_steel = 240

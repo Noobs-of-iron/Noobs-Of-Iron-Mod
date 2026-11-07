@@ -1,0 +1,16 @@
+283c283
+< 					amount = 8
+---
+> 					amount = 96
+287c287
+< 					amount = 2
+---
+> 					amount = 24
+408c408
+< 						amount = 8
+---
+> 						amount = 96
+412c412
+< 						amount = 2
+---
+> 						amount = 24
