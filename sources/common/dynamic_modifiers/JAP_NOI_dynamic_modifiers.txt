@@ -1,5 +1,4 @@
 
 JAP_NOI_late_war = {
-     can_justify_war = no
 
 }

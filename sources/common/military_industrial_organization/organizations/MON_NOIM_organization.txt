@@ -222,4 +222,3 @@ MON_genghis_khan_ORG = {
 	}
 }
 
-MON_Anti_Tank_ORG = {}

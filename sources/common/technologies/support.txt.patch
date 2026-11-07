@@ -1,10 +1,8 @@
 1089a1090
 > 
-1367a1369
+1413a1415
 > 			fuel_company
-1413a1416
-> 			fuel_company
-1501c1504,1508
+1501c1503,1507
 < 			fuel_consumption_factor = -0.05
 ---
 > 		}
@@ -12,18 +10,18 @@
 > 		fuel_company = {
 > 		    fuel_consumption_factor = -0.05
 > 		    fuel_capacity = 2000
-1556d1562
+1556d1561
 < 			fuel_consumption_factor = -0.05
-1558a1565,1570
+1558a1564,1569
 > 		fuel_company = {
 >             fuel_consumption_factor = -0.05
 >             fuel_capacity = 2000
 >         }
 > 
 > 
-1609d1620
+1609d1619
 < 			fuel_consumption_factor = -0.05
-1610a1622,1626
+1610a1621,1625
 > 
 > 		fuel_company = {
 >             fuel_consumption_factor = -0.05

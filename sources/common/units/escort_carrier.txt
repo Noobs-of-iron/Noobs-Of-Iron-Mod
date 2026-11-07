@@ -11,8 +11,6 @@ sub_units = {
         # accept either the archetype or its variants — prevents a mismatch
         need = {
             ship_hull_escort_carrier = 1
-            ship_hull_escort_carrier_2 = 1
-            ship_hull_escort_carrier_3 = 1
         }
 
         max_organisation = 40

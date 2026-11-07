@@ -126,8 +126,12 @@ country_event = {
     }
    
 	option = {
-    name = noi_usa.5.a
-}
+		name = noi_usa.5.a
+		every_country = {
+			limit = { gives_military_access_to = ROOT }
+			ROOT = { diplomatic_relation = { country = PREV relation = military_access active = no } }
+		}
+	}
     
 }
 

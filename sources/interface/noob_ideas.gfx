@@ -1,11 +1,5 @@
 spriteTypes = {
 
-    spriteType = {
-        name = GFX_goal_GER_NOI_endsieg_i
-        texturefile = gfx/interface/focus/focus_noob_ger_endsieg.dds
-        legacy_lazy_load = no
-    }
-	
 	spriteType = {
         name = GFX_idea_GER_NOI_summeroffensive_i
         texturefile = gfx/interface/ideas/idea_noob_ger_sumoff.dds
@@ -15,12 +9,6 @@ spriteTypes = {
 	spriteType = {
         name = GFX_idea_SOV_NOI_winteroffensive_i
         texturefile = gfx/interface/ideas/idea_noob_sov_winoff.dds
-        legacy_lazy_load = no
-    }
-	
-    spriteType = {
-        name = GFX_idea_GER_NOI_endsieg_i
-        texturefile = gfx/interface/ideas/idea_noob_ger_endsieg.dds
         legacy_lazy_load = no
     }
 	
@@ -72,9 +60,4 @@ spriteTypes = {
         legacy_lazy_load = no
     }
 
-    spriteType = {
-        name = GFX_USA_NOI_rubber_industry_rivality
-        texturefile = gfx/interface/ideas/ARG_resource_extration_focus.dds
-        legacy_lazy_load = no
-    }
 }
