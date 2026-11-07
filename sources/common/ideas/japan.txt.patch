@@ -1,5 +1,25 @@
 364a365
 > 				send_volunteers_tension = -0.4
+1323,1324c1324,1325
+< 				naval_strike_attack_factor = 0.15
+< 				naval_strike_targetting_factor = 0.15
+---
+> 				naval_strike_attack_factor = 0.35
+> 				naval_strike_targetting_factor = 0.35
+1326,1327c1327,1328
+< 				naval_invasion_planning_bonus_speed = 0.2
+< 				naval_invasion_prep_days = -5
+---
+> 				naval_invasion_planning_bonus_speed = 0.35
+> 				naval_invasion_prep_days = -10
+4345c4346
+< 				production_lack_of_resource_penalty_factor = 0.1
+---
+> 				production_lack_of_resource_penalty_factor = 0.15
+4347c4348
+< 				consumer_goods_factor = 0.3
+---
+> 				consumer_goods_factor = 0.1
 7236c7237
 < }
 \ Pas de fin de ligne à la fin du fichier

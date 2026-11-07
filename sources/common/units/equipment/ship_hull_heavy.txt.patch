@@ -1,3 +1,7 @@
+125c125
+< 		surface_detection = 20
+---
+> 		surface_detection = 5
 138,139c138,139
 < 		resources = {
 < 			steel = 3

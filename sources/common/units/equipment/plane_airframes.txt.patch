@@ -200,6 +200,14 @@
 > 		resources={
 > 			aluminium = 36
 > 			rubber = 24
+2570c2570
+< 		air_defence = 20
+---
+> 		air_defence = 10
+2588c2588
+< 		air_defence = 25
+---
+> 		air_defence = 15
 2592,2595c2592,2595
 < 		build_cost_ic = 18
 < 		resources = {
@@ -210,6 +218,10 @@
 > 		resources={
 > 			aluminium = 36
 > 			rubber = 24
+2728c2728
+< 		air_defence = 35
+---
+> 		air_defence = 20
 2732,2735c2732,2735
 < 		build_cost_ic = 20
 < 		resources = {
@@ -220,6 +232,10 @@
 > 		resources={
 > 			aluminium = 48
 > 			rubber = 24
+2894c2894
+< 		air_defence = 50
+---
+> 		air_defence = 40
 2898,2901c2898,2901
 < 		build_cost_ic = 22
 < 		resources = {
@@ -230,6 +246,10 @@
 > 		resources={
 > 			aluminium = 60
 > 			rubber = 24
+3060c3060
+< 		air_defence = 54
+---
+> 		air_defence = 50
 3064,3067c3064,3067
 < 		build_cost_ic = 23
 < 		resources = {

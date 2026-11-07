@@ -4,5 +4,8 @@
 < 		coal = 10 #initial distribution
 ---
 > 	resources={
-> 		steel = 216 #Took half of Tohoku's steel
+> 		steel = 460 #Took half of Tohoku's steel
 > 		coal = 120 #initial distribution
+22a23,24
+> 			industrial_complex = 1
+> 			fuel_silo = 1
