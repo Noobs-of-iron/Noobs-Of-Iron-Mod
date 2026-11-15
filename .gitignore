@@ -5,4 +5,5 @@ original/**/*
 **/*.lua
 **/*.json
 **/.idea
+**/.openidea
 **/__pycache__
