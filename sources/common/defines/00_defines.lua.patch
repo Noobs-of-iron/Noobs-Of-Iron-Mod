@@ -398,30 +398,6 @@
 < 		0.0, -- NAVAL_INVASION_SUPPORT
 ---
 > 		0.2, -- NAVAL_INVASION_SUPPORT
-1976,1979c1976,1979
-< 	BASE_SPOTTING = 1,												-- base spotting percentage for navy
-< 	BASE_SPOTTING_FROM_RADAR = 5,									-- base spotting percentage that comes from full radar coverage
-< 	NAVY_SPOTTER_DETECTION_FACTOR = 0.1,							-- multiplier for task forces' detection value before logistic transform
-< 	BASE_SPOTTING_FROM_NAVY = 10,									-- base spotting percentage that comes from task forces in area
----
-> 	BASE_SPOTTING = 0.001,												-- base spotting percentage for navy
-> 	BASE_SPOTTING_FROM_RADAR = 1,									-- base spotting percentage that comes from full radar coverage
-> 	NAVY_SPOTTER_DETECTION_FACTOR = 0.05,							-- multiplier for task forces' detection value before logistic transform
-> 	BASE_SPOTTING_FROM_NAVY = 0.01,									-- base spotting percentage that comes from task forces in area
-1982c1982
-< 	BASE_SPOTTING_FROM_AIR = 20,									-- base spotting percentage that comes from air-wings in area
----
-> 	BASE_SPOTTING_FROM_AIR = 10,									-- base spotting percentage that comes from air-wings in area
-2007,2010c2007,2010
-< 	SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.80,		-- enemy spotting is multiplied by this value to simulate running away
-< 	SPOTTING_MULTIPLIER_FOR_SURFACE = 1.0,							-- task force surface spotting value is multiplied by this and added to spotting percentage every hour
-< 	SPOTTING_MULTIPLIER_FOR_SUB = 1.0,								-- task force sub spotting value is multiplied by this and added to spotting percentage every hour
-< 	SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.5,						-- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio
----
-> 	SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.20,		-- enemy spotting is multiplied by this value to simulate running away
-> 	SPOTTING_MULTIPLIER_FOR_SURFACE = 0.1,							-- task force surface spotting value is multiplied by this and added to spotting percentage every hour
-> 	SPOTTING_MULTIPLIER_FOR_SUB = 1.5,								-- task force sub spotting value is multiplied by this and added to spotting percentage every hour
-> 	SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.35,						-- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio
 2027,2028c2027,2028
 < 	ESCAPE_SPEED_PER_COMBAT_DAY = 0.015,								-- daily increase in escape speed during combat duration
 < 	MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.5,					-- max escape speed that will be gained from combat duration

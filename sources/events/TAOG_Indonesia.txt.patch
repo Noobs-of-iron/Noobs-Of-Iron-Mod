@@ -1,40 +1,86 @@
-4632c4632
+525,564d524
+< 
+< 	# PETA
+< 	option = {
+< 		name = INS_political_events.13.b
+< 		ai_chance = {
+< 			base = 5
+< 			modifier = {
+< 				factor = 0
+< 				OR = {
+< 					HOL = {
+< 						has_completed_focus = HOL_taog_guarantee_colonial_loyalty
+< 					}
+< 					INS_check_plan_loyalist = yes
+< 				}
+< 			}
+< 		}
+< 		if = {
+< 			limit = {
+< 				is_subject_of = HOL
+< 			}
+< 			HOL = {
+< 				country_event = {
+< 					id = INS_political_events.16
+< 					hours = 12
+< 				}
+< 			}
+< 		}
+< 		complete_national_focus = INS_defenders_of_homeland
+< 		custom_effect_tooltip = INS_peta_explain_tt
+< 		set_variable = {
+< 			var = states_japan_owned_when_taking_INS
+< 			value = JAP.num_controlled_states
+< 		}
+< 		FROM = {
+< 			country_event = {
+< 				id = INS_political_events.15
+< 				hours = 12
+< 			}
+< 		}
+< 	}
+4632c4592
 < 				amount > 39
 ---
 > 				amount > 468
-4713c4713
+4713c4673
 < 				amount > 23
 ---
 > 				amount > 276
-4779c4779
+4779c4739
 < 				amount > 31
 ---
 > 				amount > 372
-4829c4829
+4829c4789
 < 				amount > 15
 ---
 > 				amount > 180
-4909c4909
+4909c4869
 < 				amount > 39
 ---
 > 				amount > 468
-4993c4993
+4993c4953
 < 				amount > 15
 ---
 > 				amount > 180
-5129c5129
+5129c5089
 < 				amount > 23
 ---
 > 				amount > 276
-5211c5211
+5211c5171
 < 				amount > 23
 ---
 > 				amount > 276
-5282c5282
+5282c5242
 < 				amount > 31
 ---
 > 				amount > 372
-5339c5339
+5339c5299
 < 				amount > 39
 ---
 > 				amount > 468
+8618c8578
+< # }
+\ Pas de fin de ligne à la fin du fichier
+---
+> # }
