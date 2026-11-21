@@ -466,45 +466,45 @@
 < 		10, -- NAVAL INVASION SUPPORT
 ---
 > 		4, -- NAVAL INVASION SUPPORT
-3986c3986
+3987c3987
 < 	RECON_PLANE_INTEL_BASE = 0.02, 				-- intel base amount for a strategic area per plane
 ---
 > 	RECON_PLANE_INTEL_BASE = 0.05, 				-- intel base amount for a strategic area per plane
-4340c4340
+4341c4341
 < 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 60.0,
 ---
 > 	SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 100.0,
-4369c4369
+4370c4370
 < 	DEFAULT_STARTING_TRUCK_RATIO = 1.5, -- countries get this ratio of starting truck in their buffers compared to their need
 ---
 > 	DEFAULT_STARTING_TRUCK_RATIO = 2.0, -- countries get this ratio of starting truck in their buffers compared to their need
-4593c4593
+4594c4594
 < 	FACTION_INFLUENCE_LEND_LEASE_FACTOR=0.025,				-- how much the country's contribution in the faction affects its influence
 ---
 > 	FACTION_INFLUENCE_LEND_LEASE_FACTOR=0.01,				-- how much the country's contribution in the faction affects its influence
-4605c4605
+4606c4606
 < 	FACTION_INFLUENCE_SCIENTIST_CONTRIBUTION_VALUE = 0.5,				-- how much contribution one scientists gives to you if it is working for somebody else.
 ---
 > 	FACTION_INFLUENCE_SCIENTIST_CONTRIBUTION_VALUE = 3,				--how much contribution one scientists gives to you if it is working for somebody else.
-4649c4649
+4650c4650
 < 	PASSIVE_INITIATIVE_GENERATION = 0.015,				-- How much initiative we are generating per day, scaled by manifest progress and influence%
 ---
 > 	PASSIVE_INITIATIVE_GENERATION = 0.01,				-- How much initiative we are generating per day, scaled by manifest progress and influence%
-4706c4706
+4709c4709
 <         TRAINING_MASTERY_GAIN_FACTOR = 0.1,                     -- How much training contributes to doctrine mastery relative to combat/missions
 ---
 >         TRAINING_MASTERY_GAIN_FACTOR = 0.00,                     -- How much training contributes to doctrine mastery relative to combat/missions
-4708,4709c4708,4709
+4711,4712c4711,4712
 <         MIN_MASTERY_GAIN_PER_DAY = 0.0,                         -- If we have any mastery gain, it will be boosted to be at least this much per day (lower cap)
 <         MASTERY_BAR_ANIMATION_SPEED_PER_DAILY_MASTERY = 4.0, -- Multiplier of how fast the mastery bar animates based on daily mastery gain
 ---
 >         MIN_MASTERY_GAIN_PER_DAY = 0.5,                         -- If we have any mastery gain, it will be boosted to be at least this much per day (lower cap)
 >         MASTERY_BAR_ANIMATION_SPEED_PER_DAILY_MASTERY = 2.0, -- Multiplier of how fast the mastery bar animates based on daily mastery gain
-4712c4712
+4715c4715
 <         MASTERY_BANK_MAX = 200.0,                               -- The maximum amount of mastery that can be banked
 ---
 >         MASTERY_BANK_MAX = 500.0,                               -- The maximum amount of mastery that can be banked
-4723c4723
+4726c4726
 < 		0.0, -- TRAIN # NOT USED - handled by TRAINING_MASTERY_GAIN_FACTOR
 ---
 > 		0.1, -- TRAIN # NOT USED - handled by TRAINING_MASTERY_GAIN_FACTOR

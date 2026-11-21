@@ -1,0 +1,40 @@
+509c509
+< 			   amount = 1
+---
+> 			   amount = 12
+3530c3530
+< 					amount = 24
+---
+> 					amount = 288
+5346c5346
+< 					amount = 24
+---
+> 					amount = 288
+5917c5917
+< 				amount = 8
+---
+> 				amount = 96
+9315c9315
+< 				amount = 8
+---
+> 				amount = 96
+9475c9475
+< 					amount = 24
+---
+> 					amount = 288
+12672c12672
+< 					amount = 12	#pretty accurate number #slight buff
+---
+> 					amount = 144	#pretty accurate number #slight buff
+12682c12682
+< 					amount = 6
+---
+> 					amount = 72
+12718c12718
+< 					amount = 14	
+---
+> 					amount = 168	
+12728c12728
+< 					amount = 8
+---
+> 					amount = 96

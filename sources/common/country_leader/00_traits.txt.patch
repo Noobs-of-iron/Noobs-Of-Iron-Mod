@@ -33,64 +33,64 @@
 < 
 < 	}
 < 
-4212c4200
+4211c4199
 < 		conscription_factor = 0.05
 ---
 > 		recruitable_population_factor = 0.03
-11453c11441
+11452c11440
 < 		country_resource_coal = 6
 ---
 > 		country_resource_coal = 72
-12384c12372
+12383c12371
 < 		country_resource_aluminium = 10 
 ---
 > 		country_resource_aluminium = 120 
-12395c12383
+12394c12382
 < 		country_resource_aluminium = 20 
 ---
 > 		country_resource_aluminium = 240 
-12492c12480
+12491c12479
 < 		country_resource_steel = 10 
 ---
 > 		country_resource_steel = 120 
-12501c12489
+12500c12488
 < 		country_resource_oil = 20 
 ---
 > 		country_resource_oil = 240 
-12867c12855
+12866c12854
 < 		country_resource_steel = 12
 ---
 > 		country_resource_steel = 144
-12883c12871
+12882c12870
 < 		country_resource_oil = 10 
 ---
 > 		country_resource_oil = 120 
-12931c12919
+12930c12918
 < 		resource_trade_cost_bonus_per_factory = 2
 ---
 > 		resource_trade_cost_bonus_per_factory = 24
-13039c13027
+13038c13026
 < 		resource_trade_cost_bonus_per_factory = 1
 ---
 > 		resource_trade_cost_bonus_per_factory = 12
-13126,13127c13114
+13125,13126c13113
 < 		civilian_intel_to_others = 0.1
 < 		army_intel_to_others = 0.1
 ---
 > 		local_intel_to_enemies = 0.1
-17851c17838
+17850c17837
 < 		resource_trade_cost_bonus_per_factory = -2
 ---
 > 		resource_trade_cost_bonus_per_factory = -24
-17861c17848
+17860c17847
 < 		resource_trade_cost_bonus_per_factory = -1
 ---
 > 		resource_trade_cost_bonus_per_factory = -12
-18982c18969
+19591c19578
 < 		country_resource_steel = 10
 ---
 > 		country_resource_steel = 120
-19005c18992
+19614c19601
 < 		country_resource_steel = 20
 ---
 > 		country_resource_steel = 240

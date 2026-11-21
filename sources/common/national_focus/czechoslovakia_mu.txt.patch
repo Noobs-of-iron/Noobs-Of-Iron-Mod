@@ -1,80 +1,80 @@
-14972c14972
+14975c14975
 < 						amount = 4
 ---
 > 						amount = 48
-15056c15056
+15059c15059
 < 						amount = 8
 ---
 > 						amount = 96
-15060c15060
+15063c15063
 < 						amount = 2
 ---
 > 						amount = 24
-15259c15259
+15262c15262
 < 					amount = 2
 ---
 > 					amount = 24
-15269c15269
+15272c15272
 < 					amount = 2
 ---
 > 					amount = 24
-15279c15279
+15282c15282
 < 					amount = 1
 ---
 > 					amount = 12
-15402c15402
+15405c15405
 < 						amount = 5
 ---
 > 						amount = 60
-15406c15406
+15409c15409
 < 						amount = 2
 ---
 > 						amount = 24
-15423c15423
+15426c15426
 < 						amount = 3
 ---
 > 						amount = 36
-15440c15440
+15443c15443
 < 						amount = 1
 ---
 > 						amount = 12
-15535c15535
+15538c15538
 < 						amount = 2
 ---
 > 						amount = 24
-15587c15587
+15590c15590
 < 					amount > 49
 ---
 > 					amount > 588
-15592c15592
+15595c15595
 < 					amount > 9
 ---
 > 					amount > 108
-15599c15599
+15602c15602
 < 					amount > 49
 ---
 > 					amount > 588
-15604c15604
+15607c15607
 < 					amount > 9
 ---
 > 					amount > 108
-18707c18707
+18710c18710
 < 				CZE_ceskoslovenske_letectvo_air_untrained_pilots_penalty_factor = -0.10
 ---
 > 				CZE_ceskoslovenske_letectvo_air_untrained_pilots_penalty_factor = -0.05
-18947c18947
+18950c18950
 < 				CZE_ceskoslovenske_letectvo_air_attack_factor = 0.10
 ---
 > 				CZE_ceskoslovenske_letectvo_air_attack_factor = 0.05
-18951c18951
+18954c18954
 < 				CZE_ceskoslovenske_letectvo_air_range_factor = 0.10
 ---
 > 				CZE_ceskoslovenske_letectvo_air_range_factor = 0.05
-18955c18955
+18958c18958
 < 				CZE_ceskoslovenske_letectvo_ace_effectiveness_factor = 0.25
 ---
 > 				CZE_ceskoslovenske_letectvo_ace_effectiveness_factor = 0.05
-18959c18959
+18962c18962
 < 				CZE_ceskoslovenske_letectvo_air_weather_penalty = -0.25
 ---
 > 				CZE_ceskoslovenske_letectvo_air_weather_penalty = -0.05

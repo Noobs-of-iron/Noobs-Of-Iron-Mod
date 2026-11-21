@@ -1,52 +1,56 @@
-15795c15795
+15790c15790
 < 								amount > 14
 ---
 > 								amount > 168
-15799c15799
+15794c15794
 < 								amount > 14
 ---
 > 								amount > 168
-15803c15803
+15798c15798
 < 								amount > 14
 ---
 > 								amount > 168
-15807c15807
+15802c15802
 < 								amount > 14
 ---
 > 								amount > 168
-15811c15811
+15806c15806
 < 								amount > 14
 ---
 > 								amount > 168
-15815c15815
+15810c15810
 < 								amount > 14
 ---
 > 								amount > 168
-15829c15829
+15824c15824
 < 								amount > 24
 ---
 > 								amount > 288
-15833c15833
+15828c15828
 < 								amount > 24
 ---
 > 								amount > 288
-15837c15837
+15832c15832
 < 								amount > 24
 ---
 > 								amount > 288
-15841c15841
+15836c15836
 < 								amount > 24
 ---
 > 								amount > 288
-15845c15845
+15840c15840
 < 								amount > 24
 ---
 > 								amount > 288
-15849c15849
+15844c15844
 < 								amount > 24
 ---
 > 								amount > 288
-15882c15882
+15877c15877
+< 							amount > 9
+---
+> 							amount > 108
+15883c15883
 < 							amount > 9
 ---
 > 							amount > 108
@@ -66,59 +70,59 @@
 < 							amount > 9
 ---
 > 							amount > 108
-15908c15908
+15974c15974
+< 								amount > 14
+---
+> 								amount > 168
+15978c15978
+< 								amount > 14
+---
+> 								amount > 168
+15982c15982
+< 								amount > 14
+---
+> 								amount > 168
+15986c15986
+< 								amount > 14
+---
+> 								amount > 168
+15990c15990
+< 								amount > 14
+---
+> 								amount > 168
+15994c15994
+< 								amount > 14
+---
+> 								amount > 168
+16008c16008
+< 								amount > 24
+---
+> 								amount > 288
+16012c16012
+< 								amount > 24
+---
+> 								amount > 288
+16016c16016
+< 								amount > 24
+---
+> 								amount > 288
+16020c16020
+< 								amount > 24
+---
+> 								amount > 288
+16024c16024
+< 								amount > 24
+---
+> 								amount > 288
+16028c16028
+< 								amount > 24
+---
+> 								amount > 288
+16069c16069
 < 							amount > 9
 ---
 > 							amount > 108
-15979c15979
-< 								amount > 14
----
-> 								amount > 168
-15983c15983
-< 								amount > 14
----
-> 								amount > 168
-15987c15987
-< 								amount > 14
----
-> 								amount > 168
-15991c15991
-< 								amount > 14
----
-> 								amount > 168
-15995c15995
-< 								amount > 14
----
-> 								amount > 168
-15999c15999
-< 								amount > 14
----
-> 								amount > 168
-16013c16013
-< 								amount > 24
----
-> 								amount > 288
-16017c16017
-< 								amount > 24
----
-> 								amount > 288
-16021c16021
-< 								amount > 24
----
-> 								amount > 288
-16025c16025
-< 								amount > 24
----
-> 								amount > 288
-16029c16029
-< 								amount > 24
----
-> 								amount > 288
-16033c16033
-< 								amount > 24
----
-> 								amount > 288
-16074c16074
+16075c16075
 < 							amount > 9
 ---
 > 							amount > 108
@@ -138,11 +142,11 @@
 < 							amount > 9
 ---
 > 							amount > 108
-16100c16100
+21816c21816
 < 							amount > 9
 ---
 > 							amount > 108
-21821c21821
+21822c21822
 < 							amount > 9
 ---
 > 							amount > 108
@@ -159,10 +163,6 @@
 ---
 > 							amount > 108
 21842c21842
-< 							amount > 9
----
-> 							amount > 108
-21847c21847
 < 							amount > 9
 ---
 > 							amount > 108

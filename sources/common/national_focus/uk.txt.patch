@@ -421,7 +421,7 @@
 < 		cost = 10
 ---
 > 		cost = 5
-2186,2949c2093,2094
+2186,2946c2093,2094
 < 	focus = {
 < 		id = uk_mediterranean_focus 
 < 		prerequisite = { focus = uk_service_focus }
@@ -862,18 +862,15 @@
 < 						tag = ROM
 < 					}
 < 					NOT = {
-< 						OR = {
-< 							AND = {
-< 								is_in_faction_with = GER
-< 								GER = { has_government = fascism }
-< 							}
-< 							AND = {
-< 								is_in_faction_with = ITA
-< 								ITA = { has_government = fascism }
-< 							}
-< 							GRE = { 
-< 								has_country_flag = GRE_britain_rebuffed
-< 							}
+< 						has_war_with = ROOT
+< 						has_country_flag = GRE_britain_rebuffed
+< 						AND = {
+< 							is_in_faction_with = GER
+< 							GER = { has_government = fascism }
+< 						}
+< 						AND = {
+< 							is_in_faction_with = ITA
+< 							ITA = { has_government = fascism }
 < 						}
 < 					}
 < 				}
@@ -1189,13 +1186,13 @@
 ---
 > 	
 > ### DECOLONIZATION ###
-2981c2126
+2978c2126
 < 		x = 34
 ---
 > 		x = 48
-3613a2759
+3610a2759
 > 					NOT = { has_dlc = "Graveyard of Empires" }
-3616,3627c2762
+3613,3624c2762
 < 						NOT = {
 < 							has_autonomy_state = autonomy_dominion
 < 							has_autonomy_state = autonomy_satellite
@@ -1210,26 +1207,26 @@
 < 						}
 ---
 > 						NOT = { has_autonomy_state = autonomy_dominion }
-3629,3632d2763
+3626,3629d2763
 < 					set_autonomy = { target = RAJ autonomy_state = autonomy_dominion }
 < 				}
 < 				else = {
 < 					set_autonomy = { target = RAJ autonomy_state = autonomy_satellite }
-3633a2765
+3630a2765
 > 				set_autonomy = { target = RAJ autonomy_state = autonomy_dominion }
-5809c4941
+5806c4941
 < 		prerequisite = { focus = uk_service_focus }
 ---
 > 		prerequisite = { focus = uk_empire_focus }
-5811c4943
+5808c4943
 < 		x = -5
 ---
 > 		x = 2
-5813c4945
+5810c4945
 < 		relative_position_id = uk_service_focus
 ---
 > 		relative_position_id = uk_empire_focus
-5824,6457d4955
+5821,6454d4955
 < 		id = uk_asia_focus 
 < 		prerequisite = { focus = uk_colonial_focus }
 < 		
@@ -1864,7 +1861,7 @@
 < 	}
 < 
 < 	focus = {
-6634,6791d5131
+6631,6788d5131
 < 	focus = {
 < 		id = peninsular_focus
 < 		prerequisite = { focus = ENG_royal_malay_regiment_focus focus = ENG_territorial_army_of_malaysia_focus }
@@ -2023,11 +2020,11 @@
 < 		}
 < 
 < 	}
-6801c5141
+6798c5141
 < 		y = 1
 ---
 > 		y = 2
-6980,7088d5319
+6977,7085d5319
 < 	focus = {
 < 		id = hongkong_focus
 < 		prerequisite = { focus = uk_asia_focus }
@@ -2137,17 +2134,17 @@
 < 		}
 < 
 < 	}
-7097,7098c5328,5329
+7094,7095c5328,5329
 < 		x = 0
 < 		y = 2
 ---
 > 		x = -1
 > 		y = 1
-7225c5456
+7222c5456
 < 		y = 1
 ---
 > 		y = 2
-7372,7421d5602
+7369,7418d5602
 < 		id = uk_china_focus 
 < 
 < 		prerequisite = { focus = ENG_south_east_asia_air_command_focus  }
@@ -2198,11 +2195,11 @@
 < 	}
 < 	
 < 	focus = {
-7487c5668
+7484c5668
 < 		x = 4
 ---
 > 		x = 0
-7490c5671,5678
+7487c5671,5678
 < 
 ---
 > 		
@@ -2213,37 +2210,37 @@
 > 				has_completed_focus = uk_empire_focus
 > 			}
 > 		}
-7593c5781
+7590c5781
 < 		x = -1
 ---
 > 		x = 2
-7646c5834
+7643c5834
 < 		x = -3
 ---
 > 		x = 4
-7783c5971
+7780c5971
 < 		icon = GFX_goal_generic_improve_relations
 ---
 > 		icon = GFX_focus_RAJ_all_india_forward_bloc
-7858c6046
+7855c6046
 < 		x = 1
 ---
 > 		x = 0
-8180c6368
+8177c6368
 < 		x = 0
 ---
 > 		x = -1
-8340c6528
+8337c6528
 < 		x = 2
 ---
 > 		x = 1
-9238d7425
+9235d7425
 < 		mutually_exclusive = { focus = ENG_a_change_in_course }
-9239a7427
+9236a7427
 > 		mutually_exclusive = { focus = ENG_a_change_in_course }
-9609d7796
+9606d7796
 < 				NOT = {	has_character = ENG_winston_churchill } #MM: GoE content if he is transferred to India via event chain triggered by focus RAJ_the_jewel_becomes_the_crown
-10231,10237c8418
+10228,10234c8418
 < 			IRQ = { 
 < 				OR = {
 < 					exists = no 
@@ -2253,7 +2250,7 @@
 < 			}
 ---
 > 			IRQ = { exists = no }
-10297,10303c8478
+10294,10300c8478
 < 			PER = { 
 < 				OR = {
 < 					exists = no 
@@ -2263,55 +2260,55 @@
 < 			}
 ---
 > 			PER = { exists = no }
-10600c8775
+10597c8775
 < 		icon = GFX_focus_generic_attack_nordic_territory
 ---
 > 		icon = GFX_SOV_control_scandinavia_ccp_2d_sov_compatibility
-10855c9030
+10852c9030
 < 		icon = GFX_goal_generic_position_armies
 ---
 > 		icon = GFX_focus_generic_influence_benelux
-10961c9136,9138
+10958c9136,9138
 < 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-11216c9393,9395
+11213c9393,9395
 < 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-11517c9696,9698
+11514c9696,9698
 < 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-12146c10327,10328
+12143c10327,10328
 < 				if = {
 ---
 > 			}
 > 			if = {
-12151d10332
+12148d10332
 < 					
-12158,12159d10338
+12155,12156d10338
 < 		}
 < 
-12845c11024,11026
+12842c11024,11026
 < 
 ---
 > 		allow_branch = {
 > 			has_game_rule = { rule = noi_allow_ahistorical option = noi_rule_ahistorical_allowed}
 > 		}
-14118,14120c12299
+14115,14117c12299
 < 		available = {
 < 
 < 		}
 ---
 > 		available = { }
-14131a12311,15074
+14128a12311,15071
 > 		}
 > 	}
 > 	
@@ -3578,18 +3575,15 @@
 > 						tag = ROM
 > 					}
 > 					NOT = {
-> 						OR = {
-> 							AND = {
-> 								is_in_faction_with = GER
-> 								GER = { has_government = fascism }
-> 							}
-> 							AND = {
-> 								is_in_faction_with = ITA
-> 								ITA = { has_government = fascism }
-> 							}
-> 							GRE = { 
-> 								has_country_flag = GRE_britain_rebuffed
-> 							}
+> 						has_war_with = ROOT
+> 						has_country_flag = GRE_britain_rebuffed
+> 						AND = {
+> 							is_in_faction_with = GER
+> 							GER = { has_government = fascism }
+> 						}
+> 						AND = {
+> 							is_in_faction_with = ITA
+> 							ITA = { has_government = fascism }
 > 						}
 > 					}
 > 				}

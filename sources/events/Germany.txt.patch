@@ -2,7 +2,7 @@
 > 
 1615d1615
 < 				controls_state = 82
-2385,2561d2384
+2385,2594d2384
 < 	option = { # Support the Czechs
 < 		name = germany.40.b
 < 		
@@ -35,7 +35,40 @@
 < 							CZE = {
 < 								has_completed_focus = CZE_supply_fighters_for_allies
 < 							}
+< 							ROM = {
+< 								has_completed_focus = ROM_back_czechoslovakia
+< 								OR = {
+< 									has_equipment = {
+< 										small_plane_airframe > 99
+< 									}
+< 									has_deployed_air_force_size = {
+< 										size > 99
+< 										type = fighter
+< 									}
+< 								}
+< 							}
 < 							has_war_with = GER
+< 						}
+< 					}
+< 				}
+< 			}
+< 			modifier = { #ROOT is more willing to support the Czechs if they completed this focus
+< 				add = 2 #Was more worried about the fighter gap
+< 				ROM = {
+< 					has_completed_focus = CZE_supply_fighters_for_allies
+< 				}
+< 			}
+< 			modifier = { #ROOT is more willing to support the Czechs if they completed this focus
+< 				add = 3 #Was more worried about the fighter gap
+< 				ROM = {
+< 					has_completed_focus = CZE_supply_fighters_for_allies
+< 					OR = {
+< 						has_equipment = {
+< 							small_plane_airframe > 99
+< 						}
+< 						has_deployed_air_force_size = {
+< 							size > 99
+< 							type = fighter
 < 						}
 < 					}
 < 				}
@@ -180,7 +213,7 @@
 < 			}
 < 		}
 < 	}
-2728,2936d2550
+2761,2997d2550
 < 	option = { # Support the Czechs alone
 < 		name = germany.41.b
 < 
@@ -206,6 +239,34 @@
 < 							CZE = {		#PfOT
 < 								has_completed_focus = CZE_supply_fighters_for_allies
 < 							}
+< 							ROM = {		#TTBE
+< 								has_completed_focus = ROM_back_czechoslovakia
+< 								OR = {
+< 									has_equipment = {
+< 										small_plane_airframe > 99
+< 									}
+< 									has_deployed_air_force_size = {
+< 										size > 99
+< 										type = fighter
+< 									}
+< 								}
+< 							}
+< 						}
+< 					}
+< 				}
+< 			}
+< 			#TTBE
+< 			modifier = {
+< 				add = 1.75
+< 				ROM = {
+< 					has_completed_focus = ROM_back_czechoslovakia
+< 					OR = {
+< 						has_equipment = {
+< 							small_plane_airframe > 99
+< 						}
+< 						has_deployed_air_force_size = {
+< 							size > 99
+< 							type = fighter
 < 						}
 < 					}
 < 				}

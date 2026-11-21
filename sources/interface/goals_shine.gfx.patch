@@ -689,99 +689,99 @@
 < 	}
 < 
 < 	SpriteType = {
-14174,14175c13506,13507
+17438,17439c16770,16771
 < 		name = "GFX_focus_generic_attack_republican_spain_shine"
 < 		texturefile = "gfx/interface/goals/focus_generic_attack_republican_spain.dds"
 ---
 > 		name = "GFX_focus_generic_attack_communist_spain_shine"
 > 		texturefile = "gfx/interface/goals/focus_generic_attack_communist_spain.dds"
-14178c13510
+17442c16774
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_republican_spain.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_communist_spain.dds"
-14187c13519
+17451c16783
 < 			animationtexturescale = { x = 1.0 y = 1.0 } 
 ---
 > 			animationtexturescale = { x = 2.0 y = 1.0 } 
-14191c13523
+17455c16787
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_republican_spain.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_communist_spain.dds"
-14206,14207c13538,13539
+17470,17471c16802,16803
 < 		name = "GFX_focus_generic_attack_nationalist_spain_focus_shine"
 < 		texturefile = "gfx/interface/goals/focus_generic_attack_nationalist_spain.dds"
 ---
 > 		name = "GFX_focus_generic_attack_republican_spain_shine"
 > 		texturefile = "gfx/interface/goals/focus_generic_attack_republican_spain.dds"
-14210c13542
+17474c16806
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_nationalist_spain.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_republican_spain.dds"
-14223c13555
+17487c16819
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_nationalist_spain.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_republican_spain.dds"
-14238,14239c13570,13571
+17502,17503c16834,16835
 < 		name = "GFX_focus_generic_vichy_france_triumphant_shine"
 < 		texturefile = "gfx/interface/goals/focus_generic_vichy_france_triumphant.dds"
 ---
 > 		name = "GFX_focus_generic_attack_nationalist_spain_shine"
 > 		texturefile = "gfx/interface/goals/focus_generic_attack_nationalist_spain.dds"
-14242c13574
+17506c16838
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_vichy_france_triumphant.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_nationalist_spain.dds"
-14255c13587
+17519c16851
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_vichy_france_triumphant.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_nationalist_spain.dds"
-14270,14271c13602,13603
+17534,17535c16866,16867
 < 		name = "GFX_focus_generic_attack_vichy_france_shine"
 < 		texturefile = "gfx/interface/goals/focus_generic_attack_vichy_france.dds"
 ---
 > 		name = "GFX_focus_generic_vichy_france_triumphant_shine"
 > 		texturefile = "gfx/interface/goals/focus_generic_vichy_france_triumphant.dds"
-14274c13606
+17538c16870
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_vichy_france.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_vichy_france_triumphant.dds"
-14287c13619
+17551c16883
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_vichy_france.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_vichy_france_triumphant.dds"
-14302,14303c13634,13635
+17566,17567c16898,16899
 < 		name = "GFX_focus_generic_befriend_nationalist_spain_focus_shine"
 < 		texturefile = "gfx/interface/goals/focus_generic_befriend_nationalist_spain.dds"
 ---
 > 		name = "GFX_focus_generic_attack_vichy_france_shine"
 > 		texturefile = "gfx/interface/goals/focus_generic_attack_vichy_france.dds"
-14306c13638
+17570c16902
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_befriend_nationalist_spain.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_vichy_france.dds"
-14319c13651
+17583c16915
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_befriend_nationalist_spain.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_vichy_france.dds"
-14334,14335c13666,13667
+17598,17599c16930,16931
 < 		name = "GFX_focus_generic_attack_republican_spain_focus_shine"
 < 		texturefile = "gfx/interface/goals/focus_generic_attack_republican_spain.dds"
 ---
 > 		name = "GFX_focus_generic_befriend_nationalist_spain_focus_shine"
 > 		texturefile = "gfx/interface/goals/focus_generic_befriend_nationalist_spain.dds"
-14338c13670
+17602c16934
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_republican_spain.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_befriend_nationalist_spain.dds"
-14351c13683
+17615c16947
 < 			animationmaskfile = "gfx/interface/goals/focus_generic_attack_republican_spain.dds"
 ---
 > 			animationmaskfile = "gfx/interface/goals/focus_generic_befriend_nationalist_spain.dds"
-14443c13775
+17707c17039
 < 			animationtexturescale = { x = 2.0 y = 1.0 } 
 ---
 > 			animationtexturescale = { x = 1.0 y = 1.0 } 
-47699,47730d47030
+50963,50994d50294
 <     	name = "GFX_SOV_optimize_production_lines_ccp_2d_sov_compatibility_shine"
 <     	texturefile = "gfx/interface/goals/focus_generic_tank_production.dds"
 <     	effectFile = "gfx/FX/buttonstate.lua"
@@ -814,7 +814,7 @@
 <     }
 < 
 <     SpriteType = {
-48083,48114d47382
+51347,51378d50646
 < 		name = "GFX_SOV_increase_state_reserves_ccp_2d_sov_compatibility_shine"
 < 		texturefile = "gfx/interface/goals/goal_generic_construction2.dds"
 < 				effectFile = "gfx/FX/buttonstate.lua"
@@ -847,7 +847,7 @@
 < 	}
 < 
 < 	SpriteType = {
-49875,49906d49142
+53139,53170d52406
 < 	SpriteType = {
 < 		name = "GFX_SOV_the_ussr_academy_of_sciences_ccp_2d_sov_compatibility_shine"
 < 		texturefile = "gfx/interface/goals/focus_research.dds"
@@ -880,7 +880,7 @@
 < 		legacy_lazy_load = no			
 < 	}
 < 
-50485,50516d49720
+53749,53780d52984
 < 		name = "GFX_SOV_industrial_modernization_ccp_2d_sov_compatibility_shine"
 < 		texturefile = "gfx/interface/goals/goal_generic_construct_civilian.dds"
 < 		effectFile = "gfx/FX/buttonstate.lua"
@@ -913,7 +913,7 @@
 < 	}
 < 
 < 	SpriteType = {
-51666a50871,51060
+54930a54135,54324
 > 	###########
 > 	### NOI ###
 > 	###########
@@ -1104,7 +1104,7 @@
 > 		}
 > 		legacy_lazy_load = no
 > 	}
-51667a51062,51077
+54931a54326,54341
 > 	SpriteType = {
 > 		name = "GFX_noim_goal_align_hungary_shine"
 > 		texturefile = "gfx/interface/goals/noim_goal_align_hungary.dds"		
@@ -1121,7 +1121,7 @@
 > 			animationrotationoffset = { x = 0.0 y = 0.0 }
 > 			animationtexturescale = { x = 1.0 y = 1.0 } 
 > 		}
-51668a51079,51093
+54932a54343,54357
 > 		animation = {
 > 			animationmaskfile = "gfx/interface/goals/goal_generic_dangerous_deal.dds"		
 > 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
@@ -1137,13 +1137,13 @@
 > 		legacy_lazy_load = no
 > 	}
 > 	
-91389a90815
+94653a94079
 > 
-96145c95571
+99409c98835
 < 		name = "GFX_focus_SIA_thai_rice_company_shine"
 ---
 > 		name = "GFX_focus_SIA_NOI_thai_rice_company_shine"
-98375,98413d97800
+101639,101677d101064
 < 
 < 	###################
 < 	### PLACEHOLDER ###
